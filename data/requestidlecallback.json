@@ -1,0 +1,9 @@
+{
+  "statusref": {
+    "bcd": "api.Window.requestIdleCallback",
+    "caniuse": "requestidlecallback",
+    "chrome": 5572795866021888,
+    "edge": "requestIdleCallback",
+    "webkit": "feature-requestidlecallback"
+  }
+}

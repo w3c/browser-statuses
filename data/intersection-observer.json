@@ -1,0 +1,15 @@
+{
+  "statusref": {
+    "bcd": "api.IntersectionObserver",
+    "caniuse": "intersectionobserver",
+    "chrome": 5695342691483648,
+    "edge": "Intersection Observer",
+    "webkit": "specification-intersection-observer"
+  },
+  "polyfills": [
+    {
+      "label": "Polyfill.io",
+      "url": "https://polyfill.io/v2/docs/features/#IntersectionObserver"
+    }
+  ]
+}

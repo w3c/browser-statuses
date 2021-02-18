@@ -1,0 +1,23 @@
+{
+  "statusref": {
+    "caniuse": "font-loading",
+    "chrome": 6244676289953792,
+    "edge": "CSS Font Loading API"
+  },
+  "features": {
+    "FontFace": {
+      "url": "https://drafts.csswg.org/css-font-loading/#fontface-interface",
+      "title": "FontFace interface",
+      "statusref": {
+        "bcd": "api.FontFace"
+      }
+    },
+    "FontFaceSet": {
+      "url": "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
+      "title": "FontFaceSet interface",
+      "statusref": {
+        "bcd": "api.FontFaceSet"
+      }
+    }
+  }
+}

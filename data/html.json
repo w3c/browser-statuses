@@ -1,0 +1,46 @@
+{
+  "features": {
+    "template": {
+      "url": "https://html.spec.whatwg.org/multipage/#the-template-element",
+      "title": "The template element",
+      "statusref": {
+        "bcd": "html.elements.template",
+        "caniuse": "template-literals",
+        "chrome": 5207287069147136
+      }
+    },
+    "custom-elements": {
+      "url": "https://html.spec.whatwg.org/multipage/#custom-elements",
+      "title": "Custom elements",
+      "statusref": {
+        "caniuse": "custom-elementsv1",
+        "chrome": 4696261944934400
+      }
+    },
+    "js-module": {
+      "url": "https://html.spec.whatwg.org/multipage/#integration-with-the-javascript-module-system",
+      "title": "Integration with the JavaScript module system",
+      "statusref": {
+        "bcd": "html.elements.script.type.module",
+        "caniuse": "es6-module"
+      }
+    },
+    "2dcontext": {
+      "url": "https://html.spec.whatwg.org/multipage/#2dcontext",
+      "title": "The 2D rendering context",
+      "statusref": {
+        "bcd": "api.CanvasRenderingContext2D",
+        "caniuse": "canvas",
+        "chrome": 5100084685438976,
+        "edge": "Canvas"
+      }
+    },
+    "ruby": {
+      "url": "https://html.spec.whatwg.org/multipage/#the-ruby-element",
+      "title": "The ruby element",
+      "statusref": {
+        "caniuse": "ruby"
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "features": {
+    "codec-switching": {
+      "title": "Codec switching",
+      "statusref": {
+        "chrome": 5719220952236032
+      }
+    }
+  }
+}

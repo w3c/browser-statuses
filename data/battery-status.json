@@ -1,0 +1,9 @@
+{
+  "statusref": {
+    "bcd": "api.BatteryManager",
+    "caniuse": "battery-status",
+    "chrome": 4537134732017664,
+    "edge": "Battery Status API",
+    "webkit": "specification-battery-status-api"
+  }
+}

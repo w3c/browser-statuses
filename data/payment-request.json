@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "payment-request",
+    "chrome": 5639348045217792,
+    "edge": "Payment Request API",
+    "webkit": "feature-payment-request"
+  }
+}

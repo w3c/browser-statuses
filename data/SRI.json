@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "subresource-integrity",
+    "chrome": 6183089948590080,
+    "edge": "Subresource Integrity",
+    "webkit": "feature-subresource-integrity"
+  }
+}

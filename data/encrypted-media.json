@@ -1,0 +1,26 @@
+{
+  "features": {
+    "persistent-usage-record": {
+      "url": "https://w3c.github.io/encrypted-media/#dom-mediakeysessiontype-persistent-usage-record",
+      "title": "Persistent usage record session"
+    },
+    "hdcp-detection": {
+      "url": "https://w3c.github.io/encrypted-media/d",
+      "title": "HDCP detection",
+      "statusref": {
+        "chrome": 5652917147140096
+      }
+    },
+    "encryption-scheme": {
+      "url": "https://w3c.github.io/encrypted-media/d",
+      "title": "Encryption scheme detection",
+      "statusref": {
+        "chrome": 5184416120832000
+      }
+    },
+    "find-existing-sessions": {
+      "url": "https://w3c.github.io/encrypted-media/n",
+      "title": "API to find existing sessions"
+    }
+  }
+}

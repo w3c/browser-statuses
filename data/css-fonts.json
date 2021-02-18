@@ -1,0 +1,44 @@
+{
+  "features": {
+    "variable": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
+      "title": "Variable fonts",
+      "statusref": {
+        "caniuse": "variable-fonts",
+        "chrome": 4708676673732608,
+        "edge": "Font Variation Properties with OpenType Variable Font Support",
+        "webkit": "feature-variation-fonts"
+      }
+    },
+    "font-variant-caps": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-variant-caps-prop",
+      "title": "font-variant-caps property",
+      "statusref": {
+        "bcd": "css.properties.font-variant-caps",
+        "chrome": 5764191470223360
+      }
+    },
+    "font-variant-numeric": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-variant-numeric-prop",
+      "title": "font-variant-numeric property",
+      "statusref": {
+        "bcd": "css.properties.font-variant-numeric",
+        "chrome": 5716551491649536
+      }
+    },
+    "font-stretch": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-stretch-prop",
+      "title": "font-stretch property",
+      "statusref": {
+        "bcd": "css.properties.font-stretch"
+      }
+    },
+    "font-synthesis": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-prop",
+      "title": "font-synthesis property",
+      "statusref": {
+        "bcd": "css.properties.font-synthesis"
+      }
+    }
+  }
+}

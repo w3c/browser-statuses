@@ -1,0 +1,13 @@
+{
+  "statusref": {
+    "bcd": "api.XR",
+    "caniuse": "webxr",
+    "chrome": 5680169905815552
+  },
+  "polyfills": [
+    {
+      "label": "webxr-polyfill",
+      "url": "https://github.com/immersive-web/webxr-polyfill"
+    }
+  ]
+}

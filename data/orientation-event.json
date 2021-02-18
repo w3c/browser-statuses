@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "deviceorientation",
+    "chrome": 5874690627207168,
+    "edge": "Device Orientation",
+    "webkit": "specification-deviceorientation-events"
+  }
+}

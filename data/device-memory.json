@@ -1,0 +1,18 @@
+{
+  "features": {
+    "header": {
+      "url": "https://w3c.github.io/device-memory/#sec-device-memory-client-hint-header",
+      "title": "Header field",
+      "statusref": {
+        "chrome": 5741299856572416
+      }
+    },
+    "jsapi": {
+      "url": "https://w3c.github.io/device-memory/#sec-device-memory-js-api",
+      "title": "JS API",
+      "statusref": {
+        "chrome": 5119701235531776
+      }
+    }
+  }
+}

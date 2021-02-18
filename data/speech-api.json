@@ -1,0 +1,7 @@
+{
+  "statusref": {
+    "caniuse": "speech-recognition",
+    "chrome": 5908775487668224,
+    "edge": "Web Speech API (Speech Recognition)"
+  }
+}

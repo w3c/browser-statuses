@@ -1,0 +1,18 @@
+{
+  "statusref": {
+    "caniuse": "audio-api",
+    "chrome": 6261718720184320,
+    "edge": "Web Audio API",
+    "webkit": "feature-web-audio"
+  },
+  "features": {
+    "worklet": {
+      "url": "https://webaudio.github.io/web-audio-api/#audioworklet",
+      "title": "The AudioWorklet interface",
+      "statusref": {
+        "bcd": "api.AudioWorklet",
+        "chrome": 4588498229133312
+      }
+    }
+  }
+}

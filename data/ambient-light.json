@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": "api.ambientlightsensor",
+    "caniuse": "ambient-light",
+    "chrome": 5298357018820608,
+    "edge": "Ambient Light Sensor API",
+    "manual": [
+      {
+        "ua": "firefox",
+        "status": "",
+        "source": "feedback",
+        "date": "2018-03-16",
+        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+      },
+      {
+        "ua": "firefox_android",
+        "status": "",
+        "source": "feedback",
+        "date": "2018-03-16",
+        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+      }
+    ]
+  }
+}

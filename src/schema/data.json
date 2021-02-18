@@ -1,0 +1,145 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "https://github.com/w3c/browser-statuses/tree/main/src/schema/data.json",
+
+  "description": "JSON Schema followed by data files in data folder.",
+
+  "definitions": {
+    "statusref": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "bcd": {
+          "type": "string",
+          "minLength": 1
+        },
+        "caniuse": {
+          "type": "string",
+          "minLength": 1
+        },
+        "chrome": {
+          "type": "integer"
+        },
+        "edge": {
+          "type": "string"
+        },
+        "webkit": {
+          "type": "string",
+          "minLength": 1
+        },
+        "manual": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [ "ua", "status" ],
+            "properties": {
+              "ua": {
+                "type": "string",
+                "minLength": 1
+              },
+              "status": {
+                "type": "string",
+                "enum": ["", "consideration", "indevelopment", "experimental", "shipped"]
+              },
+              "source": {
+                "type": "string",
+                "minLength": 1
+              },
+              "date": {
+                "type": "string",
+                "format": "date"
+              },
+              "comment": {
+                "type": "string",
+                "minLength": 1
+              },
+              "prefix": {
+                "type": "boolean"
+              },
+              "flag": {
+                "type": "boolean"
+              }
+            }
+          },
+          "minItems": 1
+        }
+      }
+    }
+  },
+
+
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "statusref": {
+      "$ref": "#/definitions/statusref"
+    },
+
+    "features": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "minLength": 1
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "title": {
+            "type": "string",
+            "minLength": 1
+          },
+          "statusref": {
+            "$ref": "#/definitions/statusref"
+          }
+        },
+        "required": ["title"],
+        "additionalProperties": false
+      }
+    },
+
+    "featuresCoverage": {
+      "type": "string",
+      "enum": ["full", "partial"]
+    },
+
+    "polyfills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["url", "label"],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "label": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+
+    "notes": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      ]
+    }
+  }
+}

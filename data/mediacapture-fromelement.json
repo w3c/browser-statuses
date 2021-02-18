@@ -1,0 +1,7 @@
+{
+  "statusref": {
+    "caniuse": "mediacapture-fromelement",
+    "chrome": 5522768674160640,
+    "edge": "Media Capture from HTML Media Element"
+  }
+}

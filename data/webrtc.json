@@ -1,0 +1,17 @@
+{
+  "statusref": {
+    "caniuse": "rtcpeerconnection",
+    "chrome": 6612462929444864,
+    "edge": "WebRTC – WebRTC v1.0 API",
+    "webkit": "specification-webrtc"
+  },
+  "features": {
+    "rtcdatachannel": {
+      "url": "https://w3c.github.io/webrtc-pc/#peer-to-peer-data-api",
+      "title": "RTC data channels",
+      "statusref": {
+        "edge": "RTC Data Channels"
+      }
+    }
+  }
+}

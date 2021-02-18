@@ -1,0 +1,12 @@
+{
+  "statusref": {
+    "caniuse": "gyroscope",
+    "chrome": 5698781827825664
+  },
+  "polyfills": [
+    {
+      "label": "sensor-polyfills",
+      "url": "https://github.com/kenchris/sensor-polyfills"
+    }
+  ]
+}

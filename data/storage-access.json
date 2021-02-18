@@ -1,0 +1,21 @@
+{
+  "statusref": {
+    "chrome": 5612590694662144
+  },
+  "features": {
+    "hasStorageAccess": {
+      "url": "https://privacycg.github.io/storage-access/#dom-document-hasstorageaccess",
+      "title": "hasStorageAccess method",
+      "statusref": {
+        "bcd": "api.Document.hasStorageAccess"
+      }
+    },
+    "requestStorageAccess": {
+      "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
+      "title": "requestStorageAccess method",
+      "statusref": {
+        "bcd": "api.Document.requestStorageAccess"
+      }
+    }
+  }
+}

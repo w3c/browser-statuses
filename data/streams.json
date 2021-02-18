@@ -1,0 +1,33 @@
+{
+  "statusref": {
+    "caniuse": "streams",
+    "chrome": 6605041225957376,
+    "webkit": "specification-streams"
+  },
+  "features": {
+    "ReadableStream": {
+      "url": "https://streams.spec.whatwg.org/#rs",
+      "title": "ReadableStream interface",
+      "statusref": {
+        "chrome": 4531143755956224,
+        "edge": "Streams API: ReadableStream",
+        "webkit": "feature-readable-streams"
+      }
+    },
+    "WritableStream": {
+      "url": "https://streams.spec.whatwg.org/#ws",
+      "title": "WritableStream interface",
+      "statusref": {
+        "chrome": 5928498656968704,
+        "edge": "Streams API: WritableStream"
+      }
+    },
+    "TransformStream": {
+      "url": "https://streams.spec.whatwg.org/#ts",
+      "title": "TransformStream interface",
+      "statusref": {
+        "chrome": 5466425791610880
+      }
+    }
+  }
+}

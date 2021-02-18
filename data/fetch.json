@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "caniuse": "fetch",
+    "chrome": 6730533392351232,
+    "edge": "Fetch API",
+    "webkit": "specification-fetch"
+  },
+  "features": {
+    "cors": {
+      "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
+      "title": "CORS protocol"
+    }
+  }
+}

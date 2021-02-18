@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "web-bluetooth",
+    "chrome": 5264933985976320,
+    "edge": "Web Bluetooth",
+    "webkit": "feature-web-bluetooth"
+  }
+}

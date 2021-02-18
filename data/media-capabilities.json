@@ -1,0 +1,18 @@
+{
+  "features": {
+    "encoding": {
+      "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
+      "title": "Encoding capabilities",
+      "statusref": {
+        "chrome": 5123719190020096
+      }
+    },
+    "decoding": {
+      "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
+      "title": "Decoding capabilities",
+      "statusref": {
+        "chrome": 5869632707624960
+      }
+    }
+  }
+}

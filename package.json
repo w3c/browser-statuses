@@ -1,0 +1,35 @@
+{
+  "name": "browser-statuses",
+  "description": "Implementation status for Web specifications based on info from external platform status sites",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/w3c/browser-statuses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/w3c/browser-statuses/issues"
+  },
+  "homepage": "https://github.com/w3c/browser-statuses#readme",
+  "author": "tidoust",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "build": "node src/build-index.js",
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "@mdn/browser-compat-data": "^3.1.0",
+    "abort-controller": "^3.0.0",
+    "ajv": "^7.1.0",
+    "ajv-formats": "^1.5.1",
+    "browser-specs": "^1.28.0",
+    "es-main": "^1.0.2",
+    "mocha": "^8.3.0",
+    "nock": "^13.0.7",
+    "node-fetch": "^2.6.1"
+  }
+}

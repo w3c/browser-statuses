@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "resource-timing",
+    "chrome": 5796350423728128,
+    "edge": "Resource Timing API",
+    "webkit": "specification-resource-timing-level-2"
+  }
+}

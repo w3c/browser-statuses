@@ -1,0 +1,31 @@
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  push:
+    branches:
+    - main
+  workflow_dispatch:
+name: Update implementation info
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 14.x
+    - name: Setup environment
+      run: npm ci
+    - name: Build new index file
+      run: npm run build
+    - name: Run tests
+      run: npm test
+    - name: Commit updates
+      run: |
+        git config user.name "fetch-info bot"
+        git config user.email "<>"
+        git commit -m "[data] Update implementation info" -a || true
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}

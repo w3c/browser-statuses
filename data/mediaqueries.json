@@ -1,0 +1,16 @@
+{
+  "statusref": {
+    "webkit": "specification-css-media-queries-level-4"
+  },
+  "features": {
+    "mf-interaction": {
+      "url": "https://drafts.csswg.org/mediaqueries-4/#mf-interaction",
+      "title": "Interaction media features",
+      "statusref": {
+        "caniuse": "css-media-interaction",
+        "chrome": 6460705494532096,
+        "edge": "Media Queries Level 4: pointer and hover"
+      }
+    }
+  }
+}

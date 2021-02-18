@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "serviceworkers",
+    "chrome": 6561526227927040,
+    "edge": "Service Worker",
+    "webkit": "specification-service-workers"
+  }
+}

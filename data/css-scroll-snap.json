@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "css-snappoints",
+    "chrome": 5721832506261504,
+    "edge": "CSS Scroll Snap Points",
+    "webkit": "specification-css-scroll-snap-points-module-level-1"
+  }
+}

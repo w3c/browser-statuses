@@ -1,0 +1,32 @@
+{
+  "features": {
+    "host": {
+      "url": "https://drafts.csswg.org/css-scoping/#selectordef-host",
+      "title": "The :host pseudo-class",
+      "statusref": {
+        "bcd": "css.selectors.host"
+      }
+    },
+    "hostfunction": {
+      "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-function",
+      "title": "The :host() pseudo-class",
+      "statusref": {
+        "bcd": "css.selectors.hostfunction"
+      }
+    },
+    "host-context": {
+      "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-context",
+      "title": "The :host-context pseudo-class",
+      "statusref": {
+        "bcd": "css.selectors.host-context"
+      }
+    },
+    "slotted": {
+      "url": "https://drafts.csswg.org/css-scoping/#selectordef-slotted",
+      "title": "The ::slotted() pseudo-element",
+      "statusref": {
+        "bcd": "css.selectors.slotted"
+      }
+    }
+  }
+}

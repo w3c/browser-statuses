@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "will-change",
+    "chrome": 5954199330226176,
+    "edge": "CSS Will Change",
+    "webkit": "specification-css-will-change"
+  }
+}

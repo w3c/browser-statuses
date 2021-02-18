@@ -1,0 +1,26 @@
+{
+  "features": {
+    "box-decoration-break": {
+      "url": "https://drafts.csswg.org/css-break/#break-decoration",
+      "title": "box-decoration-break property",
+      "statusref": {
+        "caniuse": "css-boxdecorationbreak"
+      }
+    },
+    "page-break": {
+      "url": "https://drafts.csswg.org/css-break/#break-between",
+      "title": "Page break properties",
+      "statusref": {
+        "caniuse": "css-page-break",
+        "chrome": 5630943616303104
+      }
+    },
+    "widows-orphans": {
+      "url": "https://drafts.csswg.org/css-break/#widows-orphans",
+      "title": "Widows and orphans",
+      "statusref": {
+        "caniuse": "css-widows-orphans"
+      }
+    }
+  }
+}

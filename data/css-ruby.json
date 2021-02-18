@@ -1,0 +1,18 @@
+{
+  "features": {
+    "ruby-align": {
+      "url": "https://drafts.csswg.org/css-ruby-1/#ruby-align-property",
+      "title": "The ruby-align property",
+      "statusref": {
+        "bcd": "css.properties.ruby-align"
+      }
+    },
+    "ruby-position": {
+      "url": "https://drafts.csswg.org/css-ruby-1/#rubypos",
+      "title": "The ruby-position property",
+      "statusref": {
+        "bcd": "css.properties.ruby-position"
+      }
+    }
+  }
+}

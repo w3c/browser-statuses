@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "upgradeinsecurerequests",
+    "chrome": 6534575509471232,
+    "edge": "CSP upgrade-insecure-requests directive",
+    "webkit": "feature-upgrade-insecure-requests"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "vibration",
+    "chrome": 5698768766763008,
+    "edge": "Vibration API",
+    "webkit": "feature-vibration-api"
+  }
+}

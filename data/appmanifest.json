@@ -1,0 +1,44 @@
+{
+  "statusref": {
+    "caniuse": "web-app-manifest",
+    "chrome": 6488656873259008,
+    "webkit": "specification-web-app-manifest"
+  },
+  "features": {
+    "background_color": {
+      "url": "https://w3c.github.io/manifest/#background_color-member",
+      "title": "background_color member",
+      "statusref": {
+        "chrome": 5651543017652224
+      }
+    },
+    "install": {
+      "url": "https://w3c.github.io/manifest/#installation-events",
+      "title": "Installation events",
+      "statusref": {
+        "chrome": 5674968658477056
+      }
+    },
+    "purpose": {
+      "url": "https://w3c.github.io/manifest/#purpose-member",
+      "title": "purpose member",
+      "statusref": {
+        "chrome": 6690807302062080
+      }
+    },
+    "related_applications": {
+      "url": "https://w3c.github.io/manifest/#related_applications-member",
+      "title": "related_applications member",
+      "statusref": {
+        "chrome": 4754986680451072
+      }
+    },
+    "theme_color": {
+      "url": "https://w3c.github.io/manifest/#theme_color-member",
+      "title": "theme_color member",
+      "statusref": {
+        "chrome": 5709006190411776
+      }
+    }
+  }
+}

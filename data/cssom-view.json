@@ -1,0 +1,19 @@
+{
+  "features": {
+    "scroll-behavior": {
+      "url": "https://drafts.csswg.org/cssom-view/#smooth-scrolling",
+      "title": "scroll-behavior property",
+      "statusref": {
+        "bcd": "css.properties.scroll-behavior",
+        "caniuse": "css-scroll-behavior"
+      }
+    },
+    "getBoundingClientRect": {
+      "url": "https://drafts.csswg.org/cssom-view/#dom-element-getboundingclientrect",
+      "title": "getBoundingClientRect() method",
+      "statusref": {
+        "caniuse": "getboundingclientrect"
+      }
+    }
+  }
+}

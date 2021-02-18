@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "caniuse": "web-animation",
+    "chrome": 5650817352728576,
+    "edge": "Web Animations JavaScript API",
+    "webkit": "specification-web-animations"
+  }
+}

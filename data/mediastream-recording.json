@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "bcd": "api.MediaRecorder",
+    "caniuse": "mediarecorder",
+    "chrome": 5929649028726784,
+    "edge": "MediaRecorder"
+  }
+}

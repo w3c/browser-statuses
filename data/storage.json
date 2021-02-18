@@ -1,0 +1,23 @@
+{
+  "statusref": {
+    "bcd": "api.StorageManager"
+  },
+  "features": {
+    "estimate": {
+      "url": "https://storage.spec.whatwg.org/#dom-storagemanager-estimate",
+      "title": "estimate() API",
+      "statusref": {
+        "bcd": "api.StorageManager.estimate",
+        "chrome": 5630353511284736
+      }
+    },
+    "persist": {
+      "url": "https://storage.spec.whatwg.org/#dom-storagemanager-persist",
+      "title": "Persistent storage permission",
+      "statusref": {
+        "bcd": "api.StorageManager.permission",
+        "chrome": 4931497563783168
+      }
+    }
+  }
+}

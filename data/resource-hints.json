@@ -1,0 +1,38 @@
+{
+  "features": {
+    "dns-prefetch": {
+      "url": "https://w3c.github.io/resource-hints/#dns-prefetch",
+      "title": "DNS prefetch",
+      "statusref": {
+        "caniuse": "link-rel-dns-prefetch",
+        "edge": "DNS Prefetch Resource Hints"
+      }
+    },
+    "preconnect": {
+      "url": "https://w3c.github.io/resource-hints/#preconnect",
+      "title": "Preconnect",
+      "statusref": {
+        "caniuse": "link-rel-preconnect",
+        "chrome": 5560623895150592,
+        "edge": "Preconnect Resource Hints"
+      }
+    },
+    "prefetch": {
+      "url": "https://w3c.github.io/resource-hints/#prefetch",
+      "title": "Prefetch",
+      "statusref": {
+        "caniuse": "link-rel-prefetch",
+        "chrome": 5383221353119744,
+        "edge": "Prefetch Resource Hints"
+      }
+    },
+    "prerender": {
+      "url": "https://w3c.github.io/resource-hints/#prerender",
+      "title": "Prerender",
+      "statusref": {
+        "caniuse": "link-rel-prerender",
+        "edge": "Prerender Resource Hints"
+      }
+    }
+  }
+}

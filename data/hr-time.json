@@ -1,0 +1,8 @@
+{
+  "statusref": {
+    "bcd": "api.Performance",
+    "caniuse": "high-resolution-time",
+    "chrome": 5349124069130240,
+    "edge": "High Resolution Time"
+  }
+}
