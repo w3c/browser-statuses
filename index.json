@@ -18481,11 +18481,7 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Disabled by default behind the `network.preload` flag."
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=link-rel-preload",
         "selected": true
