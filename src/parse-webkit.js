@@ -13,7 +13,7 @@ const url = 'https://svn.webkit.org/repository/webkit/trunk/Source/WebCore/featu
 /**
  * Export list of user agents that the platform has authority on.
  */
-export const coreua = ["webkit", "safari"];
+export const coreua = ["webkit"];
 
 
 /**
@@ -66,6 +66,9 @@ export function getImplementationStatus(key) {
     case 'Supported':
     case 'Partially Supported':
       res.status = 'shipped';
+      if (webkitstatus === 'Partially Supported') {
+        res.partial = true;
+      }
       break;
     case 'Supported In Preview':
       res.status = 'experimental';

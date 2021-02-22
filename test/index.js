@@ -38,5 +38,16 @@ describe('Generated index', () => {
       const isValid = validate(index, { format: 'full' });
       assert.strictEqual(validate.errors, null);
     });
+
+    it('has one selected status for each UA', () => {
+      const index = loadJSON(path.join(__dirname, '..', 'index.json'));
+      for (const spec of index) {
+        const uas = new Set(spec.support.map(impl => impl.ua));
+        for (const ua of uas) {
+          assert.ok(spec.support.find(impl => impl.ua === ua && impl.selected),
+            `No selected support info for UA ${ua} and spec ${spec.shortname}`);
+        }
+      }
+    });
   });
 });
