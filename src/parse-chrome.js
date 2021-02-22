@@ -70,7 +70,7 @@ function parseStatus(chromestatus) {
     case 'Deprecated':
     case 'Defer':
     case 'Harmful':
-      res.status = '';
+      res.status = 'notsupported';
       break;
     default:
       console.warn(`- Unknown chrome status ${status}`);

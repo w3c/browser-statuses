@@ -78,7 +78,7 @@ export function getImplementationStatus(key) {
       break;
     case 'Removed':
     case 'Not Considering':
-      res.status = '';
+      res.status = 'notsupported';
       break;
     default:
       console.warn(`- Unknown webkit status ${webkitstatus}`);

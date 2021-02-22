@@ -34,7 +34,7 @@ describe('The Webkit Platform Status parser', () => {
       const uaInfo = info.find(d => d.ua === ua);
       assert.deepEqual(uaInfo, {
         ua,
-        status: (ua === 'safari') ? '' : 'shipped',
+        status: (ua === 'safari') ? 'notsupported' : 'shipped',
         href: 'https://www.chromestatus.com/feature/5517433905348608',
         source: 'chrome'
       });
