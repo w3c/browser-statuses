@@ -13,7 +13,7 @@ jobs:
     - name: Setup environment
       run: npm ci
     - name: Test files in pull request
-    - run: npm test
+      run: npm test
     - name: Build new index file
       run: npm run build
     - name: Test new index file
