@@ -27,7 +27,7 @@ const __dirname = path.dirname(__filename);
  * @type {Array}
  */
 const statuses = [
-  '',
+  'notsupported',
   'consideration',
   'indevelopment',
   'experimental',
@@ -205,12 +205,10 @@ function flagBestImplInfo(implinfo) {
   // Extract the list of user agents that appear in implementation
   // data, computing the status for "webkit" on the side to be able to
   // apply rule 3, and apply rules for each user agent.
-  const webkitInfo = implinfo.find(impl => impl.source === 'webkitstatus');
+  const webkitInfo = implinfo.find(impl => (impl.ua === 'webkit') && (impl.source === 'webkit'));
   const webkitStatus = (webkitInfo || {}).status;
-  const uas = implinfo
-    .map(impl => (impl.ua !== 'webkit') ? impl.ua : null)
-    .filter(ua => !!ua)
-    .filter(onlyUnique);
+  const safariInfo = [];
+  const uas = implinfo.map(impl => impl.ua).filter(onlyUnique);
   uas.forEach(ua => {
     let authoritativeStatusFound = false;
     let coreStatusFound = false;
@@ -223,7 +221,8 @@ function flagBestImplInfo(implinfo) {
         authoritativeStatusFound = true;
         selectedImplInfo = impl;
       }
-      else if (Object.keys(parsers).includes(impl.source) && !impl.guess &&
+      else if ((impl.source in parsers) &&
+          !impl.guess &&
           parsers[impl.source].coreua &&
           parsers[impl.source].coreua.includes(ua)) {
         // Rule 1, status comes from the right platform, we've
@@ -231,24 +230,24 @@ function flagBestImplInfo(implinfo) {
         // feedback from a reviewer that this status is incorrect
         // which will be handled by Rule 0
         coreStatusFound = true;
-
-        // Rule 3, constrain safari status to that of webkit
-        // when it is lower
-        if (ua.startsWith('safari') && (typeof webkitstatus === 'string') &&
-            statuses.indexOf(impl.status) > statuses.indexOf(webkitstatus)) {
-          selectedImplInfo = webkitInfo;
-        }
-        else {
-          selectedImplInfo = impl;
-        }
+        selectedImplInfo = impl;
       }
       else if (!selectedImplInfo || (!coreStatusFound && !impl.guess &&
           (statuses.indexOf(impl.status) > statuses.indexOf(selectedImplInfo.status)))) {
         // Rule 2, be optimistic in life... except if Rule 1 was
-        // already applied. Also take rule 3 into account
-        if ((ua === 'safari') && (typeof webkitstatus === 'string') &&
-            statuses.indexOf(impl.status) > statuses.indexOf(webkitstatus)) {
-          selectedImplInfo = impl;
+        // already applied.
+
+        // Rule 3, constrain safari status to that of webkit when it is lower. When
+        // that happens, consider that the info from the webkit status site also
+        // applies to safari/safari_ios. Note we don't do that in the generic case
+        // because supported in webkit does not always mean supported in Safari.
+        if (ua.startsWith('safari') && (typeof webkitStatus === 'string') &&
+            statuses.indexOf(impl.status) > statuses.indexOf(webkitStatus)) {
+          selectedImplInfo = Object.assign({}, webkitInfo, {
+            ua: impl.ua,
+            selected: true
+          });
+          safariInfo.push(selectedImplInfo);
         }
         else {
           selectedImplInfo = impl;
@@ -261,6 +260,12 @@ function flagBestImplInfo(implinfo) {
       selectedImplInfo.selected = true;
     }
   });
+
+  // Complete implementation info with Safari info coming from the Webkit status
+  // site if rule 3 had to be applied.
+  for (const info of safariInfo) {
+    implinfo.push(info);
+  }
 }
 
 

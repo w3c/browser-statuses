@@ -348,8 +348,10 @@
       {
         "ua": "webkit",
         "status": "shipped",
+        "partial": true,
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-web-app-manifest"
+        "href": "https://webkit.org/status/#specification-web-app-manifest",
+        "selected": true
       }
     ],
     "features": {
@@ -507,7 +509,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-web-app-manifest",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -665,7 +669,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-web-app-manifest",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -805,7 +811,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-web-app-manifest",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -952,7 +960,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-web-app-manifest",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -1110,7 +1120,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-web-app-manifest",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       }
@@ -1963,7 +1975,8 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-battery-status-api"
+        "href": "https://webkit.org/status/#specification-battery-status-api",
+        "selected": true
       }
     ]
   },
@@ -2154,7 +2167,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-beacon-api"
+        "href": "https://webkit.org/status/#specification-beacon-api",
+        "selected": true
       }
     ]
   },
@@ -3086,7 +3100,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-content-security-policy-level-2"
+        "href": "https://webkit.org/status/#specification-content-security-policy-level-2",
+        "selected": true
       }
     ],
     "features": {
@@ -3337,7 +3352,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-content-security-policy-level-2",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -4690,7 +4706,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-color-level-4"
+        "href": "https://webkit.org/status/#specification-css-color-level-4",
+        "selected": true
       }
     ],
     "features": {
@@ -4741,7 +4758,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-css-color-level-4",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       },
@@ -4822,7 +4840,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-css-color-level-4",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       },
@@ -4903,7 +4922,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-css-color-level-4",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       },
@@ -4984,7 +5004,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-css-color-level-4",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -6442,7 +6463,8 @@
         "features": [
           "variable"
         ],
-        "partial": true
+        "partial": true,
+        "selected": true
       }
     ],
     "features": {
@@ -6736,7 +6758,8 @@
             "ua": "webkit",
             "status": "shipped",
             "source": "webkit",
-            "href": "https://webkit.org/status/#feature-variation-fonts"
+            "href": "https://webkit.org/status/#feature-variation-fonts",
+            "selected": true
           },
           {
             "ua": "webkit",
@@ -7016,7 +7039,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -7289,7 +7313,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -7544,7 +7569,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -7787,7 +7813,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       }
@@ -7926,7 +7953,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-grid-layout-level-1"
+        "href": "https://webkit.org/status/#specification-css-grid-layout-level-1",
+        "selected": true
       }
     ]
   },
@@ -8225,8 +8253,7 @@
           "Can be enabled using the Develop > Experimental Features menu."
         ],
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=css-paint-api",
-        "selected": true
+        "href": "https://caniuse.com/#feat=css-paint-api"
       },
       {
         "ua": "safari",
@@ -8238,7 +8265,15 @@
         "ua": "webkit",
         "status": "indevelopment",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-painting-api-level-1"
+        "href": "https://webkit.org/status/#specification-css-painting-api-level-1",
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "indevelopment",
+        "source": "webkit",
+        "href": "https://webkit.org/status/#specification-css-painting-api-level-1",
+        "selected": true
       }
     ]
   },
@@ -8307,7 +8342,8 @@
         "ua": "webkit",
         "status": "consideration",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-rhythmic-sizing"
+        "href": "https://webkit.org/status/#specification-css-rhythmic-sizing",
+        "selected": true
       }
     ],
     "features": {
@@ -8394,7 +8430,8 @@
             "status": "consideration",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-css-rhythmic-sizing",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -9548,7 +9585,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-scroll-snap-points-module-level-1"
+        "href": "https://webkit.org/status/#specification-css-scroll-snap-points-module-level-1",
+        "selected": true
       }
     ]
   },
@@ -9652,7 +9690,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-shadow-parts"
+        "href": "https://webkit.org/status/#specification-css-shadow-parts",
+        "selected": true
       }
     ]
   },
@@ -10112,7 +10151,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-css-will-change"
+        "href": "https://webkit.org/status/#specification-css-will-change",
+        "selected": true
       }
     ]
   },
@@ -11294,7 +11334,8 @@
         "features": [
           "shadow"
         ],
-        "partial": true
+        "partial": true,
+        "selected": true
       }
     ],
     "features": {
@@ -11526,7 +11567,8 @@
             "ua": "webkit",
             "status": "shipped",
             "source": "webkit",
-            "href": "https://webkit.org/status/#feature-shadow-dom"
+            "href": "https://webkit.org/status/#feature-shadow-dom",
+            "selected": true
           },
           {
             "ua": "webkit",
@@ -12236,7 +12278,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-fetch"
+        "href": "https://webkit.org/status/#specification-fetch",
+        "selected": true
       }
     ],
     "features": {
@@ -12378,7 +12421,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-fetch",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -12786,7 +12830,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-gamepad"
+        "href": "https://webkit.org/status/#specification-gamepad",
+        "selected": true
       }
     ]
   },
@@ -12935,7 +12980,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-geolocation-api"
+        "href": "https://webkit.org/status/#specification-geolocation-api",
+        "selected": true
       }
     ]
   },
@@ -15474,7 +15520,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-indexed-database-2.0"
+        "href": "https://webkit.org/status/#specification-indexed-database-2.0",
+        "selected": true
       }
     ]
   },
@@ -15695,7 +15742,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-intersection-observer"
+        "href": "https://webkit.org/status/#specification-intersection-observer",
+        "selected": true
       }
     ],
     "polyfills": [
@@ -16747,7 +16795,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-media-capture-and-streams"
+        "href": "https://webkit.org/status/#specification-media-capture-and-streams",
+        "selected": true
       }
     ],
     "features": {
@@ -17037,7 +17086,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-media-capture-and-streams",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -17780,7 +17830,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-strict-mixed-content-checking"
+        "href": "https://webkit.org/status/#feature-strict-mixed-content-checking",
+        "selected": true
       }
     ]
   },
@@ -17942,7 +17993,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-navigation-timing-level-1"
+        "href": "https://webkit.org/status/#specification-navigation-timing-level-1",
+        "selected": true
       }
     ]
   },
@@ -18241,7 +18293,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-deviceorientation-events"
+        "href": "https://webkit.org/status/#specification-deviceorientation-events",
+        "selected": true
       }
     ]
   },
@@ -18882,7 +18935,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-payment-request"
+        "href": "https://webkit.org/status/#feature-payment-request",
+        "selected": true
       }
     ]
   },
@@ -19717,7 +19771,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-pointer-lock"
+        "href": "https://webkit.org/status/#specification-pointer-lock",
+        "selected": true
       }
     ]
   },
@@ -19864,7 +19919,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-preload"
+        "href": "https://webkit.org/status/#specification-preload",
+        "selected": true
       }
     ]
   },
@@ -19913,7 +19969,8 @@
         "date": "2018-03-16",
         "notes": [
           "No public indication that the Presentation API is in development in Webkit, see https://twitter.com/othersight/status/959442416599117824"
-        ]
+        ],
+        "selected": true
       }
     ]
   },
@@ -20401,8 +20458,7 @@
           "Can be enabled in Experimental (WebKit) Features"
         ],
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=requestidlecallback",
-        "selected": true
+        "href": "https://caniuse.com/#feat=requestidlecallback"
       },
       {
         "ua": "safari",
@@ -20424,8 +20480,7 @@
           "Can be enabled in Experimental (WebKit) Features"
         ],
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=requestidlecallback",
-        "selected": true
+        "href": "https://caniuse.com/#feat=requestidlecallback"
       },
       {
         "ua": "samsunginternet_android",
@@ -20451,7 +20506,22 @@
         "ua": "webkit",
         "status": "consideration",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-requestidlecallback"
+        "href": "https://webkit.org/status/#feature-requestidlecallback",
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "consideration",
+        "source": "webkit",
+        "href": "https://webkit.org/status/#feature-requestidlecallback",
+        "selected": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "consideration",
+        "source": "webkit",
+        "href": "https://webkit.org/status/#feature-requestidlecallback",
+        "selected": true
       }
     ]
   },
@@ -21737,7 +21807,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-resource-timing-level-2"
+        "href": "https://webkit.org/status/#specification-resource-timing-level-2",
+        "selected": true
       }
     ]
   },
@@ -22133,7 +22204,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-service-workers"
+        "href": "https://webkit.org/status/#specification-service-workers",
+        "selected": true
       }
     ]
   },
@@ -22370,7 +22442,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-subresource-integrity"
+        "href": "https://webkit.org/status/#feature-subresource-integrity",
+        "selected": true
       }
     ]
   },
@@ -23631,7 +23704,8 @@
         "features": [
           "ReadableStream"
         ],
-        "partial": true
+        "partial": true,
+        "selected": true
       }
     ],
     "features": {
@@ -23787,7 +23861,8 @@
             "ua": "webkit",
             "status": "shipped",
             "source": "webkit",
-            "href": "https://webkit.org/status/#feature-readable-streams"
+            "href": "https://webkit.org/status/#feature-readable-streams",
+            "selected": true
           },
           {
             "ua": "webkit",
@@ -23951,7 +24026,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -24108,7 +24184,8 @@
             "status": "shipped",
             "source": "webkit",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           }
         ]
       }
@@ -24456,7 +24533,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-upgrade-insecure-requests"
+        "href": "https://webkit.org/status/#feature-upgrade-insecure-requests",
+        "selected": true
       }
     ]
   },
@@ -24575,7 +24653,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-user-timing-level-2"
+        "href": "https://webkit.org/status/#specification-user-timing-level-2",
+        "selected": true
       }
     ]
   },
@@ -24687,7 +24766,8 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-vibration-api"
+        "href": "https://webkit.org/status/#feature-vibration-api",
+        "selected": true
       }
     ]
   },
@@ -24773,7 +24853,8 @@
         "ua": "webkit",
         "status": "experimental",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-visual-viewport-api"
+        "href": "https://webkit.org/status/#feature-visual-viewport-api",
+        "selected": true
       }
     ]
   },
@@ -25193,7 +25274,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-web-animations"
+        "href": "https://webkit.org/status/#specification-web-animations",
+        "selected": true
       }
     ]
   },
@@ -25283,7 +25365,8 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-bluetooth"
+        "href": "https://webkit.org/status/#feature-web-bluetooth",
+        "selected": true
       }
     ]
   },
@@ -25562,7 +25645,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-share"
+        "href": "https://webkit.org/status/#feature-web-share",
+        "selected": true
       }
     ]
   },
@@ -25868,8 +25952,10 @@
       {
         "ua": "webkit",
         "status": "shipped",
+        "partial": true,
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-audio"
+        "href": "https://webkit.org/status/#feature-web-audio",
+        "selected": true
       }
     ],
     "features": {
@@ -26160,7 +26246,9 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#feature-web-audio",
-            "guess": true
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       }
@@ -26255,7 +26343,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-authentication"
+        "href": "https://webkit.org/status/#feature-web-authentication",
+        "selected": true
       }
     ]
   },
@@ -26434,7 +26523,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-web-cryptography-api"
+        "href": "https://webkit.org/status/#specification-web-cryptography-api",
+        "selected": true
       }
     ]
   },
@@ -26562,7 +26652,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-webgl-1"
+        "href": "https://webkit.org/status/#specification-webgl-1",
+        "selected": true
       }
     ]
   },
@@ -26710,7 +26801,8 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#specification-webrtc"
+        "href": "https://webkit.org/status/#specification-webrtc",
+        "selected": true
       }
     ],
     "features": {
@@ -26840,7 +26932,8 @@
             "status": "shipped",
             "source": "webkit",
             "href": "https://webkit.org/status/#specification-webrtc",
-            "guess": true
+            "guess": true,
+            "selected": true
           }
         ]
       }
@@ -27007,7 +27100,8 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-webusb"
+        "href": "https://webkit.org/status/#feature-webusb",
+        "selected": true
       }
     ]
   },
