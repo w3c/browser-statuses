@@ -99,7 +99,7 @@ export function getImplementationStatus(key) {
     }
 
     if ((support.version_added === false) || support.version_removed) {
-      res.status = '';
+      res.status = 'notsupported';
     }
     else if (support.prefix || support.alternative_name) {
       res.status = 'experimental';

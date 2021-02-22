@@ -48,6 +48,9 @@ function parseStatus(ua, status, implnotes = [], options = {}) {
   else if (status.startsWith('n d')) {
     res.status = 'experimental';
   }
+  else if (status.startsWith('n')) {
+    res.status = 'notsupported';
+  }
   if (status.includes('x')) {
     res.prefix = true;
   }
