@@ -17,8 +17,7 @@ describe('The Webkit Platform Status parser', () => {
     assert.ok(nock.isDone(), 'Parser did not fetch implementation data');
   });
 
-  it('has authoritative info on Safari and Webkit', () => {
-    assert.ok(coreua.includes('safari'));
+  it('has authoritative info on Webkit', () => {
     assert.ok(coreua.includes('webkit'));
   });
 
