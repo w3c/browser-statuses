@@ -13332,7 +13332,23 @@
           "template",
           "custom-elements",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true,
         "selected": true
@@ -13345,7 +13361,15 @@
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13360,7 +13384,24 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13372,7 +13413,15 @@
         "features": [
           "template",
           "custom-elements",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "inputdate",
+          "offscreencanvas",
+          "picture",
+          "srcset"
         ],
         "partial": true
       },
@@ -13384,7 +13433,15 @@
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13399,7 +13456,24 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13411,19 +13485,32 @@
         "features": [
           "template",
           "custom-elements",
-          "2dcontext"
+          "2dcontext",
+          "datalist",
+          "inputdate",
+          "offscreencanvas",
+          "picture",
+          "srcset"
         ],
         "partial": true
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "experimental",
         "source": "bcd",
         "guess": true,
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13438,7 +13525,24 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13450,26 +13554,43 @@
         "features": [
           "template",
           "custom-elements",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "inputdate",
+          "offscreencanvas",
+          "picture",
+          "srcset"
         ],
         "partial": true
       },
       {
         "ua": "firefox",
-        "status": "shipped",
+        "status": "experimental",
         "source": "bcd",
         "guess": true,
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
+        "flag": true,
         "partial": true,
         "selected": true
       },
       {
         "ua": "firefox",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
         "guess": true,
         "features": [
@@ -13477,38 +13598,73 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
+        "flag": true,
         "partial": true
       },
       {
         "ua": "firefox",
-        "status": "indevelopment",
+        "status": "notsupported",
         "source": "chrome",
         "guess": true,
         "features": [
           "template",
           "custom-elements",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "inputdate",
+          "offscreencanvas",
+          "picture",
+          "srcset"
         ],
         "partial": true
       },
       {
         "ua": "firefox_android",
-        "status": "shipped",
+        "status": "experimental",
         "source": "bcd",
         "guess": true,
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
+        "flag": true,
         "partial": true,
         "selected": true
       },
       {
         "ua": "firefox_android",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
         "guess": true,
         "features": [
@@ -13516,8 +13672,26 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
+        "flag": true,
         "partial": true
       },
       {
@@ -13528,7 +13702,15 @@
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13543,7 +13725,24 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13557,27 +13756,51 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true,
         "selected": true
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
         "guess": true,
         "features": [
@@ -13585,31 +13808,63 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "chrome",
         "guess": true,
         "features": [
           "template",
           "custom-elements",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "inputdate",
+          "offscreencanvas",
+          "picture",
+          "srcset"
         ],
         "partial": true
       },
       {
         "ua": "safari_ios",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13624,7 +13879,23 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13636,7 +13907,15 @@
         "features": [
           "template",
           "js-module",
-          "2dcontext"
+          "2dcontext",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "offscreencanvas",
+          "picture"
         ],
         "partial": true,
         "selected": true
@@ -13651,7 +13930,24 @@
           "custom-elements",
           "js-module",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "datalist",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "offscreencanvas",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
         ],
         "partial": true
       },
@@ -13664,7 +13960,35 @@
           "template",
           "custom-elements",
           "2dcontext",
-          "ruby"
+          "ruby",
+          "animation-frames",
+          "audio",
+          "html5-download",
+          "html5-sandbox",
+          "htmlmediaelement",
+          "inputdate",
+          "inputhint",
+          "inputpattern",
+          "inputtext",
+          "online",
+          "picture",
+          "srcset",
+          "timeupdate",
+          "video",
+          "webworkers"
+        ],
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "webkit",
+        "status": "shipped",
+        "source": "webkit",
+        "guess": true,
+        "features": [
+          "html5-download",
+          "picture",
+          "srcset"
         ],
         "partial": true,
         "selected": true
@@ -13775,7 +14099,7 @@
           },
           {
             "ua": "edge",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -13816,9 +14140,10 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -13829,9 +14154,10 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -13842,7 +14168,7 @@
           },
           {
             "ua": "firefox",
-            "status": "indevelopment",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -13856,9 +14182,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -13869,9 +14196,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -13924,7 +14252,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -13937,7 +14265,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -13950,7 +14278,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -13964,7 +14292,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14022,6 +14350,14 @@
             "source": "caniuse",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -14114,7 +14450,7 @@
           },
           {
             "ua": "edge",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14148,23 +14484,25 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
-            "partial": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=custom-elementsv1",
             "selected": true
           },
           {
             "ua": "firefox",
-            "status": "shipped",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=custom-elementsv1"
-          },
-          {
-            "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14175,30 +14513,32 @@
           },
           {
             "ua": "firefox",
-            "status": "indevelopment",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
-            "partial": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=custom-elementsv1",
             "selected": true
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=custom-elementsv1"
-          },
-          {
-            "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14241,11 +14581,10 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "partial": true,
-            "selected": true
+            "partial": true
           },
           {
             "ua": "safari",
@@ -14254,11 +14593,12 @@
               "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
             ],
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=custom-elementsv1"
+            "href": "https://caniuse.com/#feat=custom-elementsv1",
+            "selected": true
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -14271,18 +14611,17 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "partial": true,
-            "selected": true
+            "partial": true
           },
           {
             "ua": "safari_ios",
@@ -14291,7 +14630,8 @@
               "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
             ],
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=custom-elementsv1"
+            "href": "https://caniuse.com/#feat=custom-elementsv1",
+            "selected": true
           },
           {
             "ua": "safari_ios",
@@ -14334,6 +14674,14 @@
             "source": "caniuse",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -14430,7 +14778,7 @@
           },
           {
             "ua": "edge",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14463,9 +14811,10 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14476,14 +14825,15 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
             "ua": "firefox",
-            "status": "indevelopment",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -14496,9 +14846,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14509,9 +14860,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14568,7 +14920,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14581,14 +14933,14 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
             "partial": true
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -14604,7 +14956,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14655,6 +15007,14 @@
             "ua": "uc_android",
             "status": "shipped",
             "source": "caniuse",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
             "guess": true,
             "partial": true,
             "selected": true
@@ -14765,7 +15125,7 @@
           },
           {
             "ua": "edge",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14806,9 +15166,10 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14819,9 +15180,10 @@
           },
           {
             "ua": "firefox",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14832,7 +15194,7 @@
           },
           {
             "ua": "firefox",
-            "status": "indevelopment",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -14846,9 +15208,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "bcd",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14859,9 +15222,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -14914,7 +15278,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -14927,7 +15291,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -14940,7 +15304,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "chrome",
             "guess": true,
             "partial": true
@@ -14954,7 +15318,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -15012,6 +15376,14 @@
             "source": "caniuse",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       },
@@ -15089,6 +15461,87 @@
           },
           {
             "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
             "status": "shipped",
             "source": "bcd",
             "guess": true,
@@ -15096,10 +15549,592 @@
             "selected": true
           },
           {
-            "ua": "edge",
+            "ua": "opera",
             "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=ruby"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=ruby",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "animation-frames": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5233400470306816",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5233400470306816",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "notes": [
+              "Callback parameter is a <code>DOMHighResTimestamp</code>. This means ten microsecond precision and zero time as <code>performance.now()</code>."
+            ],
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5233400470306816"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5233400470306816"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/Window/requestAnimationFrame",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=requestanimationframe",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "audio": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
           },
           {
             "ua": "edge",
@@ -15119,64 +16154,3078 @@
             "ua": "firefox",
             "status": "shipped",
             "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAudioElement",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=audio",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "datalist": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6090950820495360",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6090950820495360",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6090950820495360",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "notes": [
+              "Partial support refers to no support for datalists on non-text fields (e.g. number, [range](https://bugzilla.mozilla.org/show_bug.cgi?id=841942), [color](https://bugzilla.mozilla.org/show_bug.cgi?id=960984)).",
+              "In Firefox, autocomplete must be set to off to make dynamic datalist work due to [a bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1474137)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6090950820495360"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "notes": [
+              "Since Firefox for Android 79, the dropdown menu containing available options does not appear. See <a href='https://bugzil.la/1535985'>bug 1535985</a>."
+            ],
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "notes": [
+              "Partial support refers to no support for datalists on non-text fields (e.g. number, [range](https://bugzilla.mozilla.org/show_bug.cgi?id=841942), [color](https://bugzilla.mozilla.org/show_bug.cgi?id=960984))."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "notes": [
+              "Partial support refers to [a bug](https://bugs.chromium.org/p/chromium/issues/detail?id=773041) where long lists of items are unscrollable resulting in unselectable options."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6090950820495360"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "notes": [
+              "Supported through WKWebView and Safari but not through UIWebView"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=datalist"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
             "guess": true,
             "partial": true,
             "selected": true
           },
           {
-            "ua": "firefox",
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "html5-download": {
+        "support": [
+          {
+            "ua": "baidu_android",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "href": "https://caniuse.com/#feat=download",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6473924464345088",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6473924464345088",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
           },
           {
             "ua": "firefox",
             "status": "shipped",
             "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
             "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6473924464345088"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6473924464345088"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLAnchorElement/download",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=download",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "href": "https://webkit.org/status/#feature-download-attribute",
+            "selected": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true
+          }
+        ]
+      },
+      "html5-sandbox": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "notes": [
+              "Before Chrome 50, this property returned the deprecated child <code>DOMSettableTokenList</code> instead of <code>DOMTokenList</code>."
+            ],
+            "source": "bcd"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5715536319086592",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "notes": [
+              "Before Chrome 50, this property returned the deprecated child <code>DOMSettableTokenList</code> instead of <code>DOMTokenList</code>."
+            ],
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5715536319086592",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "notes": [
+              "Previously, the type of <code>sandbox</code> was a <code>DOMString</code> instead of a <code>DOMSettableTokenList</code>. This has been fixed with Firefox 29. Other browsers may still implement the property as <code>DOMString</code> since it was a late change in the specification."
+            ],
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5715536319086592"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "notes": [
+              "Previously, the type of <code>sandbox</code> was a <code>DOMString</code> instead of a <code>DOMSettableTokenList</code>. This has been fixed with Firefox 29. Other browsers may still implement the property as <code>DOMString</code> since it was a late change in the specification."
+            ],
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "notes": [
+              "Before Opera 37, this property returned the deprecated child <code>DOMSettableTokenList</code> instead of <code>DOMTokenList</code>."
+            ],
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5715536319086592"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "notes": [
+              "Before Samsung Internet 5.0, this property returned the deprecated child <code>DOMSettableTokenList</code> instead of <code>DOMTokenList</code>."
+            ],
+            "source": "bcd",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=iframe-sandbox",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "htmlmediaelement": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "inputdate": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6640933999214592",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6640933999214592",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6640933999214592",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "notes": [
+              "Partial support refers to supporting `date` and `time` input types, but not `datetime-local`, `month` or `week`."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6640933999214592"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "notes": [
+              "Partial support in macOS Safari refers to not supporting the `week` and `month` input type"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/6640933999214592"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "notes": [
+              "Partial support in iOS Safari refers to not supporting the `week` input type, nor the `min`, `max` or `step` attributes"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-datetime",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "inputhint": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-placeholder",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "inputpattern": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-pattern",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "inputtext": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=input-email-tel-url",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "offscreencanvas": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5681560598609920",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5681560598609920",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5681560598609920",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "flag": true,
+            "partial": true,
+            "notes": [
+              "See <a href='https://bugzil.la/1390089'>bug 1390089</a>."
+            ],
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "flag": true,
+            "notes": [
+              "Can be enabled via the `gfx.offscreencanvas.enabled` flag. Currently only supports WebGL contexts, not 2D."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
             "partial": true
           },
           {
             "ua": "firefox",
             "status": "indevelopment",
             "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5681560598609920"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
             "guess": true,
             "partial": true
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
-            "source": "bcd",
-            "guess": true,
+            "status": "experimental",
+            "flag": true,
             "partial": true,
+            "notes": [
+              "See <a href='https://bugzil.la/1390089'>bug 1390089</a>."
+            ],
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
             "selected": true
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
           },
           {
             "ua": "firefox_android",
-            "status": "shipped",
+            "status": "experimental",
+            "flag": true,
+            "notes": [
+              "Can be enabled via the `gfx.offscreencanvas.enabled` flag. Currently only supports WebGL contexts, not 2D."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
             "ua": "opera",
             "status": "shipped",
             "source": "bcd",
-            "guess": true,
-            "partial": true,
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
             "selected": true
           },
           {
             "ua": "opera",
             "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "href": "https://caniuse.com/#feat=offscreencanvas"
           },
           {
             "ua": "opera",
@@ -15189,7 +19238,631 @@
             "ua": "qq_android",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5681560598609920"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=offscreencanvas"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "online": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=online-status",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "picture": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5910974510923776",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5910974510923776",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture"
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5910974510923776",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "indevelopment",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5910974510923776"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=picture",
             "selected": true
           },
           {
@@ -15203,19 +19876,25 @@
             "ua": "safari",
             "status": "shipped",
             "source": "bcd",
-            "guess": true,
-            "partial": true,
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
             "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
           },
           {
             "ua": "safari",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "href": "https://caniuse.com/#feat=picture"
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -15224,6 +19903,12 @@
             "ua": "safari",
             "status": "shipped",
             "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/5910974510923776"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
             "guess": true,
             "partial": true
           },
@@ -15231,15 +19916,21 @@
             "ua": "safari_ios",
             "status": "shipped",
             "source": "bcd",
-            "guess": true,
-            "partial": true,
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
             "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
           },
           {
             "ua": "safari_ios",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "href": "https://caniuse.com/#feat=picture"
           },
           {
             "ua": "safari_ios",
@@ -15252,15 +19943,21 @@
             "ua": "samsunginternet_android",
             "status": "shipped",
             "source": "bcd",
-            "guess": true,
-            "partial": true,
+            "href": "https://developer.mozilla.org/docs/Web/HTML/Element/picture",
             "selected": true
           },
           {
             "ua": "samsunginternet_android",
             "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby"
+            "href": "https://caniuse.com/#feat=picture"
           },
           {
             "ua": "samsunginternet_android",
@@ -15273,7 +19970,7 @@
             "ua": "uc_android",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=ruby",
+            "href": "https://caniuse.com/#feat=picture",
             "selected": true
           },
           {
@@ -15282,6 +19979,1196 @@
             "source": "caniuse",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "href": "https://webkit.org/status/#feature-picture-element",
+            "selected": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true
+          }
+        ]
+      },
+      "srcset": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/4644337115725824",
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/4644337115725824",
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset"
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/4644337115725824",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/4644337115725824"
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "chrome",
+            "href": "https://www.chromestatus.com/feature/4644337115725824"
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=srcset",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "href": "https://webkit.org/status/#feature-srcset-w-descriptor-and-related-sizes-attribute",
+            "selected": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true
+          }
+        ]
+      },
+      "timeupdate": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "video": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "notes": [
+              "Ignores the `autoplay` attribute by default, though autoplay behavior can be [enabled by users](https://webkit.org/blog/7734/auto-play-policy-changes-for-macos/)"
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=video",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          }
+        ]
+      },
+      "webworkers": {
+        "support": [
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "baidu_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers"
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers"
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "chrome_android",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "edge",
+            "status": "shipped",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "firefox",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "firefox_android",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers"
+          },
+          {
+            "ua": "opera",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "qq_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "notsupported",
+            "source": "chrome",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "notsupported",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true,
+            "selected": true
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers"
+          },
+          {
+            "ua": "samsunginternet_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=webworkers",
+            "selected": true
+          },
+          {
+            "ua": "uc_android",
+            "status": "shipped",
+            "source": "caniuse",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "webkit",
+            "status": "shipped",
+            "source": "webkit",
+            "guess": true,
+            "partial": true,
+            "selected": true
           }
         ]
       }
