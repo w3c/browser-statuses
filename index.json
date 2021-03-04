@@ -24832,7 +24832,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5685965186138112",
         "selected": true
@@ -29422,9 +29422,6 @@
       {
         "ua": "chrome",
         "status": "shipped",
-        "notes": [
-          "No support for BYOB (\"bring your own buffer\") stream readers."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams"
       },
@@ -30298,14 +30295,14 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5995832180473856",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5995832180473856",
         "selected": true
@@ -31427,7 +31424,7 @@
     "support": [
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6261030015467520",
         "selected": true
@@ -31453,7 +31450,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "notes": [
           "Only supported on Windows and Chrome OS"
         ],
@@ -31462,25 +31459,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
-        "notes": [
-          "Only supported on Windows and Chrome OS"
-        ],
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=web-share"
-      },
-      {
-        "ua": "chrome",
-        "status": "experimental",
-        "notes": [
-          "Only supported on Windows and Chrome OS"
-        ],
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=web-share"
-      },
-      {
-        "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5668769141620736",
         "selected": true
@@ -31569,7 +31548,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5662315307335680",
         "selected": true
@@ -32576,7 +32555,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5172464636133376",
         "selected": true
