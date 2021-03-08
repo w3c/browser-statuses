@@ -1899,13 +1899,7 @@
           "Disabled by default in Firefox 10.0, but can be enabled setting the preference <code>dom.battery.enabled</code> to <code>true</code>. Starting with Firefox 11.0, <code>mozBattery</code> is enabled by default. The Battery API is currently supported on Android, Windows, and Linux with UPower installed. Support for macOS is available starting with Gecko 18.0 (Firefox 18.0 / Thunderbird 18.0 / SeaMonkey 2.15). Firefox also provides support for the deprecated <a href='https://developer.mozilla.org/docs/Web/API/Navigator/battery'><code>navigator.battery</code></a>."
         ],
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BatteryManager"
-      },
-      {
-        "ua": "firefox_android",
-        "status": "shipped",
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=battery-status",
+        "href": "https://developer.mozilla.org/docs/Web/API/BatteryManager",
         "selected": true
       },
       {
@@ -24839,7 +24833,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5685965186138112",
         "selected": true
@@ -25656,6 +25650,13 @@
         "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6753200417800192"
+      },
+      {
+        "ua": "firefox_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=pointerlock",
+        "selected": true
       },
       {
         "ua": "opera",
@@ -29475,9 +29476,6 @@
       {
         "ua": "edge",
         "status": "shipped",
-        "notes": [
-          "No support for BYOB (\"bring your own buffer\") stream readers."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams"
       },
@@ -29531,11 +29529,10 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
-        "flag": true,
+        "status": "shipped",
         "notes": [
-          "Disabled by default behind the `javascript.options.streams` and `dom.streams.enabled` flags. ",
-          "No support for `WritableStream`."
+          "No support for `WritableStream`.",
+          "No support for the `pipeTo` or `pipeThrough` methods"
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams",
@@ -29711,11 +29708,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=streams",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -29875,11 +29871,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=streams",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -30033,11 +30028,10 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=streams",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -30309,7 +30303,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5995832180473856",
         "selected": true
@@ -31488,7 +31482,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5668769141620736",
         "selected": true
@@ -31562,7 +31556,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5662315307335680",
         "selected": true
@@ -32562,7 +32556,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5172464636133376",
         "selected": true
