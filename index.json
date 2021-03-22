@@ -257,16 +257,6 @@
       },
       {
         "ua": "firefox",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Firefox is experimenting with desktop support behind the `browser.ssb.enabled` flag."
-        ],
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=web-app-manifest"
-      },
-      {
-        "ua": "firefox",
         "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6488656873259008",
@@ -430,18 +420,10 @@
           },
           {
             "ua": "firefox",
-            "status": "experimental",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=web-app-manifest",
-            "guess": true,
-            "flag": true,
-            "selected": true
-          },
-          {
-            "ua": "firefox",
             "status": "notsupported",
             "source": "chrome",
-            "href": "https://www.chromestatus.com/feature/5651543017652224"
+            "href": "https://www.chromestatus.com/feature/5651543017652224",
+            "selected": true
           },
           {
             "ua": "firefox",
@@ -590,14 +572,6 @@
           },
           {
             "ua": "firefox",
-            "status": "experimental",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=web-app-manifest",
-            "guess": true,
-            "flag": true
-          },
-          {
-            "ua": "firefox",
             "status": "shipped",
             "source": "chrome",
             "href": "https://www.chromestatus.com/feature/5674968658477056",
@@ -732,18 +706,10 @@
           },
           {
             "ua": "firefox",
-            "status": "experimental",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=web-app-manifest",
-            "guess": true,
-            "flag": true,
-            "selected": true
-          },
-          {
-            "ua": "firefox",
             "status": "notsupported",
             "source": "chrome",
-            "href": "https://www.chromestatus.com/feature/6690807302062080"
+            "href": "https://www.chromestatus.com/feature/6690807302062080",
+            "selected": true
           },
           {
             "ua": "firefox",
@@ -881,18 +847,10 @@
           },
           {
             "ua": "firefox",
-            "status": "experimental",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=web-app-manifest",
-            "guess": true,
-            "flag": true,
-            "selected": true
-          },
-          {
-            "ua": "firefox",
             "status": "notsupported",
             "source": "chrome",
-            "href": "https://www.chromestatus.com/feature/4754986680451072"
+            "href": "https://www.chromestatus.com/feature/4754986680451072",
+            "selected": true
           },
           {
             "ua": "firefox",
@@ -1038,14 +996,6 @@
             "source": "chrome",
             "href": "https://www.chromestatus.com/feature/6488656873259008",
             "guess": true
-          },
-          {
-            "ua": "firefox",
-            "status": "experimental",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=web-app-manifest",
-            "guess": true,
-            "flag": true
           },
           {
             "ua": "firefox",
