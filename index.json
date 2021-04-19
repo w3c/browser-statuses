@@ -160,6 +160,17 @@
         "selected": true
       },
       {
+        "ua": "opera",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Available by enabling the \"Generic Sensor Extra Classes\" experimental flag in `about:flags`"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=ambient-light",
+        "selected": true
+      },
+      {
         "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
@@ -13002,6 +13013,17 @@
         "selected": true
       },
       {
+        "ua": "opera",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Can be enabled in some Chromium browsers on Windows and MacOS with the `enable-unsafe-webgpu` flag."
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=webgpu",
+        "selected": true
+      },
+      {
         "ua": "safari",
         "status": "experimental",
         "flag": true,
@@ -25326,9 +25348,6 @@
       {
         "ua": "opera",
         "status": "shipped",
-        "notes": [
-          "Partial support in Opera refers to the fact that Opera provides an equivalent proprietary feature named Video Pop Out, which allows users to use Picture-in-Picture mode for all playing videos."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=picture-in-picture"
       },
@@ -26121,6 +26140,9 @@
       {
         "ua": "opera",
         "status": "shipped",
+        "notes": [
+          "The default policy has been changed from `no-referrer-when-downgrade` to `strict-origin-when-cross-origin.` See [the revised spec.](https://github.com/w3c/webappsec-referrer-policy/pull/142)"
+        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=referrer-policy",
         "selected": true
