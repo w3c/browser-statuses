@@ -2401,6 +2401,12 @@
         "selected": true
       },
       {
+        "ua": "safari_ios",
+        "status": "shipped",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=credential-management"
+      },
+      {
         "ua": "samsunginternet_android",
         "status": "shipped",
         "source": "bcd",
@@ -2603,6 +2609,13 @@
             "source": "bcd",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=credential-management",
+            "guess": true
           },
           {
             "ua": "samsunginternet_android",
@@ -2811,6 +2824,13 @@
             "source": "bcd",
             "guess": true,
             "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=credential-management",
+            "guess": true
           },
           {
             "ua": "samsunginternet_android",
@@ -32195,9 +32215,6 @@
       {
         "ua": "safari_ios",
         "status": "shipped",
-        "notes": [
-          "Experimental feature not yet enabled in WKWebView-based browsers including Chrome for iOS."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=webauthn",
         "selected": true
