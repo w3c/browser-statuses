@@ -8056,7 +8056,17 @@
           "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
         ],
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
+        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
+      },
+      {
+        "ua": "safari",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Can be enabled in the \"Experimental Features\" developer menu"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-overscroll-behavior",
         "selected": true
       },
       {
@@ -13786,7 +13796,7 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
         "guess": true,
         "features": [
@@ -14251,7 +14261,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -14584,7 +14594,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -14919,7 +14929,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -15277,7 +15287,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -15577,7 +15587,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -15922,7 +15932,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -16264,7 +16274,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -16637,7 +16647,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -16994,7 +17004,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -17368,7 +17378,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -17714,7 +17724,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -18031,7 +18041,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "notes": [
               "Partial support in macOS Safari refers to not supporting the `week` and `month` input type"
             ],
@@ -18041,7 +18051,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -18332,7 +18342,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -18614,7 +18624,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -18896,7 +18906,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -19244,7 +19254,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -19532,7 +19542,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -19880,7 +19890,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -20210,7 +20220,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -20507,7 +20517,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -20795,7 +20805,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -21080,7 +21090,7 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
@@ -23614,11 +23624,7 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Can be enabled using the Develop > Experimental Features menu."
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=mediarecorder",
         "selected": true
@@ -28211,7 +28217,7 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "notes": [
           "STP 119 includes prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`."
         ],
@@ -29558,8 +29564,7 @@
         "ua": "safari",
         "status": "shipped",
         "notes": [
-          "No support for BYOB (\"bring your own buffer\") stream readers.",
-          "No support for `WritableStream`."
+          "No support for BYOB (\"bring your own buffer\") stream readers."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams",
@@ -31768,17 +31773,16 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
-        "prefix": true,
+        "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=audio-api"
+        "href": "https://caniuse.com/#feat=audio-api",
+        "selected": true
       },
       {
         "ua": "safari",
         "status": "shipped",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6261718720184320",
-        "selected": true
+        "href": "https://www.chromestatus.com/feature/6261718720184320"
       },
       {
         "ua": "safari",
@@ -32053,11 +32057,10 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=audio-api",
-            "guess": true,
-            "prefix": true
+            "guess": true
           },
           {
             "ua": "safari",
