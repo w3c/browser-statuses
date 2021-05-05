@@ -12985,14 +12985,8 @@
       },
       {
         "ua": "chrome",
-        "status": "indevelopment",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6213121689518080",
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "experimental",
+        "flag": true,
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6213121689518080",
         "selected": true
@@ -13009,7 +13003,8 @@
       },
       {
         "ua": "edge",
-        "status": "indevelopment",
+        "status": "experimental",
+        "flag": true,
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6213121689518080",
         "selected": true
@@ -23643,11 +23638,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Can be enabled using the Advanced > Experimental Features menu."
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=mediarecorder",
         "selected": true
@@ -28217,9 +28208,10 @@
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "experimental",
+        "prefix": true,
         "notes": [
-          "STP 119 includes prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`."
+          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=speech-recognition",
@@ -28230,6 +28222,17 @@
         "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5908775487668224"
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "prefix": true,
+        "notes": [
+          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled."
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=speech-recognition",
+        "selected": true
       },
       {
         "ua": "samsunginternet_android",
@@ -31806,8 +31809,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
-        "prefix": true,
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=audio-api",
         "selected": true
@@ -32092,11 +32094,10 @@
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=audio-api",
-            "guess": true,
-            "prefix": true
+            "guess": true
           },
           {
             "ua": "samsunginternet_android",
