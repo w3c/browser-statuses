@@ -11786,40 +11786,37 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true,
         "features": [
           "hdcp-detection",
           "encryption-scheme"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true,
         "features": [
           "hdcp-detection",
           "encryption-scheme"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true,
         "features": [
           "hdcp-detection",
           "encryption-scheme"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -11853,28 +11850,25 @@
         "support": [
           {
             "ua": "chrome",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
           {
             "ua": "chrome_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
@@ -11907,10 +11901,9 @@
           },
           {
             "ua": "chrome",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -11922,10 +11915,9 @@
           },
           {
             "ua": "chrome_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -11937,10 +11929,9 @@
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -11977,50 +11968,44 @@
         "support": [
           {
             "ua": "chrome",
-            "status": "experimental",
-            "flag": true,
+            "status": "shipped",
             "source": "chrome",
             "href": "https://www.chromestatus.com/feature/5184416120832000",
             "selected": true
           },
           {
             "ua": "chrome",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
             "ua": "chrome_android",
-            "status": "experimental",
-            "flag": true,
+            "status": "shipped",
             "source": "chrome",
             "href": "https://www.chromestatus.com/feature/5184416120832000",
             "selected": true
           },
           {
             "ua": "chrome_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
-            "flag": true,
+            "status": "shipped",
             "source": "chrome",
             "href": "https://www.chromestatus.com/feature/5184416120832000",
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -12057,28 +12042,25 @@
         "support": [
           {
             "ua": "chrome",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
           {
             "ua": "chrome_android",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "chrome",
             "guess": true,
-            "flag": true,
             "partial": true,
             "selected": true
           },
@@ -28211,7 +28193,7 @@
         "status": "experimental",
         "prefix": true,
         "notes": [
-          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled."
+          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled. [Not available in SafariViewController and web apps added to Home Screen](https://bugs.webkit.org/show_bug.cgi?id=225298#c3)."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=speech-recognition",
@@ -28228,7 +28210,7 @@
         "status": "experimental",
         "prefix": true,
         "notes": [
-          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled."
+          "Safari 14.1 and TP 119+ include prefixed support for `webkitSpeechRecognition` without support for `SpeechGrammar` or `SpeechGrammarList`. Siri needs to be enabled. [Not available in SafariViewController and web apps added to Home Screen](https://bugs.webkit.org/show_bug.cgi?id=225298#c3)."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=speech-recognition",
