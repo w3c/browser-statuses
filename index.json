@@ -11506,9 +11506,6 @@
           {
             "ua": "safari_ios",
             "status": "shipped",
-            "notes": [
-              "Certain CSS selectors do not work (`:host > .local-child`) and styling slotted content (`::slotted`) is buggy."
-            ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=shadowdomv1",
             "selected": true
