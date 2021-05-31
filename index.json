@@ -14337,7 +14337,7 @@
             "ua": "baidu_android",
             "status": "shipped",
             "notes": [
-              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
+              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\" see [WebKit bug 182671](https://bugs.webkit.org/show_bug.cgi?id=182671)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=custom-elementsv1",
@@ -14536,7 +14536,7 @@
             "ua": "qq_android",
             "status": "shipped",
             "notes": [
-              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
+              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\" see [WebKit bug 182671](https://bugs.webkit.org/show_bug.cgi?id=182671)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=custom-elementsv1",
@@ -14560,7 +14560,7 @@
             "ua": "safari",
             "status": "shipped",
             "notes": [
-              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
+              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\" see [WebKit bug 182671](https://bugs.webkit.org/show_bug.cgi?id=182671)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=custom-elementsv1",
@@ -14597,7 +14597,7 @@
             "ua": "safari_ios",
             "status": "shipped",
             "notes": [
-              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\"."
+              "Supports \"Autonomous custom elements\" but not \"Customized built-in elements\" see [WebKit bug 182671](https://bugs.webkit.org/show_bug.cgi?id=182671)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=custom-elementsv1",
