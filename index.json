@@ -29525,9 +29525,6 @@
       {
         "ua": "opera",
         "status": "shipped",
-        "notes": [
-          "No support for BYOB (\"bring your own buffer\") stream readers."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams",
         "selected": true
