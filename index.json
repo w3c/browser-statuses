@@ -6560,7 +6560,7 @@
             "status": "shipped",
             "notes": [
               "Requires MacOS 10.13+",
-              "Does not support OpenType-CFF2 fonts"
+              "OpenType-CFF2 support requires MacOS 10.15+"
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=variable-fonts"
