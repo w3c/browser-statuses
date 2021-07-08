@@ -32843,27 +32843,6 @@
     "shortname": "webrtc-svc",
     "support": [
       {
-        "ua": "chrome",
-        "status": "indevelopment",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5769626174619648",
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "indevelopment",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5769626174619648",
-        "selected": true
-      },
-      {
-        "ua": "edge",
-        "status": "indevelopment",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5769626174619648",
-        "selected": true
-      },
-      {
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
