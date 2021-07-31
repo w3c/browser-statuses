@@ -12965,7 +12965,6 @@
       {
         "ua": "chrome",
         "status": "experimental",
-        "flag": true,
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6213121689518080",
         "selected": true
@@ -12983,7 +12982,6 @@
       {
         "ua": "edge",
         "status": "experimental",
-        "flag": true,
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6213121689518080",
         "selected": true
