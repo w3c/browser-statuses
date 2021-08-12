@@ -2958,9 +2958,6 @@
       {
         "ua": "firefox",
         "status": "shipped",
-        "notes": [
-          "Firefox 45+ is missing the plugin-types directive."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=contentsecuritypolicy2"
       },
@@ -2984,9 +2981,6 @@
       {
         "ua": "firefox_android",
         "status": "shipped",
-        "notes": [
-          "Firefox 38 on Android is missing the child-src directive."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=contentsecuritypolicy2"
       },
