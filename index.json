@@ -30728,7 +30728,7 @@
       },
       {
         "ua": "webkit",
-        "status": "experimental",
+        "status": "shipped",
         "source": "webkit",
         "href": "https://webkit.org/status/#feature-visual-viewport-api",
         "selected": true
@@ -31809,7 +31809,6 @@
       {
         "ua": "webkit",
         "status": "shipped",
-        "partial": true,
         "source": "webkit",
         "href": "https://webkit.org/status/#feature-web-audio",
         "selected": true
@@ -32102,7 +32101,6 @@
             "source": "webkit",
             "href": "https://webkit.org/status/#feature-web-audio",
             "guess": true,
-            "partial": true,
             "selected": true
           }
         ]
