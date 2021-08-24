@@ -21187,21 +21187,21 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
