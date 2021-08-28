@@ -21193,21 +21193,21 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
