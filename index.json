@@ -12649,16 +12649,6 @@
         "selected": true
       },
       {
-        "ua": "safari_ios",
-        "status": "shipped",
-        "notes": [
-          "Partial support refers to supporting only iPad, not iPhone. Shows an overlay button which can not be disabled."
-        ],
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=fullscreen",
-        "selected": true
-      },
-      {
         "ua": "samsunginternet_android",
         "status": "shipped",
         "source": "caniuse",
