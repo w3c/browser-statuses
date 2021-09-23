@@ -12947,7 +12947,8 @@
         "status": "experimental",
         "flag": true,
         "notes": [
-          "Can be enabled in some Chromium browsers on Windows and MacOS with the `enable-unsafe-webgpu` flag."
+          "Can be enabled in some Chromium browsers (on Windows, MacOS, Linux) with the `enable-unsafe-webgpu` flag.",
+          "Part of an origin trial."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=webgpu"
@@ -12964,7 +12965,7 @@
         "status": "experimental",
         "flag": true,
         "notes": [
-          "Can be enabled in some Chromium browsers on Windows and MacOS with the `enable-unsafe-webgpu` flag."
+          "Can be enabled in some Chromium browsers (on Windows, MacOS, Linux) with the `enable-unsafe-webgpu` flag."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=webgpu"
@@ -13009,7 +13010,7 @@
         "status": "experimental",
         "flag": true,
         "notes": [
-          "Can be enabled in some Chromium browsers on Windows and MacOS with the `enable-unsafe-webgpu` flag."
+          "Can be enabled in some Chromium browsers (on Windows, MacOS, Linux) with the `enable-unsafe-webgpu` flag."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=webgpu",
@@ -21183,14 +21184,14 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
@@ -31224,14 +31225,14 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5669293909868544",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5669293909868544",
         "selected": true
