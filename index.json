@@ -18006,7 +18006,7 @@
             "ua": "safari",
             "status": "shipped",
             "notes": [
-              "Partial support in macOS Safari refers to not supporting the `week` and `month` input type"
+              "Partial support refers to not supporting the `week` and `month` input type"
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=input-datetime",
