@@ -6657,9 +6657,6 @@
           {
             "ua": "safari",
             "status": "shipped",
-            "notes": [
-              "OpenType-CFF2 support requires MacOS 10.15+"
-            ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=variable-fonts",
             "selected": true
@@ -8056,17 +8053,7 @@
           "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
         ],
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
-      },
-      {
-        "ua": "safari",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Can be enabled in the \"Experimental Features\" developer menu"
-        ],
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=css-overscroll-behavior",
+        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
         "selected": true
       },
       {
@@ -12965,7 +12952,8 @@
         "status": "experimental",
         "flag": true,
         "notes": [
-          "Can be enabled in some Chromium browsers (on Windows, MacOS, Linux) with the `enable-unsafe-webgpu` flag."
+          "Can be enabled in some Chromium browsers (on Windows, MacOS, Linux) with the `enable-unsafe-webgpu` flag.",
+          "Part of an origin trial."
         ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=webgpu"
@@ -21198,7 +21186,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/4590256452009984",
         "selected": true
@@ -31077,9 +31065,6 @@
       {
         "ua": "safari",
         "status": "shipped",
-        "notes": [
-          "Does not support [composite modes](https://drafts.csswg.org/web-animations-1/#effect-composition)"
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=web-animation",
         "selected": true
@@ -31239,7 +31224,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5669293909868544",
         "selected": true
