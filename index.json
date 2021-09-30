@@ -29533,9 +29533,6 @@
       {
         "ua": "samsunginternet_android",
         "status": "shipped",
-        "notes": [
-          "No support for BYOB (\"bring your own buffer\") stream readers."
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=streams",
         "selected": true
@@ -30243,7 +30240,6 @@
       },
       {
         "ua": "firefox",
-        "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5995832180473856",
         "selected": true
