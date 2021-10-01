@@ -33064,10 +33064,20 @@
       },
       {
         "ua": "safari",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Can be enabled in Safari with the `WebXR Device API` experimental feature."
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=webxr",
+        "selected": true
+      },
+      {
+        "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5680169905815552",
-        "selected": true
+        "href": "https://www.chromestatus.com/feature/5680169905815552"
       },
       {
         "ua": "samsunginternet_android",
