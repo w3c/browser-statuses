@@ -17898,7 +17898,7 @@
             "ua": "firefox",
             "status": "shipped",
             "notes": [
-              "Partial support refers to supporting `date` and `time` input types, but not `datetime-local`, `month` or `week`."
+              "Partial support refers to not supporting the `week` and `month` input type"
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=input-datetime",
@@ -26164,7 +26164,7 @@
       },
       {
         "ua": "safari",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5778318691401728",
         "selected": true
