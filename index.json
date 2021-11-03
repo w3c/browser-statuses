@@ -10324,12 +10324,14 @@
       },
       {
         "ua": "safari_ios",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
         "guess": true,
         "features": [
+          "scroll-behavior",
           "getBoundingClientRect"
         ],
+        "flag": true,
         "partial": true
       },
       {
@@ -10618,9 +10620,20 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "experimental",
+            "flag": true,
+            "notes": [
+              "Supported in Safari via the \"CSSOM View Smooth Scrolling\" Experimental Features flag."
+            ],
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-scroll-behavior"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
@@ -10865,9 +10878,10 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "experimental",
             "source": "caniuse",
             "guess": true,
+            "flag": true,
             "partial": true
           },
           {
