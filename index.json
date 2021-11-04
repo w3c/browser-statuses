@@ -26001,10 +26001,20 @@
       },
       {
         "ua": "safari",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Partial implementation can be enabled via \"Push API\" in the Experimental Features menu"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=push-api",
+        "selected": true
+      },
+      {
+        "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5416033485586432",
-        "selected": true
+        "href": "https://www.chromestatus.com/feature/5416033485586432"
       },
       {
         "ua": "samsunginternet_android",
