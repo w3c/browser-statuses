@@ -10398,7 +10398,7 @@
             "ua": "chrome",
             "status": "shipped",
             "notes": [
-              "Partial support refers to support everything except of `Element.scrollIntoView()` and not together with pinch viewport."
+              "Partial support refers to support everything except of [`Element.scrollIntoView()`](https://caniuse.com/scrollintoview) and [not together with pinch viewport](https://bugs.chromium.org/p/chromium/issues/detail?id=434497)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior"
@@ -10455,7 +10455,7 @@
             "ua": "edge",
             "status": "shipped",
             "notes": [
-              "Partial support refers to support everything except of `Element.scrollIntoView()` and not together with pinch viewport."
+              "Partial support refers to support everything except of [`Element.scrollIntoView()`](https://caniuse.com/scrollintoview) and [not together with pinch viewport](https://bugs.chromium.org/p/chromium/issues/detail?id=434497)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior"
@@ -10539,7 +10539,7 @@
             "ua": "opera",
             "status": "shipped",
             "notes": [
-              "Partial support refers to support everything except of `Element.scrollIntoView()` and not together with pinch viewport."
+              "Partial support refers to support everything except of [`Element.scrollIntoView()`](https://caniuse.com/scrollintoview) and [not together with pinch viewport](https://bugs.chromium.org/p/chromium/issues/detail?id=434497)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior"
@@ -10555,7 +10555,7 @@
             "ua": "qq_android",
             "status": "shipped",
             "notes": [
-              "Partial support refers to support everything except of `Element.scrollIntoView()` and not together with pinch viewport."
+              "Partial support refers to support everything except of [`Element.scrollIntoView()`](https://caniuse.com/scrollintoview) and [not together with pinch viewport](https://bugs.chromium.org/p/chromium/issues/detail?id=434497)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior",
@@ -10667,7 +10667,7 @@
             "ua": "uc_android",
             "status": "shipped",
             "notes": [
-              "Partial support refers to support everything except of `Element.scrollIntoView()` and not together with pinch viewport."
+              "Partial support refers to support everything except of [`Element.scrollIntoView()`](https://caniuse.com/scrollintoview) and [not together with pinch viewport](https://bugs.chromium.org/p/chromium/issues/detail?id=434497)."
             ],
             "source": "caniuse",
             "href": "https://caniuse.com/#feat=css-scroll-behavior",
@@ -25199,7 +25199,7 @@
     "support": [
       {
         "ua": "firefox",
-        "status": "consideration",
+        "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5707368532803584",
         "selected": true
@@ -25218,7 +25218,7 @@
     "support": [
       {
         "ua": "firefox",
-        "status": "consideration",
+        "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5707368532803584",
         "selected": true
