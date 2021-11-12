@@ -26093,6 +26093,9 @@
       {
         "ua": "firefox",
         "status": "shipped",
+        "notes": [
+          "The default policy has been changed from `no-referrer-when-downgrade` to `strict-origin-when-cross-origin.` See [the revised spec.](https://github.com/w3c/webappsec-referrer-policy/pull/142)"
+        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=referrer-policy",
         "selected": true
