@@ -8053,7 +8053,17 @@
           "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
         ],
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
+        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
+      },
+      {
+        "ua": "safari",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Can be enabled in the \"Experimental Features\" developer menu"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-overscroll-behavior",
         "selected": true
       },
       {
@@ -8069,7 +8079,17 @@
           "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
         ],
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
+        "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior"
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Can be enabled in the \"Experimental Features\" developer menu"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-overscroll-behavior",
         "selected": true
       },
       {
