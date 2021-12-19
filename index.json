@@ -5064,10 +5064,20 @@
       },
       {
         "ua": "safari",
+        "status": "experimental",
+        "flag": true,
+        "notes": [
+          "Supported in Safari TP by enabling \"CSS Containment\" under the \"Experimental Features\" menu"
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-containment",
+        "selected": true
+      },
+      {
+        "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6522186978295808",
-        "selected": true
+        "href": "https://www.chromestatus.com/feature/6522186978295808"
       },
       {
         "ua": "samsunginternet_android",
