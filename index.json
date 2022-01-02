@@ -12599,12 +12599,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
-        "prefix": true,
-        "notes": [
-          "Partial support refers to not supporting `::backdrop`, and supporting the old `:full-screen` syntax rather than the standard `:fullscreen`.",
-          "Partial support refers to not returning a Promise, as specified in the latest version of the spec."
-        ],
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=fullscreen",
         "selected": true
