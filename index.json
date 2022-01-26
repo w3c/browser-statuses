@@ -5065,10 +5065,6 @@
       {
         "ua": "safari",
         "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Supported in Safari TP by enabling \"CSS Containment\" under the \"Experimental Features\" menu"
-        ],
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=css-containment",
         "selected": true
