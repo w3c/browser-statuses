@@ -5071,9 +5071,22 @@
       },
       {
         "ua": "safari",
+        "status": "experimental",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-containment"
+      },
+      {
+        "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6522186978295808"
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=css-containment",
+        "selected": true
       },
       {
         "ua": "samsunginternet_android",
@@ -12668,6 +12681,16 @@
         "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5259513871466496",
+        "selected": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "shipped",
+        "notes": [
+          "Partial support refers to supporting only iPad, not iPhone. Shows an overlay button which can not be disabled."
+        ],
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=fullscreen",
         "selected": true
       },
       {
