@@ -25881,8 +25881,28 @@
     "shortname": "priority-hints",
     "support": [
       {
+        "ua": "chrome",
+        "status": "experimental",
+        "source": "chrome",
+        "href": "https://www.chromestatus.com/feature/5273474901737472",
+        "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "experimental",
+        "source": "chrome",
+        "href": "https://www.chromestatus.com/feature/5273474901737472",
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "experimental",
+        "source": "chrome",
+        "href": "https://www.chromestatus.com/feature/5273474901737472",
+        "selected": true
+      },
+      {
         "ua": "firefox",
-        "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5273474901737472",
         "selected": true
