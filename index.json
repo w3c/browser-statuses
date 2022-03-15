@@ -5043,16 +5043,10 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=css-containment",
         "selected": true
-      },
-      {
-        "ua": "safari",
-        "status": "experimental",
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=css-containment"
       },
       {
         "ua": "safari",
@@ -5062,7 +5056,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=css-containment",
         "selected": true
@@ -10318,14 +10312,13 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
         "guess": true,
         "features": [
           "scroll-behavior",
           "getBoundingClientRect"
         ],
-        "flag": true,
         "partial": true
       },
       {
@@ -10342,14 +10335,13 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
         "guess": true,
         "features": [
           "scroll-behavior",
           "getBoundingClientRect"
         ],
-        "flag": true,
         "partial": true
       },
       {
@@ -10591,33 +10583,28 @@
             "status": "experimental",
             "flag": true,
             "source": "bcd",
-            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
+            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
+          },
+          {
+            "ua": "safari",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-scroll-behavior",
             "selected": true
           },
           {
             "ua": "safari",
-            "status": "experimental",
-            "source": "bcd",
-            "guess": true,
-            "flag": true,
-            "partial": true
-          },
-          {
-            "ua": "safari",
-            "status": "experimental",
-            "flag": true,
-            "notes": [
-              "Supported in Safari via the \"CSSOM View Smooth Scrolling\" Experimental Features flag."
-            ],
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=css-scroll-behavior"
-          },
-          {
-            "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -10625,33 +10612,28 @@
             "status": "experimental",
             "flag": true,
             "source": "bcd",
-            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
+            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
+          },
+          {
+            "ua": "safari_ios",
+            "status": "experimental",
+            "source": "bcd",
+            "guess": true,
+            "flag": true,
+            "partial": true
+          },
+          {
+            "ua": "safari_ios",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-scroll-behavior",
             "selected": true
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
-            "source": "bcd",
-            "guess": true,
-            "flag": true,
-            "partial": true
-          },
-          {
-            "ua": "safari_ios",
-            "status": "experimental",
-            "flag": true,
-            "notes": [
-              "Supported in Safari via the \"CSSOM View Smooth Scrolling\" Experimental Features flag."
-            ],
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=css-scroll-behavior"
-          },
-          {
-            "ua": "safari_ios",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -10873,10 +10855,9 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -10896,10 +10877,9 @@
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -12648,7 +12628,6 @@
         "status": "experimental",
         "prefix": true,
         "notes": [
-          "Partial support refers to not supporting `::backdrop`, and supporting the old `:full-screen` syntax rather than the standard `:fullscreen`.",
           "Partial support refers to not returning a Promise, as specified in the latest version of the spec."
         ],
         "source": "caniuse",
