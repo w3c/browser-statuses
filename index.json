@@ -12953,13 +12953,7 @@
           "Part of an origin trial."
         ],
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=webgpu"
-      },
-      {
-        "ua": "chrome",
-        "status": "experimental",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6213121689518080",
+        "href": "https://caniuse.com/#feat=webgpu",
         "selected": true
       },
       {
@@ -12971,13 +12965,7 @@
           "Part of an origin trial."
         ],
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=webgpu"
-      },
-      {
-        "ua": "edge",
-        "status": "experimental",
-        "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6213121689518080",
+        "href": "https://caniuse.com/#feat=webgpu",
         "selected": true
       },
       {
