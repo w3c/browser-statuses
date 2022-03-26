@@ -1745,6 +1745,13 @@
         "selected": true
       },
       {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "chrome",
+        "href": "https://www.chromestatus.com/feature/6068482055602176",
+        "selected": true
+      },
+      {
         "ua": "edge",
         "status": "shipped",
         "source": "chrome",
