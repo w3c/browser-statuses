@@ -3,7 +3,7 @@
     "caniuse": "audio-api",
     "chrome": 6261718720184320,
     "edge": "Web Audio API",
-    "webkit": "feature-web-audio"
+    "webkit": "specification-web-audio"
   },
   "features": {
     "worklet": {

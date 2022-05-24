@@ -3,6 +3,6 @@
     "caniuse": "web-share",
     "chrome": 5668769141620736,
     "edge": "Web Share API",
-    "webkit": "feature-web-share"
+    "webkit": "specification-web-share"
   }
 }

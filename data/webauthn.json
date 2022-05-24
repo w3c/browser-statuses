@@ -3,6 +3,6 @@
     "caniuse": "webauthn",
     "chrome": 5669923372138496,
     "edge": "Web Authentication API",
-    "webkit": "feature-web-authentication"
+    "webkit": "specification-web-authentication"
   }
 }
