@@ -56,6 +56,7 @@ function parseStatus(chromestatus) {
     case 'Public support':
     case 'Positive':
     case 'Under consideration':
+    case 'Worth prototyping':
       res.status = 'consideration';
       break;
     case 'No signal':
@@ -70,6 +71,7 @@ function parseStatus(chromestatus) {
     case 'Deprecated':
     case 'Defer':
     case 'Harmful':
+    case 'Non-harmful':
       res.status = 'notsupported';
       break;
     default:
