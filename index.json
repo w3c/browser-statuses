@@ -12411,6 +12411,7 @@
       },
       {
         "ua": "firefox",
+        "status": "consideration",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/6284708426022912",
         "selected": true
@@ -23894,13 +23895,6 @@
         "selected": true
       },
       {
-        "ua": "firefox_android",
-        "status": "shipped",
-        "source": "caniuse",
-        "href": "https://caniuse.com/#feat=netinfo",
-        "selected": true
-      },
-      {
         "ua": "opera",
         "status": "shipped",
         "notes": [
@@ -24765,7 +24759,7 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-payment-request",
+        "href": "https://webkit.org/status/#specification-payment-request",
         "selected": true
       }
     ]
@@ -25089,10 +25083,16 @@
       },
       {
         "ua": "safari",
+        "status": "experimental",
+        "source": "caniuse",
+        "href": "https://caniuse.com/#feat=permissions-api",
+        "selected": true
+      },
+      {
+        "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/6376494003650560",
-        "selected": true
+        "href": "https://www.chromestatus.com/feature/6376494003650560"
       },
       {
         "ua": "samsunginternet_android",
@@ -25850,27 +25850,28 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5273474901737472",
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5273474901737472",
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5273474901737472",
         "selected": true
       },
       {
         "ua": "firefox",
+        "status": "consideration",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5273474901737472",
         "selected": true
@@ -29476,7 +29477,7 @@
         "ua": "firefox",
         "status": "shipped",
         "notes": [
-          "No support for `WritableStream`.",
+          "No support for BYOB (\"bring your own buffer\") stream readers.",
           "No support for the `pipeTo` or `pipeThrough` methods"
         ],
         "source": "caniuse",
@@ -29505,7 +29506,7 @@
         "ua": "firefox_android",
         "status": "shipped",
         "notes": [
-          "No support for `WritableStream`.",
+          "No support for BYOB (\"bring your own buffer\") stream readers.",
           "No support for the `pipeTo` or `pipeThrough` methods"
         ],
         "source": "caniuse",
@@ -30277,6 +30278,7 @@
       },
       {
         "ua": "firefox",
+        "status": "notsupported",
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5995832180473856",
         "selected": true
@@ -30637,7 +30639,7 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-vibration-api",
+        "href": "https://webkit.org/status/#specification-vibration-api",
         "selected": true
       }
     ]
@@ -30724,7 +30726,7 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-visual-viewport-api",
+        "href": "https://webkit.org/status/#specification-visual-viewport-api",
         "selected": true
       }
     ]
@@ -31233,7 +31235,7 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-bluetooth",
+        "href": "https://webkit.org/status/#specification-web-bluetooth",
         "selected": true
       }
     ]
@@ -31495,7 +31497,7 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-share",
+        "href": "https://webkit.org/status/#specification-web-share",
         "selected": true
       }
     ]
@@ -31801,7 +31803,7 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-audio",
+        "href": "https://webkit.org/status/#specification-web-audio",
         "selected": true
       }
     ],
@@ -32090,7 +32092,7 @@
             "ua": "webkit",
             "status": "shipped",
             "source": "webkit",
-            "href": "https://webkit.org/status/#feature-web-audio",
+            "href": "https://webkit.org/status/#specification-web-audio",
             "guess": true,
             "selected": true
           }
@@ -32184,7 +32186,7 @@
         "ua": "webkit",
         "status": "shipped",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-web-authentication",
+        "href": "https://webkit.org/status/#specification-web-authentication",
         "selected": true
       }
     ]
@@ -32920,7 +32922,7 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "webkit",
-        "href": "https://webkit.org/status/#feature-webusb",
+        "href": "https://webkit.org/status/#specification-webusb",
         "selected": true
       }
     ]
