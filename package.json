@@ -22,14 +22,14 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@mdn/browser-compat-data": "^3.1.0",
+    "@mdn/browser-compat-data": "^3.3.14",
     "abort-controller": "^3.0.0",
-    "ajv": "^7.1.0",
-    "ajv-formats": "^1.5.1",
-    "browser-specs": "^1.28.0",
+    "ajv": "^8.11.0",
+    "ajv-formats": "^2.1.1",
     "es-main": "^1.0.2",
-    "mocha": "^8.3.0",
-    "nock": "^13.0.7",
-    "node-fetch": "^2.6.1"
+    "mocha": "^10.0.0",
+    "nock": "^13.2.4",
+    "node-fetch": "^2.6.7",
+    "web-specs": "^2.12.1"
   }
 }
