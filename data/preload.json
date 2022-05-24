@@ -1,8 +1,0 @@
-{
-  "statusref": {
-    "caniuse": "link-rel-preload",
-    "chrome": 5757468554559488,
-    "edge": "Preload",
-    "webkit": "specification-preload"
-  }
-}

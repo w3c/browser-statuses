@@ -144,6 +144,15 @@
         "caniuse": "online-status"
       }
     },
+    "page-visibility": {
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#page-visibility",
+      "title": "Page visibility",
+      "statusref": {
+        "caniuse": "pagevisibility",
+        "chrome": 5689697795833856,
+        "edge": "Page Visibility API"
+      }
+    },
     "picture": {
       "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
       "title": "picture element",
@@ -153,6 +162,16 @@
         "chrome": 5910974510923776,
         "edge": "<picture> Element",
         "webkit": "feature-picture-element"
+      }
+    },
+    "preload": {
+      "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
+      "title": "Link type \"preload\"",
+      "statusref": {
+        "caniuse": "link-rel-preload",
+        "chrome": 5757468554559488,
+        "edge": "Preload",
+        "webkit": "specification-preload"
       }
     },
     "srcset": {
