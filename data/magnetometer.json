@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "magnetometer",
-    "chrome": 5698781827825664
+    "caniuse": [
+      {
+        "id": "magnetometer",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698781827825664,
+        "representative": true
+      }
+    ]
   }
 }

@@ -112,3 +112,28 @@ export function getImplementationStatus(key) {
 
   return impl;
 }
+
+
+export function findMappings(shortname, relatedUrls, knownData) {
+  const mappings = ['specification', 'feature']
+    .map(type => {
+      const prop = type === 'feature' ? 'features' : type;
+      return data[prop]
+        .filter(feature => {
+          const url = (feature.url ?? '').replace(/^http:/, 'https:');
+          return url && !!relatedUrls.find(u => url.startsWith(u) | u.startsWith(url));
+        })
+        .map(feature => {
+          const id = type + '-' + feature.name.replace(/ /g, '-').toLowerCase();
+          return {
+            id: id,
+            name: feature.name,
+            statusUrl: `https://webkit.org/status/#${id}`,
+            specUrls: [feature.url]
+          };
+        });
+    })
+    .flat();
+
+  return mappings;
+}

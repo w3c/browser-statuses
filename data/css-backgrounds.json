@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "bcd": "css.properties.background.multiple_backgrounds",
-    "caniuse": "multibackgrounds"
+    "bcd": [
+      {
+        "id": "css.properties.background.multiple_backgrounds",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "multibackgrounds",
+        "representative": true
+      }
+    ]
   }
 }

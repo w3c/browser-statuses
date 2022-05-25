@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "bcd": "css.selectors.part",
-    "chrome": 5763933658939392,
-    "webkit": "specification-css-shadow-parts"
+    "bcd": [
+      {
+        "id": "css.selectors.part",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5763933658939392,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-shadow-parts",
+        "representative": true
+      }
+    ]
   }
 }

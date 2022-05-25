@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "mediacapture-fromelement",
-    "chrome": 5522768674160640,
-    "edge": "Media Capture from HTML Media Element"
+    "caniuse": [
+      {
+        "id": "mediacapture-fromelement",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5522768674160640,
+        "representative": true
+      }
+    ]
   }
 }

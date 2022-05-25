@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "bcd": "css.properties.content"
+    "bcd": [
+      {
+        "id": "css.properties.content",
+        "representative": true
+      }
+    ]
   }
 }

@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "serviceworkers",
-    "chrome": 6561526227927040,
-    "edge": "Service Worker",
-    "webkit": "specification-service-workers"
+    "caniuse": [
+      {
+        "id": "serviceworkers",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6561526227927040,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-service-workers",
+        "representative": true
+      }
+    ]
   }
 }

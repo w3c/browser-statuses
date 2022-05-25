@@ -1,9 +1,23 @@
 {
   "statusref": {
-    "caniuse": "fetch",
-    "chrome": 6730533392351232,
-    "edge": "Fetch API",
-    "webkit": "specification-fetch"
+    "caniuse": [
+      {
+        "id": "fetch",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6730533392351232,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-fetch",
+        "representative": true
+      }
+    ]
   },
   "features": {
     "cors": {

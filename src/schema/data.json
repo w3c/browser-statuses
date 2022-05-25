@@ -5,27 +5,86 @@
   "description": "JSON Schema followed by data files in data folder.",
 
   "definitions": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "statusUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "specUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    },
+    "representative": {
+      "type": "boolean"
+    },
+    "manual": {
+      "type": "boolean"
+    },
+    "lastreviewed": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+
+    "mappingstr": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [ "id" ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": { "$ref": "#/definitions/name" },
+          "statusUrl": { "$ref": "#/definitions/statusUrl" },
+          "specUrls": { "$ref": "#/definitions/specUrls" },
+          "representative": { "$ref": "#/definitions/representative" },
+          "manual": { "$ref": "#/definitions/manual" },
+          "lastreviewed": { "$ref": "#/definitions/lastreviewed" }
+        },
+        "minItems": 1
+      }
+    },
+
     "statusref": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "bcd": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/definitions/mappingstr"
         },
         "caniuse": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/definitions/mappingstr"
         },
         "chrome": {
-          "type": "integer"
-        },
-        "edge": {
-          "type": "string"
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [ "id" ],
+            "properties": {
+              "id": {
+                "type": "integer"
+              },
+              "name": { "$ref": "#/definitions/name" },
+              "statusUrl": { "$ref": "#/definitions/statusUrl" },
+              "specUrls": { "$ref": "#/definitions/specUrls" },
+              "representative": { "$ref": "#/definitions/representative" },
+              "manual": { "$ref": "#/definitions/manual" },
+              "lastreviewed": { "$ref": "#/definitions/lastreviewed" }
+            },
+            "minItems": 1
+          }
         },
         "webkit": {
-          "type": "string",
-          "minLength": 1
+          "$ref": "#/definitions/mappingstr"
         },
         "manual": {
           "type": "array",

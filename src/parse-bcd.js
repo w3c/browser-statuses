@@ -145,3 +145,43 @@ export function getImplementationStatus(key) {
   }
   return impl;
 }
+
+
+export function findMappings(shortname, relatedUrls, knownData) {
+  function findMatch(node, id) {
+    if (node.__compat && node.__compat.spec_url) {
+      const specUrls = [node.__compat.spec_url].flat();
+      if (!!relatedUrls.find(u => specUrls.find(specUrl => specUrl.startsWith(u)))) {
+        return [
+          {
+            id: id,
+            statusUrl: node.__compat.mdn_url,
+            specUrls: [node.__compat.spec_url].flat()
+          }
+        ];
+      }
+    }
+
+    if (typeof node === 'object' && node.constructor === Object) {
+      return Object.keys(node)
+        .filter(name => name !== '__compat')
+        .map(name => findMatch(node[name], id + (id ? '.' : '') + name))
+        .flat();
+    }
+    else {
+      return [];
+    }
+  }
+
+  const mappings = findMatch(bcd, '')
+    .map(feature => {
+      return {
+        id: feature.id,
+        name: feature.id,
+        statusUrl: feature.statusUrl,
+        specUrls: feature.specUrls
+      };
+    });
+
+  return mappings;
+}

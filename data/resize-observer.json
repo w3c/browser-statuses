@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "resizeobserver",
-    "chrome": 5705346022637568
+    "caniuse": [
+      {
+        "id": "resizeobserver",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5705346022637568,
+        "representative": true
+      }
+    ]
   }
 }

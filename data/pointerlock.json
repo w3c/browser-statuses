@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "pointerlock",
-    "chrome": 6753200417800192,
-    "edge": "Pointer Lock (Mouse Lock)",
-    "webkit": "specification-pointer-lock"
+    "caniuse": [
+      {
+        "id": "pointerlock",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6753200417800192,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-pointer-lock",
+        "representative": true
+      }
+    ]
   }
 }

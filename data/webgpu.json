@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "webgpu",
-    "chrome": 6213121689518080
+    "caniuse": [
+      {
+        "id": "webgpu",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6213121689518080,
+        "representative": true
+      }
+    ]
   }
 }

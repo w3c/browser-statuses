@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "bcd": "api.Performance",
-    "caniuse": "high-resolution-time",
-    "chrome": 5349124069130240,
-    "edge": "High Resolution Time"
+    "bcd": [
+      {
+        "id": "api.Performance",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "high-resolution-time",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5349124069130240,
+        "representative": true
+      }
+    ]
   }
 }

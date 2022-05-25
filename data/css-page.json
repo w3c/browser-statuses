@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "caniuse": "css-paged-media"
+    "caniuse": [
+      {
+        "id": "css-paged-media",
+        "representative": true
+      }
+    ]
   }
 }

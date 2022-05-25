@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "vibration",
-    "chrome": 5698768766763008,
-    "edge": "Vibration API",
-    "webkit": "specification-vibration-api"
+    "caniuse": [
+      {
+        "id": "vibration",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698768766763008,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-vibration-api",
+        "representative": true
+      }
+    ]
   }
 }

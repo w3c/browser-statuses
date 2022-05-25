@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "chrome": 5737866978131968,
-    "webkit": "specification-visual-viewport-api"
+    "chrome": [
+      {
+        "id": 5737866978131968,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-visual-viewport-api",
+        "representative": true
+      }
+    ]
   }
 }

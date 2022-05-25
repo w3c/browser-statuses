@@ -1,22 +1,49 @@
 {
   "statusref": {
-    "caniuse": "font-loading",
-    "chrome": 6244676289953792,
-    "edge": "CSS Font Loading API"
+    "caniuse": [
+      {
+        "id": "font-loading",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6244676289953792,
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "api.FontFace"
+      },
+      {
+        "id": "api.FontFaceSet"
+      }
+    ]
   },
   "features": {
     "FontFace": {
       "url": "https://drafts.csswg.org/css-font-loading/#fontface-interface",
       "title": "FontFace interface",
       "statusref": {
-        "bcd": "api.FontFace"
+        "bcd": [
+          {
+            "id": "api.FontFace",
+            "representative": true
+          }
+        ]
       }
     },
     "FontFaceSet": {
       "url": "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
       "title": "FontFaceSet interface",
       "statusref": {
-        "bcd": "api.FontFaceSet"
+        "bcd": [
+          {
+            "id": "api.FontFaceSet",
+            "representative": true
+          }
+        ]
       }
     }
   }

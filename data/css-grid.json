@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "css-grid",
-    "chrome": 4589636412243968,
-    "edge": "CSS Grid Layout",
-    "webkit": "specification-css-grid-layout-level-1"
+    "caniuse": [
+      {
+        "id": "css-grid",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4589636412243968,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-grid-layout-level-1",
+        "representative": true
+      }
+    ]
   }
 }

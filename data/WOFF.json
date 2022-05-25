@@ -1,6 +1,10 @@
 {
   "statusref": {
-    "caniuse": "woff",
-    "edge": "Cross-Domain Font Loading"
+    "caniuse": [
+      {
+        "id": "woff",
+        "representative": true
+      }
+    ]
   }
 }

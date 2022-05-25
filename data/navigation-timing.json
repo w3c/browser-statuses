@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "nav-timing",
-    "chrome": 5584144679567360,
-    "edge": "Navigation Timing API",
-    "webkit": "specification-navigation-timing-level-1"
+    "caniuse": [
+      {
+        "id": "nav-timing",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5584144679567360,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-navigation-timing-level-1",
+        "representative": true
+      }
+    ]
   }
 }

@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "bcd": "css.at-rules.viewport",
-    "caniuse": "css-deviceadaptation",
-    "chrome": 4737164243894272,
-    "edge": "CSS Device Adaptation"
+    "bcd": [
+      {
+        "id": "css.at-rules.viewport",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-deviceadaptation",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4737164243894272,
+        "representative": true
+      }
+    ]
   }
 }

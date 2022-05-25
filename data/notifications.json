@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "notifications",
-    "chrome": 5064350557536256,
-    "edge": "Web Notifications"
+    "caniuse": [
+      {
+        "id": "notifications",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5064350557536256,
+        "representative": true
+      }
+    ]
   }
 }

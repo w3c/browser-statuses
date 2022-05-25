@@ -1,6 +1,30 @@
 {
   "statusref": {
-    "webkit": "specification-css-color-level-4"
+    "webkit": [
+      {
+        "id": "specification-css-color-level-4",
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "css.properties.color.alpha"
+      },
+      {
+        "id": "css.properties.color.alpha_hexadecimal_notation"
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5656221012983808
+      },
+      {
+        "id": 5124205561511936
+      },
+      {
+        "id": 5685348285808640
+      }
+    ]
   },
   "features": {
     "icc-colors": {
@@ -11,24 +35,54 @@
       "url": "https://drafts.csswg.org/css-color/#the-hsl-notation",
       "title": "hsl/hsla syntax",
       "statusref": {
-        "bcd": "css.properties.color.alpha",
-        "chrome": 5656221012983808
+        "bcd": [
+          {
+            "id": "css.properties.color.alpha",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5656221012983808,
+            "representative": true
+          }
+        ]
       }
     },
     "rgba": {
       "url": "https://drafts.csswg.org/css-color/#rgb-functions",
       "title": "rgb/rgba syntax",
       "statusref": {
-        "bcd": "css.properties.color.alpha",
-        "chrome": 5124205561511936
+        "bcd": [
+          {
+            "id": "css.properties.color.alpha",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5124205561511936,
+            "representative": true
+          }
+        ]
       }
     },
     "rgba-hex": {
       "url": "https://drafts.csswg.org/css-color/#hex-notation",
       "title": "RGBA hexadecimal notation",
       "statusref": {
-        "bcd": "css.properties.color.alpha_hexadecimal_notation",
-        "chrome": 5685348285808640
+        "bcd": [
+          {
+            "id": "css.properties.color.alpha_hexadecimal_notation",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5685348285808640,
+            "representative": true
+          }
+        ]
       }
     }
   }

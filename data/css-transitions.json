@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "caniuse": "css-transitions"
+    "caniuse": [
+      {
+        "id": "css-transitions",
+        "representative": true
+      }
+    ]
   }
 }

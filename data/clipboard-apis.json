@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "chrome": 5861289330999296
+    "chrome": [
+      {
+        "id": 5861289330999296,
+        "representative": true
+      }
+    ]
   }
 }

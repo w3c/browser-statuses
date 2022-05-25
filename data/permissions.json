@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "permissions-api",
-    "chrome": 6376494003650560
+    "caniuse": [
+      {
+        "id": "permissions-api",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6376494003650560,
+        "representative": true
+      }
+    ]
   }
 }

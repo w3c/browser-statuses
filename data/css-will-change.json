@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "will-change",
-    "chrome": 5954199330226176,
-    "edge": "CSS Will Change",
-    "webkit": "specification-css-will-change"
+    "caniuse": [
+      {
+        "id": "will-change",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5954199330226176,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-will-change",
+        "representative": true
+      }
+    ]
   }
 }

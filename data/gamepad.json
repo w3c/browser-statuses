@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "gamepad",
-    "chrome": 5118776383111168,
-    "edge": "GamePad API",
-    "webkit": "specification-gamepad"
+    "caniuse": [
+      {
+        "id": "gamepad",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5118776383111168,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-gamepad",
+        "representative": true
+      }
+    ]
   }
 }

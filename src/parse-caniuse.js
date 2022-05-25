@@ -147,3 +147,22 @@ export function getImplementationStatus(key) {
   });
   return impl;
 }
+
+
+export function findMappings(shortname, relatedUrls, knownData) {
+  const mappings = Object.entries(data.data)
+    .filter(([id, feature]) => {
+      const url = feature.spec;
+      return id === shortname || (url && !!relatedUrls.find(u => url.startsWith(u)));
+    })
+    .map(([id, feature]) => {
+      return {
+        id: id,
+        name: feature.title,
+        statusUrl: `https://caniuse.com/${id}`,
+        specUrls: [feature.spec]
+      };
+    });
+
+  return mappings;
+}

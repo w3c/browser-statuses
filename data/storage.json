@@ -1,22 +1,61 @@
 {
   "statusref": {
-    "bcd": "api.StorageManager"
+    "bcd": [
+      {
+        "id": "api.StorageManager",
+        "representative": true
+      },
+      {
+        "id": "api.StorageManager.estimate"
+      },
+      {
+        "id": "api.StorageManager.permission"
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5630353511284736
+      },
+      {
+        "id": 4931497563783168
+      }
+    ]
   },
   "features": {
     "estimate": {
       "url": "https://storage.spec.whatwg.org/#dom-storagemanager-estimate",
       "title": "estimate() API",
       "statusref": {
-        "bcd": "api.StorageManager.estimate",
-        "chrome": 5630353511284736
+        "bcd": [
+          {
+            "id": "api.StorageManager.estimate",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5630353511284736,
+            "representative": true
+          }
+        ]
       }
     },
     "persist": {
       "url": "https://storage.spec.whatwg.org/#dom-storagemanager-persist",
       "title": "Persistent storage permission",
       "statusref": {
-        "bcd": "api.StorageManager.permission",
-        "chrome": 4931497563783168
+        "bcd": [
+          {
+            "id": "api.StorageManager.permission",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4931497563783168,
+            "representative": true
+          }
+        ]
       }
     }
   }

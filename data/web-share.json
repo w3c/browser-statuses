@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "web-share",
-    "chrome": 5668769141620736,
-    "edge": "Web Share API",
-    "webkit": "specification-web-share"
+    "caniuse": [
+      {
+        "id": "web-share",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5668769141620736,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-share",
+        "representative": true
+      }
+    ]
   }
 }

@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "wai-aria",
-    "chrome": 5761503818940416,
-    "edge": "Accessible Rich Internet Applications (WAI-ARIA) 1.1"
+    "caniuse": [
+      {
+        "id": "wai-aria",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5761503818940416,
+        "representative": true
+      }
+    ]
   }
 }

@@ -1,7 +1,17 @@
 {
   "statusref": {
-    "caniuse": "gyroscope",
-    "chrome": 5698781827825664
+    "caniuse": [
+      {
+        "id": "gyroscope",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698781827825664,
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

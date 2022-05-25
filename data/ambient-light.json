@@ -1,9 +1,23 @@
 {
   "statusref": {
-    "bcd": "api.ambientlightsensor",
-    "caniuse": "ambient-light",
-    "chrome": 5298357018820608,
-    "edge": "Ambient Light Sensor API",
+    "bcd": [
+      {
+        "id": "api.ambientlightsensor",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "ambient-light",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5298357018820608,
+        "representative": true
+      }
+    ],
     "manual": [
       {
         "ua": "firefox",

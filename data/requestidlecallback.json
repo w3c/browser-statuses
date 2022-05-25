@@ -1,9 +1,28 @@
 {
   "statusref": {
-    "bcd": "api.Window.requestIdleCallback",
-    "caniuse": "requestidlecallback",
-    "chrome": 5572795866021888,
-    "edge": "requestIdleCallback",
-    "webkit": "feature-requestidlecallback"
+    "bcd": [
+      {
+        "id": "api.Window.requestIdleCallback",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "requestidlecallback",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5572795866021888,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-requestidlecallback",
+        "representative": true
+      }
+    ]
   }
 }

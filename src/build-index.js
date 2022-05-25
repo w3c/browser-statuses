@@ -55,11 +55,60 @@ function getImplInfoForFeature(feature) {
   }
 
   const support = Object.entries(feature.statusref)
-    .filter(([parser, key]) => !!key)
-    .map(([parser, key]) => {
-      if (parsers[parser]) {
-        return parsers[parser].getImplementationStatus(key);
+    .filter(([parser, keys]) => !!keys && keys.length)
+    .map(([parser, keys]) => {
+      if (!parsers[parser]) {
+        return [];
       }
+
+      if (parser === 'manual') {
+        return parsers[parser].getImplementationStatus(keys);
+      }
+
+      const perUA = {};
+      keys.map(key => {
+        return parsers[parser].getImplementationStatus(key.id)
+          .map(impl => {
+            if (!key.representative) {
+              impl.guess = true;
+            }
+            return impl;
+          });
+        })
+        .flat()
+        .forEach(impl => {
+          if (!perUA[impl.ua]) {
+            perUA[impl.ua] = {
+              ua: impl.ua,
+              status: impl.status,
+              source: impl.source,
+              guess: impl.guess,
+              details: []
+            };
+          }
+          const merged = perUA[impl.ua];
+          if ((merged.guess && !impl.guess) ||
+              (statuses.indexOf(impl.status) <= statuses.indexOf(merged.status))) {
+            for (const prop of ['flag', 'partial', 'prefix']) {
+              if (impl[prop]) {
+                merged[prop] = impl[prop];
+              }
+              else if (merged[prop] && impl.status !== merged.status) {
+                delete merged[prop];
+              }
+            }
+            merged.status = impl.status;
+            if (!impl.guess) {
+              delete merged.guess;
+            }
+          }
+
+          const detail = Object.assign({}, impl);
+          delete detail.ua;
+          delete detail.source;
+          perUA[impl.ua].details.push(detail);
+        });
+      return Object.values(perUA);
     })
     .flat()
     .filter(info => !!info)
@@ -71,69 +120,6 @@ function getImplInfoForFeature(feature) {
 
 function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
-}
-
-
-function guessImplInfoFromFeatures(implinfo, coverage) {
-  if (!implinfo.features) {
-    return;
-  }
-
-  // List user-agents for which we have some level of implementation info
-  // at the feature level
-  const uas = Object.values(implinfo.features)
-    .map(feature => feature.support.map(info => info.ua))
-    .flat()
-    .filter(onlyUnique);
-
-  for (const source of Object.keys(parsers)) {
-    for (const ua of uas) {
-      const guessed = {
-        ua,
-        status: null,
-        source,
-        guess: true,
-        features: []
-      };
-
-      for (const featureName of Object.keys(implinfo.features)) {
-        const impl = implinfo.features[featureName].support.find(o =>
-          (o.ua === ua) && (o.source === source));
-        if (!impl) {
-          continue;
-        }
-        if ((guessed.status === null) ||
-            (statuses.indexOf(impl.status) <= statuses.indexOf(guessed.status))) {
-          // Guessed impl status for the whole spec is the lowest status of
-          // individual features
-          guessed.status = impl.status;
-          if (impl.prefix) {
-            guessed.prefix = impl.prefix;
-          }
-          if (impl.flag) {
-            guessed.flag = impl.flag;
-          }
-          if (impl.partial) {
-            guessed.partial = impl.partial;
-          }
-        }
-        guessed.features.push(featureName);
-      }
-
-      if (guessed.status) {
-        if ((coverage === 'full') && !guessed.partial &&
-            (guessed.features.length === Object.keys(implinfo.features).length)) {
-          guessed.partial = false;
-        }
-        else {
-          guessed.partial = true;
-        }
-        implinfo.support.push(guessed);
-      }
-    }
-  }
-
-  implinfo.support.sort(sortByUA);
 }
 
 
@@ -167,8 +153,9 @@ function guessImplInfoFromSpec(featureName, implinfo) {
         guessed.flag = impl.flag;
       }
       if (impl.partial) {
-        guessed.partial = impl.partial
+        guessed.partial = impl.partial;
       }
+      guessed.details = impl.details;
 
       implinfo.features[featureName].support.push(guessed);
     }
@@ -338,10 +325,6 @@ export async function extractImplData(files) {
           support: getImplInfoForFeature(feature)
         };
       }
-
-      // Merge implementation status at the feature level to guess
-      // implementation status of the whole spec
-      guessImplInfoFromFeatures(implstatus, spec.featuresCoverage);
     }
 
     // Flag the best implementation info for the whole spec

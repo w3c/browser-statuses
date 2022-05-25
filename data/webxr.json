@@ -1,8 +1,23 @@
 {
   "statusref": {
-    "bcd": "api.XR",
-    "caniuse": "webxr",
-    "chrome": 5680169905815552
+    "bcd": [
+      {
+        "id": "api.XR",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "webxr",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5680169905815552,
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.PerformancePaintTiming",
-    "chrome": 5688621814251520
+    "bcd": [
+      {
+        "id": "api.PerformancePaintTiming",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5688621814251520,
+        "representative": true
+      }
+    ]
   }
 }

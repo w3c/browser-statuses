@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.BasicCardRequest",
-    "chrome": 5408502604365824
+    "bcd": [
+      {
+        "id": "api.BasicCardRequest",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5408502604365824,
+        "representative": true
+      }
+    ]
   }
 }

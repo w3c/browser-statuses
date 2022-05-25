@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "caniuse": "webvtt"
+    "caniuse": [
+      {
+        "id": "webvtt",
+        "representative": true
+      }
+    ]
   }
 }

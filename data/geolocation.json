@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "geolocation",
-    "chrome": 6348855016685568,
-    "edge": "Geolocation",
-    "webkit": "specification-geolocation-api"
+    "caniuse": [
+      {
+        "id": "geolocation",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6348855016685568,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-geolocation-api",
+        "representative": true
+      }
+    ]
   }
 }

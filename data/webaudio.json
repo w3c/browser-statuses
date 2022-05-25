@@ -1,17 +1,49 @@
 {
   "statusref": {
-    "caniuse": "audio-api",
-    "chrome": 6261718720184320,
-    "edge": "Web Audio API",
-    "webkit": "specification-web-audio"
+    "caniuse": [
+      {
+        "id": "audio-api",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6261718720184320,
+        "representative": true
+      },
+      {
+        "id": 4588498229133312
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-audio",
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "api.AudioWorklet"
+      }
+    ]
   },
   "features": {
     "worklet": {
       "url": "https://webaudio.github.io/web-audio-api/#audioworklet",
       "title": "The AudioWorklet interface",
       "statusref": {
-        "bcd": "api.AudioWorklet",
-        "chrome": 4588498229133312
+        "bcd": [
+          {
+            "id": "api.AudioWorklet",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4588498229133312,
+            "representative": true
+          }
+        ]
       }
     }
   }

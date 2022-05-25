@@ -1,32 +1,77 @@
 {
   "statusref": {
-    "caniuse": "streams",
-    "chrome": 6605041225957376,
-    "webkit": "specification-streams"
+    "caniuse": [
+      {
+        "id": "streams",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6605041225957376,
+        "representative": true
+      },
+      {
+        "id": 4531143755956224
+      },
+      {
+        "id": 5928498656968704
+      },
+      {
+        "id": 5466425791610880
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-streams",
+        "representative": true
+      },
+      {
+        "id": "feature-readable-streams"
+      }
+    ]
   },
   "features": {
     "ReadableStream": {
       "url": "https://streams.spec.whatwg.org/#rs",
       "title": "ReadableStream interface",
       "statusref": {
-        "chrome": 4531143755956224,
-        "edge": "Streams API: ReadableStream",
-        "webkit": "feature-readable-streams"
+        "chrome": [
+          {
+            "id": 4531143755956224,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-readable-streams",
+            "representative": true
+          }
+        ]
       }
     },
     "WritableStream": {
       "url": "https://streams.spec.whatwg.org/#ws",
       "title": "WritableStream interface",
       "statusref": {
-        "chrome": 5928498656968704,
-        "edge": "Streams API: WritableStream"
+        "chrome": [
+          {
+            "id": 5928498656968704,
+            "representative": true
+          }
+        ]
       }
     },
     "TransformStream": {
       "url": "https://streams.spec.whatwg.org/#ts",
       "title": "TransformStream interface",
       "statusref": {
-        "chrome": 5466425791610880
+        "chrome": [
+          {
+            "id": 5466425791610880,
+            "representative": true
+          }
+        ]
       }
     }
   }

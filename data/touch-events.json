@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "touch",
-    "chrome": 6156165603917824,
-    "edge": "Touch Events"
+    "caniuse": [
+      {
+        "id": "touch",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6156165603917824,
+        "representative": true
+      }
+    ]
   }
 }

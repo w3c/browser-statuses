@@ -1,5 +1,10 @@
 {
   "statusref": {
-    "caniuse": "html-media-capture"
+    "caniuse": [
+      {
+        "id": "html-media-capture",
+        "representative": true
+      }
+    ]
   }
 }
