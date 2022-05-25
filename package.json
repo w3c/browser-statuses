@@ -29,7 +29,7 @@
     "es-main": "1.0.2",
     "mocha": "10.0.0",
     "nock": "13.2.4",
-    "node-fetch": "2.6.7",
+    "node-fetch": "3.2.4",
     "web-specs": "2.12.1"
   }
 }
