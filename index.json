@@ -1469,8 +1469,7 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
-            "flag": true,
+            "status": "notsupported",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setSinkId",
             "selected": true
@@ -1674,16 +1673,16 @@
       },
       {
         "ua": "opera",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/SyncManager"
+        "href": "https://developer.mozilla.org/docs/Web/API/SyncManager",
+        "selected": true
       },
       {
         "ua": "opera",
         "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=background-sync",
-        "selected": true
+        "href": "https://caniuse.com/#feat=background-sync"
       },
       {
         "ua": "qq_android",
@@ -2878,7 +2877,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -3097,14 +3096,14 @@
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/SecurityPolicyViolationEvent",
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -5417,7 +5416,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -5650,7 +5649,7 @@
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -5895,14 +5894,14 @@
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/FontFaceSet",
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6086,7 +6085,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -6122,7 +6121,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -6158,7 +6157,7 @@
       },
       {
         "ua": "edge",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -6254,7 +6253,7 @@
       },
       {
         "ua": "opera",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -6388,7 +6387,7 @@
         "support": [
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6422,7 +6421,7 @@
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6456,7 +6455,7 @@
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6552,17 +6551,17 @@
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           },
           {
             "ua": "opera",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=variable-fonts",
-            "selected": true
+            "href": "https://caniuse.com/#feat=variable-fonts"
           },
           {
             "ua": "opera",
@@ -6693,7 +6692,7 @@
           },
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6727,7 +6726,7 @@
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6761,7 +6760,7 @@
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6851,7 +6850,7 @@
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -6967,7 +6966,7 @@
           },
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7001,7 +7000,7 @@
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7035,7 +7034,7 @@
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7125,7 +7124,7 @@
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7245,7 +7244,7 @@
           },
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7276,7 +7275,7 @@
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7304,7 +7303,7 @@
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7384,7 +7383,7 @@
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7491,14 +7490,14 @@
         "support": [
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
             "selected": true
           },
           {
             "ua": "chrome",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7519,14 +7518,14 @@
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
             "selected": true
           },
           {
             "ua": "chrome_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7547,14 +7546,14 @@
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
             "selected": true
           },
           {
             "ua": "edge",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -7624,14 +7623,14 @@
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
             "selected": true
           },
           {
             "ua": "opera",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "partial": true
@@ -9104,7 +9103,7 @@
             "ua": "safari",
             "status": "shipped",
             "notes": [
-              "Certain CSS selectors do not work (:host > .local-child) and styling slotted content (::slotted) is buggy."
+              "Certain CSS selectors do not work (:host &gt; .local-child) and styling slotted content (::slotted) is buggy."
             ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/:host()",
@@ -9121,7 +9120,7 @@
             "ua": "safari_ios",
             "status": "shipped",
             "notes": [
-              "Certain CSS selectors do not work (:host > .local-child) and styling slotted content (::slotted) is buggy."
+              "Certain CSS selectors do not work (:host &gt; .local-child) and styling slotted content (::slotted) is buggy."
             ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/CSS/:host()",
@@ -9580,7 +9579,7 @@
       },
       {
         "ua": "firefox_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/CSS/::part",
         "selected": true
@@ -9633,10 +9632,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "notsupported",
-        "notes": [
-          "Instead of ignoring the <code>-webkit-text-size-adjust</code> property, a bug prevents desktop Chrome users from zooming in or out. The bug was fixed after Chrome 26."
-        ],
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
       },
@@ -9735,9 +9731,6 @@
       {
         "ua": "safari",
         "status": "notsupported",
-        "notes": [
-          "Instead of ignoring the <code>-webkit-text-size-adjust</code> property, a bug prevents desktop Safari users from zooming in or out. The bug was fixed after Safari 5."
-        ],
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust"
       },
@@ -10385,13 +10378,12 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
           "scroll-behavior"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -10408,13 +10400,12 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "features": [
           "scroll-behavior"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -10665,54 +10656,50 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
-            "flag": true,
-            "source": "bcd",
-            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
-          },
-          {
-            "ua": "safari",
-            "status": "experimental",
-            "source": "bcd",
-            "guess": true,
-            "flag": true,
-            "partial": true
-          },
-          {
-            "ua": "safari",
             "status": "shipped",
-            "source": "caniuse",
-            "href": "https://caniuse.com/#feat=css-scroll-behavior",
+            "source": "bcd",
+            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
             "selected": true
           },
           {
             "ua": "safari",
             "status": "shipped",
+            "source": "bcd",
+            "guess": true,
+            "partial": true
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
+            "source": "caniuse",
+            "href": "https://caniuse.com/#feat=css-scroll-behavior"
+          },
+          {
+            "ua": "safari",
+            "status": "shipped",
             "source": "caniuse",
             "guess": true,
             "partial": true
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
-            "flag": true,
+            "status": "shipped",
             "source": "bcd",
-            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior"
+            "href": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
+            "selected": true
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
             "ua": "safari_ios",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=css-scroll-behavior",
-            "selected": true
+            "href": "https://caniuse.com/#feat=css-scroll-behavior"
           },
           {
             "ua": "safari_ios",
@@ -10925,18 +10912,17 @@
           },
           {
             "ua": "safari",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
-            "flag": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           },
           {
             "ua": "safari",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=getboundingclientrect",
-            "selected": true
+            "href": "https://caniuse.com/#feat=getboundingclientrect"
           },
           {
             "ua": "safari",
@@ -10947,18 +10933,17 @@
           },
           {
             "ua": "safari_ios",
-            "status": "experimental",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
-            "flag": true,
-            "partial": true
+            "partial": true,
+            "selected": true
           },
           {
             "ua": "safari_ios",
             "status": "shipped",
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=getboundingclientrect",
-            "selected": true
+            "href": "https://caniuse.com/#feat=getboundingclientrect"
           },
           {
             "ua": "safari_ios",
@@ -13496,7 +13481,7 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "features": [
@@ -13512,7 +13497,6 @@
           "offscreencanvas",
           "picture"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -14051,10 +14035,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -14389,10 +14372,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -14715,10 +14697,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -15077,10 +15058,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -15388,10 +15368,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -15722,10 +15701,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -16064,10 +16042,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -16422,8 +16399,9 @@
           {
             "ua": "firefox_android",
             "status": "shipped",
+            "partial": true,
             "notes": [
-              "Since Firefox for Android 79, the dropdown menu containing available options does not appear. See <a href='https://bugzil.la/1535985'>bug 1535985</a>."
+              "The dropdown menu containing available options does not appear. See <a href='https://bugzil.la/1535985'>bug 1535985</a>."
             ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/HTML/Element/datalist",
@@ -16431,10 +16409,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -16794,10 +16771,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -17167,10 +17143,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -17511,10 +17486,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -17849,10 +17823,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -18143,10 +18116,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -18425,10 +18397,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -18707,10 +18678,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -19040,22 +19010,15 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
-            "flag": true,
-            "partial": true,
-            "notes": [
-              "See <a href='https://bugzil.la/1390089'>bug 1390089</a>."
-            ],
+            "status": "notsupported",
             "source": "bcd",
-            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas",
-            "selected": true
+            "href": "https://developer.mozilla.org/docs/Web/API/OffscreenCanvas"
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -19066,7 +19029,8 @@
               "Can be enabled via the `gfx.offscreencanvas.enabled` flag. Currently only supports WebGL contexts, not 2D."
             ],
             "source": "caniuse",
-            "href": "https://caniuse.com/#feat=offscreencanvas"
+            "href": "https://caniuse.com/#feat=offscreencanvas",
+            "selected": true
           },
           {
             "ua": "firefox_android",
@@ -19343,10 +19307,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -19643,10 +19606,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -19986,10 +19948,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -20321,10 +20282,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -20627,10 +20587,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -20921,10 +20880,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -21209,10 +21167,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -21497,10 +21454,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -23922,7 +23878,7 @@
       },
       {
         "ua": "safari",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/MediaSession",
         "selected": true
@@ -23935,7 +23891,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/MediaSession",
         "selected": true
@@ -24013,7 +23969,7 @@
         "ua": "firefox",
         "status": "shipped",
         "notes": [
-          "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
+          "Before Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
         ],
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/MediaRecorder",
@@ -24035,7 +23991,7 @@
         "ua": "firefox_android",
         "status": "shipped",
         "notes": [
-          "Prior to Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
+          "Before Firefox 58, using <code>MediaStream.addTrack()</code> on a stream obtained using <code>getUserMedia()</code>, then attempting to record the resulting stream would result in only recording the original stream without the added tracks (severe bug)."
         ],
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/MediaRecorder",
@@ -24922,19 +24878,6 @@
     "shortname": "payment-method-basic-card",
     "support": [
       {
-        "ua": "chrome",
-        "status": "notsupported",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest"
-      },
-      {
         "ua": "chrome_android",
         "status": "shipped",
         "source": "chrome",
@@ -24942,72 +24885,17 @@
         "selected": true
       },
       {
-        "ua": "edge",
-        "status": "notsupported",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
-        "ua": "firefox",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Available only in nightly builds."
-        ],
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
         "ua": "firefox",
         "status": "consideration",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5408502604365824"
-      },
-      {
-        "ua": "firefox_android",
-        "status": "experimental",
-        "flag": true,
-        "notes": [
-          "Available only in nightly builds."
-        ],
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
-        "ua": "opera",
-        "status": "notsupported",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
-        "ua": "safari",
-        "status": "notsupported",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
+        "href": "https://www.chromestatus.com/feature/5408502604365824",
         "selected": true
       },
       {
         "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
-        "href": "https://www.chromestatus.com/feature/5408502604365824"
-      },
-      {
-        "ua": "safari_ios",
-        "status": "notsupported",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
-        "selected": true
-      },
-      {
-        "ua": "samsunginternet_android",
-        "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/BasicCardRequest",
+        "href": "https://www.chromestatus.com/feature/5408502604365824",
         "selected": true
       }
     ]
@@ -28745,7 +28633,7 @@
       },
       {
         "ua": "safari",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
         "selected": true
@@ -28773,7 +28661,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
         "selected": true
@@ -28954,7 +28842,7 @@
           },
           {
             "ua": "safari",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
             "guess": true
@@ -28981,7 +28869,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
             "guess": true
@@ -29106,7 +28994,7 @@
           },
           {
             "ua": "safari",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
             "guess": true,
@@ -29127,7 +29015,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/StorageManager",
             "guess": true,
@@ -29224,14 +29112,13 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "features": [
           "hasStorageAccess",
           "requestStorageAccess"
         ],
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -29298,6 +29185,9 @@
             "ua": "chrome",
             "status": "experimental",
             "flag": true,
+            "notes": [
+              "See <a href='https://crbug.com/989663'>bug 989663</a>."
+            ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
             "selected": true
@@ -29321,6 +29211,9 @@
             "ua": "chrome_android",
             "status": "experimental",
             "flag": true,
+            "notes": [
+              "See <a href='https://crbug.com/989663'>bug 989663</a>."
+            ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
             "selected": true
@@ -29384,18 +29277,16 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
-            "flag": true,
+            "status": "notsupported",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
             "selected": true
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -29471,6 +29362,9 @@
             "ua": "chrome",
             "status": "experimental",
             "flag": true,
+            "notes": [
+              "See <a href='https://crbug.com/989663'>bug 989663</a>."
+            ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
             "selected": true
@@ -29494,6 +29388,9 @@
             "ua": "chrome_android",
             "status": "experimental",
             "flag": true,
+            "notes": [
+              "See <a href='https://crbug.com/989663'>bug 989663</a>."
+            ],
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
             "selected": true
@@ -29557,18 +29454,16 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
-            "flag": true,
+            "status": "notsupported",
             "source": "bcd",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
             "selected": true
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "partial": true
           },
           {
@@ -31529,7 +31424,7 @@
       },
       {
         "ua": "firefox",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
         "selected": true
@@ -31542,7 +31437,7 @@
       },
       {
         "ua": "firefox_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
         "selected": true
@@ -31556,7 +31451,7 @@
       },
       {
         "ua": "safari",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
         "selected": true
@@ -31569,7 +31464,7 @@
       },
       {
         "ua": "safari_ios",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "href": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
         "selected": true
@@ -32449,12 +32344,6 @@
       {
         "ua": "chrome",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto"
-      },
-      {
-        "ua": "chrome",
-        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=cryptography"
       },
@@ -32468,12 +32357,6 @@
       {
         "ua": "chrome_android",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto"
-      },
-      {
-        "ua": "chrome_android",
-        "status": "shipped",
         "source": "caniuse",
         "href": "https://caniuse.com/#feat=cryptography"
       },
@@ -32483,12 +32366,6 @@
         "source": "chrome",
         "href": "https://www.chromestatus.com/feature/5030265697075200",
         "selected": true
-      },
-      {
-        "ua": "edge",
-        "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto"
       },
       {
         "ua": "edge",
@@ -32506,15 +32383,9 @@
       {
         "ua": "firefox",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
-        "selected": true
-      },
-      {
-        "ua": "firefox",
-        "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
+        "href": "https://caniuse.com/#feat=cryptography",
+        "selected": true
       },
       {
         "ua": "firefox",
@@ -32525,28 +32396,16 @@
       {
         "ua": "firefox_android",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
-        "selected": true
-      },
-      {
-        "ua": "firefox_android",
-        "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
-      },
-      {
-        "ua": "opera",
-        "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
+        "href": "https://caniuse.com/#feat=cryptography",
         "selected": true
       },
       {
         "ua": "opera",
         "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
+        "href": "https://caniuse.com/#feat=cryptography",
+        "selected": true
       },
       {
         "ua": "qq_android",
@@ -32558,15 +32417,9 @@
       {
         "ua": "safari",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
-        "selected": true
-      },
-      {
-        "ua": "safari",
-        "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
+        "href": "https://caniuse.com/#feat=cryptography",
+        "selected": true
       },
       {
         "ua": "safari",
@@ -32577,28 +32430,16 @@
       {
         "ua": "safari_ios",
         "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
-        "selected": true
-      },
-      {
-        "ua": "safari_ios",
-        "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
-      },
-      {
-        "ua": "samsunginternet_android",
-        "status": "shipped",
-        "source": "bcd",
-        "href": "https://developer.mozilla.org/docs/Web/API/Window/crypto",
+        "href": "https://caniuse.com/#feat=cryptography",
         "selected": true
       },
       {
         "ua": "samsunginternet_android",
         "status": "shipped",
         "source": "caniuse",
-        "href": "https://caniuse.com/#feat=cryptography"
+        "href": "https://caniuse.com/#feat=cryptography",
+        "selected": true
       },
       {
         "ua": "uc_android",
