@@ -11,13 +11,13 @@
     },
     "statusUrl": {
       "type": "string",
-      "format": "uri"
+      "format": "url"
     },
     "specUrls": {
       "type": "array",
       "items": {
         "type": "string",
-        "format": "uri"
+        "format": "url"
       }
     },
     "representative": {
@@ -146,7 +146,7 @@
         "properties": {
           "url": {
             "type": "string",
-            "format": "uri"
+            "format": "url"
           },
           "title": {
             "type": "string",
@@ -175,7 +175,7 @@
         "properties": {
           "url": {
             "type": "string",
-            "format": "uri"
+            "format": "url"
           },
           "label": {
             "type": "string",
