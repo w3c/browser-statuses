@@ -26,19 +26,768 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AbortController",
+        "name": "api.AbortController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortController",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abortcontroller"
+        ]
+      },
+      {
+        "id": "api.AbortSignal",
+        "name": "api.AbortSignal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-AbortSignal"
+        ]
+      },
+      {
+        "id": "api.AbstractRange",
+        "name": "api.AbstractRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abstractrange"
+        ]
+      },
+      {
+        "id": "api.Attr",
+        "name": "api.Attr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-attr"
+        ]
+      },
+      {
+        "id": "api.CDATASection",
+        "name": "api.CDATASection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CDATASection",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-cdatasection"
+        ]
+      },
+      {
+        "id": "api.CharacterData",
+        "name": "api.CharacterData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-characterdata"
+        ]
+      },
+      {
+        "id": "api.Comment",
+        "name": "api.Comment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Comment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-comment"
+        ]
+      },
+      {
+        "id": "api.CustomEvent",
+        "name": "api.CustomEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CustomEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-customevent"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation",
+        "name": "api.DOMImplementation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-domimplementation"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList",
+        "name": "api.DOMTokenList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-domtokenlist"
+        ]
+      },
+      {
+        "id": "api.Document",
+        "name": "api.Document",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-document",
+          "https://html.spec.whatwg.org/multipage/dom.html#the-document-object",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-document-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-document-interface",
+          "https://w3c.github.io/selection-api/#extensions-to-document-interface"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment",
+        "name": "api.DocumentFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-documentfragment"
+        ]
+      },
+      {
+        "id": "api.DocumentType",
+        "name": "api.DocumentType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-documenttype"
+        ]
+      },
+      {
+        "id": "api.Element",
+        "name": "api.Element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-element",
+          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
+          "https://fullscreen.spec.whatwg.org/#api",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
+          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
+        ]
+      },
+      {
+        "id": "api.Event",
+        "name": "api.Event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-event"
+        ]
+      },
+      {
+        "id": "api.EventTarget",
+        "name": "api.EventTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": "api.HTMLCollection",
+        "name": "api.HTMLCollection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCollection",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-htmlcollection"
+        ]
+      },
+      {
+        "id": "api.MutationObserver",
+        "name": "api.MutationObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-mutationobserver"
+        ]
+      },
+      {
+        "id": "api.MutationRecord",
+        "name": "api.MutationRecord",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-mutationrecord"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap",
+        "name": "api.NamedNodeMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-namednodemap"
+        ]
+      },
+      {
+        "id": "api.Node",
+        "name": "api.Node",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-node"
+        ]
+      },
+      {
+        "id": "api.NodeIterator",
+        "name": "api.NodeIterator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-nodeiterator"
+        ]
+      },
+      {
+        "id": "api.NodeList",
+        "name": "api.NodeList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeList",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-nodelist"
+        ]
+      },
+      {
+        "id": "api.ProcessingInstruction",
+        "name": "api.ProcessingInstruction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProcessingInstruction",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-processinginstruction"
+        ]
+      },
+      {
+        "id": "api.Range",
+        "name": "api.Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-range",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-range-interface",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot",
+        "name": "api.ShadowRoot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-shadowroot"
+        ]
+      },
+      {
+        "id": "api.StaticRange",
+        "name": "api.StaticRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-staticrange"
+        ]
+      },
+      {
+        "id": "api.Text",
+        "name": "api.Text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-text"
+        ]
+      },
+      {
+        "id": "api.TreeWalker",
+        "name": "api.TreeWalker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-treewalker"
+        ]
+      },
+      {
+        "id": "api.Window.event",
+        "name": "api.Window.event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-window-event"
+        ]
+      },
+      {
+        "id": "api.XMLDocument",
+        "name": "api.XMLDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#xmldocument"
+        ]
+      },
+      {
+        "id": "api.XPathEvaluator",
+        "name": "api.XPathEvaluator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathevaluator"
+        ]
+      },
+      {
+        "id": "api.XPathExpression",
+        "name": "api.XPathExpression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathExpression",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathexpression"
+        ]
+      },
+      {
+        "id": "api.XPathResult",
+        "name": "api.XPathResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathresult"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.XSLTProcessor",
+        "name": "api.XSLTProcessor.XSLTProcessor",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-xsltprocessor"
+        ]
+      },
+      {
+        "id": "html.elements.slot",
+        "name": "html.elements.slot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/slot",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+          "https://dom.spec.whatwg.org/#shadow-tree-slots"
+        ]
+      },
+      {
+        "id": "html.global_attributes.slot",
+        "name": "html.global_attributes.slot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Global_attributes/slot",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①"
+        ]
+      }
+    ],
     "caniuse": [
       {
-        "id": "shadowdomv1"
+        "id": "abortcontroller",
+        "name": "AbortController & AbortSignal",
+        "statusUrl": "https://caniuse.com/abortcontroller",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#abortsignal"
+        ]
+      },
+      {
+        "id": "addeventlistener",
+        "name": "EventTarget.addEventListener()",
+        "statusUrl": "https://caniuse.com/addeventlistener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener"
+        ]
+      },
+      {
+        "id": "childnode-remove",
+        "name": "ChildNode.remove()",
+        "statusUrl": "https://caniuse.com/childnode-remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-childnode-remove"
+        ]
+      },
+      {
+        "id": "classlist",
+        "name": "classList (DOMTokenList)",
+        "statusUrl": "https://caniuse.com/classlist",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-classlist"
+        ]
+      },
+      {
+        "id": "comparedocumentposition",
+        "name": "Node.compareDocumentPosition()",
+        "statusUrl": "https://caniuse.com/comparedocumentposition",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-comparedocumentposition"
+        ]
+      },
+      {
+        "id": "customevent",
+        "name": "CustomEvent",
+        "statusUrl": "https://caniuse.com/customevent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-customevent"
+        ]
+      },
+      {
+        "id": "dispatchevent",
+        "name": "EventTarget.dispatchEvent",
+        "statusUrl": "https://caniuse.com/dispatchevent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-dispatchevent"
+        ]
+      },
+      {
+        "id": "dom-manip-convenience",
+        "name": "DOM manipulation convenience methods",
+        "statusUrl": "https://caniuse.com/dom-manip-convenience",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-childnode"
+        ]
+      },
+      {
+        "id": "dom-range",
+        "name": "Document Object Model Range",
+        "statusUrl": "https://caniuse.com/dom-range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ranges"
+        ]
+      },
+      {
+        "id": "element-closest",
+        "name": "Element.closest()",
+        "statusUrl": "https://caniuse.com/element-closest",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-closest"
+        ]
+      },
+      {
+        "id": "getelementsbyclassname",
+        "name": "getElementsByClassName",
+        "statusUrl": "https://caniuse.com/getelementsbyclassname",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname"
+        ]
+      },
+      {
+        "id": "insert-adjacent",
+        "name": "Element.insertAdjacentElement() & Element.insertAdjacentText()",
+        "statusUrl": "https://caniuse.com/insert-adjacent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-insertadjacentelement"
+        ]
+      },
+      {
+        "id": "matchesselector",
+        "name": "matches() DOM method",
+        "statusUrl": "https://caniuse.com/matchesselector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-matches"
+        ]
+      },
+      {
+        "id": "mutationobserver",
+        "name": "Mutation Observer",
+        "statusUrl": "https://caniuse.com/mutationobserver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#mutation-observers"
+        ]
+      },
+      {
+        "id": "once-event-listener",
+        "name": "\"once\" event listener option",
+        "statusUrl": "https://caniuse.com/once-event-listener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once"
+        ]
+      },
+      {
+        "id": "passive-event-listener",
+        "name": "Passive event listeners",
+        "statusUrl": "https://caniuse.com/passive-event-listener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-passive"
+        ]
+      },
+      {
+        "id": "queryselector",
+        "name": "querySelector/querySelectorAll",
+        "statusUrl": "https://caniuse.com/queryselector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-queryselector"
+        ]
+      },
+      {
+        "id": "textcontent",
+        "name": "Node.textContent",
+        "statusUrl": "https://caniuse.com/textcontent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-textcontent"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 4667415417847808
+        "id": 4663631736209408,
+        "name": "DOMTokenList validation",
+        "statusUrl": "https://chromestatus.com/feature/4663631736209408",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-supported-tokens"
+        ]
+      },
+      {
+        "id": 4759960915279872,
+        "name": "HTMLAllCollection and HTMLCollection's named properties are no longer enumerable",
+        "statusUrl": "https://chromestatus.com/feature/4759960915279872",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#htmlcollection"
+        ]
+      },
+      {
+        "id": 4879378597019648,
+        "name": "Make document.documentURI behavior match document.URL and DOM spec",
+        "statusUrl": "https://chromestatus.com/feature/4879378597019648",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-document-url"
+        ]
+      },
+      {
+        "id": 5029737100476416,
+        "name": "AbortSignal.prototype.throwIfAborted",
+        "statusUrl": "https://chromestatus.com/feature/5029737100476416",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-throwifaborted"
+        ]
+      },
+      {
+        "id": 5091201086652416,
+        "name": "Disable recursive use of NodeFilter functions",
+        "statusUrl": "https://chromestatus.com/feature/5091201086652416",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-traversal-active"
+        ]
+      },
+      {
+        "id": 5094346349084672,
+        "name": "2nd arg of document.createElement should be an object",
+        "statusUrl": "https://chromestatus.com/feature/5094346349084672",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createelement"
+        ]
+      },
+      {
+        "id": 5108117087977472,
+        "name": "Dispatch synthetic events (at least until its root) when target and relatedTarget are identical",
+        "statusUrl": "https://chromestatus.com/feature/5108117087977472",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dispatching-events"
+        ]
+      },
+      {
+        "id": 5523910145605632,
+        "name": "High Resolution Time Stamp for Events",
+        "statusUrl": "https://chromestatus.com/feature/5523910145605632",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-timestamp"
+        ]
+      },
+      {
+        "id": 5630331130478592,
+        "name": "Support \"once\" event listener option",
+        "statusUrl": "https://chromestatus.com/feature/5630331130478592",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once"
+        ]
+      },
+      {
+        "id": 5633112799182848,
+        "name": "AbstractRange superclass",
+        "statusUrl": "https://chromestatus.com/feature/5633112799182848",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abstractrange"
+        ]
+      },
+      {
+        "id": 5635892366540800,
+        "name": "Remove document.createEvent('WebKitTransitionEvent')",
+        "statusUrl": "https://chromestatus.com/feature/5635892366540800",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createevent"
+        ]
+      },
+      {
+        "id": 5640816202612736,
+        "name": "addEventListener/removeEventListener non-optional arguments",
+        "statusUrl": "https://chromestatus.com/feature/5640816202612736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": 5642501387976704,
+        "name": "AbortSignal.abort() static method",
+        "statusUrl": "https://chromestatus.com/feature/5642501387976704",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-abort"
+        ]
+      },
+      {
+        "id": 5651928583241728,
+        "name": "EventTarget.addEventListener/removeEventListener throws a TypeError",
+        "statusUrl": "https://chromestatus.com/feature/5651928583241728",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": 5658622220566528,
+        "name": "AbortSignal in addEventListener",
+        "statusUrl": "https://chromestatus.com/feature/5658622220566528",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-signal"
+        ]
+      },
+      {
+        "id": 5666302446272512,
+        "name": "Stop re-signaling a slotchange event.",
+        "statusUrl": "https://chromestatus.com/feature/5666302446272512",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5673616809132032,
+        "name": "getElementsByTagName accepts qualified names",
+        "statusUrl": "https://chromestatus.com/feature/5673616809132032",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-getelementsbytagname"
+        ]
+      },
+      {
+        "id": 5676110549352448,
+        "name": "Node.isConnected",
+        "statusUrl": "https://chromestatus.com/feature/5676110549352448",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-isconnected"
+        ]
+      },
+      {
+        "id": 5676695065460736,
+        "name": "StaticRange constructor",
+        "statusUrl": "https://chromestatus.com/feature/5676695065460736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-staticrange"
+        ]
+      },
+      {
+        "id": 5676852374929408,
+        "name": "Element.toggleAttribute",
+        "statusUrl": "https://chromestatus.com/feature/5676852374929408",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-toggleattribute"
+        ]
+      },
+      {
+        "id": 5688366657961984,
+        "name": "Attr child nodes",
+        "statusUrl": "https://chromestatus.com/feature/5688366657961984",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-attr"
+        ]
+      },
+      {
+        "id": 5690841569951744,
+        "name": "Boolean return value of DOMTokenList replace()",
+        "statusUrl": "https://chromestatus.com/feature/5690841569951744",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-domtokenlist-replace"
+        ]
+      },
+      {
+        "id": 5691753315172352,
+        "name": "DOMTokenList replace()",
+        "statusUrl": "https://chromestatus.com/feature/5691753315172352",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-domtokenlist-replace"
+        ]
+      },
+      {
+        "id": 5715857510498304,
+        "name": "String 2nd arg of document.createElement should be deprecated",
+        "statusUrl": "https://chromestatus.com/feature/5715857510498304",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createelement"
+        ]
+      },
+      {
+        "id": 5716891221884928,
+        "name": "getAttributeNames() of Element interface",
+        "statusUrl": "https://chromestatus.com/feature/5716891221884928",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getattributenames"
+        ]
+      },
+      {
+        "id": 5721972856061952,
+        "name": "Constructible & Subclassable EventTarget",
+        "statusUrl": "https://chromestatus.com/feature/5721972856061952",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-eventtarget"
+        ]
+      },
+      {
+        "id": 5723067795898368,
+        "name": "New DOM node methods: prepend, append, before, after, replaceWith",
+        "statusUrl": "https://chromestatus.com/feature/5723067795898368",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#childnode"
+        ]
+      },
+      {
+        "id": 5736556333629440,
+        "name": "Remove: document.createEvent('WebKitAnimationEvent')",
+        "statusUrl": "https://chromestatus.com/feature/5736556333629440",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createevent"
+        ]
+      },
+      {
+        "id": 5736827696709632,
+        "name": "Node.getRootNode(options)",
+        "statusUrl": "https://chromestatus.com/feature/5736827696709632",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-getrootnode"
+        ]
+      },
+      {
+        "id": 5745543795965952,
+        "name": "Passive event listeners",
+        "statusUrl": "https://chromestatus.com/feature/5745543795965952",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventlisteneroptions-passive"
+        ]
+      },
+      {
+        "id": 5768400507764736,
+        "name": "AbortSignal.timeout() Static Method",
+        "statusUrl": "https://chromestatus.com/feature/5768400507764736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-timeout"
+        ]
+      },
+      {
+        "id": 5918678717562880,
+        "name": "createElementNS() : Throw InvalidCharacterError instead of NamespaceError on validating a qualified name",
+        "statusUrl": "https://chromestatus.com/feature/5918678717562880",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#validate"
+        ]
+      },
+      {
+        "id": 6078850731606016,
+        "name": "Document constructor",
+        "statusUrl": "https://chromestatus.com/feature/6078850731606016",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-document"
+        ]
+      },
+      {
+        "id": 6091485216768000,
+        "name": "Deprecate and Remove: setting Event.cancelBubble to false",
+        "statusUrl": "https://chromestatus.com/feature/6091485216768000",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-cancelbubble"
+        ]
+      },
+      {
+        "id": 6143552666992640,
+        "name": "ParentNode.replaceChildren() Method",
+        "statusUrl": "https://chromestatus.com/feature/6143552666992640",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren"
+        ]
+      },
+      {
+        "id": 6540125429301248,
+        "name": "addEventListener AddEventListenerOptions API",
+        "statusUrl": "https://chromestatus.com/feature/6540125429301248",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener"
+        ]
       }
     ],
     "webkit": [
       {
-        "id": "feature-shadow-dom"
+        "id": "feature-element.closest()",
+        "name": "Element.closest()",
+        "statusUrl": "https://webkit.org/status/#feature-element.closest()",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-closest"
+        ]
+      },
+      {
+        "id": "specification-dom",
+        "name": "DOM",
+        "statusUrl": "https://webkit.org/status/#specification-dom",
+        "specUrls": [
+          "https://dom.spec.whatwg.org"
+        ]
       }
     ]
   }
