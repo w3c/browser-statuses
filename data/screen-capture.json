@@ -1,6 +1,10 @@
 {
   "statusref": {
-    "chrome": 6744724455030784,
-    "edge": "Screen Capture"
+    "chrome": [
+      {
+        "id": 6744724455030784,
+        "representative": true
+      }
+    ]
   }
 }

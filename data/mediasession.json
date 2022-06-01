@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.MediaSession",
-    "chrome": 5639924124483584,
-    "edge": "Media Session"
+    "bcd": [
+      {
+        "id": "api.MediaSession",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5639924124483584,
+        "representative": true
+      }
+    ]
   }
 }

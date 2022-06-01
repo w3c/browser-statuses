@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "bcd": "javascript.builtins.WebAssembly",
-    "caniuse": "wasm",
-    "chrome": 5453022515691520
+    "bcd": [
+      {
+        "id": "javascript.builtins.WebAssembly",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "wasm",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5453022515691520,
+        "representative": true
+      }
+    ]
   }
 }

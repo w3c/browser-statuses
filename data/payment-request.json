@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "payment-request",
-    "chrome": 5639348045217792,
-    "edge": "Payment Request API",
-    "webkit": "specification-payment-request"
+    "caniuse": [
+      {
+        "id": "payment-request",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5639348045217792,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-payment-request",
+        "representative": true
+      }
+    ]
   }
 }

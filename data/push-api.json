@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "push-api",
-    "chrome": 5416033485586432,
-    "edge": "Push API"
+    "caniuse": [
+      {
+        "id": "push-api",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5416033485586432,
+        "representative": true
+      }
+    ]
   }
 }

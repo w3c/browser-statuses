@@ -1,9 +1,28 @@
 {
   "statusref": {
-    "bcd": "api.Navigator.sendBeacon",
-    "caniuse": "beacon",
-    "chrome": 5517433905348608,
-    "edge": "Beacon",
-    "webkit": "specification-beacon-api"
+    "bcd": [
+      {
+        "id": "api.Navigator.sendBeacon",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "beacon",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5517433905348608,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-beacon-api",
+        "representative": true
+      }
+    ]
   }
 }

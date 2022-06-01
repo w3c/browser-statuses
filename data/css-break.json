@@ -4,23 +4,61 @@
       "url": "https://drafts.csswg.org/css-break/#break-decoration",
       "title": "box-decoration-break property",
       "statusref": {
-        "caniuse": "css-boxdecorationbreak"
+        "caniuse": [
+          {
+            "id": "css-boxdecorationbreak",
+            "representative": true
+          }
+        ]
       }
     },
     "page-break": {
       "url": "https://drafts.csswg.org/css-break/#break-between",
       "title": "Page break properties",
       "statusref": {
-        "caniuse": "css-page-break",
-        "chrome": 5630943616303104
+        "caniuse": [
+          {
+            "id": "css-page-break",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5630943616303104,
+            "representative": true
+          }
+        ]
       }
     },
     "widows-orphans": {
       "url": "https://drafts.csswg.org/css-break/#widows-orphans",
       "title": "Widows and orphans",
       "statusref": {
-        "caniuse": "css-widows-orphans"
+        "caniuse": [
+          {
+            "id": "css-widows-orphans",
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "css-boxdecorationbreak"
+      },
+      {
+        "id": "css-page-break"
+      },
+      {
+        "id": "css-widows-orphans"
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5630943616303104
+      }
+    ]
   }
 }

@@ -1,13 +1,28 @@
 {
   "statusref": {
-    "webkit": "specification-css-rhythmic-sizing"
+    "webkit": [
+      {
+        "id": "specification-css-rhythmic-sizing",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5734273533345792
+      }
+    ]
   },
   "features": {
     "line-height-step": {
       "url": "https://drafts.csswg.org/css-rhythm/#line-height-step",
       "title": "line-height-step property",
       "statusref": {
-        "chrome": 5734273533345792
+        "chrome": [
+          {
+            "id": 5734273533345792,
+            "representative": true
+          }
+        ]
       }
     }
   }

@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "css-animation",
-    "chrome": 6121990213599232
+    "caniuse": [
+      {
+        "id": "css-animation",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6121990213599232,
+        "representative": true
+      }
+    ]
   }
 }

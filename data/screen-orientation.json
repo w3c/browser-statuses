@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "screen-orientation",
-    "chrome": 6191285283061760,
-    "edge": "Screen Orientation API"
+    "caniuse": [
+      {
+        "id": "screen-orientation",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6191285283061760,
+        "representative": true
+      }
+    ]
   }
 }

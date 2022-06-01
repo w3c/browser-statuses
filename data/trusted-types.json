@@ -1,7 +1,17 @@
 {
   "statusref": {
-    "caniuse": "trusted-types",
-    "chrome": 5650088592408576
+    "caniuse": [
+      {
+        "id": "trusted-types",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5650088592408576,
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

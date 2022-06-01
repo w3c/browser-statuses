@@ -1,7 +1,17 @@
 {
   "statusref": {
-    "caniuse": "accelerometer",
-    "chrome": 5698781827825664
+    "caniuse": [
+      {
+        "id": "accelerometer",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698781827825664,
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

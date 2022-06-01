@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "webauthn",
-    "chrome": 5669923372138496,
-    "edge": "Web Authentication API",
-    "webkit": "specification-web-authentication"
+    "caniuse": [
+      {
+        "id": "webauthn",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5669923372138496,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-authentication",
+        "representative": true
+      }
+    ]
   }
 }

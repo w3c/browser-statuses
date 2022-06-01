@@ -1,43 +1,98 @@
 {
   "statusref": {
-    "caniuse": "web-app-manifest",
-    "chrome": 6488656873259008,
-    "webkit": "specification-web-app-manifest"
+    "caniuse": [
+      {
+        "id": "web-app-manifest",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6488656873259008,
+        "representative": true
+      },
+      {
+        "id": 5651543017652224
+      },
+      {
+        "id": 5674968658477056
+      },
+      {
+        "id": 6690807302062080
+      },
+      {
+        "id": 4754986680451072
+      },
+      {
+        "id": 5709006190411776
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-app-manifest",
+        "representative": true
+      }
+    ]
   },
   "features": {
     "background_color": {
       "url": "https://w3c.github.io/manifest/#background_color-member",
       "title": "background_color member",
       "statusref": {
-        "chrome": 5651543017652224
+        "chrome": [
+          {
+            "id": 5651543017652224,
+            "representative": true
+          }
+        ]
       }
     },
     "install": {
       "url": "https://w3c.github.io/manifest/#installation-events",
       "title": "Installation events",
       "statusref": {
-        "chrome": 5674968658477056
+        "chrome": [
+          {
+            "id": 5674968658477056,
+            "representative": true
+          }
+        ]
       }
     },
     "purpose": {
       "url": "https://w3c.github.io/manifest/#purpose-member",
       "title": "purpose member",
       "statusref": {
-        "chrome": 6690807302062080
+        "chrome": [
+          {
+            "id": 6690807302062080,
+            "representative": true
+          }
+        ]
       }
     },
     "related_applications": {
       "url": "https://w3c.github.io/manifest/#related_applications-member",
       "title": "related_applications member",
       "statusref": {
-        "chrome": 4754986680451072
+        "chrome": [
+          {
+            "id": 4754986680451072,
+            "representative": true
+          }
+        ]
       }
     },
     "theme_color": {
       "url": "https://w3c.github.io/manifest/#theme_color-member",
       "title": "theme_color member",
       "statusref": {
-        "chrome": 5709006190411776
+        "chrome": [
+          {
+            "id": 5709006190411776,
+            "representative": true
+          }
+        ]
       }
     }
   }

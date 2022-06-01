@@ -4,14 +4,34 @@
       "url": "https://w3c.github.io/performance-timeline/#the-performanceobserver-interface",
       "title": "PerformanceObserver interface",
       "statusref": {
-        "chrome": 5945504202489856
+        "chrome": [
+          {
+            "id": 5945504202489856,
+            "representative": true
+          }
+        ]
       }
     },
     "worker": {
       "title": "Available in Workers",
       "statusref": {
-        "chrome": 6337483654561792
+        "chrome": [
+          {
+            "id": 6337483654561792,
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5945504202489856
+      },
+      {
+        "id": 6337483654561792
+      }
+    ]
   }
 }

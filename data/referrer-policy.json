@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "caniuse": "referrer-policy",
-    "chrome": 5639972996513792
+    "caniuse": [
+      {
+        "id": "referrer-policy",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5639972996513792,
+        "representative": true
+      }
+    ]
   }
 }

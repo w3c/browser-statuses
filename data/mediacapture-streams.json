@@ -1,16 +1,48 @@
 {
   "statusref": {
-    "caniuse": "stream",
-    "chrome": 5755699816562688,
-    "edge": "Media Capture and Streams",
-    "webkit": "specification-media-capture-and-streams"
+    "caniuse": [
+      {
+        "id": "stream",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5755699816562688,
+        "representative": true
+      },
+      {
+        "id": 5145556682801152
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-media-capture-and-streams",
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "api.MediaStreamTrack.getCapabilities"
+      }
+    ]
   },
   "features": {
     "capabilities": {
       "title": "Source capabilities",
       "statusref": {
-        "bcd": "api.MediaStreamTrack.getCapabilities",
-        "chrome": 5145556682801152
+        "bcd": [
+          {
+            "id": "api.MediaStreamTrack.getCapabilities",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5145556682801152,
+            "representative": true
+          }
+        ]
       }
     }
   }

@@ -4,15 +4,35 @@
       "url": "https://drafts.csswg.org/css-ruby-1/#ruby-align-property",
       "title": "The ruby-align property",
       "statusref": {
-        "bcd": "css.properties.ruby-align"
+        "bcd": [
+          {
+            "id": "css.properties.ruby-align",
+            "representative": true
+          }
+        ]
       }
     },
     "ruby-position": {
       "url": "https://drafts.csswg.org/css-ruby-1/#rubypos",
       "title": "The ruby-position property",
       "statusref": {
-        "bcd": "css.properties.ruby-position"
+        "bcd": [
+          {
+            "id": "css.properties.ruby-position",
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.ruby-align"
+      },
+      {
+        "id": "css.properties.ruby-position"
+      }
+    ]
   }
 }

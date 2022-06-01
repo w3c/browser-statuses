@@ -1,21 +1,43 @@
 {
   "statusref": {
-    "chrome": 4621603249848320,
-    "edge": "Audio Output Devices API"
+    "chrome": [
+      {
+        "id": 4621603249848320,
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "api.HTMLMediaElement.sinkId"
+      },
+      {
+        "id": "api.HTMLMediaElement.setSinkId"
+      }
+    ]
   },
   "features": {
     "sinkId": {
       "url": "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-sinkid",
       "title": "ID of the audio device",
       "statusref": {
-        "bcd": "api.HTMLMediaElement.sinkId"
+        "bcd": [
+          {
+            "id": "api.HTMLMediaElement.sinkId",
+            "representative": true
+          }
+        ]
       }
     },
     "setSinkId": {
       "url": "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-setsinkid",
       "title": "Method to set the ID of the audio device",
       "statusref": {
-        "bcd": "api.HTMLMediaElement.setSinkId"
+        "bcd": [
+          {
+            "id": "api.HTMLMediaElement.setSinkId",
+            "representative": true
+          }
+        ]
       }
     }
   }

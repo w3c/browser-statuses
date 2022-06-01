@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.PerformanceLongTaskTiming",
-    "chrome": 5738471184400384
+    "bcd": [
+      {
+        "id": "api.PerformanceLongTaskTiming",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5738471184400384,
+        "representative": true
+      }
+    ]
   }
 }

@@ -1,10 +1,29 @@
 {
   "statusref": {
-    "bcd": "api.IntersectionObserver",
-    "caniuse": "intersectionobserver",
-    "chrome": 5695342691483648,
-    "edge": "Intersection Observer",
-    "webkit": "specification-intersection-observer"
+    "bcd": [
+      {
+        "id": "api.IntersectionObserver",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "intersectionobserver",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5695342691483648,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-intersection-observer",
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

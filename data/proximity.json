@@ -1,6 +1,11 @@
 {
   "statusref": {
-    "caniuse": "proximity",
+    "caniuse": [
+      {
+        "id": "proximity",
+        "representative": true
+      }
+    ],
     "manual": [
       {
         "ua": "firefox",

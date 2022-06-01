@@ -1,6 +1,11 @@
 {
   "statusref": {
-    "chrome": 6676265876586496,
+    "chrome": [
+      {
+        "id": 6676265876586496,
+        "representative": true
+      }
+    ],
     "manual": [
       {
         "ua": "webkit",

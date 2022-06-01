@@ -1,9 +1,28 @@
 {
   "statusref": {
-    "bcd": "api.HTMLCanvasElement.webgl_context",
-    "caniuse": "webgl",
-    "chrome": 6049512976023552,
-    "edge": "WebGL  (Canvas 3D)",
-    "webkit": "specification-webgl-1"
+    "bcd": [
+      {
+        "id": "api.HTMLCanvasElement.webgl_context",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "webgl",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6049512976023552,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-webgl-1",
+        "representative": true
+      }
+    ]
   }
 }

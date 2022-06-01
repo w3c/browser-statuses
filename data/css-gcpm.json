@@ -1,6 +1,10 @@
 {
   "statusref": {
-    "chrome": 5400251359821824,
-    "edge": "Generated Content for Paged Media"
+    "chrome": [
+      {
+        "id": 5400251359821824,
+        "representative": true
+      }
+    ]
   }
 }

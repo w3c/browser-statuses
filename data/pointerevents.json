@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "bcd": "css.properties.touch-action",
-    "caniuse": "css-touch-action",
-    "chrome": 5912074022551552,
-    "edge": "CSS touch-action"
+    "bcd": [
+      {
+        "id": "css.properties.touch-action",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-touch-action",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5912074022551552,
+        "representative": true
+      }
+    ]
   }
 }

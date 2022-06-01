@@ -4,206 +4,617 @@
       "url": "https://html.spec.whatwg.org/multipage/#the-template-element",
       "title": "The template element",
       "statusref": {
-        "bcd": "html.elements.template",
-        "caniuse": "template-literals",
-        "chrome": 5207287069147136
+        "bcd": [
+          {
+            "id": "html.elements.template",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "template-literals",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5207287069147136,
+            "representative": true
+          }
+        ]
       }
     },
     "custom-elements": {
       "url": "https://html.spec.whatwg.org/multipage/#custom-elements",
       "title": "Custom elements",
       "statusref": {
-        "caniuse": "custom-elementsv1",
-        "chrome": 4696261944934400
+        "caniuse": [
+          {
+            "id": "custom-elementsv1",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4696261944934400,
+            "representative": true
+          }
+        ]
       }
     },
     "js-module": {
       "url": "https://html.spec.whatwg.org/multipage/#integration-with-the-javascript-module-system",
       "title": "Integration with the JavaScript module system",
       "statusref": {
-        "bcd": "html.elements.script.type.module",
-        "caniuse": "es6-module"
+        "bcd": [
+          {
+            "id": "html.elements.script.type.module",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "es6-module",
+            "representative": true
+          }
+        ]
       }
     },
     "2dcontext": {
       "url": "https://html.spec.whatwg.org/multipage/#2dcontext",
       "title": "The 2D rendering context",
       "statusref": {
-        "bcd": "api.CanvasRenderingContext2D",
-        "caniuse": "canvas",
-        "chrome": 5100084685438976,
-        "edge": "Canvas"
+        "bcd": [
+          {
+            "id": "api.CanvasRenderingContext2D",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "canvas",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5100084685438976,
+            "representative": true
+          }
+        ]
       }
     },
     "ruby": {
       "url": "https://html.spec.whatwg.org/multipage/#the-ruby-element",
       "title": "The ruby element",
       "statusref": {
-        "caniuse": "ruby"
+        "caniuse": [
+          {
+            "id": "ruby",
+            "representative": true
+          }
+        ]
       }
     },
     "animation-frames": {
       "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames",
       "title": "requestAnimationFrame",
       "statusref": {
-        "bcd": "api.Window.requestAnimationFrame",
-        "caniuse": "requestanimationframe",
-        "chrome": 5233400470306816,
-        "edge": "requestAnimationFrame()"
+        "bcd": [
+          {
+            "id": "api.Window.requestAnimationFrame",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "requestanimationframe",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5233400470306816,
+            "representative": true
+          }
+        ]
       }
     },
     "audio": {
       "url": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
       "title": "audio element",
       "statusref": {
-        "bcd": "api.HTMLAudioElement",
-        "caniuse": "audio"
+        "bcd": [
+          {
+            "id": "api.HTMLAudioElement",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "audio",
+            "representative": true
+          }
+        ]
       }
     },
     "datalist": {
       "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
       "title": "datalist element",
       "statusref": {
-        "bcd": "html.elements.datalist",
-        "caniuse": "datalist",
-        "chrome": 6090950820495360,
-        "edge": "<datalist> Element"
+        "bcd": [
+          {
+            "id": "html.elements.datalist",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "datalist",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 6090950820495360,
+            "representative": true
+          }
+        ]
       }
     },
     "html5-download": {
       "url": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
       "title": "download attribute",
       "statusref": {
-        "bcd": "api.HTMLAnchorElement.download",
-        "caniuse": "download",
-        "chrome": 6473924464345088,
-        "edge": "a[download] attribute",
-        "webkit": "feature-download-attribute"
+        "bcd": [
+          {
+            "id": "api.HTMLAnchorElement.download",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "download",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 6473924464345088,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-download-attribute",
+            "representative": true
+          }
+        ]
       }
     },
     "html5-sandbox": {
       "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox",
       "title": "sandbox iframe attribute",
       "statusref": {
-        "bcd": "api.HTMLIFrameElement.sandbox",
-        "caniuse": "iframe-sandbox",
-        "chrome": 5715536319086592,
-        "edge": "iframe[sandbox] attribute"
+        "bcd": [
+          {
+            "id": "api.HTMLIFrameElement.sandbox",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "iframe-sandbox",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5715536319086592,
+            "representative": true
+          }
+        ]
       }
     },
     "htmlmediaelement": {
       "url": "https://html.spec.whatwg.org/multipage/media.html#media-elements",
       "title": "HTMLMediaElement interface",
       "statusref": {
-        "bcd": "api.HTMLMediaElement",
-        "caniuse": "video"
+        "bcd": [
+          {
+            "id": "api.HTMLMediaElement",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "video",
+            "representative": true
+          }
+        ]
       }
     },
     "inputdate": {
       "url": "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)",
       "title": "Date and time input types",
       "statusref": {
-        "caniuse": "input-datetime",
-        "chrome": 6640933999214592
+        "caniuse": [
+          {
+            "id": "input-datetime",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 6640933999214592,
+            "representative": true
+          }
+        ]
       }
     },
     "inputhint": {
       "url": "https://html.spec.whatwg.org/multipage/input.html#the-placeholder-attribute",
       "title": "input placeholder attribute",
       "statusref": {
-        "caniuse": "input-placeholder"
+        "caniuse": [
+          {
+            "id": "input-placeholder",
+            "representative": true
+          }
+        ]
       }
     },
     "inputpattern": {
       "url": "https://html.spec.whatwg.org/multipage/input.html#the-pattern-attribute",
       "title": "pattern attribute for input fields",
       "statusref": {
-        "caniuse": "input-pattern"
+        "caniuse": [
+          {
+            "id": "input-pattern",
+            "representative": true
+          }
+        ]
       }
     },
     "inputtext": {
       "url": "https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type=email)",
       "title": "tel, email, url input types",
       "statusref": {
-        "caniuse": "input-email-tel-url"
+        "caniuse": [
+          {
+            "id": "input-email-tel-url",
+            "representative": true
+          }
+        ]
       }
     },
     "offscreencanvas": {
       "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-offscreencanvas-interface",
       "title": "OffscreenCanvas",
       "statusref": {
-        "bcd": "api.OffscreenCanvas",
-        "caniuse": "offscreencanvas",
-        "chrome": 5681560598609920
+        "bcd": [
+          {
+            "id": "api.OffscreenCanvas",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "offscreencanvas",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5681560598609920,
+            "representative": true
+          }
+        ]
       }
     },
     "online": {
       "url": "https://html.spec.whatwg.org/multipage/offline.html#navigator.online",
       "title": "onLine DOM flag",
       "statusref": {
-        "caniuse": "online-status"
+        "caniuse": [
+          {
+            "id": "online-status",
+            "representative": true
+          }
+        ]
       }
     },
     "page-visibility": {
       "url": "https://html.spec.whatwg.org/multipage/interaction.html#page-visibility",
       "title": "Page visibility",
       "statusref": {
-        "caniuse": "pagevisibility",
-        "chrome": 5689697795833856,
-        "edge": "Page Visibility API"
+        "caniuse": [
+          {
+            "id": "pagevisibility",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5689697795833856,
+            "representative": true
+          }
+        ]
       }
     },
     "picture": {
       "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
       "title": "picture element",
       "statusref": {
-        "bcd": "html.elements.picture",
-        "caniuse": "picture",
-        "chrome": 5910974510923776,
-        "edge": "<picture> Element",
-        "webkit": "feature-picture-element"
+        "bcd": [
+          {
+            "id": "html.elements.picture",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "picture",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5910974510923776,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-picture-element",
+            "representative": true
+          }
+        ]
       }
     },
     "preload": {
       "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
       "title": "Link type \"preload\"",
       "statusref": {
-        "caniuse": "link-rel-preload",
-        "chrome": 5757468554559488,
-        "edge": "Preload",
-        "webkit": "specification-preload"
+        "caniuse": [
+          {
+            "id": "link-rel-preload",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5757468554559488,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "specification-preload",
+            "representative": true
+          }
+        ]
       }
     },
     "srcset": {
       "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
       "title": "srcset attribute",
       "statusref": {
-        "caniuse": "srcset",
-        "chrome": 4644337115725824,
-        "edge": "<img srcset>",
-        "webkit": "feature-srcset-w-descriptor-and-related-sizes-attribute"
+        "caniuse": [
+          {
+            "id": "srcset",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4644337115725824,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-srcset-w-descriptor-and-related-sizes-attribute",
+            "representative": true
+          }
+        ]
       }
     },
     "timeupdate": {
       "url": "https://html.spec.whatwg.org/multipage/media.html#event-media-timeupdate",
       "title": "timeupdate event",
       "statusref": {
-        "caniuse": "video"
+        "caniuse": [
+          {
+            "id": "video",
+            "representative": true
+          }
+        ]
       }
     },
     "video": {
       "url": "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
       "title": "video element",
       "statusref": {
-        "caniuse": "video"
+        "caniuse": [
+          {
+            "id": "video",
+            "representative": true
+          }
+        ]
       }
     },
     "webworkers": {
       "url": "https://html.spec.whatwg.org/multipage/workers.html",
       "title": "Web workers",
       "statusref": {
-        "caniuse": "webworkers"
+        "caniuse": [
+          {
+            "id": "webworkers",
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "bcd": [
+      {
+        "id": "html.elements.template"
+      },
+      {
+        "id": "html.elements.script.type.module"
+      },
+      {
+        "id": "api.CanvasRenderingContext2D"
+      },
+      {
+        "id": "api.Window.requestAnimationFrame"
+      },
+      {
+        "id": "api.HTMLAudioElement"
+      },
+      {
+        "id": "html.elements.datalist"
+      },
+      {
+        "id": "api.HTMLAnchorElement.download"
+      },
+      {
+        "id": "api.HTMLIFrameElement.sandbox"
+      },
+      {
+        "id": "api.HTMLMediaElement"
+      },
+      {
+        "id": "api.OffscreenCanvas"
+      },
+      {
+        "id": "html.elements.picture"
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "template-literals"
+      },
+      {
+        "id": "custom-elementsv1"
+      },
+      {
+        "id": "es6-module"
+      },
+      {
+        "id": "canvas"
+      },
+      {
+        "id": "ruby"
+      },
+      {
+        "id": "requestanimationframe"
+      },
+      {
+        "id": "audio"
+      },
+      {
+        "id": "datalist"
+      },
+      {
+        "id": "download"
+      },
+      {
+        "id": "iframe-sandbox"
+      },
+      {
+        "id": "video"
+      },
+      {
+        "id": "input-datetime"
+      },
+      {
+        "id": "input-placeholder"
+      },
+      {
+        "id": "input-pattern"
+      },
+      {
+        "id": "input-email-tel-url"
+      },
+      {
+        "id": "offscreencanvas"
+      },
+      {
+        "id": "online-status"
+      },
+      {
+        "id": "pagevisibility"
+      },
+      {
+        "id": "picture"
+      },
+      {
+        "id": "link-rel-preload"
+      },
+      {
+        "id": "srcset"
+      },
+      {
+        "id": "webworkers"
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5207287069147136
+      },
+      {
+        "id": 4696261944934400
+      },
+      {
+        "id": 5100084685438976
+      },
+      {
+        "id": 5233400470306816
+      },
+      {
+        "id": 6090950820495360
+      },
+      {
+        "id": 6473924464345088
+      },
+      {
+        "id": 5715536319086592
+      },
+      {
+        "id": 6640933999214592
+      },
+      {
+        "id": 5681560598609920
+      },
+      {
+        "id": 5689697795833856
+      },
+      {
+        "id": 5910974510923776
+      },
+      {
+        "id": 5757468554559488
+      },
+      {
+        "id": 4644337115725824
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-download-attribute"
+      },
+      {
+        "id": "feature-picture-element"
+      },
+      {
+        "id": "specification-preload"
+      },
+      {
+        "id": "feature-srcset-w-descriptor-and-related-sizes-attribute"
+      }
+    ]
   }
 }

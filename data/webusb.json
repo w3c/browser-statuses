@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "caniuse": "webusb",
-    "chrome": 5651917954875392,
-    "webkit": "specification-webusb"
+    "caniuse": [
+      {
+        "id": "webusb",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5651917954875392,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-webusb",
+        "representative": true
+      }
+    ]
   }
 }

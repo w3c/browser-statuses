@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "flexbox",
-    "chrome": 4837301406400512,
-    "edge": "Flexbox"
+    "caniuse": [
+      {
+        "id": "flexbox",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4837301406400512,
+        "representative": true
+      }
+    ]
   }
 }

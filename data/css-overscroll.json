@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "bcd": "css.properties.overscroll-behavior",
-    "caniuse": "css-overscroll-behavior",
-    "chrome": 5734614437986304
+    "bcd": [
+      {
+        "id": "css.properties.overscroll-behavior",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-overscroll-behavior",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5734614437986304,
+        "representative": true
+      }
+    ]
   }
 }

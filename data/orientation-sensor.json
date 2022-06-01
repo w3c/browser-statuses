@@ -1,7 +1,17 @@
 {
   "statusref": {
-    "caniuse": "orientation-sensor",
-    "chrome": 5698781827825664
+    "caniuse": [
+      {
+        "id": "orientation-sensor",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698781827825664,
+        "representative": true
+      }
+    ]
   },
   "polyfills": [
     {

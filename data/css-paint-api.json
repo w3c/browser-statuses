@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "caniuse": "css-paint-api",
-    "chrome": 5685444318593024,
-    "webkit": "specification-css-painting-api-level-1"
+    "caniuse": [
+      {
+        "id": "css-paint-api",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5685444318593024,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-painting-api-level-1",
+        "representative": true
+      }
+    ]
   }
 }

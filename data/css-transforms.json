@@ -1,6 +1,10 @@
 {
   "statusref": {
-    "caniuse": "transforms2d",
-    "edge": "Transforms"
+    "caniuse": [
+      {
+        "id": "transforms2d",
+        "representative": true
+      }
+    ]
   }
 }

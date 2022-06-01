@@ -4,15 +4,35 @@
       "url": "https://w3c.github.io/device-memory/#sec-device-memory-client-hint-header",
       "title": "Header field",
       "statusref": {
-        "chrome": 5741299856572416
+        "chrome": [
+          {
+            "id": 5741299856572416,
+            "representative": true
+          }
+        ]
       }
     },
     "jsapi": {
       "url": "https://w3c.github.io/device-memory/#sec-device-memory-js-api",
       "title": "JS API",
       "statusref": {
-        "chrome": 5119701235531776
+        "chrome": [
+          {
+            "id": 5119701235531776,
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5741299856572416
+      },
+      {
+        "id": 5119701235531776
+      }
+    ]
   }
 }

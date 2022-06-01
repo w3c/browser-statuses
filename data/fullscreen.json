@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "caniuse": "fullscreen",
-    "chrome": 5259513871466496,
-    "edge": "Fullscreen API"
+    "caniuse": [
+      {
+        "id": "fullscreen",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5259513871466496,
+        "representative": true
+      }
+    ]
   }
 }

@@ -4,29 +4,65 @@
       "url": "https://drafts.csswg.org/css-scoping/#selectordef-host",
       "title": "The :host pseudo-class",
       "statusref": {
-        "bcd": "css.selectors.host"
+        "bcd": [
+          {
+            "id": "css.selectors.host",
+            "representative": true
+          }
+        ]
       }
     },
     "hostfunction": {
       "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-function",
       "title": "The :host() pseudo-class",
       "statusref": {
-        "bcd": "css.selectors.hostfunction"
+        "bcd": [
+          {
+            "id": "css.selectors.hostfunction",
+            "representative": true
+          }
+        ]
       }
     },
     "host-context": {
       "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-context",
       "title": "The :host-context pseudo-class",
       "statusref": {
-        "bcd": "css.selectors.host-context"
+        "bcd": [
+          {
+            "id": "css.selectors.host-context",
+            "representative": true
+          }
+        ]
       }
     },
     "slotted": {
       "url": "https://drafts.csswg.org/css-scoping/#selectordef-slotted",
       "title": "The ::slotted() pseudo-element",
       "statusref": {
-        "bcd": "css.selectors.slotted"
+        "bcd": [
+          {
+            "id": "css.selectors.slotted",
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.selectors.host"
+      },
+      {
+        "id": "css.selectors.hostfunction"
+      },
+      {
+        "id": "css.selectors.host-context"
+      },
+      {
+        "id": "css.selectors.slotted"
+      }
+    ]
   }
 }

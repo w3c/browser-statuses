@@ -61,19 +61,15 @@
           "partial": {
             "type": "boolean"
           },
-          "features": {
-            "type": "array",
-            "items": {
-              "type": "string",
-              "minLength": 1
-            }
-          },
           "notes": {
             "type": "array",
             "items": {
               "type": "string",
               "minLength": 1
             }
+          },
+          "details": {
+            "$ref": "#/definitions/support"
           }
         }
       }

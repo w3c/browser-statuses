@@ -1,9 +1,23 @@
 {
   "statusref": {
-    "bcd": "api.PictureInPicture",
-    "caniuse": "picture-in-picture",
-    "chrome": 5729206566649856,
-    "edge": "Picture-in-Picture",
+    "bcd": [
+      {
+        "id": "api.PictureInPicture",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "picture-in-picture",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5729206566649856,
+        "representative": true
+      }
+    ],
     "manual": [
       {
         "ua": "safari",

@@ -1,7 +1,22 @@
 {
   "statusref": {
-    "bcd": "css.properties.text-size-adjust",
-    "caniuse": "text-size-adjust",
-    "chrome": 5730156303876096
+    "bcd": [
+      {
+        "id": "css.properties.text-size-adjust",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "text-size-adjust",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5730156303876096,
+        "representative": true
+      }
+    ]
   }
 }

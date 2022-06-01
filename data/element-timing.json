@@ -4,15 +4,35 @@
       "url": "https://wicg.github.io/element-timing/#sec-report-image-element",
       "title": "Support for images",
       "statusref": {
-        "chrome": 6727079454310400
+        "chrome": [
+          {
+            "id": 6727079454310400,
+            "representative": true
+          }
+        ]
       }
     },
     "text": {
       "url": "https://wicg.github.io/element-timing/#sec-report-text",
       "title": "Support for text",
       "statusref": {
-        "chrome": 6230814637424640
+        "chrome": [
+          {
+            "id": 6230814637424640,
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "chrome": [
+      {
+        "id": 6727079454310400
+      },
+      {
+        "id": 6230814637424640
+      }
+    ]
   }
 }

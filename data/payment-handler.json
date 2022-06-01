@@ -1,6 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.PaymentManager",
-    "chrome": 5160285237149696
+    "bcd": [
+      {
+        "id": "api.PaymentManager",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5160285237149696,
+        "representative": true
+      }
+    ]
   }
 }

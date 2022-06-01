@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "bcd": "api.SyncManager",
-    "caniuse": "background-sync",
-    "chrome": 6170807885627392,
-    "edge": "Background Sync API"
+    "bcd": [
+      {
+        "id": "api.SyncManager",
+        "representative": true
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "background-sync",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6170807885627392,
+        "representative": true
+      }
+    ]
   }
 }

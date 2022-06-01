@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "web-bluetooth",
-    "chrome": 5264933985976320,
-    "edge": "Web Bluetooth",
-    "webkit": "specification-web-bluetooth"
+    "caniuse": [
+      {
+        "id": "web-bluetooth",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5264933985976320,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-bluetooth",
+        "representative": true
+      }
+    ]
   }
 }

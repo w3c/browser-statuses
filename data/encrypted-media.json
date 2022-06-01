@@ -8,19 +8,39 @@
       "url": "https://w3c.github.io/encrypted-media/d",
       "title": "HDCP detection",
       "statusref": {
-        "chrome": 5652917147140096
+        "chrome": [
+          {
+            "id": 5652917147140096,
+            "representative": true
+          }
+        ]
       }
     },
     "encryption-scheme": {
       "url": "https://w3c.github.io/encrypted-media/d",
       "title": "Encryption scheme detection",
       "statusref": {
-        "chrome": 5184416120832000
+        "chrome": [
+          {
+            "id": 5184416120832000,
+            "representative": true
+          }
+        ]
       }
     },
     "find-existing-sessions": {
       "url": "https://w3c.github.io/encrypted-media/n",
       "title": "API to find existing sessions"
     }
+  },
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5652917147140096
+      },
+      {
+        "id": 5184416120832000
+      }
+    ]
   }
 }

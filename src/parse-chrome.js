@@ -221,3 +221,23 @@ export function getImplementationStatus(key) {
 
   return impl;
 }
+
+
+export function findMappings(shortname, relatedUrls, knownData) {
+  const mappings = data
+    .filter(feature => {
+      const url = feature?.standards?.spec;
+      return url && !!relatedUrls.find(u => url.startsWith(u));
+    })
+    .filter(feature => feature.feature_type !== 'Feature deprecation')
+    .map(feature => {
+      return {
+        id: feature.id,
+        name: feature.name,
+        statusUrl: `https://chromestatus.com/feature/${feature.id}`,
+        specUrls: [feature.standards.spec]
+      };
+    });
+
+  return mappings;
+}

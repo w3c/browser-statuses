@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "indexeddb2",
-    "chrome": 5812621622116352,
-    "edge": "IndexedDB",
-    "webkit": "specification-indexed-database-2.0"
+    "caniuse": [
+      {
+        "id": "indexeddb2",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5812621622116352,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-indexed-database-2.0",
+        "representative": true
+      }
+    ]
   }
 }

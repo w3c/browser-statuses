@@ -1,20 +1,43 @@
 {
   "statusref": {
-    "chrome": 5612590694662144
+    "chrome": [
+      {
+        "id": 5612590694662144,
+        "representative": true
+      }
+    ],
+    "bcd": [
+      {
+        "id": "api.Document.hasStorageAccess"
+      },
+      {
+        "id": "api.Document.requestStorageAccess"
+      }
+    ]
   },
   "features": {
     "hasStorageAccess": {
       "url": "https://privacycg.github.io/storage-access/#dom-document-hasstorageaccess",
       "title": "hasStorageAccess method",
       "statusref": {
-        "bcd": "api.Document.hasStorageAccess"
+        "bcd": [
+          {
+            "id": "api.Document.hasStorageAccess",
+            "representative": true
+          }
+        ]
       }
     },
     "requestStorageAccess": {
       "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
       "title": "requestStorageAccess method",
       "statusref": {
-        "bcd": "api.Document.requestStorageAccess"
+        "bcd": [
+          {
+            "id": "api.Document.requestStorageAccess",
+            "representative": true
+          }
+        ]
       }
     }
   }

@@ -1,7 +1,16 @@
 {
   "statusref": {
-    "bcd": "api.PerformanceServerTiming",
-    "chrome": 5695708376072192,
-    "edge": "Server Timing"
+    "bcd": [
+      {
+        "id": "api.PerformanceServerTiming",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5695708376072192,
+        "representative": true
+      }
+    ]
   }
 }

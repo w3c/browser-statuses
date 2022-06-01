@@ -4,10 +4,42 @@
       "url": "https://dom.spec.whatwg.org/#shadow-trees",
       "title": "Shadow tree",
       "statusref": {
-        "caniuse": "shadowdomv1",
-        "chrome": 4667415417847808,
-        "webkit": "feature-shadow-dom"
+        "caniuse": [
+          {
+            "id": "shadowdomv1",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4667415417847808,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-shadow-dom",
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "shadowdomv1"
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4667415417847808
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-shadow-dom"
+      }
+    ]
   }
 }

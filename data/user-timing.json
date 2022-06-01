@@ -1,8 +1,22 @@
 {
   "statusref": {
-    "caniuse": "user-timing",
-    "chrome": 5066549580791808,
-    "edge": "User Timing API",
-    "webkit": "specification-user-timing-level-2"
+    "caniuse": [
+      {
+        "id": "user-timing",
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5066549580791808,
+        "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-user-timing-level-2",
+        "representative": true
+      }
+    ]
   }
 }

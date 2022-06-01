@@ -1,6 +1,10 @@
 {
   "statusref": {
-    "chrome": 6261030015467520,
-    "edge": "Web NFC API"
+    "chrome": [
+      {
+        "id": 6261030015467520,
+        "representative": true
+      }
+    ]
   }
 }

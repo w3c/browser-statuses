@@ -4,15 +4,35 @@
       "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
       "title": "Encoding capabilities",
       "statusref": {
-        "chrome": 5123719190020096
+        "chrome": [
+          {
+            "id": 5123719190020096,
+            "representative": true
+          }
+        ]
       }
     },
     "decoding": {
       "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
       "title": "Decoding capabilities",
       "statusref": {
-        "chrome": 5869632707624960
+        "chrome": [
+          {
+            "id": 5869632707624960,
+            "representative": true
+          }
+        ]
       }
     }
+  },
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5123719190020096
+      },
+      {
+        "id": 5869632707624960
+      }
+    ]
   }
 }
