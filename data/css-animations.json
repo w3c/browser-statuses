@@ -1,15 +1,279 @@
 {
   "statusref": {
-    "caniuse": [
+    "bcd": [
       {
-        "id": "css-animation",
-        "representative": true
+        "id": "api.AnimationEvent",
+        "name": "api.AnimationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#interface-animationevent"
+        ]
+      },
+      {
+        "id": "api.CSSAnimation",
+        "name": "api.CSSAnimation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSAnimation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations-2/#the-CSSAnimation-interface"
+        ]
+      },
+      {
+        "id": "api.CSSKeyframeRule",
+        "name": "api.CSSKeyframeRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSKeyframeRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#interface-csskeyframerule"
+        ]
+      },
+      {
+        "id": "api.CSSKeyframesRule",
+        "name": "api.CSSKeyframesRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#interface-csskeyframesrule"
+        ]
+      },
+      {
+        "id": "api.Document.animationcancel_event",
+        "name": "api.Document.animationcancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationcancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+        ]
+      },
+      {
+        "id": "api.Document.animationend_event",
+        "name": "api.Document.animationend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+        ]
+      },
+      {
+        "id": "api.Document.animationiteration_event",
+        "name": "api.Document.animationiteration_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationiteration_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+        ]
+      },
+      {
+        "id": "api.Document.animationstart_event",
+        "name": "api.Document.animationstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onanimationcancel",
+        "name": "api.GlobalEventHandlers.onanimationcancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onanimationcancel",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#dom-document-onanimationcancel"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onanimationend",
+        "name": "api.GlobalEventHandlers.onanimationend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onanimationend",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#dom-document-onanimationend"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onanimationiteration",
+        "name": "api.GlobalEventHandlers.onanimationiteration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onanimationiteration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#dom-document-onanimationiteration"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onanimationstart",
+        "name": "api.GlobalEventHandlers.onanimationstart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onanimationstart",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#dom-document-onanimationstart"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.animationcancel_event",
+        "name": "api.HTMLElement.animationcancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationcancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.animationend_event",
+        "name": "api.HTMLElement.animationend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.animationiteration_event",
+        "name": "api.HTMLElement.animationiteration_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationiteration_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.animationstart_event",
+        "name": "api.HTMLElement.animationstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+        ]
+      },
+      {
+        "id": "api.Window.animationcancel_event",
+        "name": "api.Window.animationcancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationcancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+        ]
+      },
+      {
+        "id": "api.Window.animationend_event",
+        "name": "api.Window.animationend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+        ]
+      },
+      {
+        "id": "api.Window.animationiteration_event",
+        "name": "api.Window.animationiteration_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationiteration_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+        ]
+      },
+      {
+        "id": "api.Window.animationstart_event",
+        "name": "api.Window.animationstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+        ]
+      },
+      {
+        "id": "css.at-rules.keyframes",
+        "name": "css.at-rules.keyframes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@keyframes",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#keyframes"
+        ]
+      },
+      {
+        "id": "css.properties.animation",
+        "name": "css.properties.animation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation"
+        ]
+      },
+      {
+        "id": "css.properties.animation-delay",
+        "name": "css.properties.animation-delay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-delay",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-delay"
+        ]
+      },
+      {
+        "id": "css.properties.animation-direction",
+        "name": "css.properties.animation-direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-direction",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-direction"
+        ]
+      },
+      {
+        "id": "css.properties.animation-duration",
+        "name": "css.properties.animation-duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-duration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-duration"
+        ]
+      },
+      {
+        "id": "css.properties.animation-fill-mode",
+        "name": "css.properties.animation-fill-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-fill-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-fill-mode"
+        ]
+      },
+      {
+        "id": "css.properties.animation-iteration-count",
+        "name": "css.properties.animation-iteration-count",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-iteration-count",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-iteration-count"
+        ]
+      },
+      {
+        "id": "css.properties.animation-name",
+        "name": "css.properties.animation-name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-name",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-name"
+        ]
+      },
+      {
+        "id": "css.properties.animation-play-state",
+        "name": "css.properties.animation-play-state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-play-state",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-play-state"
+        ]
+      },
+      {
+        "id": "css.properties.animation-timeline",
+        "name": "css.properties.animation-timeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-timeline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations-2/#animation-timeline"
+        ]
+      },
+      {
+        "id": "css.properties.animation-timing-function",
+        "name": "css.properties.animation-timing-function",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/animation-timing-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation-timing-function"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 6121990213599232,
-        "representative": true
+        "id": 5112855204462592,
+        "name": "AnimationEvent.pseudoElement",
+        "statusUrl": "https://chromestatus.com/feature/5112855204462592",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#interface-animationevent"
+        ]
+      },
+      {
+        "id": 6027726842494976,
+        "name": "Remove prefixed WebKitAnimationEvent interface",
+        "statusUrl": "https://chromestatus.com/feature/6027726842494976",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/"
+        ]
+      },
+      {
+        "id": 6246168711397376,
+        "name": "Spec compliant serialization for ‘animation’ shorthand property",
+        "statusUrl": "https://chromestatus.com/feature/6246168711397376",
+        "specUrls": [
+          "https://drafts.csswg.org/css-animations/#animation"
+        ]
       }
     ]
   }
