@@ -8,7 +8,7 @@
  * package.
  */
 
-import bcd from '@mdn/browser-compat-data';
+import bcd from '@mdn/browser-compat-data' assert { type: 'json' };
 import { userAgents } from './user-agents.js';
 
 
