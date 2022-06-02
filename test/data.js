@@ -8,6 +8,8 @@ import assert from 'assert';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import browserSpecs from 'web-specs' assert { type: 'json' };
+
 
 const ajv = new Ajv.default();
 addFormats(ajv);
@@ -17,8 +19,6 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const schemaFile = path.join(__dirname, '..', 'src', 'schema', 'data.json');
 
-// Import browser specs (cannot use "import" for now since entry point is JSON)
-const browserSpecs = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'node_modules', 'web-specs', 'index.json'), 'utf8'));
 
 
 function loadJSON(file) {
