@@ -14,7 +14,15 @@ describe('The manual implementation data parser', () => {
       date: '2021-02-16',
       href: 'https://example.org'
     };
-    assert.deepEqual(getImplementationStatus([manual]), [manual]);
+    const info = getImplementationStatus([manual])[0];
+    assert.strictEqual(manual.ua, info.ua);
+    assert.strictEqual(manual.status, info.status);
+    assert.strictEqual(manual.source, info.source);
+
+    const detail = info.details[0];
+    assert.strictEqual(detail.status, manual.status);
+    assert.strictEqual(detail.date, manual.date);
+    assert.strictEqual(detail.href, manual.href);
   });
 
   it('sets "other" as source when not specified', () => {
@@ -57,6 +65,6 @@ describe('The manual implementation data parser', () => {
       comment: 'my comment is rich'
     };
     const info = getImplementationStatus([manual])[0];
-    assert.deepEqual(info.notes, [manual.comment]);
+    assert.deepEqual(info.details[0].notes, [manual.comment]);
   });
 });

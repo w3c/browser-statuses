@@ -11,22 +11,29 @@ export function getImplementationStatus(impldata) {
     const implstatus = {
       ua: d.ua,
       status: d.status,
-      source: d.source || 'other'
+      source: d.source || 'other',
+      details: [
+        {
+          status: d.status
+        }
+      ]
     };
     if (d.prefix) {
       implstatus.prefix = true;
+      implstatus.details[0].prefix = true;
     }
     if (d.flag) {
       implstatus.flag = true;
+      implstatus.details[0].flag = true;
     }
     if (d.date) {
-      implstatus.date = d.date;
+      implstatus.details[0].date = d.date;
     }
     if (d.comment) {
-      implstatus.notes = [d.comment];
+      implstatus.details[0].notes = [d.comment];
     }
     if (d.href) {
-      implstatus.href = d.href;
+      implstatus.details[0].href = d.href;
     }
     return implstatus;
   });
