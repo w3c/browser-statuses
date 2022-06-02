@@ -69,8 +69,8 @@ function getImplInfoForFeature(feature) {
       keys.map(key => {
         return parsers[parser].getImplementationStatus(key.id)
           .map(impl => {
-            if (!key.representative) {
-              impl.guess = true;
+            if (key.representative) {
+              impl.representative = true;
             }
             return impl;
           });
@@ -82,13 +82,14 @@ function getImplInfoForFeature(feature) {
               ua: impl.ua,
               status: impl.status,
               source: impl.source,
-              guess: impl.guess,
+              guess: !impl.representative,
               details: []
             };
           }
           const merged = perUA[impl.ua];
-          if ((merged.guess && !impl.guess) ||
-              (statuses.indexOf(impl.status) <= statuses.indexOf(merged.status))) {
+          if ((merged.guess && impl.representative) ||
+              ((merged.guess || impl.representative) &&
+                (statuses.indexOf(impl.status) <= statuses.indexOf(merged.status)))) {
             for (const prop of ['flag', 'partial', 'prefix']) {
               if (impl[prop]) {
                 merged[prop] = impl[prop];
@@ -98,7 +99,7 @@ function getImplInfoForFeature(feature) {
               }
             }
             merged.status = impl.status;
-            if (!impl.guess) {
+            if (impl.representative) {
               delete merged.guess;
             }
           }
@@ -136,6 +137,13 @@ function guessImplInfoFromSpec(featureName, implinfo) {
       const impl = implinfo.support.find(o =>
         (o.source === source) && (o.ua === ua));
       if (!impl || !impl.status) {
+        continue;
+      }
+
+      // Useless to guess something if we already have implementation info
+      // from the same source for the same UA at the feature level
+      if (implinfo.features[featureName].support.find(o =>
+          (o.source === source) && (o.ua === ua))) {
         continue;
       }
 
