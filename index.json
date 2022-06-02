@@ -239,9 +239,14 @@
         "ua": "firefox",
         "status": "notsupported",
         "source": "feedback",
-        "date": "2018-03-16",
-        "notes": [
-          "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+        "details": [
+          {
+            "status": "notsupported",
+            "date": "2018-03-16",
+            "notes": [
+              "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+            ]
+          }
         ],
         "selected": true
       },
@@ -261,9 +266,14 @@
         "ua": "firefox_android",
         "status": "notsupported",
         "source": "feedback",
-        "date": "2018-03-16",
-        "notes": [
-          "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+        "details": [
+          {
+            "status": "notsupported",
+            "date": "2018-03-16",
+            "notes": [
+              "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+            ]
+          }
         ],
         "selected": true
       },
@@ -44135,9 +44145,14 @@
         "ua": "firefox_android",
         "status": "consideration",
         "source": "feedback",
-        "date": "2019-04-17",
-        "notes": [
-          "Firefox for Android plays fullscreen in Picture-in-Picture when the home button is pressed, but does not implement the actual Picture-in-Picture API for now"
+        "details": [
+          {
+            "status": "consideration",
+            "date": "2019-04-17",
+            "notes": [
+              "Firefox for Android plays fullscreen in Picture-in-Picture when the home button is pressed, but does not implement the actual Picture-in-Picture API for now"
+            ]
+          }
         ],
         "selected": true
       },
@@ -44157,9 +44172,14 @@
         "ua": "opera",
         "status": "consideration",
         "source": "feedback",
-        "date": "2019-04-17",
-        "notes": [
-          "Opera provides an equivalent proprietary feature named Video Pop Out, which allows users to use Picture-in-Picture mode for all playing videos, but does not implement the actual Picture-in-Picture API for now"
+        "details": [
+          {
+            "status": "consideration",
+            "date": "2019-04-17",
+            "notes": [
+              "Opera provides an equivalent proprietary feature named Video Pop Out, which allows users to use Picture-in-Picture mode for all playing videos, but does not implement the actual Picture-in-Picture API for now"
+            ]
+          }
         ],
         "selected": true
       },
@@ -44191,9 +44211,14 @@
         "ua": "safari",
         "status": "consideration",
         "source": "feedback",
-        "date": "2019-04-17",
-        "notes": [
-          "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
+        "details": [
+          {
+            "status": "consideration",
+            "date": "2019-04-17",
+            "notes": [
+              "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
+            ]
+          }
         ],
         "selected": true
       },
@@ -44213,9 +44238,14 @@
         "ua": "safari_ios",
         "status": "consideration",
         "source": "feedback",
-        "date": "2019-04-17",
-        "notes": [
-          "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
+        "details": [
+          {
+            "status": "consideration",
+            "date": "2019-04-17",
+            "notes": [
+              "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
+            ]
+          }
         ],
         "selected": true
       }
@@ -44859,9 +44889,14 @@
         "ua": "webkit",
         "status": "notsupported",
         "source": "feedback",
-        "date": "2018-03-16",
-        "notes": [
-          "No public indication that the Presentation API is in development in Webkit, see https://twitter.com/othersight/status/959442416599117824"
+        "details": [
+          {
+            "status": "notsupported",
+            "date": "2018-03-16",
+            "notes": [
+              "No public indication that the Presentation API is in development in Webkit, see https://twitter.com/othersight/status/959442416599117824"
+            ]
+          }
         ],
         "selected": true
       }
@@ -44956,9 +44991,14 @@
         "ua": "firefox",
         "status": "notsupported",
         "source": "feedback",
-        "date": "2018-03-19",
-        "notes": [
-          "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+        "details": [
+          {
+            "status": "notsupported",
+            "date": "2018-03-19",
+            "notes": [
+              "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+            ]
+          }
         ],
         "selected": true
       },
@@ -44978,9 +45018,14 @@
         "ua": "firefox_android",
         "status": "notsupported",
         "source": "feedback",
-        "date": "2018-03-19",
-        "notes": [
-          "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+        "details": [
+          {
+            "status": "notsupported",
+            "date": "2018-03-19",
+            "notes": [
+              "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+            ]
+          }
         ],
         "selected": true
       }
