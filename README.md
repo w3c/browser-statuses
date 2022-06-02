@@ -10,9 +10,10 @@ external open source platform status projects:
 
 This Web technologies included in the final list are those for which there
 exists some implementation information. The list is expected to grow over time.
-It should roughly contain specifications published by W3C Working Groups, as
-well as standards and proposals developed or incubated in W3C Community Groups,
-the WHATWG, or the Khronos Group.
+It should roughly contain specifications in
+[browser-specs](https://github.com/w3c/browser-specs), in other words those
+published by W3C Working Groups, as well as standards and proposals developed or
+incubated in W3C Community Groups, the WHATWG, or the Khronos Group.
 
 
 ## Table of Contents
@@ -33,14 +34,15 @@ the WHATWG, or the Khronos Group.
   - [`ua`](#ua)
   - [`status`](#status)
   - [`source`](#source)
-  - [`href`](#href)
-  - [`features` (support)](#features-support)
   - [`flag`](#flag)
   - [`guess`](#guess)
   - [`partial`](#partial)
   - [`prefix`](#prefix)
   - [`selected`](#selected)
-  - [`notes`](#notes)
+  - [`details`](#details)
+    - [`href`](#href)
+    - [`representative`](#representative)
+    - [`notes`](#notes)
 - [How to add/update/delete implementation info](#how-to-addupdatedelete-implementation-info)
 - [Versioning](#versioning)
 - [Development notes](#development-notes)
@@ -97,8 +99,8 @@ The implementation info is available for the following browsers:
 
 ## Spec series object
 
-Each entry in the list describes the implementation status of a specification
-series, and/or of some of the features it defines, on main desktop and mobile
+Each entry in the list describes the implementation status of a **specification
+series**, and/or of some of the features it defines, on main desktop and mobile
 Web browsers. Each entry has the following overall structure:
 
 ```json
@@ -108,9 +110,16 @@ Web browsers. Each entry has the following overall structure:
     {
       "ua": "user agent identifier",
       "status": "implementation status",
-      "notes": ["Possible implementation notes"],
       "source": "platform status project that gave birth to this info",
-      "href": "URL to the corresponding platform status project page",
+      "details": [
+        {
+          "status": "implementation status",
+          "flag": true,
+          "notes": ["Possible implementation notes"],
+          "href": "URL to the corresponding platform status project page"
+        },
+        "other implementation status pages considered to compute overall status"
+      ],
       "selected": true
     }
   ],
@@ -143,43 +152,55 @@ information will only exist at the series level. Here is a simple example
     {
       "ua": "chrome",
       "status": "shipped",
-      "notes": [
-        "Starting in Chrome 59, this method cannot send a <code>Blob</code> whose type is not CORS safelisted. This is a temporary change until a mitigation can be found for the security issues that this creates. For more information see <a href='https://crbug.com/720283'>Chrome bug 720283</a>."
+      "source": "bcd",
+      "details": [
+        {
+          "status": "shipped",
+          "notes": [
+            "Starting in Chrome 59, this method cannot send a <code>Blob</code> whose type is not CORS safelisted. This is a temporary change until a mitigation can be found for the security issues that this creates. For more information see <a href='https://crbug.com/720283'>Chrome bug 720283</a>."
+          ],
+          "href": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon",
+          "representative": true
+        }
+      ]
+    },
+    {
+      "ua": "chrome",
+      "status": "shipped",
+      "source": "chrome",
+      "details": [
+        {
+          "status": "shipped",
+          "href": "https://www.chromestatus.com/feature/5517433905348608",
+          "representative": true
+        }
       ],
-      "source": "bcd",
-      "href": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon"
+      "selected": true
     },
     {
       "ua": "firefox",
       "status": "shipped",
       "source": "bcd",
-      "href": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon",
+      "details": [
+        {
+          "status": "shipped",
+          "href": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon",
+          "representative": true
+        }
+      ],
       "selected": true
     },
     {
       "ua": "firefox",
       "status": "shipped",
       "source": "caniuse",
-      "href": "https://caniuse.com/#feat=beacon"
-    },
-    {
-      "ua": "chrome",
-      "status": "shipped",
-      "source": "caniuse",
-      "href": "https://caniuse.com/#feat=beacon"
-    },
-    {
-      "ua": "chrome",
-      "status": "shipped",
-      "source": "chrome",
-      "href": "https://www.chromestatus.com/feature/5517433905348608",
-      "selected": true
-    },
-    {
-      "ua": "firefox",
-      "status": "shipped",
-      "source": "chrome",
-      "href": "https://www.chromestatus.com/feature/5517433905348608"
+      "details": [
+        {
+          "status": "shipped",
+          "href": "https://caniuse.com/#feat=beacon",
+          "representative": true
+        }
+      ]
     }
   ]
 }
@@ -284,15 +305,11 @@ object are illustrated by the following example:
   "ua": "safari",
   "status": "experimental",
   "source": "caniuse",
-  "features": [
-    "dns-prefetch",
-    "preconnect",
-    "prefetch"
-  ],
   "guess": true,
   "flag": true,
   "partial": true,
-  "selected": true
+  "selected": true,
+  "details": ["support info details"]
 }
 ```
 
@@ -331,23 +348,6 @@ They should only be used as last resort when information from other sources is
 invalid or inexistant for some reason.
 
 The `source` property is always set.
-
-
-### `href`
-
-The absolute URL of the page that describes the spec or feature in the platform
-status project that is at the source of the info.
-
-The `href` property is set most of the time, except when the source is
-`feedback` or `other`.
-
-
-### `features` (support)
-
-The list of feature identifiers that were used to derive the overall
-implementation status at the specification series level.
-
-The `features` property is only set when the `guess` flag is `true`.
 
 
 ### `flag`
@@ -400,7 +400,59 @@ appears in a `support` list, there will always be one and only one
 implementation info object with a `selected` flag set to `true`.
 
 
-### `notes`
+### `details`
+
+The implementation status at the spec series or feature level is often computed
+by looking at a set of platform status entries. The `details` property is an
+array that lists the implementation status for each of them.
+
+Each item in the array looks like the following example:
+
+```json
+{
+  "status": "shipped",
+  "href": "https://www.chromestatus.com/feature/6488656873259008",
+  "representative": true
+}
+```
+
+Some of the properties that may appear in `details` items are the same as those
+in `support`: [`status`](#status), [`flag`](#flag), [`partial`](#partial),
+[`prefix`](#prefix).
+
+Additional properties are described below.
+
+
+#### `href`
+
+The absolute URL of the page that describes the spec or feature in the platform
+status project that is at the source of the info.
+
+The `href` property is always set. It uniquely identifies the related entry in
+the platform status project.
+
+
+#### `representative`
+
+A boolean flag set that indicates whether the related entry in the platform
+status project is considered to be representative of the implementation of
+the underlying spec or feature. There may be more than one representative entry
+for a given spec or feature.
+
+When there are entries for which the `representative` flag is set, only these
+entries are taken into account to compute the final implementation status of
+the underlying spec or feature, even though the implementation status of non
+representative entries still appears in the `details` array.
+
+In the absence of entries for which the `representative` flag is set, the final
+implementation status takes the individual implementation status of all
+(non representative) entries into account, and the resulting status is
+considered to be a guess (see the [`guess`](#guess) flag).
+
+The `representative` flag is only set when it is truthy.
+
+
+#### `notes`
 
 A list of implementation notes, collected from the implementation info source.
 

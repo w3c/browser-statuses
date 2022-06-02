@@ -14,15 +14,24 @@ project.
 - [Pre-requisites](#pre-requisites)
 - [Implementation info comes for external platform status projects](#implementation-info-comes-for-external-platform-status-projects)
 - [The actual list is in the `data` folder](#the-actual-list-is-in-the-data-folder)
+  - [`statusref`](#statusref)
+    - [Properties managed automatically](#properties-managed-automatically)
+    - [`representative`](#representative)
+    - [`manual`](#manual)
+    - [Providing custom implementation status](#providing-custom-implementation-status)
+  - [`features`](#features)
+  - [`polyfills`](#polyfills)
+  - [`notes`](#notes)
+- [How to validate data](#how-to-validate-data)
 - [No `index.json` in the pull request](#no-indexjson-in-the-pull-request)
 
 
 ## Pre-requisites
 
 To prepare a pull request, please:
-- install [Node.js](https://nodejs.org/en/) if not already done,
+- install [Node.js](https://nodejs.org/en/) v16.14 or above if not already done,
 - fork this Git repository,
-- install dependencies through a call to `npm install`
+- install dependencies through a call to `npm ci`
 
 
 ## Implementation info comes for external platform status projects
@@ -51,10 +60,28 @@ Each file in the folder is a JSON file with the following structure:
 ```json
 {
   "statusref": {
-    "bcd": "bcd.identifier",
-    "caniuse": "Can I Use identifier",
-    "chrome": 1337,
-    "webkit": "specification-identifier",
+    "bcd": [
+      {
+        "id": "bcd.identifier",
+        "name": "entry name",
+        "statusUrl": "URL on the platform status project",
+        "specUrls": [
+          "List of spec URLs (with fragments) that the entry is associated with"
+        ],
+        "representative": true,
+        "manual": false
+      },
+      "additional bcd mappings"
+    ],
+    "caniuse": [
+      "Can I Use mappings"
+    ],
+    "chrome": [
+      "Chrome mappings (note ids are number in that case)"
+    ],
+    "webkit": [
+      "Webkit mappings"
+    ],
     "manual": [
       {
         "ua": "user agent identifier",
@@ -87,14 +114,76 @@ Each file in the folder is a JSON file with the following structure:
 Each file in the `data` folder must be named after the
 [`shortname`](README.md#shortname) of the specification series it describes.
 
-The `statusref` creates the mapping between the specification series (or an
-individual feature) and corresponding entries in external platform status
-projects. Possible keys and values may be:
-* `bcd`: the [hierarchy of strings](https://github.com/mdn/browser-compat-data/blob/master/schemas/compat-data-schema.md#feature-hierarchies) that identifies the feature in the [MDN Browser Compatibility Data](https://github.com/mdn/browser-compat-data)
-* `caniuse`: the name of the feature in [Can I use](http://caniuse.com/) (the one that appears in the URL after `#feat=`)
-* `chrome`: the number used to identify features in [Chrome Platform Status](https://www.chromestatus.com/features) (the one that appears in the URL after `features/`)
-* `webkit`: the name used to identify features in [WebKit Feature Status](https://webkit.org/status/) (the one that appears in the URL after `status/#`)
-* `manual`: manually entered implementation status. See below for details.
+### `statusref`
+
+The `statusref` property creates the mapping between the specification series
+(or an individual feature) and corresponding entries in external platform status
+projects.
+
+Object keys must reference one of the supported platform status projects: `bcd`,
+`caniuse`, `chrome`, `webkit`. Alternatively, it can be `manual` to override
+the info found in platform status projects.
+
+
+#### Properties managed automatically
+
+In most cases, mapping objects under th eplatform status project keys are
+created and (mostly) managed automatically: a job regularly looks at platform
+status projects and automatically proposes mappings. The properties `id`,
+`name`, `statusUrl` and `specsUrls` are typically maintained automatically.
+
+The `id` is set to a key identifier, which depends on the platform status
+project:
+* `bcd`: the [hierarchy of strings](https://github.com/mdn/browser-compat-data/blob/master/schemas/compat-data-schema.md#feature-hierarchies) that identifies the feature in the [MDN Browser Compatibility Data](https://github.com/mdn/browser-compat-data), e.g. `"api.Navigator.sendBeacon"`
+* `caniuse`: the name of the feature in [Can I use](http://caniuse.com/) (the one that appears in the URL after `#feat=`), e.g. `"accelerometer"`
+* `chrome`: the number used to identify features in [Chrome Platform Status](https://www.chromestatus.com/features) (the one that appears in the URL after `features/`), e.g. `5656221012983808` (note it must be a number, not a string)
+* `webkit`: the name used to identify features in [WebKit Feature Status](https://webkit.org/status/) (the one that appears in the URL after `status/#`), e.g. `"specification-geolocation-api"`
+
+The `name` property is set to the title of the entry on the platform status
+project, if there is a meaningful title that could be determined. The title
+serves no real purpose for computing implementation support, it is simply there
+for human beings to understand what the data is about without having to look up
+the corresponding page in the platform status project.
+
+The `statusUrl` property is a URL that targets the corresponding page in the
+platform status project.
+
+The `specsUrl` property lists the URLs of the spec(s) with fragments that the
+platform status project entry relates to. Most of the time, an entry only
+references one section in a spec, but there are cases where two or more sections
+are referenced.
+
+
+#### `representative`
+
+The `representative` flag should be set on entries that are deemed
+representative of the implementation status of the spec series or feature under
+consideration. For instance, the
+[`5712361335816192`](https://chromestatus.com/feature/5712361335816192) (Web
+Locks API) entry on Chrome Status could perhaps be viewed as representative of
+the implementation status of the Web Locks API in browsers.
+
+This flag needs to be set manually on all entries of that kind.
+
+More than one entry may be flagged as representative. For instance, support
+for WOFF could be seen as encompassing WOFF 1.0 and WOFF 2.0, meaning that
+both [`woff`](https://caniuse.com/woff) and [`woff2`](https://caniuse.com/woff2)
+should be flagged as representative to compute the implementation status from
+Can I Use.
+
+
+#### `manual`
+
+The `manual` flag should be set on entries that the code cannot automatically
+associated with the spec series under consideration but that should still be
+preserved.
+
+The job that identifies mappings will actually create a pull request to delete
+entries that it cannot associated with the spec series... unless it sees a
+`manual` flag.
+
+
+#### Providing custom implementation status
 
 From time to time, external platform status projects may:
 * contain implementation information about the specification but at a different granularity level, e.g. you want implementation info about the entire specification and the site only gives implementation status about a particular feature within the specification, or the opposite
@@ -114,6 +203,33 @@ have the following properties:
 
 You should **only** set properties when there values are meaningful. For
 instance, no need to include an empty `notes` property.
+
+
+### `features`
+
+A list of specific features defined in the specification, indexed by some unique
+feature identifier. Features are maintained manually.
+
+
+### `polyfills`
+
+A list of polyfills that may exist
+
+```json
+[
+  {
+    "label": "sensor-polyfills",
+    "url": "https://github.com/kenchris/sensor-polyfills"
+  }
+]
+```
+
+### `notes`
+
+Possible notes on the data. Intended to ease maintenance.
+
+
+## How to validate data
 
 Automated tests will enforce that files in the `data` folder follow the
 appropriate schema. You may run these tests locally, and make sure that the
