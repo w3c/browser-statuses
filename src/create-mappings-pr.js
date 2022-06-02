@@ -79,9 +79,20 @@ async function createMappingsPR(shortname, mappings) {
   }
 
   console.log('- Update data file');
-  const dataFile = JSON.parse(fs.readFileSync(
-    path.join(__dirname, '..', 'data', `${shortname}.json`),
-    'utf8'));
+  let dataFileExists = false;
+  let dataFile = null;
+  try {
+    dataFile = JSON.parse(fs.readFileSync(
+      path.join(__dirname, '..', 'data', `${shortname}.json`),
+      'utf8'));
+    dataFileExists = true;
+    console.log('- Data file already exists')
+  }
+  catch {
+    dataFile = {};
+    dataFileExists = false;
+    console.log('- Data file does not exist yet')
+  }
   dataFile.statusref = mappings.statusref;
   const updatedDataFileContents = btoa(JSON.stringify(dataFile, null, 2));
   console.log(`- Data file updated`);
@@ -112,19 +123,30 @@ Changes introduced by the pull request:
   });
   
   console.log('- Commit updated data to PR branch');
-  // TODO: handle case when data file does not exist yet
-  const fileResponse = await octokit.repos.getContent({
-    owner, repo, path: `data/${shortname}.json`
-  });
+  let resp = null;
+  if (dataFileExists) {
+    const fileResponse = await octokit.repos.getContent({
+      owner, repo, path: `data/${shortname}.json`
+    });
 
-  const resp = await octokit.repos.createOrUpdateFileContents({
-    owner, repo,
-    branch: prRef,
-    path: `data/${shortname}.json`,
-    message: `Update platform status references for ${shortname}`,
-    content: updatedDataFileContents,
-    sha: fileResponse.data.sha,
-  });
+    resp = await octokit.repos.createOrUpdateFileContents({
+      owner, repo,
+      branch: prRef,
+      path: `data/${shortname}.json`,
+      message: `Update platform status references for ${shortname}`,
+      content: updatedDataFileContents,
+      sha: fileResponse.data.sha,
+    });
+  }
+  else {
+    resp = await octokit.repos.createOrUpdateFileContents({
+      owner, repo,
+      branch: prRef,
+      path: `data/${shortname}.json`,
+      message: `Create platform status references for ${shortname}`,
+      content: updatedDataFileContents
+    });
+  }
   
   console.log('- Actually create PR');
   const defaultBranchResponse = await octokit.repos.get({ owner, repo });
