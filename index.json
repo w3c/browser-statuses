@@ -104447,17 +104447,17 @@
       },
       {
         "ua": "firefox_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "details": [
           {
-            "status": "notsupported",
+            "status": "shipped",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
             "guess": true
           },
           {
-            "status": "notsupported",
+            "status": "shipped",
             "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
             "guess": true
           }
@@ -104756,11 +104756,11 @@
           },
           {
             "ua": "firefox_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "details": [
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess"
               }
             ],
@@ -104768,17 +104768,17 @@
           },
           {
             "ua": "firefox_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "details": [
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
                 "guess": true
               },
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
                 "guess": true
               }
@@ -105123,11 +105123,11 @@
           },
           {
             "ua": "firefox_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "details": [
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess"
               }
             ],
@@ -105135,17 +105135,17 @@
           },
           {
             "ua": "firefox_android",
-            "status": "notsupported",
+            "status": "shipped",
             "source": "bcd",
             "guess": true,
             "details": [
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess",
                 "guess": true
               },
               {
-                "status": "notsupported",
+                "status": "shipped",
                 "href": "https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess",
                 "guess": true
               }
