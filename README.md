@@ -328,7 +328,7 @@ The implementation status for the spec or feature. Value may be one of:
 - `"indevelopment"`: implementation of the spec or feature is ongoing
 - `"consideration"`: support for the spec or feature is under consideration but
 not under active developement.
-- `""`: spec or feature is not supported in the browser.
+- `"notsupported"`: spec or feature is not supported in the browser.
 
 The `status` property is always set.
 
