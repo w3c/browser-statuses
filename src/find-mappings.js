@@ -47,6 +47,10 @@ function onlyUnique(value, index, self) {
   return self.indexOf(value) === index;
 }
 
+function esc(title) {
+  return (title ?? '').replace(/</g, '&lt;');
+}
+
 function findMappingsForSpec(shortname, relatedSpecs, data) {
   const res = JSON.parse(JSON.stringify(data ?? {}));
   res.statusref = {};
@@ -142,9 +146,9 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
     // No old mapping. New mappings found.
     // Check which ones are "representative".
     if (!oldref && newref) {
-      analysis.info.push(`${name}: new mappings found`);
+      analysis.info.push(`${name}: mappings found`);
       for (const mapping of newref) {
-        analysis.changes.push(`Add ${name} mapping [${mapping.id}](${mapping.statusUrl})`);
+        analysis.changes.push(`Add ${name} mapping [${mapping.id}](${mapping.statusUrl})${mapping.name && mapping.name !== mapping.id ? ' ' + esc(mapping.name) : ''}`);
       }
       analysis.todo.push(`Check "representative" flags for ${name} mappings`);
     }
@@ -154,7 +158,7 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
     if (oldref && !newref) {
       analysis.info.push(`${name}: obsolete mappings found`);
       for (const mapping of oldref) {
-        analysis.changes.push(`Drop old ${name} mapping ${mapping.id}`);
+        analysis.changes.push(`Drop old ${name} mapping ${mapping.id}${mapping.name && mapping.name !== mapping.id ? ' ' + esc(mapping.name) : ''}`);
         analysis.todo.push(`Check need to add "manual" flag to keep ${name} mapping ${mapping.id} if needed`)
       }
     }
@@ -165,24 +169,21 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
     // For new mappings that update old mappings, check new info
     // For new mappings that are the same as old mappings, report but do nothing.
     if (oldref && newref) {
-      if ((oldref.length === newref.length) &&
-          oldref.every(mapping => newref.find(m => m.id === mapping.id))) {
-        analysis.info.push(`${name}: same mappings as before`);
-      }
-      else {
-        analysis.info.push(`${name}: other mappings found`);
+      if ((oldref.length !== newref.length) ||
+          oldref.find(mapping => !newref.find(m => m.id === mapping.id))) {
+        analysis.info.push(`${name}: additional mappings found`);
       }
 
       for (const mapping of oldref) {
         if (!newref.find(m => m.id === mapping.id)) {
-          analysis.changes.push(`Drop old ${name} mapping ${mapping.id}`);
+          analysis.changes.push(`Drop old ${name} mapping ${mapping.id}${mapping.name && mapping.name !== mapping.id ? ' ' + esc(mapping.name) : ''}`);
           analysis.todo.push(`Check need to add "manual" flag to keep ${name} mapping ${mapping.id} if needed`)
         }
       }
 
       for (const mapping of newref) {
         if (!oldref.find(m => m.id === mapping.id)) {
-          analysis.changes.push(`Add ${name} mapping [${mapping.id}](${mapping.statusUrl})`);
+          analysis.changes.push(`Add ${name} mapping [${mapping.id}](${mapping.statusUrl})${mapping.name && mapping.name !== mapping.id ? ' ' + esc(mapping.name) : ''}`);
         }
         analysis.todo.push(`Check "representative" flags for ${name} mappings`);
       }
@@ -192,7 +193,7 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
         if (!oldmapping) {
           continue;
         }
-        analysis.info.push(`Same ${name} mapping [${mapping.id}](${mapping.statusUrl}) as before`);
+        analysis.info.push(`${name}: same mapping [${mapping.id}](${mapping.statusUrl}) as before`);
       }
     }
   }
