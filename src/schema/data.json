@@ -185,6 +185,15 @@
       }
     },
 
+    "altUrls": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "url"
+      },
+      "minItems": 1
+    },
+
     "notes": {
       "oneOf": [
         {
