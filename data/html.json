@@ -616,5 +616,10 @@
         "id": "feature-srcset-w-descriptor-and-related-sizes-attribute"
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://html.spec.whatwg.org/",
+    "https://www.whatwg.org/specs/web-apps/",
+    "https://whatwg.org/html"
+  ]
 }

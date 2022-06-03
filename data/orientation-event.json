@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://dev.w3.org/geo/api/spec-source-orientation.html"
+  ]
 }

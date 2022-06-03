@@ -40,5 +40,8 @@
         ]
       }
     }
-  }
+  },
+  "altUrls": [
+    "https://github.com/whatwg/html/issues/3338"
+  ]
 }

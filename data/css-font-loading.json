@@ -46,5 +46,8 @@
         ]
       }
     }
-  }
+  },
+  "altUrls": [
+    "https://dev.w3.org/csswg/css-font-loading-3/"
+  ]
 }

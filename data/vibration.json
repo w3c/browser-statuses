@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://dev.w3.org/2009/dap/vibration/"
+  ]
 }

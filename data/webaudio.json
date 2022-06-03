@@ -46,5 +46,8 @@
         ]
       }
     }
-  }
+  },
+  "altUrls": [
+    "https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html"
+  ]
 }

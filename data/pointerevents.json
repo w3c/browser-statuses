@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html"
+  ]
 }

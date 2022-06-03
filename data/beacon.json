@@ -24,5 +24,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/Beacon/Overview.html"
+  ]
 }

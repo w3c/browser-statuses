@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://www.w3c-test.org/webperf/specs/ResourceTiming/"
+  ]
 }

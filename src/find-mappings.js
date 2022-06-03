@@ -14,14 +14,11 @@ import * as bcdParser from './parse-bcd.js';
 import * as caniuseParser from './parse-caniuse.js';
 import * as chromeParser from './parse-chrome.js';
 import * as webkitParser from './parse-webkit.js';
+import browserSpecs from 'web-specs' assert { type: 'json' };
 
 // Compute __dirname (not exposed when ES6 modules are used)
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-// Import browser specs (cannot use "import" for now since entry point is JSON)
-const browserSpecs = JSON.parse(fs.readFileSync(
-  path.join(__dirname, '..', 'node_modules', 'web-specs', 'index.json'), 'utf8'));
 
 
 /**
@@ -51,25 +48,89 @@ function esc(title) {
   return (title ?? '').replace(/</g, '&lt;');
 }
 
+// Specs are sometimes referenced without the final slash
+function withoutFinalSlash(url) {
+  if (!url) {
+    return null;
+  }
+  if (url.endsWith('/')) {
+    return url.slice(0, -1);
+  }
+  return url;
+}
+
+// Platform status projects often continue to reference specs with their
+// wicg.github.io after they migrated to W3C.
+function toWicgUrl(url) {
+  if (!url) {
+    return null;
+  }
+  return url.replace(/w3c\.github\.io/, 'wicg.github.io');
+}
+
+// Platform status projects sometimes continue to reference CSS specs with
+// old dev.w3.org URLs.
+function toDevUrl(url) {
+  if (!url) {
+    return null;
+  }
+  return url.replace(/drafts\.csswg\.org\//, 'dev.w3.org/csswg/');
+}
+
+// Consider GitHub repository URL as a URL that can be used to reference the
+// spec unless the repository contains multiple specs
+function repositoryUrl(spec) {
+  const multiSpecRepo = browserSpecs.find(s =>
+      s.shortname !== spec.shortname &&
+      s.nightly.repository &&
+      s.nightly.repository === spec.nightly.repository);
+  return multiSpecRepo ? null : spec.nightly.repository;
+}
+
 function findMappingsForSpec(shortname, relatedSpecs, data) {
   const res = JSON.parse(JSON.stringify(data ?? {}));
   res.statusref = {};
 
   console.log(`Finding mappings for ${shortname}`);
 
+  // Consider GitHub repository URL as a URL that can be used to reference the
+  // spec, unless the repository contains multiple specs
+
   // Compute list of URLs that can be used to refer to the spec
   relatedSpecs = relatedSpecs ?? [];
-  const relatedUrls = relatedSpecs
+  let relatedUrls = relatedSpecs
     .map(spec => [
       spec.url,
       spec.nightly.url,
+      repositoryUrl(spec),
       spec?.release?.url,
       spec.series.nightlyUrl,
-      spec.series.releaseUrl
+      spec.series.releaseUrl,
+      withoutFinalSlash(spec.url),
+      withoutFinalSlash(spec.nightly.url),
+      withoutFinalSlash(spec?.release?.url),
+      withoutFinalSlash(spec.series.nightlyUrl),
+      withoutFinalSlash(spec.series.releaseUrl),
+      toWicgUrl(spec.url),
+      toWicgUrl(spec.nightly.url),
+      toWicgUrl(spec?.release?.url),
+      toWicgUrl(spec.series.nightlyUrl),
+      toWicgUrl(spec.series.releaseUrl),
+      toDevUrl(spec.url),
+      toDevUrl(spec.nightly.url),
+      toDevUrl(spec?.release?.url),
+      toDevUrl(spec.series.nightlyUrl),
+      toDevUrl(spec.series.releaseUrl)
     ])
     .flat()
-    .filter(url => !!url)
-    .filter(onlyUnique);
+    .filter(url => !!url);
+  if (data?.altUrls) {
+    for (const url of data.altUrls) {
+      relatedUrls.push(url);
+    }
+  }
+  relatedUrls = relatedUrls.filter(onlyUnique);
+
 
   // Find mappings and compute the new "statusref" property
   const found = {};
@@ -214,6 +275,13 @@ export async function findMappings(dataFolder, onlyExistingOnes) {
     .filter(f => f.endsWith('.json'))
     .map(f => path.join(dataFolder, f));
 
+  // Load known data
+  const data = {};
+  for (const file of files) {
+    const shortname = file.split(/\/|\\/).pop().split('.')[0];
+    data[shortname] = JSON.parse(fs.readFileSync(file, 'utf8'));
+  }
+
   // Group specs per series
   const specSeries = {};
   browserSpecs.map(spec => {
@@ -222,13 +290,6 @@ export async function findMappings(dataFolder, onlyExistingOnes) {
     }
     specSeries[spec.series.shortname].push(spec);
   });
-
-  // Load known data
-  const data = {};
-  for (const file of files) {
-    const shortname = file.split(/\/|\\/).pop().split('.')[0];
-    data[shortname] = JSON.parse(fs.readFileSync(file, 'utf8'));
-  }
 
   // Loop through spec series to find new/obsolete mappings
   const results = {};

@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://w3c.github.io/webappsec/specs/upgrade/"
+  ]
 }

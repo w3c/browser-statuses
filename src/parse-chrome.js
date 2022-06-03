@@ -226,8 +226,12 @@ export function getImplementationStatus(key) {
 export function findMappings(shortname, relatedUrls, knownData) {
   const mappings = data
     .filter(feature => {
-      const url = feature?.standards?.spec;
-      return url && !!relatedUrls.find(u => url.startsWith(u));
+      let url = feature?.standards?.spec;
+      if (!url) {
+        return false;
+      }
+      url = url.replace(/^http:/, 'https:');
+      return !!relatedUrls.find(u => url.startsWith(u));
     })
     .filter(feature => feature.feature_type !== 'Feature deprecation')
     .map(feature => {

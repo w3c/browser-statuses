@@ -18,5 +18,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/"
+  ]
 }

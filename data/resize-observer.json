@@ -12,5 +12,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://wicg.github.io/ResizeObserver/"
+  ]
 }

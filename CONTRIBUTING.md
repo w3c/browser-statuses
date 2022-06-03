@@ -21,6 +21,7 @@ project.
     - [Providing custom implementation status](#providing-custom-implementation-status)
   - [`features`](#features)
   - [`polyfills`](#polyfills)
+  - [`altUrls`](#alturls)
   - [`notes`](#notes)
 - [How to validate data](#how-to-validate-data)
 - [No `index.json` in the pull request](#no-indexjson-in-the-pull-request)
@@ -105,6 +106,9 @@ Each file in the folder is a JSON file with the following structure:
       "label": "Name of the polyfill library"
     }
   ],
+  "altUrls": {
+    "Alternative (often outdated) URLs that may be used to reference the spec"
+  },
   "notes": [
     "Possible notes on this information"
   ]
@@ -223,6 +227,14 @@ A list of polyfills that may exist
   }
 ]
 ```
+
+### `altUrls`
+
+A list of alternative (and often outdated) URLs that platform status projects
+may use to reference the spec. For instance, the `wicg.github.io` URL of a spec
+that has since then migrated to a W3C working group. The information is used to
+find additional mappings.
+
 
 ### `notes`
 
