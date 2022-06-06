@@ -82,8 +82,7 @@ function getImplInfoForFeature(feature) {
               ua: impl.ua,
               status: impl.status,
               source: impl.source,
-              guess: !impl.representative,
-              details: []
+              guess: !impl.representative
             };
           }
           const merged = perUA[impl.ua];
@@ -107,7 +106,12 @@ function getImplInfoForFeature(feature) {
           const detail = Object.assign({}, impl);
           delete detail.ua;
           delete detail.source;
-          perUA[impl.ua].details.push(detail);
+          if (detail.representative) {
+            if (!perUA[impl.ua].details) {
+              perUA[impl.ua].details = [];
+            }
+            perUA[impl.ua].details.push(detail);
+          }
         });
       return Object.values(perUA);
     })

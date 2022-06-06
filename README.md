@@ -406,6 +406,10 @@ The implementation status at the spec series or feature level is often computed
 by looking at a set of platform status entries. The `details` property is an
 array that lists the implementation status for each of them.
 
+**Note:** to keep the `index.json` file to a reasonable size, this array
+currently only contains implementation details for entries that are
+[representative](#representative).
+
 Each item in the array looks like the following example:
 
 ```json
