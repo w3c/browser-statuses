@@ -243,7 +243,7 @@ export function findMappings(shortname, relatedUrls, knownData) {
         id: feature.id,
         name: feature.name,
         statusUrl: `https://chromestatus.com/feature/${feature.id}`,
-        specUrls: [feature.standards.spec]
+        specUrls: feature.standards.spec.split(', ')
       };
     });
 
