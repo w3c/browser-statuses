@@ -34,16 +34,348 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLMediaElement.encrypted_event",
+        "name": "api.HTMLMediaElement.encrypted_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/encrypted_event",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-htmlmediaelement-onencrypted"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.mediaKeys",
+        "name": "api.HTMLMediaElement.mediaKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/mediaKeys",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-htmlmediaelement-mediakeys"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.setMediaKeys",
+        "name": "api.HTMLMediaElement.setMediaKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setMediaKeys",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-htmlmediaelement-setmediakeys"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.waitingforkey_event",
+        "name": "api.HTMLMediaElement.waitingforkey_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/waitingforkey_event",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-htmlmediaelement-onwaitingforkey"
+        ]
+      },
+      {
+        "id": "api.MediaEncryptedEvent.initData",
+        "name": "api.MediaEncryptedEvent.initData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent/initData",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediaencryptedevent-initdata"
+        ]
+      },
+      {
+        "id": "api.MediaEncryptedEvent.initDataType",
+        "name": "api.MediaEncryptedEvent.initDataType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent/initDataType",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediaencryptedevent-initdatatype"
+        ]
+      },
+      {
+        "id": "api.MediaKeyMessageEvent",
+        "name": "api.MediaKeyMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyMessageEvent",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediakeymessageevent"
+        ]
+      },
+      {
+        "id": "api.MediaKeyMessageEvent.MediaKeyMessageEvent",
+        "name": "api.MediaKeyMessageEvent.MediaKeyMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyMessageEvent/MediaKeyMessageEvent",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#constructors"
+        ]
+      },
+      {
+        "id": "api.MediaKeyMessageEvent.message",
+        "name": "api.MediaKeyMessageEvent.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyMessageEvent/message",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeymessageevent-message"
+        ]
+      },
+      {
+        "id": "api.MediaKeyMessageEvent.messageType",
+        "name": "api.MediaKeyMessageEvent.messageType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyMessageEvent/messageType",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeymessageevent-messagetype"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession",
+        "name": "api.MediaKeySession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediakeysession-interface"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.close",
+        "name": "api.MediaKeySession.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/close",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-close"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.closed",
+        "name": "api.MediaKeySession.closed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/closed",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-closed"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.expiration",
+        "name": "api.MediaKeySession.expiration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/expiration",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-expiration"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.generateRequest",
+        "name": "api.MediaKeySession.generateRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/generateRequest",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-generaterequest"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.keyStatuses",
+        "name": "api.MediaKeySession.keyStatuses",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/keyStatuses",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-keystatuses"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.keystatuseschange_event",
+        "name": "api.MediaKeySession.keystatuseschange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/keystatuseschange_event",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-onkeystatuseschange"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.load",
+        "name": "api.MediaKeySession.load",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/load",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-load"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.message_event",
+        "name": "api.MediaKeySession.message_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/message_event",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-onmessage"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.remove",
+        "name": "api.MediaKeySession.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/remove",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-remove"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.sessionId",
+        "name": "api.MediaKeySession.sessionId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/sessionId",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-sessionid"
+        ]
+      },
+      {
+        "id": "api.MediaKeySession.update",
+        "name": "api.MediaKeySession.update",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySession/update",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-update"
+        ]
+      },
+      {
+        "id": "api.MediaKeyStatusMap",
+        "name": "api.MediaKeyStatusMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediakeystatusmap-interface"
+        ]
+      },
+      {
+        "id": "api.MediaKeyStatusMap.get",
+        "name": "api.MediaKeyStatusMap.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap/get",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap-get"
+        ]
+      },
+      {
+        "id": "api.MediaKeyStatusMap.has",
+        "name": "api.MediaKeyStatusMap.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap/has",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap-has"
+        ]
+      },
+      {
+        "id": "api.MediaKeyStatusMap.size",
+        "name": "api.MediaKeyStatusMap.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeyStatusMap/size",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeystatusmap-size"
+        ]
+      },
+      {
+        "id": "api.MediaKeySystemAccess",
+        "name": "api.MediaKeySystemAccess",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediakeysystemaccess-interface"
+        ]
+      },
+      {
+        "id": "api.MediaKeySystemAccess.createMediaKeys",
+        "name": "api.MediaKeySystemAccess.createMediaKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess/createMediaKeys",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysystemaccess-createmediakeys"
+        ]
+      },
+      {
+        "id": "api.MediaKeySystemAccess.getConfiguration",
+        "name": "api.MediaKeySystemAccess.getConfiguration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess/getConfiguration",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysystemaccess-getconfiguration"
+        ]
+      },
+      {
+        "id": "api.MediaKeySystemAccess.keySystem",
+        "name": "api.MediaKeySystemAccess.keySystem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeySystemAccess/keySystem",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysystemaccess-keysystem"
+        ]
+      },
+      {
+        "id": "api.MediaKeys",
+        "name": "api.MediaKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeys",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediakeys-interface"
+        ]
+      },
+      {
+        "id": "api.MediaKeys.createSession",
+        "name": "api.MediaKeys.createSession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeys/createSession",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeys-createsession"
+        ]
+      },
+      {
+        "id": "api.MediaKeys.setServerCertificate",
+        "name": "api.MediaKeys.setServerCertificate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaKeys/setServerCertificate",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeys-setservercertificate"
+        ]
+      },
+      {
+        "id": "api.Navigator.requestMediaKeySystemAccess",
+        "name": "api.Navigator.requestMediaKeySystemAccess",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/requestMediaKeySystemAccess",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#navigator-extension-requestmediakeysystemaccess"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.encrypted-media",
+        "name": "http.headers.Feature-Policy.encrypted-media",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/encrypted-media",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#permissions-policy-integration"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "eme",
+        "name": "Encrypted Media Extensions",
+        "statusUrl": "https://caniuse.com/eme",
+        "specUrls": [
+          "https://www.w3.org/TR/encrypted-media/"
+        ]
+      }
+    ],
     "chrome": [
+      {
+        "id": 5184416120832000,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
+      },
+      {
+        "id": 5632124143009792,
+        "name": "EME MediaKeySession Closed Reason",
+        "statusUrl": "https://chromestatus.com/feature/5632124143009792",
+        "specUrls": [
+          "https://github.com/w3c/encrypted-media/pull/487"
+        ]
+      },
+      {
+        "id": 5638708017496064,
+        "name": "EME persistent-usage-record session",
+        "statusUrl": "https://chromestatus.com/feature/5638708017496064",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/"
+        ]
+      },
       {
         "id": 5652917147140096,
         "manual": true,
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5184416120832000,
-        "manual": true,
-        "lastreviewed": "2022-06-05"
+        "id": 5696471747788800,
+        "name": "EME: onwaitingforkey, onkeystatuseschange, & onmessage event handler attributes",
+        "statusUrl": "https://chromestatus.com/feature/5696471747788800",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#dom-mediakeysession-onkeystatuseschange"
+        ]
+      },
+      {
+        "id": 5758526131535872,
+        "name": "EME: Make navigator.requestMediaKeySystemAccess() spec compliant ",
+        "statusUrl": "https://chromestatus.com/feature/5758526131535872",
+        "specUrls": [
+          "http://w3c.github.io/encrypted-media/"
+        ]
+      },
+      {
+        "id": 6578378068983808,
+        "name": "Encrypted Media Extensions (EME)",
+        "statusUrl": "https://chromestatus.com/feature/6578378068983808",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/"
+        ]
       }
     ]
   }

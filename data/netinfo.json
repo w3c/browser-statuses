@@ -1,14 +1,154 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.connection",
+        "name": "api.Navigator.connection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/connection",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#connection-attribute"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation",
+        "name": "api.NetworkInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#networkinformation-interface"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.change_event",
+        "name": "api.NetworkInformation.change_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/change_event",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-onchange"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.downlink",
+        "name": "api.NetworkInformation.downlink",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/downlink",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-downlink"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.downlinkMax",
+        "name": "api.NetworkInformation.downlinkMax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/downlinkMax",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-downlinkmax"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.effectiveType",
+        "name": "api.NetworkInformation.effectiveType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/effectiveType",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-effectivetype"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.rtt",
+        "name": "api.NetworkInformation.rtt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/rtt",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-rtt"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.type",
+        "name": "api.NetworkInformation.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/type",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-type"
+        ]
+      },
+      {
+        "id": "api.NetworkInformation.typechange_event",
+        "name": "api.NetworkInformation.typechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/typechange_event",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#dom-networkinformation-onchange"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.connection",
+        "name": "api.WorkerNavigator.connection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/connection",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#connection-attribute"
+        ]
+      },
+      {
+        "id": "http.headers.downlink",
+        "name": "http.headers.downlink",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/downlink",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#downlink-request-header-field"
+        ]
+      },
+      {
+        "id": "http.headers.ect",
+        "name": "http.headers.ect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/ect",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#ect-request-header-field"
+        ]
+      },
+      {
+        "id": "http.headers.rtt",
+        "name": "http.headers.rtt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/rtt",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#rtt-request-header-field"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "netinfo",
+        "name": "Network Information API",
+        "statusUrl": "https://caniuse.com/netinfo",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5076813940260864,
+        "name": "Network Information: saveData ",
+        "statusUrl": "https://chromestatus.com/feature/5076813940260864",
+        "specUrls": [
+          "https://wicg.github.io/netinfo/#-dfn-savedata-dfn-attribute"
+        ]
+      },
+      {
+        "id": 5108786398232576,
+        "name": "Network Information: Network Quality signals",
+        "statusUrl": "https://chromestatus.com/feature/5108786398232576",
+        "specUrls": [
+          "https://wicg.github.io/netinfo"
+        ]
+      },
+      {
+        "id": 5857463882481664,
+        "name": "navigator.connection.downlinkMax, wimax, and onchange",
+        "statusUrl": "https://chromestatus.com/feature/5857463882481664",
+        "specUrls": [
+          "http://wicg.github.io/netinfo/"
+        ]
+      },
+      {
         "id": 6338383617982464,
+        "name": "Network Information",
+        "statusUrl": "https://chromestatus.com/feature/6338383617982464",
+        "specUrls": [
+          "http://w3c.github.io/netinfo/"
+        ],
         "representative": true
       }
     ]

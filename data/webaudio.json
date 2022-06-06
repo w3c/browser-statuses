@@ -1,29 +1,2246 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AnalyserNode",
+        "name": "api.AnalyserNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AnalyserNode"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.AnalyserNode",
+        "name": "api.AnalyserNode.AnalyserNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/AnalyserNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-analysernode"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.fftSize",
+        "name": "api.AnalyserNode.fftSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/fftSize",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-fftsize"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.frequencyBinCount",
+        "name": "api.AnalyserNode.frequencyBinCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/frequencyBinCount",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-frequencybincount"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.getByteFrequencyData",
+        "name": "api.AnalyserNode.getByteFrequencyData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/getByteFrequencyData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-getbytefrequencydata"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.getByteTimeDomainData",
+        "name": "api.AnalyserNode.getByteTimeDomainData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/getByteTimeDomainData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-getbytetimedomaindata"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.getFloatFrequencyData",
+        "name": "api.AnalyserNode.getFloatFrequencyData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/getFloatFrequencyData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-getfloatfrequencydata"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.getFloatTimeDomainData",
+        "name": "api.AnalyserNode.getFloatTimeDomainData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/getFloatTimeDomainData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-getfloattimedomaindata"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.maxDecibels",
+        "name": "api.AnalyserNode.maxDecibels",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/maxDecibels",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-maxdecibels"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.minDecibels",
+        "name": "api.AnalyserNode.minDecibels",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/minDecibels",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-mindecibels"
+        ]
+      },
+      {
+        "id": "api.AnalyserNode.smoothingTimeConstant",
+        "name": "api.AnalyserNode.smoothingTimeConstant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnalyserNode/smoothingTimeConstant",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-analysernode-smoothingtimeconstant"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer",
+        "name": "api.AudioBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioBuffer"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.AudioBuffer",
+        "name": "api.AudioBuffer.AudioBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/AudioBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-audiobuffer"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.copyFromChannel",
+        "name": "api.AudioBuffer.copyFromChannel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/copyFromChannel",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copyfromchannel"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.copyToChannel",
+        "name": "api.AudioBuffer.copyToChannel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/copyToChannel",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-copytochannel"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.duration",
+        "name": "api.AudioBuffer.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/duration",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-duration"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.getChannelData",
+        "name": "api.AudioBuffer.getChannelData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/getChannelData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-getchanneldata"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.length",
+        "name": "api.AudioBuffer.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/length",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-length"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.numberOfChannels",
+        "name": "api.AudioBuffer.numberOfChannels",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/numberOfChannels",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-numberofchannels"
+        ]
+      },
+      {
+        "id": "api.AudioBuffer.sampleRate",
+        "name": "api.AudioBuffer.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBuffer/sampleRate",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffer-samplerate"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode",
+        "name": "api.AudioBufferSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioBufferSourceNode"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.AudioBufferSourceNode",
+        "name": "api.AudioBufferSourceNode.AudioBufferSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/AudioBufferSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-constructor-audiobuffersourcenode"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.buffer",
+        "name": "api.AudioBufferSourceNode.buffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/buffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-buffer"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.detune",
+        "name": "api.AudioBufferSourceNode.detune",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/detune",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-detune"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.loop",
+        "name": "api.AudioBufferSourceNode.loop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/loop",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loop"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.loopEnd",
+        "name": "api.AudioBufferSourceNode.loopEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/loopEnd",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loopend"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.loopStart",
+        "name": "api.AudioBufferSourceNode.loopStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/loopStart",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-loopstart"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.playbackRate",
+        "name": "api.AudioBufferSourceNode.playbackRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/playbackRate",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-playbackrate"
+        ]
+      },
+      {
+        "id": "api.AudioBufferSourceNode.start",
+        "name": "api.AudioBufferSourceNode.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioBufferSourceNode/start",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiobuffersourcenode-start"
+        ]
+      },
+      {
+        "id": "api.AudioContext",
+        "name": "api.AudioContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioContext"
+        ]
+      },
+      {
+        "id": "api.AudioContext.AudioContext",
+        "name": "api.AudioContext.AudioContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/AudioContext",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-audiocontext"
+        ]
+      },
+      {
+        "id": "api.AudioContext.AudioContext.options_latencyHint_parameter",
+        "name": "api.AudioContext.AudioContext.options_latencyHint_parameter",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontextoptions-latencyhint"
+        ]
+      },
+      {
+        "id": "api.AudioContext.AudioContext.options_sampleRate_parameter",
+        "name": "api.AudioContext.AudioContext.options_sampleRate_parameter",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontextoptions-samplerate"
+        ]
+      },
+      {
+        "id": "api.AudioContext.baseLatency",
+        "name": "api.AudioContext.baseLatency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/baseLatency",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-baselatency"
+        ]
+      },
+      {
+        "id": "api.AudioContext.close",
+        "name": "api.AudioContext.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/close",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-close"
+        ]
+      },
+      {
+        "id": "api.AudioContext.createMediaElementSource",
+        "name": "api.AudioContext.createMediaElementSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaElementSource",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediaelementsource"
+        ]
+      },
+      {
+        "id": "api.AudioContext.createMediaStreamDestination",
+        "name": "api.AudioContext.createMediaStreamDestination",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamDestination",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamdestination"
+        ]
+      },
+      {
+        "id": "api.AudioContext.createMediaStreamSource",
+        "name": "api.AudioContext.createMediaStreamSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamSource",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamsource"
+        ]
+      },
+      {
+        "id": "api.AudioContext.createMediaStreamTrackSource",
+        "name": "api.AudioContext.createMediaStreamTrackSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamTrackSource",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-createmediastreamtracksource"
+        ]
+      },
+      {
+        "id": "api.AudioContext.getOutputTimestamp",
+        "name": "api.AudioContext.getOutputTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/getOutputTimestamp",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-getoutputtimestamp"
+        ]
+      },
+      {
+        "id": "api.AudioContext.outputLatency",
+        "name": "api.AudioContext.outputLatency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/outputLatency",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-outputlatency"
+        ]
+      },
+      {
+        "id": "api.AudioContext.resume",
+        "name": "api.AudioContext.resume",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/resume",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-resume"
+        ]
+      },
+      {
+        "id": "api.AudioContext.suspend",
+        "name": "api.AudioContext.suspend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioContext/suspend",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-suspend"
+        ]
+      },
+      {
+        "id": "api.AudioDestinationNode",
+        "name": "api.AudioDestinationNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDestinationNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioDestinationNode"
+        ]
+      },
+      {
+        "id": "api.AudioDestinationNode.maxChannelCount",
+        "name": "api.AudioDestinationNode.maxChannelCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDestinationNode/maxChannelCount",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiodestinationnode-maxchannelcount"
+        ]
+      },
+      {
+        "id": "api.AudioListener",
+        "name": "api.AudioListener",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioListener"
+        ]
+      },
+      {
+        "id": "api.AudioListener.forwardX",
+        "name": "api.AudioListener.forwardX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/forwardX",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardx"
+        ]
+      },
+      {
+        "id": "api.AudioListener.forwardY",
+        "name": "api.AudioListener.forwardY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/forwardY",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardy"
+        ]
+      },
+      {
+        "id": "api.AudioListener.forwardZ",
+        "name": "api.AudioListener.forwardZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/forwardZ",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-forwardz"
+        ]
+      },
+      {
+        "id": "api.AudioListener.positionX",
+        "name": "api.AudioListener.positionX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/positionX",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-positionx"
+        ]
+      },
+      {
+        "id": "api.AudioListener.positionY",
+        "name": "api.AudioListener.positionY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/positionY",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-positiony"
+        ]
+      },
+      {
+        "id": "api.AudioListener.positionZ",
+        "name": "api.AudioListener.positionZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/positionZ",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-positionz"
+        ]
+      },
+      {
+        "id": "api.AudioListener.setOrientation",
+        "name": "api.AudioListener.setOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/setOrientation",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-setorientation"
+        ]
+      },
+      {
+        "id": "api.AudioListener.setPosition",
+        "name": "api.AudioListener.setPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/setPosition",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-setposition"
+        ]
+      },
+      {
+        "id": "api.AudioListener.upX",
+        "name": "api.AudioListener.upX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/upX",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-upx"
+        ]
+      },
+      {
+        "id": "api.AudioListener.upY",
+        "name": "api.AudioListener.upY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/upY",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-upy"
+        ]
+      },
+      {
+        "id": "api.AudioListener.upZ",
+        "name": "api.AudioListener.upZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioListener/upZ",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiolistener-upz"
+        ]
+      },
+      {
+        "id": "api.AudioNode",
+        "name": "api.AudioNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioNode"
+        ]
+      },
+      {
+        "id": "api.AudioNode.channelCount",
+        "name": "api.AudioNode.channelCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/channelCount",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-channelcount"
+        ]
+      },
+      {
+        "id": "api.AudioNode.channelCountMode",
+        "name": "api.AudioNode.channelCountMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/channelCountMode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-channelcountmode"
+        ]
+      },
+      {
+        "id": "api.AudioNode.channelInterpretation",
+        "name": "api.AudioNode.channelInterpretation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/channelInterpretation",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-channelinterpretation"
+        ]
+      },
+      {
+        "id": "api.AudioNode.connect",
+        "name": "api.AudioNode.connect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/connect",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-connect",
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-connect-destinationparam-output"
+        ]
+      },
+      {
+        "id": "api.AudioNode.context",
+        "name": "api.AudioNode.context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/context",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-context"
+        ]
+      },
+      {
+        "id": "api.AudioNode.disconnect",
+        "name": "api.AudioNode.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/disconnect",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-disconnect"
+        ]
+      },
+      {
+        "id": "api.AudioNode.numberOfInputs",
+        "name": "api.AudioNode.numberOfInputs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/numberOfInputs",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-numberofinputs"
+        ]
+      },
+      {
+        "id": "api.AudioNode.numberOfOutputs",
+        "name": "api.AudioNode.numberOfOutputs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioNode/numberOfOutputs",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audionode-numberofoutputs"
+        ]
+      },
+      {
+        "id": "api.AudioParam",
+        "name": "api.AudioParam",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioParam"
+        ]
+      },
+      {
+        "id": "api.AudioParam.automationRate",
+        "name": "api.AudioParam.automationRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/automationRate",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-automationrate"
+        ]
+      },
+      {
+        "id": "api.AudioParam.cancelAndHoldAtTime",
+        "name": "api.AudioParam.cancelAndHoldAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/cancelAndHoldAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelandholdattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.cancelScheduledValues",
+        "name": "api.AudioParam.cancelScheduledValues",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/cancelScheduledValues",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-cancelscheduledvalues"
+        ]
+      },
+      {
+        "id": "api.AudioParam.defaultValue",
+        "name": "api.AudioParam.defaultValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/defaultValue",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-defaultvalue"
+        ]
+      },
+      {
+        "id": "api.AudioParam.exponentialRampToValueAtTime",
+        "name": "api.AudioParam.exponentialRampToValueAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/exponentialRampToValueAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-exponentialramptovalueattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.linearRampToValueAtTime",
+        "name": "api.AudioParam.linearRampToValueAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/linearRampToValueAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-linearramptovalueattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.maxValue",
+        "name": "api.AudioParam.maxValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/maxValue",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-maxvalue"
+        ]
+      },
+      {
+        "id": "api.AudioParam.minValue",
+        "name": "api.AudioParam.minValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/minValue",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-minvalue"
+        ]
+      },
+      {
+        "id": "api.AudioParam.setTargetAtTime",
+        "name": "api.AudioParam.setTargetAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/setTargetAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-settargetattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.setValueAtTime",
+        "name": "api.AudioParam.setValueAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/setValueAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-setvalueattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.setValueCurveAtTime",
+        "name": "api.AudioParam.setValueCurveAtTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/setValueCurveAtTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-setvaluecurveattime"
+        ]
+      },
+      {
+        "id": "api.AudioParam.value",
+        "name": "api.AudioParam.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParam/value",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioparam-value"
+        ]
+      },
+      {
+        "id": "api.AudioParamMap",
+        "name": "api.AudioParamMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioParamMap",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#audioparammap"
+        ]
+      },
+      {
+        "id": "api.AudioProcessingEvent.inputBuffer",
+        "name": "api.AudioProcessingEvent.inputBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/inputBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer"
+        ]
+      },
+      {
+        "id": "api.AudioProcessingEvent.outputBuffer",
+        "name": "api.AudioProcessingEvent.outputBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/outputBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer"
+        ]
+      },
+      {
+        "id": "api.AudioProcessingEvent.playbackTime",
+        "name": "api.AudioProcessingEvent.playbackTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/playbackTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime"
+        ]
+      },
+      {
+        "id": "api.AudioScheduledSourceNode",
+        "name": "api.AudioScheduledSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioScheduledSourceNode"
+        ]
+      },
+      {
+        "id": "api.AudioScheduledSourceNode.ended_event",
+        "name": "api.AudioScheduledSourceNode.ended_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode/ended_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioscheduledsourcenode-onended"
+        ]
+      },
+      {
+        "id": "api.AudioScheduledSourceNode.start",
+        "name": "api.AudioScheduledSourceNode.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode/start",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioscheduledsourcenode-start"
+        ]
+      },
+      {
+        "id": "api.AudioScheduledSourceNode.stop",
+        "name": "api.AudioScheduledSourceNode.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode/stop",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioscheduledsourcenode-stop"
+        ]
+      },
+      {
+        "id": "api.AudioWorklet",
+        "name": "api.AudioWorklet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorklet",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioWorklet"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletGlobalScope",
+        "name": "api.AudioWorkletGlobalScope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletGlobalScope",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioWorkletGlobalScope"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletGlobalScope.currentFrame",
+        "name": "api.AudioWorkletGlobalScope.currentFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletGlobalScope/currentFrame",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-currentframe"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletGlobalScope.currentTime",
+        "name": "api.AudioWorkletGlobalScope.currentTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletGlobalScope/currentTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-currenttime"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletGlobalScope.registerProcessor",
+        "name": "api.AudioWorkletGlobalScope.registerProcessor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletGlobalScope/registerProcessor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-registerprocessor"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletGlobalScope.sampleRate",
+        "name": "api.AudioWorkletGlobalScope.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletGlobalScope/sampleRate",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletglobalscope-samplerate"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletNode",
+        "name": "api.AudioWorkletNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioWorkletNode"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletNode.AudioWorkletNode",
+        "name": "api.AudioWorkletNode.AudioWorkletNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/AudioWorkletNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-audioworkletnode"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletNode.parameters",
+        "name": "api.AudioWorkletNode.parameters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/parameters",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-parameters"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletNode.port",
+        "name": "api.AudioWorkletNode.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/port",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-port"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletNode.processorerror_event",
+        "name": "api.AudioWorkletNode.processorerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletNode/processorerror_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletnode-onprocessorerror"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletProcessor",
+        "name": "api.AudioWorkletProcessor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioWorkletProcessor"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletProcessor.AudioWorkletProcessor",
+        "name": "api.AudioWorkletProcessor.AudioWorkletProcessor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/AudioWorkletProcessor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletprocessor-audioworkletprocessor"
+        ]
+      },
+      {
+        "id": "api.AudioWorkletProcessor.port",
+        "name": "api.AudioWorkletProcessor.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor/port",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audioworkletprocessor-port"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext",
+        "name": "api.BaseAudioContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#BaseAudioContext"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.audioWorklet",
+        "name": "api.BaseAudioContext.audioWorklet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/audioWorklet",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-audioworklet"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createAnalyser",
+        "name": "api.BaseAudioContext.createAnalyser",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createAnalyser",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createanalyser"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createBiquadFilter",
+        "name": "api.BaseAudioContext.createBiquadFilter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createBiquadFilter",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbiquadfilter"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createBuffer",
+        "name": "api.BaseAudioContext.createBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbuffer"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createBufferSource",
+        "name": "api.BaseAudioContext.createBufferSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createBufferSource",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createbuffersource"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createChannelMerger",
+        "name": "api.BaseAudioContext.createChannelMerger",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createChannelMerger",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelmerger"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createChannelSplitter",
+        "name": "api.BaseAudioContext.createChannelSplitter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createChannelSplitter",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createchannelsplitter"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createConstantSource",
+        "name": "api.BaseAudioContext.createConstantSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createConstantSource",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createconstantsource"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createConvolver",
+        "name": "api.BaseAudioContext.createConvolver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createConvolver",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createconvolver"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createDelay",
+        "name": "api.BaseAudioContext.createDelay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createDelay",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdelay"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createDynamicsCompressor",
+        "name": "api.BaseAudioContext.createDynamicsCompressor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createDynamicsCompressor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createdynamicscompressor"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createGain",
+        "name": "api.BaseAudioContext.createGain",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createGain",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-creategain"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createIIRFilter",
+        "name": "api.BaseAudioContext.createIIRFilter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createIIRFilter",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createiirfilter"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createOscillator",
+        "name": "api.BaseAudioContext.createOscillator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createOscillator",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createoscillator"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createPanner",
+        "name": "api.BaseAudioContext.createPanner",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createPanner",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createpanner"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createPeriodicWave",
+        "name": "api.BaseAudioContext.createPeriodicWave",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createPeriodicWave",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createperiodicwave"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createScriptProcessor",
+        "name": "api.BaseAudioContext.createScriptProcessor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createScriptProcessor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createscriptprocessor"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createStereoPanner",
+        "name": "api.BaseAudioContext.createStereoPanner",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createStereoPanner",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createstereopanner"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.createWaveShaper",
+        "name": "api.BaseAudioContext.createWaveShaper",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/createWaveShaper",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-createwaveshaper"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.currentTime",
+        "name": "api.BaseAudioContext.currentTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/currentTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-currenttime"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.decodeAudioData",
+        "name": "api.BaseAudioContext.decodeAudioData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/decodeAudioData",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-decodeaudiodata"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.destination",
+        "name": "api.BaseAudioContext.destination",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/destination",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-destination"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.listener",
+        "name": "api.BaseAudioContext.listener",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/listener",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-listener"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.sampleRate",
+        "name": "api.BaseAudioContext.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/sampleRate",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-samplerate"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.state",
+        "name": "api.BaseAudioContext.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/state",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-state"
+        ]
+      },
+      {
+        "id": "api.BaseAudioContext.statechange_event",
+        "name": "api.BaseAudioContext.statechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BaseAudioContext/statechange_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-baseaudiocontext-onstatechange"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode",
+        "name": "api.BiquadFilterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#BiquadFilterNode"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.BiquadFilterNode",
+        "name": "api.BiquadFilterNode.BiquadFilterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/BiquadFilterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-biquadfilternode-context-options"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.Q",
+        "name": "api.BiquadFilterNode.Q",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/Q",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-q"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.detune",
+        "name": "api.BiquadFilterNode.detune",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/detune",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-detune"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.frequency",
+        "name": "api.BiquadFilterNode.frequency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/frequency",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-frequency"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.gain",
+        "name": "api.BiquadFilterNode.gain",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/gain",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-gain"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.getFrequencyResponse",
+        "name": "api.BiquadFilterNode.getFrequencyResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/getFrequencyResponse",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-getfrequencyresponse"
+        ]
+      },
+      {
+        "id": "api.BiquadFilterNode.type",
+        "name": "api.BiquadFilterNode.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/type",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-biquadfilternode-type"
+        ]
+      },
+      {
+        "id": "api.ChannelMergerNode",
+        "name": "api.ChannelMergerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ChannelMergerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#ChannelMergerNode"
+        ]
+      },
+      {
+        "id": "api.ChannelMergerNode.ChannelMergerNode",
+        "name": "api.ChannelMergerNode.ChannelMergerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ChannelMergerNode/ChannelMergerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-channelmergernode-constructor-channelmergernode"
+        ]
+      },
+      {
+        "id": "api.ChannelSplitterNode",
+        "name": "api.ChannelSplitterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ChannelSplitterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#ChannelSplitterNode"
+        ]
+      },
+      {
+        "id": "api.ChannelSplitterNode.ChannelSplitterNode",
+        "name": "api.ChannelSplitterNode.ChannelSplitterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ChannelSplitterNode/ChannelSplitterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-channelsplitternode-constructor-channelsplitternode"
+        ]
+      },
+      {
+        "id": "api.ConstantSourceNode",
+        "name": "api.ConstantSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConstantSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#ConstantSourceNode"
+        ]
+      },
+      {
+        "id": "api.ConstantSourceNode.ConstantSourceNode",
+        "name": "api.ConstantSourceNode.ConstantSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConstantSourceNode/ConstantSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-constantsourcenode-constructor-constantsourcenode"
+        ]
+      },
+      {
+        "id": "api.ConstantSourceNode.offset",
+        "name": "api.ConstantSourceNode.offset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConstantSourceNode/offset",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-constantsourcenode-offset"
+        ]
+      },
+      {
+        "id": "api.ConvolverNode",
+        "name": "api.ConvolverNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConvolverNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#ConvolverNode"
+        ]
+      },
+      {
+        "id": "api.ConvolverNode.ConvolverNode",
+        "name": "api.ConvolverNode.ConvolverNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConvolverNode/ConvolverNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-convolvernode-constructor-convolvernode"
+        ]
+      },
+      {
+        "id": "api.ConvolverNode.buffer",
+        "name": "api.ConvolverNode.buffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConvolverNode/buffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-convolvernode-buffer"
+        ]
+      },
+      {
+        "id": "api.ConvolverNode.normalize",
+        "name": "api.ConvolverNode.normalize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ConvolverNode/normalize",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-convolvernode-normalize"
+        ]
+      },
+      {
+        "id": "api.DelayNode",
+        "name": "api.DelayNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DelayNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#DelayNode"
+        ]
+      },
+      {
+        "id": "api.DelayNode.DelayNode",
+        "name": "api.DelayNode.DelayNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DelayNode/DelayNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-delaynode-constructor-delaynode"
+        ]
+      },
+      {
+        "id": "api.DelayNode.delayTime",
+        "name": "api.DelayNode.delayTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DelayNode/delayTime",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-delaynode-delaytime"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode",
+        "name": "api.DynamicsCompressorNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#DynamicsCompressorNode"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.DynamicsCompressorNode",
+        "name": "api.DynamicsCompressorNode.DynamicsCompressorNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/DynamicsCompressorNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-constructor-dynamicscompressornode"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.attack",
+        "name": "api.DynamicsCompressorNode.attack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/attack",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-attack"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.knee",
+        "name": "api.DynamicsCompressorNode.knee",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/knee",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-knee"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.ratio",
+        "name": "api.DynamicsCompressorNode.ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/ratio",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-ratio"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.reduction",
+        "name": "api.DynamicsCompressorNode.reduction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/reduction",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-reduction"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.release",
+        "name": "api.DynamicsCompressorNode.release",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/release",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-release"
+        ]
+      },
+      {
+        "id": "api.DynamicsCompressorNode.threshold",
+        "name": "api.DynamicsCompressorNode.threshold",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DynamicsCompressorNode/threshold",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-dynamicscompressornode-threshold"
+        ]
+      },
+      {
+        "id": "api.GainNode",
+        "name": "api.GainNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GainNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#GainNode"
+        ]
+      },
+      {
+        "id": "api.GainNode.GainNode",
+        "name": "api.GainNode.GainNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GainNode/GainNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-gainnode-constructor-gainnode"
+        ]
+      },
+      {
+        "id": "api.GainNode.gain",
+        "name": "api.GainNode.gain",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GainNode/gain",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-gainnode-gain"
+        ]
+      },
+      {
+        "id": "api.IIRFilterNode",
+        "name": "api.IIRFilterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IIRFilterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#IIRFilterNode"
+        ]
+      },
+      {
+        "id": "api.IIRFilterNode.IIRFilterNode",
+        "name": "api.IIRFilterNode.IIRFilterNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IIRFilterNode/IIRFilterNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-iirfilternode-constructor-iirfilternode"
+        ]
+      },
+      {
+        "id": "api.IIRFilterNode.getFrequencyResponse",
+        "name": "api.IIRFilterNode.getFrequencyResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IIRFilterNode/getFrequencyResponse",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-iirfilternode-getfrequencyresponse"
+        ]
+      },
+      {
+        "id": "api.MediaElementAudioSourceNode",
+        "name": "api.MediaElementAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaElementAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#MediaElementAudioSourceNode"
+        ]
+      },
+      {
+        "id": "api.MediaElementAudioSourceNode.MediaElementAudioSourceNode",
+        "name": "api.MediaElementAudioSourceNode.MediaElementAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaElementAudioSourceNode/MediaElementAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediaelementaudiosourcenode-mediaelementaudiosourcenode"
+        ]
+      },
+      {
+        "id": "api.MediaElementAudioSourceNode.mediaElement",
+        "name": "api.MediaElementAudioSourceNode.mediaElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaElementAudioSourceNode/mediaElement",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediaelementaudiosourcenode-mediaelement"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioDestinationNode",
+        "name": "api.MediaStreamAudioDestinationNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#MediaStreamAudioDestinationNode"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioDestinationNode.MediaStreamAudioDestinationNode",
+        "name": "api.MediaStreamAudioDestinationNode.MediaStreamAudioDestinationNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode/MediaStreamAudioDestinationNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-mediastreamaudiodestinationnode"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioDestinationNode.stream",
+        "name": "api.MediaStreamAudioDestinationNode.stream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode/stream",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiodestinationnode-stream"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioSourceNode",
+        "name": "api.MediaStreamAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#MediaStreamAudioSourceNode"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioSourceNode.MediaStreamAudioSourceNode",
+        "name": "api.MediaStreamAudioSourceNode.MediaStreamAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceNode/MediaStreamAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiosourcenode-mediastreamaudiosourcenode"
+        ]
+      },
+      {
+        "id": "api.MediaStreamAudioSourceNode.mediaStream",
+        "name": "api.MediaStreamAudioSourceNode.mediaStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamAudioSourceNode/mediaStream",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediastreamaudiosourcenode-mediastream"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrackAudioSourceNode",
+        "name": "api.MediaStreamTrackAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#MediaStreamTrackAudioSourceNode"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrackAudioSourceNode.MediaStreamTrackAudioSourceNode",
+        "name": "api.MediaStreamTrackAudioSourceNode.MediaStreamTrackAudioSourceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackAudioSourceNode/MediaStreamTrackAudioSourceNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-mediastreamtrackaudiosourcenode-mediastreamtrackaudiosourcenode"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioCompletionEvent",
+        "name": "api.OfflineAudioCompletionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioCompletionEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#OfflineAudioCompletionEvent"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioCompletionEvent.OfflineAudioCompletionEvent",
+        "name": "api.OfflineAudioCompletionEvent.OfflineAudioCompletionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioCompletionEvent/OfflineAudioCompletionEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocompletionevent-offlineaudiocompletionevent"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioCompletionEvent.renderedBuffer",
+        "name": "api.OfflineAudioCompletionEvent.renderedBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioCompletionEvent/renderedBuffer",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocompletionevent-renderedbuffer"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext",
+        "name": "api.OfflineAudioContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#OfflineAudioContext"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.OfflineAudioContext",
+        "name": "api.OfflineAudioContext.OfflineAudioContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/OfflineAudioContext",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-offlineaudiocontext"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.complete_event",
+        "name": "api.OfflineAudioContext.complete_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/complete_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#OfflineAudioCompletionEvent",
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-oncomplete"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.length",
+        "name": "api.OfflineAudioContext.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/length",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-length"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.resume",
+        "name": "api.OfflineAudioContext.resume",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/resume",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-resume"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.startRendering",
+        "name": "api.OfflineAudioContext.startRendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/startRendering",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-startrendering"
+        ]
+      },
+      {
+        "id": "api.OfflineAudioContext.suspend",
+        "name": "api.OfflineAudioContext.suspend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OfflineAudioContext/suspend",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-offlineaudiocontext-suspend"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode",
+        "name": "api.OscillatorNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#OscillatorNode"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode.OscillatorNode",
+        "name": "api.OscillatorNode.OscillatorNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode/OscillatorNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-oscillatornode-oscillatornode"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode.detune",
+        "name": "api.OscillatorNode.detune",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode/detune",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-oscillatornode-detune"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode.frequency",
+        "name": "api.OscillatorNode.frequency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode/frequency",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-oscillatornode-frequency"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode.setPeriodicWave",
+        "name": "api.OscillatorNode.setPeriodicWave",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode/setPeriodicWave",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-oscillatornode-setperiodicwave"
+        ]
+      },
+      {
+        "id": "api.OscillatorNode.type",
+        "name": "api.OscillatorNode.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OscillatorNode/type",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-oscillatornode-type"
+        ]
+      },
+      {
+        "id": "api.PannerNode",
+        "name": "api.PannerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#PannerNode"
+        ]
+      },
+      {
+        "id": "api.PannerNode.PannerNode",
+        "name": "api.PannerNode.PannerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/PannerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-pannernode"
+        ]
+      },
+      {
+        "id": "api.PannerNode.coneInnerAngle",
+        "name": "api.PannerNode.coneInnerAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneInnerAngle",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneinnerangle"
+        ]
+      },
+      {
+        "id": "api.PannerNode.coneOuterAngle",
+        "name": "api.PannerNode.coneOuterAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneOuterAngle",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneouterangle"
+        ]
+      },
+      {
+        "id": "api.PannerNode.coneOuterGain",
+        "name": "api.PannerNode.coneOuterGain",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/coneOuterGain",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-coneoutergain"
+        ]
+      },
+      {
+        "id": "api.PannerNode.distanceModel",
+        "name": "api.PannerNode.distanceModel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/distanceModel",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-distancemodel"
+        ]
+      },
+      {
+        "id": "api.PannerNode.maxDistance",
+        "name": "api.PannerNode.maxDistance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/maxDistance",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-maxdistance"
+        ]
+      },
+      {
+        "id": "api.PannerNode.orientationX",
+        "name": "api.PannerNode.orientationX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationX",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationx"
+        ]
+      },
+      {
+        "id": "api.PannerNode.orientationY",
+        "name": "api.PannerNode.orientationY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationY",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationy"
+        ]
+      },
+      {
+        "id": "api.PannerNode.orientationZ",
+        "name": "api.PannerNode.orientationZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/orientationZ",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-orientationz"
+        ]
+      },
+      {
+        "id": "api.PannerNode.panningModel",
+        "name": "api.PannerNode.panningModel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/panningModel",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-panningmodel"
+        ]
+      },
+      {
+        "id": "api.PannerNode.positionX",
+        "name": "api.PannerNode.positionX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionX",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-positionx"
+        ]
+      },
+      {
+        "id": "api.PannerNode.positionY",
+        "name": "api.PannerNode.positionY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionY",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-positiony"
+        ]
+      },
+      {
+        "id": "api.PannerNode.positionZ",
+        "name": "api.PannerNode.positionZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/positionZ",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-positionz"
+        ]
+      },
+      {
+        "id": "api.PannerNode.refDistance",
+        "name": "api.PannerNode.refDistance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/refDistance",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-refdistance"
+        ]
+      },
+      {
+        "id": "api.PannerNode.rolloffFactor",
+        "name": "api.PannerNode.rolloffFactor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/rolloffFactor",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-rollofffactor"
+        ]
+      },
+      {
+        "id": "api.PannerNode.setOrientation",
+        "name": "api.PannerNode.setOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/setOrientation",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-setorientation"
+        ]
+      },
+      {
+        "id": "api.PannerNode.setPosition",
+        "name": "api.PannerNode.setPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PannerNode/setPosition",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-pannernode-setposition"
+        ]
+      },
+      {
+        "id": "api.PeriodicWave",
+        "name": "api.PeriodicWave",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicWave",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#PeriodicWave"
+        ]
+      },
+      {
+        "id": "api.PeriodicWave.PeriodicWave",
+        "name": "api.PeriodicWave.PeriodicWave",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicWave/PeriodicWave",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-periodicwave-periodicwave"
+        ]
+      },
+      {
+        "id": "api.StereoPannerNode",
+        "name": "api.StereoPannerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StereoPannerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#stereopannernode"
+        ]
+      },
+      {
+        "id": "api.StereoPannerNode.StereoPannerNode",
+        "name": "api.StereoPannerNode.StereoPannerNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StereoPannerNode/StereoPannerNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-stereopannernode-stereopannernode"
+        ]
+      },
+      {
+        "id": "api.StereoPannerNode.pan",
+        "name": "api.StereoPannerNode.pan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StereoPannerNode/pan",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-stereopannernode-pan"
+        ]
+      },
+      {
+        "id": "api.WaveShaperNode",
+        "name": "api.WaveShaperNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WaveShaperNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#WaveShaperNode"
+        ]
+      },
+      {
+        "id": "api.WaveShaperNode.WaveShaperNode",
+        "name": "api.WaveShaperNode.WaveShaperNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WaveShaperNode/WaveShaperNode",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-waveshapernode-waveshapernode"
+        ]
+      },
+      {
+        "id": "api.WaveShaperNode.curve",
+        "name": "api.WaveShaperNode.curve",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WaveShaperNode/curve",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-waveshapernode-curve"
+        ]
+      },
+      {
+        "id": "api.WaveShaperNode.oversample",
+        "name": "api.WaveShaperNode.oversample",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WaveShaperNode/oversample",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-waveshapernode-oversample"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "audio-api",
+        "name": "Web Audio API",
+        "statusUrl": "https://caniuse.com/audio-api",
+        "specUrls": [
+          "https://www.w3.org/TR/webaudio/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4510315433689088,
+        "name": "Autoplay Policy for Web Audio",
+        "statusUrl": "https://chromestatus.com/feature/4510315433689088",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 4571020824412160,
+        "name": "WebAudio: Remove prefixed AudioContext and OfflineAudioContext",
+        "statusUrl": "https://chromestatus.com/feature/4571020824412160",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 4588498229133312,
+        "name": "[WebAudio] AudioWorklet",
+        "statusUrl": "https://chromestatus.com/feature/4588498229133312",
+        "specUrls": [
+          "https://www.w3.org/TR/webaudio/#audioworklet"
+        ]
+      },
+      {
+        "id": 4701085050601472,
+        "name": "WebAudio: ChannelSplitterNode channelCount and channelCountMode are constant",
+        "statusUrl": "https://chromestatus.com/feature/4701085050601472",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 4793068276416512,
+        "name": "WebAudio: Selective Disconnection on AudioNode.disconnect()",
+        "statusUrl": "https://chromestatus.com/feature/4793068276416512",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/#idl-def-AudioNode"
+        ]
+      },
+      {
+        "id": 4939796648558592,
+        "name": "WebAudio: PannerNode.rolloffFactor clamps to nominal range.",
+        "statusUrl": "https://chromestatus.com/feature/4939796648558592",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5086267630944256,
+        "name": "WebAudio: OscillatorOptions.periodicWave is not nullable",
+        "statusUrl": "https://chromestatus.com/feature/5086267630944256",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dictdef-oscillatoroptions"
+        ]
+      },
+      {
+        "id": 5086921298542592,
+        "name": "WebAudio: DynamicsCompressor.reduction is a float not AudioParam",
+        "statusUrl": "https://chromestatus.com/feature/5086921298542592",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5116894524735488,
+        "name": "WebAudio: AudioParam cancelAndHoldAtTime",
+        "statusUrl": "https://chromestatus.com/feature/5116894524735488",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5129238722117632,
+        "name": "WebAudio: Deprecate setting AudioBufferSourceNode.buffer more than once",
+        "statusUrl": "https://chromestatus.com/feature/5129238722117632",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5136778254090240,
+        "name": "AudioContextOptions.sampleRate",
+        "statusUrl": "https://chromestatus.com/feature/5136778254090240",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontextoptions-samplerate"
+        ]
+      },
+      {
+        "id": 5164143287992320,
+        "name": "WebAudio: Add User Selectable Automation Rate for AudioParams",
+        "statusUrl": "https://chromestatus.com/feature/5164143287992320",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioParam"
+        ]
+      },
+      {
+        "id": 5238926818148352,
+        "name": "WebAudio: Deprecate Doppler Effect",
+        "statusUrl": "https://chromestatus.com/feature/5238926818148352",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5248179385663488,
+        "name": "WebAudio: Disallow setting AudioBufferSourceNode.buffer more than once",
+        "statusUrl": "https://chromestatus.com/feature/5248179385663488",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5258622686724096,
+        "name": "WebAudio: MediaElement and MediaStream nodes defined only for AudioContext",
+        "statusUrl": "https://chromestatus.com/feature/5258622686724096",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5262004765851648,
+        "name": "Expose AudioBuffer to DedicatedWorker",
+        "statusUrl": "https://chromestatus.com/feature/5262004765851648",
+        "specUrls": [
+          "https://github.com/WebAudio/web-audio-api-v2"
+        ]
+      },
+      {
+        "id": 5287995770929152,
+        "name": "WebAudio: Remove dezippering",
+        "statusUrl": "https://chromestatus.com/feature/5287995770929152",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5294442458120192,
+        "name": "WebAudio: OfflineAudioContext.suspend() and resume()",
+        "statusUrl": "https://chromestatus.com/feature/5294442458120192",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/#the-offlineaudiocontext-interface"
+        ]
+      },
+      {
+        "id": 5411681005993984,
+        "name": "WebAudio: Allow developers to close an AudioContext explicitly",
+        "statusUrl": "https://chromestatus.com/feature/5411681005993984",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5539919174828032,
+        "name": "WebAudio: decodeAudioData detaches ArrayBuffer",
+        "statusUrl": "https://chromestatus.com/feature/5539919174828032",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5563888414228480,
+        "name": "WebAudio: AudioDestinationNode has a single output",
+        "statusUrl": "https://chromestatus.com/feature/5563888414228480",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5635820090294272,
+        "name": "WebAudio: OfflineAudioContext constructor with dictionary",
+        "statusUrl": "https://chromestatus.com/feature/5635820090294272",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5638204644392960,
+        "name": "WebAudio: OfflineAudioContext.length attribute",
+        "statusUrl": "https://chromestatus.com/feature/5638204644392960",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5644431130624000,
+        "name": "WebAudio: Add AudioScheduledSourceNode base class for source nodes",
+        "statusUrl": "https://chromestatus.com/feature/5644431130624000",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5645042685313024,
+        "name": "WebAudio: decodeAudioData returns a Promise",
+        "statusUrl": "https://chromestatus.com/feature/5645042685313024",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5647541725036544,
+        "name": "Use FrozenArray in AudioWorkletProcessor.process()",
+        "statusUrl": "https://chromestatus.com/feature/5647541725036544",
+        "specUrls": [
+          "https://github.com/WebAudio/web-audio-api/issues/1933#issuecomment-616632754"
+        ]
+      },
+      {
+        "id": 5647701588836352,
+        "name": "WebAudio: Add ConstantSourceNode",
+        "statusUrl": "https://chromestatus.com/feature/5647701588836352",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5664622837235712,
+        "name": "WebAudio: suspend/resume",
+        "statusUrl": "https://chromestatus.com/feature/5664622837235712",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5670531110010880,
+        "name": "WebAudio: Event Constructors",
+        "statusUrl": "https://chromestatus.com/feature/5670531110010880",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5671957710241792,
+        "name": "WebAudio: Add BaseAudioContext",
+        "statusUrl": "https://chromestatus.com/feature/5671957710241792",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5677186052784128,
+        "name": "WebAudio: AudioBufferSourceNode.detune",
+        "statusUrl": "https://chromestatus.com/feature/5677186052784128",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/#AudioBufferSourceNode"
+        ]
+      },
+      {
+        "id": 5678699475107840,
+        "name": "WebAudio: Add buffering/latency hint via latencyHint",
+        "statusUrl": "https://chromestatus.com/feature/5678699475107840",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5682265146261504,
+        "name": "AudioContext.outputLatency",
+        "statusUrl": "https://chromestatus.com/feature/5682265146261504",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-audiocontext-outputlatency"
+        ]
+      },
+      {
+        "id": 5683205155848192,
+        "name": "WebAudio: close() removed from OfflineAudioContext",
+        "statusUrl": "https://chromestatus.com/feature/5683205155848192",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5687523284090880,
+        "name": "WebAudio: New lowpass and highpass BiquadFilter implementation",
+        "statusUrl": "https://chromestatus.com/feature/5687523284090880",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5692188675538944,
+        "name": "WebAudio: OfflineAudioContext.startRendering() returns a promise",
+        "statusUrl": "https://chromestatus.com/feature/5692188675538944",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5693824068222976,
+        "name": "WebAudio:  AudioParams include min/max attributes to specify the nominal range",
+        "statusUrl": "https://chromestatus.com/feature/5693824068222976",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5702493226926080,
+        "name": "WebAudio: MediaStreamAudioDestinationNode has no outputs",
+        "statusUrl": "https://chromestatus.com/feature/5702493226926080",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#mediastreamaudiodestinationnode"
+        ]
+      },
+      {
+        "id": 5706033670389760,
+        "name": "WebAudio: Support chaining on AudioNode.connect() and AudioParam automation methods",
+        "statusUrl": "https://chromestatus.com/feature/5706033670389760",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5721501693116416,
+        "name": "WebAudio: ChannelMergerNode Static Routing",
+        "statusUrl": "https://chromestatus.com/feature/5721501693116416",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/#the-channelmergernode-interface"
+        ]
+      },
+      {
+        "id": 5740353252491264,
+        "name": "WebAudio: AudioBuffer constructor only takes one argument",
+        "statusUrl": "https://chromestatus.com/feature/5740353252491264",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5743255039770624,
+        "name": "WebAudio: Add AudioContext.getOutputTimestamp() method ",
+        "statusUrl": "https://chromestatus.com/feature/5743255039770624",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5749997033226240,
+        "name": "WebAudio: MediaStreamAudioSourceNode sorts tracks by id",
+        "statusUrl": "https://chromestatus.com/feature/5749997033226240",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#MediaStreamAudioSourceNode-constructors"
+        ]
+      },
+      {
+        "id": 5753252045914112,
+        "name": "WebAudio: Remove Doppler API",
+        "statusUrl": "https://chromestatus.com/feature/5753252045914112",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5753709124386816,
+        "name": "WebAudio: Remove AudioSourceNode interface",
+        "statusUrl": "https://chromestatus.com/feature/5753709124386816",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5754107776204800,
+        "name": "WebAudio: Biquad filters run at a-rate",
+        "statusUrl": "https://chromestatus.com/feature/5754107776204800",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5767190162702336,
+        "name": "WebAudio: Add Automation Support to PannerNode and AudioListener",
+        "statusUrl": "https://chromestatus.com/feature/5767190162702336",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 5796852263813120,
+        "name": "WebAudio: StereoPannerNode",
+        "statusUrl": "https://chromestatus.com/feature/5796852263813120",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/#the-stereopannernode-interface"
+        ]
+      },
+      {
+        "id": 5906556519448576,
+        "name": "\"audioworklet\" destination for AudioWorklet",
+        "statusUrl": "https://chromestatus.com/feature/5906556519448576",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#AudioWorklet-concepts"
+        ]
+      },
+      {
+        "id": 6107438864400384,
+        "name": "WebAudio: AudioBuffer copyFromChannel and copyToChannel",
+        "statusUrl": "https://chromestatus.com/feature/6107438864400384",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 6248507407073280,
+        "name": "WebAudio: ConvolverNode.channelCount and channelCountMode",
+        "statusUrl": "https://chromestatus.com/feature/6248507407073280",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#audionode"
+        ]
+      },
+      {
+        "id": 6254081119092736,
+        "name": "WebAudio: AudioParam setter is equivalent to setValueAtTime",
+        "statusUrl": "https://chromestatus.com/feature/6254081119092736",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
         "id": 6261718720184320,
+        "name": "Unprefixed Web Audio API",
+        "statusUrl": "https://chromestatus.com/feature/6261718720184320",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/audio/raw-file/tip/webaudio/specification.html"
+        ],
         "representative": true
       },
       {
-        "id": 4588498229133312
+        "id": 6409704485945344,
+        "name": "WebAudio: AudioNode constructors",
+        "statusUrl": "https://chromestatus.com/feature/6409704485945344",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 6567195645575168,
+        "name": "WebAudio: Refine BiquadFilterNode AudioParam limits",
+        "statusUrl": "https://chromestatus.com/feature/6567195645575168",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#BiquadFilterNode-attributes"
+        ]
+      },
+      {
+        "id": 6587368576385024,
+        "name": "WebAudio: PannerNode default behavior",
+        "statusUrl": "https://chromestatus.com/feature/6587368576385024",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 6672329572614144,
+        "name": "WebAudio: Allow disabling normalization in PeriodicWave",
+        "statusUrl": "https://chromestatus.com/feature/6672329572614144",
+        "specUrls": [
+          "http://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 6674104937611264,
+        "name": "WebAudio:  Add IIRFilterNode",
+        "statusUrl": "https://chromestatus.com/feature/6674104937611264",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/"
+        ]
+      },
+      {
+        "id": 6678921049276416,
+        "name": "WebAudio: MediaStreamTrackAudioSourceNode",
+        "statusUrl": "https://chromestatus.com/feature/6678921049276416",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#mediastreamtrackaudiosourcenode"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-web-audio",
+        "name": "Web Audio",
+        "statusUrl": "https://webkit.org/status/#specification-web-audio",
+        "specUrls": [
+          "https://www.w3.org/TR/webaudio/"
+        ],
         "representative": true
-      }
-    ],
-    "bcd": [
-      {
-        "id": "api.AudioWorklet"
       }
     ]
   },

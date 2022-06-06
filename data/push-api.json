@@ -1,15 +1,318 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.PushEvent",
+        "name": "api.PushEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushEvent",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushevent-interface"
+        ]
+      },
+      {
+        "id": "api.PushEvent.PushEvent",
+        "name": "api.PushEvent.PushEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushEvent/PushEvent",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushevent-constructor"
+        ]
+      },
+      {
+        "id": "api.PushEvent.data",
+        "name": "api.PushEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushEvent/data",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushevent-data"
+        ]
+      },
+      {
+        "id": "api.PushManager",
+        "name": "api.PushManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushManager",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushmanager-interface"
+        ]
+      },
+      {
+        "id": "api.PushManager.getSubscription",
+        "name": "api.PushManager.getSubscription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushManager/getSubscription",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmanager-getsubscription"
+        ]
+      },
+      {
+        "id": "api.PushManager.permissionState",
+        "name": "api.PushManager.permissionState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushManager/permissionState",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmanager-permissionstate"
+        ]
+      },
+      {
+        "id": "api.PushManager.subscribe",
+        "name": "api.PushManager.subscribe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushManager/subscribe",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmanager-subscribe"
+        ]
+      },
+      {
+        "id": "api.PushManager.supportedContentEncodings",
+        "name": "api.PushManager.supportedContentEncodings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushManager/supportedContentEncodings",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmanager-supportedcontentencodings"
+        ]
+      },
+      {
+        "id": "api.PushMessageData",
+        "name": "api.PushMessageData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushMessageData",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushmessagedata-interface"
+        ]
+      },
+      {
+        "id": "api.PushMessageData.arrayBuffer",
+        "name": "api.PushMessageData.arrayBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushMessageData/arrayBuffer",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmessagedata-arraybuffer"
+        ]
+      },
+      {
+        "id": "api.PushMessageData.blob",
+        "name": "api.PushMessageData.blob",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushMessageData/blob",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmessagedata-blob"
+        ]
+      },
+      {
+        "id": "api.PushMessageData.json",
+        "name": "api.PushMessageData.json",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushMessageData/json",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmessagedata-json"
+        ]
+      },
+      {
+        "id": "api.PushMessageData.text",
+        "name": "api.PushMessageData.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushMessageData/text",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmessagedata-text"
+        ]
+      },
+      {
+        "id": "api.PushSubscription",
+        "name": "api.PushSubscription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushsubscription-interface"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.endpoint",
+        "name": "api.PushSubscription.endpoint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/endpoint",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-endpoint"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.expirationTime",
+        "name": "api.PushSubscription.expirationTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/expirationTime",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-expirationtime"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.getKey",
+        "name": "api.PushSubscription.getKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/getKey",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-getkey"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.options",
+        "name": "api.PushSubscription.options",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/options",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-options"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.toJSON",
+        "name": "api.PushSubscription.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-tojson"
+        ]
+      },
+      {
+        "id": "api.PushSubscription.unsubscribe",
+        "name": "api.PushSubscription.unsubscribe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscription/unsubscribe",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-unsubscribe"
+        ]
+      },
+      {
+        "id": "api.PushSubscriptionOptions",
+        "name": "api.PushSubscriptionOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionOptions",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscriptionoptions"
+        ]
+      },
+      {
+        "id": "api.PushSubscriptionOptions.applicationServerKey",
+        "name": "api.PushSubscriptionOptions.applicationServerKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionOptions/applicationServerKey",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-applicationserverkey"
+        ]
+      },
+      {
+        "id": "api.PushSubscriptionOptions.userVisibleOnly",
+        "name": "api.PushSubscriptionOptions.userVisibleOnly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionOptions/userVisibleOnly",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscriptionoptions-uservisibleonly"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.push_event",
+        "name": "api.ServiceWorkerGlobalScope.push_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#extensions-to-the-serviceworkerglobalscope-interface",
+          "https://w3c.github.io/push-api/#dom-serviceworkerglobalscope-onpush"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.pushsubscriptionchange_event",
+        "name": "api.ServiceWorkerGlobalScope.pushsubscriptionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/pushsubscriptionchange_event",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#the-pushsubscriptionchange-event",
+          "https://w3c.github.io/push-api/#dom-serviceworkerglobalscope-onpushsubscriptionchange"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration",
+        "name": "api.ServiceWorkerRegistration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#serviceworkerregistration-interface",
+          "https://w3c.github.io/push-api/#extensions-to-the-serviceworkerregistration-interface"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.pushManager",
+        "name": "api.ServiceWorkerRegistration.pushManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/pushManager",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-serviceworkerregistration-pushmanager"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "push-api",
+        "name": "Push API",
+        "statusUrl": "https://caniuse.com/push-api",
+        "specUrls": [
+          "https://w3c.github.io/push-api/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4929396687241216,
+        "name": "PushSubscription.expirationTime",
+        "statusUrl": "https://chromestatus.com/feature/4929396687241216",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscription-expirationtime"
+        ]
+      },
+      {
+        "id": 5242984710799360,
+        "name": "Push API : Allow passing a base64url-encoded value to `applicationServerKey`",
+        "statusUrl": "https://chromestatus.com/feature/5242984710799360",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#idl-def-pushsubscriptionoptionsinit"
+        ]
+      },
+      {
+        "id": 5283829761703936,
+        "name": "Push API: PushSubscription.subscriptionId",
+        "statusUrl": "https://chromestatus.com/feature/5283829761703936",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushsubscription-interface"
+        ]
+      },
+      {
         "id": 5416033485586432,
+        "name": "Push API",
+        "statusUrl": "https://chromestatus.com/feature/5416033485586432",
+        "specUrls": [
+          "https://w3c.github.io/push-api/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5678199010754560,
+        "name": "PushSubscription.options",
+        "statusUrl": "https://chromestatus.com/feature/5678199010754560",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#idl-def-PushSubscription"
+        ]
+      },
+      {
+        "id": 5746279325892608,
+        "name": "Push API: Payloads",
+        "statusUrl": "https://chromestatus.com/feature/5746279325892608",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushmessagedata-interface"
+        ]
+      },
+      {
+        "id": 5748876422152192,
+        "name": "Push subscription restrictions, Web Push protocol",
+        "statusUrl": "https://chromestatus.com/feature/5748876422152192",
+        "specUrls": [
+          "https://github.com/w3c/push-api/pull/182/files"
+        ]
+      },
+      {
+        "id": 5752837682233344,
+        "name": "PushManager.supportedContentEncodings",
+        "statusUrl": "https://chromestatus.com/feature/5752837682233344",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushmanager-supportedcontentencodings"
+        ]
+      },
+      {
+        "id": 5778950739460096,
+        "name": "Push API: gcm_user_visible_only deprecation",
+        "statusUrl": "https://chromestatus.com/feature/5778950739460096",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushsubscriptionoptions-dictionary"
+        ]
+      },
+      {
+        "id": 6242325854420992,
+        "name": "PushSubscriptionChange",
+        "statusUrl": "https://chromestatus.com/feature/6242325854420992",
+        "specUrls": [
+          "https://w3c.github.io/push-api/"
+        ]
       }
     ]
   }

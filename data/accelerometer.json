@@ -1,12 +1,107 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Accelerometer",
+        "name": "api.Accelerometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Accelerometer",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#accelerometer-interface"
+        ]
+      },
+      {
+        "id": "api.Accelerometer.Accelerometer",
+        "name": "api.Accelerometer.Accelerometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Accelerometer/Accelerometer",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#dom-accelerometer-accelerometer"
+        ]
+      },
+      {
+        "id": "api.Accelerometer.x",
+        "name": "api.Accelerometer.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Accelerometer/x",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#accelerometer-x"
+        ]
+      },
+      {
+        "id": "api.Accelerometer.y",
+        "name": "api.Accelerometer.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Accelerometer/y",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#accelerometer-y"
+        ]
+      },
+      {
+        "id": "api.Accelerometer.z",
+        "name": "api.Accelerometer.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Accelerometer/z",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#accelerometer-z"
+        ]
+      },
+      {
+        "id": "api.GravitySensor",
+        "name": "api.GravitySensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GravitySensor",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#gravitysensor-interface"
+        ]
+      },
+      {
+        "id": "api.GravitySensor.GravitySensor",
+        "name": "api.GravitySensor.GravitySensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GravitySensor/GravitySensor",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#dom-gravitysensor-gravitysensor"
+        ]
+      },
+      {
+        "id": "api.LinearAccelerationSensor",
+        "name": "api.LinearAccelerationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LinearAccelerationSensor",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#linearaccelerationsensor-interface"
+        ]
+      },
+      {
+        "id": "api.LinearAccelerationSensor.LinearAccelerationSensor",
+        "name": "api.LinearAccelerationSensor.LinearAccelerationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LinearAccelerationSensor/LinearAccelerationSensor",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#dom-linearaccelerationsensor-linearaccelerationsensor"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.accelerometer",
+        "name": "http.headers.Feature-Policy.accelerometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/accelerometer",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#ref-for-policy-controlled-feature"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "accelerometer",
+        "name": "Accelerometer",
+        "statusUrl": "https://caniuse.com/accelerometer",
+        "specUrls": [
+          "https://www.w3.org/TR/accelerometer/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
+      {
+        "id": 5384099747332096,
+        "name": "GravitySensor API",
+        "statusUrl": "https://chromestatus.com/feature/5384099747332096",
+        "specUrls": [
+          "https://w3c.github.io/accelerometer/#gravitysensor-interface"
+        ]
+      },
       {
         "id": 5698781827825664,
         "representative": true,

@@ -28,10 +28,30 @@
   "statusref": {
     "bcd": [
       {
-        "id": "css.properties.ruby-align"
+        "id": "css.properties.ruby-align",
+        "name": "css.properties.ruby-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/ruby-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ruby/#ruby-align-property"
+        ]
       },
       {
-        "id": "css.properties.ruby-position"
+        "id": "css.properties.ruby-position",
+        "name": "css.properties.ruby-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/ruby-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ruby/#rubypos"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6249925820022784,
+        "name": "Unprefixed ruby-position CSS property",
+        "statusUrl": "https://chromestatus.com/feature/6249925820022784",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ruby/#rubypos"
+        ]
       }
     ]
   }

@@ -1,20 +1,973 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Headers",
+        "name": "api.Headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#headers-class"
+        ]
+      },
+      {
+        "id": "api.Headers.Headers",
+        "name": "api.Headers.Headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/Headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers①"
+        ]
+      },
+      {
+        "id": "api.Headers.append",
+        "name": "api.Headers.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/append",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers-append①"
+        ]
+      },
+      {
+        "id": "api.Headers.delete",
+        "name": "api.Headers.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/delete",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers-delete①"
+        ]
+      },
+      {
+        "id": "api.Headers.get",
+        "name": "api.Headers.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/get",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers-get①"
+        ]
+      },
+      {
+        "id": "api.Headers.has",
+        "name": "api.Headers.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/has",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers-has①"
+        ]
+      },
+      {
+        "id": "api.Headers.set",
+        "name": "api.Headers.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Headers/set",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-headers-set①"
+        ]
+      },
+      {
+        "id": "api.Request",
+        "name": "api.Request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#request-class"
+        ]
+      },
+      {
+        "id": "api.Request.Request",
+        "name": "api.Request.Request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/Request",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request①"
+        ]
+      },
+      {
+        "id": "api.Request.Request.init_referrer_parameter",
+        "name": "api.Request.Request.init_referrer_parameter",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#dom-requestinit-referrer"
+        ]
+      },
+      {
+        "id": "api.Request.arrayBuffer",
+        "name": "api.Request.arrayBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/arrayBuffer",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-arraybuffer①"
+        ]
+      },
+      {
+        "id": "api.Request.blob",
+        "name": "api.Request.blob",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/blob",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-blob①"
+        ]
+      },
+      {
+        "id": "api.Request.body",
+        "name": "api.Request.body",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/body",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-body①"
+        ]
+      },
+      {
+        "id": "api.Request.bodyUsed",
+        "name": "api.Request.bodyUsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/bodyUsed",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-bodyused①"
+        ]
+      },
+      {
+        "id": "api.Request.cache",
+        "name": "api.Request.cache",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/cache",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-cache②"
+        ]
+      },
+      {
+        "id": "api.Request.clone",
+        "name": "api.Request.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/clone",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-clone①"
+        ]
+      },
+      {
+        "id": "api.Request.credentials",
+        "name": "api.Request.credentials",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/credentials",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-credentials②"
+        ]
+      },
+      {
+        "id": "api.Request.destination",
+        "name": "api.Request.destination",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/destination",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-destination①"
+        ]
+      },
+      {
+        "id": "api.Request.formData",
+        "name": "api.Request.formData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/formData",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-formdata①"
+        ]
+      },
+      {
+        "id": "api.Request.headers",
+        "name": "api.Request.headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-headers②"
+        ]
+      },
+      {
+        "id": "api.Request.integrity",
+        "name": "api.Request.integrity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/integrity",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-integrity②"
+        ]
+      },
+      {
+        "id": "api.Request.json",
+        "name": "api.Request.json",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/json",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-json①"
+        ]
+      },
+      {
+        "id": "api.Request.keepalive",
+        "name": "api.Request.keepalive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/keepalive",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-keepalive②"
+        ]
+      },
+      {
+        "id": "api.Request.method",
+        "name": "api.Request.method",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/method",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-method②"
+        ]
+      },
+      {
+        "id": "api.Request.mode",
+        "name": "api.Request.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/mode",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-mode②"
+        ]
+      },
+      {
+        "id": "api.Request.redirect",
+        "name": "api.Request.redirect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/redirect",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-redirect②"
+        ]
+      },
+      {
+        "id": "api.Request.referrer",
+        "name": "api.Request.referrer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/referrer",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-referrer①"
+        ]
+      },
+      {
+        "id": "api.Request.referrerPolicy",
+        "name": "api.Request.referrerPolicy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/referrerPolicy",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-referrerpolicy②"
+        ]
+      },
+      {
+        "id": "api.Request.signal",
+        "name": "api.Request.signal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/signal",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-signal②"
+        ]
+      },
+      {
+        "id": "api.Request.text",
+        "name": "api.Request.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/text",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-text①"
+        ]
+      },
+      {
+        "id": "api.Request.url",
+        "name": "api.Request.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/url",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-url③"
+        ]
+      },
+      {
+        "id": "api.Response",
+        "name": "api.Response",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#response-class"
+        ]
+      },
+      {
+        "id": "api.Response.Response",
+        "name": "api.Response.Response",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/Response",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response①"
+        ]
+      },
+      {
+        "id": "api.Response.arrayBuffer",
+        "name": "api.Response.arrayBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/arrayBuffer",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-arraybuffer①"
+        ]
+      },
+      {
+        "id": "api.Response.blob",
+        "name": "api.Response.blob",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/blob",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-blob①"
+        ]
+      },
+      {
+        "id": "api.Response.body",
+        "name": "api.Response.body",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/body",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-body①"
+        ]
+      },
+      {
+        "id": "api.Response.bodyUsed",
+        "name": "api.Response.bodyUsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/bodyUsed",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-bodyused①"
+        ]
+      },
+      {
+        "id": "api.Response.clone",
+        "name": "api.Response.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/clone",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-clone①"
+        ]
+      },
+      {
+        "id": "api.Response.error",
+        "name": "api.Response.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/error",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-error①"
+        ]
+      },
+      {
+        "id": "api.Response.formData",
+        "name": "api.Response.formData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/formData",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-formdata①"
+        ]
+      },
+      {
+        "id": "api.Response.headers",
+        "name": "api.Response.headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-headers①"
+        ]
+      },
+      {
+        "id": "api.Response.json",
+        "name": "api.Response.json",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/json",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-json①"
+        ]
+      },
+      {
+        "id": "api.Response.ok",
+        "name": "api.Response.ok",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/ok",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-ok②"
+        ]
+      },
+      {
+        "id": "api.Response.redirect",
+        "name": "api.Response.redirect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/redirect",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-redirect①"
+        ]
+      },
+      {
+        "id": "api.Response.redirected",
+        "name": "api.Response.redirected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/redirected",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-redirected①"
+        ]
+      },
+      {
+        "id": "api.Response.status",
+        "name": "api.Response.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/status",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-status①"
+        ]
+      },
+      {
+        "id": "api.Response.statusText",
+        "name": "api.Response.statusText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/statusText",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-statustext①"
+        ]
+      },
+      {
+        "id": "api.Response.text",
+        "name": "api.Response.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/text",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-body-text①"
+        ]
+      },
+      {
+        "id": "api.Response.type",
+        "name": "api.Response.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/type",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-type①"
+        ]
+      },
+      {
+        "id": "api.Response.url",
+        "name": "api.Response.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Response/url",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-url①"
+        ]
+      },
+      {
+        "id": "api.fetch",
+        "name": "api.fetch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/fetch",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#fetch-method"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Allow-Credentials",
+        "name": "http.headers.Access-Control-Allow-Credentials",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Allow-Credentials",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-allow-credentials"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Allow-Headers",
+        "name": "http.headers.Access-Control-Allow-Headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Allow-Headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-allow-headers"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Allow-Methods",
+        "name": "http.headers.Access-Control-Allow-Methods",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Allow-Methods",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-allow-methods"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Allow-Origin",
+        "name": "http.headers.Access-Control-Allow-Origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Allow-Origin",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-allow-origin"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Expose-Headers",
+        "name": "http.headers.Access-Control-Expose-Headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Expose-Headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-expose-headers"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Max-Age",
+        "name": "http.headers.Access-Control-Max-Age",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Max-Age",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-max-age"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Request-Headers",
+        "name": "http.headers.Access-Control-Request-Headers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Request-Headers",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-request-headers"
+        ]
+      },
+      {
+        "id": "http.headers.Access-Control-Request-Method",
+        "name": "http.headers.Access-Control-Request-Method",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Access-Control-Request-Method",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-access-control-request-method"
+        ]
+      },
+      {
+        "id": "http.headers.Cross-Origin-Resource-Policy",
+        "name": "http.headers.Cross-Origin-Resource-Policy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header"
+        ]
+      },
+      {
+        "id": "http.headers.Origin",
+        "name": "http.headers.Origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Origin",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc6454#section-7",
+          "https://fetch.spec.whatwg.org/#origin-header"
+        ]
+      },
+      {
+        "id": "http.headers.X-Content-Type-Options",
+        "name": "http.headers.X-Content-Type-Options",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/X-Content-Type-Options",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#x-content-type-options-header"
+        ]
+      }
+    ],
     "caniuse": [
       {
+        "id": "cors",
+        "name": "Cross-Origin Resource Sharing",
+        "statusUrl": "https://caniuse.com/cors",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-cors-protocol"
+        ]
+      },
+      {
         "id": "fetch",
+        "name": "Fetch",
+        "statusUrl": "https://caniuse.com/fetch",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4531143755956224,
+        "name": "Fetch API: Response construction with ReadableStream",
+        "statusUrl": "https://chromestatus.com/feature/4531143755956224",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 4539473312350208,
+        "name": "Fetch API: Credentials mode default to \"same-origin\"",
+        "statusUrl": "https://chromestatus.com/feature/4539473312350208",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 4614142321229824,
+        "name": "Fetch API: Request.redirect",
+        "statusUrl": "https://chromestatus.com/feature/4614142321229824",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#concept-request-redirect-mode"
+        ]
+      },
+      {
+        "id": 4647328103268352,
+        "name": "Cross-Origin Resource Policy",
+        "statusUrl": "https://chromestatus.com/feature/4647328103268352",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header"
+        ]
+      },
+      {
+        "id": 4668970653188096,
+        "name": "Fetch API: Request.isHistoryNavigation",
+        "statusUrl": "https://chromestatus.com/feature/4668970653188096",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#dom-request-ishistorynavigation"
+        ]
+      },
+      {
+        "id": 4699713102151680,
+        "name": "Fetch API: Request.context",
+        "statusUrl": "https://chromestatus.com/feature/4699713102151680",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#concept-request-context"
+        ]
+      },
+      {
+        "id": 4753419730419712,
+        "name": "Fetch API: Request#url includes the URL fragment",
+        "statusUrl": "https://chromestatus.com/feature/4753419730419712",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 4857368017895424,
+        "name": "XSLT: Use the response URL as the base URL",
+        "statusUrl": "https://chromestatus.com/feature/4857368017895424",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/146"
+        ]
+      },
+      {
+        "id": 5064283639513088,
+        "name": "Block HTTP ports 5060 and 5061",
+        "statusUrl": "https://chromestatus.com/feature/5064283639513088",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#bad-port"
+        ]
+      },
+      {
+        "id": 5166560033374208,
+        "name": "Fetch API: Request.cache",
+        "statusUrl": "https://chromestatus.com/feature/5166560033374208",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#dom-request-cache"
+        ]
+      },
+      {
+        "id": 5197912798658560,
+        "name": "Response.json()",
+        "statusUrl": "https://chromestatus.com/feature/5197912798658560",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-response-json"
+        ]
+      },
+      {
+        "id": 5274139738767360,
+        "name": "fetch() upload streaming ",
+        "statusUrl": "https://chromestatus.com/feature/5274139738767360",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#concept-body-stream"
+        ]
+      },
+      {
+        "id": 5329879744643072,
+        "name": "Block HTTP port 554",
+        "statusUrl": "https://chromestatus.com/feature/5329879744643072",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/1148"
+        ]
+      },
+      {
+        "id": 5534702526005248,
+        "name": "Fetch API: Deprecate and remove Request.context",
+        "statusUrl": "https://chromestatus.com/feature/5534702526005248",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5583826839404544,
+        "name": "XHR: xhr.responseURL returns the response URL",
+        "statusUrl": "https://chromestatus.com/feature/5583826839404544",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/146"
+        ]
+      },
+      {
+        "id": 5629697845100544,
+        "name": "Request.destination",
+        "statusUrl": "https://chromestatus.com/feature/5629697845100544",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#concept-request-destination"
+        ]
+      },
+      {
+        "id": 5629709824032768,
+        "name": "Cross-Origin Read Blocking (CORB)",
+        "statusUrl": "https://chromestatus.com/feature/5629709824032768",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#corb"
+        ]
+      },
+      {
+        "id": 5631483679080448,
+        "name": "Fetch API: AbortSignal and AbortController",
+        "statusUrl": "https://chromestatus.com/feature/5631483679080448",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-signal"
+        ]
+      },
+      {
+        "id": 5642182885113856,
+        "name": "Preserve request priorities through service worker",
+        "statusUrl": "https://chromestatus.com/feature/5642182885113856",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/785"
+        ]
+      },
+      {
+        "id": 5642183499579392,
+        "name": "CSS: Use the response URL as the base URL",
+        "statusUrl": "https://chromestatus.com/feature/5642183499579392",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/146"
+        ]
+      },
+      {
+        "id": 5648276147666944,
+        "name": "Range request header in a Service Worker",
+        "statusUrl": "https://chromestatus.com/feature/5648276147666944",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5652396366626816,
+        "name": "Allow simple Range header values without preflight",
+        "statusUrl": "https://chromestatus.com/feature/5652396366626816",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5656023951998976,
+        "name": "Remove Headers.prototype.getAll()",
+        "statusUrl": "https://chromestatus.com/feature/5656023951998976",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5665918254317568,
+        "name": "Tainted origin flag applied to Resource Timing",
+        "statusUrl": "https://chromestatus.com/feature/5665918254317568",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#tao-check"
+        ]
+      },
+      {
+        "id": 5669008342777856,
+        "name": "Drop support for embedded credentials in subresource requests.",
+        "statusUrl": "https://chromestatus.com/feature/5669008342777856",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/465"
+        ]
+      },
+      {
+        "id": 5671629327695872,
+        "name": "Block HTTP ports 69, 137, 161, 1719, 1720, 1723, and 6566",
+        "statusUrl": "https://chromestatus.com/feature/5671629327695872",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#port-blocking"
+        ]
+      },
+      {
+        "id": 5678858554572800,
+        "name": "Block ports 989 and 990",
+        "statusUrl": "https://chromestatus.com/feature/5678858554572800",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#port-blocking"
+        ]
+      },
+      {
+        "id": 5682567464353792,
+        "name": "Service workers support basic HTTP authentication",
+        "statusUrl": "https://chromestatus.com/feature/5682567464353792",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-network-or-cache-fetch"
+        ]
+      },
+      {
+        "id": 5686195350667264,
+        "name": "Service Worker: Allow CORS responses for client requests",
+        "statusUrl": "https://chromestatus.com/feature/5686195350667264",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5687725978025984,
+        "name": "Fetch API: Request/Response.formData",
+        "statusUrl": "https://chromestatus.com/feature/5687725978025984",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#dom-body-formdata"
+        ]
+      },
+      {
+        "id": 5689937680662528,
+        "name": "Network error when blob URL loading fails",
+        "statusUrl": "https://chromestatus.com/feature/5689937680662528",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#scheme-fetch"
+        ]
+      },
+      {
+        "id": 5692236742262784,
+        "name": "Fetch API: referrer policy",
+        "statusUrl": "https://chromestatus.com/feature/5692236742262784",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5694278818856960,
+        "name": "Service Worker: Disallow CORS responses for same-origin requests.",
+        "statusUrl": "https://chromestatus.com/feature/5694278818856960",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5709390967472128,
+        "name": "Drop support for subresources with legacy protocols.",
+        "statusUrl": "https://chromestatus.com/feature/5709390967472128",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/464"
+        ]
+      },
+      {
+        "id": 5735596811091968,
+        "name": "Blocking resources whose URLs contain both `\\n` and `<` characters.",
+        "statusUrl": "https://chromestatus.com/feature/5735596811091968",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/519"
+        ]
+      },
+      {
+        "id": 5737196533317632,
+        "name": "CORS: Strict ABNF based Checks on Access-Control-Allow-Headers and Access-Control-Allow-Methods headers",
+        "statusUrl": "https://chromestatus.com/feature/5737196533317632",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5742041264816128,
+        "name": "CORS non-wildcard request-header",
+        "statusUrl": "https://chromestatus.com/feature/5742041264816128",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#cors-non-wildcard-request-header-name"
+        ]
+      },
+      {
+        "id": 5744736207896576,
+        "name": "Fetch API: data and blob schemes support",
+        "statusUrl": "https://chromestatus.com/feature/5744736207896576",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5752539724120064,
+        "name": "Propagate request origin and redirect chain in passthrough service workers.",
+        "statusUrl": "https://chromestatus.com/feature/5752539724120064",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/1345"
+        ]
+      },
+      {
+        "id": 5760375567941632,
+        "name": "Fetch API: keepalive",
+        "statusUrl": "https://chromestatus.com/feature/5760375567941632",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-keepalive"
+        ]
+      },
+      {
+        "id": 5768642492891136,
+        "name": "Out-Of-Renderer Cross-Origin Resource Sharing (aka OOR-CORS or OutOfBlinkCors)",
+        "statusUrl": "https://chromestatus.com/feature/5768642492891136",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#cors-protocol"
+        ]
+      },
+      {
+        "id": 5768993059110912,
+        "name": "Fetch API: New value \"navigate\" for Request.mode",
+        "statusUrl": "https://chromestatus.com/feature/5768993059110912",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#concept-request-mode"
+        ]
+      },
+      {
+        "id": 5780195579527168,
+        "name": "X-Content-Type-Options: nosniff",
+        "statusUrl": "https://chromestatus.com/feature/5780195579527168",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-nosniff?"
+        ]
+      },
+      {
+        "id": 5804334163951616,
+        "name": "Fetch API: Streaming response body",
+        "statusUrl": "https://chromestatus.com/feature/5804334163951616",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#response-class"
+        ]
+      },
+      {
+        "id": 6031053726679040,
+        "name": "Block script execution for non-script MIME types.",
+        "statusUrl": "https://chromestatus.com/feature/6031053726679040",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#should-response-to-request-be-blocked-due-to-mime-type?"
+        ]
+      },
+      {
+        "id": 6247959677108224,
+        "name": "‘Sec-Purpose: prefetch’ HTTP request header",
+        "statusUrl": "https://chromestatus.com/feature/6247959677108224",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#forbidden-header-name"
+        ]
+      },
+      {
+        "id": 6251880185331712,
+        "name": "Referrer Policy: Default to strict-origin-when-cross-origin",
+        "statusUrl": "https://chromestatus.com/feature/6251880185331712",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/pull/952"
+        ]
+      },
+      {
+        "id": 6390594951708672,
+        "name": "Service Worker: Change the fetch API request flags (mode, credentials and redirect) for navigation requests.",
+        "statusUrl": "https://chromestatus.com/feature/6390594951708672",
+        "specUrls": [
+          "https://github.com/whatwg/fetch/issues/106#issuecomment-128735776"
+        ]
+      },
+      {
+        "id": 6457425448140800,
+        "name": "Update header value check of XHR/Fetch API to RFC 7230",
+        "statusUrl": "https://chromestatus.com/feature/6457425448140800",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 6510270304223232,
+        "name": "Block HTTP port 10080",
+        "statusUrl": "https://chromestatus.com/feature/6510270304223232",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#bad-port"
+        ]
+      },
+      {
+        "id": 6667148676038656,
+        "name": "Response.redirected and a new security restriction",
+        "statusUrl": "https://chromestatus.com/feature/6667148676038656",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 6684476478324736,
+        "name": "Fetch API: RequestInit.referrer",
+        "statusUrl": "https://chromestatus.com/feature/6684476478324736",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 6713488334389248,
+        "name": "Network State Partitioning",
+        "statusUrl": "https://chromestatus.com/feature/6713488334389248",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#connections"
+        ]
+      },
+      {
         "id": 6730533392351232,
+        "name": "Fetch API",
+        "statusUrl": "https://chromestatus.com/feature/6730533392351232",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#fetch-api"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
+        "id": "feature-cross-origin-resource-policy",
+        "name": "Cross-Origin Resource Policy",
+        "statusUrl": "https://webkit.org/status/#feature-cross-origin-resource-policy",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#cross-origin-resource-policy-header"
+        ]
+      },
+      {
         "id": "specification-fetch",
+        "name": "Fetch",
+        "statusUrl": "https://webkit.org/status/#specification-fetch",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org"
+        ],
         "representative": true
       }
     ]

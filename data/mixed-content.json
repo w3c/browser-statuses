@@ -2,13 +2,47 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5721818595852288,
+        "name": "Stricter mixed content check for blob and filesystem URLs",
+        "statusUrl": "https://chromestatus.com/feature/5721818595852288",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-mixed-content/"
+        ]
+      },
+      {
+        "id": 5738853059002368,
+        "name": "Strictly block \"blockable\" mixed content",
+        "statusUrl": "https://chromestatus.com/feature/5738853059002368",
+        "specUrls": [
+          "https://w3c.github.io/webappsec/specs/mixedcontent/#requirements-user-controls"
+        ]
+      },
+      {
+        "id": 5823679871057920,
+        "name": "Strict Mixed Content Checking",
+        "statusUrl": "https://chromestatus.com/feature/5823679871057920",
+        "specUrls": [
+          "https://w3c.github.io/webappsec/specs/mixedcontent/#strict-checking"
+        ]
+      },
+      {
         "id": 6263395770695680,
+        "name": "Mixed Content",
+        "statusUrl": "https://chromestatus.com/feature/6263395770695680",
+        "specUrls": [
+          "https://w3c.github.io/webappsec/specs/mixedcontent/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "feature-strict-mixed-content-checking",
+        "name": "Strict Mixed Content Checking",
+        "statusUrl": "https://webkit.org/status/#feature-strict-mixed-content-checking",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-mixed-content/#strict-checking"
+        ],
         "representative": true
       }
     ]

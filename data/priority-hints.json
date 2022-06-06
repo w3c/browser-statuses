@@ -1,8 +1,81 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLIFrameElement.fetchPriority",
+        "name": "api.HTMLIFrameElement.fetchPriority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/fetchPriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#iframe"
+        ]
+      },
+      {
+        "id": "api.HTMLImageElement.fetchPriority",
+        "name": "api.HTMLImageElement.fetchPriority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/fetchPriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#img"
+        ]
+      },
+      {
+        "id": "api.HTMLLinkElement.fetchPriority",
+        "name": "api.HTMLLinkElement.fetchPriority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#link"
+        ]
+      },
+      {
+        "id": "api.HTMLScriptElement.fetchPriority",
+        "name": "api.HTMLScriptElement.fetchPriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#script"
+        ]
+      },
+      {
+        "id": "api.Request.priority",
+        "name": "api.Request.priority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#fetch-integration"
+        ]
+      },
+      {
+        "id": "html.elements.iframe.fetchpriority",
+        "name": "html.elements.iframe.fetchpriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#iframe"
+        ]
+      },
+      {
+        "id": "html.elements.img.fetchpriority",
+        "name": "html.elements.img.fetchpriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#img"
+        ]
+      },
+      {
+        "id": "html.elements.link.fetchpriority",
+        "name": "html.elements.link.fetchpriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#link"
+        ]
+      },
+      {
+        "id": "html.elements.script.fetchpriority",
+        "name": "html.elements.script.fetchpriority",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/#script"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5273474901737472,
+        "name": "Priority Hints",
+        "statusUrl": "https://chromestatus.com/feature/5273474901737472",
+        "specUrls": [
+          "https://wicg.github.io/priority-hints/"
+        ],
         "representative": true
       }
     ]

@@ -2,19 +2,106 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.ServiceWorkerGlobalScope.sync_event",
+        "name": "api.ServiceWorkerGlobalScope.sync_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/sync_event",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#dom-serviceworkerglobalscope-onsync"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.sync",
+        "name": "api.ServiceWorkerRegistration.sync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/sync",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#dom-serviceworkerregistration-sync"
+        ]
+      },
+      {
+        "id": "api.SyncEvent",
+        "name": "api.SyncEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#sync-event"
+        ]
+      },
+      {
+        "id": "api.SyncEvent.SyncEvent",
+        "name": "api.SyncEvent.SyncEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncEvent/SyncEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#dom-syncevent-syncevent"
+        ]
+      },
+      {
+        "id": "api.SyncEvent.lastChance",
+        "name": "api.SyncEvent.lastChance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncEvent/lastChance",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#ref-for-dom-syncevent-lastchance③"
+        ]
+      },
+      {
+        "id": "api.SyncEvent.tag",
+        "name": "api.SyncEvent.tag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncEvent/tag",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#ref-for-dom-syncevent-tag"
+        ]
+      },
+      {
         "id": "api.SyncManager",
+        "name": "api.SyncManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncManager",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#sync-manager-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.SyncManager.getTags",
+        "name": "api.SyncManager.getTags",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncManager/getTags",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#dom-syncmanager-gettags"
+        ]
+      },
+      {
+        "id": "api.SyncManager.register",
+        "name": "api.SyncManager.register",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SyncManager/register",
+        "specUrls": [
+          "https://wicg.github.io/background-sync/spec/#dom-syncmanager-register"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "background-sync",
+        "name": "Background Sync API",
+        "statusUrl": "https://caniuse.com/background-sync",
+        "specUrls": [
+          "https://wicg.github.io/BackgroundSync/spec/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5703688089763840,
+        "name": "SyncManager interface exposed to all workers",
+        "statusUrl": "https://chromestatus.com/feature/5703688089763840",
+        "specUrls": [
+          "https://wicg.github.io/BackgroundSync/spec/#sync-manager-interface"
+        ]
+      },
+      {
         "id": 6170807885627392,
+        "name": "Background Sync API",
+        "statusUrl": "https://chromestatus.com/feature/6170807885627392",
+        "specUrls": [
+          "https://wicg.github.io/BackgroundSync/spec/"
+        ],
         "representative": true
       }
     ]

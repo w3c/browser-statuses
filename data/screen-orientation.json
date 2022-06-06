@@ -1,14 +1,81 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Screen.orientation",
+        "name": "api.Screen.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/orientation",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screen-orientation"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation",
+        "name": "api.ScreenOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#screenorientation-interface"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation.angle",
+        "name": "api.ScreenOrientation.angle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/angle",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screenorientation-angle"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation.change_event",
+        "name": "api.ScreenOrientation.change_event",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screenorientation-onchange"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation.lock",
+        "name": "api.ScreenOrientation.lock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/lock",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screenorientation-lock"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation.type",
+        "name": "api.ScreenOrientation.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/type",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screenorientation-type"
+        ]
+      },
+      {
+        "id": "api.ScreenOrientation.unlock",
+        "name": "api.ScreenOrientation.unlock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScreenOrientation/unlock",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/#dom-screenorientation-unlock"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "screen-orientation",
+        "name": "Screen Orientation",
+        "statusUrl": "https://caniuse.com/screen-orientation",
+        "specUrls": [
+          "https://www.w3.org/TR/screen-orientation/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 6191285283061760,
+        "name": "Screen Orientation API",
+        "statusUrl": "https://chromestatus.com/feature/6191285283061760",
+        "specUrls": [
+          "https://w3c.github.io/screen-orientation/"
+        ],
         "representative": true
       }
     ]

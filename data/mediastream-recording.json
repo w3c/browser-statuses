@@ -2,20 +2,284 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.BlobEvent",
+        "name": "api.BlobEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BlobEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#blobevent-section"
+        ]
+      },
+      {
+        "id": "api.BlobEvent.BlobEvent",
+        "name": "api.BlobEvent.BlobEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BlobEvent/BlobEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-blobevent-blobevent"
+        ]
+      },
+      {
+        "id": "api.BlobEvent.data",
+        "name": "api.BlobEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BlobEvent/data",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-blobevent-data"
+        ]
+      },
+      {
+        "id": "api.BlobEvent.timecode",
+        "name": "api.BlobEvent.timecode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BlobEvent/timecode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-blobevent-timecode"
+        ]
+      },
+      {
         "id": "api.MediaRecorder",
+        "name": "api.MediaRecorder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#mediarecorder-api"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.MediaRecorder.MediaRecorder",
+        "name": "api.MediaRecorder.MediaRecorder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/MediaRecorder",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-mediarecorder"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.audioBitrateMode",
+        "name": "api.MediaRecorder.audioBitrateMode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-audiobitratemode"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.audioBitsPerSecond",
+        "name": "api.MediaRecorder.audioBitsPerSecond",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/audioBitsPerSecond",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-audiobitspersecond"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.dataavailable_event",
+        "name": "api.MediaRecorder.dataavailable_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/dataavailable_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-ondataavailable"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.error_event",
+        "name": "api.MediaRecorder.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/error_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onerror"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.isTypeSupported",
+        "name": "api.MediaRecorder.isTypeSupported",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/isTypeSupported",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-istypesupported"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.mimeType",
+        "name": "api.MediaRecorder.mimeType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/mimeType",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-mimetype"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.pause",
+        "name": "api.MediaRecorder.pause",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/pause",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-pause"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.pause_event",
+        "name": "api.MediaRecorder.pause_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/pause_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onpause"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.requestData",
+        "name": "api.MediaRecorder.requestData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/requestData",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-requestdata"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.resume",
+        "name": "api.MediaRecorder.resume",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/resume",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-resume"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.resume_event",
+        "name": "api.MediaRecorder.resume_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/resume_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onresume"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.start",
+        "name": "api.MediaRecorder.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/start",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-start"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.start_event",
+        "name": "api.MediaRecorder.start_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/start_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onstart"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.state",
+        "name": "api.MediaRecorder.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/state",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-state"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.stop",
+        "name": "api.MediaRecorder.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/stop",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-stop"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.stop_event",
+        "name": "api.MediaRecorder.stop_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/stop_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-onstop"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.stream",
+        "name": "api.MediaRecorder.stream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/stream",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-stream"
+        ]
+      },
+      {
+        "id": "api.MediaRecorder.videoBitsPerSecond",
+        "name": "api.MediaRecorder.videoBitsPerSecond",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorder/videoBitsPerSecond",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-videobitspersecond"
+        ]
+      },
+      {
+        "id": "api.MediaRecorderErrorEvent",
+        "name": "api.MediaRecorderErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#errorevent-section"
+        ]
+      },
+      {
+        "id": "api.MediaRecorderErrorEvent.MediaRecorderErrorEvent",
+        "name": "api.MediaRecorderErrorEvent.MediaRecorderErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/MediaRecorderErrorEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-mediarecordererrorevent"
+        ]
+      },
+      {
+        "id": "api.MediaRecorderErrorEvent.error",
+        "name": "api.MediaRecorderErrorEvent.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/error",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-error"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "mediarecorder",
+        "name": "MediaRecorder API",
+        "statusUrl": "https://caniuse.com/mediarecorder",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/MediaRecorder.html"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5103987136135168,
+        "name": "MediaRecorderErrorEvent API",
+        "statusUrl": "https://chromestatus.com/feature/5103987136135168",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#errorevent-section"
+        ]
+      },
+      {
+        "id": 5637418589880320,
+        "name": "Remove MediaRecorder |ignoreMutedMedia|",
+        "statusUrl": "https://chromestatus.com/feature/5637418589880320",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-record/issues/99"
+        ]
+      },
+      {
+        "id": 5643877683822592,
+        "name": "Add |timecode| to MediaRecorder's BlobEvent",
+        "statusUrl": "https://chromestatus.com/feature/5643877683822592",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/MediaRecorder.html"
+        ]
+      },
+      {
+        "id": 5730124735447040,
+        "name": "Add support for encoding CBR audio files with `MediaRecorder`.",
+        "statusUrl": "https://chromestatus.com/feature/5730124735447040",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record/#mediarecorder-api"
+        ]
+      },
+      {
         "id": 5929649028726784,
+        "name": "MediaRecorder",
+        "statusUrl": "https://chromestatus.com/feature/5929649028726784",
+        "specUrls": [
+          "http://www.w3.org/TR/mediastream-recording/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-mediastream-recording-api",
+        "name": "MediaStream Recording API",
+        "statusUrl": "https://webkit.org/status/#specification-mediastream-recording-api",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-record"
+        ]
       }
     ]
   }

@@ -3,24 +3,136 @@
     "bcd": [
       {
         "id": "api.BatteryManager",
+        "name": "api.BatteryManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager",
+        "specUrls": [
+          "https://w3c.github.io/battery/#the-batterymanager-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.BatteryManager.charging",
+        "name": "api.BatteryManager.charging",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/charging",
+        "specUrls": [
+          "https://w3c.github.io/battery/#dom-batterymanager-charging"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.chargingTime",
+        "name": "api.BatteryManager.chargingTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/chargingTime",
+        "specUrls": [
+          "https://w3c.github.io/battery/#dom-batterymanager-chargingtime"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.chargingchange_event",
+        "name": "api.BatteryManager.chargingchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/chargingchange_event",
+        "specUrls": [
+          "https://w3c.github.io/battery/#ref-for-dfn-chargingchange-1",
+          "https://w3c.github.io/battery/#dom-batterymanager-onchargingchange"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.chargingtimechange_event",
+        "name": "api.BatteryManager.chargingtimechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/chargingtimechange_event",
+        "specUrls": [
+          "https://w3c.github.io/battery/#ref-for-dfn-chargingtimechange-1",
+          "https://w3c.github.io/battery/#dom-batterymanager-onchargingtimechange"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.dischargingTime",
+        "name": "api.BatteryManager.dischargingTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/dischargingTime",
+        "specUrls": [
+          "https://w3c.github.io/battery/#dom-batterymanager-dischargingtime"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.dischargingtimechange_event",
+        "name": "api.BatteryManager.dischargingtimechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/dischargingtimechange_event",
+        "specUrls": [
+          "https://w3c.github.io/battery/#ref-for-dfn-dischargingtimechange-1",
+          "https://w3c.github.io/battery/#dom-batterymanager-ondischargingtimechange"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.level",
+        "name": "api.BatteryManager.level",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/level",
+        "specUrls": [
+          "https://w3c.github.io/battery/#dom-batterymanager-level"
+        ]
+      },
+      {
+        "id": "api.BatteryManager.levelchange_event",
+        "name": "api.BatteryManager.levelchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BatteryManager/levelchange_event",
+        "specUrls": [
+          "https://w3c.github.io/battery/#ref-for-dfn-levelchange-1",
+          "https://w3c.github.io/battery/#dom-batterymanager-onlevelchange"
+        ]
+      },
+      {
+        "id": "api.Navigator.getBattery",
+        "name": "api.Navigator.getBattery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/getBattery",
+        "specUrls": [
+          "https://w3c.github.io/battery/#dom-navigator-getbattery"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.battery",
+        "name": "http.headers.Feature-Policy.battery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/battery",
+        "specUrls": [
+          "https://w3c.github.io/battery/#permissions-policy-integration"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "battery-status",
+        "name": "Battery Status API",
+        "statusUrl": "https://caniuse.com/battery-status",
+        "specUrls": [
+          "https://www.w3.org/TR/battery-status/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 4537134732017664,
+        "name": "Battery Status API",
+        "statusUrl": "https://chromestatus.com/feature/4537134732017664",
+        "specUrls": [
+          "https://www.w3.org/TR/battery-status/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5087503189016576,
+        "name": "Battery status API gated by feature policy",
+        "statusUrl": "https://chromestatus.com/feature/5087503189016576",
+        "specUrls": [
+          "https://w3c.github.io/battery/#feature-policy-integration"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-battery-status-api",
+        "name": "Battery Status API",
+        "statusUrl": "https://webkit.org/status/#specification-battery-status-api",
+        "specUrls": [
+          "https://w3c.github.io/battery/"
+        ],
         "representative": true
       }
     ]

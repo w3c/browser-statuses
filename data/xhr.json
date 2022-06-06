@@ -1,9 +1,449 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.FormData",
+        "name": "api.FormData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#interface-formdata"
+        ]
+      },
+      {
+        "id": "api.FormData.FormData",
+        "name": "api.FormData.FormData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/FormData",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata"
+        ]
+      },
+      {
+        "id": "api.FormData.append",
+        "name": "api.FormData.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/append",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-append"
+        ]
+      },
+      {
+        "id": "api.FormData.delete",
+        "name": "api.FormData.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/delete",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-delete"
+        ]
+      },
+      {
+        "id": "api.FormData.get",
+        "name": "api.FormData.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/get",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-get"
+        ]
+      },
+      {
+        "id": "api.FormData.getAll",
+        "name": "api.FormData.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/getAll",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-getall"
+        ]
+      },
+      {
+        "id": "api.FormData.has",
+        "name": "api.FormData.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/has",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-has"
+        ]
+      },
+      {
+        "id": "api.FormData.set",
+        "name": "api.FormData.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FormData/set",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-formdata-set"
+        ]
+      },
+      {
+        "id": "api.ProgressEvent",
+        "name": "api.ProgressEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProgressEvent",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#interface-progressevent"
+        ]
+      },
+      {
+        "id": "api.ProgressEvent.ProgressEvent",
+        "name": "api.ProgressEvent.ProgressEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/ProgressEvent",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-progressevent-progressevent"
+        ]
+      },
+      {
+        "id": "api.ProgressEvent.lengthComputable",
+        "name": "api.ProgressEvent.lengthComputable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/lengthComputable",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-progressevent-lengthcomputable"
+        ]
+      },
+      {
+        "id": "api.ProgressEvent.loaded",
+        "name": "api.ProgressEvent.loaded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/loaded",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-progressevent-loaded"
+        ]
+      },
+      {
+        "id": "api.ProgressEvent.total",
+        "name": "api.ProgressEvent.total",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProgressEvent/total",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-progressevent-total"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest",
+        "name": "api.XMLHttpRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#interface-xmlhttprequest"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.XMLHttpRequest",
+        "name": "api.XMLHttpRequest.XMLHttpRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/XMLHttpRequest",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-xmlhttprequest"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.abort",
+        "name": "api.XMLHttpRequest.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/abort",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-abort()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.abort_event",
+        "name": "api.XMLHttpRequest.abort_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/abort_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-abort",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onabort"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.error_event",
+        "name": "api.XMLHttpRequest.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/error_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-error",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onerror"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.getAllResponseHeaders",
+        "name": "api.XMLHttpRequest.getAllResponseHeaders",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/getAllResponseHeaders",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-getallresponseheaders()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.getResponseHeader",
+        "name": "api.XMLHttpRequest.getResponseHeader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/getResponseHeader",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#dom-xmlhttprequest-getresponseheader"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.load_event",
+        "name": "api.XMLHttpRequest.load_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/load_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-load",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onload"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.loadend_event",
+        "name": "api.XMLHttpRequest.loadend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/loadend_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-loadend",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onloadend"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.loadstart_event",
+        "name": "api.XMLHttpRequest.loadstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/loadstart_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-loadstart",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onloadstart"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.open",
+        "name": "api.XMLHttpRequest.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/open",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-open()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.overrideMimeType",
+        "name": "api.XMLHttpRequest.overrideMimeType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/overrideMimeType",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-overridemimetype()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.progress_event",
+        "name": "api.XMLHttpRequest.progress_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/progress_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-progress",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onprogress"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.readyState",
+        "name": "api.XMLHttpRequest.readyState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/readyState",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#states"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.readystatechange_event",
+        "name": "api.XMLHttpRequest.readystatechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/readystatechange_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-readystatechange",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onreadystatechange"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.response",
+        "name": "api.XMLHttpRequest.response",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/response",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-response-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.responseText",
+        "name": "api.XMLHttpRequest.responseText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseText",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-responsetext-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.responseType",
+        "name": "api.XMLHttpRequest.responseType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-responsetype-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.responseURL",
+        "name": "api.XMLHttpRequest.responseURL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseURL",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-responseurl-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.responseXML",
+        "name": "api.XMLHttpRequest.responseXML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseXML",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-responsexml-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.send",
+        "name": "api.XMLHttpRequest.send",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-send()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.setRequestHeader",
+        "name": "api.XMLHttpRequest.setRequestHeader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/setRequestHeader",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-setrequestheader()-method"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.status",
+        "name": "api.XMLHttpRequest.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/status",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-status-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.statusText",
+        "name": "api.XMLHttpRequest.statusText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/statusText",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-statustext-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.timeout",
+        "name": "api.XMLHttpRequest.timeout",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-timeout-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.timeout_event",
+        "name": "api.XMLHttpRequest.timeout_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/timeout_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-timeout",
+          "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.upload",
+        "name": "api.XMLHttpRequest.upload",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/upload",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-upload-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequest.withCredentials",
+        "name": "api.XMLHttpRequest.withCredentials",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/withCredentials",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-withcredentials-attribute"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestEventTarget",
+        "name": "api.XMLHttpRequestEventTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestEventTarget",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#xmlhttprequesteventtarget"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.abort_event",
+        "name": "api.XMLHttpRequestUpload.abort_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/abort_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-abort",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onabort"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.error_event",
+        "name": "api.XMLHttpRequestUpload.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/error_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-error",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onerror"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.load_event",
+        "name": "api.XMLHttpRequestUpload.load_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/load_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-load",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onload"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.loadend_event",
+        "name": "api.XMLHttpRequestUpload.loadend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/loadend_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-loadend",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onloadend"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.loadstart_event",
+        "name": "api.XMLHttpRequestUpload.loadstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/loadstart_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-loadstart",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onloadstart"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.progress_event",
+        "name": "api.XMLHttpRequestUpload.progress_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/progress_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-progress",
+          "https://xhr.spec.whatwg.org/#handler-xhr-onprogress"
+        ]
+      },
+      {
+        "id": "api.XMLHttpRequestUpload.timeout_event",
+        "name": "api.XMLHttpRequestUpload.timeout_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/timeout_event",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#event-xhr-timeout",
+          "https://xhr.spec.whatwg.org/#handler-xhr-ontimeout"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "xhr2",
+        "name": "XMLHttpRequest advanced features",
+        "statusUrl": "https://caniuse.com/xhr2",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/"
+        ],
         "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5676711949631488,
+        "name": "XHR: Use the response URL for responseURL and documents",
+        "statusUrl": "https://chromestatus.com/feature/5676711949631488",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#the-responseurl-attribute"
+        ]
+      },
+      {
+        "id": 5701572055007232,
+        "name": "FormData methods for inspection and modification",
+        "statusUrl": "https://chromestatus.com/feature/5701572055007232",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5751691936792576,
+        "name": "XHR fallbacks UTF-8 when invalid encoding is specified",
+        "statusUrl": "https://chromestatus.com/feature/5751691936792576",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#text-response"
+        ]
       }
     ]
   }

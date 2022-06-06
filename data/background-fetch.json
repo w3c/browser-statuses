@@ -1,8 +1,231 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.BackgroundFetchEvent",
+        "name": "api.BackgroundFetchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-event"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchEvent.BackgroundFetchEvent",
+        "name": "api.BackgroundFetchEvent.BackgroundFetchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchEvent/BackgroundFetchEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchevent-backgroundfetchevent"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchEvent.registration",
+        "name": "api.BackgroundFetchEvent.registration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchEvent/registration",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchevent-registration"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchManager",
+        "name": "api.BackgroundFetchManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchManager",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-manager"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchManager.fetch",
+        "name": "api.BackgroundFetchManager.fetch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchManager/fetch",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-manager-fetch"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchManager.get",
+        "name": "api.BackgroundFetchManager.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchManager/get",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-manager-get"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchManager.getIds",
+        "name": "api.BackgroundFetchManager.getIds",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchManager/getIds",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-manager-get-ids"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRecord",
+        "name": "api.BackgroundFetchRecord",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRecord",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-record-interface"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRecord.request",
+        "name": "api.BackgroundFetchRecord.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRecord/request",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchrecord-request"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRecord.responseReady",
+        "name": "api.BackgroundFetchRecord.responseReady",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRecord/responseReady",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchrecord-responseready"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration",
+        "name": "api.BackgroundFetchRegistration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-registration"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.abort",
+        "name": "api.BackgroundFetchRegistration.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/abort",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-registration-abort"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.downloadTotal",
+        "name": "api.BackgroundFetchRegistration.downloadTotal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/downloadTotal",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-downloadtotal"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.downloaded",
+        "name": "api.BackgroundFetchRegistration.downloaded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/downloaded",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-downloaded"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.failureReason",
+        "name": "api.BackgroundFetchRegistration.failureReason",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/failureReason",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-failurereason"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.id",
+        "name": "api.BackgroundFetchRegistration.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/id",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-id"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.match",
+        "name": "api.BackgroundFetchRegistration.match",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/match",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-registration-match"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.matchAll",
+        "name": "api.BackgroundFetchRegistration.matchAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/matchAll",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-registration-match-all"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.progress_event",
+        "name": "api.BackgroundFetchRegistration.progress_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/progress_event",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-registration-events"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.recordsAvailable",
+        "name": "api.BackgroundFetchRegistration.recordsAvailable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/recordsAvailable",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-recordsavailable"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.result",
+        "name": "api.BackgroundFetchRegistration.result",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/result",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-result"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.uploadTotal",
+        "name": "api.BackgroundFetchRegistration.uploadTotal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/uploadTotal",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-uploadtotal"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchRegistration.uploaded",
+        "name": "api.BackgroundFetchRegistration.uploaded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchRegistration/uploaded",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchregistration-uploaded"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchUpdateUIEvent",
+        "name": "api.BackgroundFetchUpdateUIEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchUpdateUIEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-update-ui-event"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent",
+        "name": "api.BackgroundFetchUpdateUIEvent.BackgroundFetchUpdateUIEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchUpdateUIEvent/BackgroundFetchUpdateUIEvent",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-backgroundfetchupdateuievent-backgroundfetchupdateuievent"
+        ]
+      },
+      {
+        "id": "api.BackgroundFetchUpdateUIEvent.updateUI",
+        "name": "api.BackgroundFetchUpdateUIEvent.updateUI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BackgroundFetchUpdateUIEvent/updateUI",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#background-fetch-update-ui-event-update-ui"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.backgroundFetch",
+        "name": "api.ServiceWorkerRegistration.backgroundFetch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/backgroundFetch",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/#dom-serviceworkerregistration-backgroundfetch"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5712608971718656,
+        "name": "Background Fetch API",
+        "statusUrl": "https://chromestatus.com/feature/5712608971718656",
+        "specUrls": [
+          "https://wicg.github.io/background-fetch/"
+        ],
         "representative": true
       }
     ]

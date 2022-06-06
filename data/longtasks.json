@@ -3,12 +3,77 @@
     "bcd": [
       {
         "id": "api.PerformanceLongTaskTiming",
+        "name": "api.PerformanceLongTaskTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceLongTaskTiming",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#sec-PerformanceLongTaskTiming"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.PerformanceLongTaskTiming.attribution",
+        "name": "api.PerformanceLongTaskTiming.attribution",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceLongTaskTiming/attribution",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-attribution"
+        ]
+      },
+      {
+        "id": "api.PerformanceLongTaskTiming.toJSON",
+        "name": "api.PerformanceLongTaskTiming.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-performancelongtasktiming-tojson"
+        ]
+      },
+      {
+        "id": "api.TaskAttributionTiming",
+        "name": "api.TaskAttributionTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskAttributionTiming",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#sec-TaskAttributionTiming"
+        ]
+      },
+      {
+        "id": "api.TaskAttributionTiming.containerId",
+        "name": "api.TaskAttributionTiming.containerId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskAttributionTiming/containerId",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containerid"
+        ]
+      },
+      {
+        "id": "api.TaskAttributionTiming.containerName",
+        "name": "api.TaskAttributionTiming.containerName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskAttributionTiming/containerName",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containername"
+        ]
+      },
+      {
+        "id": "api.TaskAttributionTiming.containerSrc",
+        "name": "api.TaskAttributionTiming.containerSrc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskAttributionTiming/containerSrc",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containersrc"
+        ]
+      },
+      {
+        "id": "api.TaskAttributionTiming.containerType",
+        "name": "api.TaskAttributionTiming.containerType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskAttributionTiming/containerType",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containertype"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5738471184400384,
+        "name": "Long Task API",
+        "statusUrl": "https://chromestatus.com/feature/5738471184400384",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/"
+        ],
         "representative": true
       }
     ]

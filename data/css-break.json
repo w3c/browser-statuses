@@ -44,9 +44,101 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.box-decoration-break",
+        "name": "css.properties.box-decoration-break",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/box-decoration-break",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-decoration"
+        ]
+      },
+      {
+        "id": "css.properties.break-after.multicol_context",
+        "name": "css.properties.break-after.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-after.paged_context",
+        "name": "css.properties.break-after.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.multicol_context",
+        "name": "css.properties.break-before.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.paged_context",
+        "name": "css.properties.break-before.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.multicol_context",
+        "name": "css.properties.break-inside.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.paged_context",
+        "name": "css.properties.break-inside.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.orphans",
+        "name": "css.properties.orphans",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/orphans",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#widows-orphans"
+        ]
+      },
+      {
+        "id": "css.properties.widows",
+        "name": "css.properties.widows",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/widows",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#widows-orphans",
+          "https://drafts.csswg.org/css-multicol/#filling-columns"
+        ]
+      }
+    ],
     "caniuse": [
       {
-        "id": "css-boxdecorationbreak"
+        "id": "css-boxdecorationbreak",
+        "name": "CSS box-decoration-break",
+        "statusUrl": "https://caniuse.com/css-boxdecorationbreak",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-break/#break-decoration"
+        ]
       },
       {
         "id": "css-page-break",
@@ -54,12 +146,22 @@
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": "css-widows-orphans"
+        "id": "css-widows-orphans",
+        "name": "CSS widows & orphans",
+        "statusUrl": "https://caniuse.com/css-widows-orphans",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break-3/#widows-orphans"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 5630943616303104
+        "id": 5630943616303104,
+        "name": "CSS break-after, break-before and break-inside (Generic breaking control)",
+        "statusUrl": "https://chromestatus.com/feature/5630943616303104",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break-3/#breaking-controls"
+        ]
       }
     ]
   }

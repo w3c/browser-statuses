@@ -1,29 +1,951 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.InputDeviceInfo",
+        "name": "api.InputDeviceInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputDeviceInfo",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-inputdeviceinfo"
+        ]
+      },
+      {
+        "id": "api.InputDeviceInfo.getCapabilities",
+        "name": "api.InputDeviceInfo.getCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputDeviceInfo/getCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-inputdeviceinfo-getcapabilities"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo",
+        "name": "api.MediaDeviceInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#device-info"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo.deviceId",
+        "name": "api.MediaDeviceInfo.deviceId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo/deviceId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-deviceid"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo.groupId",
+        "name": "api.MediaDeviceInfo.groupId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo/groupId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-groupid"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo.kind",
+        "name": "api.MediaDeviceInfo.kind",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo/kind",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-kind"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo.label",
+        "name": "api.MediaDeviceInfo.label",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo/label",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-label"
+        ]
+      },
+      {
+        "id": "api.MediaDeviceInfo.toJSON",
+        "name": "api.MediaDeviceInfo.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadeviceinfo-tojson"
+        ]
+      },
+      {
+        "id": "api.MediaDevices",
+        "name": "api.MediaDevices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediadevices"
+        ]
+      },
+      {
+        "id": "api.MediaDevices.devicechange_event",
+        "name": "api.MediaDevices.devicechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/devicechange_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#event-mediadevices-devicechange",
+          "https://w3c.github.io/mediacapture-main/#dom-mediadevices-ondevicechange"
+        ]
+      },
+      {
+        "id": "api.MediaDevices.enumerateDevices",
+        "name": "api.MediaDevices.enumerateDevices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/enumerateDevices",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadevices-enumeratedevices"
+        ]
+      },
+      {
+        "id": "api.MediaDevices.getSupportedConstraints",
+        "name": "api.MediaDevices.getSupportedConstraints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/getSupportedConstraints",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadevices-getsupportedconstraints"
+        ]
+      },
+      {
+        "id": "api.MediaDevices.getUserMedia",
+        "name": "api.MediaDevices.getUserMedia",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/getUserMedia",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadevices-getusermedia"
+        ]
+      },
+      {
+        "id": "api.MediaStream",
+        "name": "api.MediaStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediastream"
+        ]
+      },
+      {
+        "id": "api.MediaStream.MediaStream",
+        "name": "api.MediaStream.MediaStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/MediaStream",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-constructor"
+        ]
+      },
+      {
+        "id": "api.MediaStream.active",
+        "name": "api.MediaStream.active",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/active",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-active"
+        ]
+      },
+      {
+        "id": "api.MediaStream.addTrack",
+        "name": "api.MediaStream.addTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/addTrack",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-addtrack"
+        ]
+      },
+      {
+        "id": "api.MediaStream.addtrack_event",
+        "name": "api.MediaStream.addtrack_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/addtrack_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#event-mediastream-addtrack"
+        ]
+      },
+      {
+        "id": "api.MediaStream.clone",
+        "name": "api.MediaStream.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/clone",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-clone"
+        ]
+      },
+      {
+        "id": "api.MediaStream.getAudioTracks",
+        "name": "api.MediaStream.getAudioTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/getAudioTracks",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-getaudiotracks"
+        ]
+      },
+      {
+        "id": "api.MediaStream.getTrackById",
+        "name": "api.MediaStream.getTrackById",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/getTrackById",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-gettrackbyid"
+        ]
+      },
+      {
+        "id": "api.MediaStream.getTracks",
+        "name": "api.MediaStream.getTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/getTracks",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-gettracks"
+        ]
+      },
+      {
+        "id": "api.MediaStream.getVideoTracks",
+        "name": "api.MediaStream.getVideoTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/getVideoTracks",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-getvideotracks"
+        ]
+      },
+      {
+        "id": "api.MediaStream.id",
+        "name": "api.MediaStream.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/id",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-id"
+        ]
+      },
+      {
+        "id": "api.MediaStream.removeTrack",
+        "name": "api.MediaStream.removeTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/removeTrack",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastream-removetrack"
+        ]
+      },
+      {
+        "id": "api.MediaStream.removetrack_event",
+        "name": "api.MediaStream.removetrack_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStream/removetrack_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#event-mediastream-removetrack"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack",
+        "name": "api.MediaStreamTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediastreamtrack"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.applyConstraints",
+        "name": "api.MediaStreamTrack.applyConstraints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/applyConstraints",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-applyconstraints"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.clone",
+        "name": "api.MediaStreamTrack.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/clone",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-clone"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.enabled",
+        "name": "api.MediaStreamTrack.enabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/enabled",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-enabled"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.ended_event",
+        "name": "api.MediaStreamTrack.ended_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/ended_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-onended"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.getCapabilities",
+        "name": "api.MediaStreamTrack.getCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getcapabilities"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.getConstraints",
+        "name": "api.MediaStreamTrack.getConstraints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getConstraints",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getconstraints"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.getSettings",
+        "name": "api.MediaStreamTrack.getSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getSettings",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getsettings"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.id",
+        "name": "api.MediaStreamTrack.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/id",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-id"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.kind",
+        "name": "api.MediaStreamTrack.kind",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/kind",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-kind"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.label",
+        "name": "api.MediaStreamTrack.label",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/label",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-label"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.mute_event",
+        "name": "api.MediaStreamTrack.mute_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/mute_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-onmute"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.muted",
+        "name": "api.MediaStreamTrack.muted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/muted",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-muted"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.readyState",
+        "name": "api.MediaStreamTrack.readyState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/readyState",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-readystate"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.stop",
+        "name": "api.MediaStreamTrack.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/stop",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-stop"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrack.unmute_event",
+        "name": "api.MediaStreamTrack.unmute_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/unmute_event",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#event-mediastreamtrack-unmute"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrackEvent",
+        "name": "api.MediaStreamTrackEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediastreamtrackevent"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrackEvent.MediaStreamTrackEvent",
+        "name": "api.MediaStreamTrackEvent.MediaStreamTrackEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackEvent/MediaStreamTrackEvent",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrackevent-constructor"
+        ]
+      },
+      {
+        "id": "api.MediaStreamTrackEvent.track",
+        "name": "api.MediaStreamTrackEvent.track",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackEvent/track",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrackevent-track"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints",
+        "name": "api.MediaTrackConstraints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraints"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.aspectRatio",
+        "name": "api.MediaTrackConstraints.aspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/aspectRatio",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-aspectratio"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.autoGainControl",
+        "name": "api.MediaTrackConstraints.autoGainControl",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/autoGainControl",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-autogaincontrol"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.channelCount",
+        "name": "api.MediaTrackConstraints.channelCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/channelCount",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-channelcount"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.deviceId",
+        "name": "api.MediaTrackConstraints.deviceId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/deviceId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-deviceid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.echoCancellation",
+        "name": "api.MediaTrackConstraints.echoCancellation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/echoCancellation",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-echocancellation"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.facingMode",
+        "name": "api.MediaTrackConstraints.facingMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/facingMode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-facingmode"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.frameRate",
+        "name": "api.MediaTrackConstraints.frameRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/frameRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-framerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.groupId",
+        "name": "api.MediaTrackConstraints.groupId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/groupId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-groupid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.height",
+        "name": "api.MediaTrackConstraints.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/height",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-height"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.latency",
+        "name": "api.MediaTrackConstraints.latency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/latency",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-latency"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.noiseSuppression",
+        "name": "api.MediaTrackConstraints.noiseSuppression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/noiseSuppression",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-noisesuppression"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.resizeMode",
+        "name": "api.MediaTrackConstraints.resizeMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/resizeMode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-resizemode"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.sampleRate",
+        "name": "api.MediaTrackConstraints.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.sampleSize",
+        "name": "api.MediaTrackConstraints.sampleSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/sampleSize",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-samplesize"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.width",
+        "name": "api.MediaTrackConstraints.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/width",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatrackconstraintset-width"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings",
+        "name": "api.MediaTrackSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#media-track-settings",
+          "https://w3c.github.io/mediacapture-screen-share/#extensions-to-mediatracksettings"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.aspectRatio",
+        "name": "api.MediaTrackSettings.aspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/aspectRatio",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-aspectratio"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.autoGainControl",
+        "name": "api.MediaTrackSettings.autoGainControl",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/autoGainControl",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-autogaincontrol"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.channelCount",
+        "name": "api.MediaTrackSettings.channelCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/channelCount",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-channelcount"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.deviceId",
+        "name": "api.MediaTrackSettings.deviceId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/deviceId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-deviceid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.echoCancellation",
+        "name": "api.MediaTrackSettings.echoCancellation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/echoCancellation",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-echocancellation"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.facingMode",
+        "name": "api.MediaTrackSettings.facingMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/facingMode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-facingmode"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.frameRate",
+        "name": "api.MediaTrackSettings.frameRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/frameRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-framerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.groupId",
+        "name": "api.MediaTrackSettings.groupId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/groupId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-groupid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.height",
+        "name": "api.MediaTrackSettings.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/height",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-height"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.latency",
+        "name": "api.MediaTrackSettings.latency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/latency",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-latency"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.noiseSuppression",
+        "name": "api.MediaTrackSettings.noiseSuppression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/noiseSuppression",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-noisesuppression"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.sampleRate",
+        "name": "api.MediaTrackSettings.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/sampleRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-samplerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.sampleSize",
+        "name": "api.MediaTrackSettings.sampleSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/sampleSize",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-samplesize"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.width",
+        "name": "api.MediaTrackSettings.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/width",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksettings-width"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints",
+        "name": "api.MediaTrackSupportedConstraints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#media-track-supported-constraints"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.aspectRatio",
+        "name": "api.MediaTrackSupportedConstraints.aspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/aspectRatio",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-aspectratio"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.autoGainControl",
+        "name": "api.MediaTrackSupportedConstraints.autoGainControl",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/autoGainControl",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-autogaincontrol"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.channelCount",
+        "name": "api.MediaTrackSupportedConstraints.channelCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/channelCount",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-channelcount"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.deviceId",
+        "name": "api.MediaTrackSupportedConstraints.deviceId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/deviceId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-deviceid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.echoCancellation",
+        "name": "api.MediaTrackSupportedConstraints.echoCancellation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/echoCancellation",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-echocancellation"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.facingMode",
+        "name": "api.MediaTrackSupportedConstraints.facingMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/facingMode",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-facingmode"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.frameRate",
+        "name": "api.MediaTrackSupportedConstraints.frameRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/frameRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-framerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.groupId",
+        "name": "api.MediaTrackSupportedConstraints.groupId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/groupId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-groupid"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.height",
+        "name": "api.MediaTrackSupportedConstraints.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/height",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-height"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.latency",
+        "name": "api.MediaTrackSupportedConstraints.latency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/latency",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-latency"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.noiseSuppression",
+        "name": "api.MediaTrackSupportedConstraints.noiseSuppression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/noiseSuppression",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-noisesuppression"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.sampleRate",
+        "name": "api.MediaTrackSupportedConstraints.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/sampleRate",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-samplerate"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.sampleSize",
+        "name": "api.MediaTrackSupportedConstraints.sampleSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/sampleSize",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-samplesize"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.width",
+        "name": "api.MediaTrackSupportedConstraints.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/width",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediatracksupportedconstraints-width"
+        ]
+      },
+      {
+        "id": "api.Navigator.mediaDevices",
+        "name": "api.Navigator.mediaDevices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaDevices",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediadevices"
+        ]
+      },
+      {
+        "id": "api.OverconstrainedError",
+        "name": "api.OverconstrainedError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#overconstrainederror-interface"
+        ]
+      },
+      {
+        "id": "api.OverconstrainedError.OverconstrainedError",
+        "name": "api.OverconstrainedError.OverconstrainedError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/OverconstrainedError",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-overconstrainederror"
+        ]
+      },
+      {
+        "id": "api.OverconstrainedError.constraint",
+        "name": "api.OverconstrainedError.constraint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OverconstrainedError/constraint",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-overconstrainederror-constraint"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.camera",
+        "name": "http.headers.Feature-Policy.camera",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/camera",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dfn-camera"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.microphone",
+        "name": "http.headers.Feature-Policy.microphone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/microphone",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dfn-microphone"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "stream",
+        "name": "getUserMedia/Stream API",
+        "statusUrl": "https://caniuse.com/stream",
+        "specUrls": [
+          "https://www.w3.org/TR/mediacapture-streams/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4765305641369600,
+        "name": "Deprecate and remove MediaStreamTrack.getSources()",
+        "statusUrl": "https://chromestatus.com/feature/4765305641369600",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ]
+      },
+      {
+        "id": 4901692709535744,
+        "name": "OverconstrainedErrorEvent",
+        "statusUrl": "https://chromestatus.com/feature/4901692709535744",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main"
+        ]
+      },
+      {
+        "id": 4924861776396288,
+        "name": "Make MediaDevices and related functions and types secure context only",
+        "statusUrl": "https://chromestatus.com/feature/4924861776396288",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ]
+      },
+      {
+        "id": 5005114376978432,
+        "name": "MediaStreamTrackEvent constructor",
+        "statusUrl": "https://chromestatus.com/feature/5005114376978432",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediastreamtrackevent"
+        ]
+      },
+      {
+        "id": 5145556682801152,
+        "name": "MediaStreamTrack.getCapabilities()",
+        "statusUrl": "https://chromestatus.com/feature/5145556682801152",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getcapabilities()"
+        ]
+      },
+      {
+        "id": 5273138189303808,
+        "name": "Deprecate and remove support for 'volume' property.",
+        "statusUrl": "https://chromestatus.com/feature/5273138189303808",
+        "specUrls": [
+          "https://www.w3.org/TR/mediacapture-streams/#def-constraint-volume"
+        ]
+      },
+      {
+        "id": 5618491470118912,
+        "name": "Deprecate and Remove URL.createObjectURL for MediaStream",
+        "statusUrl": "https://chromestatus.com/feature/5618491470118912",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ]
+      },
+      {
+        "id": 5647608089411584,
+        "name": " MediaStream.label, MediaStream.ended and MediaStream.stop()",
+        "statusUrl": "https://chromestatus.com/feature/5647608089411584",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-main/getusermedia.html#mediastream"
+        ]
+      },
+      {
+        "id": 5648690194677760,
+        "name": "MediaStreamTrack.getSettings()",
+        "statusUrl": "https://chromestatus.com/feature/5648690194677760",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/getusermedia.html#media-stream-track-interface-definition"
+        ]
+      },
+      {
+        "id": 5662847321243648,
+        "name": "MediaDevices devicechange event",
+        "statusUrl": "https://chromestatus.com/feature/5662847321243648",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-main/#event-mediadevices-devicechange"
+        ]
+      },
+      {
+        "id": 5698636931399680,
+        "name": "MediaStreamTrack.remote attribute",
+        "statusUrl": "https://chromestatus.com/feature/5698636931399680",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-main/getusermedia.html#widl-MediaStreamTrack-remote"
+        ]
+      },
+      {
+        "id": 5727520001359872,
+        "name": "MediaStreamTrack.getCapabilities() support for audio device-related constrainable properties.",
+        "statusUrl": "https://chromestatus.com/feature/5727520001359872",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediastreamtrack-getcapabilities()"
+        ]
+      },
+      {
+        "id": 5730404371791872,
+        "name": "MediaStream ended event and onended attribute",
+        "statusUrl": "https://chromestatus.com/feature/5730404371791872",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-main/"
+        ]
+      },
+      {
         "id": 5755699816562688,
+        "name": "Promise-based getUserMedia",
+        "statusUrl": "https://chromestatus.com/feature/5755699816562688",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-mediadevices-getusermedia"
+        ],
         "representative": true
       },
       {
-        "id": 5145556682801152
+        "id": 5807737287999488,
+        "name": "MediaStreamTrack constraints API",
+        "statusUrl": "https://chromestatus.com/feature/5807737287999488",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-main/getusermedia.html#mediastreamtrack"
+        ]
+      },
+      {
+        "id": 5838698172121088,
+        "name": "Consolidate standard and non-standard constraints under standard syntax",
+        "statusUrl": "https://chromestatus.com/feature/5838698172121088",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ]
+      },
+      {
+        "id": 5912172546752512,
+        "name": "MediaStream constructor",
+        "statusUrl": "https://chromestatus.com/feature/5912172546752512",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#mediastream"
+        ]
+      },
+      {
+        "id": 6206218032906240,
+        "name": "MediaStreamTrack resizeMode constraint",
+        "statusUrl": "https://chromestatus.com/feature/6206218032906240",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-media-capture-and-streams",
+        "name": "Media Capture and Streams",
+        "statusUrl": "https://webkit.org/status/#specification-media-capture-and-streams",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/"
+        ],
         "representative": true
-      }
-    ],
-    "bcd": [
-      {
-        "id": "api.MediaStreamTrack.getCapabilities"
       }
     ]
   },

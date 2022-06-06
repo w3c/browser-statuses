@@ -2,22 +2,103 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Navigator.storage",
+        "name": "api.Navigator.storage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/storage",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#dom-navigatorstorage-storage"
+        ]
+      },
+      {
         "id": "api.StorageManager",
+        "name": "api.StorageManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageManager",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#storagemanager"
+        ],
         "representative": true
       },
       {
-        "id": "api.StorageManager.estimate"
+        "id": "api.StorageManager.estimate",
+        "name": "api.StorageManager.estimate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageManager/estimate",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#ref-for-dom-storagemanager-estimate"
+        ]
       },
       {
-        "id": "api.StorageManager.persist"
+        "id": "api.StorageManager.persist",
+        "name": "api.StorageManager.persist",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageManager/persist",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#ref-for-dom-storagemanager-persist"
+        ]
+      },
+      {
+        "id": "api.StorageManager.persisted",
+        "name": "api.StorageManager.persisted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageManager/persisted",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#dom-storagemanager-persisted"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.storage",
+        "name": "api.WorkerNavigator.storage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#dom-navigatorstorage-storage"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 5630353511284736
+        "id": 4770049554382848,
+        "name": "Permission API: \"persistent-storage\" property",
+        "statusUrl": "https://chromestatus.com/feature/4770049554382848",
+        "specUrls": [
+          "https://storage.spec.whatwg.org"
+        ]
       },
       {
-        "id": 4931497563783168
+        "id": 4931497563783168,
+        "name": "Persistent Storage Permission (Durable Storage)",
+        "statusUrl": "https://chromestatus.com/feature/4931497563783168",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/#persistence"
+        ]
+      },
+      {
+        "id": 5630353511284736,
+        "name": "Storage quota estimate() API",
+        "statusUrl": "https://chromestatus.com/feature/5630353511284736",
+        "specUrls": [
+          "https://storage.spec.whatwg.org"
+        ]
+      },
+      {
+        "id": 5666274359115776,
+        "name": "Storage Pressure Event",
+        "statusUrl": "https://chromestatus.com/feature/5666274359115776",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5715811364765696,
+        "name": "Persistent storage",
+        "statusUrl": "https://chromestatus.com/feature/5715811364765696",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5737131066523648,
+        "name": "Storage Quota Usage Details",
+        "statusUrl": "https://chromestatus.com/feature/5737131066523648",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/"
+        ]
       }
     ]
   },

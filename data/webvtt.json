@@ -1,9 +1,234 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.VTTCue",
+        "name": "api.VTTCue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#the-vttcue-interface"
+        ]
+      },
+      {
+        "id": "api.VTTCue.VTTCue",
+        "name": "api.VTTCue.VTTCue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/VTTCue",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-vttcue"
+        ]
+      },
+      {
+        "id": "api.VTTCue.align",
+        "name": "api.VTTCue.align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/align",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-align"
+        ]
+      },
+      {
+        "id": "api.VTTCue.getCueAsHTML",
+        "name": "api.VTTCue.getCueAsHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/getCueAsHTML",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-getcueashtml"
+        ]
+      },
+      {
+        "id": "api.VTTCue.line",
+        "name": "api.VTTCue.line",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/line",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-line"
+        ]
+      },
+      {
+        "id": "api.VTTCue.lineAlign",
+        "name": "api.VTTCue.lineAlign",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/lineAlign",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-linealign"
+        ]
+      },
+      {
+        "id": "api.VTTCue.position",
+        "name": "api.VTTCue.position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/position",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-position"
+        ]
+      },
+      {
+        "id": "api.VTTCue.positionAlign",
+        "name": "api.VTTCue.positionAlign",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/positionAlign",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-positionalign"
+        ]
+      },
+      {
+        "id": "api.VTTCue.region",
+        "name": "api.VTTCue.region",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/region",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-region"
+        ]
+      },
+      {
+        "id": "api.VTTCue.size",
+        "name": "api.VTTCue.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/size",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-size"
+        ]
+      },
+      {
+        "id": "api.VTTCue.snapToLines",
+        "name": "api.VTTCue.snapToLines",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/snapToLines",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-snaptolines"
+        ]
+      },
+      {
+        "id": "api.VTTCue.text",
+        "name": "api.VTTCue.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/text",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-text"
+        ]
+      },
+      {
+        "id": "api.VTTCue.vertical",
+        "name": "api.VTTCue.vertical",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTCue/vertical",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttcue-vertical"
+        ]
+      },
+      {
+        "id": "api.VTTRegion",
+        "name": "api.VTTRegion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#the-vttregion-interface"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.VTTRegion",
+        "name": "api.VTTRegion.VTTRegion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/VTTRegion",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-vttregion"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.id",
+        "name": "api.VTTRegion.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/id",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-id"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.lines",
+        "name": "api.VTTRegion.lines",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/lines",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-lines"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.regionAnchorX",
+        "name": "api.VTTRegion.regionAnchorX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/regionAnchorX",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-regionanchorx"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.regionAnchorY",
+        "name": "api.VTTRegion.regionAnchorY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/regionAnchorY",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-regionanchory"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.scroll",
+        "name": "api.VTTRegion.scroll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/scroll",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-scroll"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.viewportAnchorX",
+        "name": "api.VTTRegion.viewportAnchorX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/viewportAnchorX",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-viewportanchorx"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.viewportAnchorY",
+        "name": "api.VTTRegion.viewportAnchorY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/viewportAnchorY",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-viewportanchory"
+        ]
+      },
+      {
+        "id": "api.VTTRegion.width",
+        "name": "api.VTTRegion.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VTTRegion/width",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#dom-vttregion-width"
+        ]
+      },
+      {
+        "id": "css.selectors.cue",
+        "name": "css.selectors.cue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::cue",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/#the-cue-pseudo-element"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "webvtt",
+        "name": "WebVTT - Web Video Text Tracks",
+        "statusUrl": "https://caniuse.com/webvtt",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/"
+        ],
         "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4905656217763840,
+        "name": "WebVTT positionAlign and lineAlign",
+        "statusUrl": "https://chromestatus.com/feature/4905656217763840",
+        "specUrls": [
+          "https://w3c.github.io/webvtt/"
+        ]
+      },
+      {
+        "id": 5308626495340544,
+        "name": "VTTRegion-related bits of TextTrack",
+        "statusUrl": "https://chromestatus.com/feature/5308626495340544",
+        "specUrls": [
+          "https://github.com/w3c/webvtt"
+        ]
+      },
+      {
+        "id": 5718402851143680,
+        "name": "Inline WebVTT Styling",
+        "statusUrl": "https://chromestatus.com/feature/5718402851143680",
+        "specUrls": [
+          "https://www.w3.org/TR/webvtt1/"
+        ]
       }
     ]
   }

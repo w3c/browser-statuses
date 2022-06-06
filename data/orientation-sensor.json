@@ -1,8 +1,71 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AbsoluteOrientationSensor",
+        "name": "api.AbsoluteOrientationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbsoluteOrientationSensor",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#absoluteorientationsensor-interface"
+        ]
+      },
+      {
+        "id": "api.AbsoluteOrientationSensor.AbsoluteOrientationSensor",
+        "name": "api.AbsoluteOrientationSensor.AbsoluteOrientationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbsoluteOrientationSensor/AbsoluteOrientationSensor",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#dom-absoluteorientationsensor-absoluteorientationsensor"
+        ]
+      },
+      {
+        "id": "api.OrientationSensor",
+        "name": "api.OrientationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OrientationSensor",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#orientationsensor-interface"
+        ]
+      },
+      {
+        "id": "api.OrientationSensor.populateMatrix",
+        "name": "api.OrientationSensor.populateMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OrientationSensor/populateMatrix",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#orientationsensor-populatematrix"
+        ]
+      },
+      {
+        "id": "api.OrientationSensor.quaternion",
+        "name": "api.OrientationSensor.quaternion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OrientationSensor/quaternion",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#orientationsensor-quaternion"
+        ]
+      },
+      {
+        "id": "api.RelativeOrientationSensor",
+        "name": "api.RelativeOrientationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RelativeOrientationSensor",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#relativeorientationsensor-interface"
+        ]
+      },
+      {
+        "id": "api.RelativeOrientationSensor.RelativeOrientationSensor",
+        "name": "api.RelativeOrientationSensor.RelativeOrientationSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RelativeOrientationSensor/RelativeOrientationSensor",
+        "specUrls": [
+          "https://w3c.github.io/orientation-sensor/#dom-relativeorientationsensor-relativeorientationsensor"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "orientation-sensor",
+        "name": "Orientation Sensor",
+        "statusUrl": "https://caniuse.com/orientation-sensor",
+        "specUrls": [
+          "https://www.w3.org/TR/orientation-sensor/"
+        ],
         "representative": true
       }
     ],

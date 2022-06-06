@@ -1,14 +1,640 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Element.ariaAtomic",
+        "name": "api.Element.ariaAtomic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaAtomic",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaatomic"
+        ]
+      },
+      {
+        "id": "api.Element.ariaAutoComplete",
+        "name": "api.Element.ariaAutoComplete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaAutoComplete",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaautocomplete"
+        ]
+      },
+      {
+        "id": "api.Element.ariaBusy",
+        "name": "api.Element.ariaBusy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaBusy",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariabusy"
+        ]
+      },
+      {
+        "id": "api.Element.ariaChecked",
+        "name": "api.Element.ariaChecked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaChecked",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariachecked"
+        ]
+      },
+      {
+        "id": "api.Element.ariaColCount",
+        "name": "api.Element.ariaColCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaColCount",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolcount"
+        ]
+      },
+      {
+        "id": "api.Element.ariaColIndex",
+        "name": "api.Element.ariaColIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaColIndex",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolindex"
+        ]
+      },
+      {
+        "id": "api.Element.ariaColSpan",
+        "name": "api.Element.ariaColSpan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaColSpan",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolspan"
+        ]
+      },
+      {
+        "id": "api.Element.ariaCurrent",
+        "name": "api.Element.ariaCurrent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaCurrent",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacurrent"
+        ]
+      },
+      {
+        "id": "api.Element.ariaDescription",
+        "name": "api.Element.ariaDescription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaDescription",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariadescription"
+        ]
+      },
+      {
+        "id": "api.Element.ariaDisabled",
+        "name": "api.Element.ariaDisabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaDisabled",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariadisabled"
+        ]
+      },
+      {
+        "id": "api.Element.ariaExpanded",
+        "name": "api.Element.ariaExpanded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaExpanded",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaexpanded"
+        ]
+      },
+      {
+        "id": "api.Element.ariaHasPopup",
+        "name": "api.Element.ariaHasPopup",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaHasPopup",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariahaspopup"
+        ]
+      },
+      {
+        "id": "api.Element.ariaHidden",
+        "name": "api.Element.ariaHidden",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaHidden",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariahidden"
+        ]
+      },
+      {
+        "id": "api.Element.ariaInvalid",
+        "name": "api.Element.ariaInvalid",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariainvalid"
+        ]
+      },
+      {
+        "id": "api.Element.ariaKeyShortcuts",
+        "name": "api.Element.ariaKeyShortcuts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaKeyShortcuts",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariakeyshortcuts"
+        ]
+      },
+      {
+        "id": "api.Element.ariaLabel",
+        "name": "api.Element.ariaLabel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaLabel",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialabel"
+        ]
+      },
+      {
+        "id": "api.Element.ariaLevel",
+        "name": "api.Element.ariaLevel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaLevel",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialevel"
+        ]
+      },
+      {
+        "id": "api.Element.ariaLive",
+        "name": "api.Element.ariaLive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaLive",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialive"
+        ]
+      },
+      {
+        "id": "api.Element.ariaModal",
+        "name": "api.Element.ariaModal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaModal",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamodal"
+        ]
+      },
+      {
+        "id": "api.Element.ariaMultiLine",
+        "name": "api.Element.ariaMultiLine",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaMultiLine",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamultiline"
+        ]
+      },
+      {
+        "id": "api.Element.ariaMultiSelectable",
+        "name": "api.Element.ariaMultiSelectable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaMultiSelectable",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamultiselectable"
+        ]
+      },
+      {
+        "id": "api.Element.ariaOrientation",
+        "name": "api.Element.ariaOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaOrientation",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaorientation"
+        ]
+      },
+      {
+        "id": "api.Element.ariaPlaceholder",
+        "name": "api.Element.ariaPlaceholder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaPlaceholder",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaplaceholder"
+        ]
+      },
+      {
+        "id": "api.Element.ariaPosInSet",
+        "name": "api.Element.ariaPosInSet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaPosInSet",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaposinset"
+        ]
+      },
+      {
+        "id": "api.Element.ariaPressed",
+        "name": "api.Element.ariaPressed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaPressed",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariapressed"
+        ]
+      },
+      {
+        "id": "api.Element.ariaReadOnly",
+        "name": "api.Element.ariaReadOnly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaReadOnly",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariareadonly"
+        ]
+      },
+      {
+        "id": "api.Element.ariaRequired",
+        "name": "api.Element.ariaRequired",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaRequired",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarequired"
+        ]
+      },
+      {
+        "id": "api.Element.ariaRoleDescription",
+        "name": "api.Element.ariaRoleDescription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaRoleDescription",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaorientation"
+        ]
+      },
+      {
+        "id": "api.Element.ariaRowCount",
+        "name": "api.Element.ariaRowCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaRowCount",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowcount"
+        ]
+      },
+      {
+        "id": "api.Element.ariaRowIndex",
+        "name": "api.Element.ariaRowIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaRowIndex",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowindex"
+        ]
+      },
+      {
+        "id": "api.Element.ariaRowSpan",
+        "name": "api.Element.ariaRowSpan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaRowSpan",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowspan"
+        ]
+      },
+      {
+        "id": "api.Element.ariaSelected",
+        "name": "api.Element.ariaSelected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaSelected",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemax"
+        ]
+      },
+      {
+        "id": "api.Element.ariaSetSize",
+        "name": "api.Element.ariaSetSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaSetSize",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariasetsize"
+        ]
+      },
+      {
+        "id": "api.Element.ariaSort",
+        "name": "api.Element.ariaSort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaSort",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariasort"
+        ]
+      },
+      {
+        "id": "api.Element.ariaValueMax",
+        "name": "api.Element.ariaValueMax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueMax",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemax"
+        ]
+      },
+      {
+        "id": "api.Element.ariaValueMin",
+        "name": "api.Element.ariaValueMin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueMin",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemin"
+        ]
+      },
+      {
+        "id": "api.Element.ariaValueNow",
+        "name": "api.Element.ariaValueNow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueNow",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluenow"
+        ]
+      },
+      {
+        "id": "api.Element.ariaValueText",
+        "name": "api.Element.ariaValueText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/ariaValueText",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluetext"
+        ]
+      },
+      {
+        "id": "api.Element.role",
+        "name": "api.Element.role",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-role"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaAtomic",
+        "name": "api.ElementInternals.ariaAtomic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaAtomic",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaatomic"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaAutoComplete",
+        "name": "api.ElementInternals.ariaAutoComplete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaAutoComplete",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaautocomplete"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaBusy",
+        "name": "api.ElementInternals.ariaBusy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaBusy",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariabusy"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaChecked",
+        "name": "api.ElementInternals.ariaChecked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaChecked",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariachecked"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaColCount",
+        "name": "api.ElementInternals.ariaColCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColCount",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolcount"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaColIndex",
+        "name": "api.ElementInternals.ariaColIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColIndex",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolindex"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaColSpan",
+        "name": "api.ElementInternals.ariaColSpan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaColSpan",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacolspan"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaCurrent",
+        "name": "api.ElementInternals.ariaCurrent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaCurrent",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariacurrent"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaDescription",
+        "name": "api.ElementInternals.ariaDescription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaDescription",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariadescription"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaDisabled",
+        "name": "api.ElementInternals.ariaDisabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaDisabled",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariadisabled"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaExpanded",
+        "name": "api.ElementInternals.ariaExpanded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaExpanded",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaexpanded"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaHasPopup",
+        "name": "api.ElementInternals.ariaHasPopup",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaHasPopup",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariahaspopup"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaHidden",
+        "name": "api.ElementInternals.ariaHidden",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaHidden",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariahidden"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaKeyShortcuts",
+        "name": "api.ElementInternals.ariaKeyShortcuts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaKeyShortcuts",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariakeyshortcuts"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaLabel",
+        "name": "api.ElementInternals.ariaLabel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLabel",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialabel"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaLevel",
+        "name": "api.ElementInternals.ariaLevel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLevel",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialevel"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaLive",
+        "name": "api.ElementInternals.ariaLive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaLive",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-arialive"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaModal",
+        "name": "api.ElementInternals.ariaModal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaModal",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamodal"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaMultiLine",
+        "name": "api.ElementInternals.ariaMultiLine",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaMultiLine",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamultiline"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaMultiSelectable",
+        "name": "api.ElementInternals.ariaMultiSelectable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaMultiSelectable",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariamultiselectable"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaOrientation",
+        "name": "api.ElementInternals.ariaOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaOrientation",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaorientation"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaPlaceholder",
+        "name": "api.ElementInternals.ariaPlaceholder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPlaceholder",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaplaceholder"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaPosInSet",
+        "name": "api.ElementInternals.ariaPosInSet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPosInSet",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaposinset"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaPressed",
+        "name": "api.ElementInternals.ariaPressed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaPressed",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariapressed"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaReadOnly",
+        "name": "api.ElementInternals.ariaReadOnly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaReadOnly",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariareadonly"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaRequired",
+        "name": "api.ElementInternals.ariaRequired",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRequired",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarequired"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaRoleDescription",
+        "name": "api.ElementInternals.ariaRoleDescription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRoleDescription",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaroledescription"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaRowCount",
+        "name": "api.ElementInternals.ariaRowCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowCount",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowcount"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaRowIndex",
+        "name": "api.ElementInternals.ariaRowIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowIndex",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowindex"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaRowSpan",
+        "name": "api.ElementInternals.ariaRowSpan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaRowSpan",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariarowspan"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaSelected",
+        "name": "api.ElementInternals.ariaSelected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSelected",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariaselected"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaSetSize",
+        "name": "api.ElementInternals.ariaSetSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSetSize",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariasetsize"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaSort",
+        "name": "api.ElementInternals.ariaSort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaSort",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariasort"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaValueMax",
+        "name": "api.ElementInternals.ariaValueMax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueMax",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemax"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaValueMin",
+        "name": "api.ElementInternals.ariaValueMin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueMin",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluemin"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaValueNow",
+        "name": "api.ElementInternals.ariaValueNow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueNow",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluenow"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.ariaValueText",
+        "name": "api.ElementInternals.ariaValueText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueText",
+        "specUrls": [
+          "https://w3c.github.io/aria/#dom-ariamixin-ariavaluetext"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "wai-aria",
+        "name": "WAI-ARIA Accessibility features",
+        "statusUrl": "https://caniuse.com/wai-aria",
+        "specUrls": [
+          "https://www.w3.org/TR/wai-aria/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5188935855636480,
+        "name": "ARIA Attribute Reflection for role attribute",
+        "statusUrl": "https://chromestatus.com/feature/5188935855636480",
+        "specUrls": [
+          "https://w3c.github.io/aria/#idl-interface"
+        ]
+      },
+      {
         "id": 5761503818940416,
+        "name": "ARIA 1.1",
+        "statusUrl": "https://chromestatus.com/feature/5761503818940416",
+        "specUrls": [
+          "https://www.w3.org/TR/wai-aria-1.1/"
+        ],
         "representative": true
       }
     ]

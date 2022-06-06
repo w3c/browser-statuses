@@ -1,15 +1,117 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.permissions",
+        "name": "api.Navigator.permissions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/permissions",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-navigator-permissions"
+        ]
+      },
+      {
+        "id": "api.PermissionStatus",
+        "name": "api.PermissionStatus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionStatus",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#permissionstatus-interface"
+        ]
+      },
+      {
+        "id": "api.PermissionStatus.change_event",
+        "name": "api.PermissionStatus.change_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionStatus/change_event",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-permissionstatus-onchange"
+        ]
+      },
+      {
+        "id": "api.PermissionStatus.name",
+        "name": "api.PermissionStatus.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionStatus/name",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-permissionstatus-name"
+        ]
+      },
+      {
+        "id": "api.PermissionStatus.state",
+        "name": "api.PermissionStatus.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionStatus/state",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-permissionstatus-state"
+        ]
+      },
+      {
+        "id": "api.Permissions",
+        "name": "api.Permissions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Permissions",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#permissions-interface"
+        ]
+      },
+      {
+        "id": "api.Permissions.query",
+        "name": "api.Permissions.query",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Permissions/query",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-permissions-query"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.permissions",
+        "name": "api.WorkerNavigator.permissions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/permissions",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-workernavigator-permissions"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "permissions-api",
+        "name": "Permissions API",
+        "statusUrl": "https://caniuse.com/permissions-api",
+        "specUrls": [
+          "https://w3c.github.io/permissions/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5144822362931200,
+        "name": "Feature Policy: display-capture",
+        "statusUrl": "https://chromestatus.com/feature/5144822362931200",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#dom-permissionname-display-capture"
+        ]
+      },
+      {
+        "id": 5651653697994752,
+        "name": "PermissionStatus.prototype.name",
+        "statusUrl": "https://chromestatus.com/feature/5651653697994752",
+        "specUrls": [
+          "https://w3c.github.io/permissions/#permissionstatus-interface"
+        ]
+      },
+      {
         "id": 6376494003650560,
+        "name": "Permissions API",
+        "statusUrl": "https://chromestatus.com/feature/6376494003650560",
+        "specUrls": [
+          "https://w3c.github.io/permissions/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-permissions-api",
+        "name": "Permissions API",
+        "statusUrl": "https://webkit.org/status/#specification-permissions-api",
+        "specUrls": [
+          "https://www.w3.org/TR/permissions/"
+        ]
       }
     ]
   }

@@ -1,8 +1,185 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.NDEFMessage",
+        "name": "api.NDEFMessage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFMessage",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefmessage"
+        ]
+      },
+      {
+        "id": "api.NDEFMessage.records",
+        "name": "api.NDEFMessage.records",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFMessage/records",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefmessage-records"
+        ]
+      },
+      {
+        "id": "api.NDEFReader",
+        "name": "api.NDEFReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#the-ndefreader-object"
+        ]
+      },
+      {
+        "id": "api.NDEFReader.NDEFReader",
+        "name": "api.NDEFReader.NDEFReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader/NDEFReader",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-constructor"
+        ]
+      },
+      {
+        "id": "api.NDEFReader.reading_event",
+        "name": "api.NDEFReader.reading_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader/reading_event",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-onreading"
+        ]
+      },
+      {
+        "id": "api.NDEFReader.readingerror_event",
+        "name": "api.NDEFReader.readingerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader/readingerror_event",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-onreadingerror"
+        ]
+      },
+      {
+        "id": "api.NDEFReader.scan",
+        "name": "api.NDEFReader.scan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader/scan",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-scan"
+        ]
+      },
+      {
+        "id": "api.NDEFReader.write",
+        "name": "api.NDEFReader.write",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReader/write",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-write"
+        ]
+      },
+      {
+        "id": "api.NDEFReadingEvent",
+        "name": "api.NDEFReadingEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReadingEvent",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreadingevent"
+        ]
+      },
+      {
+        "id": "api.NDEFReadingEvent.NDEFReadingEvent",
+        "name": "api.NDEFReadingEvent.NDEFReadingEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReadingEvent/NDEFReadingEvent",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-constructor"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord",
+        "name": "api.NDEFRecord",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.NDEFRecord",
+        "name": "api.NDEFRecord.NDEFRecord",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/NDEFRecord",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-constructor"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.data",
+        "name": "api.NDEFRecord.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/data",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-data"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.encoding",
+        "name": "api.NDEFRecord.encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/encoding",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-encoding"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.id",
+        "name": "api.NDEFRecord.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/id",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-id"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.lang",
+        "name": "api.NDEFRecord.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/lang",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-lang"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.mediaType",
+        "name": "api.NDEFRecord.mediaType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/mediaType",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-mediatype"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.recordType",
+        "name": "api.NDEFRecord.recordType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/recordType",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-recordtype"
+        ]
+      },
+      {
+        "id": "api.NDEFRecord.toRecords",
+        "name": "api.NDEFRecord.toRecords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord/toRecords",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefrecord-torecords"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "webnfc",
+        "name": "Web NFC",
+        "statusUrl": "https://caniuse.com/webnfc",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 5700853265596416,
+        "name": "Web NFC: NDEFReader makeReadOnly()",
+        "statusUrl": "https://chromestatus.com/feature/5700853265596416",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreader-makereadonly"
+        ]
+      },
+      {
         "id": 6261030015467520,
+        "name": "Web NFC",
+        "statusUrl": "https://chromestatus.com/feature/6261030015467520",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/"
+        ],
         "representative": true
       }
     ]

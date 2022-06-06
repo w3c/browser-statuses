@@ -1,14 +1,166 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.exitFullscreen",
+        "name": "api.Document.exitFullscreen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/exitFullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#ref-for-dom-document-exitfullscreen①"
+        ]
+      },
+      {
+        "id": "api.Document.fullscreen",
+        "name": "api.Document.fullscreen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#dom-document-fullscreen"
+        ]
+      },
+      {
+        "id": "api.Document.fullscreenElement",
+        "name": "api.Document.fullscreenElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fullscreenElement",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#ref-for-dom-document-fullscreenelement①"
+        ]
+      },
+      {
+        "id": "api.Document.fullscreenEnabled",
+        "name": "api.Document.fullscreenEnabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fullscreenEnabled",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#ref-for-dom-document-fullscreenenabled①"
+        ]
+      },
+      {
+        "id": "api.Document.fullscreenchange_event",
+        "name": "api.Document.fullscreenchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fullscreenchange_event",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenchange"
+        ]
+      },
+      {
+        "id": "api.Document.fullscreenerror_event",
+        "name": "api.Document.fullscreenerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fullscreenerror_event",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenerror"
+        ]
+      },
+      {
+        "id": "api.Element",
+        "name": "api.Element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-element",
+          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
+          "https://fullscreen.spec.whatwg.org/#api",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
+          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
+        ]
+      },
+      {
+        "id": "api.Element.fullscreenchange_event",
+        "name": "api.Element.fullscreenchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/fullscreenchange_event",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenchange"
+        ]
+      },
+      {
+        "id": "api.Element.fullscreenerror_event",
+        "name": "api.Element.fullscreenerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/fullscreenerror_event",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#handler-document-onfullscreenerror"
+        ]
+      },
+      {
+        "id": "api.Element.requestFullscreen",
+        "name": "api.Element.requestFullscreen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/requestFullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#ref-for-dom-element-requestfullscreen①"
+        ]
+      },
+      {
+        "id": "api.Element.requestFullscreen.options_navigationUI_parameter",
+        "name": "api.Element.requestFullscreen.options_navigationUI_parameter",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#dom-fullscreenoptions-navigationui"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.fullscreenElement",
+        "name": "api.ShadowRoot.fullscreenElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/fullscreenElement",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#ref-for-dom-document-fullscreenelement②"
+        ]
+      },
+      {
+        "id": "css.selectors.backdrop",
+        "name": "css.selectors.backdrop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::backdrop",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#::backdrop-pseudo-element"
+        ]
+      },
+      {
+        "id": "css.selectors.fullscreen",
+        "name": "css.selectors.fullscreen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:fullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#:fullscreen-pseudo-class"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.fullscreen",
+        "name": "http.headers.Feature-Policy.fullscreen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/fullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#permissions-policy-integration"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "fullscreen",
+        "name": "Full Screen API",
+        "statusUrl": "https://caniuse.com/fullscreen",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5188650908254208,
+        "name": "Add FullscreenOptions",
+        "statusUrl": "https://chromestatus.com/feature/5188650908254208",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#api"
+        ]
+      },
+      {
+        "id": 5671161102860288,
+        "name": "Request fullscreen on orientation change",
+        "statusUrl": "https://chromestatus.com/feature/5671161102860288",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/#allowed-to-request-fullscreen"
+        ]
+      },
+      {
         "id": 6596356319739904,
+        "name": "Unprefixed Fullscreen API",
+        "statusUrl": "https://chromestatus.com/feature/6596356319739904",
+        "specUrls": [
+          "https://fullscreen.spec.whatwg.org/"
+        ],
         "representative": true
       }
     ]

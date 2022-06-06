@@ -3,18 +3,43 @@
     "bcd": [
       {
         "id": "css.at-rules.viewport",
+        "name": "css.at-rules.viewport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@viewport",
+        "specUrls": [
+          "https://drafts.csswg.org/css-device-adapt/#atviewport-rule"
+        ],
         "representative": true
+      },
+      {
+        "id": "html.elements.meta.name",
+        "name": "html.elements.meta.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/meta/name",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#standard-metadata-names",
+          "https://drafts.csswg.org/css-device-adapt/#viewport-meta",
+          "https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-delivery-meta"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "css-deviceadaptation",
+        "name": "CSS Device Adaptation",
+        "statusUrl": "https://caniuse.com/css-deviceadaptation",
+        "specUrls": [
+          "https://www.w3.org/TR/css-device-adapt/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 4737164243894272,
+        "name": "CSS Device Adaptation",
+        "statusUrl": "https://chromestatus.com/feature/4737164243894272",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-device-adapt/"
+        ],
         "representative": true
       }
     ]

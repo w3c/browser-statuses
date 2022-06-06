@@ -1,15 +1,387 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.touchcancel_event",
+        "name": "api.Document.touchcancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchcancel_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchcancel"
+        ]
+      },
+      {
+        "id": "api.Document.touchend_event",
+        "name": "api.Document.touchend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchend_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchend"
+        ]
+      },
+      {
+        "id": "api.Document.touchmove_event",
+        "name": "api.Document.touchmove_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchmove_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchmove"
+        ]
+      },
+      {
+        "id": "api.Document.touchstart_event",
+        "name": "api.Document.touchstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchstart_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchstart"
+        ]
+      },
+      {
+        "id": "api.Element.touchcancel_event",
+        "name": "api.Element.touchcancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchcancel_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchcancel"
+        ]
+      },
+      {
+        "id": "api.Element.touchend_event",
+        "name": "api.Element.touchend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchend_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchend"
+        ]
+      },
+      {
+        "id": "api.Element.touchmove_event",
+        "name": "api.Element.touchmove_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchmove_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchmove"
+        ]
+      },
+      {
+        "id": "api.Element.touchstart_event",
+        "name": "api.Element.touchstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchstart_event",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchstart"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontouchcancel",
+        "name": "api.GlobalEventHandlers.ontouchcancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchcancel",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchcancel"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontouchend",
+        "name": "api.GlobalEventHandlers.ontouchend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchend",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchend"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontouchmove",
+        "name": "api.GlobalEventHandlers.ontouchmove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchmove",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchmove"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontouchstart",
+        "name": "api.GlobalEventHandlers.ontouchstart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchstart",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchstart"
+        ]
+      },
+      {
+        "id": "api.Touch",
+        "name": "api.Touch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#touch-interface"
+        ]
+      },
+      {
+        "id": "api.Touch.Touch",
+        "name": "api.Touch.Touch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/Touch",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-constructor"
+        ]
+      },
+      {
+        "id": "api.Touch.clientX",
+        "name": "api.Touch.clientX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/clientX",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-clientx"
+        ]
+      },
+      {
+        "id": "api.Touch.clientY",
+        "name": "api.Touch.clientY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/clientY",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-clienty"
+        ]
+      },
+      {
+        "id": "api.Touch.force",
+        "name": "api.Touch.force",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/force",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-force"
+        ]
+      },
+      {
+        "id": "api.Touch.identifier",
+        "name": "api.Touch.identifier",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/identifier",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-identifier"
+        ]
+      },
+      {
+        "id": "api.Touch.pageX",
+        "name": "api.Touch.pageX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/pageX",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-pagex"
+        ]
+      },
+      {
+        "id": "api.Touch.pageY",
+        "name": "api.Touch.pageY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/pageY",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-pagey"
+        ]
+      },
+      {
+        "id": "api.Touch.radiusX",
+        "name": "api.Touch.radiusX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/radiusX",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-radiusx"
+        ]
+      },
+      {
+        "id": "api.Touch.radiusY",
+        "name": "api.Touch.radiusY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/radiusY",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-radiusy"
+        ]
+      },
+      {
+        "id": "api.Touch.rotationAngle",
+        "name": "api.Touch.rotationAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/rotationAngle",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-rotationangle"
+        ]
+      },
+      {
+        "id": "api.Touch.screenX",
+        "name": "api.Touch.screenX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/screenX",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-screenx"
+        ]
+      },
+      {
+        "id": "api.Touch.screenY",
+        "name": "api.Touch.screenY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/screenY",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-screeny"
+        ]
+      },
+      {
+        "id": "api.Touch.target",
+        "name": "api.Touch.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/target",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-target"
+        ]
+      },
+      {
+        "id": "api.TouchEvent",
+        "name": "api.TouchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#touchevent-interface"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.TouchEvent",
+        "name": "api.TouchEvent.TouchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/TouchEvent",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-constructor"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.altKey",
+        "name": "api.TouchEvent.altKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/altKey",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-altkey"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.changedTouches",
+        "name": "api.TouchEvent.changedTouches",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/changedTouches",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-changedtouches"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.ctrlKey",
+        "name": "api.TouchEvent.ctrlKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/ctrlKey",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-ctrlkey"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.metaKey",
+        "name": "api.TouchEvent.metaKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/metaKey",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-metakey"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.shiftKey",
+        "name": "api.TouchEvent.shiftKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/shiftKey",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-shiftkey"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.targetTouches",
+        "name": "api.TouchEvent.targetTouches",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/targetTouches",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-targettouches"
+        ]
+      },
+      {
+        "id": "api.TouchEvent.touches",
+        "name": "api.TouchEvent.touches",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchEvent/touches",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchevent-touches"
+        ]
+      },
+      {
+        "id": "api.TouchList",
+        "name": "api.TouchList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchList",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#touchlist-interface"
+        ]
+      },
+      {
+        "id": "api.TouchList.item",
+        "name": "api.TouchList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchList/item",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchlist-item"
+        ]
+      },
+      {
+        "id": "api.TouchList.length",
+        "name": "api.TouchList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TouchList/length",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touchlist-length"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "touch",
+        "name": "Touch events",
+        "statusUrl": "https://caniuse.com/touch",
+        "specUrls": [
+          "https://www.w3.org/TR/touch-events/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4764225348042752,
+        "name": "The ontouch* APIs default to disabled on desktop",
+        "statusUrl": "https://chromestatus.com/feature/4764225348042752",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#extensions-to-the-document-interface"
+        ]
+      },
+      {
+        "id": 4923255479599104,
+        "name": "Touch and TouchEvent constructors",
+        "statusUrl": "https://chromestatus.com/feature/4923255479599104",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#touch-interface"
+        ]
+      },
+      {
+        "id": 5185332291043328,
+        "name": "Remove document.createTouchList",
+        "statusUrl": "https://chromestatus.com/feature/5185332291043328",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#extensions-to-the-document-interface"
+        ]
+      },
+      {
+        "id": 5668612064935936,
+        "name": "Remove document.createTouch",
+        "statusUrl": "https://chromestatus.com/feature/5668612064935936",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#extensions-to-the-document-interface"
+        ]
+      },
+      {
+        "id": 5707400183021568,
+        "name": "Intervention: Passive Touch Event Listeners During Fling",
+        "statusUrl": "https://chromestatus.com/feature/5707400183021568",
+        "specUrls": [
+          "https://github.com/w3c/touch-events/issues/76"
+        ]
+      },
+      {
+        "id": 5730982598541312,
+        "name": "Deprecate and remove initTouchEvent",
+        "statusUrl": "https://chromestatus.com/feature/5730982598541312",
+        "specUrls": [
+          "http://w3c.github.io/touch-events/#touchevent-interface"
+        ]
+      },
+      {
         "id": 6156165603917824,
+        "name": "Touch Events",
+        "statusUrl": "https://chromestatus.com/feature/6156165603917824",
+        "specUrls": [
+          "http://www.w3.org/TR/touch-events/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6219454671224832,
+        "name": "disallow preventDefault() on TouchMoves during overscroll",
+        "statusUrl": "https://chromestatus.com/feature/6219454671224832",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#cancelability,https://w3c.github.io/touch-events/#event-touchmove"
+        ]
       }
     ]
   }

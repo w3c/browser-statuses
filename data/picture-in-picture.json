@@ -2,50 +2,190 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Document.exitPictureInPicture",
+        "name": "api.Document.exitPictureInPicture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/exitPictureInPicture",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-document-exitpictureinpicture"
+        ]
+      },
+      {
+        "id": "api.Document.pictureInPictureElement",
+        "name": "api.Document.pictureInPictureElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pictureInPictureElement",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-documentorshadowroot-pictureinpictureelement①⑤"
+        ]
+      },
+      {
+        "id": "api.Document.pictureInPictureEnabled",
+        "name": "api.Document.pictureInPictureEnabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pictureInPictureEnabled",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-document-pictureinpictureenabled"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.autoPictureInPicture",
+        "name": "api.HTMLVideoElement.autoPictureInPicture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/autoPictureInPicture",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#auto-pip"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.disablePictureInPicture",
+        "name": "api.HTMLVideoElement.disablePictureInPicture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/disablePictureInPicture",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#disable-pip"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.enterpictureinpicture_event",
+        "name": "api.HTMLVideoElement.enterpictureinpicture_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/enterpictureinpicture_event",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#eventdef-htmlvideoelement-enterpictureinpicture",
+          "https://w3c.github.io/picture-in-picture/#dom-htmlvideoelement-onenterpictureinpicture"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.leavepictureinpicture_event",
+        "name": "api.HTMLVideoElement.leavepictureinpicture_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/leavepictureinpicture_event",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#eventdef-htmlvideoelement-leavepictureinpicture",
+          "https://w3c.github.io/picture-in-picture/#dom-htmlvideoelement-onleavepictureinpicture"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.requestPictureInPicture",
+        "name": "api.HTMLVideoElement.requestPictureInPicture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestPictureInPicture",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#request-pip"
+        ]
+      },
+      {
+        "id": "api.PictureInPictureEvent",
+        "name": "api.PictureInPictureEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureEvent",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#event-types"
+        ]
+      },
+      {
+        "id": "api.PictureInPictureEvent.PictureInPictureEvent",
+        "name": "api.PictureInPictureEvent.PictureInPictureEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureEvent/PictureInPictureEvent",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#dom-pictureinpictureevent-pictureinpictureevent"
+        ]
+      },
+      {
         "id": "api.PictureInPictureWindow",
+        "name": "api.PictureInPictureWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureWindow",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#interface-picture-in-picture-window"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.PictureInPictureWindow.height",
+        "name": "api.PictureInPictureWindow.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureWindow/height",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-pictureinpicturewindow-height"
+        ]
+      },
+      {
+        "id": "api.PictureInPictureWindow.resize_event",
+        "name": "api.PictureInPictureWindow.resize_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureWindow/resize_event",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#eventdef-pictureinpicturewindow-resize",
+          "https://w3c.github.io/picture-in-picture/#dom-pictureinpicturewindow-onresize"
+        ]
+      },
+      {
+        "id": "api.PictureInPictureWindow.width",
+        "name": "api.PictureInPictureWindow.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureWindow/width",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-pictureinpicturewindow-width"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.pictureInPictureElement",
+        "name": "api.ShadowRoot.pictureInPictureElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pictureInPictureElement",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#ref-for-dom-documentorshadowroot-pictureinpictureelement①⑤"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.picture-in-picture",
+        "name": "http.headers.Feature-Policy.picture-in-picture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/picture-in-picture",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#feature-policy"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "picture-in-picture",
+        "name": "Picture-in-Picture",
+        "statusUrl": "https://caniuse.com/picture-in-picture",
+        "specUrls": [
+          "https://wicg.github.io/picture-in-picture/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4749278882824192,
+        "name": "Skip Ad in Picture-in-Picture window",
+        "statusUrl": "https://chromestatus.com/feature/4749278882824192",
+        "specUrls": [
+          "https://wicg.github.io/picture-in-picture/#media-session"
+        ]
+      },
+      {
+        "id": 5317876315586560,
+        "name": "Auto Picture-in-Picture",
+        "statusUrl": "https://chromestatus.com/feature/5317876315586560",
+        "specUrls": [
+          "https://wicg.github.io/picture-in-picture/#auto-pip"
+        ]
+      },
+      {
+        "id": 5719215132639232,
+        "name": "Expose Picture-in-Picture Window in leavepictureinpicture event",
+        "statusUrl": "https://chromestatus.com/feature/5719215132639232",
+        "specUrls": [
+          "https://github.com/w3c/picture-in-picture/pull/189"
+        ]
+      },
+      {
         "id": 5729206566649856,
+        "name": "Picture-in-Picture (PiP)",
+        "statusUrl": "https://chromestatus.com/feature/5729206566649856",
+        "specUrls": [
+          "https://wicg.github.io/picture-in-picture/"
+        ],
         "representative": true
-      }
-    ],
-    "manual": [
-      {
-        "ua": "safari",
-        "status": "consideration",
-        "source": "feedback",
-        "date": "2019-04-17",
-        "comment": "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
       },
       {
-        "ua": "safari_ios",
-        "status": "consideration",
-        "source": "feedback",
-        "date": "2019-04-17",
-        "comment": "Safari ships an equivalent proprietary API for Picture-in-Picture, but not the actual Picture-in-Picture API for now"
-      },
-      {
-        "ua": "firefox_android",
-        "status": "consideration",
-        "source": "feedback",
-        "date": "2019-04-17",
-        "comment": "Firefox for Android plays fullscreen in Picture-in-Picture when the home button is pressed, but does not implement the actual Picture-in-Picture API for now"
-      },
-      {
-        "ua": "opera",
-        "status": "consideration",
-        "source": "feedback",
-        "date": "2019-04-17",
-        "comment": "Opera provides an equivalent proprietary feature named Video Pop Out, which allows users to use Picture-in-Picture mode for all playing videos, but does not implement the actual Picture-in-Picture API for now"
+        "id": 6259534815297536,
+        "name": "CSS pseudo-class \":picture-in-picture\"",
+        "statusUrl": "https://chromestatus.com/feature/6259534815297536",
+        "specUrls": [
+          "https://wicg.github.io/picture-in-picture/#css-pseudo-class"
+        ]
       }
     ]
   }

@@ -1,8 +1,22 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLInputElement.capture",
+        "name": "api.HTMLInputElement.capture",
+        "specUrls": [
+          "https://w3c.github.io/html-media-capture/#dom-htmlinputelement-capture"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "html-media-capture",
+        "name": "HTML Media Capture",
+        "statusUrl": "https://caniuse.com/html-media-capture",
+        "specUrls": [
+          "https://w3c.github.io/html-media-capture/"
+        ],
         "representative": true
       }
     ]

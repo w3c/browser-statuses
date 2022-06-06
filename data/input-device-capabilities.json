@@ -1,8 +1,47 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.InputDeviceCapabilities",
+        "name": "api.InputDeviceCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputDeviceCapabilities",
+        "specUrls": [
+          "https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities"
+        ]
+      },
+      {
+        "id": "api.InputDeviceCapabilities.InputDeviceCapabilities",
+        "name": "api.InputDeviceCapabilities.InputDeviceCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputDeviceCapabilities/InputDeviceCapabilities",
+        "specUrls": [
+          "https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-constructor"
+        ]
+      },
+      {
+        "id": "api.InputDeviceCapabilities.firesTouchEvents",
+        "name": "api.InputDeviceCapabilities.firesTouchEvents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputDeviceCapabilities/firesTouchEvents",
+        "specUrls": [
+          "https://wicg.github.io/input-device-capabilities/#dom-inputdevicecapabilities-firestouchevents"
+        ]
+      },
+      {
+        "id": "api.UIEvent.sourceCapabilities",
+        "name": "api.UIEvent.sourceCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/sourceCapabilities",
+        "specUrls": [
+          "https://wicg.github.io/input-device-capabilities/#dom-uievent-sourcecapabilities"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5681847971348480,
+        "name": "UIEvent.sourceCapabilities & InputDeviceCapabilities.firesTouchEvents",
+        "statusUrl": "https://chromestatus.com/feature/5681847971348480",
+        "specUrls": [
+          "http://wicg.github.io/InputDeviceCapabilities/"
+        ],
         "representative": true
       }
     ]

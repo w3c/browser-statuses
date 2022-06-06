@@ -2,13 +2,81 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.PerformanceResourceTiming.serverTiming",
+        "name": "api.PerformanceResourceTiming.serverTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/serverTiming",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#servertiming-attribute"
+        ]
+      },
+      {
         "id": "api.PerformanceServerTiming",
+        "name": "api.PerformanceServerTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#the-performanceservertiming-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.PerformanceServerTiming.description",
+        "name": "api.PerformanceServerTiming.description",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming/description",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#dom-performanceservertiming-description"
+        ]
+      },
+      {
+        "id": "api.PerformanceServerTiming.duration",
+        "name": "api.PerformanceServerTiming.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming/duration",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#dom-performanceservertiming-duration"
+        ]
+      },
+      {
+        "id": "api.PerformanceServerTiming.name",
+        "name": "api.PerformanceServerTiming.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming/name",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#dom-performanceservertiming-name"
+        ]
+      },
+      {
+        "id": "api.PerformanceServerTiming.toJSON",
+        "name": "api.PerformanceServerTiming.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#dom-performanceservertiming-tojson"
+        ]
+      },
+      {
+        "id": "http.headers.Server-Timing",
+        "name": "http.headers.Server-Timing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Server-Timing",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/#the-server-timing-header-field"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "server-timing",
+        "name": "Server Timing",
+        "statusUrl": "https://caniuse.com/server-timing",
+        "specUrls": [
+          "https://www.w3.org/TR/server-timing/"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5695708376072192,
+        "name": "ServerTiming API",
+        "statusUrl": "https://chromestatus.com/feature/5695708376072192",
+        "specUrls": [
+          "https://w3c.github.io/server-timing/"
+        ],
         "representative": true
       }
     ]

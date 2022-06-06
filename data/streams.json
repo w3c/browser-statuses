@@ -1,35 +1,715 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.ByteLengthQueuingStrategy",
+        "name": "api.ByteLengthQueuingStrategy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#blqs-class"
+        ]
+      },
+      {
+        "id": "api.ByteLengthQueuingStrategy.ByteLengthQueuingStrategy",
+        "name": "api.ByteLengthQueuingStrategy.ByteLengthQueuingStrategy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/ByteLengthQueuingStrategy",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#blqs-constructor"
+        ]
+      },
+      {
+        "id": "api.ByteLengthQueuingStrategy.size",
+        "name": "api.ByteLengthQueuingStrategy.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/size",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#blqs-size"
+        ]
+      },
+      {
+        "id": "api.CompressionStream.readable",
+        "name": "api.CompressionStream.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompressionStream/readable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-readable"
+        ]
+      },
+      {
+        "id": "api.CompressionStream.writable",
+        "name": "api.CompressionStream.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompressionStream/writable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-writable"
+        ]
+      },
+      {
+        "id": "api.CountQueuingStrategy",
+        "name": "api.CountQueuingStrategy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#cqs-class"
+        ]
+      },
+      {
+        "id": "api.CountQueuingStrategy.CountQueuingStrategy",
+        "name": "api.CountQueuingStrategy.CountQueuingStrategy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy/CountQueuingStrategy",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-cqs-constructor①"
+        ]
+      },
+      {
+        "id": "api.CountQueuingStrategy.size",
+        "name": "api.CountQueuingStrategy.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy/size",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-cqs-size②"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.readable",
+        "name": "api.DecompressionStream.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream/readable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-readable"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.writable",
+        "name": "api.DecompressionStream.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream/writable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-writable"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController",
+        "name": "api.ReadableByteStreamController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rbs-controller-class"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController.byobRequest",
+        "name": "api.ReadableByteStreamController.byobRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController/byobRequest",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rbs-controller-byob-request②"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController.close",
+        "name": "api.ReadableByteStreamController.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController/close",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rbs-controller-close①"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController.desiredSize",
+        "name": "api.ReadableByteStreamController.desiredSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController/desiredSize",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rbs-controller-desired-size②"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController.enqueue",
+        "name": "api.ReadableByteStreamController.enqueue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController/enqueue",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rbs-controller-enqueue①"
+        ]
+      },
+      {
+        "id": "api.ReadableByteStreamController.error",
+        "name": "api.ReadableByteStreamController.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableByteStreamController/error",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rbs-controller-error①"
+        ]
+      },
+      {
+        "id": "api.ReadableStream",
+        "name": "api.ReadableStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-class"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.ReadableStream",
+        "name": "api.ReadableStream.ReadableStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/ReadableStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-constructor⑤"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.cancel",
+        "name": "api.ReadableStream.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/cancel",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-cancel③"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.getReader",
+        "name": "api.ReadableStream.getReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/getReader",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-get-reader⑤"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.locked",
+        "name": "api.ReadableStream.locked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/locked",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-locked②"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.pipeThrough",
+        "name": "api.ReadableStream.pipeThrough",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/pipeThrough",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-pipe-through②"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.pipeTo",
+        "name": "api.ReadableStream.pipeTo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/pipeTo",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-pipe-to④"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.tee",
+        "name": "api.ReadableStream.tee",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/tee",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-tee②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader",
+        "name": "api.ReadableStreamBYOBReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#byob-reader-class"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader.ReadableStreamBYOBReader",
+        "name": "api.ReadableStreamBYOBReader.ReadableStreamBYOBReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/ReadableStreamBYOBReader",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-byob-reader-constructor①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader.cancel",
+        "name": "api.ReadableStreamBYOBReader.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/cancel",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-generic-reader-cancel②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader.closed",
+        "name": "api.ReadableStreamBYOBReader.closed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/closed",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-generic-reader-closed②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader.read",
+        "name": "api.ReadableStreamBYOBReader.read",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/read",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-byob-reader-read③"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBReader.releaseLock",
+        "name": "api.ReadableStreamBYOBReader.releaseLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBReader/releaseLock",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-byob-reader-release-lock②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBRequest",
+        "name": "api.ReadableStreamBYOBRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBRequest",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-byob-request-class"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBRequest.respond",
+        "name": "api.ReadableStreamBYOBRequest.respond",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBRequest/respond",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-byob-request-respond①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBRequest.respondWithNewView",
+        "name": "api.ReadableStreamBYOBRequest.respondWithNewView",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBRequest/respondWithNewView",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-byob-request-respond-with-new-view①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamBYOBRequest.view",
+        "name": "api.ReadableStreamBYOBRequest.view",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamBYOBRequest/view",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-byob-request-view①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultController",
+        "name": "api.ReadableStreamDefaultController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-default-controller-class"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultController.close",
+        "name": "api.ReadableStreamDefaultController.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController/close",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-default-controller-close①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultController.desiredSize",
+        "name": "api.ReadableStreamDefaultController.desiredSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController/desiredSize",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-default-controller-desired-size②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultController.enqueue",
+        "name": "api.ReadableStreamDefaultController.enqueue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController/enqueue",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-rs-default-controller-enqueue①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultController.error",
+        "name": "api.ReadableStreamDefaultController.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController/error",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-default-controller-error"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader",
+        "name": "api.ReadableStreamDefaultReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#default-reader-class"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader.ReadableStreamDefaultReader",
+        "name": "api.ReadableStreamDefaultReader.ReadableStreamDefaultReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/ReadableStreamDefaultReader",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-reader-constructor①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader.cancel",
+        "name": "api.ReadableStreamDefaultReader.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/cancel",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-generic-reader-cancel②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader.closed",
+        "name": "api.ReadableStreamDefaultReader.closed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/closed",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-generic-reader-closed②"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader.read",
+        "name": "api.ReadableStreamDefaultReader.read",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/read",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-reader-read①"
+        ]
+      },
+      {
+        "id": "api.ReadableStreamDefaultReader.releaseLock",
+        "name": "api.ReadableStreamDefaultReader.releaseLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader/releaseLock",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-reader-release-lock②"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.readable",
+        "name": "api.TextDecoderStream.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/readable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-readable"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.writable",
+        "name": "api.TextDecoderStream.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/writable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-writable"
+        ]
+      },
+      {
+        "id": "api.TextEncoderStream.readable",
+        "name": "api.TextEncoderStream.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/readable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-readable"
+        ]
+      },
+      {
+        "id": "api.TextEncoderStream.writable",
+        "name": "api.TextEncoderStream.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/writable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#dom-generictransformstream-writable"
+        ]
+      },
+      {
+        "id": "api.TransformStream",
+        "name": "api.TransformStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-class"
+        ]
+      },
+      {
+        "id": "api.TransformStream.TransformStream",
+        "name": "api.TransformStream.TransformStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStream/TransformStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ts-constructor④"
+        ]
+      },
+      {
+        "id": "api.TransformStream.readable",
+        "name": "api.TransformStream.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStream/readable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ts-readable②"
+        ]
+      },
+      {
+        "id": "api.TransformStream.writable",
+        "name": "api.TransformStream.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStream/writable",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ts-writable②"
+        ]
+      },
+      {
+        "id": "api.TransformStreamDefaultController",
+        "name": "api.TransformStreamDefaultController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-class"
+        ]
+      },
+      {
+        "id": "api.TransformStreamDefaultController.desiredSize",
+        "name": "api.TransformStreamDefaultController.desiredSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController/desiredSize",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-desired-size"
+        ]
+      },
+      {
+        "id": "api.TransformStreamDefaultController.enqueue",
+        "name": "api.TransformStreamDefaultController.enqueue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController/enqueue",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-enqueue"
+        ]
+      },
+      {
+        "id": "api.TransformStreamDefaultController.error",
+        "name": "api.TransformStreamDefaultController.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController/error",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-error"
+        ]
+      },
+      {
+        "id": "api.TransformStreamDefaultController.terminate",
+        "name": "api.TransformStreamDefaultController.terminate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController/terminate",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-terminate"
+        ]
+      },
+      {
+        "id": "api.WritableStream",
+        "name": "api.WritableStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ws-class"
+        ]
+      },
+      {
+        "id": "api.WritableStream.WritableStream",
+        "name": "api.WritableStream.WritableStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/WritableStream",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-constructor④"
+        ]
+      },
+      {
+        "id": "api.WritableStream.abort",
+        "name": "api.WritableStream.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/abort",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-abort③"
+        ]
+      },
+      {
+        "id": "api.WritableStream.getWriter",
+        "name": "api.WritableStream.getWriter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/getWriter",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-get-writer①"
+        ]
+      },
+      {
+        "id": "api.WritableStream.locked",
+        "name": "api.WritableStream.locked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/locked",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-locked②"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultController",
+        "name": "api.WritableStreamDefaultController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ws-default-controller-class"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultController.error",
+        "name": "api.WritableStreamDefaultController.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/error",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-default-controller-error①"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultController.signal",
+        "name": "api.WritableStreamDefaultController.signal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultController/signal",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-default-controller-signal①"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter",
+        "name": "api.WritableStreamDefaultWriter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#default-writer-class"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.WritableStreamDefaultWriter",
+        "name": "api.WritableStreamDefaultWriter.WritableStreamDefaultWriter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/WritableStreamDefaultWriter",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-constructor①"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.abort",
+        "name": "api.WritableStreamDefaultWriter.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/abort",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-abort④"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.close",
+        "name": "api.WritableStreamDefaultWriter.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/close",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-close⑦"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.closed",
+        "name": "api.WritableStreamDefaultWriter.closed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/closed",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-closed②"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.desiredSize",
+        "name": "api.WritableStreamDefaultWriter.desiredSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/desiredSize",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-desired-size⑥"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.ready",
+        "name": "api.WritableStreamDefaultWriter.ready",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/ready",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-ready⑨"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.releaseLock",
+        "name": "api.WritableStreamDefaultWriter.releaseLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/releaseLock",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-release-lock②"
+        ]
+      },
+      {
+        "id": "api.WritableStreamDefaultWriter.write",
+        "name": "api.WritableStreamDefaultWriter.write",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStreamDefaultWriter/write",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-default-writer-write①②"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "streams",
+        "name": "Streams",
+        "statusUrl": "https://caniuse.com/streams",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
-      {
-        "id": 6605041225957376,
-        "representative": true
-      },
       {
         "id": 4531143755956224,
         "manual": true,
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5928498656968704
+        "id": 4535319661641728,
+        "name": "Streams API: Byte Streams",
+        "statusUrl": "https://chromestatus.com/feature/4535319661641728",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/"
+        ]
       },
       {
-        "id": 5466425791610880
+        "id": 5298733486964736,
+        "name": "Streams API: transferable streams",
+        "statusUrl": "https://chromestatus.com/feature/5298733486964736",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5440098147500032,
+        "name": "Streams API: WritableStream close()",
+        "statusUrl": "https://chromestatus.com/feature/5440098147500032",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ws-close"
+        ]
+      },
+      {
+        "id": 5466425791610880,
+        "name": "Streams API: TransformStream",
+        "statusUrl": "https://chromestatus.com/feature/5466425791610880",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5698931422920704,
+        "name": "WritableStream controller AbortSignal",
+        "statusUrl": "https://chromestatus.com/feature/5698931422920704",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#writablestreamdefaultcontroller-signal"
+        ]
+      },
+      {
+        "id": 5711333280448512,
+        "name": "Expose ReadableStreamDefaultController interface",
+        "statusUrl": "https://chromestatus.com/feature/5711333280448512",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-default-controller-class-definition"
+        ]
+      },
+      {
+        "id": 5928498656968704,
+        "name": "Streams API: WritableStream",
+        "statusUrl": "https://chromestatus.com/feature/5928498656968704",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ws"
+        ]
+      },
+      {
+        "id": 6067348976959488,
+        "name": "Streams API: Piping",
+        "statusUrl": "https://chromestatus.com/feature/6067348976959488",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-pipe-through"
+        ]
+      },
+      {
+        "id": 6605041225957376,
+        "name": "Streams API",
+        "statusUrl": "https://chromestatus.com/feature/6605041225957376",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/"
+        ],
+        "representative": true
       }
     ],
     "webkit": [
       {
-        "id": "specification-streams",
-        "representative": true
+        "id": "feature-readable-streams",
+        "name": "Readable Streams",
+        "statusUrl": "https://webkit.org/status/#feature-readable-streams",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs"
+        ]
       },
       {
-        "id": "feature-readable-streams"
+        "id": "specification-streams",
+        "name": "Streams",
+        "statusUrl": "https://webkit.org/status/#specification-streams",
+        "specUrls": [
+          "https://streams.spec.whatwg.org"
+        ],
+        "representative": true
       }
     ]
   },

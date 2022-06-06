@@ -86,39 +86,715 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSSFontFaceRule",
+        "name": "api.CSSFontFaceRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSFontFaceRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#om-fontface"
+        ]
+      },
+      {
+        "id": "api.CSSFontFaceRule.style",
+        "name": "api.CSSFontFaceRule.style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSFontFaceRule/style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#dom-cssfontfacerule-style"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face",
+        "name": "css.at-rules.font-face",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-face-rule"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.ascent-override",
+        "name": "css.at-rules.font-face.ascent-override",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/ascent-override",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.descent-override",
+        "name": "css.at-rules.font-face.descent-override",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/descent-override",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-display",
+        "name": "css.at-rules.font-face.font-display",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-display-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-family",
+        "name": "css.at-rules.font-face.font-family",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-family",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-family-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-stretch",
+        "name": "css.at-rules.font-face.font-stretch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-stretch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-prop-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-style",
+        "name": "css.at-rules.font-face.font-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-prop-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-variant",
+        "name": "css.at-rules.font-face.font-variant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variant",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-prop"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-variation-settings",
+        "name": "css.at-rules.font-face.font-variation-settings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-variation-settings",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-rend-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.font-weight",
+        "name": "css.at-rules.font-face.font-weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/font-weight",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-prop-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.line-gap-override",
+        "name": "css.at-rules.font-face.line-gap-override",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/line-gap-override",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-metrics-override-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.size-adjust",
+        "name": "css.at-rules.font-face.size-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-5/#size-adjust-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.src",
+        "name": "css.at-rules.font-face.src",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/src",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#src-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.unicode-range",
+        "name": "css.at-rules.font-face.unicode-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face/unicode-range",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#unicode-range-desc"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-feature-values",
+        "name": "css.at-rules.font-feature-values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-feature-values",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-feature-values"
+        ]
+      },
+      {
+        "id": "css.properties.font",
+        "name": "css.properties.font",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-family",
+        "name": "css.properties.font-family",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-family",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#generic-font-families",
+          "https://drafts.csswg.org/css-fonts/#font-family-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-feature-settings",
+        "name": "css.properties.font-feature-settings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-feature-settings",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-feature-settings-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-kerning",
+        "name": "css.properties.font-kerning",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-kerning",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-kerning-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-language-override",
+        "name": "css.properties.font-language-override",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-language-override",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-language-override-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-optical-sizing",
+        "name": "css.properties.font-optical-sizing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-optical-sizing-def"
+        ]
+      },
+      {
+        "id": "css.properties.font-size",
+        "name": "css.properties.font-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-size-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-size-adjust",
+        "name": "css.properties.font-size-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-5/#font-size-adjust-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-size-adjust.two-values",
+        "name": "css.properties.font-size-adjust.two-values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-size-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-5/#font-size-adjust-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-stretch",
+        "name": "css.properties.font-stretch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-stretch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-stretch-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-style",
+        "name": "css.properties.font-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-style-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-synthesis",
+        "name": "css.properties.font-synthesis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-synthesis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-synthesis"
+        ]
+      },
+      {
+        "id": "css.properties.font-synthesis-small-caps",
+        "name": "css.properties.font-synthesis-small-caps",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-synthesis-small-caps"
+        ]
+      },
+      {
+        "id": "css.properties.font-synthesis-style",
+        "name": "css.properties.font-synthesis-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-synthesis-style"
+        ]
+      },
+      {
+        "id": "css.properties.font-synthesis-weight",
+        "name": "css.properties.font-synthesis-weight",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-synthesis-weight"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant",
+        "name": "css.properties.font-variant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-alternates",
+        "name": "css.properties.font-variant-alternates",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-alternates",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-alternates-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-caps",
+        "name": "css.properties.font-variant-caps",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-caps",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-caps-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-east-asian",
+        "name": "css.properties.font-variant-east-asian",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-east-asian-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-ligatures",
+        "name": "css.properties.font-variant-ligatures",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-ligatures-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-numeric",
+        "name": "css.properties.font-variant-numeric",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-numeric-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variant-position",
+        "name": "css.properties.font-variant-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variant-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-position-prop"
+        ]
+      },
+      {
+        "id": "css.properties.font-variation-settings",
+        "name": "css.properties.font-variation-settings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-variation-settings",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variation-settings-def"
+        ]
+      },
+      {
+        "id": "css.properties.font-weight",
+        "name": "css.properties.font-weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/font-weight",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-weight-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-family",
+        "name": "svg.attributes.presentation.font-family",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-family",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#generic-font-families",
+          "https://drafts.csswg.org/css-fonts/#font-family-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-size",
+        "name": "svg.attributes.presentation.font-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-size-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-size-adjust",
+        "name": "svg.attributes.presentation.font-size-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-size-adjust-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-stretch",
+        "name": "svg.attributes.presentation.font-stretch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-stretch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-stretch-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-style",
+        "name": "svg.attributes.presentation.font-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-style-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-variant",
+        "name": "svg.attributes.presentation.font-variant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-variant",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-prop"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.font-weight",
+        "name": "svg.attributes.presentation.font-weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-weight",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-weight-prop"
+        ]
+      }
+    ],
     "caniuse": [
       {
-        "id": "variable-fonts"
+        "id": "css-font-palette",
+        "name": "CSS font-palette",
+        "statusUrl": "https://caniuse.com/css-font-palette",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-4/#propdef-font-palette"
+        ]
+      },
+      {
+        "id": "css-font-rendering-controls",
+        "name": "CSS font-display",
+        "statusUrl": "https://caniuse.com/css-font-rendering-controls",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-4/#font-display-desc"
+        ]
+      },
+      {
+        "id": "css-font-stretch",
+        "name": "CSS font-stretch",
+        "statusUrl": "https://caniuse.com/css-font-stretch",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-3/#font-stretch-prop"
+        ]
+      },
+      {
+        "id": "extended-system-fonts",
+        "name": "ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for font-family",
+        "statusUrl": "https://caniuse.com/extended-system-fonts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#ui-serif-def"
+        ]
+      },
+      {
+        "id": "font-family-system-ui",
+        "name": "system-ui value for font-family",
+        "statusUrl": "https://caniuse.com/font-family-system-ui",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#system-ui-def"
+        ]
+      },
+      {
+        "id": "font-kerning",
+        "name": "CSS3 font-kerning",
+        "statusUrl": "https://caniuse.com/font-kerning",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-fonts/#font-kerning-prop"
+        ]
+      },
+      {
+        "id": "font-size-adjust",
+        "name": "CSS font-size-adjust",
+        "statusUrl": "https://caniuse.com/font-size-adjust",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop"
+        ]
+      },
+      {
+        "id": "font-unicode-range",
+        "name": "Font unicode-range subsetting",
+        "statusUrl": "https://caniuse.com/font-unicode-range",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#unicode-range-desc"
+        ]
+      },
+      {
+        "id": "font-variant-alternates",
+        "name": "CSS font-variant-alternates",
+        "statusUrl": "https://caniuse.com/font-variant-alternates",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-alternates"
+        ]
+      },
+      {
+        "id": "font-variant-numeric",
+        "name": "CSS font-variant-numeric",
+        "statusUrl": "https://caniuse.com/font-variant-numeric",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-3/#propdef-font-variant-numeric"
+        ]
+      },
+      {
+        "id": "variable-fonts",
+        "name": "Variable fonts",
+        "statusUrl": "https://caniuse.com/variable-fonts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-variation-settings-def"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 4708676673732608
+        "id": 4598830058176512,
+        "name": "CSS font-stretch",
+        "statusUrl": "https://chromestatus.com/feature/4598830058176512",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-fonts/#propdef-font-stretch"
+        ]
       },
       {
-        "id": 5764191470223360
+        "id": 4708676673732608,
+        "name": "OpenType variable font support",
+        "statusUrl": "https://chromestatus.com/feature/4708676673732608",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/"
+        ]
       },
       {
-        "id": 5716551491649536
+        "id": 4708736996212736,
+        "name": "Cross Origin Font Loading Restriction",
+        "statusUrl": "https://chromestatus.com/feature/4708736996212736",
+        "specUrls": [
+          "http://www.w3.org/TR/css-fonts-3/#font-fetching-requirements"
+        ]
+      },
+      {
+        "id": 4799947908055040,
+        "name": "CSS font-display",
+        "statusUrl": "https://chromestatus.com/feature/4799947908055040",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-display-desc"
+        ]
+      },
+      {
+        "id": 4889527134978048,
+        "name": "CSS font-kerning",
+        "statusUrl": "https://chromestatus.com/feature/4889527134978048",
+        "specUrls": [
+          "http://www.w3.org/TR/css-fonts-3/#font-kerning-prop"
+        ]
+      },
+      {
+        "id": 4965040604053504,
+        "name": "CSS font-variant-east-asian",
+        "statusUrl": "https://chromestatus.com/feature/4965040604053504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-3/#font-variant-east-asian-prop"
+        ]
+      },
+      {
+        "id": 5184230088769536,
+        "name": "@font-face descriptor advance-override",
+        "statusUrl": "https://chromestatus.com/feature/5184230088769536",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-5/#descdef-font-face-advance-override"
+        ]
+      },
+      {
+        "id": 5640395337760768,
+        "name": "\"system-ui\" generic font family",
+        "statusUrl": "https://chromestatus.com/feature/5640395337760768",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#valdef-font-family-system-ui"
+        ]
+      },
+      {
+        "id": 5640605355999232,
+        "name": "CSS font-synthesis property",
+        "statusUrl": "https://chromestatus.com/feature/5640605355999232",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-synthesis"
+        ]
+      },
+      {
+        "id": 5651198621253632,
+        "name": "@font-face descriptors to override font metrics",
+        "statusUrl": "https://chromestatus.com/feature/5651198621253632",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-metrics-override-desc"
+        ]
+      },
+      {
+        "id": 5652297006710784,
+        "name": "CSS font-display for @font-feature-values",
+        "statusUrl": "https://chromestatus.com/feature/5652297006710784",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-display-font-feature-values"
+        ]
+      },
+      {
+        "id": 5662073285509120,
+        "name": "size-adjust descriptor for @font-face",
+        "statusUrl": "https://chromestatus.com/feature/5662073285509120",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-5/#size-adjust-desc"
+        ]
+      },
+      {
+        "id": 5674031696052224,
+        "name": "font-palette and custom @font-palette-values palettes",
+        "statusUrl": "https://chromestatus.com/feature/5674031696052224",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-4/#propdef-font-palette"
+        ]
+      },
+      {
+        "id": 5674318676623360,
+        "name": "The \"math\" generic font family",
+        "statusUrl": "https://chromestatus.com/feature/5674318676623360",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-family-prop"
+        ]
+      },
+      {
+        "id": 5675317559558144,
+        "name": "xxx-large font size",
+        "statusUrl": "https://chromestatus.com/feature/5675317559558144",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#valdef-font-size-absolute-size"
+        ]
+      },
+      {
+        "id": 5676948229455872,
+        "name": "Precise src: local() matching in CSS @font-faces by PostScript and Full Font Name",
+        "statusUrl": "https://chromestatus.com/feature/5676948229455872",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#local-font-fallback"
+        ]
+      },
+      {
+        "id": 5678497057996800,
+        "name": "CSS font-variant-ligatures",
+        "statusUrl": "https://chromestatus.com/feature/5678497057996800",
+        "specUrls": [
+          "http://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop"
+        ]
+      },
+      {
+        "id": 5685958032752640,
+        "name": "font-optical-sizing",
+        "statusUrl": "https://chromestatus.com/feature/5685958032752640",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-optical-sizing-def"
+        ]
+      },
+      {
+        "id": 5716551491649536,
+        "name": "font-variant-numeric",
+        "statusUrl": "https://chromestatus.com/feature/5716551491649536",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-numeric-prop"
+        ]
+      },
+      {
+        "id": 5720910061371392,
+        "name": "CSS font-size-adjust",
+        "statusUrl": "https://chromestatus.com/feature/5720910061371392",
+        "specUrls": [
+          "http://www.w3.org/TR/css-fonts-3/#propdef-font-size-adjust"
+        ]
+      },
+      {
+        "id": 5741063488667648,
+        "name": "supports <font-technology> for the @font-face src: descriptor",
+        "statusUrl": "https://chromestatus.com/feature/5741063488667648",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-face-src-parsing"
+        ]
+      },
+      {
+        "id": 5764191470223360,
+        "name": "font-variant-caps",
+        "statusUrl": "https://chromestatus.com/feature/5764191470223360",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-variant-caps-prop"
+        ]
+      },
+      {
+        "id": 5831574356492288,
+        "name": "CSS font-feature-settings",
+        "statusUrl": "https://chromestatus.com/feature/5831574356492288",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#font-feature-settings-prop"
+        ]
+      },
+      {
+        "id": 6214741698543616,
+        "name": "Supports keyword format in @font-face src descriptor",
+        "statusUrl": "https://chromestatus.com/feature/6214741698543616",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts/#src-desc"
+        ]
+      },
+      {
+        "id": 6386634616471552,
+        "name": "'font-display: optional' without relayout",
+        "statusUrl": "https://chromestatus.com/feature/6386634616471552",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#valdef-font-face-font-display-optional"
+        ]
       }
     ],
     "webkit": [
       {
-        "id": "feature-variation-fonts"
-      }
-    ],
-    "bcd": [
-      {
-        "id": "css.properties.font-variant-caps"
+        "id": "feature-font-palettes",
+        "name": "Font Palettes",
+        "statusUrl": "https://webkit.org/status/#feature-font-palettes",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#propdef-font-palette"
+        ]
       },
       {
-        "id": "css.properties.font-variant-numeric"
+        "id": "feature-variation-fonts",
+        "name": "Variation Fonts",
+        "statusUrl": "https://webkit.org/status/#feature-variation-fonts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/"
+        ]
       },
       {
-        "id": "css.properties.font-stretch"
+        "id": "specification-css-font-display",
+        "name": "CSS Font Display",
+        "statusUrl": "https://webkit.org/status/#specification-css-font-display",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#font-display-desc"
+        ]
       },
       {
-        "id": "css.properties.font-synthesis"
+        "id": "specification-css-fonts-level-4",
+        "name": "CSS Fonts Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-fonts-level-4",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/"
+        ]
       }
     ]
   }

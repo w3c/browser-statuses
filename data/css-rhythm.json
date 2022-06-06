@@ -1,14 +1,34 @@
 {
   "statusref": {
-    "webkit": [
+    "bcd": [
       {
-        "id": "specification-css-rhythmic-sizing",
-        "representative": true
+        "id": "css.properties.line-height-step",
+        "name": "css.properties.line-height-step",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/line-height-step",
+        "specUrls": [
+          "https://drafts.csswg.org/css-rhythm/#line-height-step"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 5734273533345792
+        "id": 5734273533345792,
+        "name": "CSS line-height-step property",
+        "statusUrl": "https://chromestatus.com/feature/5734273533345792",
+        "specUrls": [
+          "https://drafts.csswg.org/css-rhythm/#line-height-step"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-rhythmic-sizing",
+        "name": "CSS Rhythmic Sizing",
+        "statusUrl": "https://webkit.org/status/#specification-css-rhythmic-sizing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-rhythm/"
+        ],
+        "representative": true
       }
     ]
   },

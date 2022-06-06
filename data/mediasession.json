@@ -2,14 +2,142 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.MediaMetadata",
+        "name": "api.MediaMetadata",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#the-mediametadata-interface"
+        ]
+      },
+      {
+        "id": "api.MediaMetadata.MediaMetadata",
+        "name": "api.MediaMetadata.MediaMetadata",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/MediaMetadata",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediametadata-mediametadata"
+        ]
+      },
+      {
+        "id": "api.MediaMetadata.album",
+        "name": "api.MediaMetadata.album",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/album",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediametadata-album"
+        ]
+      },
+      {
+        "id": "api.MediaMetadata.artist",
+        "name": "api.MediaMetadata.artist",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artist",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediametadata-artist"
+        ]
+      },
+      {
+        "id": "api.MediaMetadata.artwork",
+        "name": "api.MediaMetadata.artwork",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/artwork",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediametadata-artwork"
+        ]
+      },
+      {
+        "id": "api.MediaMetadata.title",
+        "name": "api.MediaMetadata.title",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaMetadata/title",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediametadata-title"
+        ]
+      },
+      {
         "id": "api.MediaSession",
+        "name": "api.MediaSession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSession",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#the-mediasession-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.MediaSession.metadata",
+        "name": "api.MediaSession.metadata",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSession/metadata",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-metadata"
+        ]
+      },
+      {
+        "id": "api.MediaSession.playbackState",
+        "name": "api.MediaSession.playbackState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSession/playbackState",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-playbackstate"
+        ]
+      },
+      {
+        "id": "api.MediaSession.setActionHandler",
+        "name": "api.MediaSession.setActionHandler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSession/setActionHandler",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-setactionhandler"
+        ]
+      },
+      {
+        "id": "api.MediaSession.setCameraActive",
+        "name": "api.MediaSession.setCameraActive",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-setcameraactive"
+        ]
+      },
+      {
+        "id": "api.MediaSession.setMicrophoneActive",
+        "name": "api.MediaSession.setMicrophoneActive",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-setmicrophoneactive"
+        ]
+      },
+      {
+        "id": "api.MediaSession.setPositionState",
+        "name": "api.MediaSession.setPositionState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSession/setPositionState",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasession-setpositionstate"
+        ]
+      },
+      {
+        "id": "api.Navigator.mediaSession",
+        "name": "api.Navigator.mediaSession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaSession",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-navigator-mediasession"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5639924124483584,
+        "name": "Media Session",
+        "statusUrl": "https://chromestatus.com/feature/5639924124483584",
+        "specUrls": [
+          "https://wicg.github.io/mediasession/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5744304695803904,
+        "name": "Media Session API: Video conferencing actions",
+        "statusUrl": "https://chromestatus.com/feature/5744304695803904",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/"
+        ]
+      },
+      {
+        "id": 6140125320839168,
+        "name": "Stop action for Media Session",
+        "statusUrl": "https://chromestatus.com/feature/6140125320839168",
+        "specUrls": [
+          "https://wicg.github.io/mediasession/#dom-mediasessionaction-stop"
+        ]
       }
     ]
   }

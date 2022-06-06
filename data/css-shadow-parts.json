@@ -2,19 +2,58 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Element.part",
+        "name": "api.Element.part",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/part",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/#idl"
+        ]
+      },
+      {
         "id": "css.selectors.part",
+        "name": "css.selectors.part",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::part",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/#part"
+        ],
         "representative": true
+      },
+      {
+        "id": "html.global_attributes.exportparts",
+        "name": "html.global_attributes.exportparts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Global_attributes/exportparts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/#element-attrdef-html-global-exportparts"
+        ]
+      },
+      {
+        "id": "html.global_attributes.part",
+        "name": "html.global_attributes.part",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Global_attributes/part",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/#part-attr"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5763933658939392,
+        "name": "::part pseudo element on shadow hosts",
+        "statusUrl": "https://chromestatus.com/feature/5763933658939392",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-css-shadow-parts",
+        "name": "CSS Shadow Parts",
+        "statusUrl": "https://webkit.org/status/#specification-css-shadow-parts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shadow-parts/"
+        ],
         "representative": true
       }
     ]

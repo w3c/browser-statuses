@@ -1,21 +1,365 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Performance.navigation",
+        "name": "api.Performance.navigation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/navigation",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performance-navigation"
+        ]
+      },
+      {
+        "id": "api.Performance.timing",
+        "name": "api.Performance.timing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/timing",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performance-timing"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigation.redirectCount",
+        "name": "api.PerformanceNavigation.redirectCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigation/redirectCount",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigation-redirectcount"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigation.toJSON",
+        "name": "api.PerformanceNavigation.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigation/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigation-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigation.type",
+        "name": "api.PerformanceNavigation.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigation/type",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigation-type"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming",
+        "name": "api.PerformanceNavigationTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#sec-PerformanceNavigationTiming"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.domComplete",
+        "name": "api.PerformanceNavigationTiming.domComplete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/domComplete",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcomplete"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.domContentLoadedEventEnd",
+        "name": "api.PerformanceNavigationTiming.domContentLoadedEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/domContentLoadedEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcontentloadedeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.domContentLoadedEventStart",
+        "name": "api.PerformanceNavigationTiming.domContentLoadedEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/domContentLoadedEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-domcontentloadedeventstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.domInteractive",
+        "name": "api.PerformanceNavigationTiming.domInteractive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/domInteractive",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-dominteractive"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.loadEventEnd",
+        "name": "api.PerformanceNavigationTiming.loadEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/loadEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-loadeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.loadEventStart",
+        "name": "api.PerformanceNavigationTiming.loadEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/loadEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-loadeventstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.redirectCount",
+        "name": "api.PerformanceNavigationTiming.redirectCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/redirectCount",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-redirectcount"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.toJSON",
+        "name": "api.PerformanceNavigationTiming.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.type",
+        "name": "api.PerformanceNavigationTiming.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/type",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-type"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.unloadEventEnd",
+        "name": "api.PerformanceNavigationTiming.unloadEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/unloadEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-unloadeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceNavigationTiming.unloadEventStart",
+        "name": "api.PerformanceNavigationTiming.unloadEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceNavigationTiming/unloadEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancenavigationtiming-unloadeventstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.connectEnd",
+        "name": "api.PerformanceTiming.connectEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/connectEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-connectend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.connectStart",
+        "name": "api.PerformanceTiming.connectStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/connectStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-connectstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domComplete",
+        "name": "api.PerformanceTiming.domComplete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domComplete",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domcomplete"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domContentLoadedEventEnd",
+        "name": "api.PerformanceTiming.domContentLoadedEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domContentLoadedEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domcontentloadedeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domContentLoadedEventStart",
+        "name": "api.PerformanceTiming.domContentLoadedEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domContentLoadedEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domcontentloadedeventstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domInteractive",
+        "name": "api.PerformanceTiming.domInteractive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domInteractive",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-dominteractive"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domLoading",
+        "name": "api.PerformanceTiming.domLoading",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domLoading",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domloading"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domainLookupEnd",
+        "name": "api.PerformanceTiming.domainLookupEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domainLookupEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domainlookupend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.domainLookupStart",
+        "name": "api.PerformanceTiming.domainLookupStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/domainLookupStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-domainlookupstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.fetchStart",
+        "name": "api.PerformanceTiming.fetchStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/fetchStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-fetchstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.loadEventEnd",
+        "name": "api.PerformanceTiming.loadEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/loadEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-loadeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.loadEventStart",
+        "name": "api.PerformanceTiming.loadEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/loadEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-loadeventstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.navigationStart",
+        "name": "api.PerformanceTiming.navigationStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/navigationStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-navigationstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.redirectEnd",
+        "name": "api.PerformanceTiming.redirectEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/redirectEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-redirectend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.redirectStart",
+        "name": "api.PerformanceTiming.redirectStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/redirectStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-redirectstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.requestStart",
+        "name": "api.PerformanceTiming.requestStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/requestStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-requeststart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.responseEnd",
+        "name": "api.PerformanceTiming.responseEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/responseEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-responseend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.responseStart",
+        "name": "api.PerformanceTiming.responseStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/responseStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-responsestart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.secureConnectionStart",
+        "name": "api.PerformanceTiming.secureConnectionStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/secureConnectionStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-secureconnectionstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.toJSON",
+        "name": "api.PerformanceTiming.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.unloadEventEnd",
+        "name": "api.PerformanceTiming.unloadEventEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/unloadEventEnd",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-unloadeventend"
+        ]
+      },
+      {
+        "id": "api.PerformanceTiming.unloadEventStart",
+        "name": "api.PerformanceTiming.unloadEventStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceTiming/unloadEventStart",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/#dom-performancetiming-unloadeventstart"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "nav-timing",
+        "name": "Navigation Timing API",
+        "statusUrl": "https://caniuse.com/nav-timing",
+        "specUrls": [
+          "https://www.w3.org/TR/navigation-timing/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5409443269312512,
+        "name": "Navigation Timing 2",
+        "statusUrl": "https://chromestatus.com/feature/5409443269312512",
+        "specUrls": [
+          "https://www.w3.org/TR/navigation-timing-2/#introduction"
+        ]
+      },
+      {
         "id": 5584144679567360,
+        "name": "Navigation Timing API",
+        "statusUrl": "https://chromestatus.com/feature/5584144679567360",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/NavigationTiming/Overview.html"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-navigation-timing-level-1",
+        "name": "Navigation Timing Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-navigation-timing-level-1",
+        "specUrls": [
+          "https://www.w3.org/TR/navigation-timing/"
+        ],
         "representative": true
+      },
+      {
+        "id": "specification-navigation-timing-level-2",
+        "name": "Navigation Timing Level 2",
+        "statusUrl": "https://webkit.org/status/#specification-navigation-timing-level-2",
+        "specUrls": [
+          "https://w3c.github.io/navigation-timing/"
+        ]
       }
     ]
   },

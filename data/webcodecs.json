@@ -1,8 +1,871 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AudioData",
+        "name": "api.AudioData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#audiodata-interface"
+        ]
+      },
+      {
+        "id": "api.AudioData.AudioData",
+        "name": "api.AudioData.AudioData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/AudioData",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-audiodata"
+        ]
+      },
+      {
+        "id": "api.AudioData.allocationSize",
+        "name": "api.AudioData.allocationSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/allocationSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-allocationsize"
+        ]
+      },
+      {
+        "id": "api.AudioData.clone",
+        "name": "api.AudioData.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/clone",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-clone"
+        ]
+      },
+      {
+        "id": "api.AudioData.close",
+        "name": "api.AudioData.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-close"
+        ]
+      },
+      {
+        "id": "api.AudioData.copyTo",
+        "name": "api.AudioData.copyTo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/copyTo",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-copyto"
+        ]
+      },
+      {
+        "id": "api.AudioData.duration",
+        "name": "api.AudioData.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/duration",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-duration"
+        ]
+      },
+      {
+        "id": "api.AudioData.format",
+        "name": "api.AudioData.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/format",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-format"
+        ]
+      },
+      {
+        "id": "api.AudioData.numberOfChannels",
+        "name": "api.AudioData.numberOfChannels",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/numberOfChannels",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-numberofchannels"
+        ]
+      },
+      {
+        "id": "api.AudioData.numberOfFrames",
+        "name": "api.AudioData.numberOfFrames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/numberOfFrames",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-numberofframes"
+        ]
+      },
+      {
+        "id": "api.AudioData.sampleRate",
+        "name": "api.AudioData.sampleRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/sampleRate",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-samplerate"
+        ]
+      },
+      {
+        "id": "api.AudioData.timestamp",
+        "name": "api.AudioData.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioData/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodata-timestamp"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder",
+        "name": "api.AudioDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#audiodecoder-interface"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.AudioDecoder",
+        "name": "api.AudioDecoder.AudioDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/AudioDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#audiodecoder"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.close",
+        "name": "api.AudioDecoder.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-close"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.configure",
+        "name": "api.AudioDecoder.configure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/configure",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-configure"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.decode",
+        "name": "api.AudioDecoder.decode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/decode",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-decode"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.decodeQueueSize",
+        "name": "api.AudioDecoder.decodeQueueSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/decodeQueueSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-decodequeuesize"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.flush",
+        "name": "api.AudioDecoder.flush",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/flush",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-flush"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.isConfigSupported",
+        "name": "api.AudioDecoder.isConfigSupported",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-isconfigsupported"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.reset",
+        "name": "api.AudioDecoder.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/reset",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-reset"
+        ]
+      },
+      {
+        "id": "api.AudioDecoder.state",
+        "name": "api.AudioDecoder.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioDecoder/state",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audiodecoder-state"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder",
+        "name": "api.AudioEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#audioencoder-interface"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.AudioEncoder",
+        "name": "api.AudioEncoder.AudioEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/AudioEncoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-audioencoder"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.close",
+        "name": "api.AudioEncoder.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-close"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.configure",
+        "name": "api.AudioEncoder.configure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/configure",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-configure"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.encode",
+        "name": "api.AudioEncoder.encode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/encode",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-encode"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.encodeQueueSize",
+        "name": "api.AudioEncoder.encodeQueueSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/encodeQueueSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-encodequeuesize"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.flush",
+        "name": "api.AudioEncoder.flush",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/flush",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-flush"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.isConfigSupported",
+        "name": "api.AudioEncoder.isConfigSupported",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-isconfigsupported"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.reset",
+        "name": "api.AudioEncoder.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/reset",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-reset"
+        ]
+      },
+      {
+        "id": "api.AudioEncoder.state",
+        "name": "api.AudioEncoder.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioEncoder/state",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-audioencoder-state"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk",
+        "name": "api.EncodedAudioChunk",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#encodedaudiochunk-interface"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.EncodedAudioChunk",
+        "name": "api.EncodedAudioChunk.EncodedAudioChunk",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/EncodedAudioChunk",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-encodedaudiochunk"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.byteLength",
+        "name": "api.EncodedAudioChunk.byteLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/byteLength",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-bytelength"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.copyTo",
+        "name": "api.EncodedAudioChunk.copyTo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/copyTo",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-copyto"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.duration",
+        "name": "api.EncodedAudioChunk.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/duration",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-duration"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.timestamp",
+        "name": "api.EncodedAudioChunk.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-timestamp"
+        ]
+      },
+      {
+        "id": "api.EncodedAudioChunk.type",
+        "name": "api.EncodedAudioChunk.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedAudioChunk/type",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedaudiochunk-type"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk",
+        "name": "api.EncodedVideoChunk",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#encodedvideochunk-interface"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.EncodedVideoChunk",
+        "name": "api.EncodedVideoChunk.EncodedVideoChunk",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/EncodedVideoChunk",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-encodedvideochunk"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.byteLength",
+        "name": "api.EncodedVideoChunk.byteLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/byteLength",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-bytelength"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.copyTo",
+        "name": "api.EncodedVideoChunk.copyTo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/copyTo",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-copyto"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.duration",
+        "name": "api.EncodedVideoChunk.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/duration",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-duration"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.timestamp",
+        "name": "api.EncodedVideoChunk.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-timestamp"
+        ]
+      },
+      {
+        "id": "api.EncodedVideoChunk.type",
+        "name": "api.EncodedVideoChunk.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk/type",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-encodedvideochunk-type"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder",
+        "name": "api.ImageDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#imagedecoder-interface"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.ImageDecoder",
+        "name": "api.ImageDecoder.ImageDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/ImageDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-imagedecoder"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.close",
+        "name": "api.ImageDecoder.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-close"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.complete",
+        "name": "api.ImageDecoder.complete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/complete",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-complete"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.completed",
+        "name": "api.ImageDecoder.completed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/completed",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-completed"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.decode",
+        "name": "api.ImageDecoder.decode",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-decode"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.isTypeSupported",
+        "name": "api.ImageDecoder.isTypeSupported",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-istypesupported"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.reset",
+        "name": "api.ImageDecoder.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/reset",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-reset"
+        ]
+      },
+      {
+        "id": "api.ImageDecoder.tracks",
+        "name": "api.ImageDecoder.tracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageDecoder/tracks",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-tracks"
+        ]
+      },
+      {
+        "id": "api.ImageTrack",
+        "name": "api.ImageTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#imagetrack-interface"
+        ]
+      },
+      {
+        "id": "api.ImageTrack.animated",
+        "name": "api.ImageTrack.animated",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack/animated",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetrack-animated"
+        ]
+      },
+      {
+        "id": "api.ImageTrack.frameCount",
+        "name": "api.ImageTrack.frameCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack/frameCount",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetrack-framecount"
+        ]
+      },
+      {
+        "id": "api.ImageTrack.repetitionCount",
+        "name": "api.ImageTrack.repetitionCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack/repetitionCount",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetrack-repetitioncount"
+        ]
+      },
+      {
+        "id": "api.ImageTrack.selected",
+        "name": "api.ImageTrack.selected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack/selected",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetrack-selected"
+        ]
+      },
+      {
+        "id": "api.ImageTrackList",
+        "name": "api.ImageTrackList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrackList",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#imagetracklist-interface"
+        ]
+      },
+      {
+        "id": "api.ImageTrackList.length",
+        "name": "api.ImageTrackList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/length",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetracklist-length"
+        ]
+      },
+      {
+        "id": "api.ImageTrackList.ready",
+        "name": "api.ImageTrackList.ready",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/ready",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetracklist-ready"
+        ]
+      },
+      {
+        "id": "api.ImageTrackList.selectedIndex",
+        "name": "api.ImageTrackList.selectedIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/selectedIndex",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetracklist-selectedindex"
+        ]
+      },
+      {
+        "id": "api.ImageTrackList.selectedTrack",
+        "name": "api.ImageTrackList.selectedTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrackList/selectedTrack",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagetracklist-selectedtrack"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace",
+        "name": "api.VideoColorSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#videocolorspace"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.VideoColorSpace",
+        "name": "api.VideoColorSpace.VideoColorSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/VideoColorSpace",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-videocolorspace"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.fullRange",
+        "name": "api.VideoColorSpace.fullRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/fullRange",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-fullrange"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.matrix",
+        "name": "api.VideoColorSpace.matrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/matrix",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-matrix"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.primaries",
+        "name": "api.VideoColorSpace.primaries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/primaries",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-primaries"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.toJSON",
+        "name": "api.VideoColorSpace.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-tojson"
+        ]
+      },
+      {
+        "id": "api.VideoColorSpace.transfer",
+        "name": "api.VideoColorSpace.transfer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoColorSpace/transfer",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videocolorspace-transfer"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder",
+        "name": "api.VideoDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#videodecoder-interface"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.VideoDecoder",
+        "name": "api.VideoDecoder.VideoDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/VideoDecoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-videodecoder"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.close",
+        "name": "api.VideoDecoder.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-close"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.configure",
+        "name": "api.VideoDecoder.configure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/configure",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-configure"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.decode",
+        "name": "api.VideoDecoder.decode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/decode",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-decode"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.decodeQueueSize",
+        "name": "api.VideoDecoder.decodeQueueSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/decodeQueueSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-decodequeuesize"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.flush",
+        "name": "api.VideoDecoder.flush",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/flush",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-flush"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.isConfigSupported",
+        "name": "api.VideoDecoder.isConfigSupported",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-isconfigsupported"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.reset",
+        "name": "api.VideoDecoder.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/reset",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-reset"
+        ]
+      },
+      {
+        "id": "api.VideoDecoder.state",
+        "name": "api.VideoDecoder.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoDecoder/state",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videodecoder-state"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder",
+        "name": "api.VideoEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#videoencoder-interface"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.VideoEncoder",
+        "name": "api.VideoEncoder.VideoEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/VideoEncoder",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-videoencoder"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.close",
+        "name": "api.VideoEncoder.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-close"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.configure",
+        "name": "api.VideoEncoder.configure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/configure",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-configure"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.encode",
+        "name": "api.VideoEncoder.encode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/encode",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-encode"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.encodeQueueSize",
+        "name": "api.VideoEncoder.encodeQueueSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/encodeQueueSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-encodequeuesize"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.flush",
+        "name": "api.VideoEncoder.flush",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-flush"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.isConfigSupported",
+        "name": "api.VideoEncoder.isConfigSupported",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-isconfigsupported"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.reset",
+        "name": "api.VideoEncoder.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/reset",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-reset"
+        ]
+      },
+      {
+        "id": "api.VideoEncoder.state",
+        "name": "api.VideoEncoder.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoEncoder/state",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoencoder-state"
+        ]
+      },
+      {
+        "id": "api.VideoFrame",
+        "name": "api.VideoFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#videoframe-interface"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.VideoFrame",
+        "name": "api.VideoFrame.VideoFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/VideoFrame",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-videoframe"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.allocationSize",
+        "name": "api.VideoFrame.allocationSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/allocationSize",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-allocationsize"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.clone",
+        "name": "api.VideoFrame.clone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/clone",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-clone"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.close",
+        "name": "api.VideoFrame.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/close",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-close"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.codedHeight",
+        "name": "api.VideoFrame.codedHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedHeight",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-codedheight"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.codedRect",
+        "name": "api.VideoFrame.codedRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedRect",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-codedrect"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.codedWidth",
+        "name": "api.VideoFrame.codedWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/codedWidth",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-codedwidth"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.colorSpace",
+        "name": "api.VideoFrame.colorSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/colorSpace",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-colorspace"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.copyTo",
+        "name": "api.VideoFrame.copyTo",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-copyto"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.displayHeight",
+        "name": "api.VideoFrame.displayHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayHeight",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-displayheight"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.displayWidth",
+        "name": "api.VideoFrame.displayWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/displayWidth",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-displaywidth"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.duration",
+        "name": "api.VideoFrame.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/duration",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-duration"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.format",
+        "name": "api.VideoFrame.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/format",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-format"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.timestamp",
+        "name": "api.VideoFrame.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-timestamp"
+        ]
+      },
+      {
+        "id": "api.VideoFrame.visibleRect",
+        "name": "api.VideoFrame.visibleRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoFrame/visibleRect",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-videoframe-visiblerect"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5669293909868544,
+        "name": "WebCodecs",
+        "statusUrl": "https://chromestatus.com/feature/5669293909868544",
+        "specUrls": [
+          "https://wicg.github.io/web-codecs/"
+        ],
         "representative": true
       }
     ]

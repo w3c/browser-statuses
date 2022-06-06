@@ -26,25 +26,3263 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AbortController",
+        "name": "api.AbortController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortController",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abortcontroller"
+        ]
+      },
+      {
+        "id": "api.AbortController.AbortController",
+        "name": "api.AbortController.AbortController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortController/AbortController",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortcontroller-abortcontroller①"
+        ]
+      },
+      {
+        "id": "api.AbortController.abort",
+        "name": "api.AbortController.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortController/abort",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortcontroller-abortcontroller①"
+        ]
+      },
+      {
+        "id": "api.AbortController.signal",
+        "name": "api.AbortController.signal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortController/signal",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortcontroller-signal②"
+        ]
+      },
+      {
+        "id": "api.AbortSignal",
+        "name": "api.AbortSignal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-AbortSignal"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.abort",
+        "name": "api.AbortSignal.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/abort",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-abort①"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.abort.reason_parameter",
+        "name": "api.AbortSignal.abort.reason_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#abortsignal-abort-reason"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.abort_event",
+        "name": "api.AbortSignal.abort_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/abort_event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#eventdef-abortsignal-abort",
+          "https://dom.spec.whatwg.org/#abortsignal-onabort"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.aborted",
+        "name": "api.AbortSignal.aborted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/aborted",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-aborted①"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.reason",
+        "name": "api.AbortSignal.reason",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/reason",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-reason①"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.throwIfAborted",
+        "name": "api.AbortSignal.throwIfAborted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/throwIfAborted",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-throwifaborted①"
+        ]
+      },
+      {
+        "id": "api.AbortSignal.timeout",
+        "name": "api.AbortSignal.timeout",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbortSignal/timeout",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-abortsignal-timeout①"
+        ]
+      },
+      {
+        "id": "api.AbstractRange",
+        "name": "api.AbstractRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abstractrange"
+        ]
+      },
+      {
+        "id": "api.AbstractRange.collapsed",
+        "name": "api.AbstractRange.collapsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange/collapsed",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①"
+        ]
+      },
+      {
+        "id": "api.AbstractRange.endContainer",
+        "name": "api.AbstractRange.endContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①"
+        ]
+      },
+      {
+        "id": "api.AbstractRange.endOffset",
+        "name": "api.AbstractRange.endOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange/endOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①"
+        ]
+      },
+      {
+        "id": "api.AbstractRange.startContainer",
+        "name": "api.AbstractRange.startContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①"
+        ]
+      },
+      {
+        "id": "api.AbstractRange.startOffset",
+        "name": "api.AbstractRange.startOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AbstractRange/startOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①"
+        ]
+      },
+      {
+        "id": "api.Attr",
+        "name": "api.Attr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-attr"
+        ]
+      },
+      {
+        "id": "api.Attr.localName",
+        "name": "api.Attr.localName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/localName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-localname"
+        ]
+      },
+      {
+        "id": "api.Attr.name",
+        "name": "api.Attr.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/name",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-name"
+        ]
+      },
+      {
+        "id": "api.Attr.namespaceURI",
+        "name": "api.Attr.namespaceURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/namespaceURI",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-namespaceuri"
+        ]
+      },
+      {
+        "id": "api.Attr.ownerElement",
+        "name": "api.Attr.ownerElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/ownerElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-ownerelement"
+        ]
+      },
+      {
+        "id": "api.Attr.prefix",
+        "name": "api.Attr.prefix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/prefix",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-prefix"
+        ]
+      },
+      {
+        "id": "api.Attr.specified",
+        "name": "api.Attr.specified",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/specified",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-specified"
+        ]
+      },
+      {
+        "id": "api.Attr.value",
+        "name": "api.Attr.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Attr/value",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-attr-value"
+        ]
+      },
+      {
+        "id": "api.CDATASection",
+        "name": "api.CDATASection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CDATASection",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-cdatasection"
+        ]
+      },
+      {
+        "id": "api.CharacterData",
+        "name": "api.CharacterData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-characterdata"
+        ]
+      },
+      {
+        "id": "api.CharacterData.after",
+        "name": "api.CharacterData.after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/after",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-after①"
+        ]
+      },
+      {
+        "id": "api.CharacterData.appendData",
+        "name": "api.CharacterData.appendData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/appendData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-appenddata"
+        ]
+      },
+      {
+        "id": "api.CharacterData.before",
+        "name": "api.CharacterData.before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/before",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-before①"
+        ]
+      },
+      {
+        "id": "api.CharacterData.data",
+        "name": "api.CharacterData.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/data",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-data"
+        ]
+      },
+      {
+        "id": "api.CharacterData.deleteData",
+        "name": "api.CharacterData.deleteData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/deleteData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-deletedata"
+        ]
+      },
+      {
+        "id": "api.CharacterData.insertData",
+        "name": "api.CharacterData.insertData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/insertData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-insertdata"
+        ]
+      },
+      {
+        "id": "api.CharacterData.length",
+        "name": "api.CharacterData.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/length",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-length"
+        ]
+      },
+      {
+        "id": "api.CharacterData.nextElementSibling",
+        "name": "api.CharacterData.nextElementSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/nextElementSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-nextelementsibling②"
+        ]
+      },
+      {
+        "id": "api.CharacterData.previousElementSibling",
+        "name": "api.CharacterData.previousElementSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/previousElementSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-previouselementsibling②"
+        ]
+      },
+      {
+        "id": "api.CharacterData.remove",
+        "name": "api.CharacterData.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-remove①"
+        ]
+      },
+      {
+        "id": "api.CharacterData.replaceData",
+        "name": "api.CharacterData.replaceData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/replaceData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-replacedata"
+        ]
+      },
+      {
+        "id": "api.CharacterData.replaceWith",
+        "name": "api.CharacterData.replaceWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/replaceWith",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-replacewith①"
+        ]
+      },
+      {
+        "id": "api.CharacterData.substringData",
+        "name": "api.CharacterData.substringData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CharacterData/substringData",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-characterdata-substringdata"
+        ]
+      },
+      {
+        "id": "api.Comment",
+        "name": "api.Comment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Comment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-comment"
+        ]
+      },
+      {
+        "id": "api.Comment.Comment",
+        "name": "api.Comment.Comment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Comment/Comment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-comment-comment①"
+        ]
+      },
+      {
+        "id": "api.CustomEvent",
+        "name": "api.CustomEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CustomEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-customevent"
+        ]
+      },
+      {
+        "id": "api.CustomEvent.CustomEvent",
+        "name": "api.CustomEvent.CustomEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CustomEvent/CustomEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-customevent-customevent"
+        ]
+      },
+      {
+        "id": "api.CustomEvent.detail",
+        "name": "api.CustomEvent.detail",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CustomEvent/detail",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-customevent-detail②"
+        ]
+      },
+      {
+        "id": "api.CustomEvent.initCustomEvent",
+        "name": "api.CustomEvent.initCustomEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CustomEvent/initCustomEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-customevent-initcustomevent"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation",
+        "name": "api.DOMImplementation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-domimplementation"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation.createDocument",
+        "name": "api.DOMImplementation.createDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation/createDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domimplementation-createdocument②"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation.createDocumentType",
+        "name": "api.DOMImplementation.createDocumentType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation/createDocumentType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domimplementation-createdocumenttype①"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation.createHTMLDocument",
+        "name": "api.DOMImplementation.createHTMLDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation/createHTMLDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domimplementation-createhtmldocument①"
+        ]
+      },
+      {
+        "id": "api.DOMImplementation.hasFeature",
+        "name": "api.DOMImplementation.hasFeature",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMImplementation/hasFeature",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-domimplementation-hasfeature"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList",
+        "name": "api.DOMTokenList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-domtokenlist"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.add",
+        "name": "api.DOMTokenList.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/add",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-add①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.contains",
+        "name": "api.DOMTokenList.contains",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/contains",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-contains①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.item",
+        "name": "api.DOMTokenList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/item",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-item①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.length",
+        "name": "api.DOMTokenList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/length",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-length①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.remove",
+        "name": "api.DOMTokenList.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-remove①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.replace",
+        "name": "api.DOMTokenList.replace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/replace",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-replace①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.supports",
+        "name": "api.DOMTokenList.supports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/supports",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-supports①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.toggle",
+        "name": "api.DOMTokenList.toggle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/toggle",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-toggle①"
+        ]
+      },
+      {
+        "id": "api.DOMTokenList.value",
+        "name": "api.DOMTokenList.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMTokenList/value",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-domtokenlist-value②"
+        ]
+      },
+      {
+        "id": "api.Document",
+        "name": "api.Document",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-document",
+          "https://html.spec.whatwg.org/multipage/dom.html#the-document-object",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-document-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-document-interface",
+          "https://w3c.github.io/selection-api/#extensions-to-document-interface"
+        ]
+      },
+      {
+        "id": "api.Document.Document",
+        "name": "api.Document.Document",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/Document",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-document①"
+        ]
+      },
+      {
+        "id": "api.Document.URL",
+        "name": "api.Document.URL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/URL",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-url①"
+        ]
+      },
+      {
+        "id": "api.Document.adoptNode",
+        "name": "api.Document.adoptNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/adoptNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-adoptnode①"
+        ]
+      },
+      {
+        "id": "api.Document.append",
+        "name": "api.Document.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/append",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①"
+        ]
+      },
+      {
+        "id": "api.Document.characterSet",
+        "name": "api.Document.characterSet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/characterSet",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-characterset①"
+        ]
+      },
+      {
+        "id": "api.Document.childElementCount",
+        "name": "api.Document.childElementCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/childElementCount",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-childelementcount"
+        ]
+      },
+      {
+        "id": "api.Document.children",
+        "name": "api.Document.children",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/children",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-children①"
+        ]
+      },
+      {
+        "id": "api.Document.compatMode",
+        "name": "api.Document.compatMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/compatMode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-compatmode①"
+        ]
+      },
+      {
+        "id": "api.Document.contentType",
+        "name": "api.Document.contentType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/contentType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-contenttype①"
+        ]
+      },
+      {
+        "id": "api.Document.createAttribute",
+        "name": "api.Document.createAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createattribute"
+        ]
+      },
+      {
+        "id": "api.Document.createAttributeNS",
+        "name": "api.Document.createAttributeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createAttributeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createattributens"
+        ]
+      },
+      {
+        "id": "api.Document.createCDATASection",
+        "name": "api.Document.createCDATASection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createCDATASection",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createcomment①"
+        ]
+      },
+      {
+        "id": "api.Document.createComment",
+        "name": "api.Document.createComment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createComment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createcomment①"
+        ]
+      },
+      {
+        "id": "api.Document.createDocumentFragment",
+        "name": "api.Document.createDocumentFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createDocumentFragment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createdocumentfragment①"
+        ]
+      },
+      {
+        "id": "api.Document.createElement",
+        "name": "api.Document.createElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createelement①"
+        ]
+      },
+      {
+        "id": "api.Document.createElementNS",
+        "name": "api.Document.createElementNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createElementNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createelementns①"
+        ]
+      },
+      {
+        "id": "api.Document.createEvent",
+        "name": "api.Document.createEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createevent"
+        ]
+      },
+      {
+        "id": "api.Document.createExpression",
+        "name": "api.Document.createExpression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createExpression",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-createexpression"
+        ]
+      },
+      {
+        "id": "api.Document.createNSResolver",
+        "name": "api.Document.createNSResolver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createNSResolver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-creatensresolver"
+        ]
+      },
+      {
+        "id": "api.Document.createNodeIterator",
+        "name": "api.Document.createNodeIterator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createNodeIterator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createnodeiterator"
+        ]
+      },
+      {
+        "id": "api.Document.createProcessingInstruction",
+        "name": "api.Document.createProcessingInstruction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createProcessingInstruction",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createprocessinginstruction①"
+        ]
+      },
+      {
+        "id": "api.Document.createRange",
+        "name": "api.Document.createRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createrange"
+        ]
+      },
+      {
+        "id": "api.Document.createTextNode",
+        "name": "api.Document.createTextNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createTextNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-createtextnode①"
+        ]
+      },
+      {
+        "id": "api.Document.createTreeWalker",
+        "name": "api.Document.createTreeWalker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createTreeWalker",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createtreewalker"
+        ]
+      },
+      {
+        "id": "api.Document.doctype",
+        "name": "api.Document.doctype",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/doctype",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-doctype①"
+        ]
+      },
+      {
+        "id": "api.Document.documentElement",
+        "name": "api.Document.documentElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/documentElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-documentelement①"
+        ]
+      },
+      {
+        "id": "api.Document.documentURI",
+        "name": "api.Document.documentURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/documentURI",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-documenturi①"
+        ]
+      },
+      {
+        "id": "api.Document.evaluate",
+        "name": "api.Document.evaluate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/evaluate",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-evaluate"
+        ]
+      },
+      {
+        "id": "api.Document.firstElementChild",
+        "name": "api.Document.firstElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/firstElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-firstelementchild①"
+        ]
+      },
+      {
+        "id": "api.Document.getElementById",
+        "name": "api.Document.getElementById",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getElementById",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nonelementparentnode-getelementbyid②"
+        ]
+      },
+      {
+        "id": "api.Document.getElementsByClassName",
+        "name": "api.Document.getElementsByClassName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getElementsByClassName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-getelementsbyclassname①"
+        ]
+      },
+      {
+        "id": "api.Document.getElementsByTagName",
+        "name": "api.Document.getElementsByTagName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getElementsByTagName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-getelementsbytagname①"
+        ]
+      },
+      {
+        "id": "api.Document.getElementsByTagNameNS",
+        "name": "api.Document.getElementsByTagNameNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getElementsByTagNameNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-getelementsbytagnamens①"
+        ]
+      },
+      {
+        "id": "api.Document.implementation",
+        "name": "api.Document.implementation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/implementation",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-implementation①"
+        ]
+      },
+      {
+        "id": "api.Document.importNode",
+        "name": "api.Document.importNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/importNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-document-importnode①"
+        ]
+      },
+      {
+        "id": "api.Document.lastElementChild",
+        "name": "api.Document.lastElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/lastElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-lastelementchild①"
+        ]
+      },
+      {
+        "id": "api.Document.prepend",
+        "name": "api.Document.prepend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/prepend",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①"
+        ]
+      },
+      {
+        "id": "api.Document.querySelector",
+        "name": "api.Document.querySelector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/querySelector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselector①"
+        ]
+      },
+      {
+        "id": "api.Document.querySelectorAll",
+        "name": "api.Document.querySelectorAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/querySelectorAll",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①"
+        ]
+      },
+      {
+        "id": "api.Document.replaceChildren",
+        "name": "api.Document.replaceChildren",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/replaceChildren",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment",
+        "name": "api.DocumentFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-documentfragment"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.DocumentFragment",
+        "name": "api.DocumentFragment.DocumentFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/DocumentFragment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-documentfragment-documentfragment①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.append",
+        "name": "api.DocumentFragment.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/append",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.childElementCount",
+        "name": "api.DocumentFragment.childElementCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/childElementCount",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-childelementcount"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.children",
+        "name": "api.DocumentFragment.children",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/children",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-children①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.firstElementChild",
+        "name": "api.DocumentFragment.firstElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/firstElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-firstelementchild①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.getElementById",
+        "name": "api.DocumentFragment.getElementById",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nonelementparentnode-getelementbyid"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.lastElementChild",
+        "name": "api.DocumentFragment.lastElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/lastElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-lastelementchild①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.prepend",
+        "name": "api.DocumentFragment.prepend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/prepend",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.querySelector",
+        "name": "api.DocumentFragment.querySelector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/querySelector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselector①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.querySelectorAll",
+        "name": "api.DocumentFragment.querySelectorAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/querySelectorAll",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①"
+        ]
+      },
+      {
+        "id": "api.DocumentFragment.replaceChildren",
+        "name": "api.DocumentFragment.replaceChildren",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentFragment/replaceChildren",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①"
+        ]
+      },
+      {
+        "id": "api.DocumentType",
+        "name": "api.DocumentType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-documenttype"
+        ]
+      },
+      {
+        "id": "api.DocumentType.after",
+        "name": "api.DocumentType.after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/after",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-after①"
+        ]
+      },
+      {
+        "id": "api.DocumentType.before",
+        "name": "api.DocumentType.before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/before",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-before①"
+        ]
+      },
+      {
+        "id": "api.DocumentType.remove",
+        "name": "api.DocumentType.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-remove①"
+        ]
+      },
+      {
+        "id": "api.DocumentType.replaceWith",
+        "name": "api.DocumentType.replaceWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/replaceWith",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-replacewith①"
+        ]
+      },
+      {
+        "id": "api.Element",
+        "name": "api.Element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-element",
+          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
+          "https://fullscreen.spec.whatwg.org/#api",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
+          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
+        ]
+      },
+      {
+        "id": "api.Element.after",
+        "name": "api.Element.after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/after",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-after①"
+        ]
+      },
+      {
+        "id": "api.Element.append",
+        "name": "api.Element.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/append",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-append①"
+        ]
+      },
+      {
+        "id": "api.Element.assignedSlot",
+        "name": "api.Element.assignedSlot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/assignedSlot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-slotable-assignedslot"
+        ]
+      },
+      {
+        "id": "api.Element.attachShadow",
+        "name": "api.Element.attachShadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/attachShadow",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-attachshadow①"
+        ]
+      },
+      {
+        "id": "api.Element.attachShadow.init_delegatesFocus_parameter",
+        "name": "api.Element.attachShadow.init_delegatesFocus_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-shadowrootinit-delegatesfocus"
+        ]
+      },
+      {
+        "id": "api.Element.attributes",
+        "name": "api.Element.attributes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/attributes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-attributes"
+        ]
+      },
+      {
+        "id": "api.Element.before",
+        "name": "api.Element.before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/before",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-before①"
+        ]
+      },
+      {
+        "id": "api.Element.childElementCount",
+        "name": "api.Element.childElementCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/childElementCount",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-childelementcount"
+        ]
+      },
+      {
+        "id": "api.Element.children",
+        "name": "api.Element.children",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/children",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-children①"
+        ]
+      },
+      {
+        "id": "api.Element.classList",
+        "name": "api.Element.classList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/classList",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-classlist①"
+        ]
+      },
+      {
+        "id": "api.Element.className",
+        "name": "api.Element.className",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/className",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-classname①"
+        ]
+      },
+      {
+        "id": "api.Element.closest",
+        "name": "api.Element.closest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/closest",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-closest①"
+        ]
+      },
+      {
+        "id": "api.Element.firstElementChild",
+        "name": "api.Element.firstElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/firstElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-firstelementchild①"
+        ]
+      },
+      {
+        "id": "api.Element.getAttribute",
+        "name": "api.Element.getAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-getattribute①"
+        ]
+      },
+      {
+        "id": "api.Element.getAttributeNS",
+        "name": "api.Element.getAttributeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-getattributens①"
+        ]
+      },
+      {
+        "id": "api.Element.getAttributeNames",
+        "name": "api.Element.getAttributeNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNames",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-getattributenames①"
+        ]
+      },
+      {
+        "id": "api.Element.getAttributeNode",
+        "name": "api.Element.getAttributeNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getattributenode"
+        ]
+      },
+      {
+        "id": "api.Element.getAttributeNodeNS",
+        "name": "api.Element.getAttributeNodeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAttributeNodeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getattributenodens"
+        ]
+      },
+      {
+        "id": "api.Element.getElementsByClassName",
+        "name": "api.Element.getElementsByClassName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByClassName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-getelementsbyclassname"
+        ]
+      },
+      {
+        "id": "api.Element.getElementsByTagName",
+        "name": "api.Element.getElementsByTagName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByTagName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getelementsbytagname"
+        ]
+      },
+      {
+        "id": "api.Element.getElementsByTagNameNS",
+        "name": "api.Element.getElementsByTagNameNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getElementsByTagNameNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getelementsbytagnamens"
+        ]
+      },
+      {
+        "id": "api.Element.hasAttribute",
+        "name": "api.Element.hasAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/hasAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattribute①"
+        ]
+      },
+      {
+        "id": "api.Element.hasAttributeNS",
+        "name": "api.Element.hasAttributeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/hasAttributeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattributens①"
+        ]
+      },
+      {
+        "id": "api.Element.hasAttributes",
+        "name": "api.Element.hasAttributes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/hasAttributes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-hasattributes①"
+        ]
+      },
+      {
+        "id": "api.Element.id",
+        "name": "api.Element.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/id",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-id①"
+        ]
+      },
+      {
+        "id": "api.Element.insertAdjacentElement",
+        "name": "api.Element.insertAdjacentElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-insertadjacentelement"
+        ]
+      },
+      {
+        "id": "api.Element.insertAdjacentText",
+        "name": "api.Element.insertAdjacentText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentText",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-insertadjacenttext"
+        ]
+      },
+      {
+        "id": "api.Element.lastElementChild",
+        "name": "api.Element.lastElementChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/lastElementChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-lastelementchild①"
+        ]
+      },
+      {
+        "id": "api.Element.localName",
+        "name": "api.Element.localName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/localName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-localname①"
+        ]
+      },
+      {
+        "id": "api.Element.matches",
+        "name": "api.Element.matches",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/matches",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-matches①"
+        ]
+      },
+      {
+        "id": "api.Element.namespaceURI",
+        "name": "api.Element.namespaceURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/namespaceURI",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-namespaceuri①"
+        ]
+      },
+      {
+        "id": "api.Element.nextElementSibling",
+        "name": "api.Element.nextElementSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/nextElementSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-nextelementsibling②"
+        ]
+      },
+      {
+        "id": "api.Element.prefix",
+        "name": "api.Element.prefix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/prefix",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-prefix①"
+        ]
+      },
+      {
+        "id": "api.Element.prepend",
+        "name": "api.Element.prepend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/prepend",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-prepend①"
+        ]
+      },
+      {
+        "id": "api.Element.previousElementSibling",
+        "name": "api.Element.previousElementSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/previousElementSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nondocumenttypechildnode-previouselementsibling②"
+        ]
+      },
+      {
+        "id": "api.Element.querySelector",
+        "name": "api.Element.querySelector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/querySelector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①"
+        ]
+      },
+      {
+        "id": "api.Element.querySelectorAll",
+        "name": "api.Element.querySelectorAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/querySelectorAll",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-queryselectorall①"
+        ]
+      },
+      {
+        "id": "api.Element.remove",
+        "name": "api.Element.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-remove①"
+        ]
+      },
+      {
+        "id": "api.Element.removeAttribute",
+        "name": "api.Element.removeAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/removeAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-removeattribute①"
+        ]
+      },
+      {
+        "id": "api.Element.removeAttributeNS",
+        "name": "api.Element.removeAttributeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/removeAttributeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-removeattributens①"
+        ]
+      },
+      {
+        "id": "api.Element.removeAttributeNode",
+        "name": "api.Element.removeAttributeNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/removeAttributeNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-removeattributenode"
+        ]
+      },
+      {
+        "id": "api.Element.replaceChildren",
+        "name": "api.Element.replaceChildren",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/replaceChildren",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①"
+        ]
+      },
+      {
+        "id": "api.Element.replaceWith",
+        "name": "api.Element.replaceWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/replaceWith",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-childnode-replacewith①"
+        ]
+      },
+      {
+        "id": "api.Element.setAttribute",
+        "name": "api.Element.setAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-setattribute①"
+        ]
+      },
+      {
+        "id": "api.Element.setAttributeNS",
+        "name": "api.Element.setAttributeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-setattributens①"
+        ]
+      },
+      {
+        "id": "api.Element.setAttributeNode",
+        "name": "api.Element.setAttributeNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-setattributenode"
+        ]
+      },
+      {
+        "id": "api.Element.setAttributeNodeNS",
+        "name": "api.Element.setAttributeNodeNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setAttributeNodeNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-setattributenodens"
+        ]
+      },
+      {
+        "id": "api.Element.shadowRoot",
+        "name": "api.Element.shadowRoot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/shadowRoot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-shadowroot①"
+        ]
+      },
+      {
+        "id": "api.Element.slot",
+        "name": "api.Element.slot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/slot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①"
+        ]
+      },
+      {
+        "id": "api.Element.tagName",
+        "name": "api.Element.tagName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/tagName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-tagname①"
+        ]
+      },
+      {
+        "id": "api.Element.toggleAttribute",
+        "name": "api.Element.toggleAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/toggleAttribute",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-toggleattribute①"
+        ]
+      },
+      {
+        "id": "api.Event",
+        "name": "api.Event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-event"
+        ]
+      },
+      {
+        "id": "api.Event.Event",
+        "name": "api.Event.Event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/Event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-event"
+        ]
+      },
+      {
+        "id": "api.Event.bubbles",
+        "name": "api.Event.bubbles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/bubbles",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-bubbles③"
+        ]
+      },
+      {
+        "id": "api.Event.cancelBubble",
+        "name": "api.Event.cancelBubble",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/cancelBubble",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-cancelbubble①"
+        ]
+      },
+      {
+        "id": "api.Event.cancelable",
+        "name": "api.Event.cancelable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/cancelable",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-cancelable②"
+        ]
+      },
+      {
+        "id": "api.Event.composed",
+        "name": "api.Event.composed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/composed",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-composed①"
+        ]
+      },
+      {
+        "id": "api.Event.composedPath",
+        "name": "api.Event.composedPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/composedPath",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-composedpath①"
+        ]
+      },
+      {
+        "id": "api.Event.currentTarget",
+        "name": "api.Event.currentTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/currentTarget",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-currenttarget②"
+        ]
+      },
+      {
+        "id": "api.Event.defaultPrevented",
+        "name": "api.Event.defaultPrevented",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/defaultPrevented",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-defaultprevented①"
+        ]
+      },
+      {
+        "id": "api.Event.eventPhase",
+        "name": "api.Event.eventPhase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/eventPhase",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-eventphase③"
+        ]
+      },
+      {
+        "id": "api.Event.initEvent",
+        "name": "api.Event.initEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/initEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-initevent①"
+        ]
+      },
+      {
+        "id": "api.Event.isTrusted",
+        "name": "api.Event.isTrusted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/isTrusted",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-istrusted①"
+        ]
+      },
+      {
+        "id": "api.Event.preventDefault",
+        "name": "api.Event.preventDefault",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/preventDefault",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-preventdefault③"
+        ]
+      },
+      {
+        "id": "api.Event.returnValue",
+        "name": "api.Event.returnValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/returnValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-returnvalue"
+        ]
+      },
+      {
+        "id": "api.Event.srcElement",
+        "name": "api.Event.srcElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/srcElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-srcelement"
+        ]
+      },
+      {
+        "id": "api.Event.stopImmediatePropagation",
+        "name": "api.Event.stopImmediatePropagation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/stopImmediatePropagation",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-stopimmediatepropagation①"
+        ]
+      },
+      {
+        "id": "api.Event.stopPropagation",
+        "name": "api.Event.stopPropagation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/stopPropagation",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-stoppropagation①"
+        ]
+      },
+      {
+        "id": "api.Event.target",
+        "name": "api.Event.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/target",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-target③"
+        ]
+      },
+      {
+        "id": "api.Event.timeStamp",
+        "name": "api.Event.timeStamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/timeStamp",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-timestamp①"
+        ]
+      },
+      {
+        "id": "api.Event.type",
+        "name": "api.Event.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Event/type",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-event-type④"
+        ]
+      },
+      {
+        "id": "api.EventTarget",
+        "name": "api.EventTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": "api.EventTarget.EventTarget",
+        "name": "api.EventTarget.EventTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget/EventTarget",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-eventtarget-eventtarget①"
+        ]
+      },
+      {
+        "id": "api.EventTarget.addEventListener",
+        "name": "api.EventTarget.addEventListener",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget/addEventListener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-eventtarget-addeventlistener③"
+        ]
+      },
+      {
+        "id": "api.EventTarget.addEventListener.options_parameter.options_capture_parameter",
+        "name": "api.EventTarget.addEventListener.options_parameter.options_capture_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventlisteneroptions-capture"
+        ]
+      },
+      {
+        "id": "api.EventTarget.addEventListener.options_parameter.options_once_parameter",
+        "name": "api.EventTarget.addEventListener.options_parameter.options_once_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once"
+        ]
+      },
+      {
+        "id": "api.EventTarget.addEventListener.options_parameter.options_passive_parameter",
+        "name": "api.EventTarget.addEventListener.options_parameter.options_passive_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-passive"
+        ]
+      },
+      {
+        "id": "api.EventTarget.addEventListener.options_parameter.options_signal_parameter",
+        "name": "api.EventTarget.addEventListener.options_parameter.options_signal_parameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-signal"
+        ]
+      },
+      {
+        "id": "api.EventTarget.dispatchEvent",
+        "name": "api.EventTarget.dispatchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget/dispatchEvent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-eventtarget-dispatchevent③"
+        ]
+      },
+      {
+        "id": "api.EventTarget.removeEventListener",
+        "name": "api.EventTarget.removeEventListener",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventTarget/removeEventListener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-eventtarget-removeeventlistener②"
+        ]
+      },
+      {
+        "id": "api.HTMLCollection",
+        "name": "api.HTMLCollection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCollection",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-htmlcollection"
+        ]
+      },
+      {
+        "id": "api.HTMLCollection.item",
+        "name": "api.HTMLCollection.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCollection/item",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-htmlcollection-item①"
+        ]
+      },
+      {
+        "id": "api.HTMLCollection.length",
+        "name": "api.HTMLCollection.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCollection/length",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-htmlcollection-length①"
+        ]
+      },
+      {
+        "id": "api.HTMLCollection.namedItem",
+        "name": "api.HTMLCollection.namedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCollection/namedItem",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-htmlcollection-nameditem-key"
+        ]
+      },
+      {
+        "id": "api.MutationObserver",
+        "name": "api.MutationObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-mutationobserver"
+        ]
+      },
+      {
+        "id": "api.MutationObserver.MutationObserver",
+        "name": "api.MutationObserver.MutationObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver/MutationObserver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationobserver-mutationobserver①"
+        ]
+      },
+      {
+        "id": "api.MutationObserver.disconnect",
+        "name": "api.MutationObserver.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver/disconnect",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationobserver-disconnect①"
+        ]
+      },
+      {
+        "id": "api.MutationObserver.observe",
+        "name": "api.MutationObserver.observe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver/observe",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationobserver-observe②"
+        ]
+      },
+      {
+        "id": "api.MutationObserver.takeRecords",
+        "name": "api.MutationObserver.takeRecords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationObserver/takeRecords",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationobserver-takerecords①"
+        ]
+      },
+      {
+        "id": "api.MutationRecord",
+        "name": "api.MutationRecord",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-mutationrecord"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap",
+        "name": "api.NamedNodeMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-namednodemap"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.getNamedItem",
+        "name": "api.NamedNodeMap.getNamedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/getNamedItem",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-getnameditem"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.getNamedItemNS",
+        "name": "api.NamedNodeMap.getNamedItemNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/getNamedItemNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-getnameditemns"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.item",
+        "name": "api.NamedNodeMap.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/item",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-item"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.length",
+        "name": "api.NamedNodeMap.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/length",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-length"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.removeNamedItem",
+        "name": "api.NamedNodeMap.removeNamedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/removeNamedItem",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-removenameditem"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.removeNamedItemNS",
+        "name": "api.NamedNodeMap.removeNamedItemNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/removeNamedItemNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-removenameditemns"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.setNamedItem",
+        "name": "api.NamedNodeMap.setNamedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/setNamedItem",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-setnameditem"
+        ]
+      },
+      {
+        "id": "api.NamedNodeMap.setNamedItemNS",
+        "name": "api.NamedNodeMap.setNamedItemNS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap/setNamedItemNS",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-namednodemap-setnameditemns"
+        ]
+      },
+      {
+        "id": "api.Node",
+        "name": "api.Node",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-node"
+        ]
+      },
+      {
+        "id": "api.Node.appendChild",
+        "name": "api.Node.appendChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/appendChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-appendchild"
+        ]
+      },
+      {
+        "id": "api.Node.baseURI",
+        "name": "api.Node.baseURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/baseURI",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-baseuri①"
+        ]
+      },
+      {
+        "id": "api.Node.childNodes",
+        "name": "api.Node.childNodes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/childNodes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-childnodes①"
+        ]
+      },
+      {
+        "id": "api.Node.cloneNode",
+        "name": "api.Node.cloneNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/cloneNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-clonenode①"
+        ]
+      },
+      {
+        "id": "api.Node.compareDocumentPosition",
+        "name": "api.Node.compareDocumentPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/compareDocumentPosition",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-comparedocumentposition①"
+        ]
+      },
+      {
+        "id": "api.Node.contains",
+        "name": "api.Node.contains",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/contains",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-contains①"
+        ]
+      },
+      {
+        "id": "api.Node.firstChild",
+        "name": "api.Node.firstChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/firstChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-firstchild①"
+        ]
+      },
+      {
+        "id": "api.Node.getRootNode",
+        "name": "api.Node.getRootNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/getRootNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-getrootnode①"
+        ]
+      },
+      {
+        "id": "api.Node.hasChildNodes",
+        "name": "api.Node.hasChildNodes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/hasChildNodes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-haschildnodes①"
+        ]
+      },
+      {
+        "id": "api.Node.insertBefore",
+        "name": "api.Node.insertBefore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/insertBefore",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-insertbefore"
+        ]
+      },
+      {
+        "id": "api.Node.isConnected",
+        "name": "api.Node.isConnected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isConnected",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-isconnected①"
+        ]
+      },
+      {
+        "id": "api.Node.isDefaultNamespace",
+        "name": "api.Node.isDefaultNamespace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isDefaultNamespace",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-isdefaultnamespace"
+        ]
+      },
+      {
+        "id": "api.Node.isEqualNode",
+        "name": "api.Node.isEqualNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isEqualNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-isequalnode①"
+        ]
+      },
+      {
+        "id": "api.Node.isSameNode",
+        "name": "api.Node.isSameNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isSameNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-issamenode"
+        ]
+      },
+      {
+        "id": "api.Node.lastChild",
+        "name": "api.Node.lastChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/lastChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-lastchild①"
+        ]
+      },
+      {
+        "id": "api.Node.lookupNamespaceURI",
+        "name": "api.Node.lookupNamespaceURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/lookupNamespaceURI",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-lookupnamespaceuri"
+        ]
+      },
+      {
+        "id": "api.Node.lookupPrefix",
+        "name": "api.Node.lookupPrefix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/lookupPrefix",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-lookupprefix"
+        ]
+      },
+      {
+        "id": "api.Node.nextSibling",
+        "name": "api.Node.nextSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/nextSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-nextsibling①"
+        ]
+      },
+      {
+        "id": "api.Node.nodeName",
+        "name": "api.Node.nodeName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/nodeName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-nodename①"
+        ]
+      },
+      {
+        "id": "api.Node.nodeType",
+        "name": "api.Node.nodeType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/nodeType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-nodetype①"
+        ]
+      },
+      {
+        "id": "api.Node.nodeValue",
+        "name": "api.Node.nodeValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/nodeValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-nodevalue"
+        ]
+      },
+      {
+        "id": "api.Node.normalize",
+        "name": "api.Node.normalize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/normalize",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-normalize①"
+        ]
+      },
+      {
+        "id": "api.Node.ownerDocument",
+        "name": "api.Node.ownerDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/ownerDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-ownerdocument①"
+        ]
+      },
+      {
+        "id": "api.Node.parentElement",
+        "name": "api.Node.parentElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/parentElement",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-parentelement①"
+        ]
+      },
+      {
+        "id": "api.Node.parentNode",
+        "name": "api.Node.parentNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/parentNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-parentnode①"
+        ]
+      },
+      {
+        "id": "api.Node.previousSibling",
+        "name": "api.Node.previousSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/previousSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-node-previoussibling①"
+        ]
+      },
+      {
+        "id": "api.Node.removeChild",
+        "name": "api.Node.removeChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/removeChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-removechild"
+        ]
+      },
+      {
+        "id": "api.Node.replaceChild",
+        "name": "api.Node.replaceChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/replaceChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-replacechild"
+        ]
+      },
+      {
+        "id": "api.Node.textContent",
+        "name": "api.Node.textContent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/textContent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-textcontent"
+        ]
+      },
+      {
+        "id": "api.NodeIterator",
+        "name": "api.NodeIterator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-nodeiterator"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.detach",
+        "name": "api.NodeIterator.detach",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/detach",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-detach"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.filter",
+        "name": "api.NodeIterator.filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/filter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-filter"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.nextNode",
+        "name": "api.NodeIterator.nextNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/nextNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-nextnode"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.pointerBeforeReferenceNode",
+        "name": "api.NodeIterator.pointerBeforeReferenceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/pointerBeforeReferenceNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-pointerbeforereferencenode"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.previousNode",
+        "name": "api.NodeIterator.previousNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/previousNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-previousnode"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.referenceNode",
+        "name": "api.NodeIterator.referenceNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/referenceNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-referencenode"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.root",
+        "name": "api.NodeIterator.root",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/root",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-root"
+        ]
+      },
+      {
+        "id": "api.NodeIterator.whatToShow",
+        "name": "api.NodeIterator.whatToShow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeIterator/whatToShow",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-nodeiterator-whattoshow"
+        ]
+      },
+      {
+        "id": "api.NodeList",
+        "name": "api.NodeList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeList",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-nodelist"
+        ]
+      },
+      {
+        "id": "api.NodeList.item",
+        "name": "api.NodeList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeList/item",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nodelist-item①"
+        ]
+      },
+      {
+        "id": "api.NodeList.length",
+        "name": "api.NodeList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NodeList/length",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-nodelist-length①"
+        ]
+      },
+      {
+        "id": "api.ProcessingInstruction",
+        "name": "api.ProcessingInstruction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProcessingInstruction",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-processinginstruction"
+        ]
+      },
+      {
+        "id": "api.ProcessingInstruction.target",
+        "name": "api.ProcessingInstruction.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProcessingInstruction/target",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-processinginstruction-target"
+        ]
+      },
+      {
+        "id": "api.Range",
+        "name": "api.Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-range",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-range-interface",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface"
+        ]
+      },
+      {
+        "id": "api.Range.Range",
+        "name": "api.Range.Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/Range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-range②"
+        ]
+      },
+      {
+        "id": "api.Range.cloneContents",
+        "name": "api.Range.cloneContents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/cloneContents",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-clonecontents"
+        ]
+      },
+      {
+        "id": "api.Range.cloneRange",
+        "name": "api.Range.cloneRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/cloneRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-clonerange"
+        ]
+      },
+      {
+        "id": "api.Range.collapse",
+        "name": "api.Range.collapse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/collapse",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-collapse"
+        ]
+      },
+      {
+        "id": "api.Range.collapsed",
+        "name": "api.Range.collapsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/collapsed",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①"
+        ]
+      },
+      {
+        "id": "api.Range.commonAncestorContainer",
+        "name": "api.Range.commonAncestorContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/commonAncestorContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-commonancestorcontainer②"
+        ]
+      },
+      {
+        "id": "api.Range.compareBoundaryPoints",
+        "name": "api.Range.compareBoundaryPoints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/compareBoundaryPoints",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-compareboundarypoints"
+        ]
+      },
+      {
+        "id": "api.Range.comparePoint",
+        "name": "api.Range.comparePoint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/comparePoint",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-comparepoint①"
+        ]
+      },
+      {
+        "id": "api.Range.deleteContents",
+        "name": "api.Range.deleteContents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/deleteContents",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-deletecontents"
+        ]
+      },
+      {
+        "id": "api.Range.detach",
+        "name": "api.Range.detach",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/detach",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-detach"
+        ]
+      },
+      {
+        "id": "api.Range.endContainer",
+        "name": "api.Range.endContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/endContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①"
+        ]
+      },
+      {
+        "id": "api.Range.endOffset",
+        "name": "api.Range.endOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/endOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①"
+        ]
+      },
+      {
+        "id": "api.Range.extractContents",
+        "name": "api.Range.extractContents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/extractContents",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-extractcontents"
+        ]
+      },
+      {
+        "id": "api.Range.insertNode",
+        "name": "api.Range.insertNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/insertNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-insertnode"
+        ]
+      },
+      {
+        "id": "api.Range.intersectsNode",
+        "name": "api.Range.intersectsNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/intersectsNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-intersectsnode①"
+        ]
+      },
+      {
+        "id": "api.Range.isPointInRange",
+        "name": "api.Range.isPointInRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/isPointInRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-ispointinrange"
+        ]
+      },
+      {
+        "id": "api.Range.selectNode",
+        "name": "api.Range.selectNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/selectNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-selectnode"
+        ]
+      },
+      {
+        "id": "api.Range.selectNodeContents",
+        "name": "api.Range.selectNodeContents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/selectNodeContents",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-selectnodecontents"
+        ]
+      },
+      {
+        "id": "api.Range.setEnd",
+        "name": "api.Range.setEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setEnd",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setend"
+        ]
+      },
+      {
+        "id": "api.Range.setEndAfter",
+        "name": "api.Range.setEndAfter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setEndAfter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setendafter"
+        ]
+      },
+      {
+        "id": "api.Range.setEndBefore",
+        "name": "api.Range.setEndBefore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setEndBefore",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setendbefore"
+        ]
+      },
+      {
+        "id": "api.Range.setStart",
+        "name": "api.Range.setStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setStart",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setstart"
+        ]
+      },
+      {
+        "id": "api.Range.setStartAfter",
+        "name": "api.Range.setStartAfter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setStartAfter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setstartafter"
+        ]
+      },
+      {
+        "id": "api.Range.setStartBefore",
+        "name": "api.Range.setStartBefore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/setStartBefore",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-setstartbefore"
+        ]
+      },
+      {
+        "id": "api.Range.startContainer",
+        "name": "api.Range.startContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/startContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①"
+        ]
+      },
+      {
+        "id": "api.Range.startOffset",
+        "name": "api.Range.startOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/startOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①"
+        ]
+      },
+      {
+        "id": "api.Range.surroundContents",
+        "name": "api.Range.surroundContents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/surroundContents",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-surroundcontents"
+        ]
+      },
+      {
+        "id": "api.Range.toString",
+        "name": "api.Range.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/toString",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-range-stringifier"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot",
+        "name": "api.ShadowRoot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-shadowroot"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.delegatesFocus",
+        "name": "api.ShadowRoot.delegatesFocus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/delegatesFocus",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#shadowroot-delegates-focus"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.host",
+        "name": "api.ShadowRoot.host",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/host",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-shadowroot-host"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.mode",
+        "name": "api.ShadowRoot.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/mode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-shadowroot-mode"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.slotAssignment",
+        "name": "api.ShadowRoot.slotAssignment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-shadowroot-slotassignment"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.slotchange_event",
+        "name": "api.ShadowRoot.slotchange_event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-shadowroot-onslotchange"
+        ]
+      },
+      {
+        "id": "api.StaticRange",
+        "name": "api.StaticRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-staticrange"
+        ]
+      },
+      {
+        "id": "api.StaticRange.StaticRange",
+        "name": "api.StaticRange.StaticRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/StaticRange",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-staticrange-staticrange①"
+        ]
+      },
+      {
+        "id": "api.StaticRange.collapsed",
+        "name": "api.StaticRange.collapsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/collapsed",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-collapsed①"
+        ]
+      },
+      {
+        "id": "api.StaticRange.endContainer",
+        "name": "api.StaticRange.endContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/endContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endcontainer①"
+        ]
+      },
+      {
+        "id": "api.StaticRange.endOffset",
+        "name": "api.StaticRange.endOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/endOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-endoffset①"
+        ]
+      },
+      {
+        "id": "api.StaticRange.startContainer",
+        "name": "api.StaticRange.startContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/startContainer",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startcontainer①"
+        ]
+      },
+      {
+        "id": "api.StaticRange.startOffset",
+        "name": "api.StaticRange.startOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange/startOffset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-range-startoffset①"
+        ]
+      },
+      {
+        "id": "api.Text",
+        "name": "api.Text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-text"
+        ]
+      },
+      {
+        "id": "api.Text.Text",
+        "name": "api.Text.Text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text/Text",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-text-text①"
+        ]
+      },
+      {
+        "id": "api.Text.assignedSlot",
+        "name": "api.Text.assignedSlot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text/assignedSlot",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-slotable-assignedslot"
+        ]
+      },
+      {
+        "id": "api.Text.splitText",
+        "name": "api.Text.splitText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text/splitText",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-text-splittext①"
+        ]
+      },
+      {
+        "id": "api.Text.wholeText",
+        "name": "api.Text.wholeText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Text/wholeText",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-text-wholetext①"
+        ]
+      },
+      {
+        "id": "api.TreeWalker",
+        "name": "api.TreeWalker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-treewalker"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.currentNode",
+        "name": "api.TreeWalker.currentNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/currentNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-treewalker-currentnode①"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.filter",
+        "name": "api.TreeWalker.filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/filter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-filter"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.firstChild",
+        "name": "api.TreeWalker.firstChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/firstChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-firstchild"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.lastChild",
+        "name": "api.TreeWalker.lastChild",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/lastChild",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-lastchild"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.nextNode",
+        "name": "api.TreeWalker.nextNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/nextNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-nextnode"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.nextSibling",
+        "name": "api.TreeWalker.nextSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/nextSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-nextsibling"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.parentNode",
+        "name": "api.TreeWalker.parentNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/parentNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-parentnode"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.previousNode",
+        "name": "api.TreeWalker.previousNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/previousNode",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-previousnode"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.previousSibling",
+        "name": "api.TreeWalker.previousSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/previousSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-previoussibling"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.root",
+        "name": "api.TreeWalker.root",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/root",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-root"
+        ]
+      },
+      {
+        "id": "api.TreeWalker.whatToShow",
+        "name": "api.TreeWalker.whatToShow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TreeWalker/whatToShow",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-treewalker-whattoshow"
+        ]
+      },
+      {
+        "id": "api.Window.event",
+        "name": "api.Window.event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/event",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-window-event"
+        ]
+      },
+      {
+        "id": "api.XMLDocument",
+        "name": "api.XMLDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#xmldocument"
+        ]
+      },
+      {
+        "id": "api.XPathEvaluator",
+        "name": "api.XPathEvaluator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathevaluator"
+        ]
+      },
+      {
+        "id": "api.XPathEvaluator.createExpression",
+        "name": "api.XPathEvaluator.createExpression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator/createExpression",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-createexpression"
+        ]
+      },
+      {
+        "id": "api.XPathEvaluator.createNSResolver",
+        "name": "api.XPathEvaluator.createNSResolver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator/createNSResolver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-creatensresolver"
+        ]
+      },
+      {
+        "id": "api.XPathEvaluator.evaluate",
+        "name": "api.XPathEvaluator.evaluate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator/evaluate",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluatorbase-evaluate"
+        ]
+      },
+      {
+        "id": "api.XPathExpression",
+        "name": "api.XPathExpression",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathExpression",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathexpression"
+        ]
+      },
+      {
+        "id": "api.XPathExpression.evaluate",
+        "name": "api.XPathExpression.evaluate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathExpression/evaluate",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathexpression-evaluate"
+        ]
+      },
+      {
+        "id": "api.XPathResult",
+        "name": "api.XPathResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xpathresult"
+        ]
+      },
+      {
+        "id": "api.XPathResult.booleanValue",
+        "name": "api.XPathResult.booleanValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/booleanValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-booleanvalue"
+        ]
+      },
+      {
+        "id": "api.XPathResult.invalidIteratorState",
+        "name": "api.XPathResult.invalidIteratorState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/invalidIteratorState",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-invaliditeratorstate"
+        ]
+      },
+      {
+        "id": "api.XPathResult.iterateNext",
+        "name": "api.XPathResult.iterateNext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/iterateNext",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-iteratenext"
+        ]
+      },
+      {
+        "id": "api.XPathResult.numberValue",
+        "name": "api.XPathResult.numberValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/numberValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-numbervalue"
+        ]
+      },
+      {
+        "id": "api.XPathResult.resultType",
+        "name": "api.XPathResult.resultType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/resultType",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-resulttype"
+        ]
+      },
+      {
+        "id": "api.XPathResult.singleNodeValue",
+        "name": "api.XPathResult.singleNodeValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/singleNodeValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-singlenodevalue"
+        ]
+      },
+      {
+        "id": "api.XPathResult.snapshotItem",
+        "name": "api.XPathResult.snapshotItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/snapshotItem",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-snapshotitem-index-index"
+        ]
+      },
+      {
+        "id": "api.XPathResult.snapshotLength",
+        "name": "api.XPathResult.snapshotLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/snapshotLength",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-snapshotlength"
+        ]
+      },
+      {
+        "id": "api.XPathResult.stringValue",
+        "name": "api.XPathResult.stringValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/stringValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathresult-stringvalue"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.XSLTProcessor",
+        "name": "api.XSLTProcessor.XSLTProcessor",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-xsltprocessor"
+        ]
+      },
+      {
+        "id": "html.elements.slot",
+        "name": "html.elements.slot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/slot",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/scripting.html#the-slot-element",
+          "https://dom.spec.whatwg.org/#shadow-tree-slots"
+        ]
+      },
+      {
+        "id": "html.global_attributes.slot",
+        "name": "html.global_attributes.slot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Global_attributes/slot",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/dom.html#attr-slot",
+          "https://dom.spec.whatwg.org/#ref-for-dom-element-slot①"
+        ]
+      }
+    ],
     "caniuse": [
+      {
+        "id": "abortcontroller",
+        "name": "AbortController & AbortSignal",
+        "statusUrl": "https://caniuse.com/abortcontroller",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#abortsignal"
+        ]
+      },
+      {
+        "id": "addeventlistener",
+        "name": "EventTarget.addEventListener()",
+        "statusUrl": "https://caniuse.com/addeventlistener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener"
+        ]
+      },
+      {
+        "id": "childnode-remove",
+        "name": "ChildNode.remove()",
+        "statusUrl": "https://caniuse.com/childnode-remove",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-childnode-remove"
+        ]
+      },
+      {
+        "id": "classlist",
+        "name": "classList (DOMTokenList)",
+        "statusUrl": "https://caniuse.com/classlist",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-classlist"
+        ]
+      },
+      {
+        "id": "comparedocumentposition",
+        "name": "Node.compareDocumentPosition()",
+        "statusUrl": "https://caniuse.com/comparedocumentposition",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-comparedocumentposition"
+        ]
+      },
+      {
+        "id": "customevent",
+        "name": "CustomEvent",
+        "statusUrl": "https://caniuse.com/customevent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-customevent"
+        ]
+      },
+      {
+        "id": "dispatchevent",
+        "name": "EventTarget.dispatchEvent",
+        "statusUrl": "https://caniuse.com/dispatchevent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-dispatchevent"
+        ]
+      },
+      {
+        "id": "dom-manip-convenience",
+        "name": "DOM manipulation convenience methods",
+        "statusUrl": "https://caniuse.com/dom-manip-convenience",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-childnode"
+        ]
+      },
+      {
+        "id": "dom-range",
+        "name": "Document Object Model Range",
+        "statusUrl": "https://caniuse.com/dom-range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ranges"
+        ]
+      },
+      {
+        "id": "element-closest",
+        "name": "Element.closest()",
+        "statusUrl": "https://caniuse.com/element-closest",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-closest"
+        ]
+      },
+      {
+        "id": "getelementsbyclassname",
+        "name": "getElementsByClassName",
+        "statusUrl": "https://caniuse.com/getelementsbyclassname",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-getelementsbyclassname"
+        ]
+      },
+      {
+        "id": "insert-adjacent",
+        "name": "Element.insertAdjacentElement() & Element.insertAdjacentText()",
+        "statusUrl": "https://caniuse.com/insert-adjacent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-insertadjacentelement"
+        ]
+      },
+      {
+        "id": "matchesselector",
+        "name": "matches() DOM method",
+        "statusUrl": "https://caniuse.com/matchesselector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-matches"
+        ]
+      },
+      {
+        "id": "mutationobserver",
+        "name": "Mutation Observer",
+        "statusUrl": "https://caniuse.com/mutationobserver",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#mutation-observers"
+        ]
+      },
+      {
+        "id": "once-event-listener",
+        "name": "\"once\" event listener option",
+        "statusUrl": "https://caniuse.com/once-event-listener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once"
+        ]
+      },
+      {
+        "id": "passive-event-listener",
+        "name": "Passive event listeners",
+        "statusUrl": "https://caniuse.com/passive-event-listener",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-passive"
+        ]
+      },
+      {
+        "id": "queryselector",
+        "name": "querySelector/querySelectorAll",
+        "statusUrl": "https://caniuse.com/queryselector",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-queryselector"
+        ]
+      },
       {
         "id": "shadowdomv1",
         "manual": true,
         "lastreviewed": "2022-06-05"
+      },
+      {
+        "id": "textcontent",
+        "name": "Node.textContent",
+        "statusUrl": "https://caniuse.com/textcontent",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-textcontent"
+        ]
       }
     ],
     "chrome": [
       {
+        "id": 4663631736209408,
+        "name": "DOMTokenList validation",
+        "statusUrl": "https://chromestatus.com/feature/4663631736209408",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-supported-tokens"
+        ]
+      },
+      {
         "id": 4667415417847808,
         "manual": true,
         "lastreviewed": "2022-06-05"
+      },
+      {
+        "id": 4759960915279872,
+        "name": "HTMLAllCollection and HTMLCollection's named properties are no longer enumerable",
+        "statusUrl": "https://chromestatus.com/feature/4759960915279872",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#htmlcollection"
+        ]
+      },
+      {
+        "id": 4879378597019648,
+        "name": "Make document.documentURI behavior match document.URL and DOM spec",
+        "statusUrl": "https://chromestatus.com/feature/4879378597019648",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-document-url"
+        ]
+      },
+      {
+        "id": 5021194726146048,
+        "name": "Mutation Observers",
+        "statusUrl": "https://chromestatus.com/feature/5021194726146048",
+        "specUrls": [
+          "http://dom.spec.whatwg.org/#mutation-observers"
+        ]
+      },
+      {
+        "id": 5029737100476416,
+        "name": "AbortSignal.prototype.throwIfAborted",
+        "statusUrl": "https://chromestatus.com/feature/5029737100476416",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-throwifaborted"
+        ]
+      },
+      {
+        "id": 5091201086652416,
+        "name": "Disable recursive use of NodeFilter functions",
+        "statusUrl": "https://chromestatus.com/feature/5091201086652416",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-traversal-active"
+        ]
+      },
+      {
+        "id": 5094346349084672,
+        "name": "2nd arg of document.createElement should be an object",
+        "statusUrl": "https://chromestatus.com/feature/5094346349084672",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createelement"
+        ]
+      },
+      {
+        "id": 5108117087977472,
+        "name": "Dispatch synthetic events (at least until its root) when target and relatedTarget are identical",
+        "statusUrl": "https://chromestatus.com/feature/5108117087977472",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dispatching-events"
+        ]
+      },
+      {
+        "id": 5523910145605632,
+        "name": "High Resolution Time Stamp for Events",
+        "statusUrl": "https://chromestatus.com/feature/5523910145605632",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-timestamp"
+        ]
+      },
+      {
+        "id": 5630331130478592,
+        "name": "Support \"once\" event listener option",
+        "statusUrl": "https://chromestatus.com/feature/5630331130478592",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-once"
+        ]
+      },
+      {
+        "id": 5633112799182848,
+        "name": "AbstractRange superclass",
+        "statusUrl": "https://chromestatus.com/feature/5633112799182848",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-abstractrange"
+        ]
+      },
+      {
+        "id": 5635892366540800,
+        "name": "Remove document.createEvent('WebKitTransitionEvent')",
+        "statusUrl": "https://chromestatus.com/feature/5635892366540800",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createevent"
+        ]
+      },
+      {
+        "id": 5640816202612736,
+        "name": "addEventListener/removeEventListener non-optional arguments",
+        "statusUrl": "https://chromestatus.com/feature/5640816202612736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": 5642501387976704,
+        "name": "AbortSignal.abort() static method",
+        "statusUrl": "https://chromestatus.com/feature/5642501387976704",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-abort"
+        ]
+      },
+      {
+        "id": 5651928583241728,
+        "name": "EventTarget.addEventListener/removeEventListener throws a TypeError",
+        "statusUrl": "https://chromestatus.com/feature/5651928583241728",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-eventtarget"
+        ]
+      },
+      {
+        "id": 5658622220566528,
+        "name": "AbortSignal in addEventListener",
+        "statusUrl": "https://chromestatus.com/feature/5658622220566528",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-signal"
+        ]
+      },
+      {
+        "id": 5666302446272512,
+        "name": "Stop re-signaling a slotchange event.",
+        "statusUrl": "https://chromestatus.com/feature/5666302446272512",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5673616809132032,
+        "name": "getElementsByTagName accepts qualified names",
+        "statusUrl": "https://chromestatus.com/feature/5673616809132032",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#concept-getelementsbytagname"
+        ]
+      },
+      {
+        "id": 5676110549352448,
+        "name": "Node.isConnected",
+        "statusUrl": "https://chromestatus.com/feature/5676110549352448",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-isconnected"
+        ]
+      },
+      {
+        "id": 5676695065460736,
+        "name": "StaticRange constructor",
+        "statusUrl": "https://chromestatus.com/feature/5676695065460736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-staticrange"
+        ]
+      },
+      {
+        "id": 5676852374929408,
+        "name": "Element.toggleAttribute",
+        "statusUrl": "https://chromestatus.com/feature/5676852374929408",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-toggleattribute"
+        ]
+      },
+      {
+        "id": 5688366657961984,
+        "name": "Attr child nodes",
+        "statusUrl": "https://chromestatus.com/feature/5688366657961984",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-attr"
+        ]
+      },
+      {
+        "id": 5690841569951744,
+        "name": "Boolean return value of DOMTokenList replace()",
+        "statusUrl": "https://chromestatus.com/feature/5690841569951744",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-domtokenlist-replace"
+        ]
+      },
+      {
+        "id": 5691753315172352,
+        "name": "DOMTokenList replace()",
+        "statusUrl": "https://chromestatus.com/feature/5691753315172352",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-domtokenlist-replace"
+        ]
+      },
+      {
+        "id": 5701042356355072,
+        "name": "document.origin",
+        "statusUrl": "https://chromestatus.com/feature/5701042356355072",
+        "specUrls": [
+          "https://github.com/whatwg/dom/issues/410"
+        ]
+      },
+      {
+        "id": 5715857510498304,
+        "name": "String 2nd arg of document.createElement should be deprecated",
+        "statusUrl": "https://chromestatus.com/feature/5715857510498304",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createelement"
+        ]
+      },
+      {
+        "id": 5716891221884928,
+        "name": "getAttributeNames() of Element interface",
+        "statusUrl": "https://chromestatus.com/feature/5716891221884928",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-getattributenames"
+        ]
+      },
+      {
+        "id": 5721972856061952,
+        "name": "Constructible & Subclassable EventTarget",
+        "statusUrl": "https://chromestatus.com/feature/5721972856061952",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-eventtarget"
+        ]
+      },
+      {
+        "id": 5723067795898368,
+        "name": "New DOM node methods: prepend, append, before, after, replaceWith",
+        "statusUrl": "https://chromestatus.com/feature/5723067795898368",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#childnode"
+        ]
+      },
+      {
+        "id": 5736556333629440,
+        "name": "Remove: document.createEvent('WebKitAnimationEvent')",
+        "statusUrl": "https://chromestatus.com/feature/5736556333629440",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createevent"
+        ]
+      },
+      {
+        "id": 5736827696709632,
+        "name": "Node.getRootNode(options)",
+        "statusUrl": "https://chromestatus.com/feature/5736827696709632",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-getrootnode"
+        ]
+      },
+      {
+        "id": 5745543795965952,
+        "name": "Passive event listeners",
+        "statusUrl": "https://chromestatus.com/feature/5745543795965952",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventlisteneroptions-passive"
+        ]
+      },
+      {
+        "id": 5768400507764736,
+        "name": "AbortSignal.timeout() Static Method",
+        "statusUrl": "https://chromestatus.com/feature/5768400507764736",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-abortsignal-timeout"
+        ]
+      },
+      {
+        "id": 5892189387227136,
+        "name": "Fire capture event listeners before bubble event listeners at event target",
+        "statusUrl": "https://chromestatus.com/feature/5892189387227136",
+        "specUrls": [
+          "https://github.com/whatwg/dom/pull/686"
+        ]
+      },
+      {
+        "id": 5918678717562880,
+        "name": "createElementNS() : Throw InvalidCharacterError instead of NamespaceError on validating a qualified name",
+        "statusUrl": "https://chromestatus.com/feature/5918678717562880",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#validate"
+        ]
+      },
+      {
+        "id": 6078850731606016,
+        "name": "Document constructor",
+        "statusUrl": "https://chromestatus.com/feature/6078850731606016",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-document"
+        ]
+      },
+      {
+        "id": 6091485216768000,
+        "name": "Deprecate and Remove: setting Event.cancelBubble to false",
+        "statusUrl": "https://chromestatus.com/feature/6091485216768000",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-event-cancelbubble"
+        ]
+      },
+      {
+        "id": 6143552666992640,
+        "name": "ParentNode.replaceChildren() Method",
+        "statusUrl": "https://chromestatus.com/feature/6143552666992640",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-parentnode-replacechildren"
+        ]
+      },
+      {
+        "id": 6212846455095296,
+        "name": "Document.charset setter",
+        "statusUrl": "https://chromestatus.com/feature/6212846455095296",
+        "specUrls": [
+          "https://dom.spec.whatwg.org"
+        ]
+      },
+      {
+        "id": 6540125429301248,
+        "name": "addEventListener AddEventListenerOptions API",
+        "statusUrl": "https://chromestatus.com/feature/6540125429301248",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-eventtarget-addeventlistener"
+        ]
       }
     ],
     "webkit": [
       {
+        "id": "feature-element.closest()",
+        "name": "Element.closest()",
+        "statusUrl": "https://webkit.org/status/#feature-element.closest()",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-element-closest"
+        ]
+      },
+      {
         "id": "feature-shadow-dom",
         "manual": true,
         "lastreviewed": "2022-06-05"
+      },
+      {
+        "id": "specification-dom",
+        "name": "DOM",
+        "statusUrl": "https://webkit.org/status/#specification-dom",
+        "specUrls": [
+          "https://dom.spec.whatwg.org"
+        ]
       }
     ]
   }

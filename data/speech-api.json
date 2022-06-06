@@ -1,15 +1,804 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.SpeechGrammar",
+        "name": "api.SpeechGrammar",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-speechgrammar"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammar.src",
+        "name": "api.SpeechGrammar.src",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/src",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammar-src"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammar.weight",
+        "name": "api.SpeechGrammar.weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammar/weight",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammar-weight"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList",
+        "name": "api.SpeechGrammarList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechgrammarlist"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList.SpeechGrammarList",
+        "name": "api.SpeechGrammarList.SpeechGrammarList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/SpeechGrammarList",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammarlist-speechgrammarlist"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList.addFromString",
+        "name": "api.SpeechGrammarList.addFromString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromString",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromstring"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList.addFromURI",
+        "name": "api.SpeechGrammarList.addFromURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/addFromURI",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammarlist-addfromuri"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList.item",
+        "name": "api.SpeechGrammarList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/item",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammarlist-item"
+        ]
+      },
+      {
+        "id": "api.SpeechGrammarList.length",
+        "name": "api.SpeechGrammarList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechGrammarList/length",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechgrammarlist-length"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition",
+        "name": "api.SpeechRecognition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-section"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.SpeechRecognition",
+        "name": "api.SpeechRecognition.SpeechRecognition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/SpeechRecognition",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-speechrecognition"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.abort",
+        "name": "api.SpeechRecognition.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/abort",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-abort"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.audioend_event",
+        "name": "api.SpeechRecognition.audioend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/audioend_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-audioend",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onaudioend"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.audiostart_event",
+        "name": "api.SpeechRecognition.audiostart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/audiostart_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-audiostart",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onaudiostart"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.continuous",
+        "name": "api.SpeechRecognition.continuous",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/continuous",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-continuous"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.end_event",
+        "name": "api.SpeechRecognition.end_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/end_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-end",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onend"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.error_event",
+        "name": "api.SpeechRecognition.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/error_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-error",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onerror"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.grammars",
+        "name": "api.SpeechRecognition.grammars",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/grammars",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-grammars"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.interimResults",
+        "name": "api.SpeechRecognition.interimResults",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/interimResults",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-interimresults"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.lang",
+        "name": "api.SpeechRecognition.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/lang",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-lang"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.maxAlternatives",
+        "name": "api.SpeechRecognition.maxAlternatives",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/maxAlternatives",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-maxalternatives"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.nomatch_event",
+        "name": "api.SpeechRecognition.nomatch_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/nomatch_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-nomatch",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onnomatch"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.result_event",
+        "name": "api.SpeechRecognition.result_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/result_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-result",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onresult"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.soundend_event",
+        "name": "api.SpeechRecognition.soundend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/soundend_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-soundend",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onsoundend"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.soundstart_event",
+        "name": "api.SpeechRecognition.soundstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/soundstart_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-soundstart",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onsoundstart"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.speechend_event",
+        "name": "api.SpeechRecognition.speechend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/speechend_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-speechend",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onspeechend"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.speechstart_event",
+        "name": "api.SpeechRecognition.speechstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/speechstart_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-speechstart",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onspeechstart"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.start",
+        "name": "api.SpeechRecognition.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/start",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-start"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.start_event",
+        "name": "api.SpeechRecognition.start_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/start_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechrecognition-start",
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-onstart"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognition.stop",
+        "name": "api.SpeechRecognition.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognition/stop",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-stop"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionAlternative",
+        "name": "api.SpeechRecognitionAlternative",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionAlternative",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-alternative"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionAlternative.confidence",
+        "name": "api.SpeechRecognitionAlternative.confidence",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionAlternative/confidence",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionalternative-confidence"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionAlternative.transcript",
+        "name": "api.SpeechRecognitionAlternative.transcript",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionAlternative/transcript",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionalternative-transcript"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionErrorEvent",
+        "name": "api.SpeechRecognitionErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionErrorEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechrecognitionerrorevent"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent",
+        "name": "api.SpeechRecognitionErrorEvent.SpeechRecognitionErrorEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionerrorevent-speechrecognitionerrorevent"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionErrorEvent.error",
+        "name": "api.SpeechRecognitionErrorEvent.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionErrorEvent/error",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionerrorevent-error"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionErrorEvent.message",
+        "name": "api.SpeechRecognitionErrorEvent.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionErrorEvent/message",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionerrorevent-message"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionEvent",
+        "name": "api.SpeechRecognitionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-event"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionEvent.resultIndex",
+        "name": "api.SpeechRecognitionEvent.resultIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionEvent/resultIndex",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionevent-resultindex"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionEvent.results",
+        "name": "api.SpeechRecognitionEvent.results",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionEvent/results",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionevent-results"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResult",
+        "name": "api.SpeechRecognitionResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-result"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResult.isFinal",
+        "name": "api.SpeechRecognitionResult.isFinal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/isFinal",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-isfinal"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResult.item",
+        "name": "api.SpeechRecognitionResult.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/item",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-item"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResult.length",
+        "name": "api.SpeechRecognitionResult.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResult/length",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionresult-length"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResultList",
+        "name": "api.SpeechRecognitionResultList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResultList",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechreco-resultlist"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResultList.item",
+        "name": "api.SpeechRecognitionResultList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResultList/item",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionresultlist-item"
+        ]
+      },
+      {
+        "id": "api.SpeechRecognitionResultList.length",
+        "name": "api.SpeechRecognitionResultList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionResultList/length",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognitionresultlist-length"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis",
+        "name": "api.SpeechSynthesis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#tts-section"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.cancel",
+        "name": "api.SpeechSynthesis.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/cancel",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-cancel"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.getVoices",
+        "name": "api.SpeechSynthesis.getVoices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/getVoices",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-getvoices"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.pause",
+        "name": "api.SpeechSynthesis.pause",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/pause",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-pause"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.paused",
+        "name": "api.SpeechSynthesis.paused",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/paused",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-paused"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.pending",
+        "name": "api.SpeechSynthesis.pending",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/pending",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-pending"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.resume",
+        "name": "api.SpeechSynthesis.resume",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/resume",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-resume"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.speak",
+        "name": "api.SpeechSynthesis.speak",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/speak",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-speak"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.speaking",
+        "name": "api.SpeechSynthesis.speaking",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/speaking",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-speaking"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesis.voiceschanged_event",
+        "name": "api.SpeechSynthesis.voiceschanged_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesis/voiceschanged_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesis-voiceschanged",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesis-onvoiceschanged"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisErrorEvent",
+        "name": "api.SpeechSynthesisErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisErrorEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechsynthesiserrorevent"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisErrorEvent.SpeechSynthesisErrorEvent",
+        "name": "api.SpeechSynthesisErrorEvent.SpeechSynthesisErrorEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesiserrorevent-speechsynthesiserrorevent"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisErrorEvent.error",
+        "name": "api.SpeechSynthesisErrorEvent.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisErrorEvent/error",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesiserrorevent-error"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent",
+        "name": "api.SpeechSynthesisEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechsynthesisevent"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.SpeechSynthesisEvent",
+        "name": "api.SpeechSynthesisEvent.SpeechSynthesisEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-speechsynthesisevent"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.charIndex",
+        "name": "api.SpeechSynthesisEvent.charIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisEvent/charIndex",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-charindex"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.charLength",
+        "name": "api.SpeechSynthesisEvent.charLength",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-charlength"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.elapsedTime",
+        "name": "api.SpeechSynthesisEvent.elapsedTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisEvent/elapsedTime",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-elapsedtime"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.name",
+        "name": "api.SpeechSynthesisEvent.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisEvent/name",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-name"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisEvent.utterance",
+        "name": "api.SpeechSynthesisEvent.utterance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisEvent/utterance",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisevent-utterance"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance",
+        "name": "api.SpeechSynthesisUtterance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechsynthesisutterance"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.SpeechSynthesisUtterance",
+        "name": "api.SpeechSynthesisUtterance.SpeechSynthesisUtterance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/SpeechSynthesisUtterance",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-speechsynthesisutterance"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.boundary_event",
+        "name": "api.SpeechSynthesisUtterance.boundary_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/boundary_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-boundary",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onboundary"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.end_event",
+        "name": "api.SpeechSynthesisUtterance.end_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/end_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-end",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onend"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.error_event",
+        "name": "api.SpeechSynthesisUtterance.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/error_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-error",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onerror"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.lang",
+        "name": "api.SpeechSynthesisUtterance.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/lang",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-lang"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.mark_event",
+        "name": "api.SpeechSynthesisUtterance.mark_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/mark_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-mark",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onmark"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.pause_event",
+        "name": "api.SpeechSynthesisUtterance.pause_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/pause_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-pause",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onpause"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.pitch",
+        "name": "api.SpeechSynthesisUtterance.pitch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/pitch",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-pitch"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.rate",
+        "name": "api.SpeechSynthesisUtterance.rate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/rate",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-rate"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.resume_event",
+        "name": "api.SpeechSynthesisUtterance.resume_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/resume_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-resume",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onresume"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.start_event",
+        "name": "api.SpeechSynthesisUtterance.start_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/start_event",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#eventdef-speechsynthesisutterance-start",
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-onstart"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.text",
+        "name": "api.SpeechSynthesisUtterance.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/text",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-text"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.voice",
+        "name": "api.SpeechSynthesisUtterance.voice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/voice",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-voice"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisUtterance.volume",
+        "name": "api.SpeechSynthesisUtterance.volume",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisUtterance/volume",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisutterance-volume"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice",
+        "name": "api.SpeechSynthesisVoice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#speechsynthesisvoice"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice.default",
+        "name": "api.SpeechSynthesisVoice.default",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice/default",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-default"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice.lang",
+        "name": "api.SpeechSynthesisVoice.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice/lang",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-lang"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice.localService",
+        "name": "api.SpeechSynthesisVoice.localService",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice/localService",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-localservice"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice.name",
+        "name": "api.SpeechSynthesisVoice.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice/name",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-name"
+        ]
+      },
+      {
+        "id": "api.SpeechSynthesisVoice.voiceURI",
+        "name": "api.SpeechSynthesisVoice.voiceURI",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechSynthesisVoice/voiceURI",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechsynthesisvoice-voiceuri"
+        ]
+      },
+      {
+        "id": "api.Window.speechSynthesis",
+        "name": "api.Window.speechSynthesis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/speechSynthesis",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#tts-section"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "speech-recognition",
+        "name": "Speech Recognition API",
+        "statusUrl": "https://caniuse.com/speech-recognition",
+        "specUrls": [
+          "https://w3c.github.io/speech-api/speechapi.html#speechreco-section"
+        ],
         "representative": true
+      },
+      {
+        "id": "speech-synthesis",
+        "name": "Speech Synthesis API",
+        "statusUrl": "https://caniuse.com/speech-synthesis",
+        "specUrls": [
+          "https://w3c.github.io/speech-api/speechapi.html#tts-section"
+        ]
       }
     ],
     "chrome": [
       {
+        "id": 4782875580825600,
+        "name": "Web Speech API (synthesis)",
+        "statusUrl": "https://chromestatus.com/feature/4782875580825600",
+        "specUrls": [
+          "https://w3c.github.io/speech-api/"
+        ]
+      },
+      {
+        "id": 4818803819020288,
+        "name": "SpeechSynthesis and SpeechSynthesisVoice interface objects",
+        "statusUrl": "https://chromestatus.com/feature/4818803819020288",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#tts-section"
+        ]
+      },
+      {
+        "id": 5687444770914304,
+        "name": "Remove SpeechSynthesis.speak without user activation",
+        "statusUrl": "https://chromestatus.com/feature/5687444770914304",
+        "specUrls": [
+          "https://w3c.github.io/speech-api/webspeechapi.html#tts-section"
+        ]
+      },
+      {
+        "id": 5768815038169088,
+        "name": "charLength in SpeechSynthesisEvent",
+        "statusUrl": "https://chromestatus.com/feature/5768815038169088",
+        "specUrls": [
+          "https://w3c.github.io/speech-api/"
+        ]
+      },
+      {
         "id": 5908775487668224,
+        "name": "Web Speech API (input)",
+        "statusUrl": "https://chromestatus.com/feature/5908775487668224",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-speech",
+        "name": "Web Speech",
+        "statusUrl": "https://webkit.org/status/#specification-web-speech",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/"
+        ]
       }
     ]
   },

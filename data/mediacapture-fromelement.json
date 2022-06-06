@@ -1,14 +1,74 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CanvasCaptureMediaStreamTrack",
+        "name": "api.CanvasCaptureMediaStreamTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanvasCaptureMediaStreamTrack",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/#the-canvascapturemediastreamtrack"
+        ]
+      },
+      {
+        "id": "api.CanvasCaptureMediaStreamTrack.canvas",
+        "name": "api.CanvasCaptureMediaStreamTrack.canvas",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanvasCaptureMediaStreamTrack/canvas",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-canvas"
+        ]
+      },
+      {
+        "id": "api.CanvasCaptureMediaStreamTrack.requestFrame",
+        "name": "api.CanvasCaptureMediaStreamTrack.requestFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanvasCaptureMediaStreamTrack/requestFrame",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/#dom-canvascapturemediastreamtrack-requestframe"
+        ]
+      },
+      {
+        "id": "api.HTMLCanvasElement.captureStream",
+        "name": "api.HTMLCanvasElement.captureStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/captureStream",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/#dom-htmlcanvaselement-capturestream"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.captureStream",
+        "name": "api.HTMLMediaElement.captureStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/captureStream",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/#dom-htmlmediaelement-capturestream"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "mediacapture-fromelement",
+        "name": "Media Capture from DOM Elements API",
+        "statusUrl": "https://caniuse.com/mediacapture-fromelement",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-fromelement/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4817998447640576,
+        "name": "Media Capture from Canvas",
+        "statusUrl": "https://chromestatus.com/feature/4817998447640576",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-fromelement/"
+        ]
+      },
+      {
         "id": 5522768674160640,
+        "name": "Media Capture from HTML Media Element (<video>/<audio>)",
+        "statusUrl": "https://chromestatus.com/feature/5522768674160640",
+        "specUrls": [
+          "https://www.w3.org/TR/mediacapture-fromelement/#html-media-element-media-capture-extensions"
+        ],
         "representative": true
       }
     ]

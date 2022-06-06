@@ -2,14 +2,89 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Lock",
+        "name": "api.Lock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Lock",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#api-lock"
+        ]
+      },
+      {
+        "id": "api.Lock.mode",
+        "name": "api.Lock.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Lock/mode",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#dom-lock-mode"
+        ]
+      },
+      {
+        "id": "api.Lock.name",
+        "name": "api.Lock.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Lock/name",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#dom-lock-name"
+        ]
+      },
+      {
+        "id": "api.LockManager",
+        "name": "api.LockManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LockManager",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#api-lock-manager"
+        ]
+      },
+      {
+        "id": "api.LockManager.query",
+        "name": "api.LockManager.query",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LockManager/query",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#api-lock-manager-query"
+        ]
+      },
+      {
+        "id": "api.LockManager.request",
+        "name": "api.LockManager.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LockManager/request",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#api-lock-manager-request"
+        ]
+      },
+      {
         "id": "api.Navigator.locks",
+        "name": "api.Navigator.locks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/locks",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#dom-navigatorlocks-locks"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.WorkerNavigator.locks",
+        "name": "api.WorkerNavigator.locks",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/#dom-navigatorlocks-locks"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5712361335816192,
+        "name": "Web Locks API",
+        "statusUrl": "https://chromestatus.com/feature/5712361335816192",
+        "specUrls": [
+          "https://wicg.github.io/web-locks/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-locks",
+        "name": "Web Locks",
+        "statusUrl": "https://webkit.org/status/#specification-web-locks",
+        "specUrls": [
+          "https://w3c.github.io/web-locks/"
+        ]
       }
     ]
   }

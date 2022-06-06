@@ -3,7 +3,38 @@
     "bcd": [
       {
         "id": "css.properties.content",
+        "name": "css.properties.content",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-content/#content-property"
+        ],
         "representative": true
+      },
+      {
+        "id": "css.properties.quotes",
+        "name": "css.properties.quotes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/quotes",
+        "specUrls": [
+          "https://drafts.csswg.org/css-content/#quotes"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4550056227110912,
+        "name": "Alternative Text in CSS Generated Content",
+        "statusUrl": "https://chromestatus.com/feature/4550056227110912",
+        "specUrls": [
+          "https://drafts.csswg.org/css-content/#alt"
+        ]
+      },
+      {
+        "id": 4922661488558080,
+        "name": "CSS quotes property - support 'auto' value",
+        "statusUrl": "https://chromestatus.com/feature/4922661488558080",
+        "specUrls": [
+          "https://www.w3.org/TR/css-content-3/#quotes"
+        ]
       }
     ]
   }

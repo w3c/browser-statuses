@@ -1,20 +1,309 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.DeviceMotionEvent",
+        "name": "api.DeviceMotionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#devicemotion"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.DeviceMotionEvent",
+        "name": "api.DeviceMotionEvent.DeviceMotionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent/DeviceMotionEvent",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotionevent-devicemotionevent"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.acceleration",
+        "name": "api.DeviceMotionEvent.acceleration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent/acceleration",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-devicemotionevent-acceleration③"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.accelerationIncludingGravity",
+        "name": "api.DeviceMotionEvent.accelerationIncludingGravity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent/accelerationIncludingGravity",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-devicemotionevent-accelerationincludinggravity④"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.interval",
+        "name": "api.DeviceMotionEvent.interval",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent/interval",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-devicemotionevent-interval①"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.requestPermission",
+        "name": "api.DeviceMotionEvent.requestPermission",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotionevent-requestpermission"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEvent.rotationRate",
+        "name": "api.DeviceMotionEvent.rotationRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent/rotationRate",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-devicemotionevent-rotationrate②"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventAcceleration",
+        "name": "api.DeviceMotionEventAcceleration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#devicemotioneventacceleration"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventAcceleration.x",
+        "name": "api.DeviceMotionEventAcceleration.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/x",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventacceleration-x"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventAcceleration.y",
+        "name": "api.DeviceMotionEventAcceleration.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/y",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventacceleration-y"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventAcceleration.z",
+        "name": "api.DeviceMotionEventAcceleration.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventAcceleration/z",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventacceleration-z"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventRotationRate",
+        "name": "api.DeviceMotionEventRotationRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#devicemotioneventrotationrate"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventRotationRate.alpha",
+        "name": "api.DeviceMotionEventRotationRate.alpha",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate/alpha",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventrotationrate-alpha"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventRotationRate.beta",
+        "name": "api.DeviceMotionEventRotationRate.beta",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate/beta",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventrotationrate-beta"
+        ]
+      },
+      {
+        "id": "api.DeviceMotionEventRotationRate.gamma",
+        "name": "api.DeviceMotionEventRotationRate.gamma",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceMotionEventRotationRate/gamma",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-devicemotioneventrotationrate-gamma"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent",
+        "name": "api.DeviceOrientationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#deviceorientation"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.DeviceOrientationEvent",
+        "name": "api.DeviceOrientationEvent.DeviceOrientationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent/DeviceOrientationEvent",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-deviceorientationevent-deviceorientationevent"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.absolute",
+        "name": "api.DeviceOrientationEvent.absolute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent/absolute",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-deviceorientationevent-absolute"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.alpha",
+        "name": "api.DeviceOrientationEvent.alpha",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent/alpha",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-deviceorientationevent-alpha③"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.beta",
+        "name": "api.DeviceOrientationEvent.beta",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent/beta",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-deviceorientationevent-beta②"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.gamma",
+        "name": "api.DeviceOrientationEvent.gamma",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent/gamma",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-deviceorientationevent-gamma②"
+        ]
+      },
+      {
+        "id": "api.DeviceOrientationEvent.requestPermission",
+        "name": "api.DeviceOrientationEvent.requestPermission",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-deviceorientationevent-requestpermission"
+        ]
+      },
+      {
+        "id": "api.Window.devicemotion_event",
+        "name": "api.Window.devicemotion_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#devicemotion",
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-window-ondevicemotion"
+        ]
+      },
+      {
+        "id": "api.Window.deviceorientation_event",
+        "name": "api.Window.deviceorientation_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#deviceorientation",
+          "https://w3c.github.io/deviceorientation/#ref-for-dom-window-ondeviceorientation"
+        ]
+      },
+      {
+        "id": "api.Window.deviceorientationabsolute_event",
+        "name": "api.Window.deviceorientationabsolute_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/deviceorientationabsolute_event",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/#dom-window-ondeviceorientationabsolute"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "deviceorientation",
+        "name": "DeviceOrientation & DeviceMotion events",
+        "statusUrl": "https://caniuse.com/deviceorientation",
+        "specUrls": [
+          "https://www.w3.org/TR/orientation-event/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4659236399218688,
+        "name": "DeviceOrientationEvent and DeviceMotionEvent constructors",
+        "statusUrl": "https://chromestatus.com/feature/4659236399218688",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
+        ]
+      },
+      {
+        "id": 5468407470227456,
+        "name": "Remove Insecure Usage of DeviceOrientationEvent",
+        "statusUrl": "https://chromestatus.com/feature/5468407470227456",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/"
+        ]
+      },
+      {
+        "id": 5556931766779904,
+        "name": "Device Motion",
+        "statusUrl": "https://chromestatus.com/feature/5556931766779904",
+        "specUrls": [
+          "http://dev.w3.org/geo/api/spec-source-orientation.html#devicemotion"
+        ]
+      },
+      {
+        "id": 5650190849540096,
+        "name": "Non-standard DeviceOrientation Event initialization functions",
+        "statusUrl": "https://chromestatus.com/feature/5650190849540096",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
+        ]
+      },
+      {
+        "id": 5661106970296320,
+        "name": "Access relative and absolute orientation sensors from Chrome for Android for Virtual and Augmented Reality",
+        "statusUrl": "https://chromestatus.com/feature/5661106970296320",
+        "specUrls": [
+          "http://w3c.github.io/deviceorientation/spec-source-orientation.html"
+        ]
+      },
+      {
+        "id": 5688035094036480,
+        "name": "Remove Insecure Usage of DeviceMotionEvent",
+        "statusUrl": "https://chromestatus.com/feature/5688035094036480",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/"
+        ]
+      },
+      {
+        "id": 5758486868656128,
+        "name": "Feature Policy: control over Device Orientation API",
+        "statusUrl": "https://chromestatus.com/feature/5758486868656128",
+        "specUrls": [
+          "https://www.w3.org/TR/orientation-event/"
+        ]
+      },
+      {
         "id": 5874690627207168,
+        "name": "Device Orientation",
+        "statusUrl": "https://chromestatus.com/feature/5874690627207168",
+        "specUrls": [
+          "http://dev.w3.org/geo/api/spec-source-orientation.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5915984063889408,
+        "name": "DeviceOrientation Events permission request API",
+        "statusUrl": "https://chromestatus.com/feature/5915984063889408",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/"
+        ]
+      },
+      {
+        "id": 5981148249325568,
+        "name": "Remove [NoInterfaceObject] from DeviceOrientation Event interfaces",
+        "statusUrl": "https://chromestatus.com/feature/5981148249325568",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-deviceorientation-events",
+        "name": "DeviceOrientation Events",
+        "statusUrl": "https://webkit.org/status/#specification-deviceorientation-events",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation/spec-source-orientation.html"
+        ],
         "representative": true
       }
     ]

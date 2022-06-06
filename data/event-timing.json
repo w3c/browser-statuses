@@ -1,9 +1,86 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Performance.eventCounts",
+        "name": "api.Performance.eventCounts",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performance-eventcounts"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming",
+        "name": "api.PerformanceEventTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#sec-performance-event-timing"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming.cancelable",
+        "name": "api.PerformanceEventTiming.cancelable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/cancelable",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performanceeventtiming-cancelable"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming.processingEnd",
+        "name": "api.PerformanceEventTiming.processingEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/processingEnd",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performanceeventtiming-processingend"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming.processingStart",
+        "name": "api.PerformanceEventTiming.processingStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/processingStart",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performanceeventtiming-processingstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming.target",
+        "name": "api.PerformanceEventTiming.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEventTiming/target",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performanceeventtiming-target"
+        ]
+      },
+      {
+        "id": "api.PerformanceEventTiming.toJSON",
+        "name": "api.PerformanceEventTiming.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/event-timing/#dom-performanceeventtiming-tojson"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 5149663191629824,
+        "name": "First Input Timing",
+        "statusUrl": "https://chromestatus.com/feature/5149663191629824",
+        "specUrls": [
+          "https://wicg.github.io/event-timing/"
+        ]
+      },
+      {
         "id": 5167290693713920,
+        "name": "Event Timing API",
+        "statusUrl": "https://chromestatus.com/feature/5167290693713920",
+        "specUrls": [
+          "https://wicg.github.io/event-timing/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5674224959094784,
+        "name": "InteractionID in EventTiming",
+        "statusUrl": "https://chromestatus.com/feature/5674224959094784",
+        "specUrls": [
+          "https://wicg.github.io/event-timing/#dom-performanceeventtiming-interactionid"
+        ]
       }
     ]
   }

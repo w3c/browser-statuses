@@ -1,9 +1,376 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.backface-visibility",
+        "name": "css.properties.backface-visibility",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/backface-visibility",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#backface-visibility-property"
+        ]
+      },
+      {
+        "id": "css.properties.perspective",
+        "name": "css.properties.perspective",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/perspective",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#perspective-property"
+        ]
+      },
+      {
+        "id": "css.properties.perspective-origin",
+        "name": "css.properties.perspective-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/perspective-origin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#perspective-origin-property"
+        ]
+      },
+      {
+        "id": "css.properties.rotate",
+        "name": "css.properties.rotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/rotate",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#individual-transforms"
+        ]
+      },
+      {
+        "id": "css.properties.scale",
+        "name": "css.properties.scale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scale",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#individual-transforms"
+        ]
+      },
+      {
+        "id": "css.properties.transform",
+        "name": "css.properties.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#transform-functions",
+          "https://drafts.csswg.org/css-transforms/#transform-property"
+        ]
+      },
+      {
+        "id": "css.properties.transform-box",
+        "name": "css.properties.transform-box",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-box",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-box"
+        ]
+      },
+      {
+        "id": "css.properties.transform-origin",
+        "name": "css.properties.transform-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-origin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-origin-property"
+        ]
+      },
+      {
+        "id": "css.properties.transform-style",
+        "name": "css.properties.transform-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#transform-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.translate",
+        "name": "css.properties.translate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/translate",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#individual-transforms"
+        ]
+      },
+      {
+        "id": "css.types.transform-function",
+        "name": "css.types.transform-function",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-functions",
+          "https://drafts.csswg.org/css-transforms-2/#transform-functions"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.matrix",
+        "name": "css.types.transform-function.matrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-matrix"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.matrix3d",
+        "name": "css.types.transform-function.matrix3d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/matrix3d",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-matrix3d"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.perspective",
+        "name": "css.types.transform-function.perspective",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/perspective",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-perspective"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.rotate",
+        "name": "css.types.transform-function.rotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-rotate"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.rotate3d",
+        "name": "css.types.transform-function.rotate3d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotate3d",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-rotate3d"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.rotateX",
+        "name": "css.types.transform-function.rotateX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateX",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatex"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.rotateY",
+        "name": "css.types.transform-function.rotateY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateY",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatey"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.rotateZ",
+        "name": "css.types.transform-function.rotateZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/rotateZ",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-rotatez"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.scale",
+        "name": "css.types.transform-function.scale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-scale"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.scale3d",
+        "name": "css.types.transform-function.scale3d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scale3d",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-scale3d"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.scaleX",
+        "name": "css.types.transform-function.scaleX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleX",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-scalex"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.scaleY",
+        "name": "css.types.transform-function.scaleY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleY",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-scaley"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.scaleZ",
+        "name": "css.types.transform-function.scaleZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/scaleZ",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-scalez"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.skew",
+        "name": "css.types.transform-function.skew",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skew",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-skew"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.skewX",
+        "name": "css.types.transform-function.skewX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewX",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-skewx"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.skewY",
+        "name": "css.types.transform-function.skewY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/skewY",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-skewy"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.translate",
+        "name": "css.types.transform-function.translate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-translate"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.translate3d",
+        "name": "css.types.transform-function.translate3d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translate3d",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-translate3d"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.translateX",
+        "name": "css.types.transform-function.translateX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateX",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-translatex"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.translateY",
+        "name": "css.types.transform-function.translateY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateY",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#funcdef-transform-translatey"
+        ]
+      },
+      {
+        "id": "css.types.transform-function.translateZ",
+        "name": "css.types.transform-function.translateZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transform-function/translateZ",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-translatez"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.transform",
+        "name": "svg.attributes.presentation.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/transform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#svg-transform",
+          "https://svgwg.org/svg2-draft/coords.html#TransformProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.transform-origin",
+        "name": "svg.attributes.presentation.transform-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/transform-origin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-origin-property",
+          "https://svgwg.org/svg2-draft/styling.html#PresentationAttributes"
+        ]
+      },
+      {
+        "id": "svg.elements.linearGradient.gradientTransform",
+        "name": "svg.elements.linearGradient.gradientTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/gradientTransform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#typedef-transform-list",
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientTransformAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientTransformAttribute"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "transforms2d",
+        "name": "CSS3 2D Transforms",
+        "statusUrl": "https://caniuse.com/transforms2d",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-2d-transforms/"
+        ],
         "representative": true
+      },
+      {
+        "id": "transforms3d",
+        "name": "CSS3 3D Transforms",
+        "statusUrl": "https://caniuse.com/transforms3d",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5514792538210304,
+        "name": "Make <tr> with transform be a containing block.",
+        "statusUrl": "https://chromestatus.com/feature/5514792538210304",
+        "specUrls": [
+          "https://www.w3.org/TR/css-transforms-1/"
+        ]
+      },
+      {
+        "id": 5640541339385856,
+        "name": "Align transform-style: preserve-3d and perspective property with the spec",
+        "statusUrl": "https://chromestatus.com/feature/5640541339385856",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/"
+        ]
+      },
+      {
+        "id": 5647948924846080,
+        "name": "Align with Gecko and spec on grouping properties",
+        "statusUrl": "https://chromestatus.com/feature/5647948924846080",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#grouping-property-values"
+        ]
+      },
+      {
+        "id": 5671480339726336,
+        "name": "Force flattening for elements with opacity < 1",
+        "statusUrl": "https://chromestatus.com/feature/5671480339726336",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#grouping-property-values"
+        ]
+      },
+      {
+        "id": 5687325523705856,
+        "name": "transform: perspective(none)",
+        "statusUrl": "https://chromestatus.com/feature/5687325523705856",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#funcdef-perspective"
+        ]
+      },
+      {
+        "id": 5705698193178624,
+        "name": "Independent Properties for CSS Transforms",
+        "statusUrl": "https://chromestatus.com/feature/5705698193178624",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms-2/#individual-transforms"
+        ]
+      },
+      {
+        "id": 6635209600532480,
+        "name": "Transform list interpolation",
+        "statusUrl": "https://chromestatus.com/feature/6635209600532480",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#interpolation-of-transforms"
+        ]
+      },
+      {
+        "id": 6643927633362944,
+        "name": "CSS transform-box",
+        "statusUrl": "https://chromestatus.com/feature/6643927633362944",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-box"
+        ]
       }
     ]
   },

@@ -2,20 +2,896 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Navigator.xr",
+        "name": "api.Navigator.xr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/xr",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#navigator-xr-attribute"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.makeXRCompatible",
+        "name": "api.WebGLRenderingContext.makeXRCompatible",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/makeXRCompatible",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-webglrenderingcontextbase-makexrcompatible"
+        ]
+      },
+      {
+        "id": "api.XRBoundedReferenceSpace",
+        "name": "api.XRBoundedReferenceSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRBoundedReferenceSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrboundedreferencespace-interface"
+        ]
+      },
+      {
+        "id": "api.XRBoundedReferenceSpace.boundsGeometry",
+        "name": "api.XRBoundedReferenceSpace.boundsGeometry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRBoundedReferenceSpace/boundsGeometry",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrboundedreferencespace-boundsgeometry"
+        ]
+      },
+      {
+        "id": "api.XRFrame",
+        "name": "api.XRFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrframe-interface"
+        ]
+      },
+      {
+        "id": "api.XRFrame.getPose",
+        "name": "api.XRFrame.getPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getPose",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrframe-getpose"
+        ]
+      },
+      {
+        "id": "api.XRFrame.getViewerPose",
+        "name": "api.XRFrame.getViewerPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getViewerPose",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrframe-getviewerpose"
+        ]
+      },
+      {
+        "id": "api.XRFrame.session",
+        "name": "api.XRFrame.session",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/session",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrframe-session"
+        ]
+      },
+      {
+        "id": "api.XRInputSource",
+        "name": "api.XRInputSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrinputsource-interface"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.gamepad",
+        "name": "api.XRInputSource.gamepad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gamepad",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-gamepads-module/#dom-xrinputsource-gamepad"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.gripSpace",
+        "name": "api.XRInputSource.gripSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gripSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsource-gripspace"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.handedness",
+        "name": "api.XRInputSource.handedness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/handedness",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsource-handedness"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.profiles",
+        "name": "api.XRInputSource.profiles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/profiles",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsource-profiles"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.targetRayMode",
+        "name": "api.XRInputSource.targetRayMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/targetRayMode",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsource-targetraymode"
+        ]
+      },
+      {
+        "id": "api.XRInputSource.targetRaySpace",
+        "name": "api.XRInputSource.targetRaySpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/targetRaySpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsource-targetrayspace"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceArray",
+        "name": "api.XRInputSourceArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrinputsourcearray-interface"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceArray.length",
+        "name": "api.XRInputSourceArray.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceArray/length",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourcearray-length"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceEvent",
+        "name": "api.XRInputSourceEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrinputsourceevent-interface"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceEvent.XRInputSourceEvent",
+        "name": "api.XRInputSourceEvent.XRInputSourceEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceEvent/XRInputSourceEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceevent-xrinputsourceevent"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceEvent.frame",
+        "name": "api.XRInputSourceEvent.frame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceEvent/frame",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceevent-frame"
+        ]
+      },
+      {
+        "id": "api.XRInputSourceEvent.inputSource",
+        "name": "api.XRInputSourceEvent.inputSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourceEvent/inputSource",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceevent-inputsource"
+        ]
+      },
+      {
+        "id": "api.XRInputSourcesChangeEvent",
+        "name": "api.XRInputSourcesChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourcesChangeEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrinputsourceschangeevent-interface"
+        ]
+      },
+      {
+        "id": "api.XRInputSourcesChangeEvent.XRInputSourcesChangeEvent",
+        "name": "api.XRInputSourcesChangeEvent.XRInputSourcesChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourcesChangeEvent/XRInputSourcesChangeEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceschangeevent-xrinputsourceschangeevent"
+        ]
+      },
+      {
+        "id": "api.XRInputSourcesChangeEvent.added",
+        "name": "api.XRInputSourcesChangeEvent.added",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourcesChangeEvent/added",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceschangeevent-added"
+        ]
+      },
+      {
+        "id": "api.XRInputSourcesChangeEvent.removed",
+        "name": "api.XRInputSourcesChangeEvent.removed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourcesChangeEvent/removed",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceschangeevent-removed"
+        ]
+      },
+      {
+        "id": "api.XRInputSourcesChangeEvent.session",
+        "name": "api.XRInputSourcesChangeEvent.session",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSourcesChangeEvent/session",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrinputsourceschangeevent-session"
+        ]
+      },
+      {
+        "id": "api.XRLayer",
+        "name": "api.XRLayer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLayer",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrlayer-interface"
+        ]
+      },
+      {
+        "id": "api.XRPermissionStatus",
+        "name": "api.XRPermissionStatus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRPermissionStatus",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrpermissionstatus"
+        ]
+      },
+      {
+        "id": "api.XRPermissionStatus.granted",
+        "name": "api.XRPermissionStatus.granted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRPermissionStatus/granted",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrpermissionstatus-granted"
+        ]
+      },
+      {
+        "id": "api.XRPose",
+        "name": "api.XRPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRPose",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrpose-interface"
+        ]
+      },
+      {
+        "id": "api.XRPose.emulatedPosition",
+        "name": "api.XRPose.emulatedPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRPose/emulatedPosition",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrpose-emulatedposition"
+        ]
+      },
+      {
+        "id": "api.XRPose.transform",
+        "name": "api.XRPose.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRPose/transform",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrpose-transform"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpace",
+        "name": "api.XRReferenceSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrreferencespace-interface"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpace.getOffsetReferenceSpace",
+        "name": "api.XRReferenceSpace.getOffsetReferenceSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpace/getOffsetReferenceSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrreferencespace-getoffsetreferencespace"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpace.reset_event",
+        "name": "api.XRReferenceSpace.reset_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpace/reset_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrreferencespace-reset",
+          "https://immersive-web.github.io/webxr/#dom-xrreferencespace-onreset"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpaceEvent",
+        "name": "api.XRReferenceSpaceEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpaceEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrreferencespaceevent-interface"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpaceEvent.XRReferenceSpaceEvent",
+        "name": "api.XRReferenceSpaceEvent.XRReferenceSpaceEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpaceEvent/XRReferenceSpaceEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrreferencespaceevent-xrreferencespaceevent"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpaceEvent.referenceSpace",
+        "name": "api.XRReferenceSpaceEvent.referenceSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpaceEvent/referenceSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrreferencespaceevent-referencespace"
+        ]
+      },
+      {
+        "id": "api.XRReferenceSpaceEvent.transform",
+        "name": "api.XRReferenceSpaceEvent.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRReferenceSpaceEvent/transform",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrreferencespaceevent-transform"
+        ]
+      },
+      {
+        "id": "api.XRRenderState",
+        "name": "api.XRRenderState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRenderState",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrrenderstate-interface"
+        ]
+      },
+      {
+        "id": "api.XRRenderState.baseLayer",
+        "name": "api.XRRenderState.baseLayer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRenderState/baseLayer",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrenderstate-baselayer"
+        ]
+      },
+      {
+        "id": "api.XRRenderState.depthFar",
+        "name": "api.XRRenderState.depthFar",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRenderState/depthFar",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrenderstate-depthfar"
+        ]
+      },
+      {
+        "id": "api.XRRenderState.depthNear",
+        "name": "api.XRRenderState.depthNear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRenderState/depthNear",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrenderstate-depthnear"
+        ]
+      },
+      {
+        "id": "api.XRRenderState.inlineVerticalFieldOfView",
+        "name": "api.XRRenderState.inlineVerticalFieldOfView",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRenderState/inlineVerticalFieldOfView",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrenderstate-inlineverticalfieldofview"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform",
+        "name": "api.XRRigidTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrrigidtransform-interface"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform.XRRigidTransform",
+        "name": "api.XRRigidTransform.XRRigidTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform/XRRigidTransform",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrigidtransform-xrrigidtransform"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform.inverse",
+        "name": "api.XRRigidTransform.inverse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform/inverse",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrigidtransform-inverse"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform.matrix",
+        "name": "api.XRRigidTransform.matrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform/matrix",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrigidtransform-matrix"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform.orientation",
+        "name": "api.XRRigidTransform.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform/orientation",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrigidtransform-orientation"
+        ]
+      },
+      {
+        "id": "api.XRRigidTransform.position",
+        "name": "api.XRRigidTransform.position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRigidTransform/position",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrrigidtransform-position"
+        ]
+      },
+      {
+        "id": "api.XRSession",
+        "name": "api.XRSession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrsession-interface"
+        ]
+      },
+      {
+        "id": "api.XRSession.cancelAnimationFrame",
+        "name": "api.XRSession.cancelAnimationFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/cancelAnimationFrame",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-cancelanimationframe"
+        ]
+      },
+      {
+        "id": "api.XRSession.end",
+        "name": "api.XRSession.end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/end",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-end"
+        ]
+      },
+      {
+        "id": "api.XRSession.end_event",
+        "name": "api.XRSession.end_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/end_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-end",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onend"
+        ]
+      },
+      {
+        "id": "api.XRSession.environmentBlendMode",
+        "name": "api.XRSession.environmentBlendMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/environmentBlendMode",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode"
+        ]
+      },
+      {
+        "id": "api.XRSession.inputSources",
+        "name": "api.XRSession.inputSources",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/inputSources",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-inputsources"
+        ]
+      },
+      {
+        "id": "api.XRSession.inputsourceschange_event",
+        "name": "api.XRSession.inputsourceschange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/inputsourceschange_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-inputsourceschange",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-oninputsourceschange"
+        ]
+      },
+      {
+        "id": "api.XRSession.interactionMode",
+        "name": "api.XRSession.interactionMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/interactionMode",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-interactionmode"
+        ]
+      },
+      {
+        "id": "api.XRSession.renderState",
+        "name": "api.XRSession.renderState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/renderState",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-renderstate"
+        ]
+      },
+      {
+        "id": "api.XRSession.requestAnimationFrame",
+        "name": "api.XRSession.requestAnimationFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/requestAnimationFrame",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-requestanimationframe"
+        ]
+      },
+      {
+        "id": "api.XRSession.requestReferenceSpace",
+        "name": "api.XRSession.requestReferenceSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/requestReferenceSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-requestreferencespace"
+        ]
+      },
+      {
+        "id": "api.XRSession.select_event",
+        "name": "api.XRSession.select_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/select_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-select",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onselect"
+        ]
+      },
+      {
+        "id": "api.XRSession.selectend_event",
+        "name": "api.XRSession.selectend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/selectend_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-selectend",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onselectend"
+        ]
+      },
+      {
+        "id": "api.XRSession.selectstart_event",
+        "name": "api.XRSession.selectstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/selectstart_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-selectstart",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onselectstart"
+        ]
+      },
+      {
+        "id": "api.XRSession.squeeze_event",
+        "name": "api.XRSession.squeeze_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/squeeze_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-squeeze",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onsqueeze"
+        ]
+      },
+      {
+        "id": "api.XRSession.squeezeend_event",
+        "name": "api.XRSession.squeezeend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/squeezeend_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-squeezeend",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onsqueezeend"
+        ]
+      },
+      {
+        "id": "api.XRSession.squeezestart_event",
+        "name": "api.XRSession.squeezestart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/squeezestart_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-squeezestart",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onsqueezestart"
+        ]
+      },
+      {
+        "id": "api.XRSession.updateRenderState",
+        "name": "api.XRSession.updateRenderState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/updateRenderState",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-updaterenderstate"
+        ]
+      },
+      {
+        "id": "api.XRSession.visibilityState",
+        "name": "api.XRSession.visibilityState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/visibilityState",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsession-visibilitystate"
+        ]
+      },
+      {
+        "id": "api.XRSession.visibilitychange_event",
+        "name": "api.XRSession.visibilitychange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/visibilitychange_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsession-visibilitychange",
+          "https://immersive-web.github.io/webxr/#dom-xrsession-onvisibilitychange"
+        ]
+      },
+      {
+        "id": "api.XRSessionEvent",
+        "name": "api.XRSessionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSessionEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrsessionevent-interface"
+        ]
+      },
+      {
+        "id": "api.XRSessionEvent.XRSessionEvent",
+        "name": "api.XRSessionEvent.XRSessionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSessionEvent/XRSessionEvent",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsessionevent-xrsessionevent"
+        ]
+      },
+      {
+        "id": "api.XRSessionEvent.session",
+        "name": "api.XRSessionEvent.session",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSessionEvent/session",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsessionevent-session"
+        ]
+      },
+      {
+        "id": "api.XRSpace",
+        "name": "api.XRSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrspace-interface"
+        ]
+      },
+      {
         "id": "api.XRSystem",
+        "name": "api.XRSystem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSystem",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrsystem-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.XRSystem.devicechange_event",
+        "name": "api.XRSystem.devicechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSystem/devicechange_event",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#eventdef-xrsystem-devicechange",
+          "https://immersive-web.github.io/webxr/#dom-xrsystem-ondevicechange"
+        ]
+      },
+      {
+        "id": "api.XRSystem.isSessionSupported",
+        "name": "api.XRSystem.isSessionSupported",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSystem/isSessionSupported",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsystem-issessionsupported"
+        ]
+      },
+      {
+        "id": "api.XRSystem.requestSession",
+        "name": "api.XRSystem.requestSession",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSystem/requestSession",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrsystem-requestsession"
+        ]
+      },
+      {
+        "id": "api.XRView",
+        "name": "api.XRView",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrview-interface"
+        ]
+      },
+      {
+        "id": "api.XRView.eye",
+        "name": "api.XRView.eye",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/eye",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-eye"
+        ]
+      },
+      {
+        "id": "api.XRView.isFirstPersonObserver",
+        "name": "api.XRView.isFirstPersonObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/isFirstPersonObserver",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrview-isfirstpersonobserver"
+        ]
+      },
+      {
+        "id": "api.XRView.projectionMatrix",
+        "name": "api.XRView.projectionMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/projectionMatrix",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-projectionmatrix"
+        ]
+      },
+      {
+        "id": "api.XRView.recommendedViewportScale",
+        "name": "api.XRView.recommendedViewportScale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/recommendedViewportScale",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-recommendedviewportscale"
+        ]
+      },
+      {
+        "id": "api.XRView.requestViewportScale",
+        "name": "api.XRView.requestViewportScale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/requestViewportScale",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-requestviewportscale"
+        ]
+      },
+      {
+        "id": "api.XRView.transform",
+        "name": "api.XRView.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/transform",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-transform"
+        ]
+      },
+      {
+        "id": "api.XRViewerPose",
+        "name": "api.XRViewerPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewerPose",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrviewerpose-interface"
+        ]
+      },
+      {
+        "id": "api.XRViewerPose.views",
+        "name": "api.XRViewerPose.views",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewerPose/views",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrviewerpose-views"
+        ]
+      },
+      {
+        "id": "api.XRViewport",
+        "name": "api.XRViewport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewport",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrviewport-interface"
+        ]
+      },
+      {
+        "id": "api.XRViewport.height",
+        "name": "api.XRViewport.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewport/height",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrviewport-height"
+        ]
+      },
+      {
+        "id": "api.XRViewport.width",
+        "name": "api.XRViewport.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewport/width",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrviewport-width"
+        ]
+      },
+      {
+        "id": "api.XRViewport.x",
+        "name": "api.XRViewport.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewport/x",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrviewport-x"
+        ]
+      },
+      {
+        "id": "api.XRViewport.y",
+        "name": "api.XRViewport.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRViewport/y",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrviewport-y"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer",
+        "name": "api.XRWebGLLayer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#xrwebgllayer-interface"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.XRWebGLLayer",
+        "name": "api.XRWebGLLayer.XRWebGLLayer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/XRWebGLLayer",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-xrwebgllayer"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.antialias",
+        "name": "api.XRWebGLLayer.antialias",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/antialias",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-antialias"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.framebuffer",
+        "name": "api.XRWebGLLayer.framebuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/framebuffer",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-framebuffer"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.framebufferHeight",
+        "name": "api.XRWebGLLayer.framebufferHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/framebufferHeight",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-framebufferheight"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.framebufferWidth",
+        "name": "api.XRWebGLLayer.framebufferWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/framebufferWidth",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-framebufferwidth"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.getNativeFramebufferScaleFactor",
+        "name": "api.XRWebGLLayer.getNativeFramebufferScaleFactor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/getNativeFramebufferScaleFactor",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-getnativeframebufferscalefactor"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.getViewport",
+        "name": "api.XRWebGLLayer.getViewport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/getViewport",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-getviewport"
+        ]
+      },
+      {
+        "id": "api.XRWebGLLayer.ignoreDepthValues",
+        "name": "api.XRWebGLLayer.ignoreDepthValues",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLLayer/ignoreDepthValues",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrwebgllayer-ignoredepthvalues"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.xr-spatial-tracking",
+        "name": "http.headers.Feature-Policy.xr-spatial-tracking",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/xr-spatial-tracking",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#permissions-policy"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "webxr",
+        "name": "WebXR Device API",
+        "statusUrl": "https://caniuse.com/webxr",
+        "specUrls": [
+          "https://www.w3.org/TR/webxr/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5450241148977152,
+        "name": "WebXR AR Module",
+        "statusUrl": "https://chromestatus.com/feature/5450241148977152",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/"
+        ]
+      },
+      {
+        "id": 5640976515203072,
+        "name": "WebXR dynamic viewport scaling",
+        "statusUrl": "https://chromestatus.com/feature/5640976515203072",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/#dom-xrview-requestviewportscale"
+        ]
+      },
+      {
+        "id": 5659025263820800,
+        "name": "WebXR Gamepads Module - Level 1",
+        "statusUrl": "https://chromestatus.com/feature/5659025263820800",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-gamepads-module/"
+        ]
+      },
+      {
         "id": 5680169905815552,
+        "name": "WebXR Device API",
+        "statusUrl": "https://chromestatus.com/feature/5680169905815552",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5719474055413760,
+        "name": "WebXR hand input module - Level 1",
+        "statusUrl": "https://chromestatus.com/feature/5719474055413760",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-hand-input/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-webxr",
+        "name": "WebXR",
+        "statusUrl": "https://webkit.org/status/#specification-webxr",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr/"
+        ]
       }
     ]
   },

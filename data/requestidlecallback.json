@@ -2,25 +2,77 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.IdleDeadline",
+        "name": "api.IdleDeadline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDeadline",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/#the-idledeadline-interface"
+        ]
+      },
+      {
+        "id": "api.IdleDeadline.didTimeout",
+        "name": "api.IdleDeadline.didTimeout",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDeadline/didTimeout",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/#dom-idledeadline-didtimeout"
+        ]
+      },
+      {
+        "id": "api.IdleDeadline.timeRemaining",
+        "name": "api.IdleDeadline.timeRemaining",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDeadline/timeRemaining",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/#dom-idledeadline-timeremaining"
+        ]
+      },
+      {
+        "id": "api.Window.cancelIdleCallback",
+        "name": "api.Window.cancelIdleCallback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/cancelIdleCallback",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/#the-cancelidlecallback-method"
+        ]
+      },
+      {
         "id": "api.Window.requestIdleCallback",
+        "name": "api.Window.requestIdleCallback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/requestIdleCallback",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/#the-requestidlecallback-method"
+        ],
         "representative": true
       }
     ],
     "caniuse": [
       {
         "id": "requestidlecallback",
+        "name": "requestIdleCallback",
+        "statusUrl": "https://caniuse.com/requestidlecallback",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5572795866021888,
+        "name": "requestIdleCallback",
+        "statusUrl": "https://chromestatus.com/feature/5572795866021888",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "feature-requestidlecallback",
+        "name": "requestIdleCallback",
+        "statusUrl": "https://webkit.org/status/#feature-requestidlecallback",
+        "specUrls": [
+          "https://w3c.github.io/requestidlecallback/"
+        ],
         "representative": true
       }
     ]

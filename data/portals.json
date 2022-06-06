@@ -1,8 +1,33 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "html.elements.portal",
+        "name": "html.elements.portal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/portal",
+        "specUrls": [
+          "https://wicg.github.io/portals/#the-portal-element"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "portals",
+        "name": "Portals",
+        "statusUrl": "https://caniuse.com/portals",
+        "specUrls": [
+          "https://wicg.github.io/portals/"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4828882419056640,
+        "name": "Portals",
+        "statusUrl": "https://chromestatus.com/feature/4828882419056640",
+        "specUrls": [
+          "https://wicg.github.io/portals/"
+        ],
         "representative": true
       }
     ]

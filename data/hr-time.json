@@ -3,19 +3,85 @@
     "bcd": [
       {
         "id": "api.Performance",
+        "name": "api.Performance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#sec-performance",
+          "https://w3c.github.io/performance-timeline/#extensions-to-the-performance-interface",
+          "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+          "https://w3c.github.io/user-timing/#extensions-performance-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.Performance.now",
+        "name": "api.Performance.now",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/now",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#dom-performance-now"
+        ]
+      },
+      {
+        "id": "api.Performance.timeOrigin",
+        "name": "api.Performance.timeOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/timeOrigin",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#dom-performance-timeorigin"
+        ]
+      },
+      {
+        "id": "api.Performance.toJSON",
+        "name": "api.Performance.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#dom-performance-tojson"
+        ]
+      },
+      {
+        "id": "api.performance",
+        "name": "api.performance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/performance_property",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#the-performance-attribute"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "high-resolution-time",
+        "name": "High Resolution Time API",
+        "statusUrl": "https://caniuse.com/high-resolution-time",
+        "specUrls": [
+          "https://www.w3.org/TR/hr-time/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5349124069130240,
+        "name": "performance.now()",
+        "statusUrl": "https://chromestatus.com/feature/5349124069130240",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/HighResolutionTime/Overview.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5695487386583040,
+        "name": "Performance.timeOrigin",
+        "statusUrl": "https://chromestatus.com/feature/5695487386583040",
+        "specUrls": [
+          "https://www.w3.org/TR/hr-time-3/#time-origin-timestamp"
+        ]
+      },
+      {
+        "id": 6497206758539264,
+        "name": "Align performance API timer resolution to cross-origin isolated capability",
+        "statusUrl": "https://chromestatus.com/feature/6497206758539264",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#dfn-current-high-resolution-time"
+        ]
       }
     ]
   },

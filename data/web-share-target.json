@@ -1,9 +1,32 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "html.manifest.share_target",
+        "name": "html.manifest.share_target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/share_target",
+        "specUrls": [
+          "https://w3c.github.io/web-share-target/#share_target-member"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5662315307335680,
+        "name": "Web Share Target",
+        "statusUrl": "https://chromestatus.com/feature/5662315307335680",
+        "specUrls": [
+          "https://wicg.github.io/web-share-target/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6124071381106688,
+        "name": "Web Share Target Level 2",
+        "statusUrl": "https://chromestatus.com/feature/6124071381106688",
+        "specUrls": [
+          "https://w3c.github.io/web-share-target/level-2/"
+        ]
       }
     ]
   }

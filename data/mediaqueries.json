@@ -1,21 +1,384 @@
 {
   "statusref": {
-    "webkit": [
+    "bcd": [
       {
-        "id": "specification-css-media-queries-level-4",
-        "representative": true
+        "id": "css.at-rules.media",
+        "name": "css.at-rules.media",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#media-descriptor-table",
+          "https://drafts.csswg.org/css-conditional-3/#at-media"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.any-hover",
+        "name": "css.at-rules.media.any-hover",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/any-hover",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#any-input"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.any-pointer",
+        "name": "css.at-rules.media.any-pointer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/any-pointer",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#any-input"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.aspect-ratio",
+        "name": "css.at-rules.media.aspect-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/aspect-ratio",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#aspect-ratio"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.color",
+        "name": "css.at-rules.media.color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/color",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#color"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.color-gamut",
+        "name": "css.at-rules.media.color-gamut",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/color-gamut",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#color-gamut"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.color-index",
+        "name": "css.at-rules.media.color-index",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/color-index",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#color-index"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.device-aspect-ratio",
+        "name": "css.at-rules.media.device-aspect-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/device-aspect-ratio",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#device-aspect-ratio"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.device-height",
+        "name": "css.at-rules.media.device-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/device-height",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#device-height"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.device-width",
+        "name": "css.at-rules.media.device-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/device-width",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#device-width"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.display-mode",
+        "name": "css.at-rules.media.display-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/display-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#display-mode"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.dynamic-range",
+        "name": "css.at-rules.media.dynamic-range",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-5/#dynamic-range"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.forced-colors",
+        "name": "css.at-rules.media.forced-colors",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/forced-colors",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#forced-colors"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.grid",
+        "name": "css.at-rules.media.grid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/grid",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#grid"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.height",
+        "name": "css.at-rules.media.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/height",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#height"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.hover",
+        "name": "css.at-rules.media.hover",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/hover",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#hover"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.inverted-colors",
+        "name": "css.at-rules.media.inverted-colors",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/inverted-colors",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#inverted"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.monochrome",
+        "name": "css.at-rules.media.monochrome",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/monochrome",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#monochrome"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.orientation",
+        "name": "css.at-rules.media.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/orientation",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#orientation"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.overflow-block",
+        "name": "css.at-rules.media.overflow-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-block",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#mf-overflow-block"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.overflow-inline",
+        "name": "css.at-rules.media.overflow-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#mf-overflow-inline"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.pointer",
+        "name": "css.at-rules.media.pointer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/pointer",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#pointer"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.prefers-color-scheme",
+        "name": "css.at-rules.media.prefers-color-scheme",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.prefers-contrast",
+        "name": "css.at-rules.media.prefers-contrast",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-contrast",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-contrast"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.prefers-reduced-data",
+        "name": "css.at-rules.media.prefers-reduced-data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-data",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-data"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.prefers-reduced-motion",
+        "name": "css.at-rules.media.prefers-reduced-motion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/prefers-reduced-motion",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.resolution",
+        "name": "css.at-rules.media.resolution",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/resolution",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#resolution"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.scripting",
+        "name": "css.at-rules.media.scripting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/scripting",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#scripting"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.video-dynamic-range",
+        "name": "css.at-rules.media.video-dynamic-range",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-5/#video-dynamic-range"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.width",
+        "name": "css.at-rules.media.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/width",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#width"
+        ]
+      },
+      {
+        "id": "css.types.ratio",
+        "name": "css.types.ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/ratio",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#values"
+        ]
       }
     ],
     "caniuse": [
       {
-        "id": "css-media-interaction"
+        "id": "css-media-interaction",
+        "name": "Media Queries: interaction media features",
+        "statusUrl": "https://caniuse.com/css-media-interaction",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-4/#mf-interaction"
+        ]
+      },
+      {
+        "id": "prefers-color-scheme",
+        "name": "prefers-color-scheme media query",
+        "statusUrl": "https://caniuse.com/prefers-color-scheme",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme"
+        ]
+      },
+      {
+        "id": "prefers-reduced-motion",
+        "name": "prefers-reduced-motion media query",
+        "statusUrl": "https://caniuse.com/prefers-reduced-motion",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion"
+        ]
       }
     ],
     "chrome": [
       {
+        "id": 4719452646014976,
+        "name": "Remove \"on-demand\" value for hover/any-hover media queries.",
+        "statusUrl": "https://chromestatus.com/feature/4719452646014976",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-4/#mf-interaction"
+        ]
+      },
+      {
+        "id": 5109758977638400,
+        "name": "Media Queries: prefers-color-scheme feature",
+        "statusUrl": "https://chromestatus.com/feature/5109758977638400",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme"
+        ]
+      },
+      {
+        "id": 5203042742829056,
+        "name": "Media Queries Level 4 Syntax & Evaluation",
+        "statusUrl": "https://chromestatus.com/feature/5203042742829056",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-4/#mq-range-context"
+        ]
+      },
+      {
+        "id": 5354410980933632,
+        "name": "color-gamut media query",
+        "statusUrl": "https://chromestatus.com/feature/5354410980933632",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-4/#color-gamut"
+        ]
+      },
+      {
+        "id": 5597964353404928,
+        "name": "CSS prefers-reduced-motion media query",
+        "statusUrl": "https://chromestatus.com/feature/5597964353404928",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-motion"
+        ]
+      },
+      {
+        "id": 5646323212615680,
+        "name": "Media Queries: prefers-contrast feature",
+        "statusUrl": "https://chromestatus.com/feature/5646323212615680",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-contrast"
+        ]
+      },
+      {
+        "id": 5680926106320896,
+        "name": "HDR CSS Media Queries: dynamic-range",
+        "statusUrl": "https://chromestatus.com/feature/5680926106320896",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-5/#dynamic-range"
+        ]
+      },
+      {
+        "id": 5719782840074240,
+        "name": "Remove 'no-preference' from prefers-color-scheme @media feature",
+        "statusUrl": "https://chromestatus.com/feature/5719782840074240",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-color-scheme"
+        ]
+      },
+      {
+        "id": 5922192355229696,
+        "name": "prefers-reduced-data",
+        "statusUrl": "https://chromestatus.com/feature/5922192355229696",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-5/#prefers-reduced-data"
+        ]
+      },
+      {
+        "id": 5940010603773952,
+        "name": "inverted-colors media query",
+        "statusUrl": "https://chromestatus.com/feature/5940010603773952",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries-4/#inverted"
+        ]
+      },
+      {
         "id": 6460705494532096,
         "manual": true,
         "lastreviewed": "2022-06-05"
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-interaction-media-features-(pointer,-hover,-any-pointer,-any-hover)",
+        "name": "Interaction Media Features (pointer, hover, any-pointer, any-hover)",
+        "statusUrl": "https://webkit.org/status/#feature-interaction-media-features-(pointer,-hover,-any-pointer,-any-hover)",
+        "specUrls": [
+          "http://dev.w3.org/csswg/mediaqueries-4/#mf-interaction"
+        ]
+      },
+      {
+        "id": "specification-css-media-queries-level-4",
+        "name": "CSS Media Queries Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-media-queries-level-4",
+        "specUrls": [
+          "http://dev.w3.org/csswg/mediaqueries-4/"
+        ],
+        "representative": true
       }
     ]
   },

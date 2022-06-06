@@ -13,11 +13,416 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AudioTrack.sourceBuffer",
+        "name": "api.AudioTrack.sourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioTrack/sourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-audiotrack-sourcebuffer"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.buffered",
+        "name": "api.HTMLMediaElement.buffered",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/buffered",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-media-buffered-dev",
+          "https://w3c.github.io/media-source/#htmlmediaelement-extensions"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.seekable",
+        "name": "api.HTMLMediaElement.seekable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/seekable",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-media-seekable-dev",
+          "https://w3c.github.io/media-source/#htmlmediaelement-extensions"
+        ]
+      },
+      {
+        "id": "api.MediaSource",
+        "name": "api.MediaSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#mediasource"
+        ]
+      },
+      {
+        "id": "api.MediaSource.MediaSource",
+        "name": "api.MediaSource.MediaSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/MediaSource",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-constructor"
+        ]
+      },
+      {
+        "id": "api.MediaSource.activeSourceBuffers",
+        "name": "api.MediaSource.activeSourceBuffers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/activeSourceBuffers",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-activesourcebuffers"
+        ]
+      },
+      {
+        "id": "api.MediaSource.addSourceBuffer",
+        "name": "api.MediaSource.addSourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/addSourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-addsourcebuffer"
+        ]
+      },
+      {
+        "id": "api.MediaSource.clearLiveSeekableRange",
+        "name": "api.MediaSource.clearLiveSeekableRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/clearLiveSeekableRange",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-clearliveseekablerange"
+        ]
+      },
+      {
+        "id": "api.MediaSource.duration",
+        "name": "api.MediaSource.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/duration",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-duration"
+        ]
+      },
+      {
+        "id": "api.MediaSource.endOfStream",
+        "name": "api.MediaSource.endOfStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/endOfStream",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-endofstream"
+        ]
+      },
+      {
+        "id": "api.MediaSource.isTypeSupported",
+        "name": "api.MediaSource.isTypeSupported",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/isTypeSupported",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-istypesupported"
+        ]
+      },
+      {
+        "id": "api.MediaSource.readyState",
+        "name": "api.MediaSource.readyState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/readyState",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-readystate"
+        ]
+      },
+      {
+        "id": "api.MediaSource.removeSourceBuffer",
+        "name": "api.MediaSource.removeSourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/removeSourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-removesourcebuffer"
+        ]
+      },
+      {
+        "id": "api.MediaSource.setLiveSeekableRange",
+        "name": "api.MediaSource.setLiveSeekableRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/setLiveSeekableRange",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-setliveseekablerange"
+        ]
+      },
+      {
+        "id": "api.MediaSource.sourceBuffers",
+        "name": "api.MediaSource.sourceBuffers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/sourceBuffers",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-mediasource-sourcebuffers"
+        ]
+      },
+      {
+        "id": "api.MediaSource.sourceclose_event",
+        "name": "api.MediaSource.sourceclose_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/sourceclose_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-sourceclose"
+        ]
+      },
+      {
+        "id": "api.MediaSource.sourceended_event",
+        "name": "api.MediaSource.sourceended_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/sourceended_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-sourceended"
+        ]
+      },
+      {
+        "id": "api.MediaSource.sourceopen_event",
+        "name": "api.MediaSource.sourceopen_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaSource/sourceopen_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-sourceopen"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer",
+        "name": "api.SourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#sourcebuffer"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.abort",
+        "name": "api.SourceBuffer.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/abort",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-abort"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.abort_event",
+        "name": "api.SourceBuffer.abort_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/abort_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-abort",
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-onabort"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.appendBuffer",
+        "name": "api.SourceBuffer.appendBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/appendBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-appendbuffer"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.appendWindowEnd",
+        "name": "api.SourceBuffer.appendWindowEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/appendWindowEnd",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-appendwindowend"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.appendWindowStart",
+        "name": "api.SourceBuffer.appendWindowStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/appendWindowStart",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-appendwindowstart"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.audioTracks",
+        "name": "api.SourceBuffer.audioTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/audioTracks",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-audiotracks"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.buffered",
+        "name": "api.SourceBuffer.buffered",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/buffered",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-buffered"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.error_event",
+        "name": "api.SourceBuffer.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/error_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-error",
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-onerror"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.mode",
+        "name": "api.SourceBuffer.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/mode",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-mode"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.remove",
+        "name": "api.SourceBuffer.remove",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/remove",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-remove"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.textTracks",
+        "name": "api.SourceBuffer.textTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/textTracks",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-texttracks"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.timestampOffset",
+        "name": "api.SourceBuffer.timestampOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/timestampOffset",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-timestampoffset"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.update_event",
+        "name": "api.SourceBuffer.update_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/update_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-update",
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-onupdate"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.updateend_event",
+        "name": "api.SourceBuffer.updateend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/updateend_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-updateend",
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-onupdateend"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.updatestart_event",
+        "name": "api.SourceBuffer.updatestart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/updatestart_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-updatestart",
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-onupdatestart"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.updating",
+        "name": "api.SourceBuffer.updating",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/updating",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-updating"
+        ]
+      },
+      {
+        "id": "api.SourceBuffer.videoTracks",
+        "name": "api.SourceBuffer.videoTracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/videoTracks",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-videotracks"
+        ]
+      },
+      {
+        "id": "api.SourceBufferList",
+        "name": "api.SourceBufferList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBufferList",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#sourcebufferlist"
+        ]
+      },
+      {
+        "id": "api.SourceBufferList.addsourcebuffer_event",
+        "name": "api.SourceBufferList.addsourcebuffer_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBufferList/addsourcebuffer_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-addsourcebuffer",
+          "https://w3c.github.io/media-source/#dom-sourcebufferlist-onaddsourcebuffer"
+        ]
+      },
+      {
+        "id": "api.SourceBufferList.length",
+        "name": "api.SourceBufferList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBufferList/length",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebufferlist-length"
+        ]
+      },
+      {
+        "id": "api.SourceBufferList.removesourcebuffer_event",
+        "name": "api.SourceBufferList.removesourcebuffer_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBufferList/removesourcebuffer_event",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dfn-removesourcebuffer",
+          "https://w3c.github.io/media-source/#dom-sourcebufferlist-onremovesourcebuffer"
+        ]
+      },
+      {
+        "id": "api.VideoTrack.sourceBuffer",
+        "name": "api.VideoTrack.sourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoTrack/sourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-videotrack-sourcebuffer"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "mediasource",
+        "name": "Media Source Extensions",
+        "statusUrl": "https://caniuse.com/mediasource",
+        "specUrls": [
+          "https://www.w3.org/TR/media-source/"
+        ]
+      }
+    ],
     "chrome": [
+      {
+        "id": 4563797888991232,
+        "name": "Media Source Extensions",
+        "statusUrl": "https://chromestatus.com/feature/4563797888991232",
+        "specUrls": [
+          "https://www.w3.org/TR/media-source/"
+        ]
+      },
+      {
+        "id": 5177263249162240,
+        "name": "MSE in Workers",
+        "statusUrl": "https://chromestatus.com/feature/5177263249162240",
+        "specUrls": [
+          "https://github.com/w3c/media-source/pull/282"
+        ]
+      },
+      {
+        "id": 5645695201574912,
+        "name": "Media Source Extensions - SourceBuffer.mode attribute and 'sequence' AppendMode support",
+        "statusUrl": "https://chromestatus.com/feature/5645695201574912",
+        "specUrls": [
+          "http://w3c.github.io/media-source/"
+        ]
+      },
+      {
+        "id": 5649291471224832,
+        "name": "Media Source Extensions for WebCodecs",
+        "statusUrl": "https://chromestatus.com/feature/5649291471224832",
+        "specUrls": [
+          "https://github.com/w3c/media-source/pull/302"
+        ]
+      },
+      {
+        "id": 5671401352593408,
+        "name": "API for customizing HTMLMediaElement.seekable for Media Source live streams",
+        "statusUrl": "https://chromestatus.com/feature/5671401352593408",
+        "specUrls": [
+          "https://www.w3.org/TR/media-source/"
+        ]
+      },
+      {
+        "id": 5696773133697024,
+        "name": "Media Source EventHandler attributes",
+        "statusUrl": "https://chromestatus.com/feature/5696773133697024",
+        "specUrls": [
+          "http://w3c.github.io/media-source/"
+        ]
+      },
       {
         "id": 5719220952236032,
         "manual": true,
         "lastreviewed": "2022-06-05"
+      },
+      {
+        "id": 6107495151960064,
+        "name": "Disallow Media Source abort() of range removals and truncating buffered media by reducing duration",
+        "statusUrl": "https://chromestatus.com/feature/6107495151960064",
+        "specUrls": [
+          "http://w3c.github.io/media-source/"
+        ]
       }
     ]
   }

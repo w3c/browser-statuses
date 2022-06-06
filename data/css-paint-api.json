@@ -1,20 +1,85 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSS.paintWorklet",
+        "name": "api.CSS.paintWorklet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/paintWorklet",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#ref-for-dom-css-paintworklet"
+        ]
+      },
+      {
+        "id": "api.PaintWorkletGlobalScope",
+        "name": "api.PaintWorkletGlobalScope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintWorklet",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#paintworkletglobalscope"
+        ]
+      },
+      {
+        "id": "api.PaintWorkletGlobalScope.devicePixelRatio",
+        "name": "api.PaintWorkletGlobalScope.devicePixelRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintWorklet/devicePixelRatio",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#ref-for-dom-paintworkletglobalscope-devicepixelratio"
+        ]
+      },
+      {
+        "id": "api.PaintWorkletGlobalScope.registerPaint",
+        "name": "api.PaintWorkletGlobalScope.registerPaint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintWorklet/registerPaint",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#dom-paintworkletglobalscope-registerpaint"
+        ]
+      },
+      {
+        "id": "css.types.image.paint",
+        "name": "css.types.image.paint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image/paint",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#paint-notation"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "css-paint-api",
+        "name": "CSS Paint API",
+        "statusUrl": "https://caniuse.com/css-paint-api",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5685444318593024,
+        "name": "CSS Paint API (Houdini)",
+        "statusUrl": "https://chromestatus.com/feature/5685444318593024",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5722647932436480,
+        "name": "\"paintworklet\" destination for PaintWorklet",
+        "statusUrl": "https://chromestatus.com/feature/5722647932436480",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api-1/#paint-worklet"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-css-painting-api-level-1",
+        "name": "CSS Painting API Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-painting-api-level-1",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api-1/"
+        ],
         "representative": true
       }
     ]

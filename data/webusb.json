@@ -1,20 +1,725 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.usb",
+        "name": "api.Navigator.usb",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-navigator-usb"
+        ]
+      },
+      {
+        "id": "api.USB",
+        "name": "api.USB",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USB",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usb"
+        ]
+      },
+      {
+        "id": "api.USB.connect_event",
+        "name": "api.USB.connect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USB/connect_event",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#connect",
+          "https://wicg.github.io/webusb/#ref-for-dom-usb-onconnect"
+        ]
+      },
+      {
+        "id": "api.USB.disconnect_event",
+        "name": "api.USB.disconnect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USB/disconnect_event",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#disconnect",
+          "https://wicg.github.io/webusb/#ref-for-dom-usb-ondisconnect"
+        ]
+      },
+      {
+        "id": "api.USB.getDevices",
+        "name": "api.USB.getDevices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USB/getDevices",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usb-getdevices②"
+        ]
+      },
+      {
+        "id": "api.USB.requestDevice",
+        "name": "api.USB.requestDevice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USB/requestDevice",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usb-requestdevice④"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface",
+        "name": "api.USBAlternateInterface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbalternateinterface"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.alternateSetting",
+        "name": "api.USBAlternateInterface.alternateSetting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/alternateSetting",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-alternatesetting"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.endpoints",
+        "name": "api.USBAlternateInterface.endpoints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/endpoints",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-endpoints"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.interfaceClass",
+        "name": "api.USBAlternateInterface.interfaceClass",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/interfaceClass",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-interfaceclass"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.interfaceName",
+        "name": "api.USBAlternateInterface.interfaceName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/interfaceName",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-interfacename"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.interfaceProtocol",
+        "name": "api.USBAlternateInterface.interfaceProtocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/interfaceProtocol",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-interfaceprotocol"
+        ]
+      },
+      {
+        "id": "api.USBAlternateInterface.interfaceSubclass",
+        "name": "api.USBAlternateInterface.interfaceSubclass",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBAlternateInterface/interfaceSubclass",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbalternateinterface-interfacesubclass"
+        ]
+      },
+      {
+        "id": "api.USBConfiguration",
+        "name": "api.USBConfiguration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConfiguration",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbconfiguration-interface"
+        ]
+      },
+      {
+        "id": "api.USBConfiguration.USBConfiguration",
+        "name": "api.USBConfiguration.USBConfiguration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConfiguration/USBConfiguration",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbconfiguration-usbconfiguration"
+        ]
+      },
+      {
+        "id": "api.USBConfiguration.configurationName",
+        "name": "api.USBConfiguration.configurationName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConfiguration/configurationName",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbconfiguration-configurationname"
+        ]
+      },
+      {
+        "id": "api.USBConfiguration.configurationValue",
+        "name": "api.USBConfiguration.configurationValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConfiguration/configurationValue",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbconfiguration-configurationvalue"
+        ]
+      },
+      {
+        "id": "api.USBConfiguration.interfaces",
+        "name": "api.USBConfiguration.interfaces",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConfiguration/interfaces",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbconfiguration-interfaces"
+        ]
+      },
+      {
+        "id": "api.USBConnectionEvent",
+        "name": "api.USBConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConnectionEvent",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbconnectionevent"
+        ]
+      },
+      {
+        "id": "api.USBConnectionEvent.USBConnectionEvent",
+        "name": "api.USBConnectionEvent.USBConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConnectionEvent/USBConnectionEvent",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbconnectionevent-usbconnectionevent"
+        ]
+      },
+      {
+        "id": "api.USBConnectionEvent.device",
+        "name": "api.USBConnectionEvent.device",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBConnectionEvent/device",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbconnectionevent-device"
+        ]
+      },
+      {
+        "id": "api.USBDevice",
+        "name": "api.USBDevice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#device-usage"
+        ]
+      },
+      {
+        "id": "api.USBDevice.claimInterface",
+        "name": "api.USBDevice.claimInterface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/claimInterface",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-claiminterface②"
+        ]
+      },
+      {
+        "id": "api.USBDevice.clearHalt",
+        "name": "api.USBDevice.clearHalt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/clearHalt",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-clearhalt①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.close",
+        "name": "api.USBDevice.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/close",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-close"
+        ]
+      },
+      {
+        "id": "api.USBDevice.configuration",
+        "name": "api.USBDevice.configuration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/configuration",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-configuration①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.configurations",
+        "name": "api.USBDevice.configurations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/configurations",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-configurations①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.controlTransferIn",
+        "name": "api.USBDevice.controlTransferIn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/controlTransferIn",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-controltransferin"
+        ]
+      },
+      {
+        "id": "api.USBDevice.controlTransferOut",
+        "name": "api.USBDevice.controlTransferOut",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/controlTransferOut",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-controltransferout①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceClass",
+        "name": "api.USBDevice.deviceClass",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceClass",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-deviceclass"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceProtocol",
+        "name": "api.USBDevice.deviceProtocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceProtocol",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-deviceprotocol"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceSubclass",
+        "name": "api.USBDevice.deviceSubclass",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceSubclass",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-devicesubclass"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceVersionMajor",
+        "name": "api.USBDevice.deviceVersionMajor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceVersionMajor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-deviceversionmajor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceVersionMinor",
+        "name": "api.USBDevice.deviceVersionMinor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceVersionMinor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-deviceversionminor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.deviceVersionSubminor",
+        "name": "api.USBDevice.deviceVersionSubminor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/deviceVersionSubminor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-deviceversionsubminor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.forget",
+        "name": "api.USBDevice.forget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/forget",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbdevice-forget"
+        ]
+      },
+      {
+        "id": "api.USBDevice.isochronousTransferIn",
+        "name": "api.USBDevice.isochronousTransferIn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/isochronousTransferIn",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-isochronoustransferin"
+        ]
+      },
+      {
+        "id": "api.USBDevice.isochronousTransferOut",
+        "name": "api.USBDevice.isochronousTransferOut",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/isochronousTransferOut",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-isochronoustransferout"
+        ]
+      },
+      {
+        "id": "api.USBDevice.manufacturerName",
+        "name": "api.USBDevice.manufacturerName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/manufacturerName",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-manufacturername"
+        ]
+      },
+      {
+        "id": "api.USBDevice.open",
+        "name": "api.USBDevice.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/open",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-open①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.opened",
+        "name": "api.USBDevice.opened",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/opened",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-opened"
+        ]
+      },
+      {
+        "id": "api.USBDevice.productId",
+        "name": "api.USBDevice.productId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/productId",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-productid"
+        ]
+      },
+      {
+        "id": "api.USBDevice.productName",
+        "name": "api.USBDevice.productName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/productName",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-productname"
+        ]
+      },
+      {
+        "id": "api.USBDevice.releaseInterface",
+        "name": "api.USBDevice.releaseInterface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/releaseInterface",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-releaseinterface①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.reset",
+        "name": "api.USBDevice.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/reset",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-reset"
+        ]
+      },
+      {
+        "id": "api.USBDevice.selectAlternateInterface",
+        "name": "api.USBDevice.selectAlternateInterface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/selectAlternateInterface",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-selectalternateinterface"
+        ]
+      },
+      {
+        "id": "api.USBDevice.selectConfiguration",
+        "name": "api.USBDevice.selectConfiguration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/selectConfiguration",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbdevice-selectconfiguration"
+        ]
+      },
+      {
+        "id": "api.USBDevice.serialNumber",
+        "name": "api.USBDevice.serialNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/serialNumber",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-serialnumber"
+        ]
+      },
+      {
+        "id": "api.USBDevice.transferIn",
+        "name": "api.USBDevice.transferIn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/transferIn",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-transferin①"
+        ]
+      },
+      {
+        "id": "api.USBDevice.transferOut",
+        "name": "api.USBDevice.transferOut",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/transferOut",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-transferout"
+        ]
+      },
+      {
+        "id": "api.USBDevice.usbVersionMajor",
+        "name": "api.USBDevice.usbVersionMajor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionMajor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-usbversionmajor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.usbVersionMinor",
+        "name": "api.USBDevice.usbVersionMinor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionMinor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbdevice-usbversionminor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.usbVersionSubminor",
+        "name": "api.USBDevice.usbVersionSubminor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/usbVersionSubminor",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-usbversionsubminor"
+        ]
+      },
+      {
+        "id": "api.USBDevice.vendorId",
+        "name": "api.USBDevice.vendorId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBDevice/vendorId",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-vendorid"
+        ]
+      },
+      {
+        "id": "api.USBEndpoint",
+        "name": "api.USBEndpoint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBEndpoint",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbendpoint-interface"
+        ]
+      },
+      {
+        "id": "api.USBEndpoint.direction",
+        "name": "api.USBEndpoint.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBEndpoint/direction",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbendpoint-direction"
+        ]
+      },
+      {
+        "id": "api.USBEndpoint.endpointNumber",
+        "name": "api.USBEndpoint.endpointNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBEndpoint/endpointNumber",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbendpoint-endpointnumber"
+        ]
+      },
+      {
+        "id": "api.USBEndpoint.packetSize",
+        "name": "api.USBEndpoint.packetSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBEndpoint/packetSize",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbendpoint-packetsize"
+        ]
+      },
+      {
+        "id": "api.USBEndpoint.type",
+        "name": "api.USBEndpoint.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBEndpoint/type",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbendpoint-type"
+        ]
+      },
+      {
+        "id": "api.USBInTransferResult",
+        "name": "api.USBInTransferResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInTransferResult",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbintransferresult"
+        ]
+      },
+      {
+        "id": "api.USBInTransferResult.data",
+        "name": "api.USBInTransferResult.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInTransferResult/data",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbintransferresult-data"
+        ]
+      },
+      {
+        "id": "api.USBInTransferResult.status",
+        "name": "api.USBInTransferResult.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInTransferResult/status",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbintransferresult-status"
+        ]
+      },
+      {
+        "id": "api.USBInterface",
+        "name": "api.USBInterface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInterface",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbinterface"
+        ]
+      },
+      {
+        "id": "api.USBInterface.alternate",
+        "name": "api.USBInterface.alternate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInterface/alternate",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbinterface-alternate"
+        ]
+      },
+      {
+        "id": "api.USBInterface.alternates",
+        "name": "api.USBInterface.alternates",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInterface/alternates",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbinterface-alternates"
+        ]
+      },
+      {
+        "id": "api.USBInterface.claimed",
+        "name": "api.USBInterface.claimed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInterface/claimed",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbinterface-claimed"
+        ]
+      },
+      {
+        "id": "api.USBInterface.interfaceNumber",
+        "name": "api.USBInterface.interfaceNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBInterface/interfaceNumber",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbinterface-interfacenumber"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferPacket",
+        "name": "api.USBIsochronousInTransferPacket",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferPacket",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbisochronousintransferpacket"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferPacket.data",
+        "name": "api.USBIsochronousInTransferPacket.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferPacket/data",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousintransferpacket-data"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferPacket.status",
+        "name": "api.USBIsochronousInTransferPacket.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferPacket/status",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousintransferpacket-status"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferResult",
+        "name": "api.USBIsochronousInTransferResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferResult",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbisochronousintransferresult"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferResult.data",
+        "name": "api.USBIsochronousInTransferResult.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferResult/data",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousintransferresult-data"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousInTransferResult.packets",
+        "name": "api.USBIsochronousInTransferResult.packets",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousInTransferResult/packets",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousintransferresult-packets"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousOutTransferPacket",
+        "name": "api.USBIsochronousOutTransferPacket",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousOutTransferPacket",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbisochronousouttransferpacket"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousOutTransferPacket.bytesWritten",
+        "name": "api.USBIsochronousOutTransferPacket.bytesWritten",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousOutTransferPacket/bytesWritten",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousouttransferpacket-byteswritten"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousOutTransferPacket.status",
+        "name": "api.USBIsochronousOutTransferPacket.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousOutTransferPacket/status",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousouttransferpacket-status"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousOutTransferResult",
+        "name": "api.USBIsochronousOutTransferResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousOutTransferResult",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbisochronousouttransferresult"
+        ]
+      },
+      {
+        "id": "api.USBIsochronousOutTransferResult.packets",
+        "name": "api.USBIsochronousOutTransferResult.packets",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBIsochronousOutTransferResult/packets",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbisochronousouttransferresult-packets"
+        ]
+      },
+      {
+        "id": "api.USBOutTransferResult",
+        "name": "api.USBOutTransferResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBOutTransferResult",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#usbouttransferresult"
+        ]
+      },
+      {
+        "id": "api.USBOutTransferResult.bytesWritten",
+        "name": "api.USBOutTransferResult.bytesWritten",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBOutTransferResult/bytesWritten",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbouttransferresult-byteswritten"
+        ]
+      },
+      {
+        "id": "api.USBOutTransferResult.status",
+        "name": "api.USBOutTransferResult.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBOutTransferResult/status",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbouttransferresult-status"
+        ]
+      },
+      {
+        "id": "api.USBPermissionResult.devices",
+        "name": "api.USBPermissionResult.devices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/USBPermissionResult/devices",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-usbpermissionresult-devices"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.usb",
+        "name": "api.WorkerNavigator.usb",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#dom-workernavigator-usb"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.usb",
+        "name": "http.headers.Feature-Policy.usb",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/usb",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#permissions-policy"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "webusb",
+        "name": "WebUSB",
+        "statusUrl": "https://caniuse.com/webusb",
+        "specUrls": [
+          "https://wicg.github.io/webusb/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5640127995969536,
+        "name": "USBDevice forget()",
+        "statusUrl": "https://chromestatus.com/feature/5640127995969536",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#ref-for-dom-usbdevice-forget"
+        ]
+      },
+      {
         "id": 5651917954875392,
+        "name": "WebUSB API",
+        "statusUrl": "https://chromestatus.com/feature/5651917954875392",
+        "specUrls": [
+          "https://wicg.github.io/webusb/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5928209916887040,
+        "name": "WebUSB on Dedicated Workers",
+        "statusUrl": "https://chromestatus.com/feature/5928209916887040",
+        "specUrls": [
+          "https://wicg.github.io/webusb/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-webusb",
+        "name": "WebUSB",
+        "statusUrl": "https://webkit.org/status/#specification-webusb",
+        "specUrls": [
+          "https://wicg.github.io/webusb/"
+        ],
         "representative": true
       }
     ]

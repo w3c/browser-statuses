@@ -1,20 +1,342 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Gamepad",
+        "name": "api.Gamepad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#gamepad-interface",
+          "https://w3c.github.io/gamepad/extensions.html#partial-gamepad-interface"
+        ]
+      },
+      {
+        "id": "api.Gamepad.axes",
+        "name": "api.Gamepad.axes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/axes",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-axes"
+        ]
+      },
+      {
+        "id": "api.Gamepad.buttons",
+        "name": "api.Gamepad.buttons",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/buttons",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-buttons"
+        ]
+      },
+      {
+        "id": "api.Gamepad.connected",
+        "name": "api.Gamepad.connected",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/connected",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-connected"
+        ]
+      },
+      {
+        "id": "api.Gamepad.hand",
+        "name": "api.Gamepad.hand",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/hand",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepad-hand"
+        ]
+      },
+      {
+        "id": "api.Gamepad.hapticActuators",
+        "name": "api.Gamepad.hapticActuators",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/hapticActuators",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepad-hapticactuators"
+        ]
+      },
+      {
+        "id": "api.Gamepad.id",
+        "name": "api.Gamepad.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/id",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-id"
+        ]
+      },
+      {
+        "id": "api.Gamepad.index",
+        "name": "api.Gamepad.index",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/index",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-index"
+        ]
+      },
+      {
+        "id": "api.Gamepad.mapping",
+        "name": "api.Gamepad.mapping",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/mapping",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-mapping"
+        ]
+      },
+      {
+        "id": "api.Gamepad.pose",
+        "name": "api.Gamepad.pose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/pose",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepad-pose"
+        ]
+      },
+      {
+        "id": "api.Gamepad.timestamp",
+        "name": "api.Gamepad.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gamepad/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepad-timestamp"
+        ]
+      },
+      {
+        "id": "api.GamepadButton",
+        "name": "api.GamepadButton",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadButton",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#gamepadbutton-interface"
+        ]
+      },
+      {
+        "id": "api.GamepadButton.pressed",
+        "name": "api.GamepadButton.pressed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadButton/pressed",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadbutton-pressed"
+        ]
+      },
+      {
+        "id": "api.GamepadButton.value",
+        "name": "api.GamepadButton.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadButton/value",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadbutton-value"
+        ]
+      },
+      {
+        "id": "api.GamepadEvent",
+        "name": "api.GamepadEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadEvent",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#gamepadevent-interface"
+        ]
+      },
+      {
+        "id": "api.GamepadEvent.GamepadEvent",
+        "name": "api.GamepadEvent.GamepadEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadEvent/GamepadEvent",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadevent-constructor"
+        ]
+      },
+      {
+        "id": "api.GamepadEvent.gamepad",
+        "name": "api.GamepadEvent.gamepad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadEvent/gamepad",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadevent-gamepad"
+        ]
+      },
+      {
+        "id": "api.GamepadHapticActuator",
+        "name": "api.GamepadHapticActuator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#gamepadhapticactuator-interface"
+        ]
+      },
+      {
+        "id": "api.GamepadHapticActuator.pulse",
+        "name": "api.GamepadHapticActuator.pulse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/pulse",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadhapticactuator-pulse"
+        ]
+      },
+      {
+        "id": "api.GamepadHapticActuator.type",
+        "name": "api.GamepadHapticActuator.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator/type",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadhapticactuatortype"
+        ]
+      },
+      {
+        "id": "api.GamepadPose",
+        "name": "api.GamepadPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#gamepadpose-interface"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.angularAcceleration",
+        "name": "api.GamepadPose.angularAcceleration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/angularAcceleration",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-angularacceleration"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.angularVelocity",
+        "name": "api.GamepadPose.angularVelocity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/angularVelocity",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-angularvelocity"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.hasOrientation",
+        "name": "api.GamepadPose.hasOrientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/hasOrientation",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-hasorientation"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.hasPosition",
+        "name": "api.GamepadPose.hasPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/hasPosition",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-hasposition"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.linearAcceleration",
+        "name": "api.GamepadPose.linearAcceleration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/linearAcceleration",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-linearacceleration"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.linearVelocity",
+        "name": "api.GamepadPose.linearVelocity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/linearVelocity",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-linearvelocity"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.orientation",
+        "name": "api.GamepadPose.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/orientation",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-orientation"
+        ]
+      },
+      {
+        "id": "api.GamepadPose.position",
+        "name": "api.GamepadPose.position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadPose/position",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html#dom-gamepadpose-position"
+        ]
+      },
+      {
+        "id": "api.Navigator.getGamepads",
+        "name": "api.Navigator.getGamepads",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/getGamepads",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-navigator-getgamepads"
+        ]
+      },
+      {
+        "id": "api.Window.gamepadconnected_event",
+        "name": "api.Window.gamepadconnected_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/gamepadconnected_event",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#event-gamepadconnected"
+        ]
+      },
+      {
+        "id": "api.Window.gamepaddisconnected_event",
+        "name": "api.Window.gamepaddisconnected_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/gamepaddisconnected_event",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#event-gamepaddisconnected"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.gamepad",
+        "name": "http.headers.Feature-Policy.gamepad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/gamepad",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#permission-policy"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "gamepad",
+        "name": "Gamepad API",
+        "statusUrl": "https://caniuse.com/gamepad",
+        "specUrls": [
+          "https://www.w3.org/TR/gamepad/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5118776383111168,
+        "name": "GamePad API",
+        "statusUrl": "https://chromestatus.com/feature/5118776383111168",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5135093320384512,
+        "name": "Deprecate and remove navigator.getGamepads().item(index)",
+        "statusUrl": "https://chromestatus.com/feature/5135093320384512",
+        "specUrls": [
+          "https://www.w3.org/TR/gamepad/#navigator-interface-extension"
+        ]
+      },
+      {
+        "id": 5138714634223616,
+        "name": "Restrict Gamepad usage",
+        "statusUrl": "https://chromestatus.com/feature/5138714634223616",
+        "specUrls": [
+          "https://www.w3.org/TR/gamepad/"
+        ]
+      },
+      {
+        "id": 5651469617332224,
+        "name": "GamePad API touch and motion extensions",
+        "statusUrl": "https://chromestatus.com/feature/5651469617332224",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/extensions.html"
+        ]
+      },
+      {
+        "id": 5727206521176064,
+        "name": "GamePad API: GamepadButton touched attribute",
+        "statusUrl": "https://chromestatus.com/feature/5727206521176064",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadbutton-touched"
+        ]
+      },
+      {
+        "id": 5751747209330688,
+        "name": "High Resolution Time Stamp for Gamepad",
+        "statusUrl": "https://chromestatus.com/feature/5751747209330688",
+        "specUrls": [
+          "https://www.w3.org/TR/gamepad/#gamepad-interface"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-gamepad",
+        "name": "Gamepad",
+        "statusUrl": "https://webkit.org/status/#specification-gamepad",
+        "specUrls": [
+          "https://www.w3.org/TR/gamepad/"
+        ],
         "representative": true
       }
     ]

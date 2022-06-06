@@ -1,20 +1,1126 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Cache",
+        "name": "api.Cache",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-interface"
+        ]
+      },
+      {
+        "id": "api.Cache.add",
+        "name": "api.Cache.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/add",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-add"
+        ]
+      },
+      {
+        "id": "api.Cache.addAll",
+        "name": "api.Cache.addAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/addAll",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-addAll"
+        ]
+      },
+      {
+        "id": "api.Cache.delete",
+        "name": "api.Cache.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/delete",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-delete"
+        ]
+      },
+      {
+        "id": "api.Cache.keys",
+        "name": "api.Cache.keys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/keys",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-keys"
+        ]
+      },
+      {
+        "id": "api.Cache.match",
+        "name": "api.Cache.match",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/match",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-match"
+        ]
+      },
+      {
+        "id": "api.Cache.matchAll",
+        "name": "api.Cache.matchAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/matchAll",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-matchall"
+        ]
+      },
+      {
+        "id": "api.Cache.put",
+        "name": "api.Cache.put",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Cache/put",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-put"
+        ]
+      },
+      {
+        "id": "api.CacheStorage",
+        "name": "api.CacheStorage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cachestorage-interface"
+        ]
+      },
+      {
+        "id": "api.CacheStorage.delete",
+        "name": "api.CacheStorage.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage/delete",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-storage-delete"
+        ]
+      },
+      {
+        "id": "api.CacheStorage.has",
+        "name": "api.CacheStorage.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage/has",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-storage-has"
+        ]
+      },
+      {
+        "id": "api.CacheStorage.keys",
+        "name": "api.CacheStorage.keys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage/keys",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-storage-keys"
+        ]
+      },
+      {
+        "id": "api.CacheStorage.match",
+        "name": "api.CacheStorage.match",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage/match",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-storage-match"
+        ]
+      },
+      {
+        "id": "api.CacheStorage.open",
+        "name": "api.CacheStorage.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CacheStorage/open",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#cache-storage-open"
+        ]
+      },
+      {
+        "id": "api.Client",
+        "name": "api.Client",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-interface"
+        ]
+      },
+      {
+        "id": "api.Client.frameType",
+        "name": "api.Client.frameType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client/frameType",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-frametype"
+        ]
+      },
+      {
+        "id": "api.Client.id",
+        "name": "api.Client.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client/id",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-id"
+        ]
+      },
+      {
+        "id": "api.Client.postMessage",
+        "name": "api.Client.postMessage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client/postMessage",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-client-postmessage-message-options"
+        ]
+      },
+      {
+        "id": "api.Client.type",
+        "name": "api.Client.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client/type",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-type"
+        ]
+      },
+      {
+        "id": "api.Client.url",
+        "name": "api.Client.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Client/url",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-url"
+        ]
+      },
+      {
+        "id": "api.Clients",
+        "name": "api.Clients",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clients",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-interface"
+        ]
+      },
+      {
+        "id": "api.Clients.claim",
+        "name": "api.Clients.claim",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clients/claim",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-claim"
+        ]
+      },
+      {
+        "id": "api.Clients.get",
+        "name": "api.Clients.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clients/get",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-get"
+        ]
+      },
+      {
+        "id": "api.Clients.matchAll",
+        "name": "api.Clients.matchAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clients/matchAll",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-matchall"
+        ]
+      },
+      {
+        "id": "api.Clients.matchAll.options_includeUncontrolled_parameter",
+        "name": "api.Clients.matchAll.options_includeUncontrolled_parameter",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-clientqueryoptions-includeuncontrolled"
+        ]
+      },
+      {
+        "id": "api.Clients.openWindow",
+        "name": "api.Clients.openWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clients/openWindow",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-openwindow"
+        ]
+      },
+      {
+        "id": "api.ExtendableEvent",
+        "name": "api.ExtendableEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendableevent-interface"
+        ]
+      },
+      {
+        "id": "api.ExtendableEvent.ExtendableEvent",
+        "name": "api.ExtendableEvent.ExtendableEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableEvent/ExtendableEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-extendableevent-extendableevent"
+        ]
+      },
+      {
+        "id": "api.ExtendableEvent.waitUntil",
+        "name": "api.ExtendableEvent.waitUntil",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableEvent/waitUntil",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-extendableevent-waituntil"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent",
+        "name": "api.ExtendableMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessageevent-interface"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.ExtendableMessageEvent",
+        "name": "api.ExtendableMessageEvent.ExtendableMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/ExtendableMessageEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-extendablemessageevent-extendablemessageevent"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.data",
+        "name": "api.ExtendableMessageEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/data",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessage-event-data"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.lastEventId",
+        "name": "api.ExtendableMessageEvent.lastEventId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/lastEventId",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessage-event-lasteventid"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.origin",
+        "name": "api.ExtendableMessageEvent.origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/origin",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessage-event-origin"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.ports",
+        "name": "api.ExtendableMessageEvent.ports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/ports",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessage-event-ports"
+        ]
+      },
+      {
+        "id": "api.ExtendableMessageEvent.source",
+        "name": "api.ExtendableMessageEvent.source",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableMessageEvent/source",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#extendablemessage-event-source"
+        ]
+      },
+      {
+        "id": "api.FetchEvent",
+        "name": "api.FetchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetchevent-interface"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.FetchEvent",
+        "name": "api.FetchEvent.FetchEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/FetchEvent",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-fetchevent-fetchevent"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.clientId",
+        "name": "api.FetchEvent.clientId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/clientId",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-clientid"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.handled",
+        "name": "api.FetchEvent.handled",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-fetchevent-handled"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.preloadResponse",
+        "name": "api.FetchEvent.preloadResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/preloadResponse",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-preloadresponse"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.replacesClientId",
+        "name": "api.FetchEvent.replacesClientId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/replacesClientId",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-replacesClientId"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.request",
+        "name": "api.FetchEvent.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/request",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-request"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.respondWith",
+        "name": "api.FetchEvent.respondWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/respondWith",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-respondwith"
+        ]
+      },
+      {
+        "id": "api.FetchEvent.resultingClientId",
+        "name": "api.FetchEvent.resultingClientId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FetchEvent/resultingClientId",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-resultingclientid"
+        ]
+      },
+      {
+        "id": "api.NavigationPreloadManager",
+        "name": "api.NavigationPreloadManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigation-preload-manager"
+        ]
+      },
+      {
+        "id": "api.NavigationPreloadManager.disable",
+        "name": "api.NavigationPreloadManager.disable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager/disable",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-navigationpreloadmanager-disable"
+        ]
+      },
+      {
+        "id": "api.NavigationPreloadManager.enable",
+        "name": "api.NavigationPreloadManager.enable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager/enable",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-navigationpreloadmanager-enable"
+        ]
+      },
+      {
+        "id": "api.NavigationPreloadManager.getState",
+        "name": "api.NavigationPreloadManager.getState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager/getState",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-navigationpreloadmanager-getstate"
+        ]
+      },
+      {
+        "id": "api.NavigationPreloadManager.setHeaderValue",
+        "name": "api.NavigationPreloadManager.setHeaderValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NavigationPreloadManager/setHeaderValue",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-navigationpreloadmanager-setheadervalue"
+        ]
+      },
+      {
+        "id": "api.Navigator.serviceWorker",
+        "name": "api.Navigator.serviceWorker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/serviceWorker",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-attribute"
+        ]
+      },
+      {
+        "id": "api.ServiceWorker",
+        "name": "api.ServiceWorker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorker",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#serviceworker-interface"
+        ]
+      },
+      {
+        "id": "api.ServiceWorker.postMessage",
+        "name": "api.ServiceWorker.postMessage",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworker-postmessage",
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworker-postmessage-message-options"
+        ]
+      },
+      {
+        "id": "api.ServiceWorker.scriptURL",
+        "name": "api.ServiceWorker.scriptURL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorker/scriptURL",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-url"
+        ]
+      },
+      {
+        "id": "api.ServiceWorker.state",
+        "name": "api.ServiceWorker.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorker/state",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-state"
+        ]
+      },
+      {
+        "id": "api.ServiceWorker.statechange_event",
+        "name": "api.ServiceWorker.statechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorker/statechange_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworker-onstatechange"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer",
+        "name": "api.ServiceWorkerContainer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#serviceworkercontainer-interface"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.controller",
+        "name": "api.ServiceWorkerContainer.controller",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/controller",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-controller"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.controllerchange_event",
+        "name": "api.ServiceWorkerContainer.controllerchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/controllerchange_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkercontainer-oncontrollerchange"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.getRegistration",
+        "name": "api.ServiceWorkerContainer.getRegistration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/getRegistration",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-getRegistration"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.getRegistrations",
+        "name": "api.ServiceWorkerContainer.getRegistrations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/getRegistrations",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-getRegistrations"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.message_event",
+        "name": "api.ServiceWorkerContainer.message_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/message_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkercontainer-onmessage"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.messageerror_event",
+        "name": "api.ServiceWorkerContainer.messageerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/messageerror_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onmessageerror"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.ready",
+        "name": "api.ServiceWorkerContainer.ready",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/ready",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-ready"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.register",
+        "name": "api.ServiceWorkerContainer.register",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/register",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-register"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerContainer.startMessages",
+        "name": "api.ServiceWorkerContainer.startMessages",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/startMessages",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-startMessages"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope",
+        "name": "api.ServiceWorkerGlobalScope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#serviceworkerglobalscope-interface"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.activate_event",
+        "name": "api.ServiceWorkerGlobalScope.activate_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/activate_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-activate-event",
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onactivate"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.clients",
+        "name": "api.ServiceWorkerGlobalScope.clients",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/clients",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-clients"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.fetch_event",
+        "name": "api.ServiceWorkerGlobalScope.fetch_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/fetch_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onfetch"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.install_event",
+        "name": "api.ServiceWorkerGlobalScope.install_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/install_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-oninstall"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.message_event",
+        "name": "api.ServiceWorkerGlobalScope.message_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/message_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-message",
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onmessage"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.messageerror_event",
+        "name": "api.ServiceWorkerGlobalScope.messageerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/messageerror_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#eventdef-serviceworkerglobalscope-messageerror",
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-onmessageerror"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.registration",
+        "name": "api.ServiceWorkerGlobalScope.registration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/registration",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-registration"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.serviceWorker",
+        "name": "api.ServiceWorkerGlobalScope.serviceWorker",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerglobalscope-serviceworker"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.skipWaiting",
+        "name": "api.ServiceWorkerGlobalScope.skipWaiting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/skipWaiting",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-skipwaiting"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration",
+        "name": "api.ServiceWorkerRegistration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#serviceworkerregistration-interface",
+          "https://w3c.github.io/push-api/#extensions-to-the-serviceworkerregistration-interface"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.active",
+        "name": "api.ServiceWorkerRegistration.active",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/active",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-active"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.installing",
+        "name": "api.ServiceWorkerRegistration.installing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/installing",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-installing"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.navigationPreload",
+        "name": "api.ServiceWorkerRegistration.navigationPreload",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/navigationPreload",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-registration-navigationpreload"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.scope",
+        "name": "api.ServiceWorkerRegistration.scope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/scope",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-registration-scope"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.unregister",
+        "name": "api.ServiceWorkerRegistration.unregister",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/unregister",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-unregister"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.update",
+        "name": "api.ServiceWorkerRegistration.update",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/update",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-registration-update"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.updateViaCache",
+        "name": "api.ServiceWorkerRegistration.updateViaCache",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/updateViaCache",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-registration-updateviacache"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.updatefound_event",
+        "name": "api.ServiceWorkerRegistration.updatefound_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/updatefound_event",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dom-serviceworkerregistration-onupdatefound"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.waiting",
+        "name": "api.ServiceWorkerRegistration.waiting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/waiting",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-service-worker-waiting"
+        ]
+      },
+      {
+        "id": "api.WindowClient",
+        "name": "api.WindowClient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowClient",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#windowclient"
+        ]
+      },
+      {
+        "id": "api.WindowClient.focus",
+        "name": "api.WindowClient.focus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowClient/focus",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-focus"
+        ]
+      },
+      {
+        "id": "api.WindowClient.focused",
+        "name": "api.WindowClient.focused",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowClient/focused",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-focused"
+        ]
+      },
+      {
+        "id": "api.WindowClient.navigate",
+        "name": "api.WindowClient.navigate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowClient/navigate",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-navigate"
+        ]
+      },
+      {
+        "id": "api.WindowClient.visibilityState",
+        "name": "api.WindowClient.visibilityState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowClient/visibilityState",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-visibilitystate"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.serviceWorker",
+        "name": "api.WorkerNavigator.serviceWorker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/serviceWorker",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#navigator-serviceworker"
+        ]
+      },
+      {
+        "id": "api.caches",
+        "name": "api.caches",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/caches",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#self-caches"
+        ]
+      },
+      {
+        "id": "http.headers.Service-Worker-Navigation-Preload",
+        "name": "http.headers.Service-Worker-Navigation-Preload",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Service-Worker-Navigation-Preload",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#handle-fetch"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "serviceworkers",
+        "name": "Service Workers",
+        "statusUrl": "https://caniuse.com/serviceworkers",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4609574738853888,
+        "name": "ES Modules for service workers ('module' type option)",
+        "statusUrl": "https://chromestatus.com/feature/4609574738853888",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-concept"
+        ]
+      },
+      {
+        "id": 4673870283931648,
+        "name": "Service Worker: Client.id",
+        "statusUrl": "https://chromestatus.com/feature/4673870283931648",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 4716607557337088,
+        "name": "Service worker: Clients.matchAll() returns clients in MRU order",
+        "statusUrl": "https://chromestatus.com/feature/4716607557337088",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#clients-matchall-method"
+        ]
+      },
+      {
+        "id": 4835970390163456,
+        "name": "service worker: Don't expose the API to insecure contexts.",
+        "statusUrl": "https://chromestatus.com/feature/4835970390163456",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 4846038800138240,
+        "name": "Service worker: FetchEvent.resultingClientId",
+        "statusUrl": "https://chromestatus.com/feature/4846038800138240",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 4922023562182656,
+        "name": "Cache.addAll()",
+        "statusUrl": "https://chromestatus.com/feature/4922023562182656",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5014379292524544,
+        "name": "Remove ServiceWorkerMessageEvent in favor of using MessageEvent",
+        "statusUrl": "https://chromestatus.com/feature/5014379292524544",
+        "specUrls": [
+          "https://github.com/w3c/ServiceWorker/commit/6c68bd87bdfd153186a5b9904e31676c56730e2f"
+        ]
+      },
+      {
+        "id": 5023199309856768,
+        "name": "Client.type",
+        "statusUrl": "https://chromestatus.com/feature/5023199309856768",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#client-type"
+        ]
+      },
+      {
+        "id": 5072127703121920,
+        "name": "Cache API (global scope)",
+        "statusUrl": "https://chromestatus.com/feature/5072127703121920",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects"
+        ]
+      },
+      {
+        "id": 5163630974730240,
+        "name": "Service Worker: Client.postMessage() and ServiceWorkerMessageEvent",
+        "statusUrl": "https://chromestatus.com/feature/5163630974730240",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#serviceworkermessage-event-section"
+        ]
+      },
+      {
+        "id": 5295194681376768,
+        "name": "Cache.matchAll()",
+        "statusUrl": "https://chromestatus.com/feature/5295194681376768",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5314750808326144,
+        "name": "Service Worker: WindowClient.navigate()",
+        "statusUrl": "https://chromestatus.com/feature/5314750808326144",
+        "specUrls": [
+          "http://www.w3.org/TR/service-workers/#client-navigate-method"
+        ]
+      },
+      {
+        "id": 5436747060084736,
+        "name": "ServiceWorkerRegistration.update() resolves with a registration.",
+        "statusUrl": "https://chromestatus.com/feature/5436747060084736",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 5622587912617984,
+        "name": "Cache API: reject addAll() when requests would overwrite each other",
+        "statusUrl": "https://chromestatus.com/feature/5622587912617984",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#batch-cache-operations-algorithm"
+        ]
+      },
+      {
+        "id": 5631681746698240,
+        "name": "Service Worker: ServiceWorkerRegistration.update() returns a promise",
+        "statusUrl": "https://chromestatus.com/feature/5631681746698240",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5637562412564480,
+        "name": "Clients.get(id)",
+        "statusUrl": "https://chromestatus.com/feature/5637562412564480",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#clients-get"
+        ]
+      },
+      {
+        "id": 5646687634718720,
+        "name": "Service Worker: Do not resurrect uninstalled workers.",
+        "statusUrl": "https://chromestatus.com/feature/5646687634718720",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker"
+        ]
+      },
+      {
+        "id": 5654467158474752,
+        "name": "FetchEvent.handled",
+        "statusUrl": "https://chromestatus.com/feature/5654467158474752",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetch-event-handled"
+        ]
+      },
+      {
+        "id": 5654840750374912,
+        "name": "Service Worker Registration Id",
+        "statusUrl": "https://chromestatus.com/feature/5654840750374912",
+        "specUrls": [
+          "https://github.com/w3c/ServiceWorker/pull/1526"
+        ]
+      },
+      {
+        "id": 5663070173003776,
+        "name": "Service Worker: ServiceWorkerRegistration.update()",
+        "statusUrl": "https://chromestatus.com/feature/5663070173003776",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5673980799221760,
+        "name": "Cache.add()",
+        "statusUrl": "https://chromestatus.com/feature/5673980799221760",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5682681044008960,
+        "name": "Link rel=serviceworker",
+        "statusUrl": "https://chromestatus.com/feature/5682681044008960",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#link-type-serviceworker"
+        ]
+      },
+      {
+        "id": 5684130679357440,
+        "name": "Foreign Fetch",
+        "statusUrl": "https://chromestatus.com/feature/5684130679357440",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#install-event-section"
+        ]
+      },
+      {
+        "id": 5688413921476608,
+        "name": "waitUntil/respondWith can be called inside a microtask during event dispatch.",
+        "statusUrl": "https://chromestatus.com/feature/5688413921476608",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker"
+        ]
+      },
+      {
+        "id": 5699031592337408,
+        "name": "ServiceWorkerContainer.onmessageerror",
+        "statusUrl": "https://chromestatus.com/feature/5699031592337408",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker"
+        ]
+      },
+      {
+        "id": 5717034876796928,
+        "name": "FetchEvent.clientId attribute",
+        "statusUrl": "https://chromestatus.com/feature/5717034876796928",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5724079160033280,
+        "name": "ExtendableMessageEvent on ServiceWorkerGlobalScope",
+        "statusUrl": "https://chromestatus.com/feature/5724079160033280",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html#extendablemessage-event-section"
+        ]
+      },
+      {
+        "id": 5734842339688448,
+        "name": "Navigation preload for service workers",
+        "statusUrl": "https://chromestatus.com/feature/5734842339688448",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 5740842165731328,
+        "name": "Cache API is restricted to secure origins",
+        "statusUrl": "https://chromestatus.com/feature/5740842165731328",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/"
+        ]
+      },
+      {
+        "id": 5748516353736704,
+        "name": "Remove importScripts() of new scripts after service worker installation.",
+        "statusUrl": "https://chromestatus.com/feature/5748516353736704",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 5751307839209472,
+        "name": "service worker: client.postMessage() is buffered until the document is ready.",
+        "statusUrl": "https://chromestatus.com/feature/5751307839209472",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#dfn-client-message-queue"
+        ]
+      },
+      {
+        "id": 5897293530136576,
+        "name": "ServiceWorkerRegistration.update() does not bypass the browser HTTP cache",
+        "statusUrl": "https://chromestatus.com/feature/5897293530136576",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
+      },
+      {
+        "id": 5915801131417600,
+        "name": "CacheStorage CacheQueryOptions support",
+        "statusUrl": "https://chromestatus.com/feature/5915801131417600",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/spec/service_worker/index.html#dictdef-cache-cachequeryoptions"
+        ]
+      },
+      {
+        "id": 5942197618737152,
+        "name": "Service Worker: Non-nullable FetchEvent#clientId",
+        "statusUrl": "https://chromestatus.com/feature/5942197618737152",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#fetchevent"
+        ]
+      },
+      {
+        "id": 6015753541124096,
+        "name": "Service Worker subresource filter",
+        "statusUrl": "https://chromestatus.com/feature/6015753541124096",
+        "specUrls": [
+          "https://github.com/w3c/ServiceWorker/issues/1584"
+        ]
+      },
+      {
+        "id": 6059838387781632,
+        "name": "Improve Cache Management for Service Worker Scripts",
+        "statusUrl": "https://chromestatus.com/feature/6059838387781632",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 6313531834105856,
+        "name": "Service Worker: Requests from embed and object elements skip service workers",
+        "statusUrl": "https://chromestatus.com/feature/6313531834105856",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#implementer-concerns"
+        ]
+      },
+      {
+        "id": 6405336307073024,
+        "name": "Service worker: FetchEvents for requests for same-origin favicons.",
+        "statusUrl": "https://chromestatus.com/feature/6405336307073024",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ]
+      },
+      {
+        "id": 6461631328419840,
+        "name": "Cache API",
+        "statusUrl": "https://chromestatus.com/feature/6461631328419840",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/#cache-objects"
+        ]
+      },
+      {
+        "id": 6533131347689472,
+        "name": "Extend byte-for-byte update check to all service worker importScripts() resources",
+        "statusUrl": "https://chromestatus.com/feature/6533131347689472",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#update-algorithm"
+        ]
+      },
+      {
         "id": 6561526227927040,
+        "name": "Service Worker",
+        "statusUrl": "https://chromestatus.com/feature/6561526227927040",
+        "specUrls": [
+          "http://slightlyoff.github.io/ServiceWorker/spec/service_worker/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6678900060979200,
+        "name": "ServiceWorkerGlobalScope#serviceWorker to get a service worker object corresponding to a worker itself",
+        "statusUrl": "https://chromestatus.com/feature/6678900060979200",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/#service-worker-global-scope-serviceworker"
+        ]
+      },
+      {
+        "id": 6734239512920064,
+        "name": "Service Worker: ServiceWorkerContainer.getRegistrations()",
+        "statusUrl": "https://chromestatus.com/feature/6734239512920064",
+        "specUrls": [
+          "https://slightlyoff.github.io/ServiceWorker/spec/service_worker/index.html"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-service-workers",
+        "name": "Service Workers",
+        "statusUrl": "https://webkit.org/status/#specification-service-workers",
+        "specUrls": [
+          "https://w3c.github.io/ServiceWorker/"
+        ],
         "representative": true
       }
     ]

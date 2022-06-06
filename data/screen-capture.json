@@ -1,8 +1,128 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.MediaDevices.getDisplayMedia",
+        "name": "api.MediaDevices.getDisplayMedia",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/getDisplayMedia",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediadevices-getdisplaymedia"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.displaySurface",
+        "name": "api.MediaTrackConstraints.displaySurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/displaySurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-displaysurface"
+        ]
+      },
+      {
+        "id": "api.MediaTrackConstraints.logicalSurface",
+        "name": "api.MediaTrackConstraints.logicalSurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackConstraints/logicalSurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-logicalsurface"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings",
+        "name": "api.MediaTrackSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#media-track-settings",
+          "https://w3c.github.io/mediacapture-screen-share/#extensions-to-mediatracksettings"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.cursor",
+        "name": "api.MediaTrackSettings.cursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/cursor",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatracksettings-cursor"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.displaySurface",
+        "name": "api.MediaTrackSettings.displaySurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/displaySurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-displaysurface"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSettings.logicalSurface",
+        "name": "api.MediaTrackSettings.logicalSurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSettings/logicalSurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatrackconstraintset-logicalsurface"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.displaySurface",
+        "name": "api.MediaTrackSupportedConstraints.displaySurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/displaySurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatracksupportedconstraints-displaysurface"
+        ]
+      },
+      {
+        "id": "api.MediaTrackSupportedConstraints.logicalSurface",
+        "name": "api.MediaTrackSupportedConstraints.logicalSurface",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaTrackSupportedConstraints/logicalSurface",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-mediatracksupportedconstraints-logicalsurface"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.display-capture",
+        "name": "http.headers.Feature-Policy.display-capture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/display-capture",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#permissions-policy-integration"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 4649448880734208,
+        "name": "DisplayMediaStreamConstraints.systemAudio",
+        "statusUrl": "https://chromestatus.com/feature/4649448880734208",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-screen-share/pull/222/files"
+        ]
+      },
+      {
+        "id": 5118675366445056,
+        "name": "DisplayMediaStreamConstraints.selfBrowserSurface",
+        "statusUrl": "https://chromestatus.com/feature/5118675366445056",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-screen-share/pull/216/files"
+        ]
+      },
+      {
+        "id": 5186392840732672,
+        "name": "MediaTrackConstraintSet.displaySurface",
+        "statusUrl": "https://chromestatus.com/feature/5186392840732672",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-screen-share/pull/186/files"
+        ]
+      },
+      {
+        "id": 5201258309746688,
+        "name": "MediaTrackSupportedConstraints.suppressLocalAudioPlayback",
+        "statusUrl": "https://chromestatus.com/feature/5201258309746688",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-screen-share/pull/164/files"
+        ]
+      },
+      {
         "id": 6744724455030784,
+        "name": "MediaStream.getDisplayMedia()",
+        "statusUrl": "https://chromestatus.com/feature/6744724455030784",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share"
+        ],
         "representative": true
       }
     ]

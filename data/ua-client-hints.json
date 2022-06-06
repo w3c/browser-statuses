@@ -1,8 +1,183 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.userAgentData",
+        "name": "api.Navigator.userAgentData",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatorua-useragentdata"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData",
+        "name": "api.NavigatorUAData",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#navigatoruadata"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData.brands",
+        "name": "api.NavigatorUAData.brands",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-brands"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData.getHighEntropyValues",
+        "name": "api.NavigatorUAData.getHighEntropyValues",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-gethighentropyvalues"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData.mobile",
+        "name": "api.NavigatorUAData.mobile",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-mobile"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData.platform",
+        "name": "api.NavigatorUAData.platform",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-platform"
+        ]
+      },
+      {
+        "id": "api.NavigatorUAData.toJSON",
+        "name": "api.NavigatorUAData.toJSON",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatoruadata-tojson"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.userAgentData",
+        "name": "api.WorkerNavigator.userAgentData",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#dom-navigatorua-useragentdata"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA",
+        "name": "http.headers.Sec-CH-UA",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Arch",
+        "name": "http.headers.Sec-CH-UA-Arch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Arch",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-arch"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Bitness",
+        "name": "http.headers.Sec-CH-UA-Bitness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-bitness"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Full-Version",
+        "name": "http.headers.Sec-CH-UA-Full-Version",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-full-version"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Full-Version-List",
+        "name": "http.headers.Sec-CH-UA-Full-Version-List",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-full-version-list"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Mobile",
+        "name": "http.headers.Sec-CH-UA-Mobile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-mobile"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Model",
+        "name": "http.headers.Sec-CH-UA-Model",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Model",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-model"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Platform",
+        "name": "http.headers.Sec-CH-UA-Platform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Platform",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-CH-UA-Platform-Version",
+        "name": "http.headers.Sec-CH-UA-Platform-Version",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-platform-version"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 5080939765956608,
+        "name": "New UA platform version source on Windows for User-Agent Client Hints",
+        "statusUrl": "https://chromestatus.com/feature/5080939765956608",
+        "specUrls": [
+          "https://github.com/WICG/ua-client-hints"
+        ]
+      },
+      {
+        "id": 5630916006248448,
+        "name": "Update User-Agent Client Hints GREASE implementation",
+        "statusUrl": "https://chromestatus.com/feature/5630916006248448",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#grease"
+        ]
+      },
+      {
+        "id": 5682026601512960,
+        "name": "Sec-CH-UA-WoW64 Client Hint",
+        "statusUrl": "https://chromestatus.com/feature/5682026601512960",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-ua-wow64"
+        ]
+      },
+      {
+        "id": 5733498725859328,
+        "name": "User-Agent Client Hints API Updates",
+        "statusUrl": "https://chromestatus.com/feature/5733498725859328",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/"
+        ]
+      },
+      {
+        "id": 5767378065424384,
+        "name": "Rename Sec-CH-UA-Platform value from \"Mac OS X\" to \"macOS\"",
+        "statusUrl": "https://chromestatus.com/feature/5767378065424384",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/#sec-ch-platform"
+        ]
+      },
+      {
         "id": 5995832180473856,
+        "name": "Sec-CH-UA Client Hints",
+        "statusUrl": "https://chromestatus.com/feature/5995832180473856",
+        "specUrls": [
+          "https://wicg.github.io/ua-client-hints/"
+        ],
         "representative": true
       }
     ]

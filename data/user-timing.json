@@ -1,20 +1,118 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Performance",
+        "name": "api.Performance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#sec-performance",
+          "https://w3c.github.io/performance-timeline/#extensions-to-the-performance-interface",
+          "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+          "https://w3c.github.io/user-timing/#extensions-performance-interface"
+        ]
+      },
+      {
+        "id": "api.Performance.clearMarks",
+        "name": "api.Performance.clearMarks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/clearMarks",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performance-clearmarks"
+        ]
+      },
+      {
+        "id": "api.Performance.clearMeasures",
+        "name": "api.Performance.clearMeasures",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/clearMeasures",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performance-clearmeasures"
+        ]
+      },
+      {
+        "id": "api.Performance.mark",
+        "name": "api.Performance.mark",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/mark",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performance-mark"
+        ]
+      },
+      {
+        "id": "api.Performance.measure",
+        "name": "api.Performance.measure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/measure",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performance-measure"
+        ]
+      },
+      {
+        "id": "api.PerformanceMark",
+        "name": "api.PerformanceMark",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceMark",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#performancemark"
+        ]
+      },
+      {
+        "id": "api.PerformanceMark.detail",
+        "name": "api.PerformanceMark.detail",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performancemark-detail"
+        ]
+      },
+      {
+        "id": "api.PerformanceMeasure",
+        "name": "api.PerformanceMeasure",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceMeasure",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#performancemeasure"
+        ]
+      },
+      {
+        "id": "api.PerformanceMeasure.detail",
+        "name": "api.PerformanceMeasure.detail",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/#dom-performancemeasure-detail"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "user-timing",
+        "name": "User Timing API",
+        "statusUrl": "https://caniuse.com/user-timing",
+        "specUrls": [
+          "https://www.w3.org/TR/user-timing/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5066549580791808,
+        "name": "User Timing API",
+        "statusUrl": "https://chromestatus.com/feature/5066549580791808",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/UserTiming/Overview.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5149401886490624,
+        "name": "User Timing L3",
+        "statusUrl": "https://chromestatus.com/feature/5149401886490624",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-user-timing-level-2",
+        "name": "User Timing Level 2",
+        "statusUrl": "https://webkit.org/status/#specification-user-timing-level-2",
+        "specUrls": [
+          "https://w3c.github.io/user-timing/"
+        ],
         "representative": true
       }
     ]

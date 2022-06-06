@@ -1,15 +1,109 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.contain",
+        "name": "css.properties.contain",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/contain",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain/#contain-property"
+        ]
+      },
+      {
+        "id": "css.properties.content-visibility",
+        "name": "css.properties.content-visibility",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/content-visibility",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain/#content-visibility"
+        ]
+      }
+    ],
     "caniuse": [
       {
+        "id": "css-container-queries",
+        "name": "CSS Container Queries",
+        "statusUrl": "https://caniuse.com/css-container-queries",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-3/"
+        ]
+      },
+      {
         "id": "css-containment",
+        "name": "CSS Containment",
+        "statusUrl": "https://caniuse.com/css-containment",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-1/#contain-property"
+        ],
         "representative": true
+      },
+      {
+        "id": "css-content-visibility",
+        "name": "CSS content-visibility",
+        "statusUrl": "https://caniuse.com/css-content-visibility",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-2/#content-visibility"
+        ]
       }
     ],
     "chrome": [
       {
+        "id": 4613920211861504,
+        "name": "CSS content-visibility property",
+        "statusUrl": "https://chromestatus.com/feature/4613920211861504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain-2/#content-visibility"
+        ]
+      },
+      {
+        "id": 5136053209923584,
+        "name": "CSS containment: Remove style from strict and content",
+        "statusUrl": "https://chromestatus.com/feature/5136053209923584",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain/#contain-property"
+        ]
+      },
+      {
+        "id": 5663240823504896,
+        "name": "Disable propagation of body style to viewport when contained",
+        "statusUrl": "https://chromestatus.com/feature/5663240823504896",
+        "specUrls": [
+          "http://drafts.csswg.org/css-contain-1/#c3"
+        ]
+      },
+      {
         "id": 6522186978295808,
+        "name": "CSS Containment",
+        "statusUrl": "https://chromestatus.com/feature/6522186978295808",
+        "specUrls": [
+          "https://drafts.csswg.org/css-containment/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6525308435955712,
+        "name": "Container Queries",
+        "statusUrl": "https://chromestatus.com/feature/6525308435955712",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain-3/#container-rule"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-css-container-queries",
+        "name": "CSS Container Queries",
+        "statusUrl": "https://webkit.org/status/#feature-css-container-queries",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-3/#container-queries"
+        ]
+      },
+      {
+        "id": "specification-css-containment-level-1",
+        "name": "CSS Containment Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-containment-level-1",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-1/"
+        ]
       }
     ]
   }

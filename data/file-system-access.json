@@ -1,9 +1,122 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.DataTransferItem.getAsFileSystemHandle",
+        "name": "api.DataTransferItem.getAsFileSystemHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DataTransferItem/getAsFileSystemHandle",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#dom-datatransferitem-getasfilesystemhandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle.queryPermission",
+        "name": "api.FileSystemHandle.queryPermission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/queryPermission",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#api-filesystemhandle-querypermission"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle.requestPermission",
+        "name": "api.FileSystemHandle.requestPermission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/requestPermission",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#api-filesystemhandle-requestpermission"
+        ]
+      },
+      {
+        "id": "api.Window.showDirectoryPicker",
+        "name": "api.Window.showDirectoryPicker",
+        "statusUrl": "https://developer.mozilla.org/docs/web/api/window/showdirectorypicker",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#api-showdirectorypicker"
+        ]
+      },
+      {
+        "id": "api.Window.showOpenFilePicker",
+        "name": "api.Window.showOpenFilePicker",
+        "statusUrl": "https://developer.mozilla.org/docs/web/api/window/showopenfilepicker",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#api-showopenfilepicker"
+        ]
+      },
+      {
+        "id": "api.Window.showSaveFilePicker",
+        "name": "api.Window.showSaveFilePicker",
+        "statusUrl": "https://developer.mozilla.org/docs/web/api/window/showsavefilepicker",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#api-showsavefilepicker"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "native-filesystem-api",
+        "name": "File System Access API",
+        "statusUrl": "https://caniuse.com/native-filesystem-api",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 4768827940274176,
+        "name": "Limit characters allowed in extensions in File System Access API file pickers",
+        "statusUrl": "https://chromestatus.com/feature/4768827940274176",
+        "specUrls": [
+          "https://github.com/WICG/file-system-access/pull/252"
+        ]
+      },
+      {
+        "id": 5640802622504960,
+        "name": "FileSystemHandle::move() method",
+        "statusUrl": "https://chromestatus.com/feature/5640802622504960",
+        "specUrls": [
+          "https://github.com/WICG/file-system-access/pull/317"
+        ]
+      },
+      {
+        "id": 5747310233387008,
+        "name": "Remove FileSystemWritableFileStream::close() implementation",
+        "statusUrl": "https://chromestatus.com/feature/5747310233387008",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#filesystemwritablefilestream"
+        ]
+      },
+      {
+        "id": 6013006146174976,
+        "name": "Suggested file name and location for the File System Access API",
+        "statusUrl": "https://chromestatus.com/feature/6013006146174976",
+        "specUrls": [
+          "https://github.com/WICG/file-system-access/pull/287"
+        ]
+      },
+      {
         "id": 6284708426022912,
+        "name": "File System Access",
+        "statusUrl": "https://chromestatus.com/feature/6284708426022912",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6383970247770112,
+        "name": "Writable directory prompts for the File System Access API",
+        "statusUrl": "https://chromestatus.com/feature/6383970247770112",
+        "specUrls": [
+          "https://github.com/WICG/file-system-access/pull/300"
+        ]
+      },
+      {
+        "id": 6556060494069760,
+        "name": "Seeking past the end of a file in the File System Access API",
+        "statusUrl": "https://chromestatus.com/feature/6556060494069760",
+        "specUrls": [
+          "https://github.com/WICG/file-system-access/pull/266/files"
+        ]
       }
     ]
   }

@@ -1,8 +1,23 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRInputSource.gamepad",
+        "name": "api.XRInputSource.gamepad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gamepad",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-gamepads-module/#dom-xrinputsource-gamepad"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5659025263820800,
+        "name": "WebXR Gamepads Module - Level 1",
+        "statusUrl": "https://chromestatus.com/feature/5659025263820800",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-gamepads-module/"
+        ],
         "representative": true
       }
     ]

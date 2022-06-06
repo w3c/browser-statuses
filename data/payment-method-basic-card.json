@@ -3,7 +3,36 @@
     "chrome": [
       {
         "id": 5408502604365824,
+        "name": "basic-card support in PaymentRequest",
+        "statusUrl": "https://chromestatus.com/feature/5408502604365824",
+        "specUrls": [
+          "https://w3c.github.io/webpayments-methods-card/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5671972004429824,
+        "name": "BasicCardResponse.expiry{Month,Year} should be 2 digits",
+        "statusUrl": "https://chromestatus.com/feature/5671972004429824",
+        "specUrls": [
+          "https://w3c.github.io/webpayments-methods-card/#basiccardresponse"
+        ]
+      },
+      {
+        "id": 5709702556024832,
+        "name": "Remove supportedType field from BasicCardRequest",
+        "statusUrl": "https://chromestatus.com/feature/5709702556024832",
+        "specUrls": [
+          "https://w3c.github.io/payment-method-basic-card/#basiccardrequest-dictionary"
+        ]
+      },
+      {
+        "id": 5725727580225536,
+        "name": "Card issuer networks as payment method names",
+        "statusUrl": "https://chromestatus.com/feature/5725727580225536",
+        "specUrls": [
+          "https://w3c.github.io/webpayments-methods-card/"
+        ]
       }
     ]
   },

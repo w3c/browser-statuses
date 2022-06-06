@@ -1,8 +1,63 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Magnetometer",
+        "name": "api.Magnetometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Magnetometer",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#magnetometer-interface"
+        ]
+      },
+      {
+        "id": "api.Magnetometer.Magnetometer",
+        "name": "api.Magnetometer.Magnetometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Magnetometer/Magnetometer",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#dom-magnetometer-magnetometer"
+        ]
+      },
+      {
+        "id": "api.Magnetometer.x",
+        "name": "api.Magnetometer.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Magnetometer/x",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#magnetometer-x"
+        ]
+      },
+      {
+        "id": "api.Magnetometer.y",
+        "name": "api.Magnetometer.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Magnetometer/y",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#magnetometer-y"
+        ]
+      },
+      {
+        "id": "api.Magnetometer.z",
+        "name": "api.Magnetometer.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Magnetometer/z",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#magnetometer-z"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.magnetometer",
+        "name": "http.headers.Feature-Policy.magnetometer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/magnetometer",
+        "specUrls": [
+          "https://w3c.github.io/magnetometer/#ref-for-policy-controlled-feature"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "magnetometer",
+        "name": "Magnetometer",
+        "statusUrl": "https://caniuse.com/magnetometer",
+        "specUrls": [
+          "https://www.w3.org/TR/magnetometer/"
+        ],
         "representative": true
       }
     ],
@@ -12,6 +67,16 @@
         "representative": true,
         "manual": true,
         "lastreviewed": "2022-06-05"
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-magnetometer",
+        "name": "Magnetometer",
+        "statusUrl": "https://webkit.org/status/#specification-magnetometer",
+        "specUrls": [
+          "https://www.w3.org/TR/magnetometer/"
+        ]
       }
     ]
   }

@@ -1,15 +1,85 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "html.elements.meta.name",
+        "name": "html.elements.meta.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/meta/name",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#standard-metadata-names",
+          "https://drafts.csswg.org/css-device-adapt/#viewport-meta",
+          "https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-delivery-meta"
+        ]
+      },
+      {
+        "id": "http.headers.Referrer-Policy",
+        "name": "http.headers.Referrer-Policy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-referrer-policy/#referrer-policy-header"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "referrer-policy",
+        "name": "Referrer Policy",
+        "statusUrl": "https://caniuse.com/referrer-policy",
+        "specUrls": [
+          "https://www.w3.org/TR/referrer-policy/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5123843565813760,
+        "name": "Cap page-scoped referrer policies",
+        "statusUrl": "https://chromestatus.com/feature/5123843565813760",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-referrer-policy/#determine-requests-referrer"
+        ]
+      },
+      {
+        "id": 5634117806850048,
+        "name": "Referrer policies 'same-origin', 'strict-origin', 'strict-origin-when-cross-origin'",
+        "statusUrl": "https://chromestatus.com/feature/5634117806850048",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-referrer-policy/"
+        ]
+      },
+      {
         "id": 5639972996513792,
+        "name": "Referrer-Policy header",
+        "statusUrl": "https://chromestatus.com/feature/5639972996513792",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-referrer-policy/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5648956820291584,
+        "name": "Limit `Referer` header's length to 4k",
+        "statusUrl": "https://chromestatus.com/feature/5648956820291584",
+        "specUrls": [
+          "https://github.com/w3c/webappsec-referrer-policy/pull/122"
+        ]
+      },
+      {
+        "id": 5680800376815616,
+        "name": "CSP 'referrer' directive",
+        "statusUrl": "https://chromestatus.com/feature/5680800376815616",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-referrer-policy/"
+        ]
+      },
+      {
+        "id": 5696724538490880,
+        "name": "Referrer Policy Header for CSS",
+        "statusUrl": "https://chromestatus.com/feature/5696724538490880",
+        "specUrls": [
+          "https://www.w3.org/TR/referrer-policy/"
+        ]
       }
     ]
   }

@@ -1,20 +1,342 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.align-tracks",
+        "name": "css.properties.align-tracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-tracks",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-3/#tracks-alignment"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.flex_context",
+        "name": "css.properties.column-gap.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.grid_context",
+        "name": "css.properties.column-gap.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.multicol_context",
+        "name": "css.properties.column-gap.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.grid",
+        "name": "css.properties.grid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#grid-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.grid-area",
+        "name": "css.properties.grid-area",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-area",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#propdef-grid-area"
+        ]
+      },
+      {
+        "id": "css.properties.grid-auto-columns",
+        "name": "css.properties.grid-auto-columns",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-columns",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#auto-tracks"
+        ]
+      },
+      {
+        "id": "css.properties.grid-auto-flow",
+        "name": "css.properties.grid-auto-flow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-flow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#grid-auto-flow-property"
+        ]
+      },
+      {
+        "id": "css.properties.grid-auto-rows",
+        "name": "css.properties.grid-auto-rows",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-auto-rows",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#auto-tracks"
+        ]
+      },
+      {
+        "id": "css.properties.grid-column",
+        "name": "css.properties.grid-column",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-column",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#placement-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.grid-column-end",
+        "name": "css.properties.grid-column-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-column-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#line-placement"
+        ]
+      },
+      {
+        "id": "css.properties.grid-column-start",
+        "name": "css.properties.grid-column-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-column-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#line-placement"
+        ]
+      },
+      {
+        "id": "css.properties.grid-row",
+        "name": "css.properties.grid-row",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-row",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#placement-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.grid-row-end",
+        "name": "css.properties.grid-row-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-row-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#line-placement"
+        ]
+      },
+      {
+        "id": "css.properties.grid-row-start",
+        "name": "css.properties.grid-row-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-row-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#line-placement"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template",
+        "name": "css.properties.grid-template",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-template",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#explicit-grid-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-areas",
+        "name": "css.properties.grid-template-areas",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-template-areas",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#grid-template-areas-property"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns",
+        "name": "css.properties.grid-template-columns",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-template-columns",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#track-sizing",
+          "https://drafts.csswg.org/css-grid/#subgrids",
+          "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns.masonry",
+        "name": "css.properties.grid-template-columns.masonry",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns.minmax",
+        "name": "css.properties.grid-template-columns.minmax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/minmax()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns.repeat",
+        "name": "css.properties.grid-template-columns.repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/repeat()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#repeat-notation"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns.subgrid",
+        "name": "css.properties.grid-template-columns.subgrid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Subgrid",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#subgrids"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows",
+        "name": "css.properties.grid-template-rows",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/grid-template-rows",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#track-sizing",
+          "https://drafts.csswg.org/css-grid/#subgrids",
+          "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows.masonry",
+        "name": "css.properties.grid-template-rows.masonry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Masonry_Layout",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-3/#masonry-layout"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows.minmax",
+        "name": "css.properties.grid-template-rows.minmax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/minmax()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-minmax"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows.repeat",
+        "name": "css.properties.grid-template-rows.repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/repeat()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#repeat-notation"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows.subgrid",
+        "name": "css.properties.grid-template-rows.subgrid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Subgrid",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#subgrids"
+        ]
+      },
+      {
+        "id": "css.properties.justify-tracks",
+        "name": "css.properties.justify-tracks",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-tracks",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-3/#tracks-alignment"
+        ]
+      },
+      {
+        "id": "css.properties.masonry-auto-flow",
+        "name": "css.properties.masonry-auto-flow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/masonry-auto-flow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-3/#masonry-auto-flow"
+        ]
+      },
+      {
+        "id": "css.types.flex",
+        "name": "css.types.flex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex_value",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#fr-unit"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "css-grid",
+        "name": "CSS Grid Layout (level 1)",
+        "statusUrl": "https://caniuse.com/css-grid",
+        "specUrls": [
+          "https://www.w3.org/TR/css-grid-1/"
+        ],
         "representative": true
+      },
+      {
+        "id": "css-subgrid",
+        "name": "CSS Subgrid",
+        "statusUrl": "https://caniuse.com/css-subgrid",
+        "specUrls": [
+          "https://www.w3.org/TR/css-grid-2/#subgrids"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 4589636412243968,
+        "name": "CSS Grid Layout",
+        "statusUrl": "https://chromestatus.com/feature/4589636412243968",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/"
+        ],
         "representative": true
+      },
+      {
+        "id": 4986266210795520,
+        "name": "Unprefix CSS Grid Layout gutter properties",
+        "statusUrl": "https://chromestatus.com/feature/4986266210795520",
+        "specUrls": [
+          "https://www.w3.org/TR/css-grid-1/#gutters"
+        ]
+      },
+      {
+        "id": 5663795354533888,
+        "name": "CSS Subgrid",
+        "statusUrl": "https://chromestatus.com/feature/5663795354533888",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid-2"
+        ]
+      },
+      {
+        "id": 5958076270116864,
+        "name": "Exclude implicit tracks from grid-template-rows/columns resolved values",
+        "statusUrl": "https://chromestatus.com/feature/5958076270116864",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#resolved-track-list"
+        ]
+      },
+      {
+        "id": 6037871692611584,
+        "name": "CSS grid-template properties interpolation",
+        "statusUrl": "https://chromestatus.com/feature/6037871692611584",
+        "specUrls": [
+          "https://www.w3.org/TR/css-grid-1"
+        ]
+      },
+      {
+        "id": 6708326821789696,
+        "name": "Update behavior of CSS Grid Layout percentage row tracks and gutters",
+        "statusUrl": "https://chromestatus.com/feature/6708326821789696",
+        "specUrls": [
+          "https://drafts.csswg.org/css-grid/#valdef-grid-template-columns-length-percentage"
+        ]
       }
     ],
     "webkit": [
       {
+        "id": "feature-css-subgrid",
+        "name": "CSS Subgrid",
+        "statusUrl": "https://webkit.org/status/#feature-css-subgrid",
+        "specUrls": [
+          "https://www.w3.org/TR/css-grid-2/#subgrids"
+        ]
+      },
+      {
         "id": "specification-css-grid-layout-level-1",
+        "name": "CSS Grid Layout Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-grid-layout-level-1",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-grid/"
+        ],
         "representative": true
       }
     ]

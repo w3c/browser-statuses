@@ -26,16 +26,118 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Element.elementTiming",
+        "name": "api.Element.elementTiming",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#dom-element-elementtiming"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming",
+        "name": "api.PerformanceElementTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#sec-performance-element-timing"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.element",
+        "name": "api.PerformanceElementTiming.element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/element",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-element"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.id",
+        "name": "api.PerformanceElementTiming.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/id",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-id"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.identifier",
+        "name": "api.PerformanceElementTiming.identifier",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/identifier",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-identifier"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.intersectionRect",
+        "name": "api.PerformanceElementTiming.intersectionRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/intersectionRect",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-intersectionrect"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.loadTime",
+        "name": "api.PerformanceElementTiming.loadTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/loadTime",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-loadtime①"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.naturalHeight",
+        "name": "api.PerformanceElementTiming.naturalHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/naturalHeight",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-naturalheight"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.naturalWidth",
+        "name": "api.PerformanceElementTiming.naturalWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/naturalWidth",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-naturalwidth"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.renderTime",
+        "name": "api.PerformanceElementTiming.renderTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/renderTime",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-rendertime①"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.toJSON",
+        "name": "api.PerformanceElementTiming.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/toJSON",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#dom-performanceelementtiming-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceElementTiming.url",
+        "name": "api.PerformanceElementTiming.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceElementTiming/url",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/#ref-for-dom-performanceelementtiming-url"
+        ]
+      }
+    ],
     "chrome": [
+      {
+        "id": 6230814637424640,
+        "name": "ElementTiming for text",
+        "statusUrl": "https://chromestatus.com/feature/6230814637424640",
+        "specUrls": [
+          "https://wicg.github.io/element-timing/"
+        ],
+        "representative": true
+      },
       {
         "id": 6727079454310400,
         "representative": true,
         "manual": true,
         "lastreviewed": "2022-06-05"
-      },
-      {
-        "id": 6230814637424640,
-        "representative": true
       }
     ]
   }

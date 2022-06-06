@@ -1,9 +1,40 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLVideoElement.cancelVideoFrameCallback",
+        "name": "api.HTMLVideoElement.cancelVideoFrameCallback",
+        "specUrls": [
+          "https://wicg.github.io/video-rvfc/#dom-htmlvideoelement-cancelvideoframecallback"
+        ]
+      },
+      {
+        "id": "api.HTMLVideoElement.requestVideoFrameCallback",
+        "name": "api.HTMLVideoElement.requestVideoFrameCallback",
+        "specUrls": [
+          "https://wicg.github.io/video-rvfc/#dom-htmlvideoelement-requestvideoframecallback"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 6335927192387584,
+        "name": "HTMLVideoElement.requestVideoFrameCallback()",
+        "statusUrl": "https://chromestatus.com/feature/6335927192387584",
+        "specUrls": [
+          "https://wicg.github.io/video-rvfc/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-requestvideoframecallback",
+        "name": "requestVideoFrameCallback",
+        "statusUrl": "https://webkit.org/status/#feature-requestvideoframecallback",
+        "specUrls": [
+          "https://wicg.github.io/video-rvfc/"
+        ]
       }
     ]
   }

@@ -1,20 +1,912 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.IDBCursor",
+        "name": "api.IDBCursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#cursor-interface"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.advance",
+        "name": "api.IDBCursor.advance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/advance",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-advance①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.continue",
+        "name": "api.IDBCursor.continue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/continue",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-continue①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.continuePrimaryKey",
+        "name": "api.IDBCursor.continuePrimaryKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/continuePrimaryKey",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-continueprimarykey①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.delete",
+        "name": "api.IDBCursor.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/delete",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-delete①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.direction",
+        "name": "api.IDBCursor.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/direction",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-direction①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.key",
+        "name": "api.IDBCursor.key",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/key",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-key①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.primaryKey",
+        "name": "api.IDBCursor.primaryKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/primaryKey",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-primarykey①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.request",
+        "name": "api.IDBCursor.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/request",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-request①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.source",
+        "name": "api.IDBCursor.source",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/source",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-source①"
+        ]
+      },
+      {
+        "id": "api.IDBCursor.update",
+        "name": "api.IDBCursor.update",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursor/update",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursor-update①"
+        ]
+      },
+      {
+        "id": "api.IDBCursorWithValue",
+        "name": "api.IDBCursorWithValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursorWithValue",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-idbcursorwithvalue②"
+        ]
+      },
+      {
+        "id": "api.IDBCursorWithValue.value",
+        "name": "api.IDBCursorWithValue.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBCursorWithValue/value",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbcursorwithvalue-value①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase",
+        "name": "api.IDBDatabase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#database-interface"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.close",
+        "name": "api.IDBDatabase.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/close",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-close②"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.close_event",
+        "name": "api.IDBDatabase.close_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/close_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#closing-connection",
+          "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onclose"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.createObjectStore",
+        "name": "api.IDBDatabase.createObjectStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/createObjectStore",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-createobjectstore①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.deleteObjectStore",
+        "name": "api.IDBDatabase.deleteObjectStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/deleteObjectStore",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-deleteobjectstore①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.name",
+        "name": "api.IDBDatabase.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/name",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-name①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.objectStoreNames",
+        "name": "api.IDBDatabase.objectStoreNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/objectStoreNames",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-objectstorenames①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.transaction",
+        "name": "api.IDBDatabase.transaction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/transaction",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-transaction③"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.version",
+        "name": "api.IDBDatabase.version",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/version",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbdatabase-version①"
+        ]
+      },
+      {
+        "id": "api.IDBDatabase.versionchange_event",
+        "name": "api.IDBDatabase.versionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBDatabase/versionchange_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-connection-versionchange",
+          "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onversionchange"
+        ]
+      },
+      {
+        "id": "api.IDBFactory",
+        "name": "api.IDBFactory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBFactory",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#factory-interface"
+        ]
+      },
+      {
+        "id": "api.IDBFactory.cmp",
+        "name": "api.IDBFactory.cmp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBFactory/cmp",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-cmp①"
+        ]
+      },
+      {
+        "id": "api.IDBFactory.databases",
+        "name": "api.IDBFactory.databases",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBFactory/databases",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-databases①"
+        ]
+      },
+      {
+        "id": "api.IDBFactory.deleteDatabase",
+        "name": "api.IDBFactory.deleteDatabase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBFactory/deleteDatabase",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-deletedatabase①"
+        ]
+      },
+      {
+        "id": "api.IDBFactory.open",
+        "name": "api.IDBFactory.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBFactory/open",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbfactory-open②"
+        ]
+      },
+      {
+        "id": "api.IDBIndex",
+        "name": "api.IDBIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#index-interface"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.count",
+        "name": "api.IDBIndex.count",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/count",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-count①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.get",
+        "name": "api.IDBIndex.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/get",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-get①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.getAll",
+        "name": "api.IDBIndex.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getAll",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getall①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.getAllKeys",
+        "name": "api.IDBIndex.getAllKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getAllKeys",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getallkeys①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.getKey",
+        "name": "api.IDBIndex.getKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/getKey",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-getkey①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.keyPath",
+        "name": "api.IDBIndex.keyPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/keyPath",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbindex-keypath"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.multiEntry",
+        "name": "api.IDBIndex.multiEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/multiEntry",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbindex-multientry"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.name",
+        "name": "api.IDBIndex.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/name",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-name①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.objectStore",
+        "name": "api.IDBIndex.objectStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/objectStore",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-objectstore①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.openCursor",
+        "name": "api.IDBIndex.openCursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/openCursor",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-opencursor②"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.openKeyCursor",
+        "name": "api.IDBIndex.openKeyCursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/openKeyCursor",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbindex-openkeycursor①"
+        ]
+      },
+      {
+        "id": "api.IDBIndex.unique",
+        "name": "api.IDBIndex.unique",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBIndex/unique",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbindex-unique"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange",
+        "name": "api.IDBKeyRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#keyrange"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.bound",
+        "name": "api.IDBKeyRange.bound",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/bound",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-bound①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.includes",
+        "name": "api.IDBKeyRange.includes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/includes",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-includes①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.lower",
+        "name": "api.IDBKeyRange.lower",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/lower",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-lower①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.lowerBound",
+        "name": "api.IDBKeyRange.lowerBound",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/lowerBound",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-lowerbound①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.lowerOpen",
+        "name": "api.IDBKeyRange.lowerOpen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/lowerOpen",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-loweropen①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.only",
+        "name": "api.IDBKeyRange.only",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/only",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-only①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.upper",
+        "name": "api.IDBKeyRange.upper",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/upper",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-upper①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.upperBound",
+        "name": "api.IDBKeyRange.upperBound",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/upperBound",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-upperbound①"
+        ]
+      },
+      {
+        "id": "api.IDBKeyRange.upperOpen",
+        "name": "api.IDBKeyRange.upperOpen",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBKeyRange/upperOpen",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbkeyrange-upperopen①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore",
+        "name": "api.IDBObjectStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#object-store-interface"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.add",
+        "name": "api.IDBObjectStore.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/add",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-add①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.autoIncrement",
+        "name": "api.IDBObjectStore.autoIncrement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/autoIncrement",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-autoincrement①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.clear",
+        "name": "api.IDBObjectStore.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/clear",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-clear③"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.count",
+        "name": "api.IDBObjectStore.count",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/count",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-count①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.createIndex",
+        "name": "api.IDBObjectStore.createIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/createIndex",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-createindex①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.delete",
+        "name": "api.IDBObjectStore.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/delete",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-delete①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.deleteIndex",
+        "name": "api.IDBObjectStore.deleteIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/deleteIndex",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-deleteindex①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.get",
+        "name": "api.IDBObjectStore.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/get",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-get①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.getAll",
+        "name": "api.IDBObjectStore.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAll",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getall①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.getAllKeys",
+        "name": "api.IDBObjectStore.getAllKeys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getAllKeys",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getallkeys①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.getKey",
+        "name": "api.IDBObjectStore.getKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/getKey",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-getkey①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.index",
+        "name": "api.IDBObjectStore.index",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/index",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbobjectstore-index"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.indexNames",
+        "name": "api.IDBObjectStore.indexNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/indexNames",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-indexnames①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.keyPath",
+        "name": "api.IDBObjectStore.keyPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/keyPath",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-keypath①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.name",
+        "name": "api.IDBObjectStore.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/name",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-name①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.openCursor",
+        "name": "api.IDBObjectStore.openCursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/openCursor",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-opencursor②"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.openKeyCursor",
+        "name": "api.IDBObjectStore.openKeyCursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/openKeyCursor",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-openkeycursor①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.put",
+        "name": "api.IDBObjectStore.put",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/put",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-put①"
+        ]
+      },
+      {
+        "id": "api.IDBObjectStore.transaction",
+        "name": "api.IDBObjectStore.transaction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBObjectStore/transaction",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbobjectstore-transaction①"
+        ]
+      },
+      {
+        "id": "api.IDBOpenDBRequest",
+        "name": "api.IDBOpenDBRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBOpenDBRequest",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#idbopendbrequest"
+        ]
+      },
+      {
+        "id": "api.IDBOpenDBRequest.blocked_event",
+        "name": "api.IDBOpenDBRequest.blocked_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBOpenDBRequest/blocked_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-request-blocked",
+          "https://w3c.github.io/IndexedDB/#dom-idbopendbrequest-onblocked"
+        ]
+      },
+      {
+        "id": "api.IDBOpenDBRequest.upgradeneeded_event",
+        "name": "api.IDBOpenDBRequest.upgradeneeded_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBOpenDBRequest/upgradeneeded_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-request-upgradeneeded",
+          "https://w3c.github.io/IndexedDB/#dom-idbopendbrequest-onupgradeneeded"
+        ]
+      },
+      {
+        "id": "api.IDBRequest",
+        "name": "api.IDBRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#request-api"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.error",
+        "name": "api.IDBRequest.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/error",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbrequest-error①"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.error_event",
+        "name": "api.IDBRequest.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/error_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-request-error",
+          "https://w3c.github.io/IndexedDB/#dom-idbrequest-onerror"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.readyState",
+        "name": "api.IDBRequest.readyState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/readyState",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbrequest-readystate①"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.result",
+        "name": "api.IDBRequest.result",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/result",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbrequest-result①"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.source",
+        "name": "api.IDBRequest.source",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/source",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbrequest-source①"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.success_event",
+        "name": "api.IDBRequest.success_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/success_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-request-success",
+          "https://w3c.github.io/IndexedDB/#dom-idbrequest-onsuccess"
+        ]
+      },
+      {
+        "id": "api.IDBRequest.transaction",
+        "name": "api.IDBRequest.transaction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBRequest/transaction",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbrequest-transaction①"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction",
+        "name": "api.IDBTransaction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#transaction"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.abort",
+        "name": "api.IDBTransaction.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/abort",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-abort②"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.abort_event",
+        "name": "api.IDBTransaction.abort_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/abort_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-transaction-abort",
+          "https://w3c.github.io/IndexedDB/#dom-idbtransaction-onabort",
+          "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onabort"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.commit",
+        "name": "api.IDBTransaction.commit",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/commit",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-commit②"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.complete_event",
+        "name": "api.IDBTransaction.complete_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/complete_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-transaction-complete",
+          "https://w3c.github.io/IndexedDB/#dom-idbtransaction-oncomplete"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.db",
+        "name": "api.IDBTransaction.db",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/db",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-db①"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.durability",
+        "name": "api.IDBTransaction.durability",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/durability",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbtransaction-durability"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.error",
+        "name": "api.IDBTransaction.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/error",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-error①"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.error_event",
+        "name": "api.IDBTransaction.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/error_event",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#eventdef-request-error",
+          "https://w3c.github.io/IndexedDB/#dom-idbtransaction-onerror",
+          "https://w3c.github.io/IndexedDB/#dom-idbdatabase-onerror"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.mode",
+        "name": "api.IDBTransaction.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/mode",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-mode①"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.objectStore",
+        "name": "api.IDBTransaction.objectStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStore",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-objectstore①"
+        ]
+      },
+      {
+        "id": "api.IDBTransaction.objectStoreNames",
+        "name": "api.IDBTransaction.objectStoreNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBTransaction/objectStoreNames",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#ref-for-dom-idbtransaction-objectstorenames①"
+        ]
+      },
+      {
+        "id": "api.IDBVersionChangeEvent",
+        "name": "api.IDBVersionChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBVersionChangeEvent",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#events"
+        ]
+      },
+      {
+        "id": "api.IDBVersionChangeEvent.IDBVersionChangeEvent",
+        "name": "api.IDBVersionChangeEvent.IDBVersionChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBVersionChangeEvent/IDBVersionChangeEvent",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbversionchangeevent-idbversionchangeevent"
+        ]
+      },
+      {
+        "id": "api.IDBVersionChangeEvent.newVersion",
+        "name": "api.IDBVersionChangeEvent.newVersion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBVersionChangeEvent/newVersion",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbversionchangeevent-newversion"
+        ]
+      },
+      {
+        "id": "api.IDBVersionChangeEvent.oldVersion",
+        "name": "api.IDBVersionChangeEvent.oldVersion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IDBVersionChangeEvent/oldVersion",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbversionchangeevent-oldversion"
+        ]
+      },
+      {
+        "id": "api.indexedDB",
+        "name": "api.indexedDB",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/indexedDB",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-windoworworkerglobalscope-indexeddb"
+        ]
+      }
+    ],
     "caniuse": [
       {
+        "id": "indexeddb",
+        "name": "IndexedDB",
+        "statusUrl": "https://caniuse.com/indexeddb",
+        "specUrls": [
+          "https://www.w3.org/TR/IndexedDB/"
+        ]
+      },
+      {
         "id": "indexeddb2",
+        "name": "IndexedDB 2.0",
+        "statusUrl": "https://caniuse.com/indexeddb2",
+        "specUrls": [
+          "https://www.w3.org/TR/IndexedDB-2/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5375472036741120,
+        "name": "IndexedDB transaction explicit commit API call",
+        "statusUrl": "https://chromestatus.com/feature/5375472036741120",
+        "specUrls": [
+          "https://github.com/w3c/IndexedDB/pull/242"
+        ]
+      },
+      {
+        "id": 5432744081358848,
+        "name": "Implement IDBCursor `request` attribute",
+        "statusUrl": "https://chromestatus.com/feature/5432744081358848",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbcursor-request"
+        ]
+      },
+      {
+        "id": 5645171886653440,
+        "name": "Indexed DB: Replace DOMError with DOMException",
+        "statusUrl": "https://chromestatus.com/feature/5645171886653440",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/"
+        ]
+      },
+      {
+        "id": 5730701489995776,
+        "name": "IndexedDB relaxed durability transactions",
+        "statusUrl": "https://chromestatus.com/feature/5730701489995776",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#transaction-durability-hint"
+        ]
+      },
+      {
+        "id": 5775330191081472,
+        "name": "webkit-prefixed IndexedDB global aliases",
+        "statusUrl": "https://chromestatus.com/feature/5775330191081472",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB"
+        ]
+      },
+      {
         "id": 5812621622116352,
+        "name": "IndexedDB 2.0",
+        "statusUrl": "https://chromestatus.com/feature/5812621622116352",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6537756637396992,
+        "name": "IndexedDB getAll() methods",
+        "statusUrl": "https://chromestatus.com/feature/6537756637396992",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/"
+        ]
+      },
+      {
+        "id": 6571252802125824,
+        "name": "IDBKeyRange.includes()",
+        "statusUrl": "https://chromestatus.com/feature/6571252802125824",
+        "specUrls": [
+          "https://w3c.github.io/IndexedDB/#dom-idbkeyrange-includes"
+        ]
       }
     ],
     "webkit": [
       {
+        "id": "specification-indexed-database",
+        "name": "Indexed Database",
+        "statusUrl": "https://webkit.org/status/#specification-indexed-database",
+        "specUrls": [
+          "http://www.w3.org/TR/IndexedDB/"
+        ]
+      },
+      {
         "id": "specification-indexed-database-2.0",
+        "name": "Indexed Database 2.0",
+        "statusUrl": "https://webkit.org/status/#specification-indexed-database-2.0",
+        "specUrls": [
+          "http://w3c.github.io/IndexedDB/"
+        ],
         "representative": true
       }
     ]

@@ -1,9 +1,116 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.page.size",
+        "name": "css.at-rules.page.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#page-size-prop"
+        ]
+      },
+      {
+        "id": "css.at-rules.page.size.jis-b4",
+        "name": "css.at-rules.page.size.jis-b4",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#page-size-prop"
+        ]
+      },
+      {
+        "id": "css.at-rules.page.size.jis-b5",
+        "name": "css.at-rules.page.size.jis-b5",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@page/size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#page-size-prop"
+        ]
+      },
+      {
+        "id": "css.properties.page",
+        "name": "css.properties.page",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#using-named-pages"
+        ]
+      },
+      {
+        "id": "css.properties.page-break-after",
+        "name": "css.properties.page-break-after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page-break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#page",
+          "https://drafts.csswg.org/css-page/#page-break-after"
+        ]
+      },
+      {
+        "id": "css.properties.page-break-before",
+        "name": "css.properties.page-break-before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page-break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#page",
+          "https://drafts.csswg.org/css-page/#page-break-before"
+        ]
+      },
+      {
+        "id": "css.properties.page-break-inside",
+        "name": "css.properties.page-break-inside",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page-break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#page-break-inside"
+        ]
+      },
+      {
+        "id": "css.selectors.first",
+        "name": "css.selectors.first",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:first",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#left-right-first"
+        ]
+      },
+      {
+        "id": "css.selectors.left",
+        "name": "css.selectors.left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#left-right-first"
+        ]
+      },
+      {
+        "id": "css.selectors.right",
+        "name": "css.selectors.right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page/#left-right-first"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "css-paged-media",
+        "name": "CSS Paged Media (@page)",
+        "statusUrl": "https://caniuse.com/css-paged-media",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page-3/"
+        ],
         "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5112328557166592,
+        "name": "Support “JIS-B5” and “JIS-B4” @page",
+        "statusUrl": "https://chromestatus.com/feature/5112328557166592",
+        "specUrls": [
+          "https://www.w3.org/TR/css-page-3/#typedef-page-size-page-size"
+        ]
+      },
+      {
+        "id": 5173237715566592,
+        "name": "Named pages with page-orientation",
+        "statusUrl": "https://chromestatus.com/feature/5173237715566592",
+        "specUrls": [
+          "https://drafts.csswg.org/css-page-3/"
+        ]
       }
     ]
   }

@@ -1,8 +1,31 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.MediaStreamTrack.contentHint",
+        "name": "api.MediaStreamTrack.contentHint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/contentHint",
+        "specUrls": [
+          "https://w3c.github.io/mst-content-hint/#dom-mediastreamtrack-contenthint"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 5135353876840448,
+        "name": "RTCRtpSendParameters.degradationPreference",
+        "statusUrl": "https://chromestatus.com/feature/5135353876840448",
+        "specUrls": [
+          "https://w3c.github.io/mst-content-hint/#degradation-preference-when-encoding"
+        ]
+      },
+      {
         "id": 5689466211532800,
+        "name": "MediaStreamTrack Content Hints",
+        "statusUrl": "https://chromestatus.com/feature/5689466211532800",
+        "specUrls": [
+          "https://wicg.github.io/mst-content-hint/#extension-to-mediastreamtrack"
+        ],
         "representative": true
       }
     ]

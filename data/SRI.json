@@ -1,20 +1,70 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "html.elements.link.integrity",
+        "name": "html.elements.link.integrity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Security/Subresource_Integrity",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#attr-link-integrity",
+          "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute"
+        ]
+      },
+      {
+        "id": "html.elements.script.integrity",
+        "name": "html.elements.script.integrity",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#attr-script-integrity",
+          "https://w3c.github.io/webappsec-subresource-integrity/#the-integrity-attribute"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "subresource-integrity",
+        "name": "Subresource Integrity",
+        "statusUrl": "https://caniuse.com/subresource-integrity",
+        "specUrls": [
+          "https://www.w3.org/TR/SRI/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5635811978510336,
+        "name": "SRI: The `require-sri-for` CSP directive.",
+        "statusUrl": "https://chromestatus.com/feature/5635811978510336",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-subresource-integrity/"
+        ]
+      },
+      {
+        "id": 5713333428682752,
+        "name": "Signature-based Resource Loading Restrictions",
+        "statusUrl": "https://chromestatus.com/feature/5713333428682752",
+        "specUrls": [
+          "https://github.com/w3c/webappsec-subresource-integrity/blob/master/signature-based-restrictions-explainer.markdown"
+        ]
+      },
+      {
         "id": 6183089948590080,
+        "name": "Subresource Integrity",
+        "statusUrl": "https://chromestatus.com/feature/6183089948590080",
+        "specUrls": [
+          "http://www.w3.org/TR/SRI/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "feature-subresource-integrity",
+        "name": "Subresource Integrity",
+        "statusUrl": "https://webkit.org/status/#feature-subresource-integrity",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-subresource-integrity/"
+        ],
         "representative": true
       }
     ]

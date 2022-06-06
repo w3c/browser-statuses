@@ -1,15 +1,380 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Notification",
+        "name": "api.Notification",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#api"
+        ]
+      },
+      {
+        "id": "api.Notification.Notification",
+        "name": "api.Notification.Notification",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/Notification",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-notification"
+        ]
+      },
+      {
+        "id": "api.Notification.actions",
+        "name": "api.Notification.actions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/actions",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-actions"
+        ]
+      },
+      {
+        "id": "api.Notification.badge",
+        "name": "api.Notification.badge",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/badge",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-badge"
+        ]
+      },
+      {
+        "id": "api.Notification.body",
+        "name": "api.Notification.body",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/body",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-body"
+        ]
+      },
+      {
+        "id": "api.Notification.click_event",
+        "name": "api.Notification.click_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/click_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-onclick"
+        ]
+      },
+      {
+        "id": "api.Notification.close",
+        "name": "api.Notification.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/close",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-close"
+        ]
+      },
+      {
+        "id": "api.Notification.close_event",
+        "name": "api.Notification.close_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/close_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-onclose"
+        ]
+      },
+      {
+        "id": "api.Notification.data",
+        "name": "api.Notification.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/data",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-data"
+        ]
+      },
+      {
+        "id": "api.Notification.dir",
+        "name": "api.Notification.dir",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/dir",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-dir"
+        ]
+      },
+      {
+        "id": "api.Notification.error_event",
+        "name": "api.Notification.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/error_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-onerror"
+        ]
+      },
+      {
+        "id": "api.Notification.icon",
+        "name": "api.Notification.icon",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/icon",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-icon"
+        ]
+      },
+      {
+        "id": "api.Notification.image",
+        "name": "api.Notification.image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/image",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#image-resource"
+        ]
+      },
+      {
+        "id": "api.Notification.lang",
+        "name": "api.Notification.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/lang",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-lang"
+        ]
+      },
+      {
+        "id": "api.Notification.maxActions",
+        "name": "api.Notification.maxActions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/maxActions",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-maxactions"
+        ]
+      },
+      {
+        "id": "api.Notification.permission",
+        "name": "api.Notification.permission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/permission",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-permission"
+        ]
+      },
+      {
+        "id": "api.Notification.renotify",
+        "name": "api.Notification.renotify",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/renotify",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-renotify"
+        ]
+      },
+      {
+        "id": "api.Notification.requestPermission",
+        "name": "api.Notification.requestPermission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/requestPermission",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-requestpermission"
+        ]
+      },
+      {
+        "id": "api.Notification.requireInteraction",
+        "name": "api.Notification.requireInteraction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/requireInteraction",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-requireinteraction"
+        ]
+      },
+      {
+        "id": "api.Notification.show_event",
+        "name": "api.Notification.show_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/show_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-onshow"
+        ]
+      },
+      {
+        "id": "api.Notification.silent",
+        "name": "api.Notification.silent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/silent",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-silent"
+        ]
+      },
+      {
+        "id": "api.Notification.tag",
+        "name": "api.Notification.tag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/tag",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-tag"
+        ]
+      },
+      {
+        "id": "api.Notification.timestamp",
+        "name": "api.Notification.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/timestamp",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-timestamp"
+        ]
+      },
+      {
+        "id": "api.Notification.title",
+        "name": "api.Notification.title",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/title",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-title"
+        ]
+      },
+      {
+        "id": "api.Notification.vibrate",
+        "name": "api.Notification.vibrate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Notification/vibrate",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-vibrate"
+        ]
+      },
+      {
+        "id": "api.NotificationEvent",
+        "name": "api.NotificationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NotificationEvent",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#notificationevent"
+        ]
+      },
+      {
+        "id": "api.NotificationEvent.NotificationEvent",
+        "name": "api.NotificationEvent.NotificationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NotificationEvent/NotificationEvent",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notificationevent-notificationevent"
+        ]
+      },
+      {
+        "id": "api.NotificationEvent.action",
+        "name": "api.NotificationEvent.action",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NotificationEvent/action",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-actions"
+        ]
+      },
+      {
+        "id": "api.NotificationEvent.notification",
+        "name": "api.NotificationEvent.notification",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NotificationEvent/notification",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#ref-for-dom-notificationevent-notification"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.notificationclick_event",
+        "name": "api.ServiceWorkerGlobalScope.notificationclick_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclick_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#activating-a-notification",
+          "https://notifications.spec.whatwg.org/#dom-serviceworkerglobalscope-onnotificationclick"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.notificationclose_event",
+        "name": "api.ServiceWorkerGlobalScope.notificationclose_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/notificationclose_event",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-serviceworkerglobalscope-onnotificationclose"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.getNotifications",
+        "name": "api.ServiceWorkerRegistration.getNotifications",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/getNotifications",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-getnotifications"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.showNotification",
+        "name": "api.ServiceWorkerRegistration.showNotification",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/showNotification",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-serviceworkerregistration-shownotification"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "notifications",
+        "name": "Web Notifications",
+        "statusUrl": "https://caniuse.com/notifications",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5064350557536256,
+        "name": "Notifications",
+        "statusUrl": "https://chromestatus.com/feature/5064350557536256",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5190797599178752,
+        "name": "Notification image",
+        "statusUrl": "https://chromestatus.com/feature/5190797599178752",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#image-resource"
+        ]
+      },
+      {
+        "id": 5480344312610816,
+        "name": "Notifications using Service Workers",
+        "statusUrl": "https://chromestatus.com/feature/5480344312610816",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#service-worker-api"
+        ]
+      },
+      {
+        "id": 5641440986136576,
+        "name": "NotificationOptions.requireInteraction, and auto-minimize timeout",
+        "statusUrl": "https://chromestatus.com/feature/5641440986136576",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#require-interaction-preference-flag"
+        ]
+      },
+      {
+        "id": 5687043120168960,
+        "name": "Notification action icons",
+        "statusUrl": "https://chromestatus.com/feature/5687043120168960",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#action-icon-url"
+        ]
+      },
+      {
+        "id": 5689068222414848,
+        "name": "Notifications to be displayed in the platform's Notification Center",
+        "statusUrl": "https://chromestatus.com/feature/5689068222414848",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5706570994286592,
+        "name": "Notification notificationclose event",
+        "statusUrl": "https://chromestatus.com/feature/5706570994286592",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#closing-a-notification"
+        ]
+      },
+      {
+        "id": 5727996321202176,
+        "name": "Notification.vibrate",
+        "statusUrl": "https://chromestatus.com/feature/5727996321202176",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notificationoptions-vibrate"
+        ]
+      },
+      {
+        "id": 5736434757533696,
+        "name": "Notification.data and ServiceWorkerRegistration.getNotifications()",
+        "statusUrl": "https://chromestatus.com/feature/5736434757533696",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5899831990026240,
+        "name": "Notification custom timestamps",
+        "statusUrl": "https://chromestatus.com/feature/5899831990026240",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#dom-notification-timestamp"
+        ]
+      },
+      {
+        "id": 5906566364528640,
+        "name": "Notification action buttons",
+        "statusUrl": "https://chromestatus.com/feature/5906566364528640",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#actions"
+        ]
+      },
+      {
+        "id": 6618702728396800,
+        "name": "Notification renotify preference flag",
+        "statusUrl": "https://chromestatus.com/feature/6618702728396800",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org/#renotify-preference-flag"
+        ]
       }
     ]
   }

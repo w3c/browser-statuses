@@ -3,24 +3,188 @@
     "bcd": [
       {
         "id": "api.IntersectionObserver",
+        "name": "api.IntersectionObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#intersection-observer-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.IntersectionObserver.IntersectionObserver",
+        "name": "api.IntersectionObserver.IntersectionObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/IntersectionObserver",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-intersectionobserver"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.disconnect",
+        "name": "api.IntersectionObserver.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/disconnect",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-disconnect"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.observe",
+        "name": "api.IntersectionObserver.observe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/observe",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-observe"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.root",
+        "name": "api.IntersectionObserver.root",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/root",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-root"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.rootMargin",
+        "name": "api.IntersectionObserver.rootMargin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/rootMargin",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-rootmargin"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.takeRecords",
+        "name": "api.IntersectionObserver.takeRecords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/takeRecords",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-takerecords"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.thresholds",
+        "name": "api.IntersectionObserver.thresholds",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/thresholds",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-thresholds"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserver.unobserve",
+        "name": "api.IntersectionObserver.unobserve",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserver/unobserve",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserver-unobserve"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry",
+        "name": "api.IntersectionObserverEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#intersection-observer-entry"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.boundingClientRect",
+        "name": "api.IntersectionObserverEntry.boundingClientRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/boundingClientRect",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-boundingclientrect"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.intersectionRatio",
+        "name": "api.IntersectionObserverEntry.intersectionRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/intersectionRatio",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-intersectionratio"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.intersectionRect",
+        "name": "api.IntersectionObserverEntry.intersectionRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/intersectionRect",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-intersectionrect"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.isIntersecting",
+        "name": "api.IntersectionObserverEntry.isIntersecting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/isIntersecting",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-isintersecting"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.rootBounds",
+        "name": "api.IntersectionObserverEntry.rootBounds",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/rootBounds",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-rootbounds"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.target",
+        "name": "api.IntersectionObserverEntry.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/target",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-target"
+        ]
+      },
+      {
+        "id": "api.IntersectionObserverEntry.time",
+        "name": "api.IntersectionObserverEntry.time",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IntersectionObserverEntry/time",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/#dom-intersectionobserverentry-time"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "intersectionobserver",
+        "name": "IntersectionObserver",
+        "statusUrl": "https://caniuse.com/intersectionobserver",
+        "specUrls": [
+          "https://www.w3.org/TR/intersection-observer/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5695342691483648,
+        "name": "Intersection Observer",
+        "statusUrl": "https://chromestatus.com/feature/5695342691483648",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5714474851893248,
+        "name": "IntersectionObserver Document Root",
+        "statusUrl": "https://chromestatus.com/feature/5714474851893248",
+        "specUrls": [
+          "https://github.com/w3c/IntersectionObserver/pull/411"
+        ]
+      },
+      {
+        "id": 5878481493688320,
+        "name": "IntersectionObserver V2",
+        "statusUrl": "https://chromestatus.com/feature/5878481493688320",
+        "specUrls": [
+          "https://w3c.github.io/IntersectionObserver/v2/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-intersection-observer",
+        "name": "Intersection Observer",
+        "statusUrl": "https://webkit.org/status/#specification-intersection-observer",
+        "specUrls": [
+          "https://wicg.github.io/IntersectionObserver/"
+        ],
         "representative": true
       }
     ]

@@ -1,20 +1,266 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.AuthenticatorAssertionResponse",
+        "name": "api.AuthenticatorAssertionResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAssertionResponse",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#iface-authenticatorassertionresponse"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAssertionResponse.authenticatorData",
+        "name": "api.AuthenticatorAssertionResponse.authenticatorData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAssertionResponse/authenticatorData",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorassertionresponse-authenticatordata"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAssertionResponse.signature",
+        "name": "api.AuthenticatorAssertionResponse.signature",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAssertionResponse/signature",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorassertionresponse-signature"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAssertionResponse.userHandle",
+        "name": "api.AuthenticatorAssertionResponse.userHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAssertionResponse/userHandle",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorassertionresponse-userhandle"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse",
+        "name": "api.AuthenticatorAttestationResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#authenticatorattestationresponse"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse.attestationObject",
+        "name": "api.AuthenticatorAttestationResponse.attestationObject",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/attestationObject",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-attestationobject"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse.getAuthenticatorData",
+        "name": "api.AuthenticatorAttestationResponse.getAuthenticatorData",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getauthenticatordata"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse.getPublicKey",
+        "name": "api.AuthenticatorAttestationResponse.getPublicKey",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickey"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm",
+        "name": "api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-getpublickeyalgorithm"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorAttestationResponse.getTransports",
+        "name": "api.AuthenticatorAttestationResponse.getTransports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getTransports",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorattestationresponse-gettransports"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorResponse",
+        "name": "api.AuthenticatorResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorResponse",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#authenticatorresponse"
+        ]
+      },
+      {
+        "id": "api.AuthenticatorResponse.clientDataJSON",
+        "name": "api.AuthenticatorResponse.clientDataJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AuthenticatorResponse/clientDataJSON",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorresponse-clientdatajson"
+        ]
+      },
+      {
+        "id": "api.PublicKeyCredential",
+        "name": "api.PublicKeyCredential",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#iface-pkcredential"
+        ]
+      },
+      {
+        "id": "api.PublicKeyCredential.getClientExtensionResults",
+        "name": "api.PublicKeyCredential.getClientExtensionResults",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/getClientExtensionResults",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#ref-for-dom-publickeycredential-getclientextensionresults"
+        ]
+      },
+      {
+        "id": "api.PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable",
+        "name": "api.PublicKeyCredential.isUserVerifyingPlatformAuthenticatorAvailable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/isUserVerifyingPlatformAuthenticatorAvailable",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-publickeycredential-isuserverifyingplatformauthenticatoravailable"
+        ]
+      },
+      {
+        "id": "api.PublicKeyCredential.rawId",
+        "name": "api.PublicKeyCredential.rawId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/rawId",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#ref-for-dom-publickeycredential-rawid"
+        ]
+      },
+      {
+        "id": "api.PublicKeyCredential.response",
+        "name": "api.PublicKeyCredential.response",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/response",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-publickeycredential-response"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.publickey-credentials-get",
+        "name": "http.headers.Feature-Policy.publickey-credentials-get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/publickey-credentials-get",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#sctn-permissions-policy"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "webauthn",
+        "name": "Web Authentication API",
+        "statusUrl": "https://caniuse.com/webauthn",
+        "specUrls": [
+          "https://www.w3.org/TR/webauthn/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4627499185078272,
+        "name": "Web Authentication API: Resident Keys",
+        "statusUrl": "https://chromestatus.com/feature/4627499185078272",
+        "specUrls": [
+          "https://www.w3.org/TR/webauthn/#resident-credential"
+        ]
+      },
+      {
+        "id": 4781249621131264,
+        "name": "Windows Web Authentication APIs",
+        "statusUrl": "https://chromestatus.com/feature/4781249621131264",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ]
+      },
+      {
+        "id": 4895365459345408,
+        "name": "Support for U2F/CTAP2 FIDO BLE devices via the Web Authentication API",
+        "statusUrl": "https://chromestatus.com/feature/4895365459345408",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ]
+      },
+      {
+        "id": 5078137018777600,
+        "name": "Web Authentication API: FIDO CTAP2 PIN support",
+        "statusUrl": "https://chromestatus.com/feature/5078137018777600",
+        "specUrls": [
+          "https://www.w3.org/TR/webauthn/"
+        ]
+      },
+      {
+        "id": 5102556109864960,
+        "name": "WebAuthn getPublicKey[Algorithm]() and getAuthenticatorData()",
+        "statusUrl": "https://chromestatus.com/feature/5102556109864960",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#sctn-public-key-easy"
+        ]
+      },
+      {
+        "id": 5138422207348736,
+        "name": "WebAuthn PRF extension",
+        "statusUrl": "https://chromestatus.com/feature/5138422207348736",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#prf-extension"
+        ]
+      },
+      {
+        "id": 5153848187420672,
+        "name": "WebAuthn remote desktop support",
+        "statusUrl": "https://chromestatus.com/feature/5153848187420672",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ]
+      },
+      {
+        "id": 5657899357437952,
+        "name": "WebAuthn: Large blob storage extension (largeBlob)",
+        "statusUrl": "https://chromestatus.com/feature/5657899357437952",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#sctn-large-blob-extension"
+        ]
+      },
+      {
         "id": 5669923372138496,
+        "name": "Web Authentication API for Chrome",
+        "statusUrl": "https://chromestatus.com/feature/5669923372138496",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5701094648840192,
+        "name": "WebAuthentication API: ResidentKeyRequirement and credProps extension",
+        "statusUrl": "https://chromestatus.com/feature/5701094648840192",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#dom-authenticatorselectioncriteria-residentkey"
+        ]
+      },
+      {
+        "id": 5736091539734528,
+        "name": "Web Authenticator API: cross-origin iframe support",
+        "statusUrl": "https://chromestatus.com/feature/5736091539734528",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#sctn-iframe-guidance"
+        ]
+      },
+      {
+        "id": 6402602820435968,
+        "name": "Web Authentication getTransports",
+        "statusUrl": "https://chromestatus.com/feature/6402602820435968",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-web-authentication",
+        "name": "Web Authentication",
+        "statusUrl": "https://webkit.org/status/#specification-web-authentication",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/"
+        ],
         "representative": true
       }
     ]

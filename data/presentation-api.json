@@ -1,18 +1,311 @@
 {
   "statusref": {
-    "chrome": [
+    "bcd": [
       {
-        "id": 6676265876586496,
-        "representative": true
+        "id": "api.Navigator.presentation",
+        "name": "api.Navigator.presentation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/presentation",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-navigator-presentation"
+        ]
+      },
+      {
+        "id": "api.Presentation",
+        "name": "api.Presentation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Presentation",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentation"
+        ]
+      },
+      {
+        "id": "api.Presentation.defaultRequest",
+        "name": "api.Presentation.defaultRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Presentation/defaultRequest",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentation-defaultrequest"
+        ]
+      },
+      {
+        "id": "api.Presentation.receiver",
+        "name": "api.Presentation.receiver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Presentation/receiver",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentation-receiver"
+        ]
+      },
+      {
+        "id": "api.PresentationAvailability",
+        "name": "api.PresentationAvailability",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationAvailability",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationavailability"
+        ]
+      },
+      {
+        "id": "api.PresentationAvailability.change_event",
+        "name": "api.PresentationAvailability.change_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationAvailability/change_event",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationavailability-onchange"
+        ]
+      },
+      {
+        "id": "api.PresentationAvailability.value",
+        "name": "api.PresentationAvailability.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationAvailability/value",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationavailability-value"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection",
+        "name": "api.PresentationConnection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationconnection"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.binaryType",
+        "name": "api.PresentationConnection.binaryType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/binaryType",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-binarytype"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.close",
+        "name": "api.PresentationConnection.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/close",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-close"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.id",
+        "name": "api.PresentationConnection.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/id",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-id"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.send",
+        "name": "api.PresentationConnection.send",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/send",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-send"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.state",
+        "name": "api.PresentationConnection.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/state",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-state"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.terminate",
+        "name": "api.PresentationConnection.terminate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/terminate",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-terminate"
+        ]
+      },
+      {
+        "id": "api.PresentationConnection.url",
+        "name": "api.PresentationConnection.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnection/url",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnection-url"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionAvailableEvent",
+        "name": "api.PresentationConnectionAvailableEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionAvailableEvent",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationconnectionavailableevent"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionAvailableEvent.PresentationConnectionAvailableEvent",
+        "name": "api.PresentationConnectionAvailableEvent.PresentationConnectionAvailableEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionAvailableEvent/PresentationConnectionAvailableEvent",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnectionavailableevent-constructor"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionAvailableEvent.connection",
+        "name": "api.PresentationConnectionAvailableEvent.connection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionAvailableEvent/connection",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnectionavailableevent-connection"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionCloseEvent",
+        "name": "api.PresentationConnectionCloseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionCloseEvent",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationconnectioncloseevent"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionCloseEvent.message",
+        "name": "api.PresentationConnectionCloseEvent.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionCloseEvent/message",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnectioncloseevent-message"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionCloseEvent.reason",
+        "name": "api.PresentationConnectionCloseEvent.reason",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionCloseEvent/reason",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnectioncloseevent-reason"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionList",
+        "name": "api.PresentationConnectionList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionList",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationconnectionlist"
+        ]
+      },
+      {
+        "id": "api.PresentationConnectionList.connections",
+        "name": "api.PresentationConnectionList.connections",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationConnectionList/connections",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationconnectionlist-connections"
+        ]
+      },
+      {
+        "id": "api.PresentationReceiver",
+        "name": "api.PresentationReceiver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationReceiver",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationreceiver"
+        ]
+      },
+      {
+        "id": "api.PresentationReceiver.connectionList",
+        "name": "api.PresentationReceiver.connectionList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationReceiver/connectionList",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationreceiver-connectionlist"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest",
+        "name": "api.PresentationRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationRequest",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationrequest"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest.PresentationRequest",
+        "name": "api.PresentationRequest.PresentationRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationRequest/PresentationRequest",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#constructing-a-presentationrequest"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest.connectionavailable_event",
+        "name": "api.PresentationRequest.connectionavailable_event",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#dom-presentationrequest-onconnectionavailable"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest.getAvailability",
+        "name": "api.PresentationRequest.getAvailability",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationRequest/getAvailability",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#getting-the-presentation-displays-availability-information"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest.reconnect",
+        "name": "api.PresentationRequest.reconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationRequest/reconnect",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#reconnecting-to-a-presentation"
+        ]
+      },
+      {
+        "id": "api.PresentationRequest.start",
+        "name": "api.PresentationRequest.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PresentationRequest/start",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#selecting-a-presentation-display"
+        ]
       }
     ],
-    "manual": [
+    "chrome": [
       {
-        "ua": "webkit",
-        "status": "notsupported",
-        "source": "feedback",
-        "date": "2018-03-16",
-        "comment": "No public indication that the Presentation API is in development in Webkit, see https://twitter.com/othersight/status/959442416599117824"
+        "id": 5414209298890752,
+        "name": "Presentation API: Receiver API",
+        "statusUrl": "https://chromestatus.com/feature/5414209298890752",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/"
+        ]
+      },
+      {
+        "id": 5462833647058944,
+        "name": "'allow-presentation' sandboxing flag",
+        "statusUrl": "https://chromestatus.com/feature/5462833647058944",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#sandboxing-and-the-allow-presentation-keyword"
+        ]
+      },
+      {
+        "id": 5662456714100736,
+        "name": "Presentation API: implement PresentationConnection.on{connect,close,terminate} and deprecate onstatechange",
+        "statusUrl": "https://chromestatus.com/feature/5662456714100736",
+        "specUrls": [
+          "http://w3c.github.io/presentation-api/#event-handlers-1"
+        ]
+      },
+      {
+        "id": 5687338902487040,
+        "name": "Add sequence<DOMString> constructor to PresentationRequest and PresentationConnection.url",
+        "statusUrl": "https://chromestatus.com/feature/5687338902487040",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/#interface-presentationrequest"
+        ]
+      },
+      {
+        "id": 5766218384408576,
+        "name": "Deprecate and remove Presentation API on insecure contexts",
+        "statusUrl": "https://chromestatus.com/feature/5766218384408576",
+        "specUrls": [
+          "https://w3c.github.io/presentation-api/"
+        ]
+      },
+      {
+        "id": 6272311736926208,
+        "name": "Presentation API: PresentationConnection.close()",
+        "statusUrl": "https://chromestatus.com/feature/6272311736926208",
+        "specUrls": [
+          "http://w3c.github.io/presentation-api/"
+        ]
+      },
+      {
+        "id": 6676265876586496,
+        "name": "Presentation API",
+        "statusUrl": "https://chromestatus.com/feature/6676265876586496",
+        "specUrls": [
+          "http://w3c.github.io/presentation-api/"
+        ],
+        "representative": true
       }
     ]
   }

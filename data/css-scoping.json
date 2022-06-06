@@ -52,16 +52,86 @@
   "statusref": {
     "bcd": [
       {
-        "id": "css.selectors.host"
+        "id": "css.selectors.host",
+        "name": "css.selectors.host",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#host-selector"
+        ]
       },
       {
-        "id": "css.selectors.hostfunction"
+        "id": "css.selectors.host-context",
+        "name": "css.selectors.host-context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host-context()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#host-selector"
+        ]
       },
       {
-        "id": "css.selectors.host-context"
+        "id": "css.selectors.hostfunction",
+        "name": "css.selectors.hostfunction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#host-selector"
+        ]
       },
       {
-        "id": "css.selectors.slotted"
+        "id": "css.selectors.slotted",
+        "name": "css.selectors.slotted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::slotted",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#slotted-pseudo"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4964279606312960,
+        "name": "Make /deep/ behave like the descendant combinator \" \" in CSS live profile (in css file or inside of <style>)",
+        "statusUrl": "https://chromestatus.com/feature/4964279606312960",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-scoping/#deep-combinator"
+        ]
+      },
+      {
+        "id": 5045542597951488,
+        "name": "Shadow-piercing descendant combinator (>>>) in snapshot profile",
+        "statusUrl": "https://chromestatus.com/feature/5045542597951488",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#deep-combinator"
+        ]
+      },
+      {
+        "id": 5177305701810176,
+        "name": ":host, :host-context, and ::slotted specificity",
+        "statusUrl": "https://chromestatus.com/feature/5177305701810176",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping"
+        ]
+      },
+      {
+        "id": 5716198446596096,
+        "name": "CSS @counter-style rules in shadow trees",
+        "statusUrl": "https://chromestatus.com/feature/5716198446596096",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#shadow-names"
+        ]
+      },
+      {
+        "id": 5743296429162496,
+        "name": "Slots in a flat tree",
+        "statusUrl": "https://chromestatus.com/feature/5743296429162496",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#flattening"
+        ]
+      },
+      {
+        "id": 5755183847964672,
+        "name": "Single <compound-selector> for :host(), :host-context()",
+        "statusUrl": "https://chromestatus.com/feature/5755183847964672",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scoping/#selectordef-host-function"
+        ]
       }
     ]
   }

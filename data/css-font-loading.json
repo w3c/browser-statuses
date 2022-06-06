@@ -1,23 +1,306 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.fonts",
+        "name": "api.Document.fonts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fonts",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface"
+        ]
+      },
+      {
+        "id": "api.FontFace",
+        "name": "api.FontFace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#fontface-interface"
+        ]
+      },
+      {
+        "id": "api.FontFace.FontFace",
+        "name": "api.FontFace.FontFace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/FontFace",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#font-face-constructor"
+        ]
+      },
+      {
+        "id": "api.FontFace.ascentOverride",
+        "name": "api.FontFace.ascentOverride",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/ascentOverride",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-ascentoverride"
+        ]
+      },
+      {
+        "id": "api.FontFace.descentOverride",
+        "name": "api.FontFace.descentOverride",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/descentOverride",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-descentoverride"
+        ]
+      },
+      {
+        "id": "api.FontFace.display",
+        "name": "api.FontFace.display",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/display",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-display"
+        ]
+      },
+      {
+        "id": "api.FontFace.family",
+        "name": "api.FontFace.family",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/family",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-family"
+        ]
+      },
+      {
+        "id": "api.FontFace.featureSettings",
+        "name": "api.FontFace.featureSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/featureSettings",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-featuresettings"
+        ]
+      },
+      {
+        "id": "api.FontFace.lineGapOverride",
+        "name": "api.FontFace.lineGapOverride",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/lineGapOverride",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-linegapoverride"
+        ]
+      },
+      {
+        "id": "api.FontFace.load",
+        "name": "api.FontFace.load",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/load",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#font-face-load"
+        ]
+      },
+      {
+        "id": "api.FontFace.loaded",
+        "name": "api.FontFace.loaded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/loaded",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-loaded"
+        ]
+      },
+      {
+        "id": "api.FontFace.status",
+        "name": "api.FontFace.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/status",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-status"
+        ]
+      },
+      {
+        "id": "api.FontFace.stretch",
+        "name": "api.FontFace.stretch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/stretch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-stretch"
+        ]
+      },
+      {
+        "id": "api.FontFace.style",
+        "name": "api.FontFace.style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-style"
+        ]
+      },
+      {
+        "id": "api.FontFace.unicodeRange",
+        "name": "api.FontFace.unicodeRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/unicodeRange",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-unicoderange"
+        ]
+      },
+      {
+        "id": "api.FontFace.variant",
+        "name": "api.FontFace.variant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/variant",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-variant"
+        ]
+      },
+      {
+        "id": "api.FontFace.variationSettings",
+        "name": "api.FontFace.variationSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/variationSettings",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacedescriptors-variationsettings"
+        ]
+      },
+      {
+        "id": "api.FontFace.weight",
+        "name": "api.FontFace.weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFace/weight",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontface-weight"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet",
+        "name": "api.FontFaceSet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.FontFaceSet",
+        "name": "api.FontFaceSet.FontFaceSet",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-fontfaceset"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.add",
+        "name": "api.FontFaceSet.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/add",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-add"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.check",
+        "name": "api.FontFaceSet.check",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/check",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-check"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.clear",
+        "name": "api.FontFaceSet.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/clear",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-clear"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.delete",
+        "name": "api.FontFaceSet.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/delete",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-delete"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.load",
+        "name": "api.FontFaceSet.load",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/load",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-load"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.loading_event",
+        "name": "api.FontFaceSet.loading_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/loading_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloading"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.loadingdone_event",
+        "name": "api.FontFaceSet.loadingdone_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/loadingdone_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingdone"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.loadingerror_event",
+        "name": "api.FontFaceSet.loadingerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/loadingerror_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-onloadingerror"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.ready",
+        "name": "api.FontFaceSet.ready",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/ready",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-ready"
+        ]
+      },
+      {
+        "id": "api.FontFaceSet.status",
+        "name": "api.FontFaceSet.status",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSet/status",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfaceset-status"
+        ]
+      },
+      {
+        "id": "api.FontFaceSetLoadEvent",
+        "name": "api.FontFaceSetLoadEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSetLoadEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#fontfacesetloadevent"
+        ]
+      },
+      {
+        "id": "api.FontFaceSetLoadEvent.FontFaceSetLoadEvent",
+        "name": "api.FontFaceSetLoadEvent.FontFaceSetLoadEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSetLoadEvent/FontFaceSetLoadEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacesetloadevent-fontfacesetloadevent"
+        ]
+      },
+      {
+        "id": "api.FontFaceSetLoadEvent.fontfaces",
+        "name": "api.FontFaceSetLoadEvent.fontfaces",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FontFaceSetLoadEvent/fontfaces",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#dom-fontfacesetloadevent-fontfaces"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "font-loading",
+        "name": "CSS Font Loading",
+        "statusUrl": "https://caniuse.com/font-loading",
+        "specUrls": [
+          "https://www.w3.org/TR/css-font-loading-3/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
-        "id": 6244676289953792,
-        "representative": true
-      }
-    ],
-    "bcd": [
-      {
-        "id": "api.FontFace"
+        "id": 4594172182921216,
+        "name": "CSS Font Loading API - FontFaceSet interface",
+        "statusUrl": "https://chromestatus.com/feature/4594172182921216",
+        "specUrls": [
+          "https://drafts.csswg.org/css-font-loading/#fontfaceset"
+        ]
       },
       {
-        "id": "api.FontFaceSet"
+        "id": 4784993343635456,
+        "name": "FontFaceSetLoadEvent Constructor",
+        "statusUrl": "https://chromestatus.com/feature/4784993343635456",
+        "specUrls": [
+          "https://dev.w3.org/csswg/css-font-loading/#fontfacesetloadevent"
+        ]
+      },
+      {
+        "id": 6244676289953792,
+        "name": "CSS Font Loading",
+        "statusUrl": "https://chromestatus.com/feature/6244676289953792",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-font-loading-3/"
+        ],
+        "representative": true
       }
     ]
   },

@@ -1,20 +1,45 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.will-change",
+        "name": "css.properties.will-change",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/will-change",
+        "specUrls": [
+          "https://drafts.csswg.org/css-will-change/#will-change"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "will-change",
+        "name": "CSS will-change property",
+        "statusUrl": "https://caniuse.com/will-change",
+        "specUrls": [
+          "https://drafts.csswg.org/css-will-change/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5954199330226176,
+        "name": "CSS will-change",
+        "statusUrl": "https://chromestatus.com/feature/5954199330226176",
+        "specUrls": [
+          "http://www.w3.org/TR/css-will-change-1/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-css-will-change",
+        "name": "CSS Will Change",
+        "statusUrl": "https://webkit.org/status/#specification-css-will-change",
+        "specUrls": [
+          "https://drafts.csswg.org/css-will-change/"
+        ],
         "representative": true
       }
     ]

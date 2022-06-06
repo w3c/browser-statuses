@@ -1,9 +1,451 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.background",
+        "name": "css.properties.background",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-background"
+        ]
+      },
+      {
+        "id": "css.properties.background-attachment",
+        "name": "css.properties.background-attachment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-attachment",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-background-attachment"
+        ]
+      },
+      {
+        "id": "css.properties.background-clip",
+        "name": "css.properties.background-clip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-clip",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#background-clip"
+        ]
+      },
+      {
+        "id": "css.properties.background-color",
+        "name": "css.properties.background-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#background-color"
+        ]
+      },
+      {
+        "id": "css.properties.background-image",
+        "name": "css.properties.background-image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#background-image"
+        ]
+      },
+      {
+        "id": "css.properties.background-origin",
+        "name": "css.properties.background-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-origin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-background-origin"
+        ]
+      },
+      {
+        "id": "css.properties.background-position",
+        "name": "css.properties.background-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#background-position"
+        ]
+      },
+      {
+        "id": "css.properties.background-position-x",
+        "name": "css.properties.background-position-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-position-x",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands"
+        ]
+      },
+      {
+        "id": "css.properties.background-position-y",
+        "name": "css.properties.background-position-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-position-y",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands"
+        ]
+      },
+      {
+        "id": "css.properties.background-repeat",
+        "name": "css.properties.background-repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-repeat",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-background-repeat"
+        ]
+      },
+      {
+        "id": "css.properties.background-size",
+        "name": "css.properties.background-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-background-size"
+        ]
+      },
+      {
+        "id": "css.properties.border",
+        "name": "css.properties.border",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#propdef-border"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom",
+        "name": "css.properties.border-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom-color",
+        "name": "css.properties.border-bottom-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom-left-radius",
+        "name": "css.properties.border-bottom-left-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-left-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-radius"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom-right-radius",
+        "name": "css.properties.border-bottom-right-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-right-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-radius"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom-style",
+        "name": "css.properties.border-bottom-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-bottom-width",
+        "name": "css.properties.border-bottom-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-bottom-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-color",
+        "name": "css.properties.border-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#logical-shorthand-keyword",
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-image",
+        "name": "css.properties.border-image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image"
+        ]
+      },
+      {
+        "id": "css.properties.border-image-outset",
+        "name": "css.properties.border-image-outset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image-outset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image-outset"
+        ]
+      },
+      {
+        "id": "css.properties.border-image-repeat",
+        "name": "css.properties.border-image-repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image-repeat",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image-repeat"
+        ]
+      },
+      {
+        "id": "css.properties.border-image-slice",
+        "name": "css.properties.border-image-slice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image-slice",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image-slice"
+        ]
+      },
+      {
+        "id": "css.properties.border-image-source",
+        "name": "css.properties.border-image-source",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image-source",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image-source"
+        ]
+      },
+      {
+        "id": "css.properties.border-image-width",
+        "name": "css.properties.border-image-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-image-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-image-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-left",
+        "name": "css.properties.border-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-left-color",
+        "name": "css.properties.border-left-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-left-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-left-style",
+        "name": "css.properties.border-left-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-left-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-left-width",
+        "name": "css.properties.border-left-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-left-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-radius",
+        "name": "css.properties.border-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-radius"
+        ]
+      },
+      {
+        "id": "css.properties.border-right",
+        "name": "css.properties.border-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-right-color",
+        "name": "css.properties.border-right-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-right-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-right-style",
+        "name": "css.properties.border-right-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-right-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-right-width",
+        "name": "css.properties.border-right-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-right-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-style",
+        "name": "css.properties.border-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-top",
+        "name": "css.properties.border-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-top-color",
+        "name": "css.properties.border-top-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-top-left-radius",
+        "name": "css.properties.border-top-left-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top-left-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-radius"
+        ]
+      },
+      {
+        "id": "css.properties.border-top-right-radius",
+        "name": "css.properties.border-top-right-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top-right-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-radius"
+        ]
+      },
+      {
+        "id": "css.properties.border-top-style",
+        "name": "css.properties.border-top-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-top-width",
+        "name": "css.properties.border-top-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-top-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-width",
+        "name": "css.properties.border-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#the-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.box-shadow",
+        "name": "css.properties.box-shadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/box-shadow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds/#box-shadow"
+        ]
+      }
+    ],
     "caniuse": [
       {
+        "id": "background-attachment",
+        "name": "CSS background-attachment",
+        "statusUrl": "https://caniuse.com/background-attachment",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#the-background-attachment"
+        ]
+      },
+      {
+        "id": "background-img-opts",
+        "name": "CSS3 Background-image options",
+        "statusUrl": "https://caniuse.com/background-img-opts",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#backgrounds"
+        ]
+      },
+      {
+        "id": "background-position-x-y",
+        "name": "background-position-x & background-position-y",
+        "statusUrl": "https://caniuse.com/background-position-x-y",
+        "specUrls": [
+          "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands"
+        ]
+      },
+      {
+        "id": "background-repeat-round-space",
+        "name": "CSS background-repeat round and space",
+        "statusUrl": "https://caniuse.com/background-repeat-round-space",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#the-background-repeat"
+        ]
+      },
+      {
+        "id": "border-image",
+        "name": "CSS3 Border images",
+        "statusUrl": "https://caniuse.com/border-image",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#border-images"
+        ]
+      },
+      {
+        "id": "border-radius",
+        "name": "CSS3 Border-radius (rounded corners)",
+        "statusUrl": "https://caniuse.com/border-radius",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#the-border-radius"
+        ]
+      },
+      {
+        "id": "css-background-offsets",
+        "name": "CSS background-position edge offsets",
+        "statusUrl": "https://caniuse.com/css-background-offsets",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#background-position"
+        ]
+      },
+      {
+        "id": "css-boxshadow",
+        "name": "CSS3 Box-shadow",
+        "statusUrl": "https://caniuse.com/css-boxshadow",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#box-shadow"
+        ]
+      },
+      {
         "id": "multibackgrounds",
+        "name": "CSS3 Multiple backgrounds",
+        "statusUrl": "https://caniuse.com/multibackgrounds",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/"
+        ],
         "representative": true
+      },
+      {
+        "id": "svg-css",
+        "name": "SVG in CSS backgrounds",
+        "statusUrl": "https://caniuse.com/svg-css",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#background-image"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5520773385027584,
+        "name": "CSS border-image-repeat: space support",
+        "statusUrl": "https://chromestatus.com/feature/5520773385027584",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-background/#the-border-image-repeat"
+        ]
+      },
+      {
+        "id": 6569666117894144,
+        "name": "Spec-compliant shadow blur-radius",
+        "statusUrl": "https://chromestatus.com/feature/6569666117894144",
+        "specUrls": [
+          "https://www.w3.org/TR/css-backgrounds-3/#shadow-blur"
+        ]
       }
     ]
   },

@@ -1,20 +1,253 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.margin-block-end",
+        "name": "css.properties.margin-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-padding"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin",
+        "name": "css.properties.scroll-margin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-margin"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-block",
+        "name": "css.properties.scroll-margin-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#propdef-scroll-margin-block"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-block-end",
+        "name": "css.properties.scroll-margin-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-block-start",
+        "name": "css.properties.scroll-margin-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-bottom",
+        "name": "css.properties.scroll-margin-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-inline",
+        "name": "css.properties.scroll-margin-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#propdef-scroll-margin-inline"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-inline-end",
+        "name": "css.properties.scroll-margin-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-inline-start",
+        "name": "css.properties.scroll-margin-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-left",
+        "name": "css.properties.scroll-margin-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-right",
+        "name": "css.properties.scroll-margin-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-margin-top",
+        "name": "css.properties.scroll-margin-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-margin-top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#margin-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding",
+        "name": "css.properties.scroll-padding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-padding"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-block",
+        "name": "css.properties.scroll-padding-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#propdef-scroll-padding-block"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-block-end",
+        "name": "css.properties.scroll-padding-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-block-start",
+        "name": "css.properties.scroll-padding-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-bottom",
+        "name": "css.properties.scroll-padding-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-inline",
+        "name": "css.properties.scroll-padding-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#propdef-scroll-padding-inline"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-inline-end",
+        "name": "css.properties.scroll-padding-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-inline-start",
+        "name": "css.properties.scroll-padding-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-left",
+        "name": "css.properties.scroll-padding-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-right",
+        "name": "css.properties.scroll-padding-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-padding-top",
+        "name": "css.properties.scroll-padding-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-padding-top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#padding-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-snap-align",
+        "name": "css.properties.scroll-snap-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-snap-align"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-snap-stop",
+        "name": "css.properties.scroll-snap-stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-snap-stop"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-snap-type",
+        "name": "css.properties.scroll-snap-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-snap-type",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-snap-type"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "css-snappoints",
+        "name": "CSS Scroll Snap",
+        "statusUrl": "https://caniuse.com/css-snappoints",
+        "specUrls": [
+          "https://www.w3.org/TR/css-scroll-snap-1/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5439846480871424,
+        "name": "Scroll Snap Stop",
+        "statusUrl": "https://chromestatus.com/feature/5439846480871424",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap/#scroll-snap-stop"
+        ]
+      },
+      {
         "id": 5721832506261504,
+        "name": "CSS Scroll Snap Points",
+        "statusUrl": "https://chromestatus.com/feature/5721832506261504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-snap"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-css-scroll-snap-points-module-level-1",
+        "name": "CSS Scroll Snap Points Module Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-scroll-snap-points-module-level-1",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-snappoints/"
+        ],
         "representative": true
       }
     ]

@@ -1,15 +1,111 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.canShare",
+        "name": "api.Navigator.canShare",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/canShare",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#canshare-data-method"
+        ]
+      },
+      {
+        "id": "api.Navigator.canShare.data_files_parameter",
+        "name": "api.Navigator.canShare.data_files_parameter",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#dom-sharedata-files"
+        ]
+      },
+      {
+        "id": "api.Navigator.canShare.data_text_parameter",
+        "name": "api.Navigator.canShare.data_text_parameter",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#dom-sharedata-text"
+        ]
+      },
+      {
+        "id": "api.Navigator.share",
+        "name": "api.Navigator.share",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/share",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#share-method"
+        ]
+      },
+      {
+        "id": "api.Navigator.share.data_files_parameter",
+        "name": "api.Navigator.share.data_files_parameter",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#dom-sharedata-files"
+        ]
+      },
+      {
+        "id": "api.Navigator.share.data_text_parameter",
+        "name": "api.Navigator.share.data_text_parameter",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#dom-sharedata-text"
+        ]
+      },
+      {
+        "id": "html.manifest.share_target",
+        "name": "html.manifest.share_target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/share_target",
+        "specUrls": [
+          "https://w3c.github.io/web-share-target/#share_target-member"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.web-share",
+        "name": "http.headers.Feature-Policy.web-share",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/web-share",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#permissions-policy"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "web-share",
+        "name": "Web Share API",
+        "statusUrl": "https://caniuse.com/web-share",
+        "specUrls": [
+          "https://www.w3.org/TR/web-share/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4777349178458112,
+        "name": "Web Share API Level 2",
+        "statusUrl": "https://chromestatus.com/feature/4777349178458112",
+        "specUrls": [
+          "https://w3c.github.io/web-share/level-2/"
+        ]
+      },
+      {
         "id": 5668769141620736,
+        "name": "Web Share API",
+        "statusUrl": "https://chromestatus.com/feature/5668769141620736",
+        "specUrls": [
+          "https://w3c.github.io/web-share/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6124071381106688,
+        "name": "Web Share Target Level 2",
+        "statusUrl": "https://chromestatus.com/feature/6124071381106688",
+        "specUrls": [
+          "https://w3c.github.io/web-share-target/level-2/"
+        ]
+      },
+      {
+        "id": 6362499966304256,
+        "name": "web-share permission policy",
+        "statusUrl": "https://chromestatus.com/feature/6362499966304256",
+        "specUrls": [
+          "https://w3c.github.io/web-share/#feature-policy"
+        ]
       }
     ],
     "webkit": [

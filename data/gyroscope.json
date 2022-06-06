@@ -1,8 +1,63 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Gyroscope",
+        "name": "api.Gyroscope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gyroscope",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#gyroscope-interface"
+        ]
+      },
+      {
+        "id": "api.Gyroscope.Gyroscope",
+        "name": "api.Gyroscope.Gyroscope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gyroscope/Gyroscope",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#dom-gyroscope-gyroscope"
+        ]
+      },
+      {
+        "id": "api.Gyroscope.x",
+        "name": "api.Gyroscope.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gyroscope/x",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#gyroscope-x"
+        ]
+      },
+      {
+        "id": "api.Gyroscope.y",
+        "name": "api.Gyroscope.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gyroscope/y",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#gyroscope-y"
+        ]
+      },
+      {
+        "id": "api.Gyroscope.z",
+        "name": "api.Gyroscope.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Gyroscope/z",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#gyroscope-z"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.gyroscope",
+        "name": "http.headers.Feature-Policy.gyroscope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/gyroscope",
+        "specUrls": [
+          "https://w3c.github.io/gyroscope/#ref-for-policy-controlled-feature"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "gyroscope",
+        "name": "Gyroscope",
+        "statusUrl": "https://caniuse.com/gyroscope",
+        "specUrls": [
+          "https://www.w3.org/TR/gyroscope/"
+        ],
         "representative": true
       }
     ],

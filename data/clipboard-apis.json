@@ -1,9 +1,292 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Clipboard",
+        "name": "api.Clipboard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clipboard",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-interface"
+        ]
+      },
+      {
+        "id": "api.Clipboard.read",
+        "name": "api.Clipboard.read",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clipboard/read",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboard-read"
+        ]
+      },
+      {
+        "id": "api.Clipboard.readText",
+        "name": "api.Clipboard.readText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clipboard/readText",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboard-readtext"
+        ]
+      },
+      {
+        "id": "api.Clipboard.write",
+        "name": "api.Clipboard.write",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clipboard/write",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboard-write"
+        ]
+      },
+      {
+        "id": "api.Clipboard.writeText",
+        "name": "api.Clipboard.writeText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Clipboard/writeText",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboard-writetext"
+        ]
+      },
+      {
+        "id": "api.ClipboardEvent",
+        "name": "api.ClipboardEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardEvent",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces"
+        ]
+      },
+      {
+        "id": "api.ClipboardEvent.ClipboardEvent",
+        "name": "api.ClipboardEvent.ClipboardEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardEvent/ClipboardEvent",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboardevent-clipboardevent"
+        ]
+      },
+      {
+        "id": "api.ClipboardEvent.clipboardData",
+        "name": "api.ClipboardEvent.clipboardData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardEvent/clipboardData",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboardevent-clipboarddata"
+        ]
+      },
+      {
+        "id": "api.ClipboardItem",
+        "name": "api.ClipboardItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardItem",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboarditem"
+        ]
+      },
+      {
+        "id": "api.ClipboardItem.ClipboardItem",
+        "name": "api.ClipboardItem.ClipboardItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/ClipboardItem",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-clipboarditem"
+        ]
+      },
+      {
+        "id": "api.ClipboardItem.getType",
+        "name": "api.ClipboardItem.getType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/getType",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-gettype"
+        ]
+      },
+      {
+        "id": "api.ClipboardItem.presentationStyle",
+        "name": "api.ClipboardItem.presentationStyle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/presentationStyle",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-presentationstyle"
+        ]
+      },
+      {
+        "id": "api.ClipboardItem.types",
+        "name": "api.ClipboardItem.types",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ClipboardItem/types",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#dom-clipboarditem-types"
+        ]
+      },
+      {
+        "id": "api.Document.copy_event",
+        "name": "api.Document.copy_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/copy_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-copy"
+        ]
+      },
+      {
+        "id": "api.Document.cut_event",
+        "name": "api.Document.cut_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/cut_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-cut"
+        ]
+      },
+      {
+        "id": "api.Document.paste_event",
+        "name": "api.Document.paste_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/paste_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-paste"
+        ]
+      },
+      {
+        "id": "api.Element.copy_event",
+        "name": "api.Element.copy_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/copy_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-copy"
+        ]
+      },
+      {
+        "id": "api.Element.cut_event",
+        "name": "api.Element.cut_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/cut_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-cut"
+        ]
+      },
+      {
+        "id": "api.Element.paste_event",
+        "name": "api.Element.paste_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/paste_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-paste"
+        ]
+      },
+      {
+        "id": "api.Navigator.clipboard",
+        "name": "api.Navigator.clipboard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/clipboard",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#navigator-clipboard"
+        ]
+      },
+      {
+        "id": "api.Window.copy_event",
+        "name": "api.Window.copy_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/copy_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-copy"
+        ]
+      },
+      {
+        "id": "api.Window.cut_event",
+        "name": "api.Window.cut_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/cut_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-cut"
+        ]
+      },
+      {
+        "id": "api.Window.paste_event",
+        "name": "api.Window.paste_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/paste_event",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-paste"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "async-clipboard",
+        "name": "Asynchronous Clipboard API",
+        "statusUrl": "https://caniuse.com/async-clipboard",
+        "specUrls": [
+          "https://www.w3.org/TR/clipboard-apis/#async-clipboard-api"
+        ]
+      },
+      {
+        "id": "clipboard",
+        "name": "Synchronous Clipboard API",
+        "statusUrl": "https://caniuse.com/clipboard",
+        "specUrls": [
+          "https://www.w3.org/TR/clipboard-apis/"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 4687833935642624,
+        "name": "ClipboardEvent Constructor",
+        "statusUrl": "https://chromestatus.com/feature/4687833935642624",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-interfaces"
+        ]
+      },
+      {
+        "id": 5074658793619456,
+        "name": "Async Clipboard: Read and Write Images",
+        "statusUrl": "https://chromestatus.com/feature/5074658793619456",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#async-clipboard-api"
+        ]
+      },
+      {
+        "id": 5125790490427392,
+        "name": "Clipboard API: Svg",
+        "statusUrl": "https://chromestatus.com/feature/5125790490427392",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#mandatory-data-types-x"
+        ]
+      },
+      {
+        "id": 5357049665814528,
+        "name": "text/html support for async clipboard api",
+        "statusUrl": "https://chromestatus.com/feature/5357049665814528",
+        "specUrls": [
+          "https://www.w3.org/TR/clipboard-apis/#mandatory-data-types-x"
+        ]
+      },
+      {
+        "id": 5671807392677888,
+        "name": "Clipboard: read-only files support",
+        "statusUrl": "https://chromestatus.com/feature/5671807392677888",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/#clipboard-event-api"
+        ]
+      },
+      {
+        "id": 5682768497344512,
+        "name": "Raw Clipboard Access",
+        "statusUrl": "https://chromestatus.com/feature/5682768497344512",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/"
+        ]
+      },
+      {
+        "id": 5733949474078720,
+        "name": "Add support for Promise to Blobs in clipboard item",
+        "statusUrl": "https://chromestatus.com/feature/5733949474078720",
+        "specUrls": [
+          "https://www.w3.org/TR/clipboard-apis/#typedefdef-clipboarditemdata"
+        ]
+      },
+      {
+        "id": 5767075295395840,
+        "name": "Feature Policy for Clipboard API",
+        "statusUrl": "https://chromestatus.com/feature/5767075295395840",
+        "specUrls": [
+          "https://github.com/w3c/clipboard-apis/pull/120"
+        ]
+      },
+      {
         "id": 5861289330999296,
+        "name": "Asynchronous Clipboard API",
+        "statusUrl": "https://chromestatus.com/feature/5861289330999296",
+        "specUrls": [
+          "https://w3c.github.io/clipboard-apis/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-async-clipboard-api",
+        "name": "Async Clipboard API",
+        "statusUrl": "https://webkit.org/status/#specification-async-clipboard-api",
+        "specUrls": [
+          "https://www.w3.org/TR/clipboard-apis/#async-clipboard-api"
+        ]
       }
     ]
   }

@@ -25,12 +25,269 @@
     }
   },
   "statusref": {
-    "chrome": [
+    "bcd": [
       {
-        "id": 5945504202489856
+        "id": "api.Performance",
+        "name": "api.Performance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#sec-performance",
+          "https://w3c.github.io/performance-timeline/#extensions-to-the-performance-interface",
+          "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+          "https://w3c.github.io/user-timing/#extensions-performance-interface"
+        ]
       },
       {
-        "id": 6337483654561792
+        "id": "api.Performance.getEntries",
+        "name": "api.Performance.getEntries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/getEntries",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performance-getentries"
+        ]
+      },
+      {
+        "id": "api.Performance.getEntriesByName",
+        "name": "api.Performance.getEntriesByName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/getEntriesByName",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performance-getentriesbyname"
+        ]
+      },
+      {
+        "id": "api.Performance.getEntriesByType",
+        "name": "api.Performance.getEntriesByType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/getEntriesByType",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performance-getentriesbytype"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry",
+        "name": "api.PerformanceEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry.duration",
+        "name": "api.PerformanceEntry.duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/duration",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry-duration"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry.entryType",
+        "name": "api.PerformanceEntry.entryType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/entryType",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry-entrytype"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry.name",
+        "name": "api.PerformanceEntry.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/name",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry-name"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry.startTime",
+        "name": "api.PerformanceEntry.startTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/startTime",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry-starttime"
+        ]
+      },
+      {
+        "id": "api.PerformanceEntry.toJSON",
+        "name": "api.PerformanceEntry.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceEntry/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceentry-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver",
+        "name": "api.PerformanceObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserver"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver.PerformanceObserver",
+        "name": "api.PerformanceObserver.PerformanceObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver/PerformanceObserver",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserver-constructor"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver.disconnect",
+        "name": "api.PerformanceObserver.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver/disconnect",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserver-disconnect"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver.observe",
+        "name": "api.PerformanceObserver.observe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver/observe",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserver-observe"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver.supportedEntryTypes",
+        "name": "api.PerformanceObserver.supportedEntryTypes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver/supportedEntryTypes",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#supportedentrytypes-attribute"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserver.takeRecords",
+        "name": "api.PerformanceObserver.takeRecords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserver/takeRecords",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserver-takerecords"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserverEntryList",
+        "name": "api.PerformanceObserverEntryList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#performanceobserverentrylist-interface"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserverEntryList.getEntries",
+        "name": "api.PerformanceObserverEntryList.getEntries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntries",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentries"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserverEntryList.getEntriesByName",
+        "name": "api.PerformanceObserverEntryList.getEntriesByName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntriesByName",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentriesbyname"
+        ]
+      },
+      {
+        "id": "api.PerformanceObserverEntryList.getEntriesByType",
+        "name": "api.PerformanceObserverEntryList.getEntriesByType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceObserverEntryList/getEntriesByType",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserverentrylist-getentriesbytype"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4993617147985920,
+        "name": "Delayed Dispatch of PerformanceEntries",
+        "statusUrl": "https://chromestatus.com/feature/4993617147985920",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/"
+        ]
+      },
+      {
+        "id": 5118272741572608,
+        "name": "PerformanceObserverInit buffered flag",
+        "statusUrl": "https://chromestatus.com/feature/5118272741572608",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#performanceobserverinit-dictionary"
+        ]
+      },
+      {
+        "id": 5176567353311232,
+        "name": "PerformanceObserver takeRecords()",
+        "statusUrl": "https://chromestatus.com/feature/5176567353311232",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#takerecords-method"
+        ]
+      },
+      {
+        "id": 5320666234486784,
+        "name": "droppedEntriesCount in PerformanceObserver callback",
+        "statusUrl": "https://chromestatus.com/feature/5320666234486784",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobservercallbackoptions-droppedentriescount"
+        ]
+      },
+      {
+        "id": 5440340169326592,
+        "name": "type in PerformanceObserver's observe() dictionary",
+        "statusUrl": "https://chromestatus.com/feature/5440340169326592",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#performanceobserverinit-dictionary"
+        ]
+      },
+      {
+        "id": 5663336802811904,
+        "name": "hasDroppedEntry in PerformanceObserver's observe()",
+        "statusUrl": "https://chromestatus.com/feature/5663336802811904",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobservercallback"
+        ]
+      },
+      {
+        "id": 5707861997912064,
+        "name": "Expose navigation count on performance timeline",
+        "statusUrl": "https://chromestatus.com/feature/5707861997912064",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/"
+        ]
+      },
+      {
+        "id": 5945504202489856,
+        "name": "Performance Observer",
+        "statusUrl": "https://chromestatus.com/feature/5945504202489856",
+        "specUrls": [
+          "http://w3c.github.io/performance-timeline/#the-performance-observer-interface"
+        ]
+      },
+      {
+        "id": 6306761277440000,
+        "name": "Buffered flag for long tasks",
+        "statusUrl": "https://chromestatus.com/feature/6306761277440000",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/#dom-performanceobserverinit-buffered"
+        ]
+      },
+      {
+        "id": 6337483654561792,
+        "name": "Performance Timeline APIs for Workers",
+        "statusUrl": "https://chromestatus.com/feature/6337483654561792",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/"
+        ]
+      },
+      {
+        "id": 6730557958389760,
+        "name": "toJSON for Performance and PerformanceEntry",
+        "statusUrl": "https://chromestatus.com/feature/6730557958389760",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-performance-observer",
+        "name": "Performance Observer",
+        "statusUrl": "https://webkit.org/status/#specification-performance-observer",
+        "specUrls": [
+          "https://w3c.github.io/performance-timeline/"
+        ]
       }
     ]
   }

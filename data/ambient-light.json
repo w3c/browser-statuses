@@ -3,35 +3,58 @@
     "bcd": [
       {
         "id": "api.AmbientLightSensor",
+        "name": "api.AmbientLightSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor",
+        "specUrls": [
+          "https://w3c.github.io/ambient-light/#ambient-light-sensor-interface"
+        ],
         "representative": true
+      },
+      {
+        "id": "api.AmbientLightSensor.AmbientLightSensor",
+        "name": "api.AmbientLightSensor.AmbientLightSensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor/AmbientLightSensor",
+        "specUrls": [
+          "https://w3c.github.io/ambient-light/#dom-ambientlightsensor-ambientlightsensor"
+        ]
+      },
+      {
+        "id": "api.AmbientLightSensor.illuminance",
+        "name": "api.AmbientLightSensor.illuminance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor/illuminance",
+        "specUrls": [
+          "https://w3c.github.io/ambient-light/#ambient-light-sensor-reading-attribute"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.ambient-light-sensor",
+        "name": "http.headers.Feature-Policy.ambient-light-sensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/ambient-light-sensor",
+        "specUrls": [
+          "https://w3c.github.io/ambient-light/#ref-for-policy-controlled-feature"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "ambient-light",
+        "name": "Ambient Light Sensor",
+        "statusUrl": "https://caniuse.com/ambient-light",
+        "specUrls": [
+          "https://www.w3.org/TR/ambient-light/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5298357018820608,
+        "name": "Ambient Light Sensor API - based on Generic Sensor API.",
+        "statusUrl": "https://chromestatus.com/feature/5298357018820608",
+        "specUrls": [
+          "http://w3c.github.io/ambient-light/"
+        ],
         "representative": true
-      }
-    ],
-    "manual": [
-      {
-        "ua": "firefox",
-        "status": "notsupported",
-        "source": "feedback",
-        "date": "2018-03-16",
-        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
-      },
-      {
-        "ua": "firefox_android",
-        "status": "notsupported",
-        "source": "feedback",
-        "date": "2018-03-16",
-        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
       }
     ]
   }

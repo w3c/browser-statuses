@@ -1,31 +1,389 @@
 {
   "statusref": {
-    "webkit": [
-      {
-        "id": "specification-css-color-level-4",
-        "representative": true
-      }
-    ],
     "bcd": [
       {
-        "id": "css.types.color.hsla"
+        "id": "css.properties.color",
+        "name": "css.properties.color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#the-color-property"
+        ]
       },
       {
-        "id": "css.types.color.rgba"
+        "id": "css.properties.color-scheme",
+        "name": "css.properties.color-scheme",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color-scheme",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
       },
       {
-        "id": "css.types.color.rgb_hexadecimal_notation"
+        "id": "css.properties.forced-color-adjust",
+        "name": "css.properties.forced-color-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#forced-color-adjust-prop"
+        ]
+      },
+      {
+        "id": "css.properties.opacity",
+        "name": "css.properties.opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/opacity",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#transparency"
+        ]
+      },
+      {
+        "id": "css.properties.print-color-adjust",
+        "name": "css.properties.print-color-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#propdef-print-color-adjust"
+        ]
+      },
+      {
+        "id": "css.types.color",
+        "name": "css.types.color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#color-syntax"
+        ]
+      },
+      {
+        "id": "css.types.color.color",
+        "name": "css.types.color.color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#color-function"
+        ]
+      },
+      {
+        "id": "css.types.color.color-contrast",
+        "name": "css.types.color.color-contrast",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-contrast",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-5/#colorcontrast"
+        ]
+      },
+      {
+        "id": "css.types.color.color-mix",
+        "name": "css.types.color.color-mix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-5/#color-mix"
+        ]
+      },
+      {
+        "id": "css.types.color.color_keywords",
+        "name": "css.types.color.color_keywords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color_keywords",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#color-keywords"
+        ]
+      },
+      {
+        "id": "css.types.color.currentcolor",
+        "name": "css.types.color.currentcolor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value#currentcolor",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#currentcolor-color"
+        ]
+      },
+      {
+        "id": "css.types.color.hsl",
+        "name": "css.types.color.hsl",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsl",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#the-hsl-notation"
+        ]
+      },
+      {
+        "id": "css.types.color.hsla",
+        "name": "css.types.color.hsla",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/hsla",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#rgb-functions"
+        ]
+      },
+      {
+        "id": "css.types.color.hwb",
+        "name": "css.types.color.hwb",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/hwb",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#the-hwb-notation"
+        ]
+      },
+      {
+        "id": "css.types.color.lab",
+        "name": "css.types.color.lab",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/lab",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#lab-colors"
+        ]
+      },
+      {
+        "id": "css.types.color.lch",
+        "name": "css.types.color.lch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/lch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#lab-colors"
+        ]
+      },
+      {
+        "id": "css.types.color.rgb",
+        "name": "css.types.color.rgb",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#rgb-functions"
+        ]
+      },
+      {
+        "id": "css.types.color.rgb_hexadecimal_notation",
+        "name": "css.types.color.rgb_hexadecimal_notation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/hex-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#hex-notation"
+        ]
+      },
+      {
+        "id": "css.types.color.rgba",
+        "name": "css.types.color.rgba",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgba",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#rgb-functions"
+        ]
+      },
+      {
+        "id": "css.types.color.transparent",
+        "name": "css.types.color.transparent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value#transparent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#transparent-color"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.opacity",
+        "name": "svg.attributes.presentation.opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/opacity",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#transparency",
+          "https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-color-adjust",
+        "name": "CSS color-adjust",
+        "statusUrl": "https://caniuse.com/css-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#propdef-color-adjust"
+        ]
+      },
+      {
+        "id": "css-color-function",
+        "name": "CSS color() function",
+        "statusUrl": "https://caniuse.com/css-color-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#color-function"
+        ]
+      },
+      {
+        "id": "css-lch-lab",
+        "name": "LCH and Lab color values",
+        "statusUrl": "https://caniuse.com/css-lch-lab",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-4/#specifying-lab-lch"
+        ]
+      },
+      {
+        "id": "css-opacity",
+        "name": "CSS3 Opacity",
+        "statusUrl": "https://caniuse.com/css-opacity",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-color/"
+        ]
+      },
+      {
+        "id": "css-rebeccapurple",
+        "name": "Rebeccapurple color",
+        "statusUrl": "https://caniuse.com/css-rebeccapurple",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4/#valdef-color-rebeccapurple"
+        ]
+      },
+      {
+        "id": "css-rrggbbaa",
+        "name": "#rrggbbaa hex color notation",
+        "statusUrl": "https://caniuse.com/css-rrggbbaa",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#hex-notation"
+        ]
+      },
+      {
+        "id": "css3-colors",
+        "name": "CSS3 Colors",
+        "statusUrl": "https://caniuse.com/css3-colors",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-color/"
+        ]
+      },
+      {
+        "id": "currentcolor",
+        "name": "CSS currentColor value",
+        "statusUrl": "https://caniuse.com/currentcolor",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-color/#currentcolor"
+        ]
       }
     ],
     "chrome": [
       {
-        "id": 5656221012983808
+        "id": 4592567062626304,
+        "name": "CIE Lab color functions for CSS",
+        "statusUrl": "https://chromestatus.com/feature/4592567062626304",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-4/#specifying-lab-lch"
+        ]
       },
       {
-        "id": 5124205561511936
+        "id": 4887620095049728,
+        "name": "forced-color-adjust: preserve-parent-color",
+        "statusUrl": "https://chromestatus.com/feature/4887620095049728",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-adjust-1/#forced-color-adjust-prop"
+        ]
       },
       {
-        "id": 5685348285808640
+        "id": 4892451430989824,
+        "name": "New System Color Keywords",
+        "statusUrl": "https://chromestatus.com/feature/4892451430989824",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-4/#css-system-colors"
+        ]
+      },
+      {
+        "id": 5124205561511936,
+        "name": "CSS Color 4 RGB/RGBA syntax",
+        "statusUrl": "https://chromestatus.com/feature/5124205561511936",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#rgb-functions"
+        ]
+      },
+      {
+        "id": 5157621012103168,
+        "name": "CSS Color Adjust: 'only' keyword for color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5157621012103168",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5167940859068416,
+        "name": "Percentage opacity",
+        "statusUrl": "https://chromestatus.com/feature/5167940859068416",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4/#transparency"
+        ]
+      },
+      {
+        "id": 5330651267989504,
+        "name": "CSS Color Adjust: color-scheme meta tag",
+        "statusUrl": "https://chromestatus.com/feature/5330651267989504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-meta"
+        ]
+      },
+      {
+        "id": 5637256860663808,
+        "name": "hwb() color notation",
+        "statusUrl": "https://chromestatus.com/feature/5637256860663808",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#the-hwb-notation"
+        ]
+      },
+      {
+        "id": 5653721679659008,
+        "name": "CSS Color Adjust: Remove 'only' and support used 'dark' for preferred 'light' for color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5653721679659008",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5656221012983808,
+        "name": "CSS Color 4 HSL/HSLA syntax",
+        "statusUrl": "https://chromestatus.com/feature/5656221012983808",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#the-hsl-notation"
+        ]
+      },
+      {
+        "id": 5659115386830848,
+        "name": "CSS color-mix function",
+        "statusUrl": "https://chromestatus.com/feature/5659115386830848",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-5/#colormix"
+        ]
+      },
+      {
+        "id": 5672533924773888,
+        "name": "Auto Dark Mode & support for \"only\" in CSS color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5672533924773888",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5678291530809344,
+        "name": "Canvas and CanvasText system colors",
+        "statusUrl": "https://chromestatus.com/feature/5678291530809344",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-4/#css-system-colors"
+        ]
+      },
+      {
+        "id": 5685348285808640,
+        "name": "Accept 8 (#RRGGBBAA) and 4 (#RGBA) value hex colors",
+        "statusUrl": "https://chromestatus.com/feature/5685348285808640",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#hex-notation"
+        ]
+      },
+      {
+        "id": 5728029949034496,
+        "name": "Make system color keywords compute to themselves",
+        "statusUrl": "https://chromestatus.com/feature/5728029949034496",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4/#resolving-color-values"
+        ]
+      },
+      {
+        "id": 5757293075365888,
+        "name": "Forced colors mode",
+        "statusUrl": "https://chromestatus.com/feature/5757293075365888",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#forced-colors-mode"
+        ]
+      },
+      {
+        "id": 6070987093180416,
+        "name": "CSS Color Adjust: color-scheme property",
+        "statusUrl": "https://chromestatus.com/feature/6070987093180416",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-color-level-4",
+        "name": "CSS Color Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-color-level-4",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/"
+        ],
+        "representative": true
       }
     ]
   },

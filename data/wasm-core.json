@@ -11,7 +11,20 @@
     "chrome": [
       {
         "id": 5453022515691520,
+        "name": "WebAssembly",
+        "statusUrl": "https://chromestatus.com/feature/5453022515691520",
+        "specUrls": [
+          "https://www.w3.org/TR/wasm-core-1/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5754634769530880,
+        "name": "WebAssembly Import/Export Mutable Globals",
+        "statusUrl": "https://chromestatus.com/feature/5754634769530880",
+        "specUrls": [
+          "https://www.w3.org/TR/wasm-core-1"
+        ]
       }
     ]
   }

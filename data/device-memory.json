@@ -26,15 +26,40 @@
     }
   },
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.deviceMemory",
+        "name": "api.Navigator.deviceMemory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/deviceMemory",
+        "specUrls": [
+          "https://w3c.github.io/device-memory/#sec-device-memory-js-api"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.deviceMemory",
+        "name": "api.WorkerNavigator.deviceMemory",
+        "specUrls": [
+          "https://w3c.github.io/device-memory/#sec-device-memory-js-api"
+        ]
+      },
+      {
+        "id": "http.headers.Device-Memory",
+        "name": "http.headers.Device-Memory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Device-Memory",
+        "specUrls": [
+          "https://w3c.github.io/device-memory/#sec-device-memory-client-hint-header"
+        ]
+      }
+    ],
     "chrome": [
       {
-        "id": 5741299856572416,
+        "id": 5119701235531776,
         "representative": true,
         "manual": true,
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5119701235531776,
+        "id": 5741299856572416,
         "representative": true,
         "manual": true,
         "lastreviewed": "2022-06-05"

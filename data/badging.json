@@ -1,8 +1,31 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.clearAppBadge",
+        "name": "api.Navigator.clearAppBadge",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/clearAppBadge",
+        "specUrls": [
+          "https://w3c.github.io/badging/#clearappbadge-method"
+        ]
+      },
+      {
+        "id": "api.Navigator.setAppBadge",
+        "name": "api.Navigator.setAppBadge",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/setAppBadge",
+        "specUrls": [
+          "https://w3c.github.io/badging/#setappbadge-method"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 6068482055602176,
+        "name": "Badging API",
+        "statusUrl": "https://chromestatus.com/feature/6068482055602176",
+        "specUrls": [
+          "https://w3c.github.io/badging/"
+        ],
         "representative": true
       }
     ]

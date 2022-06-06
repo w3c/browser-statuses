@@ -2,8 +2,45 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5193677469122560,
+        "name": "Freeze task queues in background",
+        "statusUrl": "https://chromestatus.com/feature/5193677469122560",
+        "specUrls": [
+          "https://wicg.github.io/page-lifecycle/spec.html"
+        ]
+      },
+      {
+        "id": 5276568928649216,
+        "name": "Pause Worklets and Dedicated Workers Execution on document freeze",
+        "statusUrl": "https://chromestatus.com/feature/5276568928649216",
+        "specUrls": [
+          "https://wicg.github.io/page-lifecycle/spec.html"
+        ]
+      },
+      {
         "id": 5644602711212032,
+        "name": "Page Lifecycle API",
+        "statusUrl": "https://chromestatus.com/feature/5644602711212032",
+        "specUrls": [
+          "https://wicg.github.io/page-lifecycle/spec.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5684075803181056,
+        "name": "IFrame execution/freezing feature policy",
+        "statusUrl": "https://chromestatus.com/feature/5684075803181056",
+        "specUrls": [
+          "https://github.com/WICG/page-lifecycle/pull/32"
+        ]
+      },
+      {
+        "id": 5737408349863936,
+        "name": "Add frozen or active lifecycleState to ServiceWorker Client",
+        "statusUrl": "https://chromestatus.com/feature/5737408349863936",
+        "specUrls": [
+          "https://wicg.github.io/page-lifecycle/#service-worker-client-lifecycle-state"
+        ]
       }
     ]
   }

@@ -1,20 +1,154 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document",
+        "name": "api.Document",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-document",
+          "https://html.spec.whatwg.org/multipage/dom.html#the-document-object",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-document-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-document-interface",
+          "https://w3c.github.io/selection-api/#extensions-to-document-interface"
+        ]
+      },
+      {
+        "id": "api.Document.exitPointerLock",
+        "name": "api.Document.exitPointerLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/exitPointerLock",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-document-exitpointerlock"
+        ]
+      },
+      {
+        "id": "api.Document.pointerLockElement",
+        "name": "api.Document.pointerLockElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerLockElement",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-documentorshadowroot-pointerlockelement"
+        ]
+      },
+      {
+        "id": "api.Document.pointerlockchange_event",
+        "name": "api.Document.pointerlockchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#pointerlockchange-and-pointerlockerror-events",
+          "https://w3c.github.io/pointerlock/#dom-document-onpointerlockchange"
+        ]
+      },
+      {
+        "id": "api.Document.pointerlockerror_event",
+        "name": "api.Document.pointerlockerror_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#pointerlockchange-and-pointerlockerror-events",
+          "https://w3c.github.io/pointerlock/#dom-document-onpointerlockerror"
+        ]
+      },
+      {
+        "id": "api.Element",
+        "name": "api.Element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-element",
+          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
+          "https://fullscreen.spec.whatwg.org/#api",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
+          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
+        ]
+      },
+      {
+        "id": "api.Element.requestPointerLock",
+        "name": "api.Element.requestPointerLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/requestPointerLock",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-element-requestpointerlock"
+        ]
+      },
+      {
+        "id": "api.MouseEvent",
+        "name": "api.MouseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-mouseevent",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-mouseevent-interface"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.movementX",
+        "name": "api.MouseEvent.movementX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/movementX",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-mouseevent-movementx"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.movementY",
+        "name": "api.MouseEvent.movementY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/movementY",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-mouseevent-movementy"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.pointerLockElement",
+        "name": "api.ShadowRoot.pointerLockElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/pointerLockElement",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/#dom-documentorshadowroot-pointerlockelement"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "pointerlock",
+        "name": "Pointer Lock API",
+        "statusUrl": "https://caniuse.com/pointerlock",
+        "specUrls": [
+          "https://www.w3.org/TR/pointerlock/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5676647286046720,
+        "name": "Deprecate & Remove webkitMovementX/Y",
+        "statusUrl": "https://chromestatus.com/feature/5676647286046720",
+        "specUrls": [
+          "https://w3c.github.io/pointerlock/"
+        ]
+      },
+      {
+        "id": 5723553087356928,
+        "name": "PointerLock unadjustedMovement",
+        "statusUrl": "https://chromestatus.com/feature/5723553087356928",
+        "specUrls": [
+          "https://github.com/w3c/pointerlock/pull/49/"
+        ]
+      },
+      {
         "id": 6753200417800192,
+        "name": "Pointer Lock (Mouse Lock)",
+        "statusUrl": "https://chromestatus.com/feature/6753200417800192",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/pointerlock/raw-file/default/index.html"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-pointer-lock",
+        "name": "Pointer Lock",
+        "statusUrl": "https://webkit.org/status/#specification-pointer-lock",
+        "specUrls": [
+          "https://www.w3.org/TR/pointerlock/"
+        ],
         "representative": true
       }
     ]

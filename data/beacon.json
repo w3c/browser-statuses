@@ -3,24 +3,52 @@
     "bcd": [
       {
         "id": "api.Navigator.sendBeacon",
+        "name": "api.Navigator.sendBeacon",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/sendBeacon",
+        "specUrls": [
+          "https://w3c.github.io/beacon/#sendbeacon-method"
+        ],
         "representative": true
       }
     ],
     "caniuse": [
       {
         "id": "beacon",
+        "name": "Beacon API",
+        "statusUrl": "https://caniuse.com/beacon",
+        "specUrls": [
+          "https://www.w3.org/TR/beacon/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5517433905348608,
+        "name": "Beacon",
+        "statusUrl": "https://chromestatus.com/feature/5517433905348608",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/webperf/raw-file/tip/specs/Beacon/Overview.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5654267444592640,
+        "name": "Beacon with non-CORS-safelisted Content-Type",
+        "statusUrl": "https://chromestatus.com/feature/5654267444592640",
+        "specUrls": [
+          "https://w3c.github.io/beacon/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-beacon-api",
+        "name": "Beacon API",
+        "statusUrl": "https://webkit.org/status/#specification-beacon-api",
+        "specUrls": [
+          "https://www.w3.org/TR/beacon/"
+        ],
         "representative": true
       }
     ]

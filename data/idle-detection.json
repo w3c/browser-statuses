@@ -1,9 +1,82 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.IdleDetector",
+        "name": "api.IdleDetector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.IdleDetector",
+        "name": "api.IdleDetector.IdleDetector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/IdleDetector",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#dom-idledetector-idledetector"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.change_event",
+        "name": "api.IdleDetector.change_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/change_event",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector-onchange"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.requestPermission",
+        "name": "api.IdleDetector.requestPermission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/requestPermission",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector-requestpermission"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.screenState",
+        "name": "api.IdleDetector.screenState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/screenState",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector-screenstate"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.start",
+        "name": "api.IdleDetector.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/start",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector-start"
+        ]
+      },
+      {
+        "id": "api.IdleDetector.userState",
+        "name": "api.IdleDetector.userState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/IdleDetector/userState",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/#api-idledetector-userstate"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4590256452009984,
+        "name": "Idle Detection",
+        "statusUrl": "https://chromestatus.com/feature/4590256452009984",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-idle-detection",
+        "name": "Idle Detection",
+        "statusUrl": "https://webkit.org/status/#specification-idle-detection",
+        "specUrls": [
+          "https://wicg.github.io/idle-detection/"
+        ]
       }
     ]
   }

@@ -1,9 +1,120 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.ImageCapture",
+        "name": "api.ImageCapture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#imagecaptureapi"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.ImageCapture",
+        "name": "api.ImageCapture.ImageCapture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/ImageCapture",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-imagecapture"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.getPhotoCapabilities",
+        "name": "api.ImageCapture.getPhotoCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-getphotocapabilities"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.getPhotoSettings",
+        "name": "api.ImageCapture.getPhotoSettings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/getPhotoSettings",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-getphotosettings"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.grabFrame",
+        "name": "api.ImageCapture.grabFrame",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/grabFrame",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-grabframe"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.takePhoto",
+        "name": "api.ImageCapture.takePhoto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/takePhoto",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-takephoto"
+        ]
+      },
+      {
+        "id": "api.ImageCapture.track",
+        "name": "api.ImageCapture.track",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageCapture/track",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-track"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4843864737185792,
+        "name": "MediaStream Image Capture",
+        "statusUrl": "https://chromestatus.com/feature/4843864737185792",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-image/index.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5104908176982016,
+        "name": "MediaStream Image Capture - getPhotoSettings() method",
+        "statusUrl": "https://chromestatus.com/feature/5104908176982016",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-imagecapture-getphotosettings"
+        ]
+      },
+      {
+        "id": 5181454237564928,
+        "name": "ImageCapture support for focusDistance constraint",
+        "statusUrl": "https://chromestatus.com/feature/5181454237564928",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-mediatracksupportedconstraints-focusdistance"
+        ]
+      },
+      {
+        "id": 5552970657693696,
+        "name": "Remove ImageCapture.setOptions()",
+        "statusUrl": "https://chromestatus.com/feature/5552970657693696",
+        "specUrls": [
+          "https://www.w3.org/TR/image-capture/#imagecaptureapi"
+        ]
+      },
+      {
+        "id": 5570717087170560,
+        "name": "Pan/Tilt support for Camera",
+        "statusUrl": "https://chromestatus.com/feature/5570717087170560",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-image/"
+        ]
+      },
+      {
+        "id": 5677894124699648,
+        "name": "Change MediaSettingsRange & PhotoCapabilities interfaces to dictionaries",
+        "statusUrl": "https://chromestatus.com/feature/5677894124699648",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-mediasettingsrange-tojson"
+        ]
+      },
+      {
+        "id": 5682072505024512,
+        "name": "ImageCapture support for exposureTime constraint",
+        "statusUrl": "https://chromestatus.com/feature/5682072505024512",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#dom-mediatrackcapabilities-exposuretime"
+        ]
       }
     ]
   }

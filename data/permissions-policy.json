@@ -1,15 +1,91 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.PermissionsPolicyViolationReportBody",
+        "name": "api.PermissionsPolicyViolationReportBody",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#permissionspolicyviolationreportbody"
+        ]
+      },
+      {
+        "id": "api.PermissionsPolicyViolationReportBody.columnNumber",
+        "name": "api.PermissionsPolicyViolationReportBody.columnNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody/columnNumber",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-columnnumber"
+        ]
+      },
+      {
+        "id": "api.PermissionsPolicyViolationReportBody.disposition",
+        "name": "api.PermissionsPolicyViolationReportBody.disposition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody/disposition",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-disposition"
+        ]
+      },
+      {
+        "id": "api.PermissionsPolicyViolationReportBody.featureId",
+        "name": "api.PermissionsPolicyViolationReportBody.featureId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody/featureId",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-featureid"
+        ]
+      },
+      {
+        "id": "api.PermissionsPolicyViolationReportBody.lineNumber",
+        "name": "api.PermissionsPolicyViolationReportBody.lineNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody/lineNumber",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-linenumber"
+        ]
+      },
+      {
+        "id": "api.PermissionsPolicyViolationReportBody.sourceFile",
+        "name": "api.PermissionsPolicyViolationReportBody.sourceFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PermissionsPolicyViolationReportBody/sourceFile",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#dom-permissionspolicyviolationreportbody-sourcefile"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy",
+        "name": "http.headers.Feature-Policy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/#permissions-policy-http-header-field"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "permissions-policy",
+        "name": "Permissions Policy",
+        "statusUrl": "https://caniuse.com/permissions-policy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5745992911552512,
+        "name": "Permissions-Policy header",
+        "statusUrl": "https://chromestatus.com/feature/5745992911552512",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy"
+        ],
         "representative": true
+      },
+      {
+        "id": 5756689661820928,
+        "name": "Document-Policy header",
+        "statusUrl": "https://chromestatus.com/feature/5756689661820928",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-permissions-policy/document-policy.html"
+        ]
       }
     ]
   }

@@ -1,20 +1,53 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Upgrade-Insecure-Requests",
+        "name": "http.headers.Upgrade-Insecure-Requests",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Upgrade-Insecure-Requests",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-upgrade-insecure-requests/#preference"
+        ]
+      },
+      {
+        "id": "http.headers.csp.Content-Security-Policy.upgrade-insecure-requests",
+        "name": "http.headers.csp.Content-Security-Policy.upgrade-insecure-requests",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/upgrade-insecure-requests",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-upgrade-insecure-requests/#delivery"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "upgradeinsecurerequests",
+        "name": "Upgrade Insecure Requests",
+        "statusUrl": "https://caniuse.com/upgradeinsecurerequests",
+        "specUrls": [
+          "https://www.w3.org/TR/upgrade-insecure-requests/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 6534575509471232,
+        "name": "Upgrade insecure requests",
+        "statusUrl": "https://chromestatus.com/feature/6534575509471232",
+        "specUrls": [
+          "https://w3c.github.io/webappsec/specs/upgrade/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "feature-upgrade-insecure-requests",
+        "name": "Upgrade Insecure Requests",
+        "statusUrl": "https://webkit.org/status/#feature-upgrade-insecure-requests",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-upgrade-insecure-requests/"
+        ],
         "representative": true
       }
     ]

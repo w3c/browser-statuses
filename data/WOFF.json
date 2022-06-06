@@ -1,9 +1,50 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.font-face.WOFF",
+        "name": "css.at-rules.font-face.WOFF",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Guide/WOFF",
+        "specUrls": [
+          "https://www.w3.org/TR/WOFF/#OverallStructure"
+        ]
+      },
+      {
+        "id": "css.at-rules.font-face.WOFF_2",
+        "name": "css.at-rules.font-face.WOFF_2",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Guide/WOFF",
+        "specUrls": [
+          "https://w3c.github.io/woff/woff2/#FileStructure"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "woff",
+        "name": "WOFF - Web Open Font Format",
+        "statusUrl": "https://caniuse.com/woff",
+        "specUrls": [
+          "https://www.w3.org/TR/WOFF/"
+        ],
         "representative": true
+      },
+      {
+        "id": "woff2",
+        "name": "WOFF 2.0 - Web Open Font Format",
+        "statusUrl": "https://caniuse.com/woff2",
+        "specUrls": [
+          "https://www.w3.org/TR/WOFF2/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-woff-file-format-2.0",
+        "name": "WOFF File Format 2.0",
+        "statusUrl": "https://webkit.org/status/#specification-woff-file-format-2.0",
+        "specUrls": [
+          "https://www.w3.org/TR/WOFF2/"
+        ]
       }
     ]
   }

@@ -1,9 +1,200 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CookieChangeEvent",
+        "name": "api.CookieChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#CookieChangeEvent"
+        ]
+      },
+      {
+        "id": "api.CookieChangeEvent.CookieChangeEvent",
+        "name": "api.CookieChangeEvent.CookieChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieChangeEvent/CookieChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiechangeevent-cookiechangeevent"
+        ]
+      },
+      {
+        "id": "api.CookieChangeEvent.changed",
+        "name": "api.CookieChangeEvent.changed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieChangeEvent/changed",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiechangeevent-changed"
+        ]
+      },
+      {
+        "id": "api.CookieChangeEvent.deleted",
+        "name": "api.CookieChangeEvent.deleted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieChangeEvent/deleted",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiechangeevent-deleted"
+        ]
+      },
+      {
+        "id": "api.CookieStore",
+        "name": "api.CookieStore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#CookieStore"
+        ]
+      },
+      {
+        "id": "api.CookieStore.change_event",
+        "name": "api.CookieStore.change_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore/change_event",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#intro-monitor",
+          "https://wicg.github.io/cookie-store/#dom-cookiestore-onchange"
+        ]
+      },
+      {
+        "id": "api.CookieStore.delete",
+        "name": "api.CookieStore.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore/delete",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestore-delete"
+        ]
+      },
+      {
+        "id": "api.CookieStore.get",
+        "name": "api.CookieStore.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore/get",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestore-get"
+        ]
+      },
+      {
+        "id": "api.CookieStore.getAll",
+        "name": "api.CookieStore.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore/getAll",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestore-getall"
+        ]
+      },
+      {
+        "id": "api.CookieStore.set",
+        "name": "api.CookieStore.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStore/set",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestore-set"
+        ]
+      },
+      {
+        "id": "api.CookieStoreManager",
+        "name": "api.CookieStoreManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStoreManager",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#cookiestoremanager"
+        ]
+      },
+      {
+        "id": "api.CookieStoreManager.getSubscriptions",
+        "name": "api.CookieStoreManager.getSubscriptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStoreManager/getSubscriptions",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestoremanager-getsubscriptions"
+        ]
+      },
+      {
+        "id": "api.CookieStoreManager.subscribe",
+        "name": "api.CookieStoreManager.subscribe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStoreManager/subscribe",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestoremanager-subscribe"
+        ]
+      },
+      {
+        "id": "api.CookieStoreManager.unsubscribe",
+        "name": "api.CookieStoreManager.unsubscribe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CookieStoreManager/unsubscribe",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-cookiestoremanager-unsubscribe"
+        ]
+      },
+      {
+        "id": "api.ExtendableCookieChangeEvent",
+        "name": "api.ExtendableCookieChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#ExtendableCookieChangeEvent"
+        ]
+      },
+      {
+        "id": "api.ExtendableCookieChangeEvent.ExtendableCookieChangeEvent",
+        "name": "api.ExtendableCookieChangeEvent.ExtendableCookieChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/ExtendableCookieChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-extendablecookiechangeevent"
+        ]
+      },
+      {
+        "id": "api.ExtendableCookieChangeEvent.changed",
+        "name": "api.ExtendableCookieChangeEvent.changed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/changed",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-changed"
+        ]
+      },
+      {
+        "id": "api.ExtendableCookieChangeEvent.deleted",
+        "name": "api.ExtendableCookieChangeEvent.deleted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ExtendableCookieChangeEvent/deleted",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-extendablecookiechangeevent-deleted"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.cookieStore",
+        "name": "api.ServiceWorkerGlobalScope.cookieStore",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-serviceworkerglobalscope-cookiestore"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.cookies",
+        "name": "api.ServiceWorkerRegistration.cookies",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-serviceworkerregistration-cookies"
+        ]
+      },
+      {
+        "id": "api.Window.cookieStore",
+        "name": "api.Window.cookieStore",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/#dom-window-cookiestore"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "cookie-store-api",
+        "name": "Cookie Store API",
+        "statusUrl": "https://caniuse.com/cookie-store-api",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5658847691669504,
+        "name": "Cookie Store API",
+        "statusUrl": "https://chromestatus.com/feature/5658847691669504",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5684823895048192,
+        "name": "Cookie Store API on local secure contexts",
+        "statusUrl": "https://chromestatus.com/feature/5684823895048192",
+        "specUrls": [
+          "https://wicg.github.io/cookie-store/"
+        ]
       }
     ]
   }

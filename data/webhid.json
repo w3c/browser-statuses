@@ -1,9 +1,258 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HID",
+        "name": "api.HID",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HID",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hid"
+        ]
+      },
+      {
+        "id": "api.HID.connect_event",
+        "name": "api.HID.connect_event",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hid-onconnect"
+        ]
+      },
+      {
+        "id": "api.HID.disconnect_event",
+        "name": "api.HID.disconnect_event",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hid-ondisconnect"
+        ]
+      },
+      {
+        "id": "api.HID.getDevices",
+        "name": "api.HID.getDevices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HID/getDevices",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hid-getdevices"
+        ]
+      },
+      {
+        "id": "api.HID.requestDevice",
+        "name": "api.HID.requestDevice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HID/requestDevice",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hid-requestdevice"
+        ]
+      },
+      {
+        "id": "api.HIDConnectionEvent",
+        "name": "api.HIDConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDConnectionEvent",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidconnectionevent"
+        ]
+      },
+      {
+        "id": "api.HIDConnectionEvent.HIDConnectionEvent",
+        "name": "api.HIDConnectionEvent.HIDConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDConnectionEvent/HIDConnectionEvent",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidconnectionevent-constructor"
+        ]
+      },
+      {
+        "id": "api.HIDConnectionEvent.device",
+        "name": "api.HIDConnectionEvent.device",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDConnectionEvent/device",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidconnectionevent-device"
+        ]
+      },
+      {
+        "id": "api.HIDDevice",
+        "name": "api.HIDDevice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.close",
+        "name": "api.HIDDevice.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/close",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-close"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.collections",
+        "name": "api.HIDDevice.collections",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/collections",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-collections"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.forget",
+        "name": "api.HIDDevice.forget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/forget",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-forget"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.inputreport_event",
+        "name": "api.HIDDevice.inputreport_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/inputreport_event",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-oninputreport"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.open",
+        "name": "api.HIDDevice.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/open",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-open"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.opened",
+        "name": "api.HIDDevice.opened",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/opened",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-opened"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.productId",
+        "name": "api.HIDDevice.productId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/productId",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-productid"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.productName",
+        "name": "api.HIDDevice.productName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/productName",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-productname"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.receiveFeatureReport",
+        "name": "api.HIDDevice.receiveFeatureReport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/receiveFeatureReport",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-receivefeaturereport"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.sendFeatureReport",
+        "name": "api.HIDDevice.sendFeatureReport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/sendFeatureReport",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-sendfeaturereport"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.sendReport",
+        "name": "api.HIDDevice.sendReport",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/sendReport",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-sendreport"
+        ]
+      },
+      {
+        "id": "api.HIDDevice.vendorId",
+        "name": "api.HIDDevice.vendorId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDDevice/vendorId",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevice-vendorid"
+        ]
+      },
+      {
+        "id": "api.HIDInputReportEvent",
+        "name": "api.HIDInputReportEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDInputReportEvent",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidinputreportevent"
+        ]
+      },
+      {
+        "id": "api.HIDInputReportEvent.data",
+        "name": "api.HIDInputReportEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDInputReportEvent/data",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidinputreportevent-data"
+        ]
+      },
+      {
+        "id": "api.HIDInputReportEvent.device",
+        "name": "api.HIDInputReportEvent.device",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDInputReportEvent/device",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidinputreportevent-device"
+        ]
+      },
+      {
+        "id": "api.HIDInputReportEvent.reportId",
+        "name": "api.HIDInputReportEvent.reportId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HIDInputReportEvent/reportId",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hidinputreportevent-reportid"
+        ]
+      },
+      {
+        "id": "api.Navigator.hid",
+        "name": "api.Navigator.hid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/hid",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-navigator-hid"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "webhid",
+        "name": "WebHID API",
+        "statusUrl": "https://caniuse.com/webhid",
+        "specUrls": [
+          "https://wicg.github.io/webhid/"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5172464636133376,
+        "name": "WebHID (Human Interface Device)",
+        "statusUrl": "https://chromestatus.com/feature/5172464636133376",
+        "specUrls": [
+          "https://wicg.github.io/webhid/index.html"
+        ],
         "representative": true
+      },
+      {
+        "id": 5194022623641600,
+        "name": "WebHID exclusionFilters option in requestDevice()",
+        "statusUrl": "https://chromestatus.com/feature/5194022623641600",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#dom-hiddevicerequestoptions-exclusionfilters"
+        ]
+      },
+      {
+        "id": 5723581527883776,
+        "name": "HIDDevice forget()",
+        "statusUrl": "https://chromestatus.com/feature/5723581527883776",
+        "specUrls": [
+          "https://github.com/WICG/webhid/pull/84"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-webhid",
+        "name": "WebHID",
+        "statusUrl": "https://webkit.org/status/#specification-webhid",
+        "specUrls": [
+          "https://wicg.github.io/webhid/"
+        ]
       }
     ]
   }

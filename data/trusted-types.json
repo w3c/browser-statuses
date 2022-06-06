@@ -1,14 +1,241 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.TrustedHTML",
+        "name": "api.TrustedHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedHTML",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-html"
+        ]
+      },
+      {
+        "id": "api.TrustedHTML.toJSON",
+        "name": "api.TrustedHTML.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedHTML/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedhtml-tojson"
+        ]
+      },
+      {
+        "id": "api.TrustedHTML.toString",
+        "name": "api.TrustedHTML.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedHTML/toString",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trustedhtml-stringification-behavior"
+        ]
+      },
+      {
+        "id": "api.TrustedScript",
+        "name": "api.TrustedScript",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScript",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-script"
+        ]
+      },
+      {
+        "id": "api.TrustedScript.toJSON",
+        "name": "api.TrustedScript.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScript/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedscript-tojson"
+        ]
+      },
+      {
+        "id": "api.TrustedScript.toString",
+        "name": "api.TrustedScript.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScript/toString",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trustedscripturl-stringification-behavior"
+        ]
+      },
+      {
+        "id": "api.TrustedScriptURL",
+        "name": "api.TrustedScriptURL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScriptURL",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trused-script-url"
+        ]
+      },
+      {
+        "id": "api.TrustedScriptURL.toJSON",
+        "name": "api.TrustedScriptURL.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScriptURL/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedscripturl-tojson"
+        ]
+      },
+      {
+        "id": "api.TrustedScriptURL.toString",
+        "name": "api.TrustedScriptURL.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedScriptURL/toString",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trustedscripturl-stringification-behavior"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicy",
+        "name": "api.TrustedTypePolicy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-type-policy"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicy.createHTML",
+        "name": "api.TrustedTypePolicy.createHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicy/createHTML",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicy-createhtml"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicy.createScript",
+        "name": "api.TrustedTypePolicy.createScript",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicy/createScript",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicy-createscript"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicy.createScriptURL",
+        "name": "api.TrustedTypePolicy.createScriptURL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicy/createScriptURL",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicy-createscripturl"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicy.name",
+        "name": "api.TrustedTypePolicy.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicy/name",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicy-name"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory",
+        "name": "api.TrustedTypePolicyFactory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-type-policy-factory"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.createPolicy",
+        "name": "api.TrustedTypePolicyFactory.createPolicy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/createPolicy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-createpolicy"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.defaultPolicy",
+        "name": "api.TrustedTypePolicyFactory.defaultPolicy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/defaultPolicy",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-defaultpolicy"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.emptyHTML",
+        "name": "api.TrustedTypePolicyFactory.emptyHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/emptyHTML",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-emptyhtml"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.emptyScript",
+        "name": "api.TrustedTypePolicyFactory.emptyScript",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/emptyScript",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-emptyscript"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.getAttributeType",
+        "name": "api.TrustedTypePolicyFactory.getAttributeType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/getAttributeType",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-getattributetype"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.getPropertyType",
+        "name": "api.TrustedTypePolicyFactory.getPropertyType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/getPropertyType",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-getpropertytype"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.isHTML",
+        "name": "api.TrustedTypePolicyFactory.isHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/isHTML",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-ishtml"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.isScript",
+        "name": "api.TrustedTypePolicyFactory.isScript",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/isScript",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-isscript"
+        ]
+      },
+      {
+        "id": "api.TrustedTypePolicyFactory.isScriptURL",
+        "name": "api.TrustedTypePolicyFactory.isScriptURL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedTypePolicyFactory/isScriptURL",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-trustedtypepolicyfactory-isscripturl"
+        ]
+      },
+      {
+        "id": "api.trustedTypes",
+        "name": "api.trustedTypes",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#extensions-to-the-windoworworkerglobalscope-interface"
+        ]
+      },
+      {
+        "id": "http.headers.csp.Content-Security-Policy.require-trusted-types-for",
+        "name": "http.headers.csp.Content-Security-Policy.require-trusted-types-for",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/require-trusted-types-for",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#require-trusted-types-for-csp-directive"
+        ]
+      },
+      {
+        "id": "http.headers.csp.Content-Security-Policy.trusted-types",
+        "name": "http.headers.csp.Content-Security-Policy.trusted-types",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "trusted-types",
+        "name": "Trusted Types for DOM manipulation",
+        "statusUrl": "https://caniuse.com/trusted-types",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5650088592408576,
+        "name": "Trusted Types for DOM Manipulation",
+        "statusUrl": "https://chromestatus.com/feature/5650088592408576",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/"
+        ],
         "representative": true
       }
     ]

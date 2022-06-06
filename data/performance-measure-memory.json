@@ -1,8 +1,22 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Performance.measureUserAgentSpecificMemory",
+        "name": "api.Performance.measureUserAgentSpecificMemory",
+        "specUrls": [
+          "https://wicg.github.io/performance-measure-memory/#ref-for-dom-performance-measureuseragentspecificmemory⑤"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5685965186138112,
+        "name": "performance.measureUserAgentSpecificMemory() ",
+        "statusUrl": "https://chromestatus.com/feature/5685965186138112",
+        "specUrls": [
+          "https://github.com/WICG/performance-measure-memory"
+        ],
         "representative": true
       }
     ]

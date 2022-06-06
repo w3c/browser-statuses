@@ -2,25 +2,229 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Crypto",
+        "name": "api.Crypto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Crypto",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#crypto-interface"
+        ]
+      },
+      {
+        "id": "api.Crypto.getRandomValues",
+        "name": "api.Crypto.getRandomValues",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Crypto/getRandomValues",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#Crypto-method-getRandomValues"
+        ]
+      },
+      {
+        "id": "api.Crypto.randomUUID",
+        "name": "api.Crypto.randomUUID",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Crypto/randomUUID",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#Crypto-method-randomUUID"
+        ]
+      },
+      {
+        "id": "api.Crypto.subtle",
+        "name": "api.Crypto.subtle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Crypto/subtle",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#Crypto-attribute-subtle"
+        ]
+      },
+      {
+        "id": "api.CryptoKey",
+        "name": "api.CryptoKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#cryptokey-interface"
+        ]
+      },
+      {
+        "id": "api.CryptoKey.algorithm",
+        "name": "api.CryptoKey.algorithm",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#dom-cryptokey-algorithm"
+        ]
+      },
+      {
+        "id": "api.CryptoKey.extractable",
+        "name": "api.CryptoKey.extractable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#dom-cryptokey-extractable"
+        ]
+      },
+      {
+        "id": "api.CryptoKey.type",
+        "name": "api.CryptoKey.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#dom-cryptokey-type"
+        ]
+      },
+      {
+        "id": "api.CryptoKey.usages",
+        "name": "api.CryptoKey.usages",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CryptoKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#dom-cryptokey-usages"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto",
+        "name": "api.SubtleCrypto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#subtlecrypto-interface"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.decrypt",
+        "name": "api.SubtleCrypto.decrypt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/decrypt",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-decrypt"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.deriveBits",
+        "name": "api.SubtleCrypto.deriveBits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveBits",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveBits"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.deriveKey",
+        "name": "api.SubtleCrypto.deriveKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-deriveKey"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.digest",
+        "name": "api.SubtleCrypto.digest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/digest",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-digest"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.encrypt",
+        "name": "api.SubtleCrypto.encrypt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/encrypt",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-encrypt"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.exportKey",
+        "name": "api.SubtleCrypto.exportKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/exportKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-exportKey"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.generateKey",
+        "name": "api.SubtleCrypto.generateKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/generateKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-generateKey"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.importKey",
+        "name": "api.SubtleCrypto.importKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/importKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-importKey"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.sign",
+        "name": "api.SubtleCrypto.sign",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/sign",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-sign"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.unwrapKey",
+        "name": "api.SubtleCrypto.unwrapKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/unwrapKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-unwrapKey"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.verify",
+        "name": "api.SubtleCrypto.verify",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/verify",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-verify"
+        ]
+      },
+      {
+        "id": "api.SubtleCrypto.wrapKey",
+        "name": "api.SubtleCrypto.wrapKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubtleCrypto/wrapKey",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#SubtleCrypto-method-wrapKey"
+        ]
+      },
+      {
         "id": "api.crypto",
+        "name": "api.crypto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/crypto_property",
+        "specUrls": [
+          "https://w3c.github.io/webcrypto/#dom-windoworworkerglobalscope-crypto"
+        ],
         "representative": true
       }
     ],
     "caniuse": [
       {
         "id": "cryptography",
+        "name": "Web Cryptography",
+        "statusUrl": "https://caniuse.com/cryptography",
+        "specUrls": [
+          "https://www.w3.org/TR/WebCryptoAPI/"
+        ],
         "representative": true
+      },
+      {
+        "id": "getrandomvalues",
+        "name": "crypto.getRandomValues()",
+        "statusUrl": "https://caniuse.com/getrandomvalues",
+        "specUrls": [
+          "https://www.w3.org/TR/WebCryptoAPI/#Crypto-method-getRandomValues"
+        ]
       }
     ],
     "chrome": [
       {
         "id": 5030265697075200,
+        "name": "Web Crypto API",
+        "statusUrl": "https://chromestatus.com/feature/5030265697075200",
+        "specUrls": [
+          "https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-web-cryptography-api",
+        "name": "Web Cryptography API",
+        "statusUrl": "https://webkit.org/status/#specification-web-cryptography-api",
+        "specUrls": [
+          "http://www.w3.org/TR/WebCryptoAPI/"
+        ],
         "representative": true
       }
     ]

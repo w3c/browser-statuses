@@ -1,17 +1,56 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLMediaElement.setSinkId",
+        "name": "api.HTMLMediaElement.setSinkId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/setSinkId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-setsinkid"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.sinkId",
+        "name": "api.HTMLMediaElement.sinkId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/sinkId",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-sinkid"
+        ]
+      },
+      {
+        "id": "api.MediaDevices.selectAudioOutput",
+        "name": "api.MediaDevices.selectAudioOutput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaDevices/selectAudioOutput",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-output/#dom-mediadevices-selectaudiooutput"
+        ]
+      },
+      {
+        "id": "api.Permissions.speaker-selection_permission",
+        "name": "api.Permissions.speaker-selection_permission",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Permissions/speaker-selection",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-output/#dfn-speaker-selection"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.speaker-selection",
+        "name": "http.headers.Feature-Policy.speaker-selection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/speaker-selection",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-output/#permissions-policy-integration"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4621603249848320,
+        "name": "Audio Output Devices API",
+        "statusUrl": "https://chromestatus.com/feature/4621603249848320",
+        "specUrls": [
+          "http://w3c.github.io/mediacapture-output"
+        ],
         "representative": true
-      }
-    ],
-    "bcd": [
-      {
-        "id": "api.HTMLMediaElement.sinkId"
-      },
-      {
-        "id": "api.HTMLMediaElement.setSinkId"
       }
     ]
   },

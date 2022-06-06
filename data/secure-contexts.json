@@ -2,7 +2,36 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5634194258526208,
+        "name": "Potentially trustworthy data: urls ",
+        "statusUrl": "https://chromestatus.com/feature/5634194258526208",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-secure-contexts/#is-url-trustworthy"
+        ]
+      },
+      {
+        "id": 5636088701911040,
+        "name": "Remove geolocation from Insecure Contexts",
+        "statusUrl": "https://chromestatus.com/feature/5636088701911040",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-secure-contexts/"
+        ]
+      },
+      {
+        "id": 5703419427815424,
+        "name": "Remove getUserMedia() from Insecure Contexts",
+        "statusUrl": "https://chromestatus.com/feature/5703419427815424",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-secure-contexts/"
+        ]
+      },
+      {
         "id": 6021277022158848,
+        "name": "Secure Contexts",
+        "statusUrl": "https://chromestatus.com/feature/6021277022158848",
+        "specUrls": [
+          "https://w3c.github.io/webappsec/specs/powerfulfeatures/"
+        ],
         "representative": true
       }
     ]

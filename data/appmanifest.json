@@ -1,37 +1,290 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "html.manifest.background_color",
+        "name": "html.manifest.background_color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/background_color",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#background_color-member"
+        ]
+      },
+      {
+        "id": "html.manifest.categories",
+        "name": "html.manifest.categories",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/categories",
+        "specUrls": [
+          "https://w3c.github.io/manifest-app-info/#categories-member"
+        ]
+      },
+      {
+        "id": "html.manifest.description",
+        "name": "html.manifest.description",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/description",
+        "specUrls": [
+          "https://w3c.github.io/manifest-app-info/#description-member"
+        ]
+      },
+      {
+        "id": "html.manifest.dir",
+        "name": "html.manifest.dir",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/dir",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#dir-member"
+        ]
+      },
+      {
+        "id": "html.manifest.display",
+        "name": "html.manifest.display",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/display",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#display-member"
+        ]
+      },
+      {
+        "id": "html.manifest.iarc_rating_id",
+        "name": "html.manifest.iarc_rating_id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/iarc_rating_id",
+        "specUrls": [
+          "https://w3c.github.io/manifest-app-info/#iarc_rating_id-member"
+        ]
+      },
+      {
+        "id": "html.manifest.icons",
+        "name": "html.manifest.icons",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/icons",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#icons-member"
+        ]
+      },
+      {
+        "id": "html.manifest.lang",
+        "name": "html.manifest.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/lang",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#lang-member"
+        ]
+      },
+      {
+        "id": "html.manifest.name",
+        "name": "html.manifest.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/name",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#name-member"
+        ]
+      },
+      {
+        "id": "html.manifest.orientation",
+        "name": "html.manifest.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/orientation",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#orientation-member"
+        ]
+      },
+      {
+        "id": "html.manifest.prefer_related_applications",
+        "name": "html.manifest.prefer_related_applications",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/prefer_related_applications",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#prefer_related_applications-member"
+        ]
+      },
+      {
+        "id": "html.manifest.related_applications",
+        "name": "html.manifest.related_applications",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/related_applications",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#related_applications-member"
+        ]
+      },
+      {
+        "id": "html.manifest.scope",
+        "name": "html.manifest.scope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/scope",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#scope-member"
+        ]
+      },
+      {
+        "id": "html.manifest.screenshots",
+        "name": "html.manifest.screenshots",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/screenshots",
+        "specUrls": [
+          "https://w3c.github.io/manifest-app-info/#screenshots-member"
+        ]
+      },
+      {
+        "id": "html.manifest.short_name",
+        "name": "html.manifest.short_name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/short_name",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#short_name-member"
+        ]
+      },
+      {
+        "id": "html.manifest.shortcuts",
+        "name": "html.manifest.shortcuts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/shortcuts",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#shortcuts-member"
+        ]
+      },
+      {
+        "id": "html.manifest.start_url",
+        "name": "html.manifest.start_url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/start_url",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#start_url-member"
+        ]
+      },
+      {
+        "id": "html.manifest.theme_color",
+        "name": "html.manifest.theme_color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/theme_color",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#theme_color-member"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "web-app-manifest",
+        "name": "Add to home screen (A2HS)",
+        "statusUrl": "https://caniuse.com/web-app-manifest",
+        "specUrls": [
+          "https://www.w3.org/TR/appmanifest/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
-      {
-        "id": 6488656873259008,
-        "representative": true
-      },
-      {
-        "id": 5651543017652224
-      },
-      {
-        "id": 5674968658477056
-      },
-      {
-        "id": 6690807302062080
-      },
       {
         "id": 4754986680451072,
         "manual": true,
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5709006190411776
+        "id": 5099009930690560,
+        "name": "Maskable App Icons (PWA - Android)",
+        "statusUrl": "https://chromestatus.com/feature/5099009930690560",
+        "specUrls": [
+          "https://www.w3.org/TR/appmanifest/#icon-masks"
+        ]
+      },
+      {
+        "id": 5651543017652224,
+        "name": "Parsing background_color from Web Application Manifest",
+        "statusUrl": "https://chromestatus.com/feature/5651543017652224",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#background_color-member"
+        ]
+      },
+      {
+        "id": 5674968658477056,
+        "name": "install event for Web App Manifest",
+        "statusUrl": "https://chromestatus.com/feature/5674968658477056",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#installation-events"
+        ]
+      },
+      {
+        "id": 5680906727587840,
+        "name": "display:minimal-ui ",
+        "statusUrl": "https://chromestatus.com/feature/5680906727587840",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#dom-displaymodetype-minimal-ui"
+        ]
+      },
+      {
+        "id": 5706099464339456,
+        "name": "App shortcuts",
+        "statusUrl": "https://chromestatus.com/feature/5706099464339456",
+        "specUrls": [
+          "https://www.w3.org/TR/appmanifest/#shortcuts-member"
+        ]
+      },
+      {
+        "id": 5709006190411776,
+        "name": "Parsing theme_color from Web Application Manifest",
+        "statusUrl": "https://chromestatus.com/feature/5709006190411776",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#theme_color-member"
+        ]
+      },
+      {
+        "id": 5715015369752576,
+        "name": "Remove density property from Manifest's icons",
+        "statusUrl": "https://chromestatus.com/feature/5715015369752576",
+        "specUrls": [
+          "https://github.com/w3c/manifest/issues/450"
+        ]
+      },
+      {
+        "id": 5723214099513344,
+        "name": "More accurate offline capability detection for PWA sites before showing install prompt",
+        "statusUrl": "https://chromestatus.com/feature/5723214099513344",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#installability-signals"
+        ]
+      },
+      {
+        "id": 5728570678706176,
+        "name": "display_override",
+        "statusUrl": "https://chromestatus.com/feature/5728570678706176",
+        "specUrls": [
+          "https://github.com/w3c/manifest/pull/932"
+        ]
+      },
+      {
+        "id": 6064014410907648,
+        "name": "PWA manifest unique id - desktop",
+        "statusUrl": "https://chromestatus.com/feature/6064014410907648",
+        "specUrls": [
+          "https://github.com/w3c/manifest/pull/988"
+        ]
+      },
+      {
+        "id": 6422599217184768,
+        "name": "Richer Install UI for PWAs",
+        "statusUrl": "https://chromestatus.com/feature/6422599217184768",
+        "specUrls": [
+          "https://w3c.github.io/manifest-app-info/#supplementary-manifest-members"
+        ]
+      },
+      {
+        "id": 6488656873259008,
+        "name": "Web Application Manifest",
+        "statusUrl": "https://chromestatus.com/feature/6488656873259008",
+        "specUrls": [
+          "https://w3c.github.io/manifest/"
+        ],
+        "representative": true
+      },
+      {
+        "id": 6560913322672128,
+        "name": "beforeinstallprompt event for web/native app install banners",
+        "statusUrl": "https://chromestatus.com/feature/6560913322672128",
+        "specUrls": [
+          "https://w3c.github.io/manifest/#beforeinstallpromptevent-interface"
+        ]
+      },
+      {
+        "id": 6690807302062080,
+        "name": "Add purpose member to the Web App Manifest",
+        "statusUrl": "https://chromestatus.com/feature/6690807302062080",
+        "specUrls": [
+          "https://www.w3.org/TR/appmanifest/#purpose-member"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-web-app-manifest",
+        "name": "Web App Manifest",
+        "statusUrl": "https://webkit.org/status/#specification-web-app-manifest",
+        "specUrls": [
+          "https://www.w3.org/TR/appmanifest/"
+        ],
         "representative": true
       }
     ]

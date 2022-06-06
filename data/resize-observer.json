@@ -1,15 +1,149 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.ResizeObserver",
+        "name": "api.ResizeObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserver",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#resize-observer-interface"
+        ]
+      },
+      {
+        "id": "api.ResizeObserver.ResizeObserver",
+        "name": "api.ResizeObserver.ResizeObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserver/ResizeObserver",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserver-resizeobserver"
+        ]
+      },
+      {
+        "id": "api.ResizeObserver.disconnect",
+        "name": "api.ResizeObserver.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserver/disconnect",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserver-disconnect"
+        ]
+      },
+      {
+        "id": "api.ResizeObserver.observe",
+        "name": "api.ResizeObserver.observe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserver/observe",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserver-observe"
+        ]
+      },
+      {
+        "id": "api.ResizeObserver.unobserve",
+        "name": "api.ResizeObserver.unobserve",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserver/unobserve",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserver-unobserve"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverEntry",
+        "name": "api.ResizeObserverEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#resize-observer-entry-interface"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverEntry.borderBoxSize",
+        "name": "api.ResizeObserverEntry.borderBoxSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/borderBoxSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-borderboxsize"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverEntry.contentBoxSize",
+        "name": "api.ResizeObserverEntry.contentBoxSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/contentBoxSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-contentboxsize"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverEntry.contentRect",
+        "name": "api.ResizeObserverEntry.contentRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/contentRect",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-contentrect"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverEntry.target",
+        "name": "api.ResizeObserverEntry.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/target",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-target"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverSize",
+        "name": "api.ResizeObserverSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#resizeobserversize"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverSize.blockSize",
+        "name": "api.ResizeObserverSize.blockSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverSize/blockSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserversize-blocksize"
+        ]
+      },
+      {
+        "id": "api.ResizeObserverSize.inlineSize",
+        "name": "api.ResizeObserverSize.inlineSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverSize/inlineSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserversize-inlinesize"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "resizeobserver",
+        "name": "Resize Observer",
+        "statusUrl": "https://caniuse.com/resizeobserver",
+        "specUrls": [
+          "https://wicg.github.io/ResizeObserver/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4966068076412928,
+        "name": "Resize Observer Updates",
+        "statusUrl": "https://chromestatus.com/feature/4966068076412928",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/"
+        ]
+      },
+      {
         "id": 5705346022637568,
+        "name": "Resize Observer",
+        "statusUrl": "https://chromestatus.com/feature/5705346022637568",
+        "specUrls": [
+          "https://wicg.github.io/ResizeObserver/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-resize-observer",
+        "name": "Resize Observer",
+        "statusUrl": "https://webkit.org/status/#specification-resize-observer",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/"
+        ]
       }
     ]
   },

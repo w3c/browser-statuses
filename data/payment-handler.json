@@ -1,9 +1,183 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CanMakePaymentEvent",
+        "name": "api.CanMakePaymentEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#the-canmakepaymentevent"
+        ]
+      },
+      {
+        "id": "api.CanMakePaymentEvent.CanMakePaymentEvent",
+        "name": "api.CanMakePaymentEvent.CanMakePaymentEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/CanMakePaymentEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-constructor"
+        ]
+      },
+      {
+        "id": "api.CanMakePaymentEvent.methodData",
+        "name": "api.CanMakePaymentEvent.methodData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/methodData",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-methoddata"
+        ]
+      },
+      {
+        "id": "api.CanMakePaymentEvent.paymentRequestOrigin",
+        "name": "api.CanMakePaymentEvent.paymentRequestOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/paymentRequestOrigin",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-paymentrequestorigin"
+        ]
+      },
+      {
+        "id": "api.CanMakePaymentEvent.respondWith",
+        "name": "api.CanMakePaymentEvent.respondWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/respondWith",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-respondwith"
+        ]
+      },
+      {
+        "id": "api.CanMakePaymentEvent.topOrigin",
+        "name": "api.CanMakePaymentEvent.topOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CanMakePaymentEvent/topOrigin",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-canmakepaymentevent-toporigin"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent",
+        "name": "api.PaymentRequestEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#the-paymentrequestevent"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.PaymentRequestEvent",
+        "name": "api.PaymentRequestEvent.PaymentRequestEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/PaymentRequestEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-constructor"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.changePaymentMethod",
+        "name": "api.PaymentRequestEvent.changePaymentMethod",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#changepaymentmethod-method"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.methodData",
+        "name": "api.PaymentRequestEvent.methodData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/methodData",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-methoddata"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.modifiers",
+        "name": "api.PaymentRequestEvent.modifiers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/modifiers",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-modifiers"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.openWindow",
+        "name": "api.PaymentRequestEvent.openWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/openWindow",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-openwindow"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.paymentRequestId",
+        "name": "api.PaymentRequestEvent.paymentRequestId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/paymentRequestId",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-paymentrequestid"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.paymentRequestOrigin",
+        "name": "api.PaymentRequestEvent.paymentRequestOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/paymentRequestOrigin",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-paymentrequestorigin"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.respondWith",
+        "name": "api.PaymentRequestEvent.respondWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/respondWith",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-respondwith"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.topOrigin",
+        "name": "api.PaymentRequestEvent.topOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/topOrigin",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-toporigin"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestEvent.total",
+        "name": "api.PaymentRequestEvent.total",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent/total",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentrequestevent-total"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.paymentManager",
+        "name": "api.ServiceWorkerRegistration.paymentManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/paymentManager",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-serviceworkerregistration-paymentmanager"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 4937674777427968,
+        "name": "Expose PaymentManager on workers",
+        "statusUrl": "https://chromestatus.com/feature/4937674777427968",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#paymentmanager-interface"
+        ]
+      },
+      {
         "id": 5160285237149696,
+        "name": "Payment Handler API",
+        "statusUrl": "https://chromestatus.com/feature/5160285237149696",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5660404216758272,
+        "name": "[Payments] shipping address and contact info delegation",
+        "statusUrl": "https://chromestatus.com/feature/5660404216758272",
+        "specUrls": [
+          "https://github.com/w3c/payment-handler/pull/349"
+        ]
+      },
+      {
+        "id": 5698314223747072,
+        "name": "PaymentRequestEvent.changePaymentMethod()",
+        "statusUrl": "https://chromestatus.com/feature/5698314223747072",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#changepaymentmethod-method"
+        ]
       }
     ]
   }

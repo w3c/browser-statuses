@@ -1,20 +1,205 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Geolocation",
+        "name": "api.Geolocation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Geolocation",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#geolocation_interface"
+        ]
+      },
+      {
+        "id": "api.Geolocation.clearWatch",
+        "name": "api.Geolocation.clearWatch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Geolocation/clearWatch",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#clearwatch-method"
+        ]
+      },
+      {
+        "id": "api.Geolocation.getCurrentPosition",
+        "name": "api.Geolocation.getCurrentPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Geolocation/getCurrentPosition",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#getcurrentposition-method"
+        ]
+      },
+      {
+        "id": "api.Geolocation.watchPosition",
+        "name": "api.Geolocation.watchPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Geolocation/watchPosition",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#watchposition-method"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates",
+        "name": "api.GeolocationCoordinates",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#coordinates_interface"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.accuracy",
+        "name": "api.GeolocationCoordinates.accuracy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/accuracy",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#latitude-longitude-and-accuracy-attributes"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.altitude",
+        "name": "api.GeolocationCoordinates.altitude",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/altitude",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#altitude-and-altitudeaccuracy-attributes"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.altitudeAccuracy",
+        "name": "api.GeolocationCoordinates.altitudeAccuracy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/altitudeAccuracy",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#altitude-and-altitudeaccuracy-attributes"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.heading",
+        "name": "api.GeolocationCoordinates.heading",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/heading",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#heading-attribute"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.latitude",
+        "name": "api.GeolocationCoordinates.latitude",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/latitude",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#latitude-longitude-and-accuracy-attributes"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.longitude",
+        "name": "api.GeolocationCoordinates.longitude",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/longitude",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#latitude-longitude-and-accuracy-attributes"
+        ]
+      },
+      {
+        "id": "api.GeolocationCoordinates.speed",
+        "name": "api.GeolocationCoordinates.speed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/speed",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#speed-attribute"
+        ]
+      },
+      {
+        "id": "api.GeolocationPosition",
+        "name": "api.GeolocationPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPosition",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#position_interface"
+        ]
+      },
+      {
+        "id": "api.GeolocationPosition.coords",
+        "name": "api.GeolocationPosition.coords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPosition/coords",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#coords-attribute"
+        ]
+      },
+      {
+        "id": "api.GeolocationPosition.timestamp",
+        "name": "api.GeolocationPosition.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPosition/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#timestamp-attribute"
+        ]
+      },
+      {
+        "id": "api.GeolocationPositionError",
+        "name": "api.GeolocationPositionError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPositionError",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#position_error_interface"
+        ]
+      },
+      {
+        "id": "api.GeolocationPositionError.code",
+        "name": "api.GeolocationPositionError.code",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPositionError/code",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#code-attribute"
+        ]
+      },
+      {
+        "id": "api.GeolocationPositionError.message",
+        "name": "api.GeolocationPositionError.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GeolocationPositionError/message",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#message-attribute"
+        ]
+      },
+      {
+        "id": "api.Navigator.geolocation",
+        "name": "api.Navigator.geolocation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/geolocation",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#dom-navigator-geolocation"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.geolocation",
+        "name": "http.headers.Feature-Policy.geolocation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/geolocation",
+        "specUrls": [
+          "https://w3c.github.io/geolocation-api/#dfn-geolocation"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "geolocation",
+        "name": "Geolocation",
+        "statusUrl": "https://caniuse.com/geolocation",
+        "specUrls": [
+          "https://www.w3.org/TR/geolocation-API/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5172722929762304,
+        "name": "Remove [NoInterfaceObject] from Geolocation API interfaces",
+        "statusUrl": "https://chromestatus.com/feature/5172722929762304",
+        "specUrls": [
+          "http://w3c.github.io/geolocation-api/"
+        ]
+      },
+      {
         "id": 6348855016685568,
+        "name": "Geolocation",
+        "statusUrl": "https://chromestatus.com/feature/6348855016685568",
+        "specUrls": [
+          "http://www.w3.org/TR/geolocation-API/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-geolocation-api",
+        "name": "Geolocation API",
+        "statusUrl": "https://webkit.org/status/#specification-geolocation-api",
+        "specUrls": [
+          "https://www.w3.org/TR/geolocation-API/"
+        ],
         "representative": true
       }
     ]

@@ -3,23 +3,22 @@
     "caniuse": [
       {
         "id": "proximity",
+        "name": "Proximity API",
+        "statusUrl": "https://caniuse.com/proximity",
+        "specUrls": [
+          "https://www.w3.org/TR/proximity/"
+        ],
         "representative": true
       }
     ],
-    "manual": [
+    "webkit": [
       {
-        "ua": "firefox",
-        "status": "notsupported",
-        "source": "feedback",
-        "date": "2018-03-19",
-        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
-      },
-      {
-        "ua": "firefox_android",
-        "status": "notsupported",
-        "source": "feedback",
-        "date": "2018-03-19",
-        "comment": "The version based on the Generic Sensor API is not what is shipping in Firefox, see https://github.com/w3c/web-roadmaps/issues/160"
+        "id": "specification-proximity-sensor",
+        "name": "Proximity Sensor",
+        "statusUrl": "https://webkit.org/status/#specification-proximity-sensor",
+        "specUrls": [
+          "https://www.w3.org/TR/proximity/"
+        ]
       }
     ]
   }

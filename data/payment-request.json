@@ -1,20 +1,310 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.PaymentMethodChangeEvent",
+        "name": "api.PaymentMethodChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentMethodChangeEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentmethodchangeevent-interface"
+        ]
+      },
+      {
+        "id": "api.PaymentMethodChangeEvent.PaymentMethodChangeEvent",
+        "name": "api.PaymentMethodChangeEvent.PaymentMethodChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentMethodChangeEvent/PaymentMethodChangeEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentmethodchangeevent-constructor"
+        ]
+      },
+      {
+        "id": "api.PaymentMethodChangeEvent.methodDetails",
+        "name": "api.PaymentMethodChangeEvent.methodDetails",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentMethodChangeEvent/methodDetails",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentmethodchangeevent-methoddetails"
+        ]
+      },
+      {
+        "id": "api.PaymentMethodChangeEvent.methodName",
+        "name": "api.PaymentMethodChangeEvent.methodName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentMethodChangeEvent/methodName",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentmethodchangeevent-methodname"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest",
+        "name": "api.PaymentRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentrequest-interface"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.PaymentRequest",
+        "name": "api.PaymentRequest.PaymentRequest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/PaymentRequest",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#constructor"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.abort",
+        "name": "api.PaymentRequest.abort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/abort",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequest-abort"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.canMakePayment",
+        "name": "api.PaymentRequest.canMakePayment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/canMakePayment",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequest-canmakepayment"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.id",
+        "name": "api.PaymentRequest.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/id",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequest-id"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.paymentmethodchange_event",
+        "name": "api.PaymentRequest.paymentmethodchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/paymentmethodchange_event",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dfn-paymentmethodchange",
+          "https://w3c.github.io/payment-request/#onpaymentmethodchange-attribute"
+        ]
+      },
+      {
+        "id": "api.PaymentRequest.show",
+        "name": "api.PaymentRequest.show",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequest/show",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequest-show"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestUpdateEvent",
+        "name": "api.PaymentRequestUpdateEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentrequestupdateevent-interface"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestUpdateEvent.PaymentRequestUpdateEvent",
+        "name": "api.PaymentRequestUpdateEvent.PaymentRequestUpdateEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent/PaymentRequestUpdateEvent",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#constructor-0"
+        ]
+      },
+      {
+        "id": "api.PaymentRequestUpdateEvent.updateWith",
+        "name": "api.PaymentRequestUpdateEvent.updateWith",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestUpdateEvent/updateWith",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequestupdateevent-updatewith"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse",
+        "name": "api.PaymentResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentresponse-interface"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse.complete",
+        "name": "api.PaymentResponse.complete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/complete",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-complete"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse.details",
+        "name": "api.PaymentResponse.details",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/details",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-details"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse.methodName",
+        "name": "api.PaymentResponse.methodName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/methodName",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-methodname"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse.requestId",
+        "name": "api.PaymentResponse.requestId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/requestId",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-requestid"
+        ]
+      },
+      {
+        "id": "api.PaymentResponse.retry",
+        "name": "api.PaymentResponse.retry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentResponse/retry",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-retry"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.payment",
+        "name": "http.headers.Feature-Policy.payment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/payment",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#permissions-policy"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "payment-request",
+        "name": "Payment Request API",
+        "statusUrl": "https://caniuse.com/payment-request",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-request/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4793925806063616,
+        "name": "Throw on invalid \"basic-card\" data",
+        "statusUrl": "https://chromestatus.com/feature/4793925806063616",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#constructor"
+        ]
+      },
+      {
+        "id": 4887385041010688,
+        "name": "Remove currencySystem in PaymentRequest API",
+        "statusUrl": "https://chromestatus.com/feature/4887385041010688",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-request/"
+        ]
+      },
+      {
+        "id": 4924351321210880,
+        "name": "PaymentMethodChangeEvent",
+        "statusUrl": "https://chromestatus.com/feature/4924351321210880",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentmethodchangeevent-interface"
+        ]
+      },
+      {
+        "id": 4992562146312192,
+        "name": "Remove PaymentAddress's languageCode property",
+        "statusUrl": "https://chromestatus.com/feature/4992562146312192",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#languagecode-attribute"
+        ]
+      },
+      {
+        "id": 5082085060509696,
+        "name": "Merchant Validation",
+        "statusUrl": "https://chromestatus.com/feature/5082085060509696",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#merchantvalidationevent-interface"
+        ]
+      },
+      {
+        "id": 5177301645918208,
+        "name": "PaymentMethodData.supportedMethods should not be a sequence",
+        "statusUrl": "https://chromestatus.com/feature/5177301645918208",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-request/#dom-paymentmethoddata-supportedmethods"
+        ]
+      },
+      {
+        "id": 5532279906500608,
+        "name": "More restrictive hasEnrolledInstrument() for autofill instruments",
+        "statusUrl": "https://chromestatus.com/feature/5532279906500608",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentrequest-hasenrolledinstrument"
+        ]
+      },
+      {
         "id": 5639348045217792,
+        "name": "PaymentRequest",
+        "statusUrl": "https://chromestatus.com/feature/5639348045217792",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5646573451083776,
+        "name": "PaymentRequest.hasEnrolledInstrument()",
+        "statusUrl": "https://chromestatus.com/feature/5646573451083776",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/"
+        ]
+      },
+      {
+        "id": 5653566570102784,
+        "name": "Redact address in PaymentRequest.onshippingaddresschange event",
+        "statusUrl": "https://chromestatus.com/feature/5653566570102784",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#shipping-address-changed-algorithm"
+        ]
+      },
+      {
+        "id": 6092351889997824,
+        "name": "Allow PaymentRequest.show() to take optional detailsPromise",
+        "statusUrl": "https://chromestatus.com/feature/6092351889997824",
+        "specUrls": [
+          "https://github.com/w3c/payment-request/pull/672/files"
+        ]
+      },
+      {
+        "id": 6343538327420928,
+        "name": "More restrictive show() for autofill instruments",
+        "statusUrl": "https://chromestatus.com/feature/6343538327420928",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#show-method"
+        ]
+      },
+      {
+        "id": 6559988684161024,
+        "name": "PaymentResponse.prototype.retry()",
+        "statusUrl": "https://chromestatus.com/feature/6559988684161024",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#dom-paymentresponse-retry"
+        ]
+      },
+      {
+        "id": 6636936064139264,
+        "name": "PaymentDetailsModifier.data",
+        "statusUrl": "https://chromestatus.com/feature/6636936064139264",
+        "specUrls": [
+          "https://w3c.github.io/payment-request/#paymentdetailsmodifier-dictionary"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-payment-request",
+        "name": "Payment Request",
+        "statusUrl": "https://webkit.org/status/#specification-payment-request",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-request/"
+        ],
         "representative": true
       }
     ]

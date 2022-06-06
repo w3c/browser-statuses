@@ -1,8 +1,436 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.RTCIceCandidatePairStats",
+        "name": "api.RTCIceCandidatePairStats",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.availableIncomingBitrate",
+        "name": "api.RTCIceCandidatePairStats.availableIncomingBitrate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/availableIncomingBitrate",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-availableincomingbitrate"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.availableOutgoingBitrate",
+        "name": "api.RTCIceCandidatePairStats.availableOutgoingBitrate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/availableOutgoingBitrate",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-availableoutgoingbitrate"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.bytesReceived",
+        "name": "api.RTCIceCandidatePairStats.bytesReceived",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/bytesReceived",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-bytesreceived"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.bytesSent",
+        "name": "api.RTCIceCandidatePairStats.bytesSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/bytesSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-bytessent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.circuitBreakerTriggerCount",
+        "name": "api.RTCIceCandidatePairStats.circuitBreakerTriggerCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/circuitBreakerTriggerCount",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-circuitbreakertriggercount"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.consentExpiredTimestamp",
+        "name": "api.RTCIceCandidatePairStats.consentExpiredTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/consentExpiredTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-consentexpiredtimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.consentRequestsSent",
+        "name": "api.RTCIceCandidatePairStats.consentRequestsSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/consentRequestsSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-consentrequestssent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.currentRoundTripTime",
+        "name": "api.RTCIceCandidatePairStats.currentRoundTripTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/currentRoundTripTime",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-currentroundtriptime"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.firstRequestTimeStamp",
+        "name": "api.RTCIceCandidatePairStats.firstRequestTimeStamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/firstRequestTimeStamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-firstrequesttimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.lastPacketReceivedTimestamp",
+        "name": "api.RTCIceCandidatePairStats.lastPacketReceivedTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketReceivedTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastpacketreceivedtimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.lastPacketSentTimestamp",
+        "name": "api.RTCIceCandidatePairStats.lastPacketSentTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketSentTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastpacketsenttimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.lastRequestTimestamp",
+        "name": "api.RTCIceCandidatePairStats.lastRequestTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastRequestTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastrequesttimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.lastResponseTimestamp",
+        "name": "api.RTCIceCandidatePairStats.lastResponseTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastResponseTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastresponsetimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.localCandidateId",
+        "name": "api.RTCIceCandidatePairStats.localCandidateId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/localCandidateId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-localcandidateid"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.nominated",
+        "name": "api.RTCIceCandidatePairStats.nominated",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/nominated",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-nominated"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.packetsReceived",
+        "name": "api.RTCIceCandidatePairStats.packetsReceived",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/packetsReceived",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-packetsreceived"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.packetsSent",
+        "name": "api.RTCIceCandidatePairStats.packetsSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/packetsSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-packetssent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.priority",
+        "name": "api.RTCIceCandidatePairStats.priority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/priority",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-priority"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.remoteCandidateId",
+        "name": "api.RTCIceCandidatePairStats.remoteCandidateId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/remoteCandidateId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-remotecandidateid"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.requestsReceived",
+        "name": "api.RTCIceCandidatePairStats.requestsReceived",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/requestsReceived",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-requestsreceived"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.requestsSent",
+        "name": "api.RTCIceCandidatePairStats.requestsSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/requestsSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-requestssent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.responsesReceived",
+        "name": "api.RTCIceCandidatePairStats.responsesReceived",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesReceived",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-responsesreceived"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.responsesSent",
+        "name": "api.RTCIceCandidatePairStats.responsesSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-responsessent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.retransmissionsReceived",
+        "name": "api.RTCIceCandidatePairStats.retransmissionsReceived",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/retransmissionsReceived",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-retransmissionsreceived"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.retransmissionsSent",
+        "name": "api.RTCIceCandidatePairStats.retransmissionsSent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/retransmissionsSent",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-retransmissionssent"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.state",
+        "name": "api.RTCIceCandidatePairStats.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/state",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-state"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.totalRoundTripTime",
+        "name": "api.RTCIceCandidatePairStats.totalRoundTripTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/totalRoundTripTime",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-totalroundtriptime"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidatePairStats.transportId",
+        "name": "api.RTCIceCandidatePairStats.transportId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/transportId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-transportid"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats",
+        "name": "api.RTCIceCandidateStats",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#icecandidate-dict*"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.address",
+        "name": "api.RTCIceCandidateStats.address",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/address",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-address"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.candidateType",
+        "name": "api.RTCIceCandidateStats.candidateType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/candidateType",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-candidatetype"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.deleted",
+        "name": "api.RTCIceCandidateStats.deleted",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/deleted",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-deleted"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.port",
+        "name": "api.RTCIceCandidateStats.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/port",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-port"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.priority",
+        "name": "api.RTCIceCandidateStats.priority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/priority",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-priority"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.protocol",
+        "name": "api.RTCIceCandidateStats.protocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/protocol",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-protocol"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.relayProtocol",
+        "name": "api.RTCIceCandidateStats.relayProtocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/relayProtocol",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-relayprotocol"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.transportId",
+        "name": "api.RTCIceCandidateStats.transportId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/transportId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-transportid"
+        ]
+      },
+      {
+        "id": "api.RTCIceCandidateStats.url",
+        "name": "api.RTCIceCandidateStats.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidateStats/url",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatestats-url"
+        ]
+      },
+      {
+        "id": "api.RTCRemoteOutboundRtpStreamStats",
+        "name": "api.RTCRemoteOutboundRtpStreamStats",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#remoteoutboundrtpstats-dict*"
+        ]
+      },
+      {
+        "id": "api.RTCRemoteOutboundRtpStreamStats.localId",
+        "name": "api.RTCRemoteOutboundRtpStreamStats.localId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/localId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcremoteoutboundrtpstreamstats-localid"
+        ]
+      },
+      {
+        "id": "api.RTCRemoteOutboundRtpStreamStats.remoteTimestamp",
+        "name": "api.RTCRemoteOutboundRtpStreamStats.remoteTimestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRemoteOutboundRtpStreamStats/remoteTimestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcremoteoutboundrtpstreamstats-remotetimestamp"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats",
+        "name": "api.RTCRtpStreamStats",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#streamstats-dict*"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.codecId",
+        "name": "api.RTCRtpStreamStats.codecId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/codecId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-codecid"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.firCount",
+        "name": "api.RTCRtpStreamStats.firCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/firCount",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-fircount",
+          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-fircount"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.kind",
+        "name": "api.RTCRtpStreamStats.kind",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/kind",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-kind"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.nackCount",
+        "name": "api.RTCRtpStreamStats.nackCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/nackCount",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-nackcount",
+          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-nackcount"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.pliCount",
+        "name": "api.RTCRtpStreamStats.pliCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/pliCount",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-plicount",
+          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-plicount"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.qpSum",
+        "name": "api.RTCRtpStreamStats.qpSum",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/qpSum",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-qpsum",
+          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-qpsum"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.sliCount",
+        "name": "api.RTCRtpStreamStats.sliCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/sliCount",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-slicount",
+          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-slicount"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.ssrc",
+        "name": "api.RTCRtpStreamStats.ssrc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/ssrc",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-ssrc"
+        ]
+      },
+      {
+        "id": "api.RTCRtpStreamStats.transportId",
+        "name": "api.RTCRtpStreamStats.transportId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/transportId",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/#dom-rtcrtpstreamstats-transportid"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5665052275245056,
+        "name": "RTCPeerConnection.getStats",
+        "statusUrl": "https://chromestatus.com/feature/5665052275245056",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-stats/"
+        ],
         "representative": true
       }
     ]

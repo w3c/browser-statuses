@@ -1,15 +1,203 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.align-content.flex_context",
+        "name": "css.properties.align-content.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#align-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-content.grid_context",
+        "name": "css.properties.align-content.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#align-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-items.flex_context",
+        "name": "css.properties.align-items.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-items-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-items.grid_context",
+        "name": "css.properties.align-items.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-items-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-self.flex_context",
+        "name": "css.properties.align-self.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-self-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-self.grid_context",
+        "name": "css.properties.align-self.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-self-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex",
+        "name": "css.properties.flex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-basis",
+        "name": "css.properties.flex-basis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-basis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-basis-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-direction",
+        "name": "css.properties.flex-direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-direction",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-direction-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-flow",
+        "name": "css.properties.flex-flow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-flow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-flow-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-grow",
+        "name": "css.properties.flex-grow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-grow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-grow-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-shrink",
+        "name": "css.properties.flex-shrink",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-shrink",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-shrink-property"
+        ]
+      },
+      {
+        "id": "css.properties.flex-wrap",
+        "name": "css.properties.flex-wrap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/flex-wrap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#flex-wrap-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-content.flex_context",
+        "name": "css.properties.justify-content.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#justify-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-content.grid_context",
+        "name": "css.properties.justify-content.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#justify-content-property"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "flexbox",
+        "name": "CSS Flexible Box Layout Module",
+        "statusUrl": "https://caniuse.com/flexbox",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-flexbox/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 4837301406400512,
+        "name": "CSS Flexbox",
+        "statusUrl": "https://chromestatus.com/feature/4837301406400512",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-flexbox/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5635933158244352,
+        "name": "flex-basis honors keywords 'content' and 'min/max/fit-content'",
+        "statusUrl": "https://chromestatus.com/feature/5635933158244352",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#valdef-flex-basis-content"
+        ]
+      },
+      {
+        "id": 5651186401148928,
+        "name": "More correct min-width/height: auto implementation for flex items",
+        "statusUrl": "https://chromestatus.com/feature/5651186401148928",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#min-size-auto"
+        ]
+      },
+      {
+        "id": 5670760496496640,
+        "name": "Correct handling of percentages in children of flex items",
+        "statusUrl": "https://chromestatus.com/feature/5670760496496640",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#definite-sizes"
+        ]
+      },
+      {
+        "id": 6021353392046080,
+        "name": "CSS Flexbox: New intrinsic size algorithm",
+        "statusUrl": "https://chromestatus.com/feature/6021353392046080",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#intrinsic-sizes"
+        ]
+      },
+      {
+        "id": 6600926009753600,
+        "name": "CSS Flexbox: New behavior for absolute-positioned children",
+        "statusUrl": "https://chromestatus.com/feature/6600926009753600",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#abspos-items"
+        ]
+      },
+      {
+        "id": 6736527476391936,
+        "name": "Flexbox: min-height: auto applies to nested flex boxes",
+        "statusUrl": "https://chromestatus.com/feature/6736527476391936",
+        "specUrls": [
+          "https://drafts.csswg.org/css-flexbox/#min-size-auto"
+        ]
       }
     ]
   }

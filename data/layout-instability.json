@@ -1,9 +1,111 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.LayoutShift",
+        "name": "api.LayoutShift",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShift",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#sec-layout-shift"
+        ]
+      },
+      {
+        "id": "api.LayoutShift.hadRecentInput",
+        "name": "api.LayoutShift.hadRecentInput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShift/hadRecentInput",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshift-hadrecentinput"
+        ]
+      },
+      {
+        "id": "api.LayoutShift.lastInputTime",
+        "name": "api.LayoutShift.lastInputTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShift/lastInputTime",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshift-lastinputtime"
+        ]
+      },
+      {
+        "id": "api.LayoutShift.sources",
+        "name": "api.LayoutShift.sources",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShift/sources",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshift-sources"
+        ]
+      },
+      {
+        "id": "api.LayoutShift.toJSON",
+        "name": "api.LayoutShift.toJSON",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshift-tojson"
+        ]
+      },
+      {
+        "id": "api.LayoutShift.value",
+        "name": "api.LayoutShift.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShift/value",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshift-value"
+        ]
+      },
+      {
+        "id": "api.LayoutShiftAttribution",
+        "name": "api.LayoutShiftAttribution",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShiftAttribution",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#sec-layout-shift-attribution"
+        ]
+      },
+      {
+        "id": "api.LayoutShiftAttribution.currentRect",
+        "name": "api.LayoutShiftAttribution.currentRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShiftAttribution/currentRect",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshiftattribution-currentrect"
+        ]
+      },
+      {
+        "id": "api.LayoutShiftAttribution.node",
+        "name": "api.LayoutShiftAttribution.node",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShiftAttribution/node",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshiftattribution-node"
+        ]
+      },
+      {
+        "id": "api.LayoutShiftAttribution.previousRect",
+        "name": "api.LayoutShiftAttribution.previousRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShiftAttribution/previousRect",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#dom-layoutshiftattribution-previousrect"
+        ]
+      },
+      {
+        "id": "api.LayoutShiftAttribution.toJSON",
+        "name": "api.LayoutShiftAttribution.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LayoutShiftAttribution/toJSON",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/#sec-layout-shift-attribution"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5110682739539968,
+        "name": "Layout Instability Monitoring",
+        "statusUrl": "https://chromestatus.com/feature/5110682739539968",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5712483207610368,
+        "name": "Layout Instability Shifted Element Surfacing",
+        "statusUrl": "https://chromestatus.com/feature/5712483207610368",
+        "specUrls": [
+          "https://wicg.github.io/layout-instability/"
+        ]
       }
     ]
   }

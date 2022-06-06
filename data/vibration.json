@@ -1,20 +1,45 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.vibrate",
+        "name": "api.Navigator.vibrate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/vibrate",
+        "specUrls": [
+          "https://w3c.github.io/vibration/#dom-navigator-vibrate"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "vibration",
+        "name": "Vibration API",
+        "statusUrl": "https://caniuse.com/vibration",
+        "specUrls": [
+          "https://www.w3.org/TR/vibration/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5698768766763008,
+        "name": "Vibration API",
+        "statusUrl": "https://chromestatus.com/feature/5698768766763008",
+        "specUrls": [
+          "http://dev.w3.org/2009/dap/vibration/"
+        ],
         "representative": true
       }
     ],
     "webkit": [
       {
         "id": "specification-vibration-api",
+        "name": "Vibration API",
+        "statusUrl": "https://webkit.org/status/#specification-vibration-api",
+        "specUrls": [
+          "https://w3c.github.io/vibration/"
+        ],
         "representative": true
       }
     ]

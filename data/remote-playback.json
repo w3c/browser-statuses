@@ -1,8 +1,102 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLMediaElement.disableRemotePlayback",
+        "name": "api.HTMLMediaElement.disableRemotePlayback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/disableRemotePlayback",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#the-disableremoteplayback-attribute"
+        ]
+      },
+      {
+        "id": "api.HTMLMediaElement.remote",
+        "name": "api.HTMLMediaElement.remote",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-htmlmediaelement-remote"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback",
+        "name": "api.RemotePlayback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#remoteplayback-interface"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.cancelWatchAvailability",
+        "name": "api.RemotePlayback.cancelWatchAvailability",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/cancelWatchAvailability",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-cancelwatchavailability"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.connect_event",
+        "name": "api.RemotePlayback.connect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/connect_event",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-onconnect"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.connecting_event",
+        "name": "api.RemotePlayback.connecting_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/connecting_event",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-onconnecting"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.disconnect_event",
+        "name": "api.RemotePlayback.disconnect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/disconnect_event",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-ondisconnect"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.prompt",
+        "name": "api.RemotePlayback.prompt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/prompt",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-prompt"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.state",
+        "name": "api.RemotePlayback.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/state",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-state"
+        ]
+      },
+      {
+        "id": "api.RemotePlayback.watchAvailability",
+        "name": "api.RemotePlayback.watchAvailability",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RemotePlayback/watchAvailability",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/#dom-remoteplayback-watchavailability"
+        ]
+      }
+    ],
     "chrome": [
       {
+        "id": 4938279812071424,
+        "name": "HTMLMediaElement.disableRemotePlayback",
+        "statusUrl": "https://chromestatus.com/feature/4938279812071424",
+        "specUrls": [
+          "https://w3c.github.io/remote-playback/"
+        ]
+      },
+      {
         "id": 5778318691401728,
+        "name": "Remote Playback API",
+        "statusUrl": "https://chromestatus.com/feature/5778318691401728",
+        "specUrls": [
+          "https://www.w3.org/TR/remote-playback/"
+        ],
         "representative": true
       }
     ]

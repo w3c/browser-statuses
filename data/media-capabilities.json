@@ -26,12 +26,103 @@
     }
   },
   "statusref": {
-    "chrome": [
+    "bcd": [
       {
-        "id": 5123719190020096
+        "id": "api.MediaCapabilities",
+        "name": "api.MediaCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#media-capabilities-interface"
+        ]
       },
       {
-        "id": 5869632707624960
+        "id": "api.MediaCapabilities.decodingInfo",
+        "name": "api.MediaCapabilities.decodingInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/decodingInfo",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-decodinginfo"
+        ]
+      },
+      {
+        "id": "api.MediaCapabilities.encodingInfo",
+        "name": "api.MediaCapabilities.encodingInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaCapabilities/encodingInfo",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#ref-for-dom-mediacapabilities-encodinginfo"
+        ]
+      },
+      {
+        "id": "api.Navigator.mediaCapabilities",
+        "name": "api.Navigator.mediaCapabilities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#dom-navigator-mediacapabilities"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.mediaCapabilities",
+        "name": "api.WorkerNavigator.mediaCapabilities",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#dom-navigator-mediacapabilities"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5123719190020096,
+        "name": "Media Capabilities: encoding",
+        "statusUrl": "https://chromestatus.com/feature/5123719190020096",
+        "specUrls": [
+          "https://wicg.github.io/media-capabilities/"
+        ]
+      },
+      {
+        "id": 5463541354070016,
+        "name": "MediaCapabilities: query spatial audio with decodingInfo()",
+        "statusUrl": "https://chromestatus.com/feature/5463541354070016",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#audioconfiguration"
+        ]
+      },
+      {
+        "id": 5730672977117184,
+        "name": "Media Capabilities in Workers",
+        "statusUrl": "https://chromestatus.com/feature/5730672977117184",
+        "specUrls": [
+          "https://wicg.github.io/media-capabilities/"
+        ]
+      },
+      {
+        "id": 5765900795904000,
+        "name": "Media Capabilities: decoding encrypted media",
+        "statusUrl": "https://chromestatus.com/feature/5765900795904000",
+        "specUrls": [
+          "https://wicg.github.io/media-capabilities/#is-encrypted-decode-supported"
+        ]
+      },
+      {
+        "id": 5869632707624960,
+        "name": "Media Capabilities: decoding",
+        "statusUrl": "https://chromestatus.com/feature/5869632707624960",
+        "specUrls": [
+          "https://wicg.github.io/media-capabilities/"
+        ]
+      },
+      {
+        "id": 6242376685191168,
+        "name": "MediaCapabilities API for WebRTC",
+        "statusUrl": "https://chromestatus.com/feature/6242376685191168",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/"
+        ]
+      },
+      {
+        "id": 6640863931269120,
+        "name": "MediaCapabilities: query HDR with decodingInfo()",
+        "statusUrl": "https://chromestatus.com/feature/6640863931269120",
+        "specUrls": [
+          "https://w3c.github.io/media-capabilities/#videoconfiguration"
+        ]
       }
     ]
   }

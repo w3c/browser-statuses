@@ -1,9 +1,266 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSSTransition",
+        "name": "api.CSSTransition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransition",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions-2/#the-CSSTransition-interface"
+        ]
+      },
+      {
+        "id": "api.CSSTransition.transitionProperty",
+        "name": "api.CSSTransition.transitionProperty",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransition/transitionProperty",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions-2/#dom-csstransition-transitionproperty"
+        ]
+      },
+      {
+        "id": "api.Document.transitioncancel_event",
+        "name": "api.Document.transitioncancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/transitioncancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitioncancel"
+        ]
+      },
+      {
+        "id": "api.Document.transitionend_event",
+        "name": "api.Document.transitionend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/transitionend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionend"
+        ]
+      },
+      {
+        "id": "api.Document.transitionrun_event",
+        "name": "api.Document.transitionrun_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/transitionrun_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionrun"
+        ]
+      },
+      {
+        "id": "api.Document.transitionstart_event",
+        "name": "api.Document.transitionstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/transitionstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionstart"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontransitioncancel",
+        "name": "api.GlobalEventHandlers.ontransitioncancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontransitioncancel",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#ref-for-dom-globaleventhandlers-ontransitioncancel"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontransitionend",
+        "name": "api.GlobalEventHandlers.ontransitionend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontransitionend",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#ref-for-dom-globaleventhandlers-ontransitionend"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontransitionrun",
+        "name": "api.GlobalEventHandlers.ontransitionrun",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontransitionrun",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#ref-for-dom-globaleventhandlers-ontransitionrun"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.ontransitionstart",
+        "name": "api.GlobalEventHandlers.ontransitionstart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontransitionstart",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#ref-for-dom-globaleventhandlers-ontransitionstart"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.transitioncancel_event",
+        "name": "api.HTMLElement.transitioncancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/transitioncancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitioncancel"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.transitionend_event",
+        "name": "api.HTMLElement.transitionend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/transitionend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionend"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.transitionrun_event",
+        "name": "api.HTMLElement.transitionrun_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/transitionrun_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionrun"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.transitionstart_event",
+        "name": "api.HTMLElement.transitionstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/transitionstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionstart"
+        ]
+      },
+      {
+        "id": "api.TransitionEvent",
+        "name": "api.TransitionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransitionEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#interface-transitionevent"
+        ]
+      },
+      {
+        "id": "api.TransitionEvent.TransitionEvent",
+        "name": "api.TransitionEvent.TransitionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransitionEvent/TransitionEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#dom-transitionevent-transitionevent"
+        ]
+      },
+      {
+        "id": "api.TransitionEvent.elapsedTime",
+        "name": "api.TransitionEvent.elapsedTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransitionEvent/elapsedTime",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-elapsedTime"
+        ]
+      },
+      {
+        "id": "api.TransitionEvent.propertyName",
+        "name": "api.TransitionEvent.propertyName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransitionEvent/propertyName",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-propertyName"
+        ]
+      },
+      {
+        "id": "api.TransitionEvent.pseudoElement",
+        "name": "api.TransitionEvent.pseudoElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransitionEvent/pseudoElement",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#Events-TransitionEvent-pseudoElement"
+        ]
+      },
+      {
+        "id": "api.Window.transitioncancel_event",
+        "name": "api.Window.transitioncancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/transitioncancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitioncancel"
+        ]
+      },
+      {
+        "id": "api.Window.transitionend_event",
+        "name": "api.Window.transitionend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/transitionend_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionend"
+        ]
+      },
+      {
+        "id": "api.Window.transitionrun_event",
+        "name": "api.Window.transitionrun_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/transitionrun_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionrun"
+        ]
+      },
+      {
+        "id": "api.Window.transitionstart_event",
+        "name": "api.Window.transitionstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/transitionstart_event",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transitionstart"
+        ]
+      },
+      {
+        "id": "css.properties.transition",
+        "name": "css.properties.transition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transition",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transition-shorthand-property"
+        ]
+      },
+      {
+        "id": "css.properties.transition-delay",
+        "name": "css.properties.transition-delay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transition-delay",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transition-delay-property"
+        ]
+      },
+      {
+        "id": "css.properties.transition-duration",
+        "name": "css.properties.transition-duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transition-duration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transition-duration-property"
+        ]
+      },
+      {
+        "id": "css.properties.transition-property",
+        "name": "css.properties.transition-property",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transition-property",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transition-property-property"
+        ]
+      },
+      {
+        "id": "css.properties.transition-timing-function",
+        "name": "css.properties.transition-timing-function",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/transition-timing-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/#transition-timing-function-property"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "css-transitions",
+        "name": "CSS3 Transitions",
+        "statusUrl": "https://caniuse.com/css-transitions",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-transitions/"
+        ],
         "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5354694014664704,
+        "name": "ontransition{run, start, cancel} event handler attributes",
+        "statusUrl": "https://chromestatus.com/feature/5354694014664704",
+        "specUrls": [
+          "https://www.w3.org/TR/css-transitions-1/#event-handlers-on-elements-document-objects-and-window-objects"
+        ]
+      },
+      {
+        "id": 5673072124231680,
+        "name": "CSS Transition Events",
+        "statusUrl": "https://chromestatus.com/feature/5673072124231680",
+        "specUrls": [
+          "https://www.w3.org/TR/css-transitions-1/#transition-events"
+        ]
+      },
+      {
+        "id": 6579769156042752,
+        "name": "Remove prefixed WebKitTransitionEvent interface",
+        "statusUrl": "https://chromestatus.com/feature/6579769156042752",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transitions/"
+        ]
       }
     ]
   }

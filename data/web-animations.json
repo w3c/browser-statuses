@@ -1,20 +1,524 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Animation",
+        "name": "api.Animation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-animation-interface"
+        ]
+      },
+      {
+        "id": "api.Animation.Animation",
+        "name": "api.Animation.Animation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/Animation",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-animation"
+        ]
+      },
+      {
+        "id": "api.Animation.cancel",
+        "name": "api.Animation.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/cancel",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-cancel"
+        ]
+      },
+      {
+        "id": "api.Animation.cancel_event",
+        "name": "api.Animation.cancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/cancel_event",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-oncancel",
+          "https://drafts.csswg.org/web-animations-1/#cancel-event"
+        ]
+      },
+      {
+        "id": "api.Animation.commitStyles",
+        "name": "api.Animation.commitStyles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/commitStyles",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-commitstyles"
+        ]
+      },
+      {
+        "id": "api.Animation.currentTime",
+        "name": "api.Animation.currentTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/currentTime",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-currenttime"
+        ]
+      },
+      {
+        "id": "api.Animation.effect",
+        "name": "api.Animation.effect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/effect",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-effect"
+        ]
+      },
+      {
+        "id": "api.Animation.finish",
+        "name": "api.Animation.finish",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/finish",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-finish"
+        ]
+      },
+      {
+        "id": "api.Animation.finish_event",
+        "name": "api.Animation.finish_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/finish_event",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-onfinish",
+          "https://drafts.csswg.org/web-animations-1/#finish-event"
+        ]
+      },
+      {
+        "id": "api.Animation.finished",
+        "name": "api.Animation.finished",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/finished",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-finished"
+        ]
+      },
+      {
+        "id": "api.Animation.id",
+        "name": "api.Animation.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/id",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-id"
+        ]
+      },
+      {
+        "id": "api.Animation.pause",
+        "name": "api.Animation.pause",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/pause",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-pause"
+        ]
+      },
+      {
+        "id": "api.Animation.pending",
+        "name": "api.Animation.pending",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/pending",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-pending"
+        ]
+      },
+      {
+        "id": "api.Animation.persist",
+        "name": "api.Animation.persist",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/persist",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-persist"
+        ]
+      },
+      {
+        "id": "api.Animation.play",
+        "name": "api.Animation.play",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/play",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-play"
+        ]
+      },
+      {
+        "id": "api.Animation.playState",
+        "name": "api.Animation.playState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/playState",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-playstate"
+        ]
+      },
+      {
+        "id": "api.Animation.playbackRate",
+        "name": "api.Animation.playbackRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/playbackRate",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-playbackrate"
+        ]
+      },
+      {
+        "id": "api.Animation.ready",
+        "name": "api.Animation.ready",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/ready",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-ready"
+        ]
+      },
+      {
+        "id": "api.Animation.remove_event",
+        "name": "api.Animation.remove_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/remove_event",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-onremove",
+          "https://drafts.csswg.org/web-animations-1/#remove-event"
+        ]
+      },
+      {
+        "id": "api.Animation.replaceState",
+        "name": "api.Animation.replaceState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/replaceState",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-replacestate"
+        ]
+      },
+      {
+        "id": "api.Animation.reverse",
+        "name": "api.Animation.reverse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/reverse",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-reverse"
+        ]
+      },
+      {
+        "id": "api.Animation.startTime",
+        "name": "api.Animation.startTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/startTime",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-starttime"
+        ]
+      },
+      {
+        "id": "api.Animation.timeline",
+        "name": "api.Animation.timeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/timeline",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-timeline"
+        ]
+      },
+      {
+        "id": "api.Animation.updatePlaybackRate",
+        "name": "api.Animation.updatePlaybackRate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Animation/updatePlaybackRate",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animation-updateplaybackrate"
+        ]
+      },
+      {
+        "id": "api.AnimationEffect",
+        "name": "api.AnimationEffect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationEffect",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-animationeffect-interface"
+        ]
+      },
+      {
+        "id": "api.AnimationEffect.getComputedTiming",
+        "name": "api.AnimationEffect.getComputedTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationEffect/getComputedTiming",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationeffect-getcomputedtiming"
+        ]
+      },
+      {
+        "id": "api.AnimationEffect.getTiming",
+        "name": "api.AnimationEffect.getTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationEffect/getTiming",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationeffect-gettiming"
+        ]
+      },
+      {
+        "id": "api.AnimationEffect.updateTiming",
+        "name": "api.AnimationEffect.updateTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationEffect/updateTiming",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationeffect-updatetiming"
+        ]
+      },
+      {
+        "id": "api.AnimationPlaybackEvent",
+        "name": "api.AnimationPlaybackEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-animationplaybackevent-interface"
+        ]
+      },
+      {
+        "id": "api.AnimationPlaybackEvent.AnimationPlaybackEvent",
+        "name": "api.AnimationPlaybackEvent.AnimationPlaybackEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent/AnimationPlaybackEvent",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationplaybackevent-animationplaybackevent"
+        ]
+      },
+      {
+        "id": "api.AnimationPlaybackEvent.currentTime",
+        "name": "api.AnimationPlaybackEvent.currentTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent/currentTime",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationplaybackevent-currenttime"
+        ]
+      },
+      {
+        "id": "api.AnimationPlaybackEvent.timelineTime",
+        "name": "api.AnimationPlaybackEvent.timelineTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent/timelineTime",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationplaybackevent-timelinetime"
+        ]
+      },
+      {
+        "id": "api.AnimationTimeline",
+        "name": "api.AnimationTimeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationTimeline",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-animationtimeline-interface"
+        ]
+      },
+      {
+        "id": "api.AnimationTimeline.currentTime",
+        "name": "api.AnimationTimeline.currentTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AnimationTimeline/currentTime",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animationtimeline-currenttime"
+        ]
+      },
+      {
+        "id": "api.Document.getAnimations",
+        "name": "api.Document.getAnimations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getAnimations",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-documentorshadowroot-getanimations"
+        ]
+      },
+      {
+        "id": "api.Document.timeline",
+        "name": "api.Document.timeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/timeline",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-document-timeline"
+        ]
+      },
+      {
+        "id": "api.DocumentTimeline",
+        "name": "api.DocumentTimeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentTimeline",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-documenttimeline-interface"
+        ]
+      },
+      {
+        "id": "api.DocumentTimeline.DocumentTimeline",
+        "name": "api.DocumentTimeline.DocumentTimeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentTimeline/DocumentTimeline",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-documenttimeline-documenttimeline"
+        ]
+      },
+      {
+        "id": "api.Element.animate",
+        "name": "api.Element.animate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/animate",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animatable-animate"
+        ]
+      },
+      {
+        "id": "api.Element.animate.options_composite_parameter",
+        "name": "api.Element.animate.options_composite_parameter",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-composite"
+        ]
+      },
+      {
+        "id": "api.Element.animate.options_id_parameter",
+        "name": "api.Element.animate.options_id_parameter",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeanimationoptions-id"
+        ]
+      },
+      {
+        "id": "api.Element.animate.options_iterationComposite_parameter",
+        "name": "api.Element.animate.options_iterationComposite_parameter",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-2/#dom-keyframeeffectoptions-iterationcomposite"
+        ]
+      },
+      {
+        "id": "api.Element.animate.options_pseudoElement_parameter",
+        "name": "api.Element.animate.options_pseudoElement_parameter",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffectoptions-pseudoelement"
+        ]
+      },
+      {
+        "id": "api.Element.getAnimations",
+        "name": "api.Element.getAnimations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getAnimations",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-animatable-getanimations"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect",
+        "name": "api.KeyframeEffect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#the-keyframeeffect-interface"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.KeyframeEffect",
+        "name": "api.KeyframeEffect.KeyframeEffect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/KeyframeEffect",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-keyframeeffect"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.composite",
+        "name": "api.KeyframeEffect.composite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/composite",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-composite"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.getKeyframes",
+        "name": "api.KeyframeEffect.getKeyframes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/getKeyframes",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-getkeyframes"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.iterationComposite",
+        "name": "api.KeyframeEffect.iterationComposite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/iterationComposite",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-2/#dom-keyframeeffect-iterationcomposite"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.setKeyframes",
+        "name": "api.KeyframeEffect.setKeyframes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/setKeyframes",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-setkeyframes"
+        ]
+      },
+      {
+        "id": "api.KeyframeEffect.target",
+        "name": "api.KeyframeEffect.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/target",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-target"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.getAnimations",
+        "name": "api.ShadowRoot.getAnimations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/getAnimations",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-documentorshadowroot-getanimations"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "web-animation",
+        "name": "Web Animations API",
+        "statusUrl": "https://caniuse.com/web-animation",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 4843845109940224,
+        "name": "Implement Animation.pending",
+        "statusUrl": "https://chromestatus.com/feature/4843845109940224",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations/#the-animation-interface"
+        ]
+      },
+      {
+        "id": 4854343836631040,
+        "name": "Web Animations JavaScript API [element.animate()] ",
+        "statusUrl": "https://chromestatus.com/feature/4854343836631040",
+        "specUrls": [
+          "http://www.w3.org/TR/web-animations/"
+        ]
+      },
+      {
+        "id": 4868532347076608,
+        "name": "AnimationEffect and KeyframeEffect (excluding getKeyframes/setKeyframes & composite/iterationComposite)",
+        "statusUrl": "https://chromestatus.com/feature/4868532347076608",
+        "specUrls": [
+          "https://www.w3.org/TR/web-animations-1"
+        ]
+      },
+      {
+        "id": 5126405660606464,
+        "name": "Web Animations API",
+        "statusUrl": "https://chromestatus.com/feature/5126405660606464",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/"
+        ]
+      },
+      {
+        "id": 5127767286874112,
+        "name": "Replaceable animations",
+        "statusUrl": "https://chromestatus.com/feature/5127767286874112",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations/#replacing-animations"
+        ]
+      },
+      {
+        "id": 5301000724283392,
+        "name": "Animation constructor",
+        "statusUrl": "https://chromestatus.com/feature/5301000724283392",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/"
+        ]
+      },
+      {
         "id": 5650817352728576,
+        "name": "Web Animations JavaScript API [level 1 interop part 1]",
+        "statusUrl": "https://chromestatus.com/feature/5650817352728576",
+        "specUrls": [
+          "https://w3c.github.io/web-animations/"
+        ],
         "representative": true
+      },
+      {
+        "id": 5663463749713920,
+        "name": "Web Animations JavaScript API [level 1 interop part 2]",
+        "statusUrl": "https://chromestatus.com/feature/5663463749713920",
+        "specUrls": [
+          "https://w3c.github.io/web-animations/"
+        ]
+      },
+      {
+        "id": 5756742138855424,
+        "name": "Do not throw on unimplemented but valid keyframe-specific composite values.",
+        "statusUrl": "https://chromestatus.com/feature/5756742138855424",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/"
+        ]
+      },
+      {
+        "id": 6276633918963712,
+        "name": "Animation.updatePlaybackRate",
+        "statusUrl": "https://chromestatus.com/feature/6276633918963712",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations/#the-animation-interface"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-web-animations",
+        "name": "Web Animations",
+        "statusUrl": "https://webkit.org/status/#specification-web-animations",
+        "specUrls": [
+          "https://www.w3.org/TR/web-animations-1/"
+        ],
         "representative": true
       }
     ]

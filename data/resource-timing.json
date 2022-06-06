@@ -1,20 +1,288 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Performance",
+        "name": "api.Performance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance",
+        "specUrls": [
+          "https://w3c.github.io/hr-time/#sec-performance",
+          "https://w3c.github.io/performance-timeline/#extensions-to-the-performance-interface",
+          "https://w3c.github.io/resource-timing/#sec-extensions-performance-interface",
+          "https://w3c.github.io/user-timing/#extensions-performance-interface"
+        ]
+      },
+      {
+        "id": "api.Performance.clearResourceTimings",
+        "name": "api.Performance.clearResourceTimings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/clearResourceTimings",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performance-clearresourcetimings"
+        ]
+      },
+      {
+        "id": "api.Performance.resourcetimingbufferfull_event",
+        "name": "api.Performance.resourcetimingbufferfull_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performance-onresourcetimingbufferfull"
+        ]
+      },
+      {
+        "id": "api.Performance.setResourceTimingBufferSize",
+        "name": "api.Performance.setResourceTimingBufferSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Performance/setResourceTimingBufferSize",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performance-setresourcetimingbuffersize"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming",
+        "name": "api.PerformanceResourceTiming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#resources-included-in-the-performanceresourcetiming-interface"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.connectEnd",
+        "name": "api.PerformanceResourceTiming.connectEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/connectEnd",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-connectend"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.connectStart",
+        "name": "api.PerformanceResourceTiming.connectStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/connectStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-connectstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.decodedBodySize",
+        "name": "api.PerformanceResourceTiming.decodedBodySize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/decodedBodySize",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-decodedbodysize"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.domainLookupEnd",
+        "name": "api.PerformanceResourceTiming.domainLookupEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/domainLookupEnd",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-domainlookupend"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.domainLookupStart",
+        "name": "api.PerformanceResourceTiming.domainLookupStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/domainLookupStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-domainlookupstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.encodedBodySize",
+        "name": "api.PerformanceResourceTiming.encodedBodySize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/encodedBodySize",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-encodedbodysize"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.fetchStart",
+        "name": "api.PerformanceResourceTiming.fetchStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/fetchStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-fetchstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.initiatorType",
+        "name": "api.PerformanceResourceTiming.initiatorType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/initiatorType",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-initiatortype"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.nextHopProtocol",
+        "name": "api.PerformanceResourceTiming.nextHopProtocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/nextHopProtocol",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-nexthopprotocol"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.redirectEnd",
+        "name": "api.PerformanceResourceTiming.redirectEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/redirectEnd",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-redirectend"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.redirectStart",
+        "name": "api.PerformanceResourceTiming.redirectStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/redirectStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-redirectstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.requestStart",
+        "name": "api.PerformanceResourceTiming.requestStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/requestStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-requeststart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.responseEnd",
+        "name": "api.PerformanceResourceTiming.responseEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseEnd",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-responseend"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.responseStart",
+        "name": "api.PerformanceResourceTiming.responseStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/responseStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-responsestart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.secureConnectionStart",
+        "name": "api.PerformanceResourceTiming.secureConnectionStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/secureConnectionStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-secureconnectionstart"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.toJSON",
+        "name": "api.PerformanceResourceTiming.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/toJSON",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-tojson"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.transferSize",
+        "name": "api.PerformanceResourceTiming.transferSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-transfersize"
+        ]
+      },
+      {
+        "id": "api.PerformanceResourceTiming.workerStart",
+        "name": "api.PerformanceResourceTiming.workerStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/workerStart",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dom-performanceresourcetiming-workerstart"
+        ]
+      },
+      {
+        "id": "http.headers.Timing-Allow-Origin",
+        "name": "http.headers.Timing-Allow-Origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Timing-Allow-Origin",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#sec-timing-allow-origin"
+        ]
+      }
+    ],
     "caniuse": [
       {
         "id": "resource-timing",
+        "name": "Resource Timing",
+        "statusUrl": "https://caniuse.com/resource-timing",
+        "specUrls": [
+          "https://www.w3.org/TR/resource-timing/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5650461096935424,
+        "name": "Resource Timing & Navigation Timing: add nextHopProtocol property",
+        "statusUrl": "https://chromestatus.com/feature/5650461096935424",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#dfn-nexthopprotocol"
+        ]
+      },
+      {
+        "id": 5688905986736128,
+        "name": "Prefixed Resource Timing buffer-management API",
+        "statusUrl": "https://chromestatus.com/feature/5688905986736128",
+        "specUrls": [
+          "https://www.w3.org/TR/resource-timing-1/#extensions-performance-interface"
+        ]
+      },
+      {
+        "id": 5706026861985792,
+        "name": "[ResourceTiming]: Improve alignment with spec for exposing `nextHopProtocol` across origin boundaries",
+        "statusUrl": "https://chromestatus.com/feature/5706026861985792",
+        "specUrls": [
+          "https://www.w3.org/TR/resource-timing-2/"
+        ]
+      },
+      {
+        "id": 5710624386449408,
+        "name": "Unprefixed Resource Timing API",
+        "statusUrl": "https://chromestatus.com/feature/5710624386449408",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#extensions-performance-interface"
+        ]
+      },
+      {
+        "id": 5767679470206976,
+        "name": "PerformanceResourceTiming.workerStart",
+        "statusUrl": "https://chromestatus.com/feature/5767679470206976",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/#widl-PerformanceResourceTiming-workerStart"
+        ]
+      },
+      {
         "id": 5796350423728128,
+        "name": "Resource Timing API",
+        "statusUrl": "https://chromestatus.com/feature/5796350423728128",
+        "specUrls": [
+          "http://www.w3c-test.org/webperf/specs/ResourceTiming/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6217019345076224,
+        "name": "Protect Resource Timing's workerStart behind a Timing-Allow-Origin check",
+        "statusUrl": "https://chromestatus.com/feature/6217019345076224",
+        "specUrls": [
+          "https://github.com/w3c/resource-timing/pull/217"
+        ]
+      },
+      {
+        "id": 6549060404117504,
+        "name": "Size related attributes to Resource Timing API",
+        "statusUrl": "https://chromestatus.com/feature/6549060404117504",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/"
+        ]
       }
     ],
     "webkit": [
       {
         "id": "specification-resource-timing-level-2",
+        "name": "Resource Timing Level 2",
+        "statusUrl": "https://webkit.org/status/#specification-resource-timing-level-2",
+        "specUrls": [
+          "https://w3c.github.io/resource-timing/"
+        ],
         "representative": true
       }
     ]

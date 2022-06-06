@@ -3,19 +3,84 @@
     "bcd": [
       {
         "id": "css.properties.overscroll-behavior",
+        "name": "css.properties.overscroll-behavior",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-properties"
+        ],
         "representative": true
+      },
+      {
+        "id": "css.properties.overscroll-behavior-block",
+        "name": "css.properties.overscroll-behavior-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.overscroll-behavior-inline",
+        "name": "css.properties.overscroll-behavior-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-logical"
+        ]
+      },
+      {
+        "id": "css.properties.overscroll-behavior-x",
+        "name": "css.properties.overscroll-behavior-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-x",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-physical"
+        ]
+      },
+      {
+        "id": "css.properties.overscroll-behavior-y",
+        "name": "css.properties.overscroll-behavior-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior-y",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll/#overscroll-behavior-longhands-physical"
+        ]
       }
     ],
     "caniuse": [
       {
         "id": "css-overscroll-behavior",
+        "name": "CSS overscroll-behavior",
+        "statusUrl": "https://caniuse.com/css-overscroll-behavior",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll-behavior-1/"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
+        "id": 5729982653399040,
+        "name": "Overscroll Behavior logical longhands",
+        "statusUrl": "https://chromestatus.com/feature/5729982653399040",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overscroll-behavior-1/#overscroll-behavior-longhands-logical"
+        ]
+      },
+      {
         "id": 5734614437986304,
+        "name": "CSS overscroll-behavior",
+        "statusUrl": "https://chromestatus.com/feature/5734614437986304",
+        "specUrls": [
+          "https://wicg.github.io/overscroll-behavior/"
+        ],
         "representative": true
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-overscroll-behavior-module-level-1",
+        "name": "CSS Overscroll Behavior Module Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-overscroll-behavior-module-level-1",
+        "specUrls": [
+          "https://www.w3.org/TR/css-overscroll-1/"
+        ]
       }
     ]
   },
