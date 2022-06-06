@@ -78,7 +78,11 @@
               "specUrls": { "$ref": "#/definitions/specUrls" },
               "representative": { "$ref": "#/definitions/representative" },
               "manual": { "$ref": "#/definitions/manual" },
-              "lastreviewed": { "$ref": "#/definitions/lastreviewed" }
+              "lastreviewed": { "$ref": "#/definitions/lastreviewed" },
+              "comment": {
+                "type": "string",
+                "minLength": 1
+              }
             },
             "minItems": 1
           }
