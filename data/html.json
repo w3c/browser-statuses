@@ -10,12 +10,6 @@
             "representative": true
           }
         ],
-        "caniuse": [
-          {
-            "id": "template-literals",
-            "representative": true
-          }
-        ],
         "chrome": [
           {
             "id": 5207287069147136,
@@ -46,12 +40,6 @@
       "url": "https://html.spec.whatwg.org/multipage/#integration-with-the-javascript-module-system",
       "title": "Integration with the JavaScript module system",
       "statusref": {
-        "bcd": [
-          {
-            "id": "html.elements.script.type.module",
-            "representative": true
-          }
-        ],
         "caniuse": [
           {
             "id": "es6-module",
@@ -463,9 +451,6 @@
         "id": "html.elements.template"
       },
       {
-        "id": "html.elements.script.type.module"
-      },
-      {
         "id": "api.CanvasRenderingContext2D"
       },
       {
@@ -494,9 +479,6 @@
       }
     ],
     "caniuse": [
-      {
-        "id": "template-literals"
-      },
       {
         "id": "custom-elementsv1"
       },
@@ -546,13 +528,17 @@
         "id": "online-status"
       },
       {
-        "id": "pagevisibility"
+        "id": "pagevisibility",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": "picture"
       },
       {
-        "id": "link-rel-preload"
+        "id": "link-rel-preload",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": "srcset"
@@ -572,7 +558,9 @@
         "id": 5100084685438976
       },
       {
-        "id": 5233400470306816
+        "id": 5233400470306816,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": 6090950820495360
@@ -590,13 +578,17 @@
         "id": 5681560598609920
       },
       {
-        "id": 5689697795833856
+        "id": 5689697795833856,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": 5910974510923776
       },
       {
-        "id": 5757468554559488
+        "id": 5757468554559488,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": 4644337115725824
@@ -610,7 +602,9 @@
         "id": "feature-picture-element"
       },
       {
-        "id": "specification-preload"
+        "id": "specification-preload",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": "feature-srcset-w-descriptor-and-related-sizes-attribute"
@@ -620,6 +614,7 @@
   "altUrls": [
     "https://html.spec.whatwg.org/",
     "https://www.whatwg.org/specs/web-apps/",
-    "https://whatwg.org/html"
+    "https://whatwg.org/html",
+    "https://www.w3.org/html/wg/drafts/html/master/"
   ]
 }

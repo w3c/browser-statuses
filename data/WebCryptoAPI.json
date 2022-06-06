@@ -2,7 +2,7 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.Window.crypto",
+        "id": "api.crypto",
         "representative": true
       }
     ],

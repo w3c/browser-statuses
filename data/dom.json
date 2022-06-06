@@ -28,17 +28,23 @@
   "statusref": {
     "caniuse": [
       {
-        "id": "shadowdomv1"
+        "id": "shadowdomv1",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ],
     "chrome": [
       {
-        "id": 4667415417847808
+        "id": 4667415417847808,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ],
     "webkit": [
       {
-        "id": "feature-shadow-dom"
+        "id": "feature-shadow-dom",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

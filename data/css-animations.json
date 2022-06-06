@@ -12,5 +12,8 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://dev.w3.org/csswg/css-animations-1/"
+  ]
 }

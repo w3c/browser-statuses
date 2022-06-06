@@ -28,10 +28,16 @@
   "statusref": {
     "chrome": [
       {
-        "id": 5741299856572416
+        "id": 5741299856572416,
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5119701235531776
+        "id": 5119701235531776,
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

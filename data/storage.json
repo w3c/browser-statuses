@@ -9,7 +9,7 @@
         "id": "api.StorageManager.estimate"
       },
       {
-        "id": "api.StorageManager.permission"
+        "id": "api.StorageManager.persist"
       }
     ],
     "chrome": [
@@ -46,7 +46,7 @@
       "statusref": {
         "bcd": [
           {
-            "id": "api.StorageManager.permission",
+            "id": "api.StorageManager.persist",
             "representative": true
           }
         ],

@@ -1,16 +1,13 @@
 {
   "statusref": {
-    "bcd": [
-      {
-        "id": "css.properties.background.multiple_backgrounds",
-        "representative": true
-      }
-    ],
     "caniuse": [
       {
         "id": "multibackgrounds",
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://www.w3.org/TR/css3-background/"
+  ]
 }

@@ -8,10 +8,14 @@
     ],
     "bcd": [
       {
-        "id": "api.Document.hasStorageAccess"
+        "id": "api.Document.hasStorageAccess",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
-        "id": "api.Document.requestStorageAccess"
+        "id": "api.Document.requestStorageAccess",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   },

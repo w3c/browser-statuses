@@ -2,7 +2,7 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.PictureInPicture",
+        "id": "api.PictureInPictureWindow",
         "representative": true
       }
     ],

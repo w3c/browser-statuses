@@ -15,7 +15,9 @@
     "webkit": [
       {
         "id": "specification-web-share",
-        "representative": true
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

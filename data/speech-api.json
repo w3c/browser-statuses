@@ -12,5 +12,9 @@
         "representative": true
       }
     ]
-  }
+  },
+  "altUrls": [
+    "https://w3c.github.io/speech-api/",
+    "https://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html"
+  ]
 }

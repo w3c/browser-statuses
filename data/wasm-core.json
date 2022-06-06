@@ -1,15 +1,11 @@
 {
   "statusref": {
-    "bcd": [
-      {
-        "id": "javascript.builtins.WebAssembly",
-        "representative": true
-      }
-    ],
     "caniuse": [
       {
         "id": "wasm",
-        "representative": true
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ],
     "chrome": [

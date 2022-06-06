@@ -9,7 +9,9 @@
     "chrome": [
       {
         "id": 5698781827825664,
-        "representative": true
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

@@ -3,7 +3,9 @@
     "chrome": [
       {
         "id": 5762982487261184,
-        "representative": true
+        "representative": true,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

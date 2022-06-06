@@ -2,7 +2,7 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.ambientlightsensor",
+        "id": "api.AmbientLightSensor",
         "representative": true
       }
     ],

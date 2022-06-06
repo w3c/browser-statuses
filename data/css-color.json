@@ -8,10 +8,13 @@
     ],
     "bcd": [
       {
-        "id": "css.properties.color.alpha"
+        "id": "css.types.color.hsla"
       },
       {
-        "id": "css.properties.color.alpha_hexadecimal_notation"
+        "id": "css.types.color.rgba"
+      },
+      {
+        "id": "css.types.color.rgb_hexadecimal_notation"
       }
     ],
     "chrome": [
@@ -37,7 +40,7 @@
       "statusref": {
         "bcd": [
           {
-            "id": "css.properties.color.alpha",
+            "id": "css.types.color.hsla",
             "representative": true
           }
         ],
@@ -55,7 +58,7 @@
       "statusref": {
         "bcd": [
           {
-            "id": "css.properties.color.alpha",
+            "id": "css.types.color.rgba",
             "representative": true
           }
         ],
@@ -73,7 +76,7 @@
       "statusref": {
         "bcd": [
           {
-            "id": "css.properties.color.alpha_hexadecimal_notation",
+            "id": "css.types.color.rgb_hexadecimal_notation",
             "representative": true
           }
         ],

@@ -2,7 +2,7 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.XR",
+        "id": "api.XRSystem",
         "representative": true
       }
     ],

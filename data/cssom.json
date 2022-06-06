@@ -16,7 +16,9 @@
   "statusref": {
     "chrome": [
       {
-        "id": 5394843094220800
+        "id": 5394843094220800,
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       }
     ]
   }

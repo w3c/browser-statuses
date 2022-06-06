@@ -49,7 +49,9 @@
         "id": "css-boxdecorationbreak"
       },
       {
-        "id": "css-page-break"
+        "id": "css-page-break",
+        "manual": true,
+        "lastreviewed": "2022-06-05"
       },
       {
         "id": "css-widows-orphans"

@@ -1,23 +1,5 @@
 {
   "features": {
-    "scroll-behavior": {
-      "url": "https://drafts.csswg.org/cssom-view/#smooth-scrolling",
-      "title": "scroll-behavior property",
-      "statusref": {
-        "bcd": [
-          {
-            "id": "css.properties.scroll-behavior",
-            "representative": true
-          }
-        ],
-        "caniuse": [
-          {
-            "id": "css-scroll-behavior",
-            "representative": true
-          }
-        ]
-      }
-    },
     "getBoundingClientRect": {
       "url": "https://drafts.csswg.org/cssom-view/#dom-element-getboundingclientrect",
       "title": "getBoundingClientRect() method",
@@ -32,15 +14,7 @@
     }
   },
   "statusref": {
-    "bcd": [
-      {
-        "id": "css.properties.scroll-behavior"
-      }
-    ],
     "caniuse": [
-      {
-        "id": "css-scroll-behavior"
-      },
       {
         "id": "getboundingclientrect"
       }
