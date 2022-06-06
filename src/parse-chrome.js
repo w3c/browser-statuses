@@ -30,7 +30,7 @@ export const coreua = ["chrome", "chrome_android", "edge"];
  * an "experimental" status (useful when parsing statuses for upcoming versions
  * of a user agent).
  */
-function parseStatus(chromestatus) {
+function parseStatus(chromestatus, key) {
   if (!chromestatus) {
     return null;
   }
@@ -42,6 +42,7 @@ function parseStatus(chromestatus) {
     case 'Enabled by default':
     case 'Shipped':
     case 'Shipped/Shipping':
+    case 'Browser Intervention':
       res.status = 'shipped';
       break;
     case 'In developer trial (Behind a flag)':
@@ -72,10 +73,13 @@ function parseStatus(chromestatus) {
     case 'Defer':
     case 'Harmful':
     case 'Non-harmful':
+    case 'Neutral':
+    case 'N/A':
+    case 'On hold':
       res.status = 'notsupported';
       break;
     default:
-      console.warn(`- Unknown chrome status ${status}`);
+      console.warn(`- Unknown chrome status ${status} for key ${key}`);
       break;
   }
 
@@ -152,7 +156,7 @@ export function getImplementationStatus(key) {
   // 2020-09-09: Voluntarily ignore information about "edge", which does not
   // seem to be current for the version of Edge based on Chromium
   for (let ua of ['chrome', 'ff', 'safari']) {
-    const info = parseStatus(impldata[ua]);
+    const info = parseStatus(impldata[ua], key);
     ua = (ua === 'ff' ? 'firefox' : ua);
     if (info) {
       info.href = `https://www.chromestatus.com/feature/${key}`;

@@ -50,7 +50,7 @@ export function getImplementationStatus(key) {
   }
 
   let impldata = data[keyType]
-    .find(feature => feature.name.toLowerCase() === keyName);
+    .find(feature => feature.name.toLowerCase().replace(/\-/g, ' ') === keyName);
   if (!impldata) {
     throw new Error(`Unknown webkit feature ${key}`);
   }
@@ -65,6 +65,7 @@ export function getImplementationStatus(key) {
   switch (webkitstatus) {
     case 'Supported':
     case 'Partially Supported':
+    case 'Deprecated':
       res.status = 'shipped';
       if (webkitstatus === 'Partially Supported') {
         res.partial = true;
@@ -84,7 +85,7 @@ export function getImplementationStatus(key) {
       res.status = 'notsupported';
       break;
     default:
-      console.warn(`- Unknown webkit status ${webkitstatus}`);
+      console.warn(`- Unknown webkit status ${webkitstatus} for key ${key}`);
       break;
   }
 
