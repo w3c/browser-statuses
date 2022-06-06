@@ -87,6 +87,14 @@ function repositoryUrl(spec) {
   return multiSpecRepo ? null : spec.nightly.repository;
 }
 
+// Consider old CSS3 naming convention that can be used to reference the spec
+function toCSS3Url(url) {
+  if (!url) {
+    return null;
+  }
+  return url.replace(/\/css-([^\/]+)-\d+\//, '/css3-$1/');
+}
+
 function findMappingsForSpec(shortname, relatedSpecs, data) {
   const res = JSON.parse(JSON.stringify(data ?? {}));
   res.statusref = {};
@@ -120,7 +128,12 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
       toDevUrl(spec.nightly.url),
       toDevUrl(spec?.release?.url),
       toDevUrl(spec.series.nightlyUrl),
-      toDevUrl(spec.series.releaseUrl)
+      toDevUrl(spec.series.releaseUrl),
+      toCSS3Url(spec.url),
+      toCSS3Url(spec.nightly.url),
+      toCSS3Url(spec?.release?.url),
+      toCSS3Url(spec.series.nightlyUrl),
+      toCSS3Url(spec.series.releaseUrl),
     ])
     .flat()
     .filter(url => !!url);

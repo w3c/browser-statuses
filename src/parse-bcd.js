@@ -149,10 +149,11 @@ export function getImplementationStatus(key) {
 
 export function findMappings(shortname, relatedUrls, knownData) {
   function findMatch(node, id) {
+    let res = [];
     if (node.__compat && node.__compat.spec_url) {
       const specUrls = [node.__compat.spec_url].flat();
       if (!!relatedUrls.find(u => specUrls.find(specUrl => specUrl.startsWith(u)))) {
-        return [
+        res = [
           {
             id: id,
             statusUrl: node.__compat.mdn_url,
@@ -163,14 +164,14 @@ export function findMappings(shortname, relatedUrls, knownData) {
     }
 
     if (typeof node === 'object' && node.constructor === Object) {
-      return Object.keys(node)
-        .filter(name => name !== '__compat')
-        .map(name => findMatch(node[name], id + (id ? '.' : '') + name))
-        .flat();
+      res = res.concat(
+        Object.keys(node)
+          .filter(name => name !== '__compat')
+          .map(name => findMatch(node[name], id + (id ? '.' : '') + name))
+          .flat()
+      );
     }
-    else {
-      return [];
-    }
+    return res;
   }
 
   const mappings = findMatch(bcd, '')
