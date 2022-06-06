@@ -1,0 +1,353 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Accept",
+        "name": "http.headers.Accept",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.accept"
+        ]
+      },
+      {
+        "id": "http.headers.Accept-Encoding",
+        "name": "http.headers.Accept-Encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept-Encoding",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.accept-encoding"
+        ]
+      },
+      {
+        "id": "http.headers.Accept-Language",
+        "name": "http.headers.Accept-Language",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept-Language",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.accept-language"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Encoding",
+        "name": "http.headers.Content-Encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Encoding",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.content-encoding"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Language",
+        "name": "http.headers.Content-Language",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Language",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.content-language"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Location",
+        "name": "http.headers.Content-Location",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Location",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.content-location"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Type",
+        "name": "http.headers.Content-Type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Type",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#status.206",
+          "https://httpwg.org/specs/rfc7231.html#header.content-type"
+        ]
+      },
+      {
+        "id": "http.headers.Date",
+        "name": "http.headers.Date",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Date",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.date"
+        ]
+      },
+      {
+        "id": "http.headers.Expect",
+        "name": "http.headers.Expect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Expect",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.expect"
+        ]
+      },
+      {
+        "id": "http.headers.From",
+        "name": "http.headers.From",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/From",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.from"
+        ]
+      },
+      {
+        "id": "http.headers.Location",
+        "name": "http.headers.Location",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Location",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.location"
+        ]
+      },
+      {
+        "id": "http.headers.Referer",
+        "name": "http.headers.Referer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Referer",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.referer"
+        ]
+      },
+      {
+        "id": "http.headers.Retry-After",
+        "name": "http.headers.Retry-After",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Retry-After",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.retry-after"
+        ]
+      },
+      {
+        "id": "http.headers.Server",
+        "name": "http.headers.Server",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Server",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.server"
+        ]
+      },
+      {
+        "id": "http.headers.Upgrade",
+        "name": "http.headers.Upgrade",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Upgrade",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.upgrade",
+          "https://httpwg.org/specs/rfc7231.html#status.426",
+          "https://httpwg.org/specs/rfc7540.html#informational-responses"
+        ]
+      },
+      {
+        "id": "http.headers.User-Agent",
+        "name": "http.headers.User-Agent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/User-Agent",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.user-agent"
+        ]
+      },
+      {
+        "id": "http.headers.Vary",
+        "name": "http.headers.Vary",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Vary",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#header.vary"
+        ]
+      },
+      {
+        "id": "http.methods.CONNECT",
+        "name": "http.methods.CONNECT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/CONNECT",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#CONNECT"
+        ]
+      },
+      {
+        "id": "http.methods.DELETE",
+        "name": "http.methods.DELETE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/DELETE",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#DELETE"
+        ]
+      },
+      {
+        "id": "http.methods.GET",
+        "name": "http.methods.GET",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/GET",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#GET"
+        ]
+      },
+      {
+        "id": "http.methods.HEAD",
+        "name": "http.methods.HEAD",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/HEAD",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#HEAD"
+        ]
+      },
+      {
+        "id": "http.methods.OPTIONS",
+        "name": "http.methods.OPTIONS",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/OPTIONS",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#OPTIONS"
+        ]
+      },
+      {
+        "id": "http.methods.POST",
+        "name": "http.methods.POST",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/POST",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#POST"
+        ]
+      },
+      {
+        "id": "http.methods.PUT",
+        "name": "http.methods.PUT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/PUT",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#PUT"
+        ]
+      },
+      {
+        "id": "http.methods.TRACE",
+        "name": "http.methods.TRACE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Methods/TRACE",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#TRACE"
+        ]
+      },
+      {
+        "id": "http.status.100",
+        "name": "http.status.100",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/100",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.100"
+        ]
+      },
+      {
+        "id": "http.status.200",
+        "name": "http.status.200",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/200",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.200"
+        ]
+      },
+      {
+        "id": "http.status.201",
+        "name": "http.status.201",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/201",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.201"
+        ]
+      },
+      {
+        "id": "http.status.204",
+        "name": "http.status.204",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/204",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.204"
+        ]
+      },
+      {
+        "id": "http.status.301",
+        "name": "http.status.301",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/301",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.301"
+        ]
+      },
+      {
+        "id": "http.status.302",
+        "name": "http.status.302",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/302",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.302"
+        ]
+      },
+      {
+        "id": "http.status.303",
+        "name": "http.status.303",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/303",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.303"
+        ]
+      },
+      {
+        "id": "http.status.307",
+        "name": "http.status.307",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/307",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.307"
+        ]
+      },
+      {
+        "id": "http.status.403",
+        "name": "http.status.403",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/403",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.403"
+        ]
+      },
+      {
+        "id": "http.status.404",
+        "name": "http.status.404",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/404",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.404"
+        ]
+      },
+      {
+        "id": "http.status.406",
+        "name": "http.status.406",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/406",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.406"
+        ]
+      },
+      {
+        "id": "http.status.409",
+        "name": "http.status.409",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/409",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.409"
+        ]
+      },
+      {
+        "id": "http.status.410",
+        "name": "http.status.410",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/410",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.410"
+        ]
+      },
+      {
+        "id": "http.status.500",
+        "name": "http.status.500",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/500",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.500"
+        ]
+      },
+      {
+        "id": "http.status.501",
+        "name": "http.status.501",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/501",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.501"
+        ]
+      },
+      {
+        "id": "http.status.502",
+        "name": "http.status.502",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/502",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.502"
+        ]
+      },
+      {
+        "id": "http.status.503",
+        "name": "http.status.503",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/503",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.503"
+        ]
+      },
+      {
+        "id": "http.status.504",
+        "name": "http.status.504",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/504",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7231.html#status.504"
+        ]
+      }
+    ]
+  }
+}

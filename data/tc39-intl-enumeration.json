@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Intl.supportedValuesOf",
+        "name": "javascript.builtins.Intl.supportedValuesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/supportedValuesOf",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-enumeration/#sec-intl.supportedvaluesof"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5649454590853120,
+        "name": "Intl Enumeration API",
+        "statusUrl": "https://chromestatus.com/feature/5649454590853120",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-enumeration/"
+        ]
+      }
+    ]
+  }
+}

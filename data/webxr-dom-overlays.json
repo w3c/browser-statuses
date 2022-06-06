@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRSession.domOverlayState",
+        "name": "api.XRSession.domOverlayState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/domOverlayState",
+        "specUrls": [
+          "https://immersive-web.github.io/dom-overlays/#dom-xrsession-domoverlaystate"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6048666307526656,
+        "name": "WebXR DOM Overlay",
+        "statusUrl": "https://chromestatus.com/feature/6048666307526656",
+        "specUrls": [
+          "https://immersive-web.github.io/dom-overlays/"
+        ]
+      }
+    ]
+  }
+}

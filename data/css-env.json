@@ -1,0 +1,66 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.custom-property.env",
+        "name": "css.properties.custom-property.env",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env/#env-function"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.safe-area-inset-bottom",
+        "name": "css.properties.custom-property.env.safe-area-inset-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env/#safe-area-insets"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.safe-area-inset-left",
+        "name": "css.properties.custom-property.env.safe-area-inset-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env/#safe-area-insets"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.safe-area-inset-right",
+        "name": "css.properties.custom-property.env.safe-area-inset-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env/#safe-area-insets"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.safe-area-inset-top",
+        "name": "css.properties.custom-property.env.safe-area-inset-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env/#safe-area-insets"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-env-function",
+        "name": "CSS Environment Variables env()",
+        "statusUrl": "https://caniuse.com/css-env-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env-1/#env-function"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5710044637167616,
+        "name": "Display cutout and CSS env() support",
+        "statusUrl": "https://chromestatus.com/feature/5710044637167616",
+        "specUrls": [
+          "https://drafts.csswg.org/css-env-1/"
+        ]
+      }
+    ]
+  }
+}

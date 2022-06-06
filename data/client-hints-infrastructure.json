@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5684289032159232,
+        "name": "Markup based Client Hints delegation for third-party content",
+        "statusUrl": "https://chromestatus.com/feature/5684289032159232",
+        "specUrls": [
+          "https://wicg.github.io/client-hints-infrastructure/"
+        ]
+      },
+      {
+        "id": 6658223894429696,
+        "name": "Standardize existing client hint naming",
+        "statusUrl": "https://chromestatus.com/feature/6658223894429696",
+        "specUrls": [
+          "https://wicg.github.io/client-hints-infrastructure/"
+        ]
+      }
+    ]
+  }
+}

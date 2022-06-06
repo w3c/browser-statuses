@@ -1,0 +1,37 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.RTCIceTransport.addRemoteCandidate",
+        "name": "api.RTCIceTransport.addRemoteCandidate",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-ice/#dom-rtcicetransport-addremotecandidate"
+        ]
+      },
+      {
+        "id": "api.RTCIceTransport.start",
+        "name": "api.RTCIceTransport.start",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-ice/#dom-rtcicetransport-start"
+        ]
+      },
+      {
+        "id": "api.RTCIceTransport.stop",
+        "name": "api.RTCIceTransport.stop",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-ice/#dom-rtcicetransport-stop"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6276032524976128,
+        "name": "RTCIceTransport extensions",
+        "statusUrl": "https://chromestatus.com/feature/6276032524976128",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-ice/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.namespace",
+        "name": "css.at-rules.namespace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@namespace",
+        "specUrls": [
+          "https://drafts.csswg.org/css-namespaces/#declaration"
+        ]
+      },
+      {
+        "id": "css.selectors.namespace",
+        "name": "css.selectors.namespace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@namespace",
+        "specUrls": [
+          "https://drafts.csswg.org/css-namespaces/#declaration"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-namespaces",
+        "name": "CSS namespaces",
+        "statusUrl": "https://caniuse.com/css-namespaces",
+        "specUrls": [
+          "https://drafts.csswg.org/css-namespaces/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.DataTransferItem.webkitGetAsEntry",
+        "name": "api.DataTransferItem.webkitGetAsEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DataTransferItem/webkitGetAsEntry",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-datatransferitem-webkitgetasentry"
+        ]
+      },
+      {
+        "id": "api.File.webkitRelativePath",
+        "name": "api.File.webkitRelativePath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/File/webkitRelativePath",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-file-webkitrelativepath"
+        ]
+      },
+      {
+        "id": "api.FileSystem",
+        "name": "api.FileSystem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystem",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#api-domfilesystem"
+        ]
+      },
+      {
+        "id": "api.FileSystem.name",
+        "name": "api.FileSystem.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystem/name",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystem-name"
+        ]
+      },
+      {
+        "id": "api.FileSystem.root",
+        "name": "api.FileSystem.root",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystem/root",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystem-root"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryEntry",
+        "name": "api.FileSystemDirectoryEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryEntry",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#api-directoryentry"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryEntry.createReader",
+        "name": "api.FileSystemDirectoryEntry.createReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryEntry/createReader",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-createreader"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryEntry.getDirectory",
+        "name": "api.FileSystemDirectoryEntry.getDirectory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryEntry/getDirectory",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getdirectory"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryEntry.getFile",
+        "name": "api.FileSystemDirectoryEntry.getFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryEntry/getFile",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystemdirectoryentry-getfile"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryReader",
+        "name": "api.FileSystemDirectoryReader",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryReader",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#api-directoryreader"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryReader.readEntries",
+        "name": "api.FileSystemDirectoryReader.readEntries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryReader/readEntries",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystemdirectoryreader-readentries"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry",
+        "name": "api.FileSystemEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#api-entry"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.filesystem",
+        "name": "api.FileSystemEntry.filesystem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/filesystem",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-filesystem"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.fullPath",
+        "name": "api.FileSystemEntry.fullPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/fullPath",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-fullpath"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.getParent",
+        "name": "api.FileSystemEntry.getParent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/getParent",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-getparent"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.isDirectory",
+        "name": "api.FileSystemEntry.isDirectory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/isDirectory",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-isdirectory"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.isFile",
+        "name": "api.FileSystemEntry.isFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/isFile",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-isfile"
+        ]
+      },
+      {
+        "id": "api.FileSystemEntry.name",
+        "name": "api.FileSystemEntry.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemEntry/name",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystementry-name"
+        ]
+      },
+      {
+        "id": "api.FileSystemFileEntry",
+        "name": "api.FileSystemFileEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemFileEntry",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#api-fileentry"
+        ]
+      },
+      {
+        "id": "api.FileSystemFileEntry.file",
+        "name": "api.FileSystemFileEntry.file",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemFileEntry/file",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-filesystemfileentry-file"
+        ]
+      },
+      {
+        "id": "api.HTMLInputElement.webkitEntries",
+        "name": "api.HTMLInputElement.webkitEntries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitEntries",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-htmlinputelement-webkitentries"
+        ]
+      },
+      {
+        "id": "api.HTMLInputElement.webkitdirectory",
+        "name": "api.HTMLInputElement.webkitdirectory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitdirectory",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-htmlinputelement-webkitdirectory"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "input-file-directory",
+        "name": "Directory selection from file input",
+        "statusUrl": "https://caniuse.com/input-file-directory",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-htmlinputelement-webkitdirectory"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5000708122214400,
+        "name": "Interoperable File.webkitRelativePath property",
+        "statusUrl": "https://chromestatus.com/feature/5000708122214400",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/#dom-file-webkitrelativepath"
+        ]
+      },
+      {
+        "id": 6698113687355392,
+        "name": "FileSystem interfaces for directory upload",
+        "statusUrl": "https://chromestatus.com/feature/6698113687355392",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-file-and-directory-entries-api",
+        "name": "File and Directory Entries API",
+        "statusUrl": "https://webkit.org/status/#specification-file-and-directory-entries-api",
+        "specUrls": [
+          "https://wicg.github.io/entries-api/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WEBGL_compressed_texture_pvrtc",
+        "name": "api.WEBGL_compressed_texture_pvrtc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_pvrtc",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_pvrtc/"
+        ]
+      }
+    ]
+  }
+}

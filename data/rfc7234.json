@@ -1,0 +1,47 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Age",
+        "name": "http.headers.Age",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Age",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.age"
+        ]
+      },
+      {
+        "id": "http.headers.Cache-Control",
+        "name": "http.headers.Cache-Control",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cache-Control",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.cache-control",
+          "https://httpwg.org/specs/rfc8246.html#the-immutable-cache-control-extension"
+        ]
+      },
+      {
+        "id": "http.headers.Expires",
+        "name": "http.headers.Expires",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Expires",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.expires"
+        ]
+      },
+      {
+        "id": "http.headers.Pragma",
+        "name": "http.headers.Pragma",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Pragma",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.pragma"
+        ]
+      },
+      {
+        "id": "http.headers.Warning",
+        "name": "http.headers.Warning",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Warning",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.warning"
+        ]
+      }
+    ]
+  }
+}

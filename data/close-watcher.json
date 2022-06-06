@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 4722261258928128,
+        "name": "CloseWatcher",
+        "statusUrl": "https://chromestatus.com/feature/4722261258928128",
+        "specUrls": [
+          "https://wicg.github.io/close-watcher/"
+        ]
+      }
+    ]
+  }
+}

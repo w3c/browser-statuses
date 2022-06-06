@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EXT_frag_depth",
+        "name": "api.EXT_frag_depth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_frag_depth",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_frag_depth/"
+        ]
+      }
+    ]
+  }
+}

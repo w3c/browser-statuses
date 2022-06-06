@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WEBGL_debug_renderer_info",
+        "name": "api.WEBGL_debug_renderer_info",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_debug_renderer_info",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_renderer_info/"
+        ]
+      }
+    ]
+  }
+}

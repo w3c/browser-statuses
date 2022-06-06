@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "document-policy",
+        "name": "Document Policy",
+        "statusUrl": "https://caniuse.com/document-policy",
+        "specUrls": [
+          "https://wicg.github.io/document-policy/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5645593894453248,
+        "name": "Document Policy",
+        "statusUrl": "https://chromestatus.com/feature/5645593894453248",
+        "specUrls": [
+          "https://wicg.github.io/document-policy/"
+        ]
+      }
+    ]
+  }
+}

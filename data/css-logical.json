@@ -1,0 +1,552 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.page",
+        "name": "css.at-rules.page",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@page",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#page"
+        ]
+      },
+      {
+        "id": "css.properties.block-size",
+        "name": "css.properties.block-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/block-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#dimension-properties"
+        ]
+      },
+      {
+        "id": "css.properties.border-block",
+        "name": "css.properties.border-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-block"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-color",
+        "name": "css.properties.border-block-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-block-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-end",
+        "name": "css.properties.border-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-end-color",
+        "name": "css.properties.border-block-end-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-end-style",
+        "name": "css.properties.border-block-end-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-end-width",
+        "name": "css.properties.border-block-end-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-end-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-start",
+        "name": "css.properties.border-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-start-color",
+        "name": "css.properties.border-block-start-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-start-style",
+        "name": "css.properties.border-block-start-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-start-width",
+        "name": "css.properties.border-block-start-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-start-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-style",
+        "name": "css.properties.border-block-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-block-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-block-width",
+        "name": "css.properties.border-block-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-block-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-block-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-color",
+        "name": "css.properties.border-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#logical-shorthand-keyword",
+          "https://drafts.csswg.org/css-backgrounds/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-end-end-radius",
+        "name": "css.properties.border-end-end-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-radius-properties"
+        ]
+      },
+      {
+        "id": "css.properties.border-end-start-radius",
+        "name": "css.properties.border-end-start-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-radius-properties"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline",
+        "name": "css.properties.border-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-inline"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-color",
+        "name": "css.properties.border-inline-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-inline-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-end",
+        "name": "css.properties.border-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-end-color",
+        "name": "css.properties.border-inline-end-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-end-style",
+        "name": "css.properties.border-inline-end-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-end-width",
+        "name": "css.properties.border-inline-end-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-end-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-start",
+        "name": "css.properties.border-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-shorthands"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-start-color",
+        "name": "css.properties.border-inline-start-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-color"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-start-style",
+        "name": "css.properties.border-inline-start-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-start-width",
+        "name": "css.properties.border-inline-start-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-style",
+        "name": "css.properties.border-inline-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-inline-style"
+        ]
+      },
+      {
+        "id": "css.properties.border-inline-width",
+        "name": "css.properties.border-inline-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-inline-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-border-inline-width"
+        ]
+      },
+      {
+        "id": "css.properties.border-start-end-radius",
+        "name": "css.properties.border-start-end-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-start-end-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-radius-properties"
+        ]
+      },
+      {
+        "id": "css.properties.border-start-start-radius",
+        "name": "css.properties.border-start-start-radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-start-start-radius",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-radius-properties"
+        ]
+      },
+      {
+        "id": "css.properties.caption-side",
+        "name": "css.properties.caption-side",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/caption-side",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#caption-side"
+        ]
+      },
+      {
+        "id": "css.properties.clear",
+        "name": "css.properties.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/clear",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#float-clear"
+        ]
+      },
+      {
+        "id": "css.properties.float",
+        "name": "css.properties.float",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/float",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#float-clear"
+        ]
+      },
+      {
+        "id": "css.properties.inline-size",
+        "name": "css.properties.inline-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inline-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#dimension-properties"
+        ]
+      },
+      {
+        "id": "css.properties.inset",
+        "name": "css.properties.inset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-inset"
+        ]
+      },
+      {
+        "id": "css.properties.inset-block",
+        "name": "css.properties.inset-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-inset-block"
+        ]
+      },
+      {
+        "id": "css.properties.inset-block-end",
+        "name": "css.properties.inset-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#position-properties"
+        ]
+      },
+      {
+        "id": "css.properties.inset-block-start",
+        "name": "css.properties.inset-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#position-properties"
+        ]
+      },
+      {
+        "id": "css.properties.inset-inline",
+        "name": "css.properties.inset-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-inset-inline"
+        ]
+      },
+      {
+        "id": "css.properties.inset-inline-end",
+        "name": "css.properties.inset-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#position-properties"
+        ]
+      },
+      {
+        "id": "css.properties.inset-inline-start",
+        "name": "css.properties.inset-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inset-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#position-properties"
+        ]
+      },
+      {
+        "id": "css.properties.margin-block",
+        "name": "css.properties.margin-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-margin-block"
+        ]
+      },
+      {
+        "id": "css.properties.margin-block-start",
+        "name": "css.properties.margin-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#margin-properties"
+        ]
+      },
+      {
+        "id": "css.properties.margin-inline",
+        "name": "css.properties.margin-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-margin-inline"
+        ]
+      },
+      {
+        "id": "css.properties.margin-inline-end",
+        "name": "css.properties.margin-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#margin-properties"
+        ]
+      },
+      {
+        "id": "css.properties.margin-inline-start",
+        "name": "css.properties.margin-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#margin-properties"
+        ]
+      },
+      {
+        "id": "css.properties.max-block-size",
+        "name": "css.properties.max-block-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/max-block-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-max-block-size"
+        ]
+      },
+      {
+        "id": "css.properties.max-inline-size",
+        "name": "css.properties.max-inline-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/max-inline-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-max-inline-size"
+        ]
+      },
+      {
+        "id": "css.properties.min-block-size",
+        "name": "css.properties.min-block-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/min-block-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-min-block-size"
+        ]
+      },
+      {
+        "id": "css.properties.min-inline-size",
+        "name": "css.properties.min-inline-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/min-inline-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-min-inline-size"
+        ]
+      },
+      {
+        "id": "css.properties.padding-block",
+        "name": "css.properties.padding-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-padding-block"
+        ]
+      },
+      {
+        "id": "css.properties.padding-block-end",
+        "name": "css.properties.padding-block-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-block-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#padding-properties"
+        ]
+      },
+      {
+        "id": "css.properties.padding-block-start",
+        "name": "css.properties.padding-block-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-block-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#padding-properties"
+        ]
+      },
+      {
+        "id": "css.properties.padding-inline",
+        "name": "css.properties.padding-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#propdef-padding-inline"
+        ]
+      },
+      {
+        "id": "css.properties.padding-inline-end",
+        "name": "css.properties.padding-inline-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-end",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#padding-properties"
+        ]
+      },
+      {
+        "id": "css.properties.padding-inline-start",
+        "name": "css.properties.padding-inline-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-inline-start",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#padding-properties"
+        ]
+      },
+      {
+        "id": "css.properties.page-break-after",
+        "name": "css.properties.page-break-after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page-break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#page",
+          "https://drafts.csswg.org/css-page/#page-break-after"
+        ]
+      },
+      {
+        "id": "css.properties.page-break-before",
+        "name": "css.properties.page-break-before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/page-break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#page",
+          "https://drafts.csswg.org/css-page/#page-break-before"
+        ]
+      },
+      {
+        "id": "css.properties.text-align",
+        "name": "css.properties.text-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#text-align",
+          "https://drafts.csswg.org/css-text/#text-align-property"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-logical-props",
+        "name": "CSS Logical Properties",
+        "statusUrl": "https://caniuse.com/css-logical-props",
+        "specUrls": [
+          "https://www.w3.org/TR/css-logical-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5631002091192320,
+        "name": "CSS flow-relative Corner Rounding properties",
+        "statusUrl": "https://chromestatus.com/feature/5631002091192320",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#border-radius-properties"
+        ]
+      },
+      {
+        "id": 6041507983261696,
+        "name": "CSS logical flow relative margins, paddings and borders",
+        "statusUrl": "https://chromestatus.com/feature/6041507983261696",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical-1/#box"
+        ]
+      },
+      {
+        "id": 6237096230518784,
+        "name": "CSS logical flow relative values and box model properties",
+        "statusUrl": "https://chromestatus.com/feature/6237096230518784",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical-1/"
+        ]
+      },
+      {
+        "id": 6325742262550528,
+        "name": "CSS logical height and width",
+        "statusUrl": "https://chromestatus.com/feature/6325742262550528",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical-1/#dimension-properties"
+        ]
+      },
+      {
+        "id": 6618771051511808,
+        "name": "CSS flow-relative shorthand and offset properties",
+        "statusUrl": "https://chromestatus.com/feature/6618771051511808",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#box"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-logical-properties-and-values-level-1",
+        "name": "CSS Logical Properties and Values Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-logical-properties-and-values-level-1",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/"
+        ]
+      }
+    ]
+  }
+}

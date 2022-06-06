@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5690646332440576,
+        "name": "WebTransport serverCertificateHashes option",
+        "statusUrl": "https://chromestatus.com/feature/5690646332440576",
+        "specUrls": [
+          "https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"
+        ]
+      }
+    ]
+  }
+}

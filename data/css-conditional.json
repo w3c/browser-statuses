@@ -1,0 +1,124 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSS.supports",
+        "name": "api.CSS.supports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/supports",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#ref-for-dom-css-supports"
+        ]
+      },
+      {
+        "id": "api.CSSConditionRule",
+        "name": "api.CSSConditionRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSConditionRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#the-cssconditionrule-interface"
+        ]
+      },
+      {
+        "id": "api.CSSConditionRule.conditionText",
+        "name": "api.CSSConditionRule.conditionText",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSConditionRule/conditionText",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#dom-cssconditionrule-conditiontext"
+        ]
+      },
+      {
+        "id": "api.CSSMediaRule",
+        "name": "api.CSSMediaRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMediaRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#the-cssmediarule-interface"
+        ]
+      },
+      {
+        "id": "api.CSSMediaRule.media",
+        "name": "api.CSSMediaRule.media",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMediaRule/media",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#dom-cssmediarule-media"
+        ]
+      },
+      {
+        "id": "api.CSSSupportsRule",
+        "name": "api.CSSSupportsRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSupportsRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-3/#the-csssupportsrule-interface"
+        ]
+      },
+      {
+        "id": "css.at-rules.media",
+        "name": "css.at-rules.media",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#media-descriptor-table",
+          "https://drafts.csswg.org/css-conditional-3/#at-media"
+        ]
+      },
+      {
+        "id": "css.at-rules.supports",
+        "name": "css.at-rules.supports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@supports",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-4/#at-supports-ext",
+          "https://drafts.csswg.org/css-conditional-3/#at-supports"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-featurequeries",
+        "name": "CSS Feature Queries",
+        "statusUrl": "https://caniuse.com/css-featurequeries",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-conditional/#at-supports"
+        ]
+      },
+      {
+        "id": "css-supports-api",
+        "name": "CSS.supports() API",
+        "statusUrl": "https://caniuse.com/css-supports-api",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional/#the-css-interface"
+        ]
+      },
+      {
+        "id": "css-when-else",
+        "name": "CSS @when / @else conditional rules",
+        "statusUrl": "https://caniuse.com/css-when-else",
+        "specUrls": [
+          "https://www.w3.org/TR/css-conditional-5/#when-rule"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4867173717639168,
+        "name": "CSSConditionRule interface",
+        "statusUrl": "https://chromestatus.com/feature/4867173717639168",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional/#the-cssconditionrule-interface"
+        ]
+      },
+      {
+        "id": 4993981813358592,
+        "name": "CSS Conditional Rules",
+        "statusUrl": "https://chromestatus.com/feature/4993981813358592",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-conditional/"
+        ]
+      },
+      {
+        "id": 5555643303854080,
+        "name": "@supports selector() feature query function",
+        "statusUrl": "https://chromestatus.com/feature/5555643303854080",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-4/#at-supports-ext"
+        ]
+      }
+    ]
+  }
+}

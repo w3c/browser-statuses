@@ -1,0 +1,760 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.selectors.active",
+        "name": "css.selectors.active",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:active",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-active",
+          "https://drafts.csswg.org/selectors/#the-active-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.adjacent_sibling",
+        "name": "css.selectors.adjacent_sibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Adjacent_sibling_combinator",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#adjacent-sibling-combinators"
+        ]
+      },
+      {
+        "id": "css.selectors.any-link",
+        "name": "css.selectors.any-link",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:any-link",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-any-link-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.attribute",
+        "name": "css.selectors.attribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Attribute_selectors",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#attribute-selectors"
+        ]
+      },
+      {
+        "id": "css.selectors.blank",
+        "name": "css.selectors.blank",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:blank",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#blank-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.checked",
+        "name": "css.selectors.checked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:checked",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-checked",
+          "https://drafts.csswg.org/selectors/#checked"
+        ]
+      },
+      {
+        "id": "css.selectors.child",
+        "name": "css.selectors.child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Child_combinator",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#child-combinators"
+        ]
+      },
+      {
+        "id": "css.selectors.class",
+        "name": "css.selectors.class",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Class_selectors",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#class-html"
+        ]
+      },
+      {
+        "id": "css.selectors.column",
+        "name": "css.selectors.column",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Column_combinator",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-column-combinator"
+        ]
+      },
+      {
+        "id": "css.selectors.default",
+        "name": "css.selectors.default",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:default",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-default",
+          "https://drafts.csswg.org/selectors/#default-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.descendant",
+        "name": "css.selectors.descendant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Descendant_combinator",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#descendant-combinators"
+        ]
+      },
+      {
+        "id": "css.selectors.dir",
+        "name": "css.selectors.dir",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:dir",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-ltr",
+          "https://drafts.csswg.org/selectors/#the-dir-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.disabled",
+        "name": "css.selectors.disabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:disabled",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-disabled",
+          "https://drafts.csswg.org/selectors/#enableddisabled"
+        ]
+      },
+      {
+        "id": "css.selectors.empty",
+        "name": "css.selectors.empty",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:empty",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-empty-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.enabled",
+        "name": "css.selectors.enabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:enabled",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-enabled",
+          "https://drafts.csswg.org/selectors/#enableddisabled"
+        ]
+      },
+      {
+        "id": "css.selectors.first-child",
+        "name": "css.selectors.first-child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:first-child",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#first-child-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.first-of-type",
+        "name": "css.selectors.first-of-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:first-of-type",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#first-of-type-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.focus",
+        "name": "css.selectors.focus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:focus",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-focus",
+          "https://drafts.csswg.org/selectors/#focus-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.focus-visible",
+        "name": "css.selectors.focus-visible",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:focus-visible",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-focus-visible-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.focus-within",
+        "name": "css.selectors.focus-within",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:focus-within",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-focus-within-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.future",
+        "name": "css.selectors.future",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:future",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-future-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.general_sibling",
+        "name": "css.selectors.general_sibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/General_sibling_combinator",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#general-sibling-combinators"
+        ]
+      },
+      {
+        "id": "css.selectors.has",
+        "name": "css.selectors.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:has",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#relational"
+        ]
+      },
+      {
+        "id": "css.selectors.hover",
+        "name": "css.selectors.hover",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:hover",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-hover",
+          "https://drafts.csswg.org/selectors/#the-hover-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.id",
+        "name": "css.selectors.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/ID_selectors",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#id-selectors"
+        ]
+      },
+      {
+        "id": "css.selectors.in-range",
+        "name": "css.selectors.in-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:in-range",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-in-range",
+          "https://drafts.csswg.org/selectors/#in-range-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.indeterminate",
+        "name": "css.selectors.indeterminate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:indeterminate",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-indeterminate",
+          "https://drafts.csswg.org/selectors/#indeterminate"
+        ]
+      },
+      {
+        "id": "css.selectors.invalid",
+        "name": "css.selectors.invalid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:invalid",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-invalid",
+          "https://drafts.csswg.org/selectors/#validity-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.is",
+        "name": "css.selectors.is",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:is",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#matches-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.lang",
+        "name": "css.selectors.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:lang",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#lang-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.last-child",
+        "name": "css.selectors.last-child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:last-child",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-last-child-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.last-of-type",
+        "name": "css.selectors.last-of-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:last-of-type",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#last-of-type-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.link",
+        "name": "css.selectors.link",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:link",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-link",
+          "https://drafts.csswg.org/selectors/#link"
+        ]
+      },
+      {
+        "id": "css.selectors.list",
+        "name": "css.selectors.list",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Selector_list",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#grouping"
+        ]
+      },
+      {
+        "id": "css.selectors.not",
+        "name": "css.selectors.not",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:not",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#negation"
+        ]
+      },
+      {
+        "id": "css.selectors.nth-child",
+        "name": "css.selectors.nth-child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:nth-child",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#nth-child-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.nth-last-child",
+        "name": "css.selectors.nth-last-child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-child",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#nth-last-child-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.nth-last-of-type",
+        "name": "css.selectors.nth-last-of-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:nth-last-of-type",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#nth-last-of-type-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.nth-of-type",
+        "name": "css.selectors.nth-of-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:nth-of-type",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#nth-of-type-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.only-child",
+        "name": "css.selectors.only-child",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:only-child",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#only-child-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.only-of-type",
+        "name": "css.selectors.only-of-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:only-of-type",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#only-of-type-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.optional",
+        "name": "css.selectors.optional",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:optional",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-optional",
+          "https://drafts.csswg.org/selectors/#opt-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.out-of-range",
+        "name": "css.selectors.out-of-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:out-of-range",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-out-of-range",
+          "https://drafts.csswg.org/selectors/#out-of-range-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.past",
+        "name": "css.selectors.past",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:past",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-past-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.placeholder-shown",
+        "name": "css.selectors.placeholder-shown",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:placeholder-shown",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#placeholder"
+        ]
+      },
+      {
+        "id": "css.selectors.read-only",
+        "name": "css.selectors.read-only",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:read-only",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-only",
+          "https://drafts.csswg.org/selectors/#rw-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.read-write",
+        "name": "css.selectors.read-write",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:read-write",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-read-write",
+          "https://drafts.csswg.org/selectors/#rw-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.required",
+        "name": "css.selectors.required",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:required",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-required",
+          "https://drafts.csswg.org/selectors/#opt-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.root",
+        "name": "css.selectors.root",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:root",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#root-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.scope",
+        "name": "css.selectors.scope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:scope",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-scope-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.target",
+        "name": "css.selectors.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:target",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-target",
+          "https://drafts.csswg.org/selectors/#the-target-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.target-within",
+        "name": "css.selectors.target-within",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:target-within",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-target-within-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.type",
+        "name": "css.selectors.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Type_selectors",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#type-selectors"
+        ]
+      },
+      {
+        "id": "css.selectors.universal",
+        "name": "css.selectors.universal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/Universal_selectors",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-universal-selector"
+        ]
+      },
+      {
+        "id": "css.selectors.user-invalid",
+        "name": "css.selectors.user-invalid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:user-invalid",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#user-invalid-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.user-valid",
+        "name": "css.selectors.user-valid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:user-valid",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#user-valid-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.valid",
+        "name": "css.selectors.valid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:valid",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-valid",
+          "https://drafts.csswg.org/selectors/#validity-pseudos"
+        ]
+      },
+      {
+        "id": "css.selectors.visited",
+        "name": "css.selectors.visited",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:visited",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics-other.html#selector-visited",
+          "https://drafts.csswg.org/selectors/#link"
+        ]
+      },
+      {
+        "id": "css.selectors.where",
+        "name": "css.selectors.where",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:where",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#zero-matches"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-any-link",
+        "name": "CSS :any-link selector",
+        "statusUrl": "https://caniuse.com/css-any-link",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
+        ]
+      },
+      {
+        "id": "css-case-insensitive",
+        "name": "Case-insensitive CSS attribute selectors",
+        "statusUrl": "https://caniuse.com/css-case-insensitive",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors-4/#attribute-case"
+        ]
+      },
+      {
+        "id": "css-default-pseudo",
+        "name": ":default CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-default-pseudo",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-default-pseudo"
+        ]
+      },
+      {
+        "id": "css-descendant-gtgt",
+        "name": "Explicit descendant combinator >>",
+        "statusUrl": "https://caniuse.com/css-descendant-gtgt",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#descendant-combinators"
+        ]
+      },
+      {
+        "id": "css-dir-pseudo",
+        "name": ":dir() CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-dir-pseudo",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors4/#the-dir-pseudo"
+        ]
+      },
+      {
+        "id": "css-first-line",
+        "name": "CSS first-line pseudo-element",
+        "statusUrl": "https://caniuse.com/css-first-line",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-3/#first-line"
+        ]
+      },
+      {
+        "id": "css-focus-visible",
+        "name": ":focus-visible CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-focus-visible",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
+        ]
+      },
+      {
+        "id": "css-focus-within",
+        "name": ":focus-within CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-focus-within",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
+        ]
+      },
+      {
+        "id": "css-has",
+        "name": ":has() CSS relational pseudo-class",
+        "statusUrl": "https://caniuse.com/css-has",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#relational"
+        ]
+      },
+      {
+        "id": "css-in-out-of-range",
+        "name": ":in-range and :out-of-range CSS pseudo-classes",
+        "statusUrl": "https://caniuse.com/css-in-out-of-range",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors4/#range-pseudos"
+        ]
+      },
+      {
+        "id": "css-indeterminate-pseudo",
+        "name": ":indeterminate CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-indeterminate-pseudo",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#indeterminate"
+        ]
+      },
+      {
+        "id": "css-matches-pseudo",
+        "name": ":is() CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-matches-pseudo",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors4/#matches"
+        ]
+      },
+      {
+        "id": "css-not-sel-list",
+        "name": "selector list argument of :not()",
+        "statusUrl": "https://caniuse.com/css-not-sel-list",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors4/#negation"
+        ]
+      },
+      {
+        "id": "css-nth-child-of",
+        "name": "selector list argument of :nth-child and :nth-last-child CSS pseudo-classes",
+        "statusUrl": "https://caniuse.com/css-nth-child-of",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors/#the-nth-child-pseudo"
+        ]
+      },
+      {
+        "id": "css-optional-pseudo",
+        "name": ":optional CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-optional-pseudo",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#optional-pseudo"
+        ]
+      },
+      {
+        "id": "css-placeholder-shown",
+        "name": ":placeholder-shown CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-placeholder-shown",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors4/#placeholder"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4600991135563776,
+        "name": "CSS Selectors 4 Pseudo-Class :where()",
+        "statusUrl": "https://chromestatus.com/feature/4600991135563776",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#zero-matches"
+        ]
+      },
+      {
+        "id": 4784885279490048,
+        "name": "Link element pseudo selectors",
+        "statusUrl": "https://chromestatus.com/feature/4784885279490048",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
+        ]
+      },
+      {
+        "id": 5071058079055872,
+        "name": "CSS :lang pseudo class level 4",
+        "statusUrl": "https://chromestatus.com/feature/5071058079055872",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors-4/#the-lang-pseudo"
+        ]
+      },
+      {
+        "id": 5192833009975296,
+        "name": "CSS :modal Pseudo Class",
+        "statusUrl": "https://chromestatus.com/feature/5192833009975296",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors-4/#modal-state"
+        ]
+      },
+      {
+        "id": 5363834508279808,
+        "name": "CSS4 :focus-within pseudo-class",
+        "statusUrl": "https://chromestatus.com/feature/5363834508279808",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
+        ]
+      },
+      {
+        "id": 5445716612743168,
+        "name": "CSS Selectors 4 Pseudo-Classes :is(), :where()",
+        "statusUrl": "https://chromestatus.com/feature/5445716612743168",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#matches"
+        ]
+      },
+      {
+        "id": 5610936115134464,
+        "name": "Case-insensitive Attribute Selector Matching",
+        "statusUrl": "https://chromestatus.com/feature/5610936115134464",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#attribute-case"
+        ]
+      },
+      {
+        "id": 5658873031557120,
+        "name": "Use :focus-visible in the default UA style sheet",
+        "statusUrl": "https://chromestatus.com/feature/5658873031557120",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
+        ]
+      },
+      {
+        "id": 5705677431373824,
+        "name": "Child-indexed pseudo-classes matching elements without a parent",
+        "statusUrl": "https://chromestatus.com/feature/5705677431373824",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#child-index"
+        ]
+      },
+      {
+        "id": 5724922840088576,
+        "name": "CSS Selectors 4 Pseudo-Class :any-link",
+        "statusUrl": "https://chromestatus.com/feature/5724922840088576",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
+        ]
+      },
+      {
+        "id": 5751531651465216,
+        "name": "CSS Selector Pseudo class :dir()",
+        "statusUrl": "https://chromestatus.com/feature/5751531651465216",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-dir-pseudo"
+        ]
+      },
+      {
+        "id": 5794378545102848,
+        "name": ":has() pseudo class",
+        "statusUrl": "https://chromestatus.com/feature/5794378545102848",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors-4/#relational"
+        ]
+      },
+      {
+        "id": 5823526732824576,
+        "name": "CSS Selectors 4 Pseudo-Class :focus-visible",
+        "statusUrl": "https://chromestatus.com/feature/5823526732824576",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
+        ]
+      },
+      {
+        "id": 6404760559157248,
+        "name": "The Placeholder-shown Pseudo-class: :placeholder-shown",
+        "statusUrl": "https://chromestatus.com/feature/6404760559157248",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#placeholder"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-css-selector-:focus-visible",
+        "name": "CSS Selector :focus-visible",
+        "statusUrl": "https://webkit.org/status/#feature-css-selector-:focus-visible",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
+        ]
+      },
+      {
+        "id": "feature-css-selector-:focus-within",
+        "name": "CSS Selector :focus-within",
+        "statusUrl": "https://webkit.org/status/#feature-css-selector-:focus-within",
+        "specUrls": [
+          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
+        ]
+      }
+    ]
+  }
+}

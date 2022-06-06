@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "import-maps",
+        "name": "Import maps",
+        "statusUrl": "https://caniuse.com/import-maps",
+        "specUrls": [
+          "https://wicg.github.io/import-maps/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5315286962012160,
+        "name": "Import maps",
+        "statusUrl": "https://chromestatus.com/feature/5315286962012160",
+        "specUrls": [
+          "https://wicg.github.io/import-maps/"
+        ]
+      }
+    ]
+  }
+}

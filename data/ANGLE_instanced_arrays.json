@@ -1,0 +1,38 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.ANGLE_instanced_arrays",
+        "name": "api.ANGLE_instanced_arrays",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ANGLE_instanced_arrays",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
+        ]
+      },
+      {
+        "id": "api.ANGLE_instanced_arrays.drawArraysInstancedANGLE",
+        "name": "api.ANGLE_instanced_arrays.drawArraysInstancedANGLE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ANGLE_instanced_arrays/drawArraysInstancedANGLE",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
+        ]
+      },
+      {
+        "id": "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
+        "name": "api.ANGLE_instanced_arrays.drawElementsInstancedANGLE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ANGLE_instanced_arrays/drawElementsInstancedANGLE",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
+        ]
+      },
+      {
+        "id": "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE",
+        "name": "api.ANGLE_instanced_arrays.vertexAttribDivisorANGLE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ANGLE_instanced_arrays/vertexAttribDivisorANGLE",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/ANGLE_instanced_arrays/"
+        ]
+      }
+    ]
+  }
+}

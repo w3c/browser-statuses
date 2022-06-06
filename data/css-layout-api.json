@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5673954630959104,
+        "name": "CSS Layout API (Houdini)",
+        "statusUrl": "https://chromestatus.com/feature/5673954630959104",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-layout-api/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-layout-api-level-1",
+        "name": "CSS Layout API Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-layout-api-level-1",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-layout-api/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.offset",
+        "name": "css.properties.offset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.offset-anchor",
+        "name": "css.properties.offset-anchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset-anchor",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-anchor-property"
+        ]
+      },
+      {
+        "id": "css.properties.offset-distance",
+        "name": "css.properties.offset-distance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset-distance",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-distance-property"
+        ]
+      },
+      {
+        "id": "css.properties.offset-path",
+        "name": "css.properties.offset-path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset-path",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-path-property"
+        ]
+      },
+      {
+        "id": "css.properties.offset-position",
+        "name": "css.properties.offset-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset-position",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-position-property"
+        ]
+      },
+      {
+        "id": "css.properties.offset-rotate",
+        "name": "css.properties.offset-rotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/offset-rotate",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion/#offset-rotate-property"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-motion-paths",
+        "name": "CSS Motion Path",
+        "statusUrl": "https://caniuse.com/css-motion-paths",
+        "specUrls": [
+          "https://www.w3.org/TR/motion-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5198375053950976,
+        "name": "Animation for offset-path CSS property",
+        "statusUrl": "https://chromestatus.com/feature/5198375053950976",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion-1/#offset-path-property"
+        ]
+      },
+      {
+        "id": 6390764217040896,
+        "name": "CSS: New names for motion path properties",
+        "statusUrl": "https://chromestatus.com/feature/6390764217040896",
+        "specUrls": [
+          "https://drafts.fxtf.org/motion-1/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-motion-path-module-level-1",
+        "name": "CSS Motion Path Module Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-motion-path-module-level-1",
+        "specUrls": [
+          "https://www.w3.org/TR/motion-1/"
+        ]
+      }
+    ]
+  }
+}

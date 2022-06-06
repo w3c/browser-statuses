@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.OES_texture_float",
+        "name": "api.OES_texture_float",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_texture_float",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_texture_float/"
+        ]
+      },
+      {
+        "id": "api.OES_texture_float_linear",
+        "name": "api.OES_texture_float_linear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_texture_float_linear",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_texture_float_linear/"
+        ]
+      }
+    ]
+  }
+}

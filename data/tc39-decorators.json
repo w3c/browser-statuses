@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "decorators",
+        "name": "Decorators",
+        "statusUrl": "https://caniuse.com/decorators",
+        "specUrls": [
+          "https://github.com/tc39/proposal-decorators"
+        ]
+      }
+    ]
+  }
+}

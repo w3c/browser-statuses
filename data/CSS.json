@@ -1,0 +1,152 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.charset",
+        "name": "css.at-rules.charset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@charset",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#charset①"
+        ]
+      },
+      {
+        "id": "css.properties.border-collapse",
+        "name": "css.properties.border-collapse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-collapse",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#propdef-border-collapse"
+        ]
+      },
+      {
+        "id": "css.properties.border-spacing",
+        "name": "css.properties.border-spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/border-spacing",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#separated-borders"
+        ]
+      },
+      {
+        "id": "css.properties.empty-cells",
+        "name": "css.properties.empty-cells",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/empty-cells",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#empty-cells"
+        ]
+      },
+      {
+        "id": "css.properties.table-layout",
+        "name": "css.properties.table-layout",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/table-layout",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#width-layout"
+        ]
+      },
+      {
+        "id": "css.properties.vertical-align",
+        "name": "css.properties.vertical-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/vertical-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#propdef-vertical-align"
+        ]
+      },
+      {
+        "id": "css.properties.visibility",
+        "name": "css.properties.visibility",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/visibility",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#visibility"
+        ]
+      },
+      {
+        "id": "css.properties.z-index",
+        "name": "css.properties.z-index",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/z-index",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#z-index"
+        ]
+      },
+      {
+        "id": "css.types.shape",
+        "name": "css.types.shape",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/shape",
+        "specUrls": [
+          "https://drafts.csswg.org/css2/#value-def-shape"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-counters",
+        "name": "CSS Counters",
+        "statusUrl": "https://caniuse.com/css-counters",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/generate.html#counters"
+        ]
+      },
+      {
+        "id": "css-fixed",
+        "name": "CSS position:fixed",
+        "statusUrl": "https://caniuse.com/css-fixed",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/visuren.html#fixed-positioning"
+        ]
+      },
+      {
+        "id": "css-gencontent",
+        "name": "CSS Generated content for pseudo-elements",
+        "statusUrl": "https://caniuse.com/css-gencontent",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/generate.html"
+        ]
+      },
+      {
+        "id": "css-letter-spacing",
+        "name": "letter-spacing CSS property",
+        "statusUrl": "https://caniuse.com/css-letter-spacing",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS2/text.html#propdef-letter-spacing"
+        ]
+      },
+      {
+        "id": "css-page-break",
+        "name": "CSS page-break properties",
+        "statusUrl": "https://caniuse.com/css-page-break",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS2/page.html#page-breaks"
+        ]
+      },
+      {
+        "id": "css-sel2",
+        "name": "CSS 2.1 selectors",
+        "statusUrl": "https://caniuse.com/css-sel2",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/selector.html"
+        ]
+      },
+      {
+        "id": "css-table",
+        "name": "CSS Table display",
+        "statusUrl": "https://caniuse.com/css-table",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/tables.html"
+        ]
+      },
+      {
+        "id": "inline-block",
+        "name": "CSS inline-block",
+        "statusUrl": "https://caniuse.com/inline-block",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/visuren.html#fixed-positioning"
+        ]
+      },
+      {
+        "id": "minmaxwh",
+        "name": "CSS min/max-width/height",
+        "statusUrl": "https://caniuse.com/minmaxwh",
+        "specUrls": [
+          "https://www.w3.org/TR/CSS21/visudet.html#min-max-widths"
+        ]
+      }
+    ]
+  }
+}

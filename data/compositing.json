@@ -1,0 +1,90 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.background-blend-mode",
+        "name": "css.properties.background-blend-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/background-blend-mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing/#background-blend-mode"
+        ]
+      },
+      {
+        "id": "css.properties.isolation",
+        "name": "css.properties.isolation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/isolation",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing/#isolation"
+        ]
+      },
+      {
+        "id": "css.properties.mix-blend-mode",
+        "name": "css.properties.mix-blend-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing/#mix-blend-mode"
+        ]
+      },
+      {
+        "id": "css.types.blend-mode",
+        "name": "css.types.blend-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/blend-mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing/#ltblendmodegt"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "canvas-blending",
+        "name": "Canvas blend modes",
+        "statusUrl": "https://caniuse.com/canvas-blending",
+        "specUrls": [
+          "https://www.w3.org/TR/compositing-1/#blending"
+        ]
+      },
+      {
+        "id": "css-backgroundblendmode",
+        "name": "CSS background-blend-mode",
+        "statusUrl": "https://caniuse.com/css-backgroundblendmode",
+        "specUrls": [
+          "https://www.w3.org/TR/compositing-1/#propdef-background-blend-mode"
+        ]
+      },
+      {
+        "id": "css-mixblendmode",
+        "name": "Blending of HTML/SVG elements",
+        "statusUrl": "https://caniuse.com/css-mixblendmode",
+        "specUrls": [
+          "https://www.w3.org/TR/compositing-1/#mix-blend-mode"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5631192349016064,
+        "name": "Interoperable compositing operations for root element",
+        "statusUrl": "https://chromestatus.com/feature/5631192349016064",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing/"
+        ]
+      },
+      {
+        "id": 5677338286096384,
+        "name": "mix-blend-mode: plus-lighter",
+        "statusUrl": "https://chromestatus.com/feature/5677338286096384",
+        "specUrls": [
+          "https://drafts.fxtf.org/compositing-2/#mix-blend-mode"
+        ]
+      },
+      {
+        "id": 6362616360337408,
+        "name": "Blending of HTML and SVG elements",
+        "statusUrl": "https://chromestatus.com/feature/6362616360337408",
+        "specUrls": [
+          "http://www.w3.org/TR/compositing-1/"
+        ]
+      }
+    ]
+  }
+}

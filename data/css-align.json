@@ -1,0 +1,264 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.align-content.flex_context",
+        "name": "css.properties.align-content.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#align-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-content.grid_context",
+        "name": "css.properties.align-content.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#align-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-items.flex_context",
+        "name": "css.properties.align-items.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-items-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-items.grid_context",
+        "name": "css.properties.align-items.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-items-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-self.flex_context",
+        "name": "css.properties.align-self.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-self-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.align-self.grid_context",
+        "name": "css.properties.align-self.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/align-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-self-property",
+          "https://drafts.csswg.org/css-flexbox/#align-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.flex_context",
+        "name": "css.properties.column-gap.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.grid_context",
+        "name": "css.properties.column-gap.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.multicol_context",
+        "name": "css.properties.column-gap.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.gap.flex_context",
+        "name": "css.properties.gap.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#gap-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.gap.grid_context",
+        "name": "css.properties.gap.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#gap-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.gap.multicol_context",
+        "name": "css.properties.gap.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#gap-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.justify-content.flex_context",
+        "name": "css.properties.justify-content.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#justify-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-content.grid_context",
+        "name": "css.properties.justify-content.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#align-justify-content",
+          "https://drafts.csswg.org/css-flexbox/#justify-content-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-items.flex_context",
+        "name": "css.properties.justify-items.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#justify-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-items.grid_context",
+        "name": "css.properties.justify-items.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#justify-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-self.flex_context",
+        "name": "css.properties.justify-self.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#justify-self-property"
+        ]
+      },
+      {
+        "id": "css.properties.justify-self.grid_context",
+        "name": "css.properties.justify-self.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/justify-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#justify-self-property"
+        ]
+      },
+      {
+        "id": "css.properties.place-content",
+        "name": "css.properties.place-content",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/place-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#place-content"
+        ]
+      },
+      {
+        "id": "css.properties.place-items",
+        "name": "css.properties.place-items",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/place-items",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#place-items-property"
+        ]
+      },
+      {
+        "id": "css.properties.place-self",
+        "name": "css.properties.place-self",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/place-self",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#place-self-property"
+        ]
+      },
+      {
+        "id": "css.properties.row-gap.flex_context",
+        "name": "css.properties.row-gap.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap"
+        ]
+      },
+      {
+        "id": "css.properties.row-gap.grid_context",
+        "name": "css.properties.row-gap.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/row-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "flexbox-gap",
+        "name": "gap property for Flexbox",
+        "statusUrl": "https://caniuse.com/flexbox-gap",
+        "specUrls": [
+          "https://www.w3.org/TR/css-align-3/#gaps"
+        ]
+      },
+      {
+        "id": "justify-content-space-evenly",
+        "name": "CSS justify-content: space-evenly",
+        "statusUrl": "https://caniuse.com/justify-content-space-evenly",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align-3/#valdef-align-content-space-evenly"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4689076657586176,
+        "name": "CSS Box Alignment shorthands",
+        "statusUrl": "https://chromestatus.com/feature/4689076657586176",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align-3/"
+        ]
+      },
+      {
+        "id": 5751109557682176,
+        "name": "'legacy' CSS Value for the alignment behavior of HTML’s <center> element ",
+        "statusUrl": "https://chromestatus.com/feature/5751109557682176",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#valdef-justify-items-legacy"
+        ]
+      },
+      {
+        "id": 5777880099323904,
+        "name": "CSS Flexbox: support alignment keywords start, end, self-start, self-end, left, right",
+        "statusUrl": "https://chromestatus.com/feature/5777880099323904",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align-3/#positional-values"
+        ]
+      },
+      {
+        "id": 6031643502444544,
+        "name": "Gutters in flexbox: row-gap and column-gap properties",
+        "statusUrl": "https://chromestatus.com/feature/6031643502444544",
+        "specUrls": [
+          "https://www.w3.org/TR/css-align-3/#column-row-gap"
+        ]
+      },
+      {
+        "id": 6173208034148352,
+        "name": "CSS Box Alignment",
+        "statusUrl": "https://chromestatus.com/feature/6173208034148352",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/"
+        ]
+      }
+    ]
+  }
+}

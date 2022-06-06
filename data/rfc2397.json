@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.data-url",
+        "name": "http.data-url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Basics_of_HTTP/Data_URIs",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc2397#section-2"
+        ]
+      }
+    ]
+  }
+}

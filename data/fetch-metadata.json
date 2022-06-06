@@ -1,0 +1,48 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Sec-Fetch-Dest",
+        "name": "http.headers.Sec-Fetch-Dest",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Dest",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-dest-header"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-Fetch-Mode",
+        "name": "http.headers.Sec-Fetch-Mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-mode-header"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-Fetch-Site",
+        "name": "http.headers.Sec-Fetch-Site",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Site",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-site-header"
+        ]
+      },
+      {
+        "id": "http.headers.Sec-Fetch-User",
+        "name": "http.headers.Sec-Fetch-User",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-user-header"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5206259592593408,
+        "name": "Fetch Metadata Destination header",
+        "statusUrl": "https://chromestatus.com/feature/5206259592593408",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-fetch-metadata/#sec-fetch-dest-header"
+        ]
+      }
+    ]
+  }
+}

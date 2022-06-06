@@ -1,0 +1,30 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5173162437246976,
+        "name": "Multi-Screen Window Placement: Fullscreen Companion Window",
+        "statusUrl": "https://chromestatus.com/feature/5173162437246976",
+        "specUrls": [
+          "https://github.com/w3c/window-placement/blob/main/EXPLAINER_initiating_multi_screen_experiences.md#spec-changes"
+        ]
+      },
+      {
+        "id": 5252960583942144,
+        "name": "Multi-Screen Window Placement",
+        "statusUrl": "https://chromestatus.com/feature/5252960583942144",
+        "specUrls": [
+          "https://w3c.github.io/window-placement/"
+        ]
+      },
+      {
+        "id": 6317530778959872,
+        "name": "Multi-Screen Window Placement: Accurate Screen Labels",
+        "statusUrl": "https://chromestatus.com/feature/6317530778959872",
+        "specUrls": [
+          "https://w3c.github.io/window-placement/#dom-screendetailed-label"
+        ]
+      }
+    ]
+  }
+}

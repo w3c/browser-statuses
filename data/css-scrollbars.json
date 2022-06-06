@@ -1,0 +1,42 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.scrollbar-color",
+        "name": "css.properties.scrollbar-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scrollbars/#scrollbar-color"
+        ]
+      },
+      {
+        "id": "css.properties.scrollbar-width",
+        "name": "css.properties.scrollbar-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scrollbars/#scrollbar-width"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-scrollbar",
+        "name": "CSS scrollbar styling",
+        "statusUrl": "https://caniuse.com/css-scrollbar",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scrollbars-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5665308343795712,
+        "name": "CSS Scrollbars: scrollbar-color, scrollbar-width",
+        "statusUrl": "https://chromestatus.com/feature/5665308343795712",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scrollbars/"
+        ]
+      }
+    ]
+  }
+}

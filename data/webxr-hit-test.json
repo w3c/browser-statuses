@@ -1,0 +1,160 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRFrame.getHitTestResults",
+        "name": "api.XRFrame.getHitTestResults",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResults",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrframe-gethittestresults"
+        ]
+      },
+      {
+        "id": "api.XRFrame.getHitTestResultsForTransientInput",
+        "name": "api.XRFrame.getHitTestResultsForTransientInput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getHitTestResultsForTransientInput",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrframe-gethittestresultsfortransientinput"
+        ]
+      },
+      {
+        "id": "api.XRHitTestResult",
+        "name": "api.XRHitTestResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRHitTestResult",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#xr-hit-test-result-interface"
+        ]
+      },
+      {
+        "id": "api.XRHitTestResult.getPose",
+        "name": "api.XRHitTestResult.getPose",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRHitTestResult/createPose",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrhittestresult-getpose"
+        ]
+      },
+      {
+        "id": "api.XRHitTestSource",
+        "name": "api.XRHitTestSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRHitTestSource",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#hit-test-source-interface"
+        ]
+      },
+      {
+        "id": "api.XRHitTestSource.cancel",
+        "name": "api.XRHitTestSource.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRHitTestSource/cancel",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrhittestsource-cancel"
+        ]
+      },
+      {
+        "id": "api.XRRay",
+        "name": "api.XRRay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRay",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#xrray-interface"
+        ]
+      },
+      {
+        "id": "api.XRRay.XRRay",
+        "name": "api.XRRay.XRRay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRay/XRRay",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrray-xrray"
+        ]
+      },
+      {
+        "id": "api.XRRay.direction",
+        "name": "api.XRRay.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRay/direction",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrray-direction"
+        ]
+      },
+      {
+        "id": "api.XRRay.matrix",
+        "name": "api.XRRay.matrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRay/matrix",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrray-matrix"
+        ]
+      },
+      {
+        "id": "api.XRRay.origin",
+        "name": "api.XRRay.origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRRay/origin",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrray-origin"
+        ]
+      },
+      {
+        "id": "api.XRSession.requestHitTestSource",
+        "name": "api.XRSession.requestHitTestSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/requestHitTestSource",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrsession-requesthittestsource"
+        ]
+      },
+      {
+        "id": "api.XRSession.requestHitTestSourceForTransientInput",
+        "name": "api.XRSession.requestHitTestSourceForTransientInput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/requestHitTestSourceForTransientInput",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrsession-requesthittestsourcefortransientinput"
+        ]
+      },
+      {
+        "id": "api.XRTransientInputHitTestResult",
+        "name": "api.XRTransientInputHitTestResult",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRTransientInputHitTestResult",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#xr-transient-input-hit-test-result-interface"
+        ]
+      },
+      {
+        "id": "api.XRTransientInputHitTestResult.inputSource",
+        "name": "api.XRTransientInputHitTestResult.inputSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRTransientInputHitTestResult/inputSource",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrtransientinputhittestresult-inputsource"
+        ]
+      },
+      {
+        "id": "api.XRTransientInputHitTestResult.results",
+        "name": "api.XRTransientInputHitTestResult.results",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRTransientInputHitTestResult/results",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrtransientinputhittestresult-results"
+        ]
+      },
+      {
+        "id": "api.XRTransientInputHitTestSource",
+        "name": "api.XRTransientInputHitTestSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRTransientInputHitTestSource",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#transient-input-hit-test-source-interface"
+        ]
+      },
+      {
+        "id": "api.XRTransientInputHitTestSource.cancel",
+        "name": "api.XRTransientInputHitTestSource.cancel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRTransientInputHitTestSource/cancel",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/#dom-xrtransientinputhittestsource-cancel"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4755348300759040,
+        "name": "WebXR Hit-test",
+        "statusUrl": "https://chromestatus.com/feature/4755348300759040",
+        "specUrls": [
+          "https://immersive-web.github.io/hit-test/"
+        ]
+      }
+    ]
+  }
+}

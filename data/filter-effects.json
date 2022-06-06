@@ -1,0 +1,2260 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.SVGComponentTransferFunctionElement",
+        "name": "api.SVGComponentTransferFunctionElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGComponentTransferFunctionElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGComponentTransferFunctionElement"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.amplitude",
+        "name": "api.SVGComponentTransferFunctionElement.amplitude",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-amplitude"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.exponent",
+        "name": "api.SVGComponentTransferFunctionElement.exponent",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-exponent"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.intercept",
+        "name": "api.SVGComponentTransferFunctionElement.intercept",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-intercept"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.offset",
+        "name": "api.SVGComponentTransferFunctionElement.offset",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-offset"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.slope",
+        "name": "api.SVGComponentTransferFunctionElement.slope",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-slope"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.tableValues",
+        "name": "api.SVGComponentTransferFunctionElement.tableValues",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-tablevalues"
+        ]
+      },
+      {
+        "id": "api.SVGComponentTransferFunctionElement.type",
+        "name": "api.SVGComponentTransferFunctionElement.type",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgcomponenttransferfunctionelement-type"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement",
+        "name": "api.SVGFEBlendElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEBlendElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEBlendElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.height",
+        "name": "api.SVGFEBlendElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.in1",
+        "name": "api.SVGFEBlendElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.in2",
+        "name": "api.SVGFEBlendElement.in2",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-in2"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.mode",
+        "name": "api.SVGFEBlendElement.mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeblendelement-mode"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.result",
+        "name": "api.SVGFEBlendElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.width",
+        "name": "api.SVGFEBlendElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.x",
+        "name": "api.SVGFEBlendElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEBlendElement.y",
+        "name": "api.SVGFEBlendElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement",
+        "name": "api.SVGFEColorMatrixElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEColorMatrixElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.height",
+        "name": "api.SVGFEColorMatrixElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.in1",
+        "name": "api.SVGFEColorMatrixElement.in1",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.result",
+        "name": "api.SVGFEColorMatrixElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.type",
+        "name": "api.SVGFEColorMatrixElement.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/type",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-type"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.values",
+        "name": "api.SVGFEColorMatrixElement.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEColorMatrixElement/values",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecolormatrixelement-values"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.width",
+        "name": "api.SVGFEColorMatrixElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.x",
+        "name": "api.SVGFEColorMatrixElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEColorMatrixElement.y",
+        "name": "api.SVGFEColorMatrixElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement",
+        "name": "api.SVGFEComponentTransferElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEComponentTransferElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEComponentTransferElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.height",
+        "name": "api.SVGFEComponentTransferElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.in1",
+        "name": "api.SVGFEComponentTransferElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecomponenttransferelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.result",
+        "name": "api.SVGFEComponentTransferElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.width",
+        "name": "api.SVGFEComponentTransferElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.x",
+        "name": "api.SVGFEComponentTransferElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEComponentTransferElement.y",
+        "name": "api.SVGFEComponentTransferElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement",
+        "name": "api.SVGFECompositeElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFECompositeElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFECompositeElement"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.height",
+        "name": "api.SVGFECompositeElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.in1",
+        "name": "api.SVGFECompositeElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.in2",
+        "name": "api.SVGFECompositeElement.in2",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-in2"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.k1",
+        "name": "api.SVGFECompositeElement.k1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k1"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.k2",
+        "name": "api.SVGFECompositeElement.k2",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k2"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.k3",
+        "name": "api.SVGFECompositeElement.k3",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k3"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.k4",
+        "name": "api.SVGFECompositeElement.k4",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-k4"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.operator",
+        "name": "api.SVGFECompositeElement.operator",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfecompositeelement-operator"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.result",
+        "name": "api.SVGFECompositeElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.width",
+        "name": "api.SVGFECompositeElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.x",
+        "name": "api.SVGFECompositeElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFECompositeElement.y",
+        "name": "api.SVGFECompositeElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement",
+        "name": "api.SVGFEConvolveMatrixElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEConvolveMatrixElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEConvolveMatrixElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.bias",
+        "name": "api.SVGFEConvolveMatrixElement.bias",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-bias"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.divisor",
+        "name": "api.SVGFEConvolveMatrixElement.divisor",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-divisor"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.edgeMode",
+        "name": "api.SVGFEConvolveMatrixElement.edgeMode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-edgemode"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.height",
+        "name": "api.SVGFEConvolveMatrixElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.in1",
+        "name": "api.SVGFEConvolveMatrixElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.kernelMatrix",
+        "name": "api.SVGFEConvolveMatrixElement.kernelMatrix",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelmatrix"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.kernelUnitLengthX",
+        "name": "api.SVGFEConvolveMatrixElement.kernelUnitLengthX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthx"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.kernelUnitLengthY",
+        "name": "api.SVGFEConvolveMatrixElement.kernelUnitLengthY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-kernelunitlengthy"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.orderX",
+        "name": "api.SVGFEConvolveMatrixElement.orderX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-orderx"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.orderY",
+        "name": "api.SVGFEConvolveMatrixElement.orderY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-ordery"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.preserveAlpha",
+        "name": "api.SVGFEConvolveMatrixElement.preserveAlpha",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-preservealpha"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.result",
+        "name": "api.SVGFEConvolveMatrixElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.targetX",
+        "name": "api.SVGFEConvolveMatrixElement.targetX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targetx"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.targetY",
+        "name": "api.SVGFEConvolveMatrixElement.targetY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeconvolvematrixelement-targety"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.width",
+        "name": "api.SVGFEConvolveMatrixElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.x",
+        "name": "api.SVGFEConvolveMatrixElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEConvolveMatrixElement.y",
+        "name": "api.SVGFEConvolveMatrixElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement",
+        "name": "api.SVGFEDiffuseLightingElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEDiffuseLightingElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDiffuseLightingElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.diffuseConstant",
+        "name": "api.SVGFEDiffuseLightingElement.diffuseConstant",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-diffuseconstant"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.height",
+        "name": "api.SVGFEDiffuseLightingElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.in1",
+        "name": "api.SVGFEDiffuseLightingElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.kernelUnitLengthX",
+        "name": "api.SVGFEDiffuseLightingElement.kernelUnitLengthX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthx"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.kernelUnitLengthY",
+        "name": "api.SVGFEDiffuseLightingElement.kernelUnitLengthY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-kernelunitlengthy"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.result",
+        "name": "api.SVGFEDiffuseLightingElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.surfaceScale",
+        "name": "api.SVGFEDiffuseLightingElement.surfaceScale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfediffuselightingelement-surfacescale"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.width",
+        "name": "api.SVGFEDiffuseLightingElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.x",
+        "name": "api.SVGFEDiffuseLightingElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEDiffuseLightingElement.y",
+        "name": "api.SVGFEDiffuseLightingElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement",
+        "name": "api.SVGFEDisplacementMapElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEDisplacementMapElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDisplacementMapElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.height",
+        "name": "api.SVGFEDisplacementMapElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.in1",
+        "name": "api.SVGFEDisplacementMapElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.in2",
+        "name": "api.SVGFEDisplacementMapElement.in2",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-in2"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.result",
+        "name": "api.SVGFEDisplacementMapElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.scale",
+        "name": "api.SVGFEDisplacementMapElement.scale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-scale"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.width",
+        "name": "api.SVGFEDisplacementMapElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.x",
+        "name": "api.SVGFEDisplacementMapElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.xChannelSelector",
+        "name": "api.SVGFEDisplacementMapElement.xChannelSelector",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-xchannelselector"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.y",
+        "name": "api.SVGFEDisplacementMapElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEDisplacementMapElement.yChannelSelector",
+        "name": "api.SVGFEDisplacementMapElement.yChannelSelector",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedisplacementmapelement-ychannelselector"
+        ]
+      },
+      {
+        "id": "api.SVGFEDistantLightElement",
+        "name": "api.SVGFEDistantLightElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEDistantLightElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDistantLightElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEDistantLightElement.azimuth",
+        "name": "api.SVGFEDistantLightElement.azimuth",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-azimuth"
+        ]
+      },
+      {
+        "id": "api.SVGFEDistantLightElement.elevation",
+        "name": "api.SVGFEDistantLightElement.elevation",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedistantlightelement-elevation"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement",
+        "name": "api.SVGFEDropShadowElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEDropShadowElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEDropShadowElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.dx",
+        "name": "api.SVGFEDropShadowElement.dx",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dx"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.dy",
+        "name": "api.SVGFEDropShadowElement.dy",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-dy"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.height",
+        "name": "api.SVGFEDropShadowElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.in1",
+        "name": "api.SVGFEDropShadowElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.result",
+        "name": "api.SVGFEDropShadowElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.setStdDeviation",
+        "name": "api.SVGFEDropShadowElement.setStdDeviation",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-setstddeviation"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.stdDeviationX",
+        "name": "api.SVGFEDropShadowElement.stdDeviationX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationx"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.stdDeviationY",
+        "name": "api.SVGFEDropShadowElement.stdDeviationY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfedropshadowelement-stddeviationy"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.width",
+        "name": "api.SVGFEDropShadowElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.x",
+        "name": "api.SVGFEDropShadowElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEDropShadowElement.y",
+        "name": "api.SVGFEDropShadowElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement",
+        "name": "api.SVGFEFloodElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEFloodElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFloodElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement.height",
+        "name": "api.SVGFEFloodElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement.result",
+        "name": "api.SVGFEFloodElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement.width",
+        "name": "api.SVGFEFloodElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement.x",
+        "name": "api.SVGFEFloodElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEFloodElement.y",
+        "name": "api.SVGFEFloodElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEFuncAElement",
+        "name": "api.SVGFEFuncAElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncAElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncAElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEFuncBElement",
+        "name": "api.SVGFEFuncBElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncBElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncBElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEFuncGElement",
+        "name": "api.SVGFEFuncGElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncGElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncGElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEFuncRElement",
+        "name": "api.SVGFEFuncRElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEFuncRElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEFuncRElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement",
+        "name": "api.SVGFEGaussianBlurElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEGaussianBlurElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEGaussianBlurElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.edgeMode",
+        "name": "api.SVGFEGaussianBlurElement.edgeMode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-edgemode"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.height",
+        "name": "api.SVGFEGaussianBlurElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.in1",
+        "name": "api.SVGFEGaussianBlurElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.result",
+        "name": "api.SVGFEGaussianBlurElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.setStdDeviation",
+        "name": "api.SVGFEGaussianBlurElement.setStdDeviation",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-setstddeviation"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.stdDeviationX",
+        "name": "api.SVGFEGaussianBlurElement.stdDeviationX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationx"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.stdDeviationY",
+        "name": "api.SVGFEGaussianBlurElement.stdDeviationY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfegaussianblurelement-stddeviationy"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.width",
+        "name": "api.SVGFEGaussianBlurElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.x",
+        "name": "api.SVGFEGaussianBlurElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEGaussianBlurElement.y",
+        "name": "api.SVGFEGaussianBlurElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement",
+        "name": "api.SVGFEImageElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEImageElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEImageElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.height",
+        "name": "api.SVGFEImageElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.preserveAspectRatio",
+        "name": "api.SVGFEImageElement.preserveAspectRatio",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeimageelement-preserveaspectratio"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.result",
+        "name": "api.SVGFEImageElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.width",
+        "name": "api.SVGFEImageElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.x",
+        "name": "api.SVGFEImageElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.y",
+        "name": "api.SVGFEImageElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement",
+        "name": "api.SVGFEMergeElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement.height",
+        "name": "api.SVGFEMergeElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement.result",
+        "name": "api.SVGFEMergeElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement.width",
+        "name": "api.SVGFEMergeElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement.x",
+        "name": "api.SVGFEMergeElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeElement.y",
+        "name": "api.SVGFEMergeElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeNodeElement",
+        "name": "api.SVGFEMergeNodeElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEMergeNodeElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMergeNodeElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEMergeNodeElement.in1",
+        "name": "api.SVGFEMergeNodeElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfemergenodeelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement",
+        "name": "api.SVGFEMorphologyElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEMorphologyElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEMorphologyElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.height",
+        "name": "api.SVGFEMorphologyElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.in1",
+        "name": "api.SVGFEMorphologyElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.operator",
+        "name": "api.SVGFEMorphologyElement.operator",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-operator"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.radiusX",
+        "name": "api.SVGFEMorphologyElement.radiusX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusx"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.radiusY",
+        "name": "api.SVGFEMorphologyElement.radiusY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfemorphologyelement-radiusy"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.result",
+        "name": "api.SVGFEMorphologyElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.width",
+        "name": "api.SVGFEMorphologyElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.x",
+        "name": "api.SVGFEMorphologyElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEMorphologyElement.y",
+        "name": "api.SVGFEMorphologyElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement",
+        "name": "api.SVGFEOffsetElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEOffsetElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEOffsetElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.dx",
+        "name": "api.SVGFEOffsetElement.dx",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dx"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.dy",
+        "name": "api.SVGFEOffsetElement.dy",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-dy"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.height",
+        "name": "api.SVGFEOffsetElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.in1",
+        "name": "api.SVGFEOffsetElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeoffsetelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.result",
+        "name": "api.SVGFEOffsetElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.width",
+        "name": "api.SVGFEOffsetElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.x",
+        "name": "api.SVGFEOffsetElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEOffsetElement.y",
+        "name": "api.SVGFEOffsetElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEPointLightElement",
+        "name": "api.SVGFEPointLightElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFEPointLightElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFEPointLightElement"
+        ]
+      },
+      {
+        "id": "api.SVGFEPointLightElement.x",
+        "name": "api.SVGFEPointLightElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-x"
+        ]
+      },
+      {
+        "id": "api.SVGFEPointLightElement.y",
+        "name": "api.SVGFEPointLightElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-y"
+        ]
+      },
+      {
+        "id": "api.SVGFEPointLightElement.z",
+        "name": "api.SVGFEPointLightElement.z",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfepointlightelement-z"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement",
+        "name": "api.SVGFESpecularLightingElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFESpecularLightingElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpecularLightingElement"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.height",
+        "name": "api.SVGFESpecularLightingElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.in1",
+        "name": "api.SVGFESpecularLightingElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.kernelUnitLengthX",
+        "name": "api.SVGFESpecularLightingElement.kernelUnitLengthX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthx"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.kernelUnitLengthY",
+        "name": "api.SVGFESpecularLightingElement.kernelUnitLengthY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-kernelunitlengthy"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.result",
+        "name": "api.SVGFESpecularLightingElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.specularConstant",
+        "name": "api.SVGFESpecularLightingElement.specularConstant",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularconstant"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.specularExponent",
+        "name": "api.SVGFESpecularLightingElement.specularExponent",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-specularexponent"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.surfaceScale",
+        "name": "api.SVGFESpecularLightingElement.surfaceScale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespecularlightingelement-surfacescale"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.width",
+        "name": "api.SVGFESpecularLightingElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.x",
+        "name": "api.SVGFESpecularLightingElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFESpecularLightingElement.y",
+        "name": "api.SVGFESpecularLightingElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement",
+        "name": "api.SVGFESpotLightElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFESpotLightElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFESpotLightElement"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.limitingConeAngle",
+        "name": "api.SVGFESpotLightElement.limitingConeAngle",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-limitingconeangle"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.pointsAtX",
+        "name": "api.SVGFESpotLightElement.pointsAtX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatx"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.pointsAtY",
+        "name": "api.SVGFESpotLightElement.pointsAtY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsaty"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.pointsAtZ",
+        "name": "api.SVGFESpotLightElement.pointsAtZ",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-pointsatz"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.specularExponent",
+        "name": "api.SVGFESpotLightElement.specularExponent",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-specularexponent"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.x",
+        "name": "api.SVGFESpotLightElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-x"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.y",
+        "name": "api.SVGFESpotLightElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-y"
+        ]
+      },
+      {
+        "id": "api.SVGFESpotLightElement.z",
+        "name": "api.SVGFESpotLightElement.z",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfespotlightelement-z"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement",
+        "name": "api.SVGFETileElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFETileElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETileElement"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.height",
+        "name": "api.SVGFETileElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.in1",
+        "name": "api.SVGFETileElement.in1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfetileelement-in1"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.result",
+        "name": "api.SVGFETileElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.width",
+        "name": "api.SVGFETileElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.x",
+        "name": "api.SVGFETileElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFETileElement.y",
+        "name": "api.SVGFETileElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement",
+        "name": "api.SVGFETurbulenceElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFETurbulenceElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFETurbulenceElement"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.baseFrequencyX",
+        "name": "api.SVGFETurbulenceElement.baseFrequencyX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyx"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.baseFrequencyY",
+        "name": "api.SVGFETurbulenceElement.baseFrequencyY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-basefrequencyy"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.height",
+        "name": "api.SVGFETurbulenceElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-height"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.numOctaves",
+        "name": "api.SVGFETurbulenceElement.numOctaves",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-numoctaves"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.result",
+        "name": "api.SVGFETurbulenceElement.result",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-result"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.seed",
+        "name": "api.SVGFETurbulenceElement.seed",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-seed"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.stitchTiles",
+        "name": "api.SVGFETurbulenceElement.stitchTiles",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-stitchtiles"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.type",
+        "name": "api.SVGFETurbulenceElement.type",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfeturbulenceelement-type"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.width",
+        "name": "api.SVGFETurbulenceElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-width"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.x",
+        "name": "api.SVGFETurbulenceElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-x"
+        ]
+      },
+      {
+        "id": "api.SVGFETurbulenceElement.y",
+        "name": "api.SVGFETurbulenceElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterprimitivestandardattributes-y"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement",
+        "name": "api.SVGFilterElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFilterElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#InterfaceSVGFilterElement"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.filterUnits",
+        "name": "api.SVGFilterElement.filterUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-filterunits"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.height",
+        "name": "api.SVGFilterElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-height"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.primitiveUnits",
+        "name": "api.SVGFilterElement.primitiveUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-primitiveunits"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.width",
+        "name": "api.SVGFilterElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-width"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.x",
+        "name": "api.SVGFilterElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-x"
+        ]
+      },
+      {
+        "id": "api.SVGFilterElement.y",
+        "name": "api.SVGFilterElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#dom-svgfilterelement-y"
+        ]
+      },
+      {
+        "id": "css.properties.backdrop-filter",
+        "name": "css.properties.backdrop-filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/backdrop-filter",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects-2/#BackdropFilterProperty"
+        ]
+      },
+      {
+        "id": "css.properties.filter",
+        "name": "css.properties.filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#FilterProperty"
+        ]
+      },
+      {
+        "id": "css.types.filter-function",
+        "name": "css.types.filter-function",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#typedef-filter-function"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.blur",
+        "name": "css.types.filter-function.blur",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/blur",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-blur"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.brightness",
+        "name": "css.types.filter-function.brightness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/brightness",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.contrast",
+        "name": "css.types.filter-function.contrast",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/contrast",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-contrast"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.drop-shadow",
+        "name": "css.types.filter-function.drop-shadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/drop-shadow",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-drop-shadow"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.grayscale",
+        "name": "css.types.filter-function.grayscale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/grayscale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-grayscale"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.hue-rotate",
+        "name": "css.types.filter-function.hue-rotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/hue-rotate",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-hue-rotate"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.invert",
+        "name": "css.types.filter-function.invert",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/invert",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-invert"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.opacity",
+        "name": "css.types.filter-function.opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/opacity",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-opacity"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.saturate",
+        "name": "css.types.filter-function.saturate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/saturate",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-saturate"
+        ]
+      },
+      {
+        "id": "css.types.filter-function.sepia",
+        "name": "css.types.filter-function.sepia",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/filter-function/sepia",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-sepia"
+        ]
+      },
+      {
+        "id": "svg.attributes.href",
+        "name": "svg.attributes.href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/href",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href",
+          "https://svgwg.org/specs/animations/#DiscardElementHrefAttribute",
+          "https://svgwg.org/specs/animations/#HrefAttribute",
+          "https://svgwg.org/specs/animations/#MPathElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/struct.html#UseElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementHrefAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.color-interpolation-filters",
+        "name": "svg.attributes.presentation.color-interpolation-filters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/color-interpolation-filters",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#ColorInterpolationFiltersProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.filter",
+        "name": "svg.attributes.presentation.filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/filter",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#FilterProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.flood-color",
+        "name": "svg.attributes.presentation.flood-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/flood-color",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#FloodColorProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.flood-opacity",
+        "name": "svg.attributes.presentation.flood-opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/flood-opacity",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#FloodOpacityProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.lighting-color",
+        "name": "svg.attributes.presentation.lighting-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/lighting-color",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#LightingColorProperty"
+        ]
+      },
+      {
+        "id": "svg.elements.feBlend",
+        "name": "svg.elements.feBlend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feBlend",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feBlendElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feBlend.mode",
+        "name": "svg.elements.feBlend.mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feblend-mode"
+        ]
+      },
+      {
+        "id": "svg.elements.feColorMatrix",
+        "name": "svg.elements.feColorMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feColorMatrix",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feColorMatrixElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feComponentTransfer",
+        "name": "svg.elements.feComponentTransfer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feComponentTransfer",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feComponentTransferElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feComposite",
+        "name": "svg.elements.feComposite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feComposite",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feCompositeElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feComposite.k1",
+        "name": "svg.elements.feComposite.k1",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k1",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k1"
+        ]
+      },
+      {
+        "id": "svg.elements.feComposite.k2",
+        "name": "svg.elements.feComposite.k2",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k2",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k2"
+        ]
+      },
+      {
+        "id": "svg.elements.feComposite.k3",
+        "name": "svg.elements.feComposite.k3",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k3",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k3"
+        ]
+      },
+      {
+        "id": "svg.elements.feComposite.k4",
+        "name": "svg.elements.feComposite.k4",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k4",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fecomposite-k4"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix",
+        "name": "svg.elements.feConvolveMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feConvolveMatrix",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feConvolveMatrixElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.bias",
+        "name": "svg.elements.feConvolveMatrix.bias",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/bias",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-bias"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.divisor",
+        "name": "svg.elements.feConvolveMatrix.divisor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/divisor",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-divisor"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.edgeMode",
+        "name": "svg.elements.feConvolveMatrix.edgeMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/edgeMode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-edgemode"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.in",
+        "name": "svg.elements.feConvolveMatrix.in",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/in",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.kernelMatrix",
+        "name": "svg.elements.feConvolveMatrix.kernelMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/kernelMatrix",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelmatrix"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.kernelUnitLength",
+        "name": "svg.elements.feConvolveMatrix.kernelUnitLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/kernelUnitLength",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-kernelunitlength"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.order",
+        "name": "svg.elements.feConvolveMatrix.order",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/order",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-order"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.preserveAlpha",
+        "name": "svg.elements.feConvolveMatrix.preserveAlpha",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/preserveAlpha",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-preservealpha"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.targetX",
+        "name": "svg.elements.feConvolveMatrix.targetX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/targetX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targetx"
+        ]
+      },
+      {
+        "id": "svg.elements.feConvolveMatrix.targetY",
+        "name": "svg.elements.feConvolveMatrix.targetY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/targetY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feconvolvematrix-targety"
+        ]
+      },
+      {
+        "id": "svg.elements.feDiffuseLighting",
+        "name": "svg.elements.feDiffuseLighting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feDiffuseLighting",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feDiffuseLightingElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feDiffuseLighting.diffuseConstant",
+        "name": "svg.elements.feDiffuseLighting.diffuseConstant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/diffuseConstant",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-diffuseconstant"
+        ]
+      },
+      {
+        "id": "svg.elements.feDiffuseLighting.in",
+        "name": "svg.elements.feDiffuseLighting.in",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/in",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitive-in"
+        ]
+      },
+      {
+        "id": "svg.elements.feDiffuseLighting.kernelUnitLength",
+        "name": "svg.elements.feDiffuseLighting.kernelUnitLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/kernelUnitLength",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-kernelunitlength"
+        ]
+      },
+      {
+        "id": "svg.elements.feDiffuseLighting.surfaceScale",
+        "name": "svg.elements.feDiffuseLighting.surfaceScale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/surfaceScale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fediffuselighting-surfacescale"
+        ]
+      },
+      {
+        "id": "svg.elements.feDisplacementMap",
+        "name": "svg.elements.feDisplacementMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feDisplacementMap",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feDisplacementMapElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feDisplacementMap.scale",
+        "name": "svg.elements.feDisplacementMap.scale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/scale",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-scale"
+        ]
+      },
+      {
+        "id": "svg.elements.feDisplacementMap.xChannelSelector",
+        "name": "svg.elements.feDisplacementMap.xChannelSelector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xChannelSelector",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-xchannelselector"
+        ]
+      },
+      {
+        "id": "svg.elements.feDisplacementMap.yChannelSelector",
+        "name": "svg.elements.feDisplacementMap.yChannelSelector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/yChannelSelector",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedisplacementmap-ychannelselector"
+        ]
+      },
+      {
+        "id": "svg.elements.feDistantLight",
+        "name": "svg.elements.feDistantLight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feDistantLight",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feDistantLightElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feDistantLight.azimuth",
+        "name": "svg.elements.feDistantLight.azimuth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/azimuth",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-azimuth"
+        ]
+      },
+      {
+        "id": "svg.elements.feDistantLight.elevation",
+        "name": "svg.elements.feDistantLight.elevation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/elevation",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fedistantlight-elevation"
+        ]
+      },
+      {
+        "id": "svg.elements.feDropShadow",
+        "name": "svg.elements.feDropShadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feDropShadow",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feDropShadowElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feFlood",
+        "name": "svg.elements.feFlood",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feFlood",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feFloodElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feFuncA",
+        "name": "svg.elements.feFuncA",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feFuncA",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feFuncAElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feFuncB",
+        "name": "svg.elements.feFuncB",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feFuncB",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feFuncBElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feFuncG",
+        "name": "svg.elements.feFuncG",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feFuncG",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feFuncGElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feFuncR",
+        "name": "svg.elements.feFuncR",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feFuncR",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feFuncRElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feGaussianBlur",
+        "name": "svg.elements.feGaussianBlur",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feGaussianBlur",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feGaussianBlurElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feGaussianBlur.stdDeviation",
+        "name": "svg.elements.feGaussianBlur.stdDeviation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stdDeviation",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fegaussianblur-stddeviation"
+        ]
+      },
+      {
+        "id": "svg.elements.feImage",
+        "name": "svg.elements.feImage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feImage",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feImageElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feMerge",
+        "name": "svg.elements.feMerge",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feMerge",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feMergeElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feMergeNode",
+        "name": "svg.elements.feMergeNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feMergeNode",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feMergeNodeElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feMorphology",
+        "name": "svg.elements.feMorphology",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feMorphology",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feMorphologyElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feMorphology.radius",
+        "name": "svg.elements.feMorphology.radius",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/radius",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-femorphology-radius"
+        ]
+      },
+      {
+        "id": "svg.elements.feOffset",
+        "name": "svg.elements.feOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feOffset",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feOffsetElement"
+        ]
+      },
+      {
+        "id": "svg.elements.fePointLight",
+        "name": "svg.elements.fePointLight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/fePointLight",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#fePointLightElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpecularLighting",
+        "name": "svg.elements.feSpecularLighting",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feSpecularLighting",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feSpecularLightingElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpecularLighting.specularConstant",
+        "name": "svg.elements.feSpecularLighting.specularConstant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/specularConstant",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespecularlighting-specularconstant"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpotLight",
+        "name": "svg.elements.feSpotLight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feSpotLight",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feSpotLightElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpotLight.limitingConeAngle",
+        "name": "svg.elements.feSpotLight.limitingConeAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/limitingConeAngle",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-limitingconeangle"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpotLight.pointsAtX",
+        "name": "svg.elements.feSpotLight.pointsAtX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtX",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatx"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpotLight.pointsAtY",
+        "name": "svg.elements.feSpotLight.pointsAtY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtY",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsaty"
+        ]
+      },
+      {
+        "id": "svg.elements.feSpotLight.pointsAtZ",
+        "name": "svg.elements.feSpotLight.pointsAtZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointsAtZ",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-fespotlight-pointsatz"
+        ]
+      },
+      {
+        "id": "svg.elements.feTile",
+        "name": "svg.elements.feTile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feTile",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feTileElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence",
+        "name": "svg.elements.feTurbulence",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/feTurbulence",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#feTurbulenceElement"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence.baseFrequency",
+        "name": "svg.elements.feTurbulence.baseFrequency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/baseFrequency",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-basefrequency"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence.numOctaves",
+        "name": "svg.elements.feTurbulence.numOctaves",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/numOctaves",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-numoctaves"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence.seed",
+        "name": "svg.elements.feTurbulence.seed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/seed",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-seed"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence.stitchTiles",
+        "name": "svg.elements.feTurbulence.stitchTiles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stitchTiles",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-stitchtiles"
+        ]
+      },
+      {
+        "id": "svg.elements.feTurbulence.type",
+        "name": "svg.elements.feTurbulence.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/type",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feturbulence-type"
+        ]
+      },
+      {
+        "id": "svg.elements.filter",
+        "name": "svg.elements.filter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/filter",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#FilterElement"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.filterUnits",
+        "name": "svg.elements.filter.filterUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/filterUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-filterunits"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.height",
+        "name": "svg.elements.filter.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/height",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-height"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.primitiveUnits",
+        "name": "svg.elements.filter.primitiveUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/primitiveUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-primitiveunits"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.width",
+        "name": "svg.elements.filter.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/width",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-width"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.x",
+        "name": "svg.elements.filter.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/x",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-x"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.y",
+        "name": "svg.elements.filter.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/y",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-filter-y"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-backdrop-filter",
+        "name": "CSS Backdrop Filter",
+        "statusUrl": "https://caniuse.com/css-backdrop-filter",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects-2/#BackdropFilterProperty"
+        ]
+      },
+      {
+        "id": "css-filter-function",
+        "name": "CSS filter() function",
+        "statusUrl": "https://caniuse.com/css-filter-function",
+        "specUrls": [
+          "https://www.w3.org/TR/filter-effects/#FilterCSSImageValue"
+        ]
+      },
+      {
+        "id": "css-filters",
+        "name": "CSS Filter Effects",
+        "statusUrl": "https://caniuse.com/css-filters",
+        "specUrls": [
+          "https://www.w3.org/TR/filter-effects-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5076637643177984,
+        "name": "Support for full 'filter' property syntax on SVG elements",
+        "statusUrl": "https://chromestatus.com/feature/5076637643177984",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects-1/"
+        ]
+      },
+      {
+        "id": 5235900443262976,
+        "name": "Remove filterRes attribute",
+        "statusUrl": "https://chromestatus.com/feature/5235900443262976",
+        "specUrls": [
+          "http://www.w3.org/TR/filter-effects/#element-attrdef-filter-filterres"
+        ]
+      },
+      {
+        "id": 5425136400334848,
+        "name": "CSS filter() image function",
+        "statusUrl": "https://chromestatus.com/feature/5425136400334848",
+        "specUrls": [
+          "https://www.w3.org/TR/filter-effects/#FilterCSSImageValue"
+        ]
+      },
+      {
+        "id": 5666287510355968,
+        "name": "Filtered elements establish containing blocks",
+        "statusUrl": "https://chromestatus.com/feature/5666287510355968",
+        "specUrls": [
+          "https://www.w3.org/TR/filter-effects-1/#FilterProperty"
+        ]
+      },
+      {
+        "id": 5708036203085824,
+        "name": "Deprecate and Remove: negative brightness values in filter",
+        "statusUrl": "https://chromestatus.com/feature/5708036203085824",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#funcdef-filter-brightness"
+        ]
+      }
+    ]
+  }
+}

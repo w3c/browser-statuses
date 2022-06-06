@@ -1,0 +1,178 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.aspect-ratio",
+        "name": "css.properties.aspect-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/aspect-ratio",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#aspect-ratio"
+        ]
+      },
+      {
+        "id": "css.properties.box-sizing",
+        "name": "css.properties.box-sizing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/box-sizing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#box-sizing"
+        ]
+      },
+      {
+        "id": "css.properties.column-width",
+        "name": "css.properties.column-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#column-sizing",
+          "https://drafts.csswg.org/css-multicol/#cw"
+        ]
+      },
+      {
+        "id": "css.properties.contain-intrinsic-size",
+        "name": "css.properties.contain-intrinsic-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#propdef-contain-intrinsic-size"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-columns.fit-content",
+        "name": "css.properties.grid-template-columns.fit-content",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/fit-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#sizing-values"
+        ]
+      },
+      {
+        "id": "css.properties.grid-template-rows.fit-content",
+        "name": "css.properties.grid-template-rows.fit-content",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/fit-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#sizing-values"
+        ]
+      },
+      {
+        "id": "css.properties.height",
+        "name": "css.properties.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/height",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#preferred-size-properties"
+        ]
+      },
+      {
+        "id": "css.properties.max-height",
+        "name": "css.properties.max-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/max-height",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#width-height-keywords"
+        ]
+      },
+      {
+        "id": "css.properties.max-width",
+        "name": "css.properties.max-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/max-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#width-height-keywords"
+        ]
+      },
+      {
+        "id": "css.properties.min-height",
+        "name": "css.properties.min-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/min-height",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#width-height-keywords"
+        ]
+      },
+      {
+        "id": "css.properties.min-width",
+        "name": "css.properties.min-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/min-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#min-size-properties"
+        ]
+      },
+      {
+        "id": "css.properties.width",
+        "name": "css.properties.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#width-height-keywords"
+        ]
+      },
+      {
+        "id": "css.properties.width.fit-content",
+        "name": "css.properties.width.fit-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#valdef-width-fit-content"
+        ]
+      },
+      {
+        "id": "css.properties.width.max-content",
+        "name": "css.properties.width.max-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-3/#valdef-width-max-content"
+        ]
+      },
+      {
+        "id": "css.properties.width.min-content",
+        "name": "css.properties.width.min-content",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-3/#valdef-width-min-content"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css3-boxsizing",
+        "name": "CSS3 Box-sizing",
+        "statusUrl": "https://caniuse.com/css3-boxsizing",
+        "specUrls": [
+          "https://www.w3.org/TR/css-sizing/#box-sizing"
+        ]
+      },
+      {
+        "id": "intrinsic-width",
+        "name": "Intrinsic & Extrinsic Sizing",
+        "statusUrl": "https://caniuse.com/intrinsic-width",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-sizing/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5709654999957504,
+        "name": "Logical properties for contain-intrinsic-size",
+        "statusUrl": "https://chromestatus.com/feature/5709654999957504",
+        "specUrls": [
+          "https://www.w3.org/TR/css-sizing-4/#intrinsic-size-override"
+        ]
+      },
+      {
+        "id": 5738050678161408,
+        "name": "CSS aspect-ratio property",
+        "statusUrl": "https://chromestatus.com/feature/5738050678161408",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#aspect-ratio"
+        ]
+      },
+      {
+        "id": 6740477866934272,
+        "name": "auto keyword for contain-intrinsic-size",
+        "statusUrl": "https://chromestatus.com/feature/6740477866934272",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#last-remembered"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-aspect-ratio-property",
+        "name": "CSS Aspect ratio property",
+        "statusUrl": "https://webkit.org/status/#specification-css-aspect-ratio-property",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#aspect-ratio"
+        ]
+      }
+    ]
+  }
+}

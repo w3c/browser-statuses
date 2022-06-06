@@ -1,0 +1,70 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.ETag",
+        "name": "http.headers.ETag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/ETag",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.etag"
+        ]
+      },
+      {
+        "id": "http.headers.If-Match",
+        "name": "http.headers.If-Match",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/If-Match",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.if-match"
+        ]
+      },
+      {
+        "id": "http.headers.If-Modified-Since",
+        "name": "http.headers.If-Modified-Since",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/If-Modified-Since",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.if-modified-since"
+        ]
+      },
+      {
+        "id": "http.headers.If-None-Match",
+        "name": "http.headers.If-None-Match",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/If-None-Match",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.if-none-match"
+        ]
+      },
+      {
+        "id": "http.headers.If-Unmodified-Since",
+        "name": "http.headers.If-Unmodified-Since",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/If-Unmodified-Since",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.if-unmodified-since"
+        ]
+      },
+      {
+        "id": "http.headers.Last-Modified",
+        "name": "http.headers.Last-Modified",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Last-Modified",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#header.last-modified"
+        ]
+      },
+      {
+        "id": "http.status.304",
+        "name": "http.status.304",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/304",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#status.304"
+        ]
+      },
+      {
+        "id": "http.status.412",
+        "name": "http.status.412",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/412",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7232.html#status.412"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.overflow-anchor",
+        "name": "css.properties.overflow-anchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-anchor",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-anchoring/#exclusion-api"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-scroll-anchoring",
+        "name": "Scroll Anchoring",
+        "statusUrl": "https://webkit.org/status/#specification-scroll-anchoring",
+        "specUrls": [
+          "https://www.w3.org/TR/css-scroll-anchoring-1/"
+        ]
+      }
+    ]
+  }
+}

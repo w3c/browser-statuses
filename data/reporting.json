@@ -1,0 +1,182 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Report",
+        "name": "api.Report",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Report",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-report"
+        ]
+      },
+      {
+        "id": "api.Report.body",
+        "name": "api.Report.body",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Report/body",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-report-body"
+        ]
+      },
+      {
+        "id": "api.Report.toJSON",
+        "name": "api.Report.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-report-tojson"
+        ]
+      },
+      {
+        "id": "api.Report.type",
+        "name": "api.Report.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Report/type",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-report-type"
+        ]
+      },
+      {
+        "id": "api.Report.url",
+        "name": "api.Report.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Report/url",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-report-url"
+        ]
+      },
+      {
+        "id": "api.ReportBody",
+        "name": "api.ReportBody",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportBody",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#reportbody"
+        ]
+      },
+      {
+        "id": "api.ReportBody.toJSON",
+        "name": "api.ReportBody.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-reportbody-tojson"
+        ]
+      },
+      {
+        "id": "api.ReportingObserver",
+        "name": "api.ReportingObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportingObserver",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#interface-reporting-observer"
+        ]
+      },
+      {
+        "id": "api.ReportingObserver.ReportingObserver",
+        "name": "api.ReportingObserver.ReportingObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportingObserver/ReportingObserver",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-reportingobserver-reportingobserver"
+        ]
+      },
+      {
+        "id": "api.ReportingObserver.disconnect",
+        "name": "api.ReportingObserver.disconnect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportingObserver/disconnect",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-reportingobserver-disconnect"
+        ]
+      },
+      {
+        "id": "api.ReportingObserver.observe",
+        "name": "api.ReportingObserver.observe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportingObserver/observe",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-reportingobserver-observe"
+        ]
+      },
+      {
+        "id": "api.ReportingObserver.takeRecords",
+        "name": "api.ReportingObserver.takeRecords",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReportingObserver/takeRecords",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#dom-reportingobserver-takerecords"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4510564810227712,
+        "name": "Intervention: Stop loading of non-critical resources on slow pages for data saver users",
+        "statusUrl": "https://chromestatus.com/feature/4510564810227712",
+        "specUrls": [
+          "https://www.w3.org/TR/reporting/#intervention-report"
+        ]
+      },
+      {
+        "id": 4672626140119040,
+        "name": "Reporting API",
+        "statusUrl": "https://chromestatus.com/feature/4672626140119040",
+        "specUrls": [
+          "https://w3c.github.io/reporting/"
+        ]
+      },
+      {
+        "id": 4691191559880704,
+        "name": "ReportingObserver",
+        "statusUrl": "https://chromestatus.com/feature/4691191559880704",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#observers"
+        ]
+      },
+      {
+        "id": 4775088607985664,
+        "name": "Intervention: Disable scripts for Data Saver users on slow connections",
+        "statusUrl": "https://chromestatus.com/feature/4775088607985664",
+        "specUrls": [
+          "https://www.w3.org/TR/reporting/#intervention-report"
+        ]
+      },
+      {
+        "id": 5148050062311424,
+        "name": "Intervention: Rewrite slow pages for Lite Mode (Data Saver) users",
+        "statusUrl": "https://chromestatus.com/feature/5148050062311424",
+        "specUrls": [
+          "https://www.w3.org/TR/reporting/#intervention-report"
+        ]
+      },
+      {
+        "id": 5652647952515072,
+        "name": "Deprecation Reports",
+        "statusUrl": "https://chromestatus.com/feature/5652647952515072",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#deprecation-report"
+        ]
+      },
+      {
+        "id": 5712172409683968,
+        "name": "Reporting API: Isolate reports per-document and support the Reporting-Endpoints header",
+        "statusUrl": "https://chromestatus.com/feature/5712172409683968",
+        "specUrls": [
+          "https://w3c.github.io/reporting/"
+        ]
+      },
+      {
+        "id": 6072546726248448,
+        "name": "Intervention: Image replacement for Data Saver users on slow connections",
+        "statusUrl": "https://chromestatus.com/feature/6072546726248448",
+        "specUrls": [
+          "https://www.w3.org/TR/reporting/#intervention-report"
+        ]
+      },
+      {
+        "id": 6310316751192064,
+        "name": "ReportingObserver on workers",
+        "statusUrl": "https://chromestatus.com/feature/6310316751192064",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#observers"
+        ]
+      },
+      {
+        "id": 6683949661159424,
+        "name": "Crash Reports",
+        "statusUrl": "https://chromestatus.com/feature/6683949661159424",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#crash-report"
+        ]
+      }
+    ]
+  }
+}

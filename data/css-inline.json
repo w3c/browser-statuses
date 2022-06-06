@@ -1,0 +1,85 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.initial-letter",
+        "name": "css.properties.initial-letter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/initial-letter",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#sizing-drop-initials"
+        ]
+      },
+      {
+        "id": "css.properties.initial-letter-align",
+        "name": "css.properties.initial-letter-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/initial-letter-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#aligning-initial-letter"
+        ]
+      },
+      {
+        "id": "css.properties.line-height",
+        "name": "css.properties.line-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/line-height",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#line-height-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.alignment-baseline",
+        "name": "svg.attributes.presentation.alignment-baseline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/alignment-baseline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#alignment-baseline-property",
+          "https://svgwg.org/svg2-draft/text.html#AlignmentBaselineProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.baseline-shift",
+        "name": "svg.attributes.presentation.baseline-shift",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/baseline-shift",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#baseline-shift-property",
+          "https://svgwg.org/svg2-draft/text.html#BaselineShiftProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.dominant-baseline",
+        "name": "svg.attributes.presentation.dominant-baseline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/dominant-baseline",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#DominantBaselineProperty",
+          "https://drafts.csswg.org/css-inline/#dominant-baseline-property"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-initial-letter",
+        "name": "CSS Initial Letter",
+        "statusUrl": "https://caniuse.com/css-initial-letter",
+        "specUrls": [
+          "https://www.w3.org/TR/css-inline/#initial-letter-styling"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-initial-letter",
+        "name": "Initial Letter",
+        "statusUrl": "https://webkit.org/status/#feature-initial-letter",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-inline/#propdef-initial-letter"
+        ]
+      },
+      {
+        "id": "specification-css-inline-layout-module-level-3",
+        "name": "CSS Inline Layout Module Level 3",
+        "statusUrl": "https://webkit.org/status/#specification-css-inline-layout-module-level-3",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-inline/"
+        ]
+      }
+    ]
+  }
+}

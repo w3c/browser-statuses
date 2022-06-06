@@ -1,0 +1,30 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 4733392803332096,
+        "name": "Scroll to Text Fragment",
+        "statusUrl": "https://chromestatus.com/feature/4733392803332096",
+        "specUrls": [
+          "https://wicg.github.io/scroll-to-text-fragment/"
+        ]
+      },
+      {
+        "id": 5679640498667520,
+        "name": "document.fragmentDirective",
+        "statusUrl": "https://chromestatus.com/feature/5679640498667520",
+        "specUrls": [
+          "https://wicg.github.io/scroll-to-text-fragment/#feature-detectability"
+        ]
+      },
+      {
+        "id": 5744681033924608,
+        "name": "Document-Policy: force-load-at-top",
+        "statusUrl": "https://chromestatus.com/feature/5744681033924608",
+        "specUrls": [
+          "https://wicg.github.io/scroll-to-text-fragment/"
+        ]
+      }
+    ]
+  }
+}

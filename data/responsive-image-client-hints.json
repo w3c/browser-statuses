@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5646861215989760,
+        "name": "Viewport-height client hint",
+        "statusUrl": "https://chromestatus.com/feature/5646861215989760",
+        "specUrls": [
+          "https://wicg.github.io/responsive-image-client-hints/#sec-ch-viewport-height"
+        ]
+      }
+    ]
+  }
+}

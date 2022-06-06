@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.NEL",
+        "name": "http.headers.NEL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/NEL",
+        "specUrls": [
+          "https://w3c.github.io/network-error-logging/#nel-response-header"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5391249376804864,
+        "name": "Network Error Logging",
+        "statusUrl": "https://chromestatus.com/feature/5391249376804864",
+        "specUrls": [
+          "https://w3c.github.io/network-error-logging/"
+        ]
+      },
+      {
+        "id": 5687904902840320,
+        "name": "Signed Exchange Reporting for distributors",
+        "statusUrl": "https://chromestatus.com/feature/5687904902840320",
+        "specUrls": [
+          "https://github.com/w3c/network-error-logging/issues/99"
+        ]
+      },
+      {
+        "id": 5707065825689600,
+        "name": "Network Error Logging: request_headers and response_headers",
+        "statusUrl": "https://chromestatus.com/feature/5707065825689600",
+        "specUrls": [
+          "https://w3c.github.io/network-error-logging/#the-request_headers-member"
+        ]
+      }
+    ]
+  }
+}

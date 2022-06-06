@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "caniuse": [
+      {
+        "id": "css-nesting",
+        "name": "CSS Nesting",
+        "statusUrl": "https://caniuse.com/css-nesting",
+        "specUrls": [
+          "https://drafts.csswg.org/css-nesting/"
+        ]
+      }
+    ]
+  }
+}

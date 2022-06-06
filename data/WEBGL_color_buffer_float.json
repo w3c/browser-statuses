@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WEBGL_color_buffer_float",
+        "name": "api.WEBGL_color_buffer_float",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_color_buffer_float",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_color_buffer_float/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.OES_vertex_array_object",
+        "name": "api.OES_vertex_array_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      },
+      {
+        "id": "api.OES_vertex_array_object.bindVertexArrayOES",
+        "name": "api.OES_vertex_array_object.bindVertexArrayOES",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object/bindVertexArrayOES",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      },
+      {
+        "id": "api.OES_vertex_array_object.createVertexArrayOES",
+        "name": "api.OES_vertex_array_object.createVertexArrayOES",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object/createVertexArrayOES",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      },
+      {
+        "id": "api.OES_vertex_array_object.deleteVertexArrayOES",
+        "name": "api.OES_vertex_array_object.deleteVertexArrayOES",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object/deleteVertexArrayOES",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      },
+      {
+        "id": "api.OES_vertex_array_object.isVertexArrayOES",
+        "name": "api.OES_vertex_array_object.isVertexArrayOES",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_vertex_array_object/isVertexArrayOES",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      },
+      {
+        "id": "api.WebGLVertexArrayObjectOES",
+        "name": "api.WebGLVertexArrayObjectOES",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_vertex_array_object/"
+        ]
+      }
+    ]
+  }
+}

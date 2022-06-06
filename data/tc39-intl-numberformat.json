@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.formatRange",
+        "name": "javascript.builtins.Intl.NumberFormat.formatRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRange",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html#sec-intl.numberformat.prototype.formatrange"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.formatRangeToParts",
+        "name": "javascript.builtins.Intl.NumberFormat.formatRangeToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRangeToParts",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-numberformat-v3/out/numberformat/proposed.html#sec-intl.numberformat.prototype.formatrangetoparts"
+        ]
+      }
+    ]
+  }
+}

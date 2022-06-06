@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Intl.PluralRules.selectRange",
+        "name": "javascript.builtins.Intl.PluralRules.selectRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/selectRange",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-numberformat-v3/out/pluralrules/proposed.html#sec-intl.pluralrules.prototype.selectrange"
+        ]
+      }
+    ]
+  }
+}

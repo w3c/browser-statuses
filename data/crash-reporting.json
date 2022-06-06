@@ -1,0 +1,29 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CrashReportBody",
+        "name": "api.CrashReportBody",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CrashReportBody",
+        "specUrls": [
+          "https://wicg.github.io/crash-reporting/#crashreportbody"
+        ]
+      },
+      {
+        "id": "api.CrashReportBody.reason",
+        "name": "api.CrashReportBody.reason",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CrashReportBody/reason",
+        "specUrls": [
+          "https://wicg.github.io/crash-reporting/#dom-crashreportbody-reason"
+        ]
+      },
+      {
+        "id": "api.CrashReportBody.toJSON",
+        "name": "api.CrashReportBody.toJSON",
+        "specUrls": [
+          "https://wicg.github.io/crash-reporting/#dom-crashreportbody-tojson"
+        ]
+      }
+    ]
+  }
+}

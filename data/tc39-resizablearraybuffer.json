@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 4668361878274048,
+        "name": "Resizable ArrayBuffer and growable SharedArrayBuffer",
+        "statusUrl": "https://chromestatus.com/feature/4668361878274048",
+        "specUrls": [
+          "https://tc39.es/proposal-resizablearraybuffer/"
+        ]
+      }
+    ]
+  }
+}

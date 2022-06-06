@@ -1,0 +1,65 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.RTCEncodedAudioFrame.data",
+        "name": "api.RTCEncodedAudioFrame.data",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-data"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedAudioFrame.getMetadata",
+        "name": "api.RTCEncodedAudioFrame.getMetadata",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-getmetadata"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedAudioFrame.timestamp",
+        "name": "api.RTCEncodedAudioFrame.timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedaudioframe-timestamp"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedVideoFrame.data",
+        "name": "api.RTCEncodedVideoFrame.data",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-data"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedVideoFrame.getMetadata",
+        "name": "api.RTCEncodedVideoFrame.getMetadata",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-getmetadata"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedVideoFrame.timestamp",
+        "name": "api.RTCEncodedVideoFrame.timestamp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-timestamp"
+        ]
+      },
+      {
+        "id": "api.RTCEncodedVideoFrame.type",
+        "name": "api.RTCEncodedVideoFrame.type",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-encoded-transform/#dom-rtcencodedvideoframe-type"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6321945865879552,
+        "name": "WebRTC Insertable Streams",
+        "statusUrl": "https://chromestatus.com/feature/6321945865879552",
+        "specUrls": [
+          "https://github.com/w3c/webrtc-encoded-transform/pull/111"
+        ]
+      }
+    ]
+  }
+}

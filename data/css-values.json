@@ -1,0 +1,357 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.media.calc",
+        "name": "css.at-rules.media.calc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/calc()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#calc-notation"
+        ]
+      },
+      {
+        "id": "css.properties.content.url",
+        "name": "css.properties.content.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/url()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#urls"
+        ]
+      },
+      {
+        "id": "css.properties.tab-size.length",
+        "name": "css.properties.tab-size.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/length",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#lengths"
+        ]
+      },
+      {
+        "id": "css.types.angle",
+        "name": "css.types.angle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/angle",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#angles"
+        ]
+      },
+      {
+        "id": "css.types.angle-percentage",
+        "name": "css.types.angle-percentage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/angle-percentage",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#mixed-percentages"
+        ]
+      },
+      {
+        "id": "css.types.attr",
+        "name": "css.types.attr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/attr",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-5/#attr-notation"
+        ]
+      },
+      {
+        "id": "css.types.calc",
+        "name": "css.types.calc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/calc",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#calc-func"
+        ]
+      },
+      {
+        "id": "css.types.clamp",
+        "name": "css.types.clamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/clamp",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#calc-notation"
+        ]
+      },
+      {
+        "id": "css.types.dimension",
+        "name": "css.types.dimension",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/dimension",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#dimensions"
+        ]
+      },
+      {
+        "id": "css.types.frequency",
+        "name": "css.types.frequency",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/frequency",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#frequency"
+        ]
+      },
+      {
+        "id": "css.types.frequency-percentage",
+        "name": "css.types.frequency-percentage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/frequency-percentage",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#mixed-percentages"
+        ]
+      },
+      {
+        "id": "css.types.integer",
+        "name": "css.types.integer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/integer",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#integers"
+        ]
+      },
+      {
+        "id": "css.types.length",
+        "name": "css.types.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/length",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#lengths"
+        ]
+      },
+      {
+        "id": "css.types.length-percentage",
+        "name": "css.types.length-percentage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/length-percentage",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#mixed-percentages"
+        ]
+      },
+      {
+        "id": "css.types.max",
+        "name": "css.types.max",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/max",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#calc-notation"
+        ]
+      },
+      {
+        "id": "css.types.min",
+        "name": "css.types.min",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/min",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#calc-notation"
+        ]
+      },
+      {
+        "id": "css.types.number",
+        "name": "css.types.number",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/number",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#numbers"
+        ]
+      },
+      {
+        "id": "css.types.percentage",
+        "name": "css.types.percentage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/percentage",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#percentages"
+        ]
+      },
+      {
+        "id": "css.types.position",
+        "name": "css.types.position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/position_value",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#position"
+        ]
+      },
+      {
+        "id": "css.types.resolution",
+        "name": "css.types.resolution",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/resolution",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#resolution"
+        ]
+      },
+      {
+        "id": "css.types.string",
+        "name": "css.types.string",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/string",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#strings"
+        ]
+      },
+      {
+        "id": "css.types.time",
+        "name": "css.types.time",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/time",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#time"
+        ]
+      },
+      {
+        "id": "css.types.time-percentage",
+        "name": "css.types.time-percentage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/time-percentage",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#mixed-percentages"
+        ]
+      },
+      {
+        "id": "css.types.url",
+        "name": "css.types.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/url",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#urls"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "calc",
+        "name": "calc() as CSS unit value",
+        "statusUrl": "https://caniuse.com/calc",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-3/#calc-notation"
+        ]
+      },
+      {
+        "id": "ch-unit",
+        "name": "ch (character) unit",
+        "statusUrl": "https://caniuse.com/ch-unit",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-values/#ch"
+        ]
+      },
+      {
+        "id": "css-initial-value",
+        "name": "CSS initial value",
+        "statusUrl": "https://caniuse.com/css-initial-value",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values/#common-keywords"
+        ]
+      },
+      {
+        "id": "css-math-functions",
+        "name": "CSS math functions min(), max() and clamp()",
+        "statusUrl": "https://caniuse.com/css-math-functions",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values-4/#math-function"
+        ]
+      },
+      {
+        "id": "css3-attr",
+        "name": "CSS3 attr() function for all properties",
+        "statusUrl": "https://caniuse.com/css3-attr",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values/#attr-notation"
+        ]
+      },
+      {
+        "id": "rem",
+        "name": "rem (root em) units",
+        "statusUrl": "https://caniuse.com/rem",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-values/#font-relative-lengths"
+        ]
+      },
+      {
+        "id": "viewport-unit-variants",
+        "name": "Large, Small, and Dynamic viewport units",
+        "statusUrl": "https://caniuse.com/viewport-unit-variants",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values-4/#viewport-variants"
+        ]
+      },
+      {
+        "id": "viewport-units",
+        "name": "Viewport units: vw, vh, vmin, vmax",
+        "statusUrl": "https://caniuse.com/viewport-units",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-values/#viewport-relative-lengths"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4680129030651904,
+        "name": "CSS advanced attr() function",
+        "statusUrl": "https://chromestatus.com/feature/4680129030651904",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#attr-notation"
+        ]
+      },
+      {
+        "id": 5116559680864256,
+        "name": "CSS position values with 3 parts",
+        "statusUrl": "https://chromestatus.com/feature/5116559680864256",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#typedef-position"
+        ]
+      },
+      {
+        "id": 5150549246738432,
+        "name": "Support 'x' as a resolution unit",
+        "statusUrl": "https://chromestatus.com/feature/5150549246738432",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#resolution"
+        ]
+      },
+      {
+        "id": 5643732019838976,
+        "name": "CSS calc() in media queries",
+        "statusUrl": "https://chromestatus.com/feature/5643732019838976",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#calc-notation"
+        ]
+      },
+      {
+        "id": 5657825571241984,
+        "name": "Allow infinity, -infinity and NaN in CSS calc()",
+        "statusUrl": "https://chromestatus.com/feature/5657825571241984",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#ref-for-math-function%E2%91%A1%E2%91%A0"
+        ]
+      },
+      {
+        "id": 5682100885782528,
+        "name": "CSS aspect-ratio interpolation",
+        "statusUrl": "https://chromestatus.com/feature/5682100885782528",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#combine-ratio"
+        ]
+      },
+      {
+        "id": 5714277878988800,
+        "name": "CSS min(), max() and clamp()",
+        "statusUrl": "https://chromestatus.com/feature/5714277878988800",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#comp-func"
+        ]
+      },
+      {
+        "id": 5730414630010880,
+        "name": "CSS Values Level 4 Calc Simplification and Serialization",
+        "statusUrl": "https://chromestatus.com/feature/5730414630010880",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#calc-simplification",
+          "https://drafts.csswg.org/css-values-4/#calc-serialize"
+        ]
+      },
+      {
+        "id": 5983903483428864,
+        "name": "CSS 'q' length unit",
+        "statusUrl": "https://chromestatus.com/feature/5983903483428864",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values/#absolute-lengths"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-css-viewport-relative-units",
+        "name": "CSS viewport-relative units",
+        "statusUrl": "https://webkit.org/status/#feature-css-viewport-relative-units",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#viewport-relative-lengths"
+        ]
+      },
+      {
+        "id": "specification-css-values-and-units-module-level-4",
+        "name": "CSS Values and Units Module Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-values-and-units-module-level-4",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/"
+        ]
+      }
+    ]
+  }
+}

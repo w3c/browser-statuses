@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5708770829139968,
+        "name": "Capability Delegation",
+        "statusUrl": "https://chromestatus.com/feature/5708770829139968",
+        "specUrls": [
+          "https://wicg.github.io/capability-delegation/spec.html"
+        ]
+      },
+      {
+        "id": 6441688242323456,
+        "name": "Fullscreen Capability Delegation",
+        "statusUrl": "https://chromestatus.com/feature/6441688242323456",
+        "specUrls": [
+          "https://wicg.github.io/capability-delegation/spec.html"
+        ]
+      }
+    ]
+  }
+}

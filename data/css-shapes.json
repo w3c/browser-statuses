@@ -1,0 +1,117 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.clip-path",
+        "name": "css.properties.clip-path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/clip-path",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-clip-path",
+          "https://drafts.csswg.org/css-shapes/#supported-basic-shapes"
+        ]
+      },
+      {
+        "id": "css.properties.shape-image-threshold",
+        "name": "css.properties.shape-image-threshold",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#shape-image-threshold-property"
+        ]
+      },
+      {
+        "id": "css.properties.shape-margin",
+        "name": "css.properties.shape-margin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/shape-margin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#shape-margin-property"
+        ]
+      },
+      {
+        "id": "css.properties.shape-outside",
+        "name": "css.properties.shape-outside",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/shape-outside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#shape-outside-property"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape",
+        "name": "css.types.basic-shape",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/basic-shape",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#basic-shape-functions"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape.circle",
+        "name": "css.types.basic-shape.circle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/circle",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-circle"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape.ellipse",
+        "name": "css.types.basic-shape.ellipse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/ellipse",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-ellipse"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape.inset",
+        "name": "css.types.basic-shape.inset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/inset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-inset"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape.path",
+        "name": "css.types.basic-shape.path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/path",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-path"
+        ]
+      },
+      {
+        "id": "css.types.basic-shape.polygon",
+        "name": "css.types.basic-shape.polygon",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/basic-shape/polygon",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes/#funcdef-basic-shape-polygon"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-shapes",
+        "name": "CSS Shapes Level 1",
+        "statusUrl": "https://caniuse.com/css-shapes",
+        "specUrls": [
+          "https://www.w3.org/TR/css-shapes/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5226946044624896,
+        "name": "Intent to Deprecate & Remove: Change how New Formatting Contexts sized and positioned off a shape area. ",
+        "statusUrl": "https://chromestatus.com/feature/5226946044624896",
+        "specUrls": [
+          "https://drafts.csswg.org/css-shapes-1"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-shapes-level-1",
+        "name": "CSS Shapes Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-shapes-level-1",
+        "specUrls": [
+          "http://www.w3.org/TR/css-shapes-1/"
+        ]
+      }
+    ]
+  }
+}

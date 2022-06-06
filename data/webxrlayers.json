@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRWebGLBinding",
+        "name": "api.XRWebGLBinding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding",
+        "specUrls": [
+          "https://immersive-web.github.io/layers/#XRWebGLBindingtype"
+        ]
+      },
+      {
+        "id": "api.XRWebGLBinding.XRWebGLBinding",
+        "name": "api.XRWebGLBinding.XRWebGLBinding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/XRWebGLBinding",
+        "specUrls": [
+          "https://immersive-web.github.io/layers/#dom-xrwebglbinding-xrwebglbinding"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5231377798660096,
+        "name": "XRWebGLBinding interface",
+        "statusUrl": "https://chromestatus.com/feature/5231377798660096",
+        "specUrls": [
+          "https://immersive-web.github.io/layers/#XRWebGLBindingtype"
+        ]
+      },
+      {
+        "id": 6287363875536896,
+        "name": "WebXR Layers",
+        "statusUrl": "https://chromestatus.com/feature/6287363875536896",
+        "specUrls": [
+          "https://immersive-web.github.io/layers/"
+        ]
+      }
+    ]
+  }
+}

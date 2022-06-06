@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5644087665360896,
+        "name": "Text Detection API",
+        "statusUrl": "https://chromestatus.com/feature/5644087665360896",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/text.html"
+        ]
+      }
+    ]
+  }
+}

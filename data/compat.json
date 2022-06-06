@@ -1,0 +1,113 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Window.orientation",
+        "name": "api.Window.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/orientation",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#dfn-window-orientation-angle"
+        ]
+      },
+      {
+        "id": "api.Window.orientationchange_event",
+        "name": "api.Window.orientationchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/orientationchange_event",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#event-orientationchange"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.-webkit-device-pixel-ratio",
+        "name": "css.at-rules.media.-webkit-device-pixel-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.-webkit-max-device-pixel-ratio",
+        "name": "css.at-rules.media.-webkit-max-device-pixel-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.-webkit-min-device-pixel-ratio",
+        "name": "css.at-rules.media.-webkit-min-device-pixel-ratio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#css-media-queries-webkit-device-pixel-ratio"
+        ]
+      },
+      {
+        "id": "css.at-rules.media.-webkit-transform-3d",
+        "name": "css.at-rules.media.-webkit-transform-3d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-transform-3d",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#css-media-queries-webkit-transform-3d"
+        ]
+      },
+      {
+        "id": "css.properties.-webkit-text-fill-color",
+        "name": "css.properties.-webkit-text-fill-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-fill-color",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#the-webkit-text-fill-color"
+        ]
+      },
+      {
+        "id": "css.properties.-webkit-text-stroke",
+        "name": "css.properties.-webkit-text-stroke",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#the-webkit-text-stroke"
+        ]
+      },
+      {
+        "id": "css.properties.-webkit-text-stroke-color",
+        "name": "css.properties.-webkit-text-stroke-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-color",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#the-webkit-text-stroke-color"
+        ]
+      },
+      {
+        "id": "css.properties.-webkit-text-stroke-width",
+        "name": "css.properties.-webkit-text-stroke-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/-webkit-text-stroke-width",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#the-webkit-text-stroke-width"
+        ]
+      },
+      {
+        "id": "css.properties.touch-action",
+        "name": "css.properties.touch-action",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/touch-action",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#touch-action",
+          "https://w3c.github.io/pointerevents/#the-touch-action-css-property"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "background-clip-text",
+        "name": "Background-clip: text",
+        "statusUrl": "https://caniuse.com/background-clip-text",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#the-webkit-background-clip-property"
+        ]
+      },
+      {
+        "id": "text-stroke",
+        "name": "CSS text-stroke and text-fill",
+        "statusUrl": "https://caniuse.com/text-stroke",
+        "specUrls": [
+          "https://compat.spec.whatwg.org/#text-fill-and-stroking"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.virtualKeyboard",
+        "name": "api.Navigator.virtualKeyboard",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-navigator-virtualkeyboard"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard",
+        "name": "api.VirtualKeyboard",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#the-virtualkeyboard-interface"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard.boundingRect",
+        "name": "api.VirtualKeyboard.boundingRect",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-boundingrect"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard.geometrychange_event",
+        "name": "api.VirtualKeyboard.geometrychange_event",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-ongeometrychange"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard.hide",
+        "name": "api.VirtualKeyboard.hide",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-hide"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard.overlaysContent",
+        "name": "api.VirtualKeyboard.overlaysContent",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-overlayscontent"
+        ]
+      },
+      {
+        "id": "api.VirtualKeyboard.show",
+        "name": "api.VirtualKeyboard.show",
+        "specUrls": [
+          "https://w3c.github.io/virtual-keyboard/#dom-virtualkeyboard-show"
+        ]
+      }
+    ]
+  }
+}

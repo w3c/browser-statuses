@@ -1,0 +1,895 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CompositionEvent",
+        "name": "api.CompositionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompositionEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-compositionevent"
+        ]
+      },
+      {
+        "id": "api.CompositionEvent.CompositionEvent",
+        "name": "api.CompositionEvent.CompositionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompositionEvent/CompositionEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-compositionevent-compositionevent"
+        ]
+      },
+      {
+        "id": "api.CompositionEvent.data",
+        "name": "api.CompositionEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompositionEvent/data",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-compositionevent-data"
+        ]
+      },
+      {
+        "id": "api.CompositionEvent.initCompositionEvent",
+        "name": "api.CompositionEvent.initCompositionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompositionEvent/initCompositionEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-compositionevent-initcompositionevent"
+        ]
+      },
+      {
+        "id": "api.Document.keydown_event",
+        "name": "api.Document.keydown_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keydown_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keydown"
+        ]
+      },
+      {
+        "id": "api.Document.keypress_event",
+        "name": "api.Document.keypress_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keypress_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keypress"
+        ]
+      },
+      {
+        "id": "api.Document.keyup_event",
+        "name": "api.Document.keyup_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keyup_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keyup"
+        ]
+      },
+      {
+        "id": "api.Document.wheel_event",
+        "name": "api.Document.wheel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/wheel_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-wheel"
+        ]
+      },
+      {
+        "id": "api.Element.DOMActivate_event",
+        "name": "api.Element.DOMActivate_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/DOMActivate_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-DOMActivate"
+        ]
+      },
+      {
+        "id": "api.Element.auxclick_event",
+        "name": "api.Element.auxclick_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/auxclick_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-auxclick"
+        ]
+      },
+      {
+        "id": "api.Element.blur_event",
+        "name": "api.Element.blur_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/blur_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-blur"
+        ]
+      },
+      {
+        "id": "api.Element.click_event",
+        "name": "api.Element.click_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/click_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-click"
+        ]
+      },
+      {
+        "id": "api.Element.compositionend_event",
+        "name": "api.Element.compositionend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/compositionend_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-compositionend"
+        ]
+      },
+      {
+        "id": "api.Element.compositionstart_event",
+        "name": "api.Element.compositionstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/compositionstart_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-compositionstart"
+        ]
+      },
+      {
+        "id": "api.Element.compositionupdate_event",
+        "name": "api.Element.compositionupdate_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/compositionupdate_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-compositionupdate"
+        ]
+      },
+      {
+        "id": "api.Element.contextmenu_event",
+        "name": "api.Element.contextmenu_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/contextmenu_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-contextmenu"
+        ]
+      },
+      {
+        "id": "api.Element.dblclick_event",
+        "name": "api.Element.dblclick_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/dblclick_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-dblclick"
+        ]
+      },
+      {
+        "id": "api.Element.error_event",
+        "name": "api.Element.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/error_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-error"
+        ]
+      },
+      {
+        "id": "api.Element.focus_event",
+        "name": "api.Element.focus_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/focus_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focus"
+        ]
+      },
+      {
+        "id": "api.Element.focusin_event",
+        "name": "api.Element.focusin_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/focusin_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focusin"
+        ]
+      },
+      {
+        "id": "api.Element.focusout_event",
+        "name": "api.Element.focusout_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/focusout_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focusout"
+        ]
+      },
+      {
+        "id": "api.Element.keydown_event",
+        "name": "api.Element.keydown_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keydown_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keydown"
+        ]
+      },
+      {
+        "id": "api.Element.keypress_event",
+        "name": "api.Element.keypress_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keypress_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keypress"
+        ]
+      },
+      {
+        "id": "api.Element.keyup_event",
+        "name": "api.Element.keyup_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keyup_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-keyup"
+        ]
+      },
+      {
+        "id": "api.Element.mousedown_event",
+        "name": "api.Element.mousedown_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mousedown_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mousedown"
+        ]
+      },
+      {
+        "id": "api.Element.mouseenter_event",
+        "name": "api.Element.mouseenter_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseenter_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mouseenter"
+        ]
+      },
+      {
+        "id": "api.Element.mouseleave_event",
+        "name": "api.Element.mouseleave_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseleave_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mouseleave"
+        ]
+      },
+      {
+        "id": "api.Element.mousemove_event",
+        "name": "api.Element.mousemove_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mousemove_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mousemove"
+        ]
+      },
+      {
+        "id": "api.Element.mouseout_event",
+        "name": "api.Element.mouseout_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseout_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mouseout"
+        ]
+      },
+      {
+        "id": "api.Element.mouseover_event",
+        "name": "api.Element.mouseover_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseover_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mouseover"
+        ]
+      },
+      {
+        "id": "api.Element.mouseup_event",
+        "name": "api.Element.mouseup_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseup_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-mouseup"
+        ]
+      },
+      {
+        "id": "api.Element.select_event",
+        "name": "api.Element.select_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/select_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-select"
+        ]
+      },
+      {
+        "id": "api.Element.wheel_event",
+        "name": "api.Element.wheel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/wheel_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-wheel"
+        ]
+      },
+      {
+        "id": "api.FocusEvent",
+        "name": "api.FocusEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FocusEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-focusevent"
+        ]
+      },
+      {
+        "id": "api.FocusEvent.FocusEvent",
+        "name": "api.FocusEvent.FocusEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FocusEvent/FocusEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-focusevent-focusevent"
+        ]
+      },
+      {
+        "id": "api.FocusEvent.relatedTarget",
+        "name": "api.FocusEvent.relatedTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FocusEvent/relatedTarget",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-focusevent-relatedtarget"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onauxclick",
+        "name": "api.GlobalEventHandlers.onauxclick",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onauxclick",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-auxclick"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.beforeinput_event",
+        "name": "api.HTMLElement.beforeinput_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/beforeinput_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-beforeinput"
+        ]
+      },
+      {
+        "id": "api.InputEvent",
+        "name": "api.InputEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent",
+        "specUrls": [
+          "https://w3c.github.io/input-events/#interface-InputEvent",
+          "https://w3c.github.io/uievents/#interface-inputevent"
+        ]
+      },
+      {
+        "id": "api.InputEvent.InputEvent",
+        "name": "api.InputEvent.InputEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/InputEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-inputevent-inputevent"
+        ]
+      },
+      {
+        "id": "api.InputEvent.inputType",
+        "name": "api.InputEvent.inputType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/inputType",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-inputevent-inputtype"
+        ]
+      },
+      {
+        "id": "api.InputEvent.isComposing",
+        "name": "api.InputEvent.isComposing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/isComposing",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-inputevent-iscomposing"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent",
+        "name": "api.KeyboardEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-keyboardevent"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.KeyboardEvent",
+        "name": "api.KeyboardEvent.KeyboardEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/KeyboardEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-keyboardevent"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.altKey",
+        "name": "api.KeyboardEvent.altKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/altKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-altkey"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.charCode",
+        "name": "api.KeyboardEvent.charCode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/charCode",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-charcode"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.code",
+        "name": "api.KeyboardEvent.code",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/code",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-code"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.ctrlKey",
+        "name": "api.KeyboardEvent.ctrlKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/ctrlKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-ctrlkey"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.getModifierState",
+        "name": "api.KeyboardEvent.getModifierState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/getModifierState",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-getmodifierstate"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.initKeyboardEvent",
+        "name": "api.KeyboardEvent.initKeyboardEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-initkeyboardevent"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.isComposing",
+        "name": "api.KeyboardEvent.isComposing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/isComposing",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-iscomposing"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.key",
+        "name": "api.KeyboardEvent.key",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/key",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-key"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.keyCode",
+        "name": "api.KeyboardEvent.keyCode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/keyCode",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-keycode"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.location",
+        "name": "api.KeyboardEvent.location",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/location",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-location"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.metaKey",
+        "name": "api.KeyboardEvent.metaKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/metaKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-metakey"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.repeat",
+        "name": "api.KeyboardEvent.repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/repeat",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-repeat"
+        ]
+      },
+      {
+        "id": "api.KeyboardEvent.shiftKey",
+        "name": "api.KeyboardEvent.shiftKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardEvent/shiftKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-shiftkey"
+        ]
+      },
+      {
+        "id": "api.MouseEvent",
+        "name": "api.MouseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-mouseevent",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-mouseevent-interface"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.MouseEvent",
+        "name": "api.MouseEvent.MouseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/MouseEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-mouseevent"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.altKey",
+        "name": "api.MouseEvent.altKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/altKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-altkey"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.button",
+        "name": "api.MouseEvent.button",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/button",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-button"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.buttons",
+        "name": "api.MouseEvent.buttons",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/buttons",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-buttons"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.clientX",
+        "name": "api.MouseEvent.clientX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/clientX",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-clientx"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.clientY",
+        "name": "api.MouseEvent.clientY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/clientY",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-clienty"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.ctrlKey",
+        "name": "api.MouseEvent.ctrlKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/ctrlKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-ctrlkey"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.getModifierState",
+        "name": "api.MouseEvent.getModifierState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/getModifierState",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-getmodifierstate"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.initMouseEvent",
+        "name": "api.MouseEvent.initMouseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/initMouseEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-initmouseevent"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.metaKey",
+        "name": "api.MouseEvent.metaKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/metaKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-metakey"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.relatedTarget",
+        "name": "api.MouseEvent.relatedTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/relatedTarget",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-relatedtarget"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.screenX",
+        "name": "api.MouseEvent.screenX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenX",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-screenx"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.screenY",
+        "name": "api.MouseEvent.screenY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/screenY",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-screeny"
+        ]
+      },
+      {
+        "id": "api.MouseEvent.shiftKey",
+        "name": "api.MouseEvent.shiftKey",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/shiftKey",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mouseevent-shiftkey"
+        ]
+      },
+      {
+        "id": "api.MutationEvent",
+        "name": "api.MutationEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-mutationevent"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.attrChange",
+        "name": "api.MutationEvent.attrChange",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-attrchange"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.attrName",
+        "name": "api.MutationEvent.attrName",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-attrname"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.initMutationEvent",
+        "name": "api.MutationEvent.initMutationEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-initmutationevent"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.newValue",
+        "name": "api.MutationEvent.newValue",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-newvalue"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.prevValue",
+        "name": "api.MutationEvent.prevValue",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-prevvalue"
+        ]
+      },
+      {
+        "id": "api.MutationEvent.relatedNode",
+        "name": "api.MutationEvent.relatedNode",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-mutationevent-relatednode"
+        ]
+      },
+      {
+        "id": "api.UIEvent",
+        "name": "api.UIEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#idl-uievent"
+        ]
+      },
+      {
+        "id": "api.UIEvent.UIEvent",
+        "name": "api.UIEvent.UIEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/UIEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-uievent"
+        ]
+      },
+      {
+        "id": "api.UIEvent.detail",
+        "name": "api.UIEvent.detail",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/detail",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-detail"
+        ]
+      },
+      {
+        "id": "api.UIEvent.initUIEvent",
+        "name": "api.UIEvent.initUIEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/initUIEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-inituievent"
+        ]
+      },
+      {
+        "id": "api.UIEvent.view",
+        "name": "api.UIEvent.view",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/view",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-view"
+        ]
+      },
+      {
+        "id": "api.UIEvent.which",
+        "name": "api.UIEvent.which",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/UIEvent/which",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-which"
+        ]
+      },
+      {
+        "id": "api.WheelEvent",
+        "name": "api.WheelEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-wheelevent"
+        ]
+      },
+      {
+        "id": "api.WheelEvent.WheelEvent",
+        "name": "api.WheelEvent.WheelEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent/WheelEvent",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-wheelevent-wheelevent"
+        ]
+      },
+      {
+        "id": "api.WheelEvent.deltaMode",
+        "name": "api.WheelEvent.deltaMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaMode",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-wheelevent-deltamode"
+        ]
+      },
+      {
+        "id": "api.WheelEvent.deltaX",
+        "name": "api.WheelEvent.deltaX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaX",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-wheelevent-deltax"
+        ]
+      },
+      {
+        "id": "api.WheelEvent.deltaY",
+        "name": "api.WheelEvent.deltaY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaY",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-wheelevent-deltay"
+        ]
+      },
+      {
+        "id": "api.WheelEvent.deltaZ",
+        "name": "api.WheelEvent.deltaZ",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WheelEvent/deltaZ",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-wheelevent-deltaz"
+        ]
+      },
+      {
+        "id": "api.Window.blur_event",
+        "name": "api.Window.blur_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/blur_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-blur"
+        ]
+      },
+      {
+        "id": "api.Window.error_event",
+        "name": "api.Window.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/error_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-error"
+        ]
+      },
+      {
+        "id": "api.Window.focus_event",
+        "name": "api.Window.focus_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/focus_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focus"
+        ]
+      },
+      {
+        "id": "api.Window.load_event",
+        "name": "api.Window.load_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/load_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-load",
+          "https://html.spec.whatwg.org/multipage/parsing.html#delay-the-load-event"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "auxclick",
+        "name": "Auxclick",
+        "statusUrl": "https://caniuse.com/auxclick",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-auxclick"
+        ]
+      },
+      {
+        "id": "keyboardevent-charcode",
+        "name": "KeyboardEvent.charCode",
+        "statusUrl": "https://caniuse.com/keyboardevent-charcode",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-charcode"
+        ]
+      },
+      {
+        "id": "keyboardevent-code",
+        "name": "KeyboardEvent.code",
+        "statusUrl": "https://caniuse.com/keyboardevent-code",
+        "specUrls": [
+          "https://www.w3.org/TR/uievents/#dom-keyboardevent-code"
+        ]
+      },
+      {
+        "id": "keyboardevent-getmodifierstate",
+        "name": "KeyboardEvent.getModifierState()",
+        "statusUrl": "https://caniuse.com/keyboardevent-getmodifierstate",
+        "specUrls": [
+          "https://www.w3.org/TR/uievents/#dom-keyboardevent-getmodifierstate"
+        ]
+      },
+      {
+        "id": "keyboardevent-key",
+        "name": "KeyboardEvent.key",
+        "statusUrl": "https://caniuse.com/keyboardevent-key",
+        "specUrls": [
+          "https://www.w3.org/TR/uievents/#dom-keyboardevent-key"
+        ]
+      },
+      {
+        "id": "keyboardevent-location",
+        "name": "KeyboardEvent.location",
+        "statusUrl": "https://caniuse.com/keyboardevent-location",
+        "specUrls": [
+          "https://www.w3.org/TR/uievents/#dom-keyboardevent-location"
+        ]
+      },
+      {
+        "id": "keyboardevent-which",
+        "name": "KeyboardEvent.which",
+        "statusUrl": "https://caniuse.com/keyboardevent-which",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-uievent-which"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4997403308457984,
+        "name": "KeyboardEvent.prototype.keyLocation",
+        "statusUrl": "https://chromestatus.com/feature/4997403308457984",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#interface-KeyboardEvent"
+        ]
+      },
+      {
+        "id": 5316065118650368,
+        "name": "Remove KeyEvent.keyIdentifier",
+        "statusUrl": "https://chromestatus.com/feature/5316065118650368",
+        "specUrls": [
+          "https://w3c.github.io/uievents/"
+        ]
+      },
+      {
+        "id": 5593215650496512,
+        "name": "UIEvents Keycap and Locale",
+        "statusUrl": "https://chromestatus.com/feature/5593215650496512",
+        "specUrls": [
+          "http://www.w3.org/TR/uievents/"
+        ]
+      },
+      {
+        "id": 5637291280171008,
+        "name": "KeyboardEventInit keyCode, charCode support",
+        "statusUrl": "https://chromestatus.com/feature/5637291280171008",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#legacy-dictionary-KeyboardEventInit"
+        ]
+      },
+      {
+        "id": 5662574238498816,
+        "name": "MouseEvent.getModifierState",
+        "statusUrl": "https://chromestatus.com/feature/5662574238498816",
+        "specUrls": [
+          "https://w3c.github.io/uievents/"
+        ]
+      },
+      {
+        "id": 5718803933560832,
+        "name": "Do not perform default action on un-trusted events",
+        "statusUrl": "https://chromestatus.com/feature/5718803933560832",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#trusted-events"
+        ]
+      },
+      {
+        "id": 5724163801088000,
+        "name": "MouseEvent.buttons",
+        "statusUrl": "https://chromestatus.com/feature/5724163801088000",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#widl-MouseEvent-buttons"
+        ]
+      },
+      {
+        "id": 5769439450497024,
+        "name": "Remove non-primary button click event",
+        "statusUrl": "https://chromestatus.com/feature/5769439450497024",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-click"
+        ]
+      },
+      {
+        "id": 6598894867709952,
+        "name": "KeyboardEvent.isComposing",
+        "statusUrl": "https://chromestatus.com/feature/6598894867709952",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#dom-keyboardevent-iscomposing"
+        ]
+      }
+    ]
+  }
+}

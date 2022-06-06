@@ -1,0 +1,154 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.-webkit-line-clamp",
+        "name": "css.properties.-webkit-line-clamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#webkit-line-clamp"
+        ]
+      },
+      {
+        "id": "css.properties.overflow",
+        "name": "css.properties.overflow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#propdef-overflow"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-block",
+        "name": "css.properties.overflow-block",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-block",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#logical"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-clip-margin",
+        "name": "css.properties.overflow-clip-margin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-clip-margin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#overflow-clip-margin"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-inline",
+        "name": "css.properties.overflow-inline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-inline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#logical"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-x",
+        "name": "css.properties.overflow-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-x",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#overflow-properties"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-y",
+        "name": "css.properties.overflow-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-y",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#overflow-properties"
+        ]
+      },
+      {
+        "id": "css.properties.scroll-behavior",
+        "name": "css.properties.scroll-behavior",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scroll-behavior",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#smooth-scrolling"
+        ]
+      },
+      {
+        "id": "css.properties.scrollbar-gutter",
+        "name": "css.properties.scrollbar-gutter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/scrollbar-gutter",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#scrollbar-gutter-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-overflow",
+        "name": "css.properties.text-overflow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-overflow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#text-overflow"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-line-clamp",
+        "name": "CSS line-clamp",
+        "statusUrl": "https://caniuse.com/css-line-clamp",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow-3/#propdef--webkit-line-clamp"
+        ]
+      },
+      {
+        "id": "css-overflow",
+        "name": "CSS overflow property",
+        "statusUrl": "https://caniuse.com/css-overflow",
+        "specUrls": [
+          "https://www.w3.org/TR/css-overflow-3/"
+        ]
+      },
+      {
+        "id": "css-scroll-behavior",
+        "name": "CSS Scroll-behavior",
+        "statusUrl": "https://caniuse.com/css-scroll-behavior",
+        "specUrls": [
+          "https://www.w3.org/TR/css-overflow-3/#smooth-scrolling"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5082351989161984,
+        "name": "Support visual-box on overflow-clip-margin",
+        "statusUrl": "https://chromestatus.com/feature/5082351989161984",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#overflow-clip-margin"
+        ]
+      },
+      {
+        "id": 5090725653905408,
+        "name": "Accept two values in the overflow shorthand",
+        "statusUrl": "https://chromestatus.com/feature/5090725653905408",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow-3/#propdef-overflow"
+        ]
+      },
+      {
+        "id": 5638444178997248,
+        "name": "Add support for CSS properties \"overflow: clip\" and \"overflow-clip-margin\"",
+        "statusUrl": "https://chromestatus.com/feature/5638444178997248",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow-3/#valdef-overflow-clip"
+        ]
+      },
+      {
+        "id": 5680142707851264,
+        "name": "-webkit-box quirks from -webkit-line-clamp",
+        "statusUrl": "https://chromestatus.com/feature/5680142707851264",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow-3/#line-clamp"
+        ]
+      },
+      {
+        "id": 5746559209701376,
+        "name": "CSS Overflow: scrollbar-gutter",
+        "statusUrl": "https://chromestatus.com/feature/5746559209701376",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow-4/#scrollbar-gutter-property"
+        ]
+      }
+    ]
+  }
+}

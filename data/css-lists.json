@@ -1,0 +1,104 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.counter-increment",
+        "name": "css.properties.counter-increment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/counter-increment",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#increment-set"
+        ]
+      },
+      {
+        "id": "css.properties.counter-reset",
+        "name": "css.properties.counter-reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/counter-reset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#counter-reset"
+        ]
+      },
+      {
+        "id": "css.properties.counter-reset.reversed",
+        "name": "css.properties.counter-reset.reversed",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#css-counter-reversed"
+        ]
+      },
+      {
+        "id": "css.properties.counter-set",
+        "name": "css.properties.counter-set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/counter-set",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#propdef-counter-set"
+        ]
+      },
+      {
+        "id": "css.properties.list-style",
+        "name": "css.properties.list-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/list-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#list-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.list-style-image",
+        "name": "css.properties.list-style-image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/list-style-image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#image-markers"
+        ]
+      },
+      {
+        "id": "css.properties.list-style-position",
+        "name": "css.properties.list-style-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/list-style-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#list-style-position-property"
+        ]
+      },
+      {
+        "id": "css.properties.list-style-type",
+        "name": "css.properties.list-style-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/list-style-type",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#text-markers",
+          "https://drafts.csswg.org/css-counter-styles/#extending-css2"
+        ]
+      },
+      {
+        "id": "css.types.counter",
+        "name": "css.types.counter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/counter",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#counter-functions"
+        ]
+      },
+      {
+        "id": "css.types.counters",
+        "name": "css.types.counters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/counters",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#counter-functions"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4688138070917120,
+        "name": "CSS counter-set",
+        "statusUrl": "https://chromestatus.com/feature/4688138070917120",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists-3/#propdef-counter-set"
+        ]
+      },
+      {
+        "id": 5893875400966144,
+        "name": "list-style-type: <string>",
+        "statusUrl": "https://chromestatus.com/feature/5893875400966144",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#valdef-list-style-type-string"
+        ]
+      }
+    ]
+  }
+}

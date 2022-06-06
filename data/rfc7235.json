@@ -1,0 +1,46 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Authorization",
+        "name": "http.headers.Authorization",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Authorization",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7235.html#header.authorization"
+        ]
+      },
+      {
+        "id": "http.headers.Proxy-Authenticate",
+        "name": "http.headers.Proxy-Authenticate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Proxy-Authenticate",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7235.html#header.proxy-authenticate"
+        ]
+      },
+      {
+        "id": "http.headers.WWW-Authenticate",
+        "name": "http.headers.WWW-Authenticate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/WWW-Authenticate",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7235.html#header.www-authenticate"
+        ]
+      },
+      {
+        "id": "http.status.401",
+        "name": "http.status.401",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/401",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7235.html#status.401"
+        ]
+      },
+      {
+        "id": "http.status.407",
+        "name": "http.status.407",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/407",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7235.html#status.407"
+        ]
+      }
+    ]
+  }
+}

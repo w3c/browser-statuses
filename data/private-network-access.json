@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5737414355058688,
+        "name": "Private Network Access preflight requests for subresources",
+        "statusUrl": "https://chromestatus.com/feature/5737414355058688",
+        "specUrls": [
+          "https://wicg.github.io/private-network-access/"
+        ]
+      },
+      {
+        "id": 5742979561029632,
+        "name": "Private network access for workers",
+        "statusUrl": "https://chromestatus.com/feature/5742979561029632",
+        "specUrls": [
+          "http://wicg.github.io/private-network-access/"
+        ]
+      }
+    ]
+  }
+}

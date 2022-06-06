@@ -1,0 +1,81 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Connection",
+        "name": "http.headers.Connection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Connection",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.connection"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Length",
+        "name": "http.headers.Content-Length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Length",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.content-length"
+        ]
+      },
+      {
+        "id": "http.headers.Host",
+        "name": "http.headers.Host",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Host",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.host"
+        ]
+      },
+      {
+        "id": "http.headers.Keep-Alive",
+        "name": "http.headers.Keep-Alive",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Keep-Alive",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#compatibility.with.http.1.0.persistent.connections"
+        ]
+      },
+      {
+        "id": "http.headers.TE",
+        "name": "http.headers.TE",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/TE",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.te"
+        ]
+      },
+      {
+        "id": "http.headers.Trailer",
+        "name": "http.headers.Trailer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Trailer",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.trailer",
+          "https://httpwg.org/specs/rfc7230.html#chunked.trailer.part"
+        ]
+      },
+      {
+        "id": "http.headers.Transfer-Encoding",
+        "name": "http.headers.Transfer-Encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Transfer-Encoding",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.transfer-encoding"
+        ]
+      },
+      {
+        "id": "http.headers.Upgrade",
+        "name": "http.headers.Upgrade",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Upgrade",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.upgrade",
+          "https://httpwg.org/specs/rfc7231.html#status.426",
+          "https://httpwg.org/specs/rfc7540.html#informational-responses"
+        ]
+      },
+      {
+        "id": "http.headers.Via",
+        "name": "http.headers.Via",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Via",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7230.html#header.via"
+        ]
+      }
+    ]
+  }
+}

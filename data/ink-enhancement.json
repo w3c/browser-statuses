@@ -1,0 +1,27 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Ink",
+        "name": "api.Ink",
+        "specUrls": [
+          "https://wicg.github.io/ink-enhancement/#ink-interface"
+        ]
+      },
+      {
+        "id": "api.Ink.requestPresenter",
+        "name": "api.Ink.requestPresenter",
+        "specUrls": [
+          "https://wicg.github.io/ink-enhancement/#dom-ink-requestpresenter"
+        ]
+      },
+      {
+        "id": "api.Navigator.ink",
+        "name": "api.Navigator.ink",
+        "specUrls": [
+          "https://wicg.github.io/ink-enhancement/#navigator-interface-extensions"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Forwarded",
+        "name": "http.headers.Forwarded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Forwarded",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc7239#section-4"
+        ]
+      }
+    ]
+  }
+}

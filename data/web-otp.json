@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.OTPCredential",
+        "name": "api.OTPCredential",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OTPCredential",
+        "specUrls": [
+          "https://wicg.github.io/web-otp/#OTPCredential"
+        ]
+      },
+      {
+        "id": "api.OTPCredential.code",
+        "name": "api.OTPCredential.code",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OTPCredential/code",
+        "specUrls": [
+          "https://wicg.github.io/web-otp/#dom-otpcredential-code"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5679508336148480,
+        "name": "WebOTP API: cross-origin iframe support",
+        "statusUrl": "https://chromestatus.com/feature/5679508336148480",
+        "specUrls": [
+          "https://wicg.github.io/web-otp/"
+        ]
+      },
+      {
+        "id": 5702992143581184,
+        "name": "WebOTP API: cross-device support",
+        "statusUrl": "https://chromestatus.com/feature/5702992143581184",
+        "specUrls": [
+          "https://wicg.github.io/web-otp/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.PeriodicSyncEvent",
+        "name": "api.PeriodicSyncEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncEvent",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#periodicsync-event"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncEvent.PeriodicSyncEvent",
+        "name": "api.PeriodicSyncEvent.PeriodicSyncEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncEvent/PeriodicSyncEvent",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-periodicsyncevent-periodicsyncevent"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncEvent.tag",
+        "name": "api.PeriodicSyncEvent.tag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncEvent/tag",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-periodicsyncevent-tag"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncManager",
+        "name": "api.PeriodicSyncManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncManager",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#periodicsyncmanager-interface"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncManager.getTags",
+        "name": "api.PeriodicSyncManager.getTags",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncManager/getTags",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-periodicsyncmanager-gettags"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncManager.register",
+        "name": "api.PeriodicSyncManager.register",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncManager/register",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-periodicsyncmanager-register"
+        ]
+      },
+      {
+        "id": "api.PeriodicSyncManager.unregister",
+        "name": "api.PeriodicSyncManager.unregister",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PeriodicSyncManager/unregister",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-periodicsyncmanager-unregister"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.periodicsync_event",
+        "name": "api.ServiceWorkerGlobalScope.periodicsync_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/periodicsync_event",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#periodicsync-event",
+          "https://wicg.github.io/periodic-background-sync/#dom-serviceworkerglobalscope-onperiodicsync"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.periodicSync",
+        "name": "api.ServiceWorkerRegistration.periodicSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/periodicSync",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/#dom-serviceworkerregistration-periodicsync"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5689383275462656,
+        "name": "Periodic Background Sync",
+        "statusUrl": "https://chromestatus.com/feature/5689383275462656",
+        "specUrls": [
+          "https://wicg.github.io/periodic-background-sync/"
+        ]
+      }
+    ]
+  }
+}

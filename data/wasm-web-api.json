@@ -1,0 +1,32 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.WebAssembly.compileStreaming",
+        "name": "javascript.builtins.WebAssembly.compileStreaming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/compileStreaming",
+        "specUrls": [
+          "https://webassembly.github.io/spec/web-api/#dom-webassembly-compilestreaming"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.instantiateStreaming",
+        "name": "javascript.builtins.WebAssembly.instantiateStreaming",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiateStreaming",
+        "specUrls": [
+          "https://webassembly.github.io/spec/web-api/#dom-webassembly-instantiatestreaming"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6012085880225792,
+        "name": "WebAssembly PostMessage",
+        "statusUrl": "https://chromestatus.com/feature/6012085880225792",
+        "specUrls": [
+          "http://webassembly.github.io/spec/web-api/"
+        ]
+      }
+    ]
+  }
+}

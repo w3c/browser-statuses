@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5712447794053120,
+        "name": "Region Capture",
+        "statusUrl": "https://chromestatus.com/feature/5712447794053120",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-region/"
+        ]
+      }
+    ]
+  }
+}

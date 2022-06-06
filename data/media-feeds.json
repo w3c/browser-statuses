@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5695114963845120,
+        "name": "Media Feeds",
+        "statusUrl": "https://chromestatus.com/feature/5695114963845120",
+        "specUrls": [
+          "https://wicg.github.io/media-feeds/"
+        ]
+      }
+    ]
+  }
+}

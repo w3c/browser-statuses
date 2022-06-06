@@ -1,0 +1,300 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.MIDIAccess",
+        "name": "api.MIDIAccess",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIAccess",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midiaccess-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIAccess.inputs",
+        "name": "api.MIDIAccess.inputs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIAccess/inputs",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiaccess-inputs"
+        ]
+      },
+      {
+        "id": "api.MIDIAccess.outputs",
+        "name": "api.MIDIAccess.outputs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIAccess/outputs",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiaccess-outputs"
+        ]
+      },
+      {
+        "id": "api.MIDIAccess.statechange_event",
+        "name": "api.MIDIAccess.statechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIAccess/statechange_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiaccess-onstatechange"
+        ]
+      },
+      {
+        "id": "api.MIDIAccess.sysexEnabled",
+        "name": "api.MIDIAccess.sysexEnabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIAccess/sysexEnabled",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiaccess-sysexenabled"
+        ]
+      },
+      {
+        "id": "api.MIDIConnectionEvent",
+        "name": "api.MIDIConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIConnectionEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midiconnectionevent-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIConnectionEvent.MIDIConnectionEvent",
+        "name": "api.MIDIConnectionEvent.MIDIConnectionEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIConnectionEvent/MIDIConnectionEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiconnectionevent-constructor"
+        ]
+      },
+      {
+        "id": "api.MIDIConnectionEvent.port",
+        "name": "api.MIDIConnectionEvent.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIConnectionEvent/port",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiconnectionevent-port"
+        ]
+      },
+      {
+        "id": "api.MIDIInput",
+        "name": "api.MIDIInput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIInput",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midiinput-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIInput.midimessage_event",
+        "name": "api.MIDIInput.midimessage_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIInput/midimessage_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiinput-onmidimessage"
+        ]
+      },
+      {
+        "id": "api.MIDIInputMap",
+        "name": "api.MIDIInputMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIInputMap",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midiinputmap-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIMessageEvent",
+        "name": "api.MIDIMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIMessageEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midimessageevent-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIMessageEvent.MIDIMessageEvent",
+        "name": "api.MIDIMessageEvent.MIDIMessageEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIMessageEvent/MIDIMessageEvent",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midimessageevent-constructor"
+        ]
+      },
+      {
+        "id": "api.MIDIMessageEvent.data",
+        "name": "api.MIDIMessageEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIMessageEvent/data",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midimessageevent-data"
+        ]
+      },
+      {
+        "id": "api.MIDIOutput",
+        "name": "api.MIDIOutput",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIOutput",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#MIDIOutput"
+        ]
+      },
+      {
+        "id": "api.MIDIOutput.clear",
+        "name": "api.MIDIOutput.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIOutput/clear",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midioutput-clear"
+        ]
+      },
+      {
+        "id": "api.MIDIOutput.send",
+        "name": "api.MIDIOutput.send",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIOutput/send",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midioutput-send"
+        ]
+      },
+      {
+        "id": "api.MIDIOutputMap",
+        "name": "api.MIDIOutputMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIOutputMap",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#midiinputmap-interface"
+        ]
+      },
+      {
+        "id": "api.MIDIPort",
+        "name": "api.MIDIPort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#MIDIPort"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.close",
+        "name": "api.MIDIPort.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/close",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-close"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.connection",
+        "name": "api.MIDIPort.connection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/connection",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-connection"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.id",
+        "name": "api.MIDIPort.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/id",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-id"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.manufacturer",
+        "name": "api.MIDIPort.manufacturer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/manufacturer",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-manufacturer"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.name",
+        "name": "api.MIDIPort.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/name",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-name"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.open",
+        "name": "api.MIDIPort.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/open",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-open"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.state",
+        "name": "api.MIDIPort.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/state",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-state"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.statechange_event",
+        "name": "api.MIDIPort.statechange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/statechange_event",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-onstatechange"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.type",
+        "name": "api.MIDIPort.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/type",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-type"
+        ]
+      },
+      {
+        "id": "api.MIDIPort.version",
+        "name": "api.MIDIPort.version",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MIDIPort/version",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-midiport-version"
+        ]
+      },
+      {
+        "id": "api.Navigator.requestMIDIAccess",
+        "name": "api.Navigator.requestMIDIAccess",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/requestMIDIAccess",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#dom-navigator-requestmidiaccess"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.midi",
+        "name": "http.headers.Feature-Policy.midi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/midi",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/#permissions-policy-integration"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "midi",
+        "name": "Web MIDI API",
+        "statusUrl": "https://caniuse.com/midi",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4923613069180928,
+        "name": "Web MIDI API",
+        "statusUrl": "https://chromestatus.com/feature/4923613069180928",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/"
+        ]
+      },
+      {
+        "id": 5138066234671104,
+        "name": "Deprecate insecure Web MIDI use",
+        "statusUrl": "https://chromestatus.com/feature/5138066234671104",
+        "specUrls": [
+          "https://webaudio.github.io/web-midi-api/"
+        ]
+      },
+      {
+        "id": 5665772797952000,
+        "name": "Web MIDI MIDIMessageEvent.receivedTime deprecation",
+        "statusUrl": "https://chromestatus.com/feature/5665772797952000",
+        "specUrls": [
+          "http://webaudio.github.io/web-midi-api/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-midi",
+        "name": "Web MIDI",
+        "statusUrl": "https://webkit.org/status/#specification-web-midi",
+        "specUrls": [
+          "https://www.w3.org/TR/webmidi/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLVideoElement.getVideoPlaybackQuality",
+        "name": "api.HTMLVideoElement.getVideoPlaybackQuality",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/getVideoPlaybackQuality",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#dom-htmlvideoelement-getvideoplaybackquality"
+        ]
+      },
+      {
+        "id": "api.VideoPlaybackQuality",
+        "name": "api.VideoPlaybackQuality",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#videoplaybackquality-interface"
+        ]
+      },
+      {
+        "id": "api.VideoPlaybackQuality.corruptedVideoFrames",
+        "name": "api.VideoPlaybackQuality.corruptedVideoFrames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality/corruptedVideoFrames",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-corruptedvideoframes"
+        ]
+      },
+      {
+        "id": "api.VideoPlaybackQuality.creationTime",
+        "name": "api.VideoPlaybackQuality.creationTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality/creationTime",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-creationtime"
+        ]
+      },
+      {
+        "id": "api.VideoPlaybackQuality.droppedVideoFrames",
+        "name": "api.VideoPlaybackQuality.droppedVideoFrames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality/droppedVideoFrames",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-droppedvideoframes"
+        ]
+      },
+      {
+        "id": "api.VideoPlaybackQuality.totalVideoFrames",
+        "name": "api.VideoPlaybackQuality.totalVideoFrames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/VideoPlaybackQuality/totalVideoFrames",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/#dom-videoplaybackquality-totalvideoframes"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5687791428042752,
+        "name": "HTMLVideoElement.getVideoPlaybackQuality()",
+        "statusUrl": "https://chromestatus.com/feature/5687791428042752",
+        "specUrls": [
+          "https://w3c.github.io/media-playback-quality/"
+        ]
+      }
+    ]
+  }
+}

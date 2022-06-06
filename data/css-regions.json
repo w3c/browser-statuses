@@ -1,0 +1,76 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.break-after.multicol_context",
+        "name": "css.properties.break-after.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-after.paged_context",
+        "name": "css.properties.break-after.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.multicol_context",
+        "name": "css.properties.break-before.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.paged_context",
+        "name": "css.properties.break-before.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.multicol_context",
+        "name": "css.properties.break-inside.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.paged_context",
+        "name": "css.properties.break-inside.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-regions",
+        "name": "CSS Regions",
+        "statusUrl": "https://caniuse.com/css-regions",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-regions/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CompressionStream",
+        "name": "api.CompressionStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompressionStream",
+        "specUrls": [
+          "https://wicg.github.io/compression/#compression-stream"
+        ]
+      },
+      {
+        "id": "api.CompressionStream.CompressionStream",
+        "name": "api.CompressionStream.CompressionStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CompressionStream/CompressionStream",
+        "specUrls": [
+          "https://wicg.github.io/compression/#dom-compressionstream-compressionstream"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream",
+        "name": "api.DecompressionStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream",
+        "specUrls": [
+          "https://wicg.github.io/compression/#decompression-stream"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.DecompressionStream",
+        "name": "api.DecompressionStream.DecompressionStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream/DecompressionStream",
+        "specUrls": [
+          "https://wicg.github.io/compression/#dom-decompressionstream-decompressionstream"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5172771293233152,
+        "name": "\"deflate-raw\" compression format",
+        "statusUrl": "https://chromestatus.com/feature/5172771293233152",
+        "specUrls": [
+          "https://wicg.github.io/compression/"
+        ]
+      }
+    ]
+  }
+}

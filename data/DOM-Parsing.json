@@ -1,0 +1,110 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Element",
+        "name": "api.Element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-element",
+          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
+          "https://fullscreen.spec.whatwg.org/#api",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
+          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
+        ]
+      },
+      {
+        "id": "api.Element.innerHTML",
+        "name": "api.Element.innerHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/innerHTML",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#dom-innerhtml-innerhtml"
+        ]
+      },
+      {
+        "id": "api.Element.insertAdjacentHTML",
+        "name": "api.Element.insertAdjacentHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/insertAdjacentHTML",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#dom-element-insertadjacenthtml"
+        ]
+      },
+      {
+        "id": "api.Element.outerHTML",
+        "name": "api.Element.outerHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/outerHTML",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#dom-element-outerhtml"
+        ]
+      },
+      {
+        "id": "api.Range",
+        "name": "api.Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-range",
+          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-range-interface",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface"
+        ]
+      },
+      {
+        "id": "api.Range.createContextualFragment",
+        "name": "api.Range.createContextualFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/createContextualFragment",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#ref-for-dom-range-createcontextualfragment-2"
+        ]
+      },
+      {
+        "id": "api.ShadowRoot.innerHTML",
+        "name": "api.ShadowRoot.innerHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/innerHTML",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#ref-for-dom-innerhtml-innerhtml-2"
+        ]
+      },
+      {
+        "id": "api.XMLSerializer",
+        "name": "api.XMLSerializer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLSerializer",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#the-xmlserializer-interface"
+        ]
+      },
+      {
+        "id": "api.XMLSerializer.XMLSerializer",
+        "name": "api.XMLSerializer.XMLSerializer",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-constructor"
+        ]
+      },
+      {
+        "id": "api.XMLSerializer.serializeToString",
+        "name": "api.XMLSerializer.serializeToString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLSerializer/serializeToString",
+        "specUrls": [
+          "https://w3c.github.io/DOM-Parsing/#dom-xmlserializer-serializetostring"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "insertadjacenthtml",
+        "name": "Element.insertAdjacentHTML()",
+        "statusUrl": "https://caniuse.com/insertadjacenthtml",
+        "specUrls": [
+          "https://www.w3.org/TR/DOM-Parsing/#widl-Element-insertAdjacentHTML-void-DOMString-position-DOMString-text"
+        ]
+      },
+      {
+        "id": "xml-serializer",
+        "name": "DOM Parsing and Serialization",
+        "statusUrl": "https://caniuse.com/xml-serializer",
+        "specUrls": [
+          "https://www.w3.org/TR/DOM-Parsing/"
+        ]
+      }
+    ]
+  }
+}

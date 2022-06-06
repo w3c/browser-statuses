@@ -1,0 +1,62 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.InterventionReportBody",
+        "name": "api.InterventionReportBody",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#intervention-report"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.columnNumber",
+        "name": "api.InterventionReportBody.columnNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/columnNumber",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-columnnumber"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.id",
+        "name": "api.InterventionReportBody.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/id",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-id"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.lineNumber",
+        "name": "api.InterventionReportBody.lineNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/lineNumber",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-linenumber"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.message",
+        "name": "api.InterventionReportBody.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/message",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-message"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.sourceFile",
+        "name": "api.InterventionReportBody.sourceFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/sourceFile",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-sourcefile"
+        ]
+      },
+      {
+        "id": "api.InterventionReportBody.toJSON",
+        "name": "api.InterventionReportBody.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InterventionReportBody/toJSON",
+        "specUrls": [
+          "https://wicg.github.io/intervention-reporting/#dom-interventionreportbody-tojson"
+        ]
+      }
+    ]
+  }
+}

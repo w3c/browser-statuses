@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.status.308",
+        "name": "http.status.308",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/308",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7538.html#status.308"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.WebAssembly",
+        "name": "javascript.builtins.WebAssembly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#webassembly-namespace"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.CompileError",
+        "name": "javascript.builtins.WebAssembly.CompileError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/CompileError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-compileerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.CompileError.CompileError",
+        "name": "javascript.builtins.WebAssembly.CompileError.CompileError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/CompileError/CompileError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-compileerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Exception",
+        "name": "javascript.builtins.WebAssembly.Exception",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Exception",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#runtime-exceptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Exception.Exception",
+        "name": "javascript.builtins.WebAssembly.Exception.Exception",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Exception/Exception",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#dom-exception-exception"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Exception.getArg",
+        "name": "javascript.builtins.WebAssembly.Exception.getArg",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Exception/getArg",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#dom-exception-getarg"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Exception.is",
+        "name": "javascript.builtins.WebAssembly.Exception.is",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Exception/is",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#dom-exception-is"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Global",
+        "name": "javascript.builtins.WebAssembly.Global",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#globals"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Global.Global",
+        "name": "javascript.builtins.WebAssembly.Global.Global",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global/Global",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-global-global"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Global.value",
+        "name": "javascript.builtins.WebAssembly.Global.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global/value",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-global-value"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Global.valueOf",
+        "name": "javascript.builtins.WebAssembly.Global.valueOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global/valueOf",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-global-valueof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Instance",
+        "name": "javascript.builtins.WebAssembly.Instance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#instances"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Instance.Instance",
+        "name": "javascript.builtins.WebAssembly.Instance.Instance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/Instance",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-instance-instance"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Instance.exports",
+        "name": "javascript.builtins.WebAssembly.Instance.exports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/exports",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-instance-exports"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.LinkError",
+        "name": "javascript.builtins.WebAssembly.LinkError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/LinkError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-linkerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.LinkError.LinkError",
+        "name": "javascript.builtins.WebAssembly.LinkError.LinkError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/LinkError/LinkError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-linkerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Memory",
+        "name": "javascript.builtins.WebAssembly.Memory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#memories"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Memory.Memory",
+        "name": "javascript.builtins.WebAssembly.Memory.Memory",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/Memory",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-memory-memory"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Memory.buffer",
+        "name": "javascript.builtins.WebAssembly.Memory.buffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/buffer",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-memory-buffer"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Memory.grow",
+        "name": "javascript.builtins.WebAssembly.Memory.grow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/grow",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-memory-grow"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Module",
+        "name": "javascript.builtins.WebAssembly.Module",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#modules"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Module.Module",
+        "name": "javascript.builtins.WebAssembly.Module.Module",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/Module",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-module-module"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Module.customSections",
+        "name": "javascript.builtins.WebAssembly.Module.customSections",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/customSections",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-module-customsections"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Module.exports",
+        "name": "javascript.builtins.WebAssembly.Module.exports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/exports",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-module-exports"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Module.imports",
+        "name": "javascript.builtins.WebAssembly.Module.imports",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/imports",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-module-imports"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.RuntimeError",
+        "name": "javascript.builtins.WebAssembly.RuntimeError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/RuntimeError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-runtimeerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-native-error-types-used-in-this-standard"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.RuntimeError.RuntimeError",
+        "name": "javascript.builtins.WebAssembly.RuntimeError.RuntimeError",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/RuntimeError/RuntimeError",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#exceptiondef-runtimeerror",
+          "https://tc39.es/ecma262/multipage/fundamental-objects.html#sec-nativeerror-constructors"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table",
+        "name": "javascript.builtins.WebAssembly.Table",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#tables"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table.Table",
+        "name": "javascript.builtins.WebAssembly.Table.Table",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/Table",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-table-table"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table.get",
+        "name": "javascript.builtins.WebAssembly.Table.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/get",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-table-get"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table.grow",
+        "name": "javascript.builtins.WebAssembly.Table.grow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/grow",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-table-grow"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table.length",
+        "name": "javascript.builtins.WebAssembly.Table.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/length",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-table-length"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Table.set",
+        "name": "javascript.builtins.WebAssembly.Table.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/set",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-table-set"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Tag",
+        "name": "javascript.builtins.WebAssembly.Tag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Tag",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#tags"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Tag.Tag",
+        "name": "javascript.builtins.WebAssembly.Tag.Tag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Tag/Tag",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#dom-tag-tag"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.Tag.type",
+        "name": "javascript.builtins.WebAssembly.Tag.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Tag/type",
+        "specUrls": [
+          "https://webassembly.github.io/exception-handling/js-api/#dom-tag-type"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.compile",
+        "name": "javascript.builtins.WebAssembly.compile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/compile",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-webassembly-compile"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.instantiate",
+        "name": "javascript.builtins.WebAssembly.instantiate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-webassembly-instantiate"
+        ]
+      },
+      {
+        "id": "javascript.builtins.WebAssembly.validate",
+        "name": "javascript.builtins.WebAssembly.validate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/validate",
+        "specUrls": [
+          "https://webassembly.github.io/spec/js-api/#dom-webassembly-validate"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4756734233018368,
+        "name": "WebAssembly Exception Handling",
+        "statusUrl": "https://chromestatus.com/feature/4756734233018368",
+        "specUrls": [
+          "https://github.com/WebAssembly/exception-handling"
+        ]
+      }
+    ]
+  }
+}

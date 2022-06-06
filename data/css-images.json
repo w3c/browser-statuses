@@ -1,0 +1,307 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.background-image.element",
+        "name": "css.properties.background-image.element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/element()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#element-notation"
+        ]
+      },
+      {
+        "id": "css.properties.background-image.gradients",
+        "name": "css.properties.background-image.gradients",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#gradients"
+        ]
+      },
+      {
+        "id": "css.properties.background-image.image-set",
+        "name": "css.properties.background-image.image-set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image-set()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#image-set-notation"
+        ]
+      },
+      {
+        "id": "css.properties.image-orientation",
+        "name": "css.properties.image-orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image-orientation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-image-orientation"
+        ]
+      },
+      {
+        "id": "css.properties.image-rendering",
+        "name": "css.properties.image-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image-rendering",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-image-rendering"
+        ]
+      },
+      {
+        "id": "css.properties.object-fit",
+        "name": "css.properties.object-fit",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/object-fit",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-object-fit"
+        ]
+      },
+      {
+        "id": "css.properties.object-position",
+        "name": "css.properties.object-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/object-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-object-position"
+        ]
+      },
+      {
+        "id": "css.properties.shape-outside.gradient",
+        "name": "css.properties.shape-outside.gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#gradients"
+        ]
+      },
+      {
+        "id": "css.properties.shape-outside.image",
+        "name": "css.properties.shape-outside.image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#image-values"
+        ]
+      },
+      {
+        "id": "css.types.image",
+        "name": "css.types.image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#image-values"
+        ]
+      },
+      {
+        "id": "css.types.image.cross-fade",
+        "name": "css.types.image.cross-fade",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/cross-fade",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#cross-fade-function"
+        ]
+      },
+      {
+        "id": "css.types.image.element",
+        "name": "css.types.image.element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/element",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#element-notation"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient",
+        "name": "css.types.image.gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.conic-gradient",
+        "name": "css.types.image.gradient.conic-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/conic-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#conic-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.linear-gradient",
+        "name": "css.types.image.gradient.linear-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/linear-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#linear-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.radial-gradient",
+        "name": "css.types.image.gradient.radial-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/radial-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#radial-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.repeating-conic-gradient",
+        "name": "css.types.image.gradient.repeating-conic-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-conic-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#repeating-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.repeating-linear-gradient",
+        "name": "css.types.image.gradient.repeating-linear-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-linear-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#repeating-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.gradient.repeating-radial-gradient",
+        "name": "css.types.image.gradient.repeating-radial-gradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/gradient/repeating-radial-gradient",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#repeating-gradients"
+        ]
+      },
+      {
+        "id": "css.types.image.image",
+        "name": "css.types.image.image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image/image",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#image-notation"
+        ]
+      },
+      {
+        "id": "css.types.image.image-set",
+        "name": "css.types.image.image-set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/image/image-set",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#image-set-notation"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.image-rendering",
+        "name": "svg.attributes.presentation.image-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-image-rendering",
+          "https://svgwg.org/svg2-draft/painting.html#ImageRendering"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-conic-gradients",
+        "name": "CSS Conical Gradients",
+        "statusUrl": "https://caniuse.com/css-conic-gradients",
+        "specUrls": [
+          "https://www.w3.org/TR/css-images-4/#conic-gradients"
+        ]
+      },
+      {
+        "id": "css-crisp-edges",
+        "name": "Crisp edges/pixelated images",
+        "statusUrl": "https://caniuse.com/css-crisp-edges",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-3/#valdef-image-rendering-crisp-edges"
+        ]
+      },
+      {
+        "id": "css-cross-fade",
+        "name": "CSS Cross-Fade Function",
+        "statusUrl": "https://caniuse.com/css-cross-fade",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#cross-fade-function"
+        ]
+      },
+      {
+        "id": "css-gradients",
+        "name": "CSS Gradients",
+        "statusUrl": "https://caniuse.com/css-gradients",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-images/"
+        ]
+      },
+      {
+        "id": "css-image-orientation",
+        "name": "CSS3 image-orientation",
+        "statusUrl": "https://caniuse.com/css-image-orientation",
+        "specUrls": [
+          "https://www.w3.org/TR/css-images-3/#the-image-orientation"
+        ]
+      },
+      {
+        "id": "css-image-set",
+        "name": "CSS image-set",
+        "statusUrl": "https://caniuse.com/css-image-set",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#image-set-notation"
+        ]
+      },
+      {
+        "id": "css-repeating-gradients",
+        "name": "CSS Repeating Gradients",
+        "statusUrl": "https://caniuse.com/css-repeating-gradients",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-images/#repeating-gradients"
+        ]
+      },
+      {
+        "id": "object-fit",
+        "name": "CSS3 object-fit/object-position",
+        "statusUrl": "https://caniuse.com/object-fit",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-images/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5118058116939776,
+        "name": "image-rendering: pixelated",
+        "statusUrl": "https://chromestatus.com/feature/5118058116939776",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-images-3/#the-image-rendering"
+        ]
+      },
+      {
+        "id": 5213032857731072,
+        "name": "CSS object-view-box",
+        "statusUrl": "https://chromestatus.com/feature/5213032857731072",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#the-object-view-box"
+        ]
+      },
+      {
+        "id": 5302669702856704,
+        "name": "CSS object-fit and object-position",
+        "statusUrl": "https://chromestatus.com/feature/5302669702856704",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-images-3/#the-object-fit"
+        ]
+      },
+      {
+        "id": 5432024223449088,
+        "name": "Unprefix webkit-image-set and update syntax per spec",
+        "statusUrl": "https://chromestatus.com/feature/5432024223449088",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#image-set-notation"
+        ]
+      },
+      {
+        "id": 5706155347148800,
+        "name": "CSS conic-gradient",
+        "statusUrl": "https://chromestatus.com/feature/5706155347148800",
+        "specUrls": [
+          "https://www.w3.org/TR/css-images-4/#conic-gradients"
+        ]
+      },
+      {
+        "id": 5712111258828800,
+        "name": "CSS gradient color stop double-position syntax",
+        "statusUrl": "https://chromestatus.com/feature/5712111258828800",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images-4/#color-stop-syntax"
+        ]
+      },
+      {
+        "id": 6313474512650240,
+        "name": "Support for CSS image-orientation property",
+        "statusUrl": "https://chromestatus.com/feature/6313474512650240",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-image-orientation"
+        ]
+      }
+    ]
+  }
+}

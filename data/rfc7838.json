@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Alt-Svc",
+        "name": "http.headers.Alt-Svc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Alt-Svc",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7838.html#alt-svc"
+        ]
+      }
+    ]
+  }
+}

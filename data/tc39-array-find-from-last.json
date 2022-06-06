@@ -1,0 +1,48 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Array.findLast",
+        "name": "javascript.builtins.Array.findLast",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/findLast",
+        "specUrls": [
+          "https://tc39.es/proposal-array-find-from-last/#sec-array.prototype.findlast"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Array.findLastIndex",
+        "name": "javascript.builtins.Array.findLastIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/findLastIndex",
+        "specUrls": [
+          "https://tc39.es/proposal-array-find-from-last/#sec-array.prototype.findlastindex"
+        ]
+      },
+      {
+        "id": "javascript.builtins.TypedArray.findLast",
+        "name": "javascript.builtins.TypedArray.findLast",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findLast",
+        "specUrls": [
+          "https://tc39.es/proposal-array-find-from-last/#sec-%typedarray%.prototype.findlast"
+        ]
+      },
+      {
+        "id": "javascript.builtins.TypedArray.findLastIndex",
+        "name": "javascript.builtins.TypedArray.findLastIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findLastIndex",
+        "specUrls": [
+          "https://tc39.es/proposal-array-find-from-last/#sec-%typedarray%.prototype.findlastindex"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5693639729610752,
+        "name": "Array and TypedArray findLast and findLastIndex",
+        "statusUrl": "https://chromestatus.com/feature/5693639729610752",
+        "specUrls": [
+          "https://tc39.es/proposal-array-find-from-last/index.html"
+        ]
+      }
+    ]
+  }
+}

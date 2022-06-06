@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 4506375298220032,
+        "name": "Extend Intl.DateTimeFormat timeZoneName Option",
+        "statusUrl": "https://chromestatus.com/feature/4506375298220032",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-extend-timezonename/"
+        ]
+      }
+    ]
+  }
+}

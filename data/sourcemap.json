@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.SourceMap",
+        "name": "http.headers.SourceMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/SourceMap",
+        "specUrls": [
+          "https://sourcemaps.info/spec.html#h.lmz475t4mvbx"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5719474055413760,
+        "name": "WebXR hand input module - Level 1",
+        "statusUrl": "https://chromestatus.com/feature/5719474055413760",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-hand-input/"
+        ]
+      }
+    ]
+  }
+}

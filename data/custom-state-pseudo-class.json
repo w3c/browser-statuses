@@ -1,0 +1,37 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CustomStateSet",
+        "name": "api.CustomStateSet",
+        "specUrls": [
+          "https://wicg.github.io/custom-state-pseudo-class/#customstateset"
+        ]
+      },
+      {
+        "id": "api.CustomStateSet.add",
+        "name": "api.CustomStateSet.add",
+        "specUrls": [
+          "https://wicg.github.io/custom-state-pseudo-class/#dom-customstateset-add"
+        ]
+      },
+      {
+        "id": "api.ElementInternals.states",
+        "name": "api.ElementInternals.states",
+        "specUrls": [
+          "https://wicg.github.io/custom-state-pseudo-class/#dom-elementinternals-states"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6537562418053120,
+        "name": "Custom state pseudo class",
+        "statusUrl": "https://chromestatus.com/feature/6537562418053120",
+        "specUrls": [
+          "https://wicg.github.io/custom-state-pseudo-class/"
+        ]
+      }
+    ]
+  }
+}

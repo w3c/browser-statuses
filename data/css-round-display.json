@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5167313951129600,
+        "name": "Media Queries: shape feature",
+        "statusUrl": "https://chromestatus.com/feature/5167313951129600",
+        "specUrls": [
+          "https://www.w3.org/TR/css-round-display-1/#shape-media-feature"
+        ]
+      }
+    ]
+  }
+}

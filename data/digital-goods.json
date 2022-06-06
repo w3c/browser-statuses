@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5339955595313152,
+        "name": "Digital Goods API",
+        "statusUrl": "https://chromestatus.com/feature/5339955595313152",
+        "specUrls": [
+          "https://wicg.github.io/digital-goods/"
+        ]
+      }
+    ]
+  }
+}

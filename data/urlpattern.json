@@ -1,0 +1,112 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.URLPattern",
+        "name": "api.URLPattern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#urlpattern"
+        ]
+      },
+      {
+        "id": "api.URLPattern.URLPattern",
+        "name": "api.URLPattern.URLPattern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/URLPattern",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-urlpattern"
+        ]
+      },
+      {
+        "id": "api.URLPattern.exec",
+        "name": "api.URLPattern.exec",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/exec",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-exec"
+        ]
+      },
+      {
+        "id": "api.URLPattern.hash",
+        "name": "api.URLPattern.hash",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/hash",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-hash"
+        ]
+      },
+      {
+        "id": "api.URLPattern.hostname",
+        "name": "api.URLPattern.hostname",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/hostname",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-hostname"
+        ]
+      },
+      {
+        "id": "api.URLPattern.password",
+        "name": "api.URLPattern.password",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/password",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-password"
+        ]
+      },
+      {
+        "id": "api.URLPattern.pathname",
+        "name": "api.URLPattern.pathname",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/pathname",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-pathname"
+        ]
+      },
+      {
+        "id": "api.URLPattern.port",
+        "name": "api.URLPattern.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/port",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-port"
+        ]
+      },
+      {
+        "id": "api.URLPattern.protocol",
+        "name": "api.URLPattern.protocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/protocol",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-protocol"
+        ]
+      },
+      {
+        "id": "api.URLPattern.search",
+        "name": "api.URLPattern.search",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/search",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-search"
+        ]
+      },
+      {
+        "id": "api.URLPattern.test",
+        "name": "api.URLPattern.test",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/test",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-test"
+        ]
+      },
+      {
+        "id": "api.URLPattern.username",
+        "name": "api.URLPattern.username",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLPattern/username",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/#dom-urlpattern-username"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5731920199548928,
+        "name": "URLPattern",
+        "statusUrl": "https://chromestatus.com/feature/5731920199548928",
+        "specUrls": [
+          "https://wicg.github.io/urlpattern/"
+        ]
+      }
+    ]
+  }
+}

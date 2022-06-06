@@ -1,0 +1,15 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Cache-Control",
+        "name": "http.headers.Cache-Control",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cache-Control",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7234.html#header.cache-control",
+          "https://httpwg.org/specs/rfc8246.html#the-immutable-cache-control-extension"
+        ]
+      }
+    ]
+  }
+}

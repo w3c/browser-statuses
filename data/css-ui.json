@@ -1,0 +1,289 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.accent-color",
+        "name": "css.properties.accent-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/accent-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#widget-accent"
+        ]
+      },
+      {
+        "id": "css.properties.appearance",
+        "name": "css.properties.appearance",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/appearance",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#appearance-switching"
+        ]
+      },
+      {
+        "id": "css.properties.caret-color",
+        "name": "css.properties.caret-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/caret-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#caret-color"
+        ]
+      },
+      {
+        "id": "css.properties.cursor",
+        "name": "css.properties.cursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/cursor",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#cursor"
+        ]
+      },
+      {
+        "id": "css.properties.ime-mode",
+        "name": "css.properties.ime-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/ime-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#input-method-editor"
+        ]
+      },
+      {
+        "id": "css.properties.outline",
+        "name": "css.properties.outline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/outline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#outline"
+        ]
+      },
+      {
+        "id": "css.properties.outline-color",
+        "name": "css.properties.outline-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/outline-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#outline-color"
+        ]
+      },
+      {
+        "id": "css.properties.outline-offset",
+        "name": "css.properties.outline-offset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/outline-offset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#outline-offset"
+        ]
+      },
+      {
+        "id": "css.properties.outline-style",
+        "name": "css.properties.outline-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/outline-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#outline-style"
+        ]
+      },
+      {
+        "id": "css.properties.outline-width",
+        "name": "css.properties.outline-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/outline-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#outline-width"
+        ]
+      },
+      {
+        "id": "css.properties.outline.invert",
+        "name": "css.properties.outline.invert",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#valdef-outline-color-invert"
+        ]
+      },
+      {
+        "id": "css.properties.resize",
+        "name": "css.properties.resize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/resize",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#resize"
+        ]
+      },
+      {
+        "id": "css.properties.user-select",
+        "name": "css.properties.user-select",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/user-select",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#content-selection"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.cursor",
+        "name": "svg.attributes.presentation.cursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/cursor",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#cursor"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-appearance",
+        "name": "CSS Appearance",
+        "statusUrl": "https://caniuse.com/css-appearance",
+        "specUrls": [
+          "https://www.w3.org/TR/css-ui-4/#appearance-switching"
+        ]
+      },
+      {
+        "id": "css-caret-color",
+        "name": "CSS caret-color",
+        "statusUrl": "https://caniuse.com/css-caret-color",
+        "specUrls": [
+          "https://www.w3.org/TR/css-ui-3/#caret-color"
+        ]
+      },
+      {
+        "id": "css-resize",
+        "name": "CSS resize property",
+        "statusUrl": "https://caniuse.com/css-resize",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-ui/#resize"
+        ]
+      },
+      {
+        "id": "css3-cursors",
+        "name": "CSS3 Cursors (original values)",
+        "statusUrl": "https://caniuse.com/css3-cursors",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-ui/#cursor"
+        ]
+      },
+      {
+        "id": "css3-cursors-grab",
+        "name": "CSS grab & grabbing cursors",
+        "statusUrl": "https://caniuse.com/css3-cursors-grab",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-ui/#cursor"
+        ]
+      },
+      {
+        "id": "css3-cursors-newer",
+        "name": "CSS3 Cursors: zoom-in & zoom-out",
+        "statusUrl": "https://caniuse.com/css3-cursors-newer",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-ui/#cursor"
+        ]
+      },
+      {
+        "id": "outline",
+        "name": "CSS outline properties",
+        "statusUrl": "https://caniuse.com/outline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/"
+        ]
+      },
+      {
+        "id": "text-overflow",
+        "name": "CSS3 Text-overflow",
+        "statusUrl": "https://caniuse.com/text-overflow",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-ui/#text-overflow"
+        ]
+      },
+      {
+        "id": "user-select-none",
+        "name": "CSS user-select: none",
+        "statusUrl": "https://caniuse.com/user-select-none",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#valdef-user-select-none"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4715298156445696,
+        "name": "Unprefixed 'appearance' CSS property",
+        "statusUrl": "https://chromestatus.com/feature/4715298156445696",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#appearance-switching"
+        ]
+      },
+      {
+        "id": 4752739957473280,
+        "name": "accent-color CSS property",
+        "statusUrl": "https://chromestatus.com/feature/4752739957473280",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#widget-accent"
+        ]
+      },
+      {
+        "id": 4867142128238592,
+        "name": "-webkit-appearance:button for arbitrary elements",
+        "statusUrl": "https://chromestatus.com/feature/4867142128238592",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#propdef-appearance"
+        ]
+      },
+      {
+        "id": 5062926088011776,
+        "name": "CSS -webkit-user-select: all",
+        "statusUrl": "https://chromestatus.com/feature/5062926088011776",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#content-selection"
+        ]
+      },
+      {
+        "id": 5070237827334144,
+        "name": "-webkit-appearance keywords for arbitrary elements",
+        "statusUrl": "https://chromestatus.com/feature/5070237827334144",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#propdef-appearance"
+        ]
+      },
+      {
+        "id": 5575087101050880,
+        "name": "Unprefix CSS \"grab\" and \"grabbing\" Values for Cursor Property",
+        "statusUrl": "https://chromestatus.com/feature/5575087101050880",
+        "specUrls": [
+          "https://www.w3.org/TR/css-ui-3/#cursor"
+        ]
+      },
+      {
+        "id": 5668635896971264,
+        "name": "-webkit-appearance:none for METER element",
+        "statusUrl": "https://chromestatus.com/feature/5668635896971264",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#appearance-switching"
+        ]
+      },
+      {
+        "id": 5720917787279360,
+        "name": "CSS UI: caret-color property",
+        "statusUrl": "https://chromestatus.com/feature/5720917787279360",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui/#propdef-caret-color"
+        ]
+      },
+      {
+        "id": 5722186220306432,
+        "name": "Unprefixed CSS user-select",
+        "statusUrl": "https://chromestatus.com/feature/5722186220306432",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#content-selection"
+        ]
+      },
+      {
+        "id": 5730263904550912,
+        "name": "user-select:contain",
+        "statusUrl": "https://chromestatus.com/feature/5730263904550912",
+        "specUrls": [
+          "https://www.w3.org/TR/css-ui-4/#propdef-user-select"
+        ]
+      },
+      {
+        "id": 5825971391299584,
+        "name": "Remove cursors greater than 32x32 device-independent pixels intersecting native UI",
+        "statusUrl": "https://chromestatus.com/feature/5825971391299584",
+        "specUrls": [
+          "https://www.w3.org/TR/css-ui-3/#cursor"
+        ]
+      },
+      {
+        "id": 5913213940006912,
+        "name": "'auto' keyword for '-webkit-appearance' CSS property",
+        "statusUrl": "https://chromestatus.com/feature/5913213940006912",
+        "specUrls": [
+          "https://drafts.csswg.org/css-ui-4/#valdef-appearance-auto"
+        ]
+      }
+    ]
+  }
+}

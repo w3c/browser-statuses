@@ -1,0 +1,84 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.RTCError.httpRequestStatusCode",
+        "name": "api.RTCError.httpRequestStatusCode",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcerror-httprequeststatuscode"
+        ]
+      },
+      {
+        "id": "api.RTCIdentityAssertion",
+        "name": "api.RTCIdentityAssertion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIdentityAssertion",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#rtcidentityassertion-interface"
+        ]
+      },
+      {
+        "id": "api.RTCIdentityAssertion.idp",
+        "name": "api.RTCIdentityAssertion.idp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIdentityAssertion/idp",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcidentityassertion-idp"
+        ]
+      },
+      {
+        "id": "api.RTCIdentityAssertion.name",
+        "name": "api.RTCIdentityAssertion.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIdentityAssertion/name",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcidentityassertion-name"
+        ]
+      },
+      {
+        "id": "api.RTCIdentityProviderGlobalScope.rtcIdentityProvider",
+        "name": "api.RTCIdentityProviderGlobalScope.rtcIdentityProvider",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderGlobalScope/rtcIdentityProvider",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcidentityproviderglobalscope-rtcidentityprovider"
+        ]
+      },
+      {
+        "id": "api.RTCIdentityProviderRegistrar.register",
+        "name": "api.RTCIdentityProviderRegistrar.register",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIdentityProviderRegistrar/register",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcidentityproviderregistrar-register"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.getIdentityAssertion",
+        "name": "api.RTCPeerConnection.getIdentityAssertion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/getIdentityAssertion",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcpeerconnection-getidentityassertion"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.idpLoginUrl",
+        "name": "api.RTCPeerConnection.idpLoginUrl",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcpeerconnection-idploginurl"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.peerIdentity",
+        "name": "api.RTCPeerConnection.peerIdentity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/peerIdentity",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcpeerconnection-peeridentity"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.setIdentityProvider",
+        "name": "api.RTCPeerConnection.setIdentityProvider",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/setIdentityProvider",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-identity/#dom-rtcpeerconnection-setidentityprovider"
+        ]
+      }
+    ]
+  }
+}

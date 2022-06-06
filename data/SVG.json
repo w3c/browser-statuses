@@ -1,0 +1,4091 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.rootElement",
+        "name": "api.Document.rootElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGDocument__rootElement"
+        ]
+      },
+      {
+        "id": "api.SVGAElement",
+        "name": "api.SVGAElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGAElement"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.download",
+        "name": "api.SVGAElement.download",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__download"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.hreflang",
+        "name": "api.SVGAElement.hreflang",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__hreflang"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.ping",
+        "name": "api.SVGAElement.ping",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__ping"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.referrerPolicy",
+        "name": "api.SVGAElement.referrerPolicy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__referrerPolicy"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.rel",
+        "name": "api.SVGAElement.rel",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__rel"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.relList",
+        "name": "api.SVGAElement.relList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__relList"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.target",
+        "name": "api.SVGAElement.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAElement/target",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__target"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.text",
+        "name": "api.SVGAElement.text",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__text"
+        ]
+      },
+      {
+        "id": "api.SVGAElement.type",
+        "name": "api.SVGAElement.type",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#__svg__SVGAElement__type"
+        ]
+      },
+      {
+        "id": "api.SVGAltGlyphDefElement",
+        "name": "api.SVGAltGlyphDefElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAltGlyphDefElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#InterfaceSVGAltGlyphDefElement"
+        ]
+      },
+      {
+        "id": "api.SVGAltGlyphElement",
+        "name": "api.SVGAltGlyphElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAltGlyphElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#InterfaceSVGAltGlyphElement"
+        ]
+      },
+      {
+        "id": "api.SVGAltGlyphElement.format",
+        "name": "api.SVGAltGlyphElement.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAltGlyphElement/format",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#__svg__SVGAltGlyphElement__format"
+        ]
+      },
+      {
+        "id": "api.SVGAltGlyphElement.glyphRef",
+        "name": "api.SVGAltGlyphElement.glyphRef",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAltGlyphElement/glyphRef",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#__svg__SVGGlyphRefElement__glyphRef"
+        ]
+      },
+      {
+        "id": "api.SVGAltGlyphItemElement",
+        "name": "api.SVGAltGlyphItemElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAltGlyphItemElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#InterfaceSVGAltGlyphItemElement"
+        ]
+      },
+      {
+        "id": "api.SVGAngle",
+        "name": "api.SVGAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAngle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAngle"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.convertToSpecifiedUnits",
+        "name": "api.SVGAngle.convertToSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__convertToSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.newValueSpecifiedUnits",
+        "name": "api.SVGAngle.newValueSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__newValueSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.unitType",
+        "name": "api.SVGAngle.unitType",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__unitType"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.value",
+        "name": "api.SVGAngle.value",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__value"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.valueAsString",
+        "name": "api.SVGAngle.valueAsString",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__valueAsString"
+        ]
+      },
+      {
+        "id": "api.SVGAngle.valueInSpecifiedUnits",
+        "name": "api.SVGAngle.valueInSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAngle__valueInSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGAnimateColorElement",
+        "name": "api.SVGAnimateColorElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimateColorElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/animate.html#InterfaceSVGAnimateColorElement"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedAngle",
+        "name": "api.SVGAnimatedAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedAngle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedAngle"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedAngle.animVal",
+        "name": "api.SVGAnimatedAngle.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedAngle.baseVal",
+        "name": "api.SVGAnimatedAngle.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedAngle__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedBoolean",
+        "name": "api.SVGAnimatedBoolean",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedBoolean",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedBoolean"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedBoolean.animVal",
+        "name": "api.SVGAnimatedBoolean.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedBoolean.baseVal",
+        "name": "api.SVGAnimatedBoolean.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedBoolean__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedEnumeration",
+        "name": "api.SVGAnimatedEnumeration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedEnumeration",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedEnumeration"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedEnumeration.animVal",
+        "name": "api.SVGAnimatedEnumeration.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedEnumeration.baseVal",
+        "name": "api.SVGAnimatedEnumeration.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedEnumeration__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedInteger",
+        "name": "api.SVGAnimatedInteger",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedInteger",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedInteger"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedInteger.animVal",
+        "name": "api.SVGAnimatedInteger.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedInteger.baseVal",
+        "name": "api.SVGAnimatedInteger.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedInteger__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLength",
+        "name": "api.SVGAnimatedLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedLength"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLength.animVal",
+        "name": "api.SVGAnimatedLength.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLength.baseVal",
+        "name": "api.SVGAnimatedLength.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLength__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLengthList",
+        "name": "api.SVGAnimatedLengthList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedLengthList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedLengthList"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLengthList.animVal",
+        "name": "api.SVGAnimatedLengthList.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedLengthList.baseVal",
+        "name": "api.SVGAnimatedLengthList.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedLengthList__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumber",
+        "name": "api.SVGAnimatedNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumber",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedNumber"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumber.animVal",
+        "name": "api.SVGAnimatedNumber.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumber.baseVal",
+        "name": "api.SVGAnimatedNumber.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumber__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumberList",
+        "name": "api.SVGAnimatedNumberList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedNumberList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedNumberList"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumberList.animVal",
+        "name": "api.SVGAnimatedNumberList.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedNumberList.baseVal",
+        "name": "api.SVGAnimatedNumberList.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedNumberList__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedPreserveAspectRatio",
+        "name": "api.SVGAnimatedPreserveAspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedPreserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGAnimatedPreserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedPreserveAspectRatio.animVal",
+        "name": "api.SVGAnimatedPreserveAspectRatio.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedPreserveAspectRatio.baseVal",
+        "name": "api.SVGAnimatedPreserveAspectRatio.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedPreserveAspectRatio__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedRect",
+        "name": "api.SVGAnimatedRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedRect",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedRect"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedRect.animVal",
+        "name": "api.SVGAnimatedRect.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedRect.baseVal",
+        "name": "api.SVGAnimatedRect.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedRect__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedString",
+        "name": "api.SVGAnimatedString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedString",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGAnimatedString"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedString.animVal",
+        "name": "api.SVGAnimatedString.animVal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedString/animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedString.baseVal",
+        "name": "api.SVGAnimatedString.baseVal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedString/baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGAnimatedString__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedTransformList",
+        "name": "api.SVGAnimatedTransformList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimatedTransformList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGAnimatedTransformList"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedTransformList.animVal",
+        "name": "api.SVGAnimatedTransformList.animVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__animVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimatedTransformList.baseVal",
+        "name": "api.SVGAnimatedTransformList.baseVal",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGAnimatedTransformList__baseVal"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.beginEvent_event",
+        "name": "api.SVGAnimationElement.beginEvent_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/beginEvent_event",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#BeginEvent"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.endEvent_event",
+        "name": "api.SVGAnimationElement.endEvent_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endEvent_event",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#EndEvent"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.repeatEvent_event",
+        "name": "api.SVGAnimationElement.repeatEvent_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/repeatEvent_event",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#RepeatEvent"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.requiredExtensions",
+        "name": "api.SVGAnimationElement.requiredExtensions",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.systemLanguage",
+        "name": "api.SVGAnimationElement.systemLanguage",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage"
+        ]
+      },
+      {
+        "id": "api.SVGCircleElement",
+        "name": "api.SVGCircleElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGCircleElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGCircleElement"
+        ]
+      },
+      {
+        "id": "api.SVGCircleElement.cx",
+        "name": "api.SVGCircleElement.cx",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGCircleElement/cx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__cx"
+        ]
+      },
+      {
+        "id": "api.SVGCircleElement.cy",
+        "name": "api.SVGCircleElement.cy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGCircleElement/cy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__cy"
+        ]
+      },
+      {
+        "id": "api.SVGCircleElement.r",
+        "name": "api.SVGCircleElement.r",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGCircleElement/r",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGCircleElement__r"
+        ]
+      },
+      {
+        "id": "api.SVGCursorElement",
+        "name": "api.SVGCursorElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGCursorElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/interact.html#InterfaceSVGCursorElement"
+        ]
+      },
+      {
+        "id": "api.SVGDefsElement",
+        "name": "api.SVGDefsElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGDefsElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDefsElement"
+        ]
+      },
+      {
+        "id": "api.SVGDescElement",
+        "name": "api.SVGDescElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGDescElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGDescElement"
+        ]
+      },
+      {
+        "id": "api.SVGElement",
+        "name": "api.SVGElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"
+        ]
+      },
+      {
+        "id": "api.SVGElement.className",
+        "name": "api.SVGElement.className",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__className"
+        ]
+      },
+      {
+        "id": "api.SVGElement.error_event",
+        "name": "api.SVGElement.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGElement/error_event",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#ErrorEvent"
+        ]
+      },
+      {
+        "id": "api.SVGElement.load_event",
+        "name": "api.SVGElement.load_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGElement/load_event",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#LoadEvent"
+        ]
+      },
+      {
+        "id": "api.SVGElement.ownerSVGElement",
+        "name": "api.SVGElement.ownerSVGElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__ownerSVGElement"
+        ]
+      },
+      {
+        "id": "api.SVGElement.viewportElement",
+        "name": "api.SVGElement.viewportElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGElement__viewportElement"
+        ]
+      },
+      {
+        "id": "api.SVGEllipseElement",
+        "name": "api.SVGEllipseElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGEllipseElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGEllipseElement"
+        ]
+      },
+      {
+        "id": "api.SVGEllipseElement.cx",
+        "name": "api.SVGEllipseElement.cx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__cx"
+        ]
+      },
+      {
+        "id": "api.SVGEllipseElement.cy",
+        "name": "api.SVGEllipseElement.cy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__cy"
+        ]
+      },
+      {
+        "id": "api.SVGEllipseElement.rx",
+        "name": "api.SVGEllipseElement.rx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__rx"
+        ]
+      },
+      {
+        "id": "api.SVGEllipseElement.ry",
+        "name": "api.SVGEllipseElement.ry",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGEllipseElement__ry"
+        ]
+      },
+      {
+        "id": "api.SVGFEImageElement.href",
+        "name": "api.SVGFEImageElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGFontElement",
+        "name": "api.SVGFontElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontElement"
+        ]
+      },
+      {
+        "id": "api.SVGFontFaceElement",
+        "name": "api.SVGFontFaceElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontFaceElement"
+        ]
+      },
+      {
+        "id": "api.SVGFontFaceFormatElement",
+        "name": "api.SVGFontFaceFormatElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceFormatElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontFaceFormatElement"
+        ]
+      },
+      {
+        "id": "api.SVGFontFaceNameElement",
+        "name": "api.SVGFontFaceNameElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceNameElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontFaceNameElement"
+        ]
+      },
+      {
+        "id": "api.SVGFontFaceSrcElement",
+        "name": "api.SVGFontFaceSrcElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceSrcElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontFaceSrcElement"
+        ]
+      },
+      {
+        "id": "api.SVGFontFaceUriElement",
+        "name": "api.SVGFontFaceUriElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGFontFaceUriElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGFontFaceUriElement"
+        ]
+      },
+      {
+        "id": "api.SVGForeignObjectElement",
+        "name": "api.SVGForeignObjectElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGForeignObjectElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#InterfaceSVGForeignObjectElement"
+        ]
+      },
+      {
+        "id": "api.SVGForeignObjectElement.height",
+        "name": "api.SVGForeignObjectElement.height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGForeignObjectElement.width",
+        "name": "api.SVGForeignObjectElement.width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGForeignObjectElement.x",
+        "name": "api.SVGForeignObjectElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGForeignObjectElement.y",
+        "name": "api.SVGForeignObjectElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGForeignObjectElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGGElement",
+        "name": "api.SVGGElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGGElement"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement",
+        "name": "api.SVGGeometryElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGGeometryElement"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement.getPointAtLength",
+        "name": "api.SVGGeometryElement.getPointAtLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/getPointAtLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getPointAtLength"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement.getTotalLength",
+        "name": "api.SVGGeometryElement.getTotalLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/getTotalLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__getTotalLength"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement.isPointInFill",
+        "name": "api.SVGGeometryElement.isPointInFill",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/isPointInFill",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInFill"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement.isPointInStroke",
+        "name": "api.SVGGeometryElement.isPointInStroke",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/isPointInStroke",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__isPointInStroke"
+        ]
+      },
+      {
+        "id": "api.SVGGeometryElement.pathLength",
+        "name": "api.SVGGeometryElement.pathLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGeometryElement/pathLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGeometryElement__pathLength"
+        ]
+      },
+      {
+        "id": "api.SVGGlyphElement",
+        "name": "api.SVGGlyphElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGlyphElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGGlyphElement"
+        ]
+      },
+      {
+        "id": "api.SVGGlyphRefElement",
+        "name": "api.SVGGlyphRefElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGlyphRefElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#InterfaceSVGGlyphRefElement"
+        ]
+      },
+      {
+        "id": "api.SVGGradientElement",
+        "name": "api.SVGGradientElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGradientElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGGradientElement"
+        ]
+      },
+      {
+        "id": "api.SVGGradientElement.gradientTransform",
+        "name": "api.SVGGradientElement.gradientTransform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientTransform"
+        ]
+      },
+      {
+        "id": "api.SVGGradientElement.gradientUnits",
+        "name": "api.SVGGradientElement.gradientUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__gradientUnits"
+        ]
+      },
+      {
+        "id": "api.SVGGradientElement.href",
+        "name": "api.SVGGradientElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGGradientElement.spreadMethod",
+        "name": "api.SVGGradientElement.spreadMethod",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGGradientElement__spreadMethod"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement",
+        "name": "api.SVGGraphicsElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGraphicsElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGGraphicsElement"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.getBBox",
+        "name": "api.SVGGraphicsElement.getBBox",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGGraphicsElement/getBBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getBBox"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.getCTM",
+        "name": "api.SVGGraphicsElement.getCTM",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getCTM"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.getScreenCTM",
+        "name": "api.SVGGraphicsElement.getScreenCTM",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__getScreenCTM"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.requiredExtensions",
+        "name": "api.SVGGraphicsElement.requiredExtensions",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__requiredExtensions"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.systemLanguage",
+        "name": "api.SVGGraphicsElement.systemLanguage",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGTests__systemLanguage"
+        ]
+      },
+      {
+        "id": "api.SVGGraphicsElement.transform",
+        "name": "api.SVGGraphicsElement.transform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGGraphicsElement__transform"
+        ]
+      },
+      {
+        "id": "api.SVGHKernElement",
+        "name": "api.SVGHKernElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGHKernElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGHKernElement"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement",
+        "name": "api.SVGImageElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#InterfaceSVGImageElement"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.crossOrigin",
+        "name": "api.SVGImageElement.crossOrigin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/crossOrigin",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__crossOrigin"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.height",
+        "name": "api.SVGImageElement.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.href",
+        "name": "api.SVGImageElement.href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.preserveAspectRatio",
+        "name": "api.SVGImageElement.preserveAspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#PreserveAspectRatioAttribute"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.width",
+        "name": "api.SVGImageElement.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.x",
+        "name": "api.SVGImageElement.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGImageElement.y",
+        "name": "api.SVGImageElement.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGImageElement/y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#__svg__SVGImageElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGLength",
+        "name": "api.SVGLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGLength"
+        ]
+      },
+      {
+        "id": "api.SVGLength.convertToSpecifiedUnits",
+        "name": "api.SVGLength.convertToSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__convertToSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGLength.newValueSpecifiedUnits",
+        "name": "api.SVGLength.newValueSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__newValueSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGLength.unitType",
+        "name": "api.SVGLength.unitType",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__unitType"
+        ]
+      },
+      {
+        "id": "api.SVGLength.value",
+        "name": "api.SVGLength.value",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__value"
+        ]
+      },
+      {
+        "id": "api.SVGLength.valueAsString",
+        "name": "api.SVGLength.valueAsString",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__valueAsString"
+        ]
+      },
+      {
+        "id": "api.SVGLength.valueInSpecifiedUnits",
+        "name": "api.SVGLength.valueInSpecifiedUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGLength__valueInSpecifiedUnits"
+        ]
+      },
+      {
+        "id": "api.SVGLengthList",
+        "name": "api.SVGLengthList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGLengthList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGLengthList"
+        ]
+      },
+      {
+        "id": "api.SVGLineElement",
+        "name": "api.SVGLineElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGLineElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGLineElement"
+        ]
+      },
+      {
+        "id": "api.SVGLineElement.x1",
+        "name": "api.SVGLineElement.x1",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__x1"
+        ]
+      },
+      {
+        "id": "api.SVGLineElement.x2",
+        "name": "api.SVGLineElement.x2",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__x2"
+        ]
+      },
+      {
+        "id": "api.SVGLineElement.y1",
+        "name": "api.SVGLineElement.y1",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__y1"
+        ]
+      },
+      {
+        "id": "api.SVGLineElement.y2",
+        "name": "api.SVGLineElement.y2",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGLineElement__y2"
+        ]
+      },
+      {
+        "id": "api.SVGLinearGradientElement",
+        "name": "api.SVGLinearGradientElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGLinearGradientElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGLinearGradientElement"
+        ]
+      },
+      {
+        "id": "api.SVGLinearGradientElement.x1",
+        "name": "api.SVGLinearGradientElement.x1",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x1"
+        ]
+      },
+      {
+        "id": "api.SVGLinearGradientElement.x2",
+        "name": "api.SVGLinearGradientElement.x2",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__x2"
+        ]
+      },
+      {
+        "id": "api.SVGLinearGradientElement.y1",
+        "name": "api.SVGLinearGradientElement.y1",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y1"
+        ]
+      },
+      {
+        "id": "api.SVGLinearGradientElement.y2",
+        "name": "api.SVGLinearGradientElement.y2",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGLinearGradientElement__y2"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement",
+        "name": "api.SVGMarkerElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#InterfaceSVGMarkerElement"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.markerHeight",
+        "name": "api.SVGMarkerElement.markerHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/markerHeight",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerHeight"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.markerUnits",
+        "name": "api.SVGMarkerElement.markerUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/markerUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerUnits"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.markerWidth",
+        "name": "api.SVGMarkerElement.markerWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/markerWidth",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__markerWidth"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.orient",
+        "name": "api.SVGMarkerElement.orient",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orient"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.orientAngle",
+        "name": "api.SVGMarkerElement.orientAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/orientAngle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientAngle"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.orientType",
+        "name": "api.SVGMarkerElement.orientType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/orientType",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__orientType"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.preserveAspectRatio",
+        "name": "api.SVGMarkerElement.preserveAspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.refX",
+        "name": "api.SVGMarkerElement.refX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/refX",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refX"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.refY",
+        "name": "api.SVGMarkerElement.refY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/refY",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__refY"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.setOrientToAngle",
+        "name": "api.SVGMarkerElement.setOrientToAngle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/setOrientToAngle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAngle"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.setOrientToAuto",
+        "name": "api.SVGMarkerElement.setOrientToAuto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/setOrientToAuto",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#__svg__SVGMarkerElement__setOrientToAuto"
+        ]
+      },
+      {
+        "id": "api.SVGMarkerElement.viewBox",
+        "name": "api.SVGMarkerElement.viewBox",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMarkerElement/viewBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox"
+        ]
+      },
+      {
+        "id": "api.SVGMatrix",
+        "name": "api.SVGMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMatrix",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/coords.html#InterfaceSVGMatrix"
+        ]
+      },
+      {
+        "id": "api.SVGMetadataElement",
+        "name": "api.SVGMetadataElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMetadataElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGMetadataElement"
+        ]
+      },
+      {
+        "id": "api.SVGMissingGlyphElement",
+        "name": "api.SVGMissingGlyphElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMissingGlyphElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGMissingGlyphElement"
+        ]
+      },
+      {
+        "id": "api.SVGNumber",
+        "name": "api.SVGNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGNumber",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGNumber"
+        ]
+      },
+      {
+        "id": "api.SVGNumber.value",
+        "name": "api.SVGNumber.value",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNumber__value"
+        ]
+      },
+      {
+        "id": "api.SVGNumberList",
+        "name": "api.SVGNumberList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGNumberList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGNumberList"
+        ]
+      },
+      {
+        "id": "api.SVGPathElement",
+        "name": "api.SVGPathElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPathElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/paths.html#InterfaceSVGPathElement"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement",
+        "name": "api.SVGPatternElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPatternElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGPatternElement"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.height",
+        "name": "api.SVGPatternElement.height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.href",
+        "name": "api.SVGPatternElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.patternContentUnits",
+        "name": "api.SVGPatternElement.patternContentUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternContentUnits"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.patternTransform",
+        "name": "api.SVGPatternElement.patternTransform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternTransform"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.patternUnits",
+        "name": "api.SVGPatternElement.patternUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__patternUnits"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.preserveAspectRatio",
+        "name": "api.SVGPatternElement.preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.viewBox",
+        "name": "api.SVGPatternElement.viewBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.width",
+        "name": "api.SVGPatternElement.width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.x",
+        "name": "api.SVGPatternElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGPatternElement.y",
+        "name": "api.SVGPatternElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGPatternElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGPoint",
+        "name": "api.SVGPoint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPoint",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/coords.html#InterfaceSVGPoint"
+        ]
+      },
+      {
+        "id": "api.SVGPoint.matrixTransform",
+        "name": "api.SVGPoint.matrixTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPoint/matrixTransform",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/coords.html#__svg__SVGPoint__matrixTransform"
+        ]
+      },
+      {
+        "id": "api.SVGPoint.x",
+        "name": "api.SVGPoint.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPoint/x",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/coords.html#__svg__SVGPoint__x"
+        ]
+      },
+      {
+        "id": "api.SVGPoint.y",
+        "name": "api.SVGPoint.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPoint/y",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/coords.html#__svg__SVGPoint__y"
+        ]
+      },
+      {
+        "id": "api.SVGPointList",
+        "name": "api.SVGPointList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPointList"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.appendItem",
+        "name": "api.SVGPointList.appendItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/appendItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.clear",
+        "name": "api.SVGPointList.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/clear",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.getItem",
+        "name": "api.SVGPointList.getItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/getItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.initialize",
+        "name": "api.SVGPointList.initialize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/initialize",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.insertItemBefore",
+        "name": "api.SVGPointList.insertItemBefore",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/insertItemBefore",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.length",
+        "name": "api.SVGPointList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/length",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__length"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.numberOfItems",
+        "name": "api.SVGPointList.numberOfItems",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/numberOfItems",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.removeItem",
+        "name": "api.SVGPointList.removeItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/removeItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem"
+        ]
+      },
+      {
+        "id": "api.SVGPointList.replaceItem",
+        "name": "api.SVGPointList.replaceItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPointList/replaceItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem"
+        ]
+      },
+      {
+        "id": "api.SVGPolygonElement",
+        "name": "api.SVGPolygonElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPolygonElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPolygonElement"
+        ]
+      },
+      {
+        "id": "api.SVGPolygonElement.animatedPoints",
+        "name": "api.SVGPolygonElement.animatedPoints",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints"
+        ]
+      },
+      {
+        "id": "api.SVGPolygonElement.points",
+        "name": "api.SVGPolygonElement.points",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points"
+        ]
+      },
+      {
+        "id": "api.SVGPolylineElement",
+        "name": "api.SVGPolylineElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPolylineElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGPolylineElement"
+        ]
+      },
+      {
+        "id": "api.SVGPolylineElement.animatedPoints",
+        "name": "api.SVGPolylineElement.animatedPoints",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__animatedPoints"
+        ]
+      },
+      {
+        "id": "api.SVGPolylineElement.points",
+        "name": "api.SVGPolylineElement.points",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGAnimatedPoints__points"
+        ]
+      },
+      {
+        "id": "api.SVGPreserveAspectRatio",
+        "name": "api.SVGPreserveAspectRatio",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGPreserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGPreserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGPreserveAspectRatio.align",
+        "name": "api.SVGPreserveAspectRatio.align",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__align"
+        ]
+      },
+      {
+        "id": "api.SVGPreserveAspectRatio.meetOrSlice",
+        "name": "api.SVGPreserveAspectRatio.meetOrSlice",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGPreserveAspectRatio__meetOrSlice"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement",
+        "name": "api.SVGRadialGradientElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGRadialGradientElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGRadialGradientElement"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.cx",
+        "name": "api.SVGRadialGradientElement.cx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cx"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.cy",
+        "name": "api.SVGRadialGradientElement.cy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__cy"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.fr",
+        "name": "api.SVGRadialGradientElement.fr",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fr"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.fx",
+        "name": "api.SVGRadialGradientElement.fx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fx"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.fy",
+        "name": "api.SVGRadialGradientElement.fy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__fy"
+        ]
+      },
+      {
+        "id": "api.SVGRadialGradientElement.r",
+        "name": "api.SVGRadialGradientElement.r",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGRadialGradientElement__r"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement",
+        "name": "api.SVGRectElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGRectElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#InterfaceSVGRectElement"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.height",
+        "name": "api.SVGRectElement.height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.rx",
+        "name": "api.SVGRectElement.rx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__rx"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.ry",
+        "name": "api.SVGRectElement.ry",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__ry"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.width",
+        "name": "api.SVGRectElement.width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.x",
+        "name": "api.SVGRectElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGRectElement.y",
+        "name": "api.SVGRectElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#__svg__SVGRectElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGRenderingIntent",
+        "name": "api.SVGRenderingIntent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGRenderingIntent",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/types.html#InterfaceSVGRenderingIntent"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement",
+        "name": "api.SVGSVGElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGSVGElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSVGElement"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.checkEnclosure",
+        "name": "api.SVGSVGElement.checkEnclosure",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__checkEnclosure"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.checkIntersection",
+        "name": "api.SVGSVGElement.checkIntersection",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__checkIntersection"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGAngle",
+        "name": "api.SVGSVGElement.createSVGAngle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGAngle"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGLength",
+        "name": "api.SVGSVGElement.createSVGLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGLength"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGMatrix",
+        "name": "api.SVGSVGElement.createSVGMatrix",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGMatrix"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGNumber",
+        "name": "api.SVGSVGElement.createSVGNumber",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGNumber"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGPoint",
+        "name": "api.SVGSVGElement.createSVGPoint",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGPoint"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGRect",
+        "name": "api.SVGSVGElement.createSVGRect",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGRect"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGTransform",
+        "name": "api.SVGSVGElement.createSVGTransform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransform"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.createSVGTransformFromMatrix",
+        "name": "api.SVGSVGElement.createSVGTransformFromMatrix",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__createSVGTransformFromMatrix"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.currentScale",
+        "name": "api.SVGSVGElement.currentScale",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentScale"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.currentTranslate",
+        "name": "api.SVGSVGElement.currentTranslate",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__currentTranslate"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.deselectAll",
+        "name": "api.SVGSVGElement.deselectAll",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__deselectAll"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.forceRedraw",
+        "name": "api.SVGSVGElement.forceRedraw",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__forceRedraw"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.getElementById",
+        "name": "api.SVGSVGElement.getElementById",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getElementById"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.getEnclosureList",
+        "name": "api.SVGSVGElement.getEnclosureList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getEnclosureList"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.getIntersectionList",
+        "name": "api.SVGSVGElement.getIntersectionList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__getIntersectionList"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.height",
+        "name": "api.SVGSVGElement.height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.preserveAspectRatio",
+        "name": "api.SVGSVGElement.preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.suspendRedraw",
+        "name": "api.SVGSVGElement.suspendRedraw",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__suspendRedraw"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.unsuspendRedraw",
+        "name": "api.SVGSVGElement.unsuspendRedraw",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__unsuspendRedraw"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.unsuspendRedrawAll",
+        "name": "api.SVGSVGElement.unsuspendRedrawAll",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__unsuspendRedrawAll"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.viewBox",
+        "name": "api.SVGSVGElement.viewBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.width",
+        "name": "api.SVGSVGElement.width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.x",
+        "name": "api.SVGSVGElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGSVGElement.y",
+        "name": "api.SVGSVGElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGSVGElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGScriptElement",
+        "name": "api.SVGScriptElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGScriptElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#InterfaceSVGScriptElement"
+        ]
+      },
+      {
+        "id": "api.SVGScriptElement.crossOrigin",
+        "name": "api.SVGScriptElement.crossOrigin",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#__svg__SVGScriptElement__crossOrigin"
+        ]
+      },
+      {
+        "id": "api.SVGScriptElement.href",
+        "name": "api.SVGScriptElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGScriptElement.type",
+        "name": "api.SVGScriptElement.type",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#__svg__SVGScriptElement__type"
+        ]
+      },
+      {
+        "id": "api.SVGStopElement",
+        "name": "api.SVGStopElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGStopElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#InterfaceSVGStopElement"
+        ]
+      },
+      {
+        "id": "api.SVGStopElement.offset",
+        "name": "api.SVGStopElement.offset",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#__svg__SVGStopElement__offset"
+        ]
+      },
+      {
+        "id": "api.SVGStringList",
+        "name": "api.SVGStringList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGStringList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGStringList"
+        ]
+      },
+      {
+        "id": "api.SVGStyleElement",
+        "name": "api.SVGStyleElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGStyleElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#InterfaceSVGStyleElement"
+        ]
+      },
+      {
+        "id": "api.SVGStyleElement.media",
+        "name": "api.SVGStyleElement.media",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__media"
+        ]
+      },
+      {
+        "id": "api.SVGStyleElement.title",
+        "name": "api.SVGStyleElement.title",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__title"
+        ]
+      },
+      {
+        "id": "api.SVGStyleElement.type",
+        "name": "api.SVGStyleElement.type",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#__svg__SVGStyleElement__type"
+        ]
+      },
+      {
+        "id": "api.SVGSwitchElement",
+        "name": "api.SVGSwitchElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGSwitchElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSwitchElement"
+        ]
+      },
+      {
+        "id": "api.SVGSymbolElement",
+        "name": "api.SVGSymbolElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGSymbolElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGSymbolElement"
+        ]
+      },
+      {
+        "id": "api.SVGSymbolElement.preserveAspectRatio",
+        "name": "api.SVGSymbolElement.preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGSymbolElement.viewBox",
+        "name": "api.SVGSymbolElement.viewBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox"
+        ]
+      },
+      {
+        "id": "api.SVGTRefElement",
+        "name": "api.SVGTRefElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTRefElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#InterfaceSVGTRefElement"
+        ]
+      },
+      {
+        "id": "api.SVGTSpanElement",
+        "name": "api.SVGTSpanElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTSpanElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTSpanElement"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement",
+        "name": "api.SVGTextContentElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTextContentElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextContentElement"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getCharNumAtPosition",
+        "name": "api.SVGTextContentElement.getCharNumAtPosition",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getCharNumAtPosition"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getComputedTextLength",
+        "name": "api.SVGTextContentElement.getComputedTextLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getComputedTextLength"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getEndPositionOfChar",
+        "name": "api.SVGTextContentElement.getEndPositionOfChar",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getEndPositionOfChar"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getExtentOfChar",
+        "name": "api.SVGTextContentElement.getExtentOfChar",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getExtentOfChar"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getNumberOfChars",
+        "name": "api.SVGTextContentElement.getNumberOfChars",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getNumberOfChars"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getRotationOfChar",
+        "name": "api.SVGTextContentElement.getRotationOfChar",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getRotationOfChar"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getStartPositionOfChar",
+        "name": "api.SVGTextContentElement.getStartPositionOfChar",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getStartPositionOfChar"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.getSubStringLength",
+        "name": "api.SVGTextContentElement.getSubStringLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__getSubStringLength"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.lengthAdjust",
+        "name": "api.SVGTextContentElement.lengthAdjust",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__lengthAdjust"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.selectSubString",
+        "name": "api.SVGTextContentElement.selectSubString",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__selectSubString"
+        ]
+      },
+      {
+        "id": "api.SVGTextContentElement.textLength",
+        "name": "api.SVGTextContentElement.textLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextContentElement__textLength"
+        ]
+      },
+      {
+        "id": "api.SVGTextElement",
+        "name": "api.SVGTextElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTextElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextElement"
+        ]
+      },
+      {
+        "id": "api.SVGTextPathElement",
+        "name": "api.SVGTextPathElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTextPathElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextPathElement"
+        ]
+      },
+      {
+        "id": "api.SVGTextPathElement.href",
+        "name": "api.SVGTextPathElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGTextPathElement.method",
+        "name": "api.SVGTextPathElement.method",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__method"
+        ]
+      },
+      {
+        "id": "api.SVGTextPathElement.spacing",
+        "name": "api.SVGTextPathElement.spacing",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__spacing"
+        ]
+      },
+      {
+        "id": "api.SVGTextPathElement.startOffset",
+        "name": "api.SVGTextPathElement.startOffset",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPathElement__startOffset"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement",
+        "name": "api.SVGTextPositioningElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTextPositioningElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#InterfaceSVGTextPositioningElement"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement.dx",
+        "name": "api.SVGTextPositioningElement.dx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__dx"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement.dy",
+        "name": "api.SVGTextPositioningElement.dy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__dy"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement.rotate",
+        "name": "api.SVGTextPositioningElement.rotate",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__rotate"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement.x",
+        "name": "api.SVGTextPositioningElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGTextPositioningElement.y",
+        "name": "api.SVGTextPositioningElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#__svg__SVGTextPositioningElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGTitleElement",
+        "name": "api.SVGTitleElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTitleElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGTitleElement"
+        ]
+      },
+      {
+        "id": "api.SVGTransform",
+        "name": "api.SVGTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTransform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGTransform"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.angle",
+        "name": "api.SVGTransform.angle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__angle"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.matrix",
+        "name": "api.SVGTransform.matrix",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__matrix"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setMatrix",
+        "name": "api.SVGTransform.setMatrix",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setMatrix"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setRotate",
+        "name": "api.SVGTransform.setRotate",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setRotate"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setScale",
+        "name": "api.SVGTransform.setScale",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setScale"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setSkewX",
+        "name": "api.SVGTransform.setSkewX",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewX"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setSkewY",
+        "name": "api.SVGTransform.setSkewY",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setSkewY"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.setTranslate",
+        "name": "api.SVGTransform.setTranslate",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__setTranslate"
+        ]
+      },
+      {
+        "id": "api.SVGTransform.type",
+        "name": "api.SVGTransform.type",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransform__type"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList",
+        "name": "api.SVGTransformList",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGTransformList",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#InterfaceSVGTransformList"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.appendItem",
+        "name": "api.SVGTransformList.appendItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__appendItem"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.clear",
+        "name": "api.SVGTransformList.clear",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__clear"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.consolidate",
+        "name": "api.SVGTransformList.consolidate",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__consolidate"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.createSVGTransformFromMatrix",
+        "name": "api.SVGTransformList.createSVGTransformFromMatrix",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#__svg__SVGTransformList__createSVGTransformFromMatrix"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.getItem",
+        "name": "api.SVGTransformList.getItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__getItem"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.initialize",
+        "name": "api.SVGTransformList.initialize",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__initialize"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.insertItemBefore",
+        "name": "api.SVGTransformList.insertItemBefore",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__insertItemBefore"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.numberOfItems",
+        "name": "api.SVGTransformList.numberOfItems",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__numberOfItems"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.removeItem",
+        "name": "api.SVGTransformList.removeItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__removeItem"
+        ]
+      },
+      {
+        "id": "api.SVGTransformList.replaceItem",
+        "name": "api.SVGTransformList.replaceItem",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGNameList__replaceItem"
+        ]
+      },
+      {
+        "id": "api.SVGUnitTypes",
+        "name": "api.SVGUnitTypes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGUnitTypes",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGUnitTypes"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement",
+        "name": "api.SVGUseElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGUseElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#InterfaceSVGUseElement"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement.height",
+        "name": "api.SVGUseElement.height",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__height"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement.href",
+        "name": "api.SVGUseElement.href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGURIReference__href"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement.width",
+        "name": "api.SVGUseElement.width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__width"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement.x",
+        "name": "api.SVGUseElement.x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__x"
+        ]
+      },
+      {
+        "id": "api.SVGUseElement.y",
+        "name": "api.SVGUseElement.y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#__svg__SVGUseElement__y"
+        ]
+      },
+      {
+        "id": "api.SVGVKernElement",
+        "name": "api.SVGVKernElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGVKernElement",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#InterfaceSVGVKernElement"
+        ]
+      },
+      {
+        "id": "api.SVGViewElement",
+        "name": "api.SVGViewElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGViewElement",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#InterfaceSVGViewElement"
+        ]
+      },
+      {
+        "id": "api.SVGViewElement.preserveAspectRatio",
+        "name": "api.SVGViewElement.preserveAspectRatio",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__preserveAspectRatio"
+        ]
+      },
+      {
+        "id": "api.SVGViewElement.viewBox",
+        "name": "api.SVGViewElement.viewBox",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#__svg__SVGFitToViewBox__viewBox"
+        ]
+      },
+      {
+        "id": "css.properties.paint-order",
+        "name": "css.properties.paint-order",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/paint-order",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#PaintOrder"
+        ]
+      },
+      {
+        "id": "css.properties.pointer-events",
+        "name": "css.properties.pointer-events",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/pointer-events",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#PointerEventsProperty"
+        ]
+      },
+      {
+        "id": "css.properties.text-rendering",
+        "name": "css.properties.text-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-rendering",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#TextRenderingProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.conditional_processing.requiredFeatures",
+        "name": "svg.attributes.conditional_processing.requiredFeatures",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/requiredFeatures",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/struct.html#RequiredFeaturesAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.conditional_processing.systemLanguage",
+        "name": "svg.attributes.conditional_processing.systemLanguage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#ConditionalProcessingSystemLanguageAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.id",
+        "name": "svg.attributes.core.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/id",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#Core.attrib"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.lang",
+        "name": "svg.attributes.core.lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/lang",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#LangSpaceAttrs"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.tabindex",
+        "name": "svg.attributes.core.tabindex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/tabindex",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#tabindexattribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.xml_base",
+        "name": "svg.attributes.core.xml_base",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xml:base",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/struct.html#XMLBaseAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.xml_lang",
+        "name": "svg.attributes.core.xml_lang",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xml:lang",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#LangSpaceAttrs"
+        ]
+      },
+      {
+        "id": "svg.attributes.core.xml_space",
+        "name": "svg.attributes.core.xml_space",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xml:space",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#WhitespaceProcessingXMLSpaceAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.data",
+        "name": "svg.attributes.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/data-*",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#DataAttributes"
+        ]
+      },
+      {
+        "id": "svg.attributes.events.global.onclick",
+        "name": "svg.attributes.events.global.onclick",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/onclick",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#EventAttributes"
+        ]
+      },
+      {
+        "id": "svg.attributes.href",
+        "name": "svg.attributes.href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/href",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href",
+          "https://svgwg.org/specs/animations/#DiscardElementHrefAttribute",
+          "https://svgwg.org/specs/animations/#HrefAttribute",
+          "https://svgwg.org/specs/animations/#MPathElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/struct.html#UseElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementHrefAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.paint-order",
+        "name": "svg.attributes.paint-order",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/paint-order",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#PaintOrder"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.alignment-baseline",
+        "name": "svg.attributes.presentation.alignment-baseline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/alignment-baseline",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#alignment-baseline-property",
+          "https://svgwg.org/svg2-draft/text.html#AlignmentBaselineProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.baseline-shift",
+        "name": "svg.attributes.presentation.baseline-shift",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/baseline-shift",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#baseline-shift-property",
+          "https://svgwg.org/svg2-draft/text.html#BaselineShiftProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.color",
+        "name": "svg.attributes.presentation.color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/color",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#ColorProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.color-interpolation",
+        "name": "svg.attributes.presentation.color-interpolation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/color-interpolation",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#ColorInterpolation"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.color-profile",
+        "name": "svg.attributes.presentation.color-profile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/color-profile",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/color.html#ColorProfileProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.direction",
+        "name": "svg.attributes.presentation.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/direction",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#direction",
+          "https://svgwg.org/svg2-draft/text.html#DirectionProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.display",
+        "name": "svg.attributes.presentation.display",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/display",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/render.html#VisibilityControl"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.dominant-baseline",
+        "name": "svg.attributes.presentation.dominant-baseline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/dominant-baseline",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#DominantBaselineProperty",
+          "https://drafts.csswg.org/css-inline/#dominant-baseline-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.enable-background",
+        "name": "svg.attributes.presentation.enable-background",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/enable-background",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/filters.html#EnableBackgroundProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.fill",
+        "name": "svg.attributes.presentation.fill",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fill",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#FillAttribute",
+          "https://svgwg.org/svg2-draft/painting.html#SpecifyingFillPaint"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.fill-opacity",
+        "name": "svg.attributes.presentation.fill-opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fill-opacity",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#FillOpacity"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.fill-rule",
+        "name": "svg.attributes.presentation.fill-rule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fill-rule",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#WindingRule"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.glyph-orientation-horizontal",
+        "name": "svg.attributes.presentation.glyph-orientation-horizontal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/glyph-orientation-horizontal",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#GlyphOrientationHorizontalProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.glyph-orientation-vertical",
+        "name": "svg.attributes.presentation.glyph-orientation-vertical",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/glyph-orientation-vertical",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#GlyphOrientationVerticalProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.image-rendering",
+        "name": "svg.attributes.presentation.image-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering",
+        "specUrls": [
+          "https://drafts.csswg.org/css-images/#the-image-rendering",
+          "https://svgwg.org/svg2-draft/painting.html#ImageRendering"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.marker-end",
+        "name": "svg.attributes.presentation.marker-end",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-end",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.marker-mid",
+        "name": "svg.attributes.presentation.marker-mid",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-mid",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.marker-start",
+        "name": "svg.attributes.presentation.marker-start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/marker-start",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#VertexMarkerProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.opacity",
+        "name": "svg.attributes.presentation.opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/opacity",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#transparency",
+          "https://svgwg.org/svg2-draft/render.html#ObjectAndGroupOpacityProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.overflow",
+        "name": "svg.attributes.presentation.overflow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/overflow",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/render.html#OverflowAndClipProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.paint-order",
+        "name": "svg.attributes.presentation.paint-order",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/paint-order",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#PaintOrder"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.pointer-events",
+        "name": "svg.attributes.presentation.pointer-events",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/pointer-events",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#PointerEventsProp"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.shape-rendering",
+        "name": "svg.attributes.presentation.shape-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/shape-rendering",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#ShapeRendering"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stop-color",
+        "name": "svg.attributes.presentation.stop-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stop-color",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#StopColorProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke",
+        "name": "svg.attributes.presentation.stroke",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#SpecifyingStrokePaint"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-dasharray",
+        "name": "svg.attributes.presentation.stroke-dasharray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dasharray",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#StrokeDashing"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-dashoffset",
+        "name": "svg.attributes.presentation.stroke-dashoffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-dashoffset",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#StrokeDashoffsetProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-linecap",
+        "name": "svg.attributes.presentation.stroke-linecap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linecap",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#LineCaps"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-linejoin",
+        "name": "svg.attributes.presentation.stroke-linejoin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-linejoin",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#LineJoin"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-miterlimit",
+        "name": "svg.attributes.presentation.stroke-miterlimit",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-miterlimit",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#StrokeMiterlimitProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-opacity",
+        "name": "svg.attributes.presentation.stroke-opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-opacity",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#StrokeOpacity"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.stroke-width",
+        "name": "svg.attributes.presentation.stroke-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stroke-width",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#StrokeWidth"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.text-anchor",
+        "name": "svg.attributes.presentation.text-anchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/text-anchor",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextAnchoringProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.text-decoration",
+        "name": "svg.attributes.presentation.text-decoration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/text-decoration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-property",
+          "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.text-rendering",
+        "name": "svg.attributes.presentation.text-rendering",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/text-rendering",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#TextRendering"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.transform",
+        "name": "svg.attributes.presentation.transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/transform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#svg-transform",
+          "https://svgwg.org/svg2-draft/coords.html#TransformProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.transform-origin",
+        "name": "svg.attributes.presentation.transform-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/transform-origin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#transform-origin-property",
+          "https://svgwg.org/svg2-draft/styling.html#PresentationAttributes"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.vector-effect",
+        "name": "svg.attributes.presentation.vector-effect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vector-effect",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/coords.html#VectorEffects"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.visibility",
+        "name": "svg.attributes.presentation.visibility",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/visibility",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/render.html#VisibilityControl"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.writing-mode",
+        "name": "svg.attributes.presentation.writing-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/writing-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#block-flow",
+          "https://svgwg.org/svg2-draft/text.html#WritingModeProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.style.class",
+        "name": "svg.attributes.style.class",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/class",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#ElementSpecificStyling"
+        ]
+      },
+      {
+        "id": "svg.attributes.style.style",
+        "name": "svg.attributes.style.style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/style",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#ElementSpecificStyling"
+        ]
+      },
+      {
+        "id": "svg.attributes.textLength",
+        "name": "svg.attributes.textLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementTextLengthAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.xlink.xlink_arcrole",
+        "name": "svg.attributes.xlink.xlink_arcrole",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:arcrole",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/linking.html#XLinkArcRoleAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.xlink.xlink_show",
+        "name": "svg.attributes.xlink.xlink_show",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:show",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/linking.html#XLinkShowAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.xlink.xlink_title",
+        "name": "svg.attributes.xlink.xlink_title",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:title",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#XLinkTitleAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.xlink.xlink_type",
+        "name": "svg.attributes.xlink.xlink_type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:type",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/linking.html#XLinkTypeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.a",
+        "name": "svg.elements.a",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/a",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#Links"
+        ]
+      },
+      {
+        "id": "svg.elements.a.target",
+        "name": "svg.elements.a.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/target",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#AElementTargetAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.a.xlink_href",
+        "name": "svg.elements.a.xlink_href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:href",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#XLinkHrefAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.altGlyph",
+        "name": "svg.elements.altGlyph",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/altGlyph",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#AltGlyphElement"
+        ]
+      },
+      {
+        "id": "svg.elements.altGlyph.format",
+        "name": "svg.elements.altGlyph.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/format",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#GlyphRefElementFormatAttribute",
+          "https://www.w3.org/TR/SVG11/text.html#AltGlyphElementFormatAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.altGlyph.glyphRef",
+        "name": "svg.elements.altGlyph.glyphRef",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/glyphRef",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#GlyphRefElementGlyphRefAttribute",
+          "https://www.w3.org/TR/SVG11/text.html#AltGlyphElementGlyphRefAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.altGlyphDef",
+        "name": "svg.elements.altGlyphDef",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/altGlyphDef",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#AltGlyphDefElement"
+        ]
+      },
+      {
+        "id": "svg.elements.altGlyphItem",
+        "name": "svg.elements.altGlyphItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/altGlyphItem",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#AltGlyphItemElement"
+        ]
+      },
+      {
+        "id": "svg.elements.circle",
+        "name": "svg.elements.circle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/circle",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#CircleElement"
+        ]
+      },
+      {
+        "id": "svg.elements.cursor",
+        "name": "svg.elements.cursor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/cursor",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/interact.html#CursorElement"
+        ]
+      },
+      {
+        "id": "svg.elements.defs",
+        "name": "svg.elements.defs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/defs",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#Head"
+        ]
+      },
+      {
+        "id": "svg.elements.desc",
+        "name": "svg.elements.desc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/desc",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#DescriptionAndTitleElements"
+        ]
+      },
+      {
+        "id": "svg.elements.ellipse",
+        "name": "svg.elements.ellipse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/ellipse",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#EllipseElement"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.filterRes",
+        "name": "svg.elements.filter.filterRes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/filterRes",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/filters.html#FilterElementFilterResAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.filter.xlink_href",
+        "name": "svg.elements.filter.xlink_href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:href",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/filters.html#FilterElementHrefAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font",
+        "name": "svg.elements.font",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face",
+        "name": "svg.elements.font-face",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face-format",
+        "name": "svg.elements.font-face-format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face-format",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceFormatElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face-format.string",
+        "name": "svg.elements.font-face-format.string",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/string",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceFormatElementStringAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face-name",
+        "name": "svg.elements.font-face-name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face-name",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceNameElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face-src",
+        "name": "svg.elements.font-face-src",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face-src",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceSrcElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face-uri",
+        "name": "svg.elements.font-face-uri",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/font-face-uri",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceURIElement"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.accent-height",
+        "name": "svg.elements.font-face.accent-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/accent-height",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAccentHeightAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.alphabetic",
+        "name": "svg.elements.font-face.alphabetic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/alphabetic",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAlphabeticAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.ascent",
+        "name": "svg.elements.font-face.ascent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/ascent",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementAscentAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.bbox",
+        "name": "svg.elements.font-face.bbox",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/bbox",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementBboxAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.cap-height",
+        "name": "svg.elements.font-face.cap-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/cap-height",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementCapHeightAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.descent",
+        "name": "svg.elements.font-face.descent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/descent",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementDescentAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-family",
+        "name": "svg.elements.font-face.font-family",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-family",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontFamilyAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-size",
+        "name": "svg.elements.font-face.font-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontSizeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-stretch",
+        "name": "svg.elements.font-face.font-stretch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-stretch",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStretchAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-style",
+        "name": "svg.elements.font-face.font-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-style",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontStyleAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-variant",
+        "name": "svg.elements.font-face.font-variant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-variant",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontVariantAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.font-weight",
+        "name": "svg.elements.font-face.font-weight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/font-weight",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementFontWeightAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.hanging",
+        "name": "svg.elements.font-face.hanging",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/hanging",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementHangingAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.ideographic",
+        "name": "svg.elements.font-face.ideographic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/ideographic",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementIdeographicAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.mathematical",
+        "name": "svg.elements.font-face.mathematical",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/mathematical",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementMathematicalAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.overline-position",
+        "name": "svg.elements.font-face.overline-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/overline-position",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlinePositionAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.overline-thickness",
+        "name": "svg.elements.font-face.overline-thickness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/overline-position",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementOverlineThicknessAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.panose-1",
+        "name": "svg.elements.font-face.panose-1",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/panose-1",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementPanose1Attribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.slope",
+        "name": "svg.elements.font-face.slope",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/slope",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementSlopeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.stemh",
+        "name": "svg.elements.font-face.stemh",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stemh",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemhAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.stemv",
+        "name": "svg.elements.font-face.stemv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stemv",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStemvAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.strikethrough-position",
+        "name": "svg.elements.font-face.strikethrough-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/strikethrough-position",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughPositionAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.strikethrough-thickness",
+        "name": "svg.elements.font-face.strikethrough-thickness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/strikethrough-thickness",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementStrikeThroughThicknessAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.underline-position",
+        "name": "svg.elements.font-face.underline-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/underline-position",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlinePositionAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.underline-thickness",
+        "name": "svg.elements.font-face.underline-thickness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/underline-thickness",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnderlineThicknessAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.unicode-range",
+        "name": "svg.elements.font-face.unicode-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode-range",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnicodeRangeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.units-per-em",
+        "name": "svg.elements.font-face.units-per-em",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/units-per-em",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementUnitsPerEmAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.v-alphabetic",
+        "name": "svg.elements.font-face.v-alphabetic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-alphabetic",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertAlphabeticAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.v-hanging",
+        "name": "svg.elements.font-face.v-hanging",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-hanging",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertHangingAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.v-ideographic",
+        "name": "svg.elements.font-face.v-ideographic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-ideographic",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertIdeographicAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.v-mathematical",
+        "name": "svg.elements.font-face.v-mathematical",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/v-mathematical",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementVertMathematicalAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.widths",
+        "name": "svg.elements.font-face.widths",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/widths",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementWidthsAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font-face.x-height",
+        "name": "svg.elements.font-face.x-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/x-height",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontFaceElementXHeightAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.horiz-adv-x",
+        "name": "svg.elements.font.horiz-adv-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/horiz-adv-x",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementHorizAdvXAttribute",
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizAdvXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.horiz-origin-x",
+        "name": "svg.elements.font.horiz-origin-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/horiz-origin-x",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizOriginXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.horiz-origin-y",
+        "name": "svg.elements.font.horiz-origin-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/horiz-origin-y",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementHorizOriginYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.vert-adv-y",
+        "name": "svg.elements.font.vert-adv-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vert-adv-y",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementVertAdvYAttribute",
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertAdvYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.vert-origin-x",
+        "name": "svg.elements.font.vert-origin-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vert-origin-x",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertOriginXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.font.vert-origin-y",
+        "name": "svg.elements.font.vert-origin-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/vert-origin-y",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#FontElementVertOriginYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.foreignObject",
+        "name": "svg.elements.foreignObject",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/foreignObject",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#ForeignObjectElement"
+        ]
+      },
+      {
+        "id": "svg.elements.g",
+        "name": "svg.elements.g",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/g",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#GElement"
+        ]
+      },
+      {
+        "id": "svg.elements.glyph",
+        "name": "svg.elements.glyph",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/glyph",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElement"
+        ]
+      },
+      {
+        "id": "svg.elements.glyph.arabic-form",
+        "name": "svg.elements.glyph.arabic-form",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/arabic-form",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementArabicFormAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.glyph.glyph-name",
+        "name": "svg.elements.glyph.glyph-name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/glyph-name",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementGlyphNameAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.glyph.orientation",
+        "name": "svg.elements.glyph.orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/orientation",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementOrientationAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.glyph.unicode",
+        "name": "svg.elements.glyph.unicode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementUnicodeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.glyphRef",
+        "name": "svg.elements.glyphRef",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/glyphRef",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#GlyphRefElement"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern",
+        "name": "svg.elements.hkern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/hkern",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElement"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern.g1",
+        "name": "svg.elements.hkern.g1",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/g1",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElementG1Attribute"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern.g2",
+        "name": "svg.elements.hkern.g2",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/g2",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElementG2Attribute"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern.k",
+        "name": "svg.elements.hkern.k",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/k",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElementKAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern.u1",
+        "name": "svg.elements.hkern.u1",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/u1",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElementU1Attribute"
+        ]
+      },
+      {
+        "id": "svg.elements.hkern.u2",
+        "name": "svg.elements.hkern.u2",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/u2",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#HKernElementU2Attribute"
+        ]
+      },
+      {
+        "id": "svg.elements.image",
+        "name": "svg.elements.image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/image",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/embedded.html#ImageElement"
+        ]
+      },
+      {
+        "id": "svg.elements.line",
+        "name": "svg.elements.line",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/line",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#LineElement"
+        ]
+      },
+      {
+        "id": "svg.elements.linearGradient",
+        "name": "svg.elements.linearGradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/linearGradient",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradients"
+        ]
+      },
+      {
+        "id": "svg.elements.linearGradient.gradientTransform",
+        "name": "svg.elements.linearGradient.gradientTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/gradientTransform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-transforms/#typedef-transform-list",
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementGradientTransformAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementGradientTransformAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.linearGradient.spreadMethod",
+        "name": "svg.elements.linearGradient.spreadMethod",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/spreadMethod",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementSpreadMethodAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementSpreadMethodAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.marker",
+        "name": "svg.elements.marker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/marker",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#MarkerElement"
+        ]
+      },
+      {
+        "id": "svg.elements.marker.markerHeight",
+        "name": "svg.elements.marker.markerHeight",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/markerHeight",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#MarkerHeightAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.marker.markerUnits",
+        "name": "svg.elements.marker.markerUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/markerUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#MarkerUnitsAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.marker.markerWidth",
+        "name": "svg.elements.marker.markerWidth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/markerWidth",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#MarkerWidthAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.marker.orient",
+        "name": "svg.elements.marker.orient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/orient",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/painting.html#OrientAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.metadata",
+        "name": "svg.elements.metadata",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/metadata",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#MetadataElement"
+        ]
+      },
+      {
+        "id": "svg.elements.missing-glyph",
+        "name": "svg.elements.missing-glyph",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/missing-glyph",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#MissingGlyphElement"
+        ]
+      },
+      {
+        "id": "svg.elements.path",
+        "name": "svg.elements.path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/path",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/paths.html#PathElement"
+        ]
+      },
+      {
+        "id": "svg.elements.path.d",
+        "name": "svg.elements.path.d",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/d",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/paths.html#DProperty",
+          "https://www.w3.org/TR/SVG11/fonts.html#GlyphElementDAttribute",
+          "https://www.w3.org/TR/SVG11/paths.html#DAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.pattern",
+        "name": "svg.elements.pattern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/pattern",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#Patterns"
+        ]
+      },
+      {
+        "id": "svg.elements.pattern.patternContentUnits",
+        "name": "svg.elements.pattern.patternContentUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/patternContentUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternContentUnitsAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.pattern.patternTransform",
+        "name": "svg.elements.pattern.patternTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/patternTransform",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternTransformAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.pattern.patternUnits",
+        "name": "svg.elements.pattern.patternUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/patternUnits",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementPatternUnitsAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.polygon",
+        "name": "svg.elements.polygon",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/polygon",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#PolygonElement"
+        ]
+      },
+      {
+        "id": "svg.elements.polyline",
+        "name": "svg.elements.polyline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/polyline",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#PolylineElement"
+        ]
+      },
+      {
+        "id": "svg.elements.radialGradient",
+        "name": "svg.elements.radialGradient",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/radialGradient",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradients"
+        ]
+      },
+      {
+        "id": "svg.elements.radialGradient.fr",
+        "name": "svg.elements.radialGradient.fr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fr",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFRAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.radialGradient.fx",
+        "name": "svg.elements.radialGradient.fx",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.radialGradient.fy",
+        "name": "svg.elements.radialGradient.fy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementFYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.radialGradient.spreadMethod",
+        "name": "svg.elements.radialGradient.spreadMethod",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/spreadMethod",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementSpreadMethodAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementSpreadMethodAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.rect",
+        "name": "svg.elements.rect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/rect",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/shapes.html#RectElement"
+        ]
+      },
+      {
+        "id": "svg.elements.script",
+        "name": "svg.elements.script",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/script",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#ScriptElement"
+        ]
+      },
+      {
+        "id": "svg.elements.stop",
+        "name": "svg.elements.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/stop",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#GradientStops"
+        ]
+      },
+      {
+        "id": "svg.elements.stop.stop-opacity",
+        "name": "svg.elements.stop.stop-opacity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/stop-opacity",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/pservers.html#StopOpacityProperty"
+        ]
+      },
+      {
+        "id": "svg.elements.style",
+        "name": "svg.elements.style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/style",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#StyleElement"
+        ]
+      },
+      {
+        "id": "svg.elements.style.media",
+        "name": "svg.elements.style.media",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/media",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/styling.html#StyleElementMediaAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.svg",
+        "name": "svg.elements.svg",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/svg",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#NewDocument"
+        ]
+      },
+      {
+        "id": "svg.elements.svg.contentScriptType",
+        "name": "svg.elements.svg.contentScriptType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/contentScriptType",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/script.html#ContentScriptTypeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.svg.contentStyleType",
+        "name": "svg.elements.svg.contentStyleType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/contentStyleType",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/styling.html#ContentStyleTypeAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.svg.version",
+        "name": "svg.elements.svg.version",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/version",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/struct.html#SVGElementVersionAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.svg.zoomAndPan",
+        "name": "svg.elements.svg.zoomAndPan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/zoomAndPan",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/interact.html#ZoomAndPanAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.switch",
+        "name": "svg.elements.switch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/switch",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#SwitchElement"
+        ]
+      },
+      {
+        "id": "svg.elements.symbol",
+        "name": "svg.elements.symbol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/symbol",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#SymbolElement"
+        ]
+      },
+      {
+        "id": "svg.elements.text",
+        "name": "svg.elements.text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/text",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElement"
+        ]
+      },
+      {
+        "id": "svg.elements.text.dx",
+        "name": "svg.elements.text.dx",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/dx",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementDXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.text.dy",
+        "name": "svg.elements.text.dy",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/dy",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementDYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.text.lengthAdjust",
+        "name": "svg.elements.text.lengthAdjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/lengthAdjust",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementLengthAdjustAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.text.textLength",
+        "name": "svg.elements.text.textLength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/textLength",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementTextLengthAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.text.x",
+        "name": "svg.elements.text.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/x",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementXAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.text.y",
+        "name": "svg.elements.text.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/y",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElementYAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.textPath",
+        "name": "svg.elements.textPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/textPath",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextPathElement"
+        ]
+      },
+      {
+        "id": "svg.elements.textPath.side",
+        "name": "svg.elements.textPath.side",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/side",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementSideAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.textPath.spacing",
+        "name": "svg.elements.textPath.spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/spacing",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementSpacingAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.textPath.startOffset",
+        "name": "svg.elements.textPath.startOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/startOffset",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementStartOffsetAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.title",
+        "name": "svg.elements.title",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/title",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#TitleElement"
+        ]
+      },
+      {
+        "id": "svg.elements.tref",
+        "name": "svg.elements.tref",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/tref",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/text.html#TRefElement"
+        ]
+      },
+      {
+        "id": "svg.elements.tspan",
+        "name": "svg.elements.tspan",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/tspan",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/text.html#TextElement"
+        ]
+      },
+      {
+        "id": "svg.elements.use",
+        "name": "svg.elements.use",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/use",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/struct.html#UseElement"
+        ]
+      },
+      {
+        "id": "svg.elements.view",
+        "name": "svg.elements.view",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/view",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/linking.html#ViewElement"
+        ]
+      },
+      {
+        "id": "svg.elements.view.viewTarget",
+        "name": "svg.elements.view.viewTarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/viewTarget",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/linking.html#ViewElementViewTargetAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.vkern",
+        "name": "svg.elements.vkern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/vkern",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html#VKernElement"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "kerning-pairs-ligatures",
+        "name": "High-quality kerning pairs & ligatures",
+        "statusUrl": "https://caniuse.com/kerning-pairs-ligatures",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG2/painting.html#TextRendering"
+        ]
+      },
+      {
+        "id": "svg",
+        "name": "SVG (basic support)",
+        "statusUrl": "https://caniuse.com/svg",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG/"
+        ]
+      },
+      {
+        "id": "svg-filters",
+        "name": "SVG filters",
+        "statusUrl": "https://caniuse.com/svg-filters",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/filters.html"
+        ]
+      },
+      {
+        "id": "svg-fonts",
+        "name": "SVG fonts",
+        "statusUrl": "https://caniuse.com/svg-fonts",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/fonts.html"
+        ]
+      },
+      {
+        "id": "svg-fragment",
+        "name": "SVG fragment identifiers",
+        "statusUrl": "https://caniuse.com/svg-fragment",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG/linking.html#SVGFragmentIdentifiers"
+        ]
+      },
+      {
+        "id": "svg-html",
+        "name": "SVG effects for HTML",
+        "statusUrl": "https://caniuse.com/svg-html",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/extend.html#ForeignObjectElement"
+        ]
+      },
+      {
+        "id": "svg-smil",
+        "name": "SVG SMIL animation",
+        "statusUrl": "https://caniuse.com/svg-smil",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG11/animate.html"
+        ]
+      },
+      {
+        "id": "vector-effect",
+        "name": "SVG vector-effect: non-scaling-stroke",
+        "statusUrl": "https://caniuse.com/vector-effect",
+        "specUrls": [
+          "https://www.w3.org/TR/SVG2/coords.html#VectorEffectProperty"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4511711998509056,
+        "name": "Deprecate SVGSVGElement.currentView/useCurrentView and SVGViewSpec interface",
+        "statusUrl": "https://chromestatus.com/feature/4511711998509056",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      },
+      {
+        "id": 4562605574193152,
+        "name": "SVGCursorElement",
+        "statusUrl": "https://chromestatus.com/feature/4562605574193152",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/interact.html#CursorElement"
+        ]
+      },
+      {
+        "id": 5473526421127168,
+        "name": "SVG hasExtension() methods",
+        "statusUrl": "https://chromestatus.com/feature/5473526421127168",
+        "specUrls": [
+          "http://www.w3.org/TR/SVG11/types.html#InterfaceSVGTests"
+        ]
+      },
+      {
+        "id": 5478103916740608,
+        "name": "SVGSVGElement.pixelUnitToMillimeterX and friends",
+        "statusUrl": "https://chromestatus.com/feature/5478103916740608",
+        "specUrls": [
+          "http://www.w3.org/TR/SVG11/struct.html#InterfaceSVGSVGElement"
+        ]
+      },
+      {
+        "id": 5638783282184192,
+        "name": "Deprecate SVGPathElement.getPathSegAtLength",
+        "statusUrl": "https://chromestatus.com/feature/5638783282184192",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/paths.html#InterfaceSVGPathElement"
+        ]
+      },
+      {
+        "id": 5663772639232000,
+        "name": "<foreignObject> will be a stacking context",
+        "statusUrl": "https://chromestatus.com/feature/5663772639232000",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/single-page.html#render-EstablishingStackingContex"
+        ]
+      },
+      {
+        "id": 5665473114931200,
+        "name": "Deprecate and Remove SVGViewElement.viewTarget attribute ",
+        "statusUrl": "https://chromestatus.com/feature/5665473114931200",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      },
+      {
+        "id": 5686865248124928,
+        "name": "Deprecate SVGSVGElement.viewport attribute",
+        "statusUrl": "https://chromestatus.com/feature/5686865248124928",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      },
+      {
+        "id": 5708851034718208,
+        "name": "SVGPathSeg interfaces",
+        "statusUrl": "https://chromestatus.com/feature/5708851034718208",
+        "specUrls": [
+          "http://www.w3.org/TR/SVG11/single-page.html#paths-InterfaceSVGPathSeg"
+        ]
+      },
+      {
+        "id": 5720709590417408,
+        "name": "Deprecate SVGTests.requiredFeatures attribute",
+        "statusUrl": "https://chromestatus.com/feature/5720709590417408",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      },
+      {
+        "id": 5727911176830976,
+        "name": "Support dataset property on SVGElement",
+        "statusUrl": "https://chromestatus.com/feature/5727911176830976",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/types.html#InterfaceSVGElement"
+        ]
+      },
+      {
+        "id": 5760616295825408,
+        "name": "SVG2",
+        "statusUrl": "https://chromestatus.com/feature/5760616295825408",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/single-page.html"
+        ]
+      },
+      {
+        "id": 5760883808534528,
+        "name": "Deprecate and Remove SVGZoomEvent",
+        "statusUrl": "https://chromestatus.com/feature/5760883808534528",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      },
+      {
+        "id": 5930075908210688,
+        "name": "SVG (1.1) Fonts",
+        "statusUrl": "https://chromestatus.com/feature/5930075908210688",
+        "specUrls": [
+          "http://www.w3.org/TR/SVG/fonts.html"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-svg-2",
+        "name": "SVG 2",
+        "statusUrl": "https://webkit.org/status/#specification-svg-2",
+        "specUrls": [
+          "https://svgwg.org/svg2-draft/"
+        ]
+      }
+    ]
+  }
+}

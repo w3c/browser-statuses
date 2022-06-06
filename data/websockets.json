@@ -1,0 +1,168 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CloseEvent",
+        "name": "api.CloseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CloseEvent",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#the-closeevent-interface"
+        ]
+      },
+      {
+        "id": "api.CloseEvent.CloseEvent",
+        "name": "api.CloseEvent.CloseEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CloseEvent/CloseEvent",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#dom-closeevent-closeevent"
+        ]
+      },
+      {
+        "id": "api.CloseEvent.code",
+        "name": "api.CloseEvent.code",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CloseEvent/code",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-code②"
+        ]
+      },
+      {
+        "id": "api.CloseEvent.reason",
+        "name": "api.CloseEvent.reason",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CloseEvent/reason",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-reason②"
+        ]
+      },
+      {
+        "id": "api.CloseEvent.wasClean",
+        "name": "api.CloseEvent.wasClean",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CloseEvent/wasClean",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-closeevent-wasclean②"
+        ]
+      },
+      {
+        "id": "api.WebSocket",
+        "name": "api.WebSocket",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#the-websocket-interface"
+        ]
+      },
+      {
+        "id": "api.WebSocket.WebSocket",
+        "name": "api.WebSocket.WebSocket",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/WebSocket",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-websocket①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.binaryType",
+        "name": "api.WebSocket.binaryType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/binaryType",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-binarytype①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.bufferedAmount",
+        "name": "api.WebSocket.bufferedAmount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/bufferedAmount",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-bufferedamount①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.close",
+        "name": "api.WebSocket.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/close",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-close①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.close_event",
+        "name": "api.WebSocket.close_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/close_event",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#dom-websocket-onclose"
+        ]
+      },
+      {
+        "id": "api.WebSocket.error_event",
+        "name": "api.WebSocket.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/error_event",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#dom-websocket-onerror"
+        ]
+      },
+      {
+        "id": "api.WebSocket.extensions",
+        "name": "api.WebSocket.extensions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/extensions",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-extensions①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.message_event",
+        "name": "api.WebSocket.message_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/message_event",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#dom-websocket-onmessage"
+        ]
+      },
+      {
+        "id": "api.WebSocket.open_event",
+        "name": "api.WebSocket.open_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/open_event",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#dom-websocket-onopen"
+        ]
+      },
+      {
+        "id": "api.WebSocket.protocol",
+        "name": "api.WebSocket.protocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/protocol",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-protocol①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.readyState",
+        "name": "api.WebSocket.readyState",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/readyState",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-readystate①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.send",
+        "name": "api.WebSocket.send",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/send",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-send①"
+        ]
+      },
+      {
+        "id": "api.WebSocket.url",
+        "name": "api.WebSocket.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebSocket/url",
+        "specUrls": [
+          "https://websockets.spec.whatwg.org/#ref-for-dom-websocket-url①"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "websockets",
+        "name": "Web Sockets",
+        "statusUrl": "https://caniuse.com/websockets",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/comms.html#network"
+        ]
+      }
+    ]
+  }
+}

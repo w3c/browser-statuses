@@ -1,0 +1,46 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.DOMException",
+        "name": "api.DOMException",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMException",
+        "specUrls": [
+          "https://webidl.spec.whatwg.org/#idl-DOMException"
+        ]
+      },
+      {
+        "id": "api.DOMException.DOMException",
+        "name": "api.DOMException.DOMException",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMException/DOMException",
+        "specUrls": [
+          "https://webidl.spec.whatwg.org/#dom-domexception-domexception"
+        ]
+      },
+      {
+        "id": "api.DOMException.code",
+        "name": "api.DOMException.code",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMException/code",
+        "specUrls": [
+          "https://webidl.spec.whatwg.org/#dom-domexception-code"
+        ]
+      },
+      {
+        "id": "api.DOMException.message",
+        "name": "api.DOMException.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMException/message",
+        "specUrls": [
+          "https://webidl.spec.whatwg.org/#dom-domexception-message"
+        ]
+      },
+      {
+        "id": "api.DOMException.name",
+        "name": "api.DOMException.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMException/name",
+        "specUrls": [
+          "https://webidl.spec.whatwg.org/#dom-domexception-name"
+        ]
+      }
+    ]
+  }
+}

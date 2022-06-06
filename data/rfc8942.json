@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Accept-CH",
+        "name": "http.headers.Accept-CH",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept-CH",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc8942#section-3.1"
+        ]
+      }
+    ]
+  }
+}

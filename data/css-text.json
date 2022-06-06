@@ -1,0 +1,486 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.hanging-punctuation",
+        "name": "css.properties.hanging-punctuation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/hanging-punctuation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#hanging-punctuation-property"
+        ]
+      },
+      {
+        "id": "css.properties.hyphenate-character",
+        "name": "css.properties.hyphenate-character",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/hyphenate-character",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-4/#propdef-hyphenate-character"
+        ]
+      },
+      {
+        "id": "css.properties.hyphens",
+        "name": "css.properties.hyphens",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/hyphens",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#hyphens-property"
+        ]
+      },
+      {
+        "id": "css.properties.letter-spacing",
+        "name": "css.properties.letter-spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/letter-spacing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#letter-spacing-property"
+        ]
+      },
+      {
+        "id": "css.properties.line-break",
+        "name": "css.properties.line-break",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/line-break",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#line-break-property"
+        ]
+      },
+      {
+        "id": "css.properties.overflow-wrap",
+        "name": "css.properties.overflow-wrap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/overflow-wrap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#overflow-wrap-property"
+        ]
+      },
+      {
+        "id": "css.properties.tab-size",
+        "name": "css.properties.tab-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/tab-size",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#tab-size-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-align",
+        "name": "css.properties.text-align",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-align",
+        "specUrls": [
+          "https://drafts.csswg.org/css-logical/#text-align",
+          "https://drafts.csswg.org/css-text/#text-align-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-align-last",
+        "name": "css.properties.text-align-last",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-align-last",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#text-align-last-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration",
+        "name": "css.properties.text-decoration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-color",
+        "name": "css.properties.text-decoration-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-color-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-line",
+        "name": "css.properties.text-decoration-line",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-line",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-line-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-skip",
+        "name": "css.properties.text-decoration-skip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skipping"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-skip-ink",
+        "name": "css.properties.text-decoration-skip-ink",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skip-ink-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-style",
+        "name": "css.properties.text-decoration-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-thickness",
+        "name": "css.properties.text-decoration-thickness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-width-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis",
+        "name": "css.properties.text-emphasis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-color",
+        "name": "css.properties.text-emphasis-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-color-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-position",
+        "name": "css.properties.text-emphasis-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-position-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-style",
+        "name": "css.properties.text-emphasis-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-indent",
+        "name": "css.properties.text-indent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-indent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#text-indent-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-justify",
+        "name": "css.properties.text-justify",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-justify",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#text-justify-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-shadow",
+        "name": "css.properties.text-shadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-shadow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-shadow-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-transform",
+        "name": "css.properties.text-transform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-transform",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#text-transform"
+        ]
+      },
+      {
+        "id": "css.properties.text-underline-offset",
+        "name": "css.properties.text-underline-offset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#underline-offset"
+        ]
+      },
+      {
+        "id": "css.properties.text-underline-position",
+        "name": "css.properties.text-underline-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": "css.properties.white-space",
+        "name": "css.properties.white-space",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/white-space",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#white-space-property"
+        ]
+      },
+      {
+        "id": "css.properties.word-break",
+        "name": "css.properties.word-break",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/word-break",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#word-break-property"
+        ]
+      },
+      {
+        "id": "css.properties.word-spacing",
+        "name": "css.properties.word-spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/word-spacing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#word-spacing-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.letter-spacing",
+        "name": "svg.attributes.presentation.letter-spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/letter-spacing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#letter-spacing-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.text-decoration",
+        "name": "svg.attributes.presentation.text-decoration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/text-decoration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-property",
+          "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.word-spacing",
+        "name": "svg.attributes.presentation.word-spacing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/word-spacing",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#word-spacing-property"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-hanging-punctuation",
+        "name": "CSS hanging-punctuation",
+        "statusUrl": "https://caniuse.com/css-hanging-punctuation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#hanging-punctuation-property"
+        ]
+      },
+      {
+        "id": "css-hyphens",
+        "name": "CSS Hyphenation",
+        "statusUrl": "https://caniuse.com/css-hyphens",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/#hyphenation"
+        ]
+      },
+      {
+        "id": "css-text-align-last",
+        "name": "CSS3 text-align-last",
+        "statusUrl": "https://caniuse.com/css-text-align-last",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/#text-align-last-property"
+        ]
+      },
+      {
+        "id": "css-text-indent",
+        "name": "CSS text-indent",
+        "statusUrl": "https://caniuse.com/css-text-indent",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#text-indent-property"
+        ]
+      },
+      {
+        "id": "css-text-justify",
+        "name": "CSS text-justify",
+        "statusUrl": "https://caniuse.com/css-text-justify",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#text-justify-property"
+        ]
+      },
+      {
+        "id": "css-textshadow",
+        "name": "CSS3 Text-shadow",
+        "statusUrl": "https://caniuse.com/css-textshadow",
+        "specUrls": [
+          "https://www.w3.org/TR/css-text-decor-3/#text-shadow-property"
+        ]
+      },
+      {
+        "id": "css3-tabsize",
+        "name": "CSS3 tab-size",
+        "statusUrl": "https://caniuse.com/css3-tabsize",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/#tab-size"
+        ]
+      },
+      {
+        "id": "text-decoration",
+        "name": "text-decoration styling",
+        "statusUrl": "https://caniuse.com/text-decoration",
+        "specUrls": [
+          "https://www.w3.org/TR/css-text-decor-3/#line-decoration"
+        ]
+      },
+      {
+        "id": "text-emphasis",
+        "name": "text-emphasis styling",
+        "statusUrl": "https://caniuse.com/text-emphasis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#text-emphasis-property"
+        ]
+      },
+      {
+        "id": "word-break",
+        "name": "CSS3 word-break",
+        "statusUrl": "https://caniuse.com/word-break",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/#word-break"
+        ]
+      },
+      {
+        "id": "wordwrap",
+        "name": "CSS3 Overflow-wrap",
+        "statusUrl": "https://caniuse.com/wordwrap",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/#overflow-wrap"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4775453877338112,
+        "name": "CSS `text` properties",
+        "statusUrl": "https://chromestatus.com/feature/4775453877338112",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-text/"
+        ]
+      },
+      {
+        "id": 4842781306519552,
+        "name": "white-space: break-spaces",
+        "statusUrl": "https://chromestatus.com/feature/4842781306519552",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#valdef-white-space-break-spaces"
+        ]
+      },
+      {
+        "id": 4886433493942272,
+        "name": "tab-size supports <number> css value type",
+        "statusUrl": "https://chromestatus.com/feature/4886433493942272",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#tab-size-property"
+        ]
+      },
+      {
+        "id": 4988534620422144,
+        "name": "CSSTextEmphasisPosition: support for left and right values",
+        "statusUrl": "https://chromestatus.com/feature/4988534620422144",
+        "specUrls": [
+          "http://www.w3.org/TR/css-text-decor-3/#text-emphasis-position"
+        ]
+      },
+      {
+        "id": 5126089347170304,
+        "name": "overflow-wrap: anywhere",
+        "statusUrl": "https://chromestatus.com/feature/5126089347170304",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/"
+        ]
+      },
+      {
+        "id": 5137645088800768,
+        "name": "Unprefix CSS 'line-break' property",
+        "statusUrl": "https://chromestatus.com/feature/5137645088800768",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#line-break-property"
+        ]
+      },
+      {
+        "id": 5631679087509504,
+        "name": "CSS4 text-decoration-skip-ink",
+        "statusUrl": "https://chromestatus.com/feature/5631679087509504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skip-ink-property"
+        ]
+      },
+      {
+        "id": 5642121184804864,
+        "name": "CSS hyphens property",
+        "statusUrl": "https://chromestatus.com/feature/5642121184804864",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#propdef-hyphens"
+        ]
+      },
+      {
+        "id": 5668660729348096,
+        "name": "line-break: anywhere",
+        "statusUrl": "https://chromestatus.com/feature/5668660729348096",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#valdef-line-break-anywhere"
+        ]
+      },
+      {
+        "id": 5672891947417600,
+        "name": "CSS Automatic Hyphenation for Windows/Linux/ChromeOS",
+        "statusUrl": "https://chromestatus.com/feature/5672891947417600",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-3/#propdef-hyphens"
+        ]
+      },
+      {
+        "id": 5679635154075648,
+        "name": "Unprefixed text-emphasis properties",
+        "statusUrl": "https://chromestatus.com/feature/5679635154075648",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#emphasis-marks"
+        ]
+      },
+      {
+        "id": 5747636764147712,
+        "name": "text-decoration-thickness, text-underline-offset and from-font keyword for text-underline-position",
+        "statusUrl": "https://chromestatus.com/feature/5747636764147712",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": 5749634488074240,
+        "name": "'left' and 'right' values for the 'text-underline-position' property",
+        "statusUrl": "https://chromestatus.com/feature/5749634488074240",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": 5766823203045376,
+        "name": "CSS3 Text Decorations",
+        "statusUrl": "https://chromestatus.com/feature/5766823203045376",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#line-decoration"
+        ]
+      },
+      {
+        "id": 6232200047493120,
+        "name": "Render Unicode control characters",
+        "statusUrl": "https://chromestatus.com/feature/6232200047493120",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text/#white-space-processing"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-text-decoration-level-4",
+        "name": "CSS Text Decoration Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-text-decoration-level-4",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/"
+        ]
+      }
+    ]
+  }
+}

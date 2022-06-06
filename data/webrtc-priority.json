@@ -1,0 +1,13 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.RTCDataChannel.priority",
+        "name": "api.RTCDataChannel.priority",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-priority/#dom-rtcdatachannel-priority"
+        ]
+      }
+    ]
+  }
+}

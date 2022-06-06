@@ -1,0 +1,94 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.margin",
+        "name": "css.properties.margin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#margin"
+        ]
+      },
+      {
+        "id": "css.properties.margin-bottom",
+        "name": "css.properties.margin-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#margin-physical"
+        ]
+      },
+      {
+        "id": "css.properties.margin-left",
+        "name": "css.properties.margin-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#margin-physical"
+        ]
+      },
+      {
+        "id": "css.properties.margin-right",
+        "name": "css.properties.margin-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#margin-physical"
+        ]
+      },
+      {
+        "id": "css.properties.margin-top",
+        "name": "css.properties.margin-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#margin-physical"
+        ]
+      },
+      {
+        "id": "css.properties.margin-trim",
+        "name": "css.properties.margin-trim",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/margin-trim",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box-4/#margin-trim"
+        ]
+      },
+      {
+        "id": "css.properties.padding",
+        "name": "css.properties.padding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#padding-shorthand"
+        ]
+      },
+      {
+        "id": "css.properties.padding-bottom",
+        "name": "css.properties.padding-bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#padding-physical"
+        ]
+      },
+      {
+        "id": "css.properties.padding-left",
+        "name": "css.properties.padding-left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#padding-physical"
+        ]
+      },
+      {
+        "id": "css.properties.padding-right",
+        "name": "css.properties.padding-right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#padding-physical"
+        ]
+      },
+      {
+        "id": "css.properties.padding-top",
+        "name": "css.properties.padding-top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/padding-top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-box/#padding-physical"
+        ]
+      }
+    ]
+  }
+}

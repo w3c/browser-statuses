@@ -1,0 +1,72 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRAnchor",
+        "name": "api.XRAnchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRAnchor",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#xr-anchor"
+        ]
+      },
+      {
+        "id": "api.XRAnchor.anchorSpace",
+        "name": "api.XRAnchor.anchorSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRAnchor/anchorSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#dom-xranchor-anchorspace"
+        ]
+      },
+      {
+        "id": "api.XRAnchor.delete",
+        "name": "api.XRAnchor.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRAnchor/delete",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#dom-xranchor-delete"
+        ]
+      },
+      {
+        "id": "api.XRAnchorSet",
+        "name": "api.XRAnchorSet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRAnchorSet",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#xranchorset"
+        ]
+      },
+      {
+        "id": "api.XRFrame.createAnchor",
+        "name": "api.XRFrame.createAnchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/createAnchor",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#dom-xrframe-createanchor"
+        ]
+      },
+      {
+        "id": "api.XRFrame.trackedAnchors",
+        "name": "api.XRFrame.trackedAnchors",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/trackedAnchors",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#dom-xrframe-trackedanchors"
+        ]
+      },
+      {
+        "id": "api.XRHitTestResult.createAnchor",
+        "name": "api.XRHitTestResult.createAnchor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRHitTestResult/createAnchor",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/#dom-xrhittestresult-createanchor"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5129925015109632,
+        "name": "WebXR Anchors",
+        "statusUrl": "https://chromestatus.com/feature/5129925015109632",
+        "specUrls": [
+          "https://immersive-web.github.io/anchors/"
+        ]
+      }
+    ]
+  }
+}

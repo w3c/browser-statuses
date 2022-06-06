@@ -1,0 +1,15 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Content-Disposition",
+        "name": "http.headers.Content-Disposition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Disposition",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc6266.html#header.field.definition",
+          "https://www.rfc-editor.org/rfc/rfc7578#section-4.2"
+        ]
+      }
+    ]
+  }
+}

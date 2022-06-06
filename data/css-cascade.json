@@ -1,0 +1,164 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.import",
+        "name": "css.at-rules.import",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@import",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#at-import"
+        ]
+      },
+      {
+        "id": "css.at-rules.layer",
+        "name": "css.at-rules.layer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@layer",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-5/#layering"
+        ]
+      },
+      {
+        "id": "css.properties.all",
+        "name": "css.properties.all",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/all",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#all-shorthand"
+        ]
+      },
+      {
+        "id": "css.types.global_keywords.inherit",
+        "name": "css.types.global_keywords.inherit",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/inherit",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#inherit"
+        ]
+      },
+      {
+        "id": "css.types.global_keywords.initial",
+        "name": "css.types.global_keywords.initial",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/initial",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#initial"
+        ]
+      },
+      {
+        "id": "css.types.global_keywords.revert",
+        "name": "css.types.global_keywords.revert",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/revert",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#default"
+        ]
+      },
+      {
+        "id": "css.types.global_keywords.revert-layer",
+        "name": "css.types.global_keywords.revert-layer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/revert-layer",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-5/#revert-layer"
+        ]
+      },
+      {
+        "id": "css.types.global_keywords.unset",
+        "name": "css.types.global_keywords.unset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/unset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#inherit-initial"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-all",
+        "name": "CSS all property",
+        "statusUrl": "https://caniuse.com/css-all",
+        "specUrls": [
+          "https://www.w3.org/TR/css-cascade-3/#all-shorthand"
+        ]
+      },
+      {
+        "id": "css-cascade-layers",
+        "name": "CSS Cascade Layers",
+        "statusUrl": "https://caniuse.com/css-cascade-layers",
+        "specUrls": [
+          "https://www.w3.org/TR/css-cascade-5/"
+        ]
+      },
+      {
+        "id": "css-revert-value",
+        "name": "CSS revert value",
+        "statusUrl": "https://caniuse.com/css-revert-value",
+        "specUrls": [
+          "https://www.w3.org/TR/css-cascade-4/#valdef-all-revert"
+        ]
+      },
+      {
+        "id": "css-unset-value",
+        "name": "CSS unset value",
+        "statusUrl": "https://caniuse.com/css-unset-value",
+        "specUrls": [
+          "https://www.w3.org/TR/css-cascade-3/#inherit-initial"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5100672734199808,
+        "name": "@scope",
+        "statusUrl": "https://chromestatus.com/feature/5100672734199808",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-6/#scope-atrule"
+        ]
+      },
+      {
+        "id": 5644990145363968,
+        "name": "revert keyword",
+        "statusUrl": "https://chromestatus.com/feature/5644990145363968",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade/#default"
+        ]
+      },
+      {
+        "id": 5663362835808256,
+        "name": "CSS cascade layers",
+        "statusUrl": "https://chromestatus.com/feature/5663362835808256",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-5/#layering"
+        ]
+      },
+      {
+        "id": 6178222542684160,
+        "name": "CSS \"all\" shorthand",
+        "statusUrl": "https://chromestatus.com/feature/6178222542684160",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-cascade/#all-shorthand"
+        ]
+      },
+      {
+        "id": 6645142303801344,
+        "name": "UserAgent Stylesheets for Extensions",
+        "statusUrl": "https://chromestatus.com/feature/6645142303801344",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-3/#cascading"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-css-cascade-layers",
+        "name": "CSS Cascade Layers",
+        "statusUrl": "https://webkit.org/status/#feature-css-cascade-layers",
+        "specUrls": [
+          "https://www.w3.org/TR/css-cascade-5/#layering"
+        ]
+      },
+      {
+        "id": "specification-css-cascading-and-inheritance-level-5",
+        "name": "CSS Cascading and Inheritance Level 5",
+        "statusUrl": "https://webkit.org/status/#specification-css-cascading-and-inheritance-level-5",
+        "specUrls": [
+          "https://drafts.csswg.org/css-cascade-5/"
+        ]
+      }
+    ]
+  }
+}

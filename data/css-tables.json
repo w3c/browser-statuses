@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5684392546533376,
+        "name": "Implement visibility:collapse for table rows and row-groups",
+        "statusUrl": "https://chromestatus.com/feature/5684392546533376",
+        "specUrls": [
+          "https://drafts.csswg.org/css-tables-3/#visible-track"
+        ]
+      }
+    ]
+  }
+}

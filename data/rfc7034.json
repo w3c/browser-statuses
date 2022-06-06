@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.X-Frame-Options",
+        "name": "http.headers.X-Frame-Options",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/X-Frame-Options",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc7034#section-2"
+        ]
+      }
+    ]
+  }
+}

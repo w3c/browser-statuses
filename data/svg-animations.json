@@ -1,0 +1,224 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.SVGAnimateElement",
+        "name": "api.SVGAnimateElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimateElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGAnimateElement"
+        ]
+      },
+      {
+        "id": "api.SVGAnimateMotionElement",
+        "name": "api.SVGAnimateMotionElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimateMotionElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGAnimateMotionElement"
+        ]
+      },
+      {
+        "id": "api.SVGAnimateTransformElement",
+        "name": "api.SVGAnimateTransformElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGAnimateTransformElement"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement",
+        "name": "api.SVGAnimationElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGAnimationElement"
+        ]
+      },
+      {
+        "id": "api.SVGAnimationElement.targetElement",
+        "name": "api.SVGAnimationElement.targetElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/targetElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#__svg__SVGAnimationElement__targetElement"
+        ]
+      },
+      {
+        "id": "api.SVGMPathElement",
+        "name": "api.SVGMPathElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMPathElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGMPathElement"
+        ]
+      },
+      {
+        "id": "api.SVGSetElement",
+        "name": "api.SVGSetElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGSetElement",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceSVGSetElement"
+        ]
+      },
+      {
+        "id": "api.TimeEvent",
+        "name": "api.TimeEvent",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#InterfaceTimeEvent"
+        ]
+      },
+      {
+        "id": "api.TimeEvent.detail",
+        "name": "api.TimeEvent.detail",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#__svg__TimeEvent__detail"
+        ]
+      },
+      {
+        "id": "api.TimeEvent.initTimeEvent",
+        "name": "api.TimeEvent.initTimeEvent",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#__svg__TimeEvent__initTimeEvent"
+        ]
+      },
+      {
+        "id": "api.TimeEvent.view",
+        "name": "api.TimeEvent.view",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#__svg__TimeEvent__view"
+        ]
+      },
+      {
+        "id": "svg.attributes.href",
+        "name": "svg.attributes.href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/href",
+        "specUrls": [
+          "https://drafts.fxtf.org/filter-effects/#element-attrdef-feimage-href",
+          "https://svgwg.org/specs/animations/#DiscardElementHrefAttribute",
+          "https://svgwg.org/specs/animations/#HrefAttribute",
+          "https://svgwg.org/specs/animations/#MPathElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/embedded.html#ImageElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/linking.html#AElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#LinearGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#PatternElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/pservers.html#RadialGradientElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/interact.html#ScriptElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/struct.html#UseElementHrefAttribute",
+          "https://svgwg.org/svg2-draft/text.html#TextPathElementHrefAttribute"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.fill",
+        "name": "svg.attributes.presentation.fill",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/fill",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#FillAttribute",
+          "https://svgwg.org/svg2-draft/painting.html#SpecifyingFillPaint"
+        ]
+      },
+      {
+        "id": "svg.elements.animate",
+        "name": "svg.elements.animate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/animate",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#AnimateElement"
+        ]
+      },
+      {
+        "id": "svg.elements.animate.dur",
+        "name": "svg.elements.animate.dur",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/dur",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#DurAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.animate.from",
+        "name": "svg.elements.animate.from",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/from",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#FromAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.animate.repeatCount",
+        "name": "svg.elements.animate.repeatCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/repeatCount",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#RepeatCountAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.animateMotion",
+        "name": "svg.elements.animateMotion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/animateMotion",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#AnimateMotionElement"
+        ]
+      },
+      {
+        "id": "svg.elements.animateMotion.keyPoints",
+        "name": "svg.elements.animateMotion.keyPoints",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/keyPoints",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#KeyPointsAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.animateTransform",
+        "name": "svg.elements.animateTransform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/animateTransform",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#AnimateTransformElement"
+        ]
+      },
+      {
+        "id": "svg.elements.animateTransform.by",
+        "name": "svg.elements.animateTransform.by",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/by",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#ByAttribute"
+        ]
+      },
+      {
+        "id": "svg.elements.discard",
+        "name": "svg.elements.discard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/discard",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#DiscardElement"
+        ]
+      },
+      {
+        "id": "svg.elements.mpath",
+        "name": "svg.elements.mpath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/mpath",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#MPathElement"
+        ]
+      },
+      {
+        "id": "svg.elements.set",
+        "name": "svg.elements.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/set",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#SetElement"
+        ]
+      },
+      {
+        "id": "svg.elements.text.rotate",
+        "name": "svg.elements.text.rotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/rotate",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#RotateAttribute"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4870172764536832,
+        "name": "Remove the <discard> element",
+        "statusUrl": "https://chromestatus.com/feature/4870172764536832",
+        "specUrls": [
+          "https://svgwg.org/specs/animations/#DiscardElement"
+        ]
+      }
+    ]
+  }
+}

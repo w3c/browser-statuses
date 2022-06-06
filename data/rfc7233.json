@@ -1,0 +1,63 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Accept-Ranges",
+        "name": "http.headers.Accept-Ranges",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Accept-Ranges",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#header.accept-ranges"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Range",
+        "name": "http.headers.Content-Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Range",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#header.content-range"
+        ]
+      },
+      {
+        "id": "http.headers.Content-Type",
+        "name": "http.headers.Content-Type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Type",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#status.206",
+          "https://httpwg.org/specs/rfc7231.html#header.content-type"
+        ]
+      },
+      {
+        "id": "http.headers.If-Range",
+        "name": "http.headers.If-Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/If-Range",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#header.if-range"
+        ]
+      },
+      {
+        "id": "http.headers.Range",
+        "name": "http.headers.Range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Range",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#header.range"
+        ]
+      },
+      {
+        "id": "http.status.206",
+        "name": "http.status.206",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/206",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#status.206"
+        ]
+      },
+      {
+        "id": "http.status.416",
+        "name": "http.status.416",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/416",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7233.html#status.416"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.InputEvent",
+        "name": "api.InputEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent",
+        "specUrls": [
+          "https://w3c.github.io/input-events/#interface-InputEvent",
+          "https://w3c.github.io/uievents/#interface-inputevent"
+        ]
+      },
+      {
+        "id": "api.InputEvent.data",
+        "name": "api.InputEvent.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/data",
+        "specUrls": [
+          "https://w3c.github.io/input-events/#dfn-data"
+        ]
+      },
+      {
+        "id": "api.InputEvent.dataTransfer",
+        "name": "api.InputEvent.dataTransfer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/dataTransfer",
+        "specUrls": [
+          "https://w3c.github.io/input-events/#dom-inputevent-datatransfer"
+        ]
+      },
+      {
+        "id": "api.InputEvent.getTargetRanges",
+        "name": "api.InputEvent.getTargetRanges",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/InputEvent/getTargetRanges",
+        "specUrls": [
+          "https://w3c.github.io/input-events/#dom-inputevent-gettargetranges"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-input-events",
+        "name": "Input Events",
+        "statusUrl": "https://webkit.org/status/#specification-input-events",
+        "specUrls": [
+          "https://w3c.github.io/input-events"
+        ]
+      }
+    ]
+  }
+}

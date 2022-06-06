@@ -1,0 +1,38 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5104475634139136,
+        "name": "User Activation Requirement for SPC Credential Enrollment",
+        "statusUrl": "https://chromestatus.com/feature/5104475634139136",
+        "specUrls": [
+          "https://w3c.github.io/secure-payment-confirmation"
+        ]
+      },
+      {
+        "id": 5133415903920128,
+        "name": "Secure Payment Confirmation - Opt-Out Support",
+        "statusUrl": "https://chromestatus.com/feature/5133415903920128",
+        "specUrls": [
+          "https://w3c.github.io/secure-payment-confirmation"
+        ]
+      },
+      {
+        "id": 5675682238562304,
+        "name": "Secure Payment Confirmation API V3",
+        "statusUrl": "https://chromestatus.com/feature/5675682238562304",
+        "specUrls": [
+          "https://w3c.github.io/secure-payment-confirmation/"
+        ]
+      },
+      {
+        "id": 5702310124584960,
+        "name": "Secure payment confirmation",
+        "statusUrl": "https://chromestatus.com/feature/5702310124584960",
+        "specUrls": [
+          "https://w3c.github.io/secure-payment-confirmation/"
+        ]
+      }
+    ]
+  }
+}

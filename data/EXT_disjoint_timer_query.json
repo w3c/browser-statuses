@@ -1,0 +1,88 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EXT_disjoint_timer_query",
+        "name": "api.EXT_disjoint_timer_query",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.beginQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.beginQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/beginQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.createQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.createQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/createQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.deleteQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.deleteQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/deleteQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.endQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.endQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/endQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.getQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.getQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/getQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.getQueryObjectEXT",
+        "name": "api.EXT_disjoint_timer_query.getQueryObjectEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/getQueryObjectEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.isQueryEXT",
+        "name": "api.EXT_disjoint_timer_query.isQueryEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/isQueryEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      },
+      {
+        "id": "api.EXT_disjoint_timer_query.queryCounterEXT",
+        "name": "api.EXT_disjoint_timer_query.queryCounterEXT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_disjoint_timer_query/queryCounterEXT",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6254718426808320,
+        "name": "EXT_disjoint_timer_query WebGL extension",
+        "statusUrl": "https://chromestatus.com/feature/6254718426808320",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
+        ]
+      }
+    ]
+  }
+}

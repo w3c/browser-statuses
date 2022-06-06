@@ -1,0 +1,34 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.DataCue",
+        "name": "api.DataCue",
+        "specUrls": [
+          "https://wicg.github.io/datacue/#datacue-interface"
+        ]
+      },
+      {
+        "id": "api.DataCue.DataCue",
+        "name": "api.DataCue.DataCue",
+        "specUrls": [
+          "https://wicg.github.io/datacue/#dom-datacue-datacue"
+        ]
+      },
+      {
+        "id": "api.DataCue.type",
+        "name": "api.DataCue.type",
+        "specUrls": [
+          "https://wicg.github.io/datacue/#dom-datacue-type"
+        ]
+      },
+      {
+        "id": "api.DataCue.value",
+        "name": "api.DataCue.value",
+        "specUrls": [
+          "https://wicg.github.io/datacue/#dom-datacue-value"
+        ]
+      }
+    ]
+  }
+}

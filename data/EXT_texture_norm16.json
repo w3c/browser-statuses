@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EXT_texture_norm16",
+        "name": "api.EXT_texture_norm16",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_texture_norm16",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_texture_norm16/"
+        ]
+      }
+    ]
+  }
+}

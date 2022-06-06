@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5738583487938560,
+        "name": "Web Neural Network API (WebNN)",
+        "statusUrl": "https://chromestatus.com/feature/5738583487938560",
+        "specUrls": [
+          "https://www.w3.org/TR/webnn/"
+        ]
+      }
+    ]
+  }
+}

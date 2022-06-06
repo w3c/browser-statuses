@@ -1,0 +1,238 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.MathMLElement",
+        "name": "api.MathMLElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MathMLElement",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dom-mathmlelement"
+        ]
+      },
+      {
+        "id": "css.properties.math-style",
+        "name": "css.properties.math-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/math-style",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#the-math-style-property"
+        ]
+      },
+      {
+        "id": "mathml.elements.maction",
+        "name": "mathml.elements.maction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/maction",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-maction"
+        ]
+      },
+      {
+        "id": "mathml.elements.math",
+        "name": "mathml.elements.math",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/math",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#the-top-level-math-element"
+        ]
+      },
+      {
+        "id": "mathml.elements.merror",
+        "name": "mathml.elements.merror",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/merror",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#error-message-merror"
+        ]
+      },
+      {
+        "id": "mathml.elements.mfrac",
+        "name": "mathml.elements.mfrac",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mfrac",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#fractions-mfrac"
+        ]
+      },
+      {
+        "id": "mathml.elements.mi",
+        "name": "mathml.elements.mi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mi",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#identifier-mi"
+        ]
+      },
+      {
+        "id": "mathml.elements.mmultiscripts",
+        "name": "mathml.elements.mmultiscripts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#prescripts-and-tensor-indices-mmultiscripts"
+        ]
+      },
+      {
+        "id": "mathml.elements.mn",
+        "name": "mathml.elements.mn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mn",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#number-mn"
+        ]
+      },
+      {
+        "id": "mathml.elements.mo",
+        "name": "mathml.elements.mo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mo",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#operator-fence-separator-or-accent-mo"
+        ]
+      },
+      {
+        "id": "mathml.elements.mover",
+        "name": "mathml.elements.mover",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mover",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#underscripts-and-overscripts-munder-mover-munderover"
+        ]
+      },
+      {
+        "id": "mathml.elements.mpadded",
+        "name": "mathml.elements.mpadded",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mpadded",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#adjust-space-around-content-mpadded"
+        ]
+      },
+      {
+        "id": "mathml.elements.mphantom",
+        "name": "mathml.elements.mphantom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mphantom",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#making-sub-expressions-invisible-mphantom"
+        ]
+      },
+      {
+        "id": "mathml.elements.mroot",
+        "name": "mathml.elements.mroot",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mroot",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#radicals-msqrt-mroot"
+        ]
+      },
+      {
+        "id": "mathml.elements.mrow",
+        "name": "mathml.elements.mrow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mrow",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#horizontally-group-sub-expressions-mrow"
+        ]
+      },
+      {
+        "id": "mathml.elements.ms",
+        "name": "mathml.elements.ms",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/ms",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#string-literal-ms"
+        ]
+      },
+      {
+        "id": "mathml.elements.mspace",
+        "name": "mathml.elements.mspace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mspace",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#space-mspace"
+        ]
+      },
+      {
+        "id": "mathml.elements.msqrt",
+        "name": "mathml.elements.msqrt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/msqrt",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#radicals-msqrt-mroot"
+        ]
+      },
+      {
+        "id": "mathml.elements.mstyle",
+        "name": "mathml.elements.mstyle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mstyle",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#style-change-mstyle"
+        ]
+      },
+      {
+        "id": "mathml.elements.msub",
+        "name": "mathml.elements.msub",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/msub",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#subscripts-and-superscripts-msub-msup-msubsup"
+        ]
+      },
+      {
+        "id": "mathml.elements.msubsup",
+        "name": "mathml.elements.msubsup",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/msubsup",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#subscripts-and-superscripts-msub-msup-msubsup"
+        ]
+      },
+      {
+        "id": "mathml.elements.msup",
+        "name": "mathml.elements.msup",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/msup",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#subscripts-and-superscripts-msub-msup-msubsup"
+        ]
+      },
+      {
+        "id": "mathml.elements.mtable",
+        "name": "mathml.elements.mtable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mtable",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#table-or-matrix-mtable"
+        ]
+      },
+      {
+        "id": "mathml.elements.mtd",
+        "name": "mathml.elements.mtd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mtd",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#entry-in-table-or-matrix-mtd"
+        ]
+      },
+      {
+        "id": "mathml.elements.mtext",
+        "name": "mathml.elements.mtext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mtext",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#text-mtext"
+        ]
+      },
+      {
+        "id": "mathml.elements.mtr",
+        "name": "mathml.elements.mtr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/mtr",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#row-in-table-or-matrix-mtr"
+        ]
+      },
+      {
+        "id": "mathml.elements.munder",
+        "name": "mathml.elements.munder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/munder",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#underscripts-and-overscripts-munder-mover-munderover"
+        ]
+      },
+      {
+        "id": "mathml.elements.munderover",
+        "name": "mathml.elements.munderover",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/munderover",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#underscripts-and-overscripts-munder-mover-munderover"
+        ]
+      },
+      {
+        "id": "mathml.elements.semantics",
+        "name": "mathml.elements.semantics",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Element/semantics",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#semantics-and-presentation"
+        ]
+      }
+    ]
+  }
+}

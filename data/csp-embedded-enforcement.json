@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.HTMLIFrameElement.csp",
+        "name": "api.HTMLIFrameElement.csp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/csp",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-cspee/#ref-for-dom-htmliframeelement-csp"
+        ]
+      }
+    ]
+  }
+}

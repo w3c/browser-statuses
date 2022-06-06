@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WEBGL_debug_shaders",
+        "name": "api.WEBGL_debug_shaders",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_debug_shaders",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/"
+        ]
+      },
+      {
+        "id": "api.WEBGL_debug_shaders.getTranslatedShaderSource",
+        "name": "api.WEBGL_debug_shaders.getTranslatedShaderSource",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_debug_shaders/getTranslatedShaderSource",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_debug_shaders/"
+        ]
+      }
+    ]
+  }
+}

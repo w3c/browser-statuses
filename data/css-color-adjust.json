@@ -1,0 +1,98 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.color-scheme",
+        "name": "css.properties.color-scheme",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color-scheme",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": "css.properties.forced-color-adjust",
+        "name": "css.properties.forced-color-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/forced-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#forced-color-adjust-prop"
+        ]
+      },
+      {
+        "id": "css.properties.print-color-adjust",
+        "name": "css.properties.print-color-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/print-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#propdef-print-color-adjust"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-color-adjust",
+        "name": "CSS color-adjust",
+        "statusUrl": "https://caniuse.com/css-color-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#propdef-color-adjust"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4887620095049728,
+        "name": "forced-color-adjust: preserve-parent-color",
+        "statusUrl": "https://chromestatus.com/feature/4887620095049728",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-adjust-1/#forced-color-adjust-prop"
+        ]
+      },
+      {
+        "id": 5157621012103168,
+        "name": "CSS Color Adjust: 'only' keyword for color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5157621012103168",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5330651267989504,
+        "name": "CSS Color Adjust: color-scheme meta tag",
+        "statusUrl": "https://chromestatus.com/feature/5330651267989504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-meta"
+        ]
+      },
+      {
+        "id": 5653721679659008,
+        "name": "CSS Color Adjust: Remove 'only' and support used 'dark' for preferred 'light' for color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5653721679659008",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5672533924773888,
+        "name": "Auto Dark Mode & support for \"only\" in CSS color-scheme",
+        "statusUrl": "https://chromestatus.com/feature/5672533924773888",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 5757293075365888,
+        "name": "Forced colors mode",
+        "statusUrl": "https://chromestatus.com/feature/5757293075365888",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust-1/#forced-colors-mode"
+        ]
+      },
+      {
+        "id": 6070987093180416,
+        "name": "CSS Color Adjust: color-scheme property",
+        "statusUrl": "https://chromestatus.com/feature/6070987093180416",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+        ]
+      }
+    ]
+  }
+}

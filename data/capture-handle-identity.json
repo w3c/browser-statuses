@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 4854125411958784,
+        "name": "Capture Handle",
+        "statusUrl": "https://chromestatus.com/feature/4854125411958784",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-handle/identity/"
+        ]
+      }
+    ]
+  }
+}

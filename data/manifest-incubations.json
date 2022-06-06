@@ -1,0 +1,88 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Window.appinstalled_event",
+        "name": "api.Window.appinstalled_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/appinstalled_event",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#dom-window-onappinstalled"
+        ]
+      },
+      {
+        "id": "api.Window.beforeinstallprompt_event",
+        "name": "api.Window.beforeinstallprompt_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/beforeinstallprompt_event",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#onbeforeinstallprompt-attribute"
+        ]
+      },
+      {
+        "id": "html.manifest.display_override",
+        "name": "html.manifest.display_override",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/display_override",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#display_override-member"
+        ]
+      },
+      {
+        "id": "html.manifest.note_taking",
+        "name": "html.manifest.note_taking",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/note_taking",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#note_taking-member"
+        ]
+      },
+      {
+        "id": "html.manifest.note_taking.new_note_url",
+        "name": "html.manifest.note_taking.new_note_url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/note_taking/new_note_url",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#new_note_url-member"
+        ]
+      },
+      {
+        "id": "html.manifest.protocol_handlers",
+        "name": "html.manifest.protocol_handlers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/protocol_handlers",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#protocol_handlers-member"
+        ]
+      },
+      {
+        "id": "html.manifest.protocol_handlers.protocol",
+        "name": "html.manifest.protocol_handlers.protocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/protocol",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#protocol-member"
+        ]
+      },
+      {
+        "id": "html.manifest.protocol_handlers.url",
+        "name": "html.manifest.protocol_handlers.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/url",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#url-member"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5205972320518144,
+        "name": "Note taking new note URL",
+        "statusUrl": "https://chromestatus.com/feature/5205972320518144",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/index.html#note_taking-member"
+        ]
+      },
+      {
+        "id": 5721776357113856,
+        "name": "File Handling",
+        "statusUrl": "https://chromestatus.com/feature/5721776357113856",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/index.html#file_handlers-member"
+        ]
+      }
+    ]
+  }
+}

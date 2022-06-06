@@ -1,0 +1,196 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.TextDecoder",
+        "name": "api.TextDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#interface-textdecoder"
+        ]
+      },
+      {
+        "id": "api.TextDecoder.TextDecoder",
+        "name": "api.TextDecoder.TextDecoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder/TextDecoder",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoder①"
+        ]
+      },
+      {
+        "id": "api.TextDecoder.decode",
+        "name": "api.TextDecoder.decode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder/decode",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoder-decode①"
+        ]
+      },
+      {
+        "id": "api.TextDecoder.encoding",
+        "name": "api.TextDecoder.encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder/encoding",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoder-encoding①"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream",
+        "name": "api.TextDecoderStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#interface-textdecoderstream"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.TextDecoderStream",
+        "name": "api.TextDecoderStream.TextDecoderStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/TextDecoderStream",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoderstream①"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.encoding",
+        "name": "api.TextDecoderStream.encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/encoding",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#dom-textdecoder-encoding"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.fatal",
+        "name": "api.TextDecoderStream.fatal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/fatal",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#dom-textdecoder-fatal"
+        ]
+      },
+      {
+        "id": "api.TextDecoderStream.ignoreBOM",
+        "name": "api.TextDecoderStream.ignoreBOM",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream/ignoreBOM",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#textdecoder-ignore-bom-flag"
+        ]
+      },
+      {
+        "id": "api.TextEncoder",
+        "name": "api.TextEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoder",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#interface-textencoder"
+        ]
+      },
+      {
+        "id": "api.TextEncoder.TextEncoder",
+        "name": "api.TextEncoder.TextEncoder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoder/TextEncoder",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textencoder①"
+        ]
+      },
+      {
+        "id": "api.TextEncoder.encode",
+        "name": "api.TextEncoder.encode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoder/encode",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textencoder-encode①"
+        ]
+      },
+      {
+        "id": "api.TextEncoder.encodeInto",
+        "name": "api.TextEncoder.encodeInto",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoder/encodeInto",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textencoder-encodeinto①"
+        ]
+      },
+      {
+        "id": "api.TextEncoder.encoding",
+        "name": "api.TextEncoder.encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoder/encoding",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#dom-textencoder-encoding"
+        ]
+      },
+      {
+        "id": "api.TextEncoderStream",
+        "name": "api.TextEncoderStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#interface-textencoderstream"
+        ]
+      },
+      {
+        "id": "api.TextEncoderStream.TextEncoderStream",
+        "name": "api.TextEncoderStream.TextEncoderStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/TextEncoderStream",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textencoderstream①"
+        ]
+      },
+      {
+        "id": "api.TextEncoderStream.encoding",
+        "name": "api.TextEncoderStream.encoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextEncoderStream/encoding",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#dom-textencoder-encoding"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "textencoder",
+        "name": "TextEncoder & TextDecoder",
+        "statusUrl": "https://caniuse.com/textencoder",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#api"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4881011259211776,
+        "name": "TextEncoderStream and TextDecoderStream APIs",
+        "statusUrl": "https://chromestatus.com/feature/4881011259211776",
+        "specUrls": [
+          "http://encoding.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5546544912662528,
+        "name": "TextEncoder encodeInto() method",
+        "statusUrl": "https://chromestatus.com/feature/5546544912662528",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#dom-textencoder-encodeinto"
+        ]
+      },
+      {
+        "id": 5630760492990464,
+        "name": "TextEncoder API: drop support for legacy encodings ",
+        "statusUrl": "https://chromestatus.com/feature/5630760492990464",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5714368087982080,
+        "name": "Encoding API",
+        "statusUrl": "https://chromestatus.com/feature/5714368087982080",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-encoding",
+        "name": "Encoding",
+        "statusUrl": "https://webkit.org/status/#specification-encoding",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org"
+        ]
+      }
+    ]
+  }
+}

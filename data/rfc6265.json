@@ -1,0 +1,31 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Cookie",
+        "name": "http.headers.Cookie",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cookie",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc6265.html#cookie"
+        ]
+      },
+      {
+        "id": "http.headers.Set-Cookie",
+        "name": "http.headers.Set-Cookie",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Set-Cookie",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc6265.html#sane-set-cookie"
+        ]
+      },
+      {
+        "id": "http.headers.Set-Cookie.SameSite",
+        "name": "http.headers.Set-Cookie.SameSite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Set-Cookie/SameSite",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc6265.html#sane-set-cookie",
+          "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html#name-the-samesite-attribute"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.text-decoration",
+        "name": "css.properties.text-decoration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-color",
+        "name": "css.properties.text-decoration-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-color-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-line",
+        "name": "css.properties.text-decoration-line",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-line",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-line-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-skip",
+        "name": "css.properties.text-decoration-skip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skipping"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-skip-ink",
+        "name": "css.properties.text-decoration-skip-ink",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-skip-ink",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skip-ink-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-style",
+        "name": "css.properties.text-decoration-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-decoration-thickness",
+        "name": "css.properties.text-decoration-thickness",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-width-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis",
+        "name": "css.properties.text-emphasis",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-color",
+        "name": "css.properties.text-emphasis-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-color-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-position",
+        "name": "css.properties.text-emphasis-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-position-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-emphasis-style",
+        "name": "css.properties.text-emphasis-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-emphasis-style-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-shadow",
+        "name": "css.properties.text-shadow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-shadow",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-shadow-property"
+        ]
+      },
+      {
+        "id": "css.properties.text-underline-offset",
+        "name": "css.properties.text-underline-offset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-underline-offset",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#underline-offset"
+        ]
+      },
+      {
+        "id": "css.properties.text-underline-position",
+        "name": "css.properties.text-underline-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-underline-position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.text-decoration",
+        "name": "svg.attributes.presentation.text-decoration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/text-decoration",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#text-decoration-property",
+          "https://svgwg.org/svg2-draft/text.html#TextDecorationProperties"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-textshadow",
+        "name": "CSS3 Text-shadow",
+        "statusUrl": "https://caniuse.com/css-textshadow",
+        "specUrls": [
+          "https://www.w3.org/TR/css-text-decor-3/#text-shadow-property"
+        ]
+      },
+      {
+        "id": "text-decoration",
+        "name": "text-decoration styling",
+        "statusUrl": "https://caniuse.com/text-decoration",
+        "specUrls": [
+          "https://www.w3.org/TR/css-text-decor-3/#line-decoration"
+        ]
+      },
+      {
+        "id": "text-emphasis",
+        "name": "text-emphasis styling",
+        "statusUrl": "https://caniuse.com/text-emphasis",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#text-emphasis-property"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4988534620422144,
+        "name": "CSSTextEmphasisPosition: support for left and right values",
+        "statusUrl": "https://chromestatus.com/feature/4988534620422144",
+        "specUrls": [
+          "http://www.w3.org/TR/css-text-decor-3/#text-emphasis-position"
+        ]
+      },
+      {
+        "id": 5631679087509504,
+        "name": "CSS4 text-decoration-skip-ink",
+        "statusUrl": "https://chromestatus.com/feature/5631679087509504",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-decoration-skip-ink-property"
+        ]
+      },
+      {
+        "id": 5679635154075648,
+        "name": "Unprefixed text-emphasis properties",
+        "statusUrl": "https://chromestatus.com/feature/5679635154075648",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor/#emphasis-marks"
+        ]
+      },
+      {
+        "id": 5747636764147712,
+        "name": "text-decoration-thickness, text-underline-offset and from-font keyword for text-underline-position",
+        "statusUrl": "https://chromestatus.com/feature/5747636764147712",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": 5749634488074240,
+        "name": "'left' and 'right' values for the 'text-underline-position' property",
+        "statusUrl": "https://chromestatus.com/feature/5749634488074240",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#text-underline-position-property"
+        ]
+      },
+      {
+        "id": 5766823203045376,
+        "name": "CSS3 Text Decorations",
+        "statusUrl": "https://chromestatus.com/feature/5766823203045376",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-3/#line-decoration"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-text-decoration-level-4",
+        "name": "CSS Text Decoration Level 4",
+        "statusUrl": "https://webkit.org/status/#specification-css-text-decoration-level-4",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-decor-4/"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Authorization.Negotiate",
+        "name": "http.headers.Authorization.Negotiate",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc4120#top"
+        ]
+      },
+      {
+        "id": "http.headers.WWW-Authenticate.Negotiate",
+        "name": "http.headers.WWW-Authenticate.Negotiate",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc4120#top"
+        ]
+      }
+    ]
+  }
+}

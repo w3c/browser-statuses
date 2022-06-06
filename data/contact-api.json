@@ -1,0 +1,140 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.ContactAddress",
+        "name": "api.ContactAddress",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#contactaddress"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.addressLine",
+        "name": "api.ContactAddress.addressLine",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-addressLine"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.city",
+        "name": "api.ContactAddress.city",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-city"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.country",
+        "name": "api.ContactAddress.country",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-country"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.dependentLocality",
+        "name": "api.ContactAddress.dependentLocality",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-dependentLocality"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.organization",
+        "name": "api.ContactAddress.organization",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-organization"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.phone",
+        "name": "api.ContactAddress.phone",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-phone"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.postalCode",
+        "name": "api.ContactAddress.postalCode",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-postalCode"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.recipient",
+        "name": "api.ContactAddress.recipient",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-recipient"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.region",
+        "name": "api.ContactAddress.region",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-region"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.sortingCode",
+        "name": "api.ContactAddress.sortingCode",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-sortingCode"
+        ]
+      },
+      {
+        "id": "api.ContactAddress.toJSON",
+        "name": "api.ContactAddress.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-contactaddress-toJSON"
+        ]
+      },
+      {
+        "id": "api.ContactsManager",
+        "name": "api.ContactsManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContactsManager",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#contacts-manager"
+        ]
+      },
+      {
+        "id": "api.ContactsManager.getProperties",
+        "name": "api.ContactsManager.getProperties",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContactsManager/getProperties",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#contacts-manager-getproperties"
+        ]
+      },
+      {
+        "id": "api.ContactsManager.select",
+        "name": "api.ContactsManager.select",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContactsManager/select",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#contacts-manager-select"
+        ]
+      },
+      {
+        "id": "api.Navigator.contacts",
+        "name": "api.Navigator.contacts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/contacts",
+        "specUrls": [
+          "https://w3c.github.io/contact-api/spec/#dom-navigator-contacts"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6316401599971328,
+        "name": "Contacts API Addresses/Icons",
+        "statusUrl": "https://chromestatus.com/feature/6316401599971328",
+        "specUrls": [
+          "https://wicg.github.io/contact-api/spec/"
+        ]
+      },
+      {
+        "id": 6511327140904960,
+        "name": "Contacts API",
+        "statusUrl": "https://chromestatus.com/feature/6511327140904960",
+        "specUrls": [
+          "https://wicg.github.io/contact-api/spec/"
+        ]
+      }
+    ]
+  }
+}

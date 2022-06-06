@@ -1,0 +1,889 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSSImageValue",
+        "name": "api.CSSImageValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSImageValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#imagevalue-objects"
+        ]
+      },
+      {
+        "id": "api.CSSKeywordValue",
+        "name": "api.CSSKeywordValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSKeywordValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#keywordvalue-objects"
+        ]
+      },
+      {
+        "id": "api.CSSKeywordValue.CSSKeywordValue",
+        "name": "api.CSSKeywordValue.CSSKeywordValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSKeywordValue/CSSKeywordValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csskeywordvalue-csskeywordvalue"
+        ]
+      },
+      {
+        "id": "api.CSSKeywordValue.value",
+        "name": "api.CSSKeywordValue.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSKeywordValue/value",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csskeywordvalue-value"
+        ]
+      },
+      {
+        "id": "api.CSSMathInvert",
+        "name": "api.CSSMathInvert",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathInvert",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathinvert"
+        ]
+      },
+      {
+        "id": "api.CSSMathInvert.CSSMathInvert",
+        "name": "api.CSSMathInvert.CSSMathInvert",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathInvert/CSSMathInvert",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathinvert-cssmathinvert"
+        ]
+      },
+      {
+        "id": "api.CSSMathInvert.value",
+        "name": "api.CSSMathInvert.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathInvert/value",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathinvert-value"
+        ]
+      },
+      {
+        "id": "api.CSSMathMax",
+        "name": "api.CSSMathMax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathmax"
+        ]
+      },
+      {
+        "id": "api.CSSMathMax.CSSMathMax",
+        "name": "api.CSSMathMax.CSSMathMax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMax/CSSMathMax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathmax-cssmathmax"
+        ]
+      },
+      {
+        "id": "api.CSSMathMax.values",
+        "name": "api.CSSMathMax.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMax/values",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathmax-values"
+        ]
+      },
+      {
+        "id": "api.CSSMathMin",
+        "name": "api.CSSMathMin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMin",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathmin"
+        ]
+      },
+      {
+        "id": "api.CSSMathMin.CSSMathMin",
+        "name": "api.CSSMathMin.CSSMathMin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMin/CSSMathMin",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathmin-cssmathmin"
+        ]
+      },
+      {
+        "id": "api.CSSMathMin.values",
+        "name": "api.CSSMathMin.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathMin/values",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathmin-values"
+        ]
+      },
+      {
+        "id": "api.CSSMathNegate",
+        "name": "api.CSSMathNegate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathNegate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathnegate"
+        ]
+      },
+      {
+        "id": "api.CSSMathNegate.CSSMathNegate",
+        "name": "api.CSSMathNegate.CSSMathNegate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathNegate/CSSMathNegate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathnegate-cssmathnegate"
+        ]
+      },
+      {
+        "id": "api.CSSMathNegate.value",
+        "name": "api.CSSMathNegate.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathNegate/value",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathnegate-value"
+        ]
+      },
+      {
+        "id": "api.CSSMathProduct",
+        "name": "api.CSSMathProduct",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathProduct",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathproduct"
+        ]
+      },
+      {
+        "id": "api.CSSMathProduct.CSSMathProduct",
+        "name": "api.CSSMathProduct.CSSMathProduct",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathProduct/CSSMathProduct",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathproduct-cssmathproduct"
+        ]
+      },
+      {
+        "id": "api.CSSMathProduct.values",
+        "name": "api.CSSMathProduct.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathProduct/values",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathproduct-values"
+        ]
+      },
+      {
+        "id": "api.CSSMathSum",
+        "name": "api.CSSMathSum",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathSum",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmathsum"
+        ]
+      },
+      {
+        "id": "api.CSSMathSum.CSSMathSum",
+        "name": "api.CSSMathSum.CSSMathSum",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathSum/CSSMathSum",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathsum-cssmathsum"
+        ]
+      },
+      {
+        "id": "api.CSSMathSum.values",
+        "name": "api.CSSMathSum.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathSum/values",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathsum-values"
+        ]
+      },
+      {
+        "id": "api.CSSMathValue",
+        "name": "api.CSSMathValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#complex-numeric"
+        ]
+      },
+      {
+        "id": "api.CSSMathValue.operator",
+        "name": "api.CSSMathValue.operator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMathValue/operator",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmathvalue-operator"
+        ]
+      },
+      {
+        "id": "api.CSSMatrixComponent",
+        "name": "api.CSSMatrixComponent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMatrixComponent",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssmatrixcomponent"
+        ]
+      },
+      {
+        "id": "api.CSSMatrixComponent.CSSMatrixComponent",
+        "name": "api.CSSMatrixComponent.CSSMatrixComponent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMatrixComponent/CSSMatrixComponent",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmatrixcomponent-cssmatrixcomponent"
+        ]
+      },
+      {
+        "id": "api.CSSMatrixComponent.matrix",
+        "name": "api.CSSMatrixComponent.matrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSMatrixComponent/matrix",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssmatrixcomponent-matrix"
+        ]
+      },
+      {
+        "id": "api.CSSNumericArray",
+        "name": "api.CSSNumericArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericArray",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssnumericarray"
+        ]
+      },
+      {
+        "id": "api.CSSNumericArray.length",
+        "name": "api.CSSNumericArray.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericArray/length",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericarray-length"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue",
+        "name": "api.CSSNumericValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#numeric-value"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.add",
+        "name": "api.CSSNumericValue.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/add",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-add"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.div",
+        "name": "api.CSSNumericValue.div",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/div",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-div"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.equals",
+        "name": "api.CSSNumericValue.equals",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/equals",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-equals"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.max",
+        "name": "api.CSSNumericValue.max",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/max",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-max"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.min",
+        "name": "api.CSSNumericValue.min",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/min",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-min"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.mul",
+        "name": "api.CSSNumericValue.mul",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/mul",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-mul"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.parse",
+        "name": "api.CSSNumericValue.parse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/parse",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-parse"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.sub",
+        "name": "api.CSSNumericValue.sub",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/sub",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-sub"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.to",
+        "name": "api.CSSNumericValue.to",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/to",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-to"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.toSum",
+        "name": "api.CSSNumericValue.toSum",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/toSum",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-tosum"
+        ]
+      },
+      {
+        "id": "api.CSSNumericValue.type",
+        "name": "api.CSSNumericValue.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSNumericValue/type",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssnumericvalue-type"
+        ]
+      },
+      {
+        "id": "api.CSSPerspective",
+        "name": "api.CSSPerspective",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPerspective",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssperspective"
+        ]
+      },
+      {
+        "id": "api.CSSPerspective.CSSPerspective",
+        "name": "api.CSSPerspective.CSSPerspective",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/CSSPerspective",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssperspective-cssperspective"
+        ]
+      },
+      {
+        "id": "api.CSSPerspective.length",
+        "name": "api.CSSPerspective.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPerspective/length",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssperspective-length"
+        ]
+      },
+      {
+        "id": "api.CSSRotate",
+        "name": "api.CSSRotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssrotate"
+        ]
+      },
+      {
+        "id": "api.CSSRotate.CSSRotate",
+        "name": "api.CSSRotate.CSSRotate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate/CSSRotate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-cssrotate",
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-cssrotate-x-y-z-angle"
+        ]
+      },
+      {
+        "id": "api.CSSRotate.angle",
+        "name": "api.CSSRotate.angle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate/angle",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-angle"
+        ]
+      },
+      {
+        "id": "api.CSSRotate.x",
+        "name": "api.CSSRotate.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate/x",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-x"
+        ]
+      },
+      {
+        "id": "api.CSSRotate.y",
+        "name": "api.CSSRotate.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate/y",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-y"
+        ]
+      },
+      {
+        "id": "api.CSSRotate.z",
+        "name": "api.CSSRotate.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSRotate/z",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssrotate-z"
+        ]
+      },
+      {
+        "id": "api.CSSScale",
+        "name": "api.CSSScale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSScale",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssscale"
+        ]
+      },
+      {
+        "id": "api.CSSScale.CSSScale",
+        "name": "api.CSSScale.CSSScale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSScale/CSSScale",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssscale-cssscale"
+        ]
+      },
+      {
+        "id": "api.CSSScale.x",
+        "name": "api.CSSScale.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSScale/x",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssscale-x"
+        ]
+      },
+      {
+        "id": "api.CSSScale.y",
+        "name": "api.CSSScale.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSScale/y",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssscale-y"
+        ]
+      },
+      {
+        "id": "api.CSSScale.z",
+        "name": "api.CSSScale.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSScale/z",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssscale-z"
+        ]
+      },
+      {
+        "id": "api.CSSSkew",
+        "name": "api.CSSSkew",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkew",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssskew"
+        ]
+      },
+      {
+        "id": "api.CSSSkew.CSSSkew",
+        "name": "api.CSSSkew.CSSSkew",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkew/CSSSkew",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskew-cssskew"
+        ]
+      },
+      {
+        "id": "api.CSSSkew.ax",
+        "name": "api.CSSSkew.ax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkew/ax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskew-ax"
+        ]
+      },
+      {
+        "id": "api.CSSSkew.ay",
+        "name": "api.CSSSkew.ay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkew/ay",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskew-ay"
+        ]
+      },
+      {
+        "id": "api.CSSSkewX",
+        "name": "api.CSSSkewX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewX",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssskewx"
+        ]
+      },
+      {
+        "id": "api.CSSSkewX.CSSSkewX",
+        "name": "api.CSSSkewX.CSSSkewX",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewX/CSSSkewX",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskewx-cssskewx"
+        ]
+      },
+      {
+        "id": "api.CSSSkewX.ax",
+        "name": "api.CSSSkewX.ax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewX/ax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskewx-ax"
+        ]
+      },
+      {
+        "id": "api.CSSSkewY",
+        "name": "api.CSSSkewY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewY",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssskewy"
+        ]
+      },
+      {
+        "id": "api.CSSSkewY.CSSSkewY",
+        "name": "api.CSSSkewY.CSSSkewY",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewY/CSSSkewY",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskewy-cssskewy"
+        ]
+      },
+      {
+        "id": "api.CSSSkewY.ay",
+        "name": "api.CSSSkewY.ay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSSkewY/ay",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssskewy-ay"
+        ]
+      },
+      {
+        "id": "api.CSSStyleRule.styleMap",
+        "name": "api.CSSStyleRule.styleMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSStyleRule/styleMap",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssstylerule-stylemap"
+        ]
+      },
+      {
+        "id": "api.CSSStyleValue",
+        "name": "api.CSSStyleValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSStyleValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#stylevalue-objects"
+        ]
+      },
+      {
+        "id": "api.CSSStyleValue.parse",
+        "name": "api.CSSStyleValue.parse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSStyleValue/parse",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssstylevalue-parse"
+        ]
+      },
+      {
+        "id": "api.CSSStyleValue.parseAll",
+        "name": "api.CSSStyleValue.parseAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSStyleValue/parseAll",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssstylevalue-parseall"
+        ]
+      },
+      {
+        "id": "api.CSSStyleValue.toString",
+        "name": "api.CSSStyleValue.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSStyleValue/toString",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#stylevalue-serialization"
+        ]
+      },
+      {
+        "id": "api.CSSTransformComponent",
+        "name": "api.CSSTransformComponent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformComponent",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#csstransformcomponent"
+        ]
+      },
+      {
+        "id": "api.CSSTransformComponent.is2D",
+        "name": "api.CSSTransformComponent.is2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformComponent/is2D",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformcomponent-is2d"
+        ]
+      },
+      {
+        "id": "api.CSSTransformComponent.toMatrix",
+        "name": "api.CSSTransformComponent.toMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformComponent/toMatrix",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformcomponent-tomatrix"
+        ]
+      },
+      {
+        "id": "api.CSSTransformComponent.toString",
+        "name": "api.CSSTransformComponent.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformComponent/toString",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#CSSTransformComponent-stringification-behavior"
+        ]
+      },
+      {
+        "id": "api.CSSTransformValue",
+        "name": "api.CSSTransformValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#transformvalue-objects"
+        ]
+      },
+      {
+        "id": "api.CSSTransformValue.CSSTransformValue",
+        "name": "api.CSSTransformValue.CSSTransformValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformValue/CSSTransformValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformvalue-csstransformvalue"
+        ]
+      },
+      {
+        "id": "api.CSSTransformValue.is2D",
+        "name": "api.CSSTransformValue.is2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformValue/is2D",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformvalue-is2d"
+        ]
+      },
+      {
+        "id": "api.CSSTransformValue.length",
+        "name": "api.CSSTransformValue.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformValue/length",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformvalue-length"
+        ]
+      },
+      {
+        "id": "api.CSSTransformValue.toMatrix",
+        "name": "api.CSSTransformValue.toMatrix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTransformValue/toMatrix",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstransformvalue-tomatrix"
+        ]
+      },
+      {
+        "id": "api.CSSTranslate",
+        "name": "api.CSSTranslate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTranslate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#csstranslate"
+        ]
+      },
+      {
+        "id": "api.CSSTranslate.CSSTranslate",
+        "name": "api.CSSTranslate.CSSTranslate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTranslate/CSSTranslate",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstranslate-csstranslate"
+        ]
+      },
+      {
+        "id": "api.CSSTranslate.x",
+        "name": "api.CSSTranslate.x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTranslate/x",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstranslate-x"
+        ]
+      },
+      {
+        "id": "api.CSSTranslate.y",
+        "name": "api.CSSTranslate.y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTranslate/y",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstranslate-y"
+        ]
+      },
+      {
+        "id": "api.CSSTranslate.z",
+        "name": "api.CSSTranslate.z",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSTranslate/z",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-csstranslate-z"
+        ]
+      },
+      {
+        "id": "api.CSSUnitValue",
+        "name": "api.CSSUnitValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnitValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#simple-numeric"
+        ]
+      },
+      {
+        "id": "api.CSSUnitValue.CSSUnitValue",
+        "name": "api.CSSUnitValue.CSSUnitValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnitValue/CSSUnitValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssunitvalue-cssunitvalue"
+        ]
+      },
+      {
+        "id": "api.CSSUnitValue.unit",
+        "name": "api.CSSUnitValue.unit",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnitValue/unit",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssunitvalue-unit"
+        ]
+      },
+      {
+        "id": "api.CSSUnitValue.value",
+        "name": "api.CSSUnitValue.value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnitValue/value",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssunitvalue-value"
+        ]
+      },
+      {
+        "id": "api.CSSUnparsedValue",
+        "name": "api.CSSUnparsedValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnparsedValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssunparsedvalue"
+        ]
+      },
+      {
+        "id": "api.CSSUnparsedValue.CSSUnparsedValue",
+        "name": "api.CSSUnparsedValue.CSSUnparsedValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnparsedValue/CSSUnparsedValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssunparsedvalue-cssunparsedvalue"
+        ]
+      },
+      {
+        "id": "api.CSSUnparsedValue.length",
+        "name": "api.CSSUnparsedValue.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSUnparsedValue/length",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssunparsedvalue-length"
+        ]
+      },
+      {
+        "id": "api.CSSVariableReferenceValue",
+        "name": "api.CSSVariableReferenceValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSVariableReferenceValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#cssvariablereferencevalue"
+        ]
+      },
+      {
+        "id": "api.CSSVariableReferenceValue.CSSVariableReferenceValue",
+        "name": "api.CSSVariableReferenceValue.CSSVariableReferenceValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSVariableReferenceValue/CSSVariableReferenceValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssvariablereferencevalue-cssvariablereferencevalue"
+        ]
+      },
+      {
+        "id": "api.CSSVariableReferenceValue.fallback",
+        "name": "api.CSSVariableReferenceValue.fallback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSVariableReferenceValue/fallback",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssvariablereferencevalue-fallback"
+        ]
+      },
+      {
+        "id": "api.CSSVariableReferenceValue.variable",
+        "name": "api.CSSVariableReferenceValue.variable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSVariableReferenceValue/variable",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-cssvariablereferencevalue-variable"
+        ]
+      },
+      {
+        "id": "api.Element.computedStyleMap",
+        "name": "api.Element.computedStyleMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/computedStyleMap",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-element-computedstylemap"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.attributeStyleMap",
+        "name": "api.HTMLElement.attributeStyleMap",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap"
+        ]
+      },
+      {
+        "id": "api.SVGElement.attributeStyleMap",
+        "name": "api.SVGElement.attributeStyleMap",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-elementcssinlinestyle-attributestylemap"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMap",
+        "name": "api.StylePropertyMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMap",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#the-stylepropertymap"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMap.append",
+        "name": "api.StylePropertyMap.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMap/append",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymap-append"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMap.clear",
+        "name": "api.StylePropertyMap.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMap/clear",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymap-clear"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMap.delete",
+        "name": "api.StylePropertyMap.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMap/delete",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymap-delete"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMap.set",
+        "name": "api.StylePropertyMap.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMap/set",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymap-set"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMapReadOnly",
+        "name": "api.StylePropertyMapReadOnly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMapReadOnly",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#the-stylepropertymap"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMapReadOnly.get",
+        "name": "api.StylePropertyMapReadOnly.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMapReadOnly/get",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymapreadonly-get"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMapReadOnly.getAll",
+        "name": "api.StylePropertyMapReadOnly.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMapReadOnly/getAll",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymapreadonly-getall"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMapReadOnly.has",
+        "name": "api.StylePropertyMapReadOnly.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMapReadOnly/has",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymapreadonly-has"
+        ]
+      },
+      {
+        "id": "api.StylePropertyMapReadOnly.size",
+        "name": "api.StylePropertyMapReadOnly.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StylePropertyMapReadOnly/size",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-stylepropertymapreadonly-size"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5682491075592192,
+        "name": "CSS Typed OM (Houdini)",
+        "statusUrl": "https://chromestatus.com/feature/5682491075592192",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-typed-om-level-1",
+        "name": "CSS Typed OM Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-typed-om-level-1",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/"
+        ]
+      }
+    ]
+  }
+}

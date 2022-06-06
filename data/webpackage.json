@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5126805474246656,
+        "name": "Subresource prefetching+loading via Signed HTTP Exchange",
+        "statusUrl": "https://chromestatus.com/feature/5126805474246656",
+        "specUrls": [
+          "https://github.com/WICG/webpackage/issues/347"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.at-rules.scroll-timeline",
+        "name": "css.at-rules.scroll-timeline",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@scroll-timeline",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations/#scroll-timeline-at-rule"
+        ]
+      },
+      {
+        "id": "css.at-rules.scroll-timeline.orientation",
+        "name": "css.at-rules.scroll-timeline.orientation",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations/#descdef-scroll-timeline-orientation"
+        ]
+      },
+      {
+        "id": "css.at-rules.scroll-timeline.scroll-offsets",
+        "name": "css.at-rules.scroll-timeline.scroll-offsets",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations/#descdef-scroll-timeline-scroll-offsets"
+        ]
+      },
+      {
+        "id": "css.at-rules.scroll-timeline.source",
+        "name": "css.at-rules.scroll-timeline.source",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations/#descdef-scroll-timeline-source"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-scroll-timeline",
+        "name": "CSS @scroll-timeline",
+        "statusUrl": "https://caniuse.com/css-scroll-timeline",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6454455685873664,
+        "name": "@scroll-timeline & animation-timeline",
+        "statusUrl": "https://chromestatus.com/feature/6454455685873664",
+        "specUrls": [
+          "https://drafts.csswg.org/scroll-animations-1/#scroll-timeline-at-rule"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.custom-property",
+        "name": "css.properties.custom-property",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/--*",
+        "specUrls": [
+          "https://drafts.csswg.org/css-variables/#defining-variables"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.var",
+        "name": "css.properties.custom-property.var",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/var()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-variables/#using-variables"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-variables",
+        "name": "CSS Variables (Custom Properties)",
+        "statusUrl": "https://caniuse.com/css-variables",
+        "specUrls": [
+          "https://www.w3.org/TR/css-variables/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6401356696911872,
+        "name": "CSS Custom Properties (CSS Variables)",
+        "statusUrl": "https://chromestatus.com/feature/6401356696911872",
+        "specUrls": [
+          "https://www.w3.org/TR/css-variables-1/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-variables",
+        "name": "CSS Variables",
+        "statusUrl": "https://webkit.org/status/#specification-css-variables",
+        "specUrls": [
+          "https://www.w3.org/TR/css-variables/"
+        ]
+      }
+    ]
+  }
+}

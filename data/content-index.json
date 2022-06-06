@@ -1,0 +1,78 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.ContentIndex",
+        "name": "api.ContentIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndex",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index"
+        ]
+      },
+      {
+        "id": "api.ContentIndex.add",
+        "name": "api.ContentIndex.add",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndex/add",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index-add"
+        ]
+      },
+      {
+        "id": "api.ContentIndex.delete",
+        "name": "api.ContentIndex.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndex/delete",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index-delete"
+        ]
+      },
+      {
+        "id": "api.ContentIndex.getAll",
+        "name": "api.ContentIndex.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndex/getAll",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index-getall"
+        ]
+      },
+      {
+        "id": "api.ContentIndexEvent",
+        "name": "api.ContentIndexEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndexEvent",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index-event"
+        ]
+      },
+      {
+        "id": "api.ContentIndexEvent.ContentIndexEvent",
+        "name": "api.ContentIndexEvent.ContentIndexEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndexEvent/ContentIndexEvent",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#content-index-event"
+        ]
+      },
+      {
+        "id": "api.ContentIndexEvent.id",
+        "name": "api.ContentIndexEvent.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ContentIndexEvent/id",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#dom-contentindexevent-id"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerGlobalScope.contentdelete_event",
+        "name": "api.ServiceWorkerGlobalScope.contentdelete_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/contentdelete_event",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#dom-serviceworkerglobalscope-oncontentdelete"
+        ]
+      },
+      {
+        "id": "api.ServiceWorkerRegistration.index",
+        "name": "api.ServiceWorkerRegistration.index",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/index",
+        "specUrls": [
+          "https://wicg.github.io/content-index/spec/#dom-serviceworkerregistration-index"
+        ]
+      }
+    ]
+  }
+}

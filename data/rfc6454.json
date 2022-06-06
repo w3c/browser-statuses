@@ -1,0 +1,15 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Origin",
+        "name": "http.headers.Origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Origin",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc6454#section-7",
+          "https://fetch.spec.whatwg.org/#origin-header"
+        ]
+      }
+    ]
+  }
+}

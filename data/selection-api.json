@@ -1,0 +1,318 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document",
+        "name": "api.Document",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-document",
+          "https://html.spec.whatwg.org/multipage/dom.html#the-document-object",
+          "https://drafts.csswg.org/cssom-view/#extensions-to-the-document-interface",
+          "https://w3c.github.io/pointerlock/#extensions-to-the-document-interface",
+          "https://w3c.github.io/selection-api/#extensions-to-document-interface"
+        ]
+      },
+      {
+        "id": "api.Document.getSelection",
+        "name": "api.Document.getSelection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/getSelection",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-document-getselection"
+        ]
+      },
+      {
+        "id": "api.Document.selectionchange_event",
+        "name": "api.Document.selectionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/selectionchange_event",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectionchange-event"
+        ]
+      },
+      {
+        "id": "api.Document.selectstart_event",
+        "name": "api.Document.selectstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/selectstart_event",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectstart-event"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onselectionchange",
+        "name": "api.GlobalEventHandlers.onselectionchange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectionchange"
+        ]
+      },
+      {
+        "id": "api.GlobalEventHandlers.onselectstart",
+        "name": "api.GlobalEventHandlers.onselectstart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectstart"
+        ]
+      },
+      {
+        "id": "api.HTMLInputElement.selectionchange_event",
+        "name": "api.HTMLInputElement.selectionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionchange_event",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectionchange-event"
+        ]
+      },
+      {
+        "id": "api.HTMLTextAreaElement.selectionchange_event",
+        "name": "api.HTMLTextAreaElement.selectionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionchange_event",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectionchange-event"
+        ]
+      },
+      {
+        "id": "api.Selection",
+        "name": "api.Selection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selection-interface"
+        ]
+      },
+      {
+        "id": "api.Selection.addRange",
+        "name": "api.Selection.addRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/addRange",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-addrange"
+        ]
+      },
+      {
+        "id": "api.Selection.anchorNode",
+        "name": "api.Selection.anchorNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/anchorNode",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-anchornode"
+        ]
+      },
+      {
+        "id": "api.Selection.anchorOffset",
+        "name": "api.Selection.anchorOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/anchorOffset",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-anchoroffset"
+        ]
+      },
+      {
+        "id": "api.Selection.collapse",
+        "name": "api.Selection.collapse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/collapse",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-collapse"
+        ]
+      },
+      {
+        "id": "api.Selection.collapseToEnd",
+        "name": "api.Selection.collapseToEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/collapseToEnd",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-collapsetoend"
+        ]
+      },
+      {
+        "id": "api.Selection.collapseToStart",
+        "name": "api.Selection.collapseToStart",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/collapseToStart",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-collapsetostart"
+        ]
+      },
+      {
+        "id": "api.Selection.containsNode",
+        "name": "api.Selection.containsNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/containsNode",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-containsnode"
+        ]
+      },
+      {
+        "id": "api.Selection.deleteFromDocument",
+        "name": "api.Selection.deleteFromDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/deleteFromDocument",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-deletefromdocument"
+        ]
+      },
+      {
+        "id": "api.Selection.empty",
+        "name": "api.Selection.empty",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/removeAllRanges",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-removeallranges"
+        ]
+      },
+      {
+        "id": "api.Selection.extend",
+        "name": "api.Selection.extend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/extend",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-extend"
+        ]
+      },
+      {
+        "id": "api.Selection.focusNode",
+        "name": "api.Selection.focusNode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/focusNode",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-focusnode"
+        ]
+      },
+      {
+        "id": "api.Selection.focusOffset",
+        "name": "api.Selection.focusOffset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/focusOffset",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-focusoffset"
+        ]
+      },
+      {
+        "id": "api.Selection.getRangeAt",
+        "name": "api.Selection.getRangeAt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/getRangeAt",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-getrangeat"
+        ]
+      },
+      {
+        "id": "api.Selection.isCollapsed",
+        "name": "api.Selection.isCollapsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/isCollapsed",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-iscollapsed"
+        ]
+      },
+      {
+        "id": "api.Selection.rangeCount",
+        "name": "api.Selection.rangeCount",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/rangeCount",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-rangecount"
+        ]
+      },
+      {
+        "id": "api.Selection.removeAllRanges",
+        "name": "api.Selection.removeAllRanges",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/removeAllRanges",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-removeallranges"
+        ]
+      },
+      {
+        "id": "api.Selection.removeRange",
+        "name": "api.Selection.removeRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/removeRange",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-removerange"
+        ]
+      },
+      {
+        "id": "api.Selection.selectAllChildren",
+        "name": "api.Selection.selectAllChildren",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/selectAllChildren",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-selectallchildren"
+        ]
+      },
+      {
+        "id": "api.Selection.setBaseAndExtent",
+        "name": "api.Selection.setBaseAndExtent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/setBaseAndExtent",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-setbaseandextent"
+        ]
+      },
+      {
+        "id": "api.Selection.setPosition",
+        "name": "api.Selection.setPosition",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/collapse",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-collapse"
+        ]
+      },
+      {
+        "id": "api.Selection.toString",
+        "name": "api.Selection.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/toString",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-stringifier"
+        ]
+      },
+      {
+        "id": "api.Selection.type",
+        "name": "api.Selection.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/type",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-type"
+        ]
+      },
+      {
+        "id": "api.Window.getSelection",
+        "name": "api.Window.getSelection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/getSelection",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-window-getselection"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "selection-api",
+        "name": "Selection API",
+        "statusUrl": "https://caniuse.com/selection-api",
+        "specUrls": [
+          "https://www.w3.org/TR/selection-api/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5335417998016512,
+        "name": "Automatic focus by Selection interface functions",
+        "statusUrl": "https://chromestatus.com/feature/5335417998016512",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selection-interface"
+        ]
+      },
+      {
+        "id": 5632500684554240,
+        "name": "Selection API: setBaseAndExtent(), extend(), and collapse() throw InvalidNodeTypeError for DOCTYPE",
+        "statusUrl": "https://chromestatus.com/feature/5632500684554240",
+        "specUrls": [
+          "https://www.w3.org/TR/selection-api/#selection-interface"
+        ]
+      },
+      {
+        "id": 5666939779153920,
+        "name": "Selection API: removeRange() function",
+        "statusUrl": "https://chromestatus.com/feature/5666939779153920",
+        "specUrls": [
+          "https://www.w3.org/TR/selection-api/#dom-selection-removerange"
+        ]
+      },
+      {
+        "id": 5674751250923520,
+        "name": "Selection API: getRangeAt() returns a Range registered by addRange()",
+        "statusUrl": "https://chromestatus.com/feature/5674751250923520",
+        "specUrls": [
+          "https://www.w3.org/TR/selection-api/#dom-selection-getrangeat"
+        ]
+      },
+      {
+        "id": 5696359768260608,
+        "name": "Selection API: setBaseAndExtent() throws IndexSizeError for too large offsets",
+        "statusUrl": "https://chromestatus.com/feature/5696359768260608",
+        "specUrls": [
+          "https://www.w3.org/TR/selection-api/#selection-interface"
+        ]
+      }
+    ]
+  }
+}

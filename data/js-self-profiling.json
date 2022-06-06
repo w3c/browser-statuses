@@ -1,0 +1,51 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Profiler",
+        "name": "api.Profiler",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/#the-profiler-interface"
+        ]
+      },
+      {
+        "id": "api.Profiler.Profiler",
+        "name": "api.Profiler.Profiler",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/#dom-profiler-constructor"
+        ]
+      },
+      {
+        "id": "api.Profiler.sampleInterval",
+        "name": "api.Profiler.sampleInterval",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/#dom-profiler-sampleinterval"
+        ]
+      },
+      {
+        "id": "api.Profiler.stop",
+        "name": "api.Profiler.stop",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/#dom-profiler-stop"
+        ]
+      },
+      {
+        "id": "api.Profiler.stopped",
+        "name": "api.Profiler.stopped",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/#dom-profiler-stopped"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5170190448852992,
+        "name": "JS Self-Profiling API",
+        "statusUrl": "https://chromestatus.com/feature/5170190448852992",
+        "specUrls": [
+          "https://wicg.github.io/js-self-profiling/"
+        ]
+      }
+    ]
+  }
+}

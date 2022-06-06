@@ -1,0 +1,186 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Temporal",
+        "name": "javascript.builtins.Temporal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-intro"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.Calendar",
+        "name": "javascript.builtins.Temporal.Calendar",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Calendar",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-calendar-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.Duration",
+        "name": "javascript.builtins.Temporal.Duration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Duration",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-duration-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.Instant",
+        "name": "javascript.builtins.Temporal.Instant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/Instant",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-instant-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.PlainDate",
+        "name": "javascript.builtins.Temporal.PlainDate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDate",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-plaindate-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.PlainDateTime",
+        "name": "javascript.builtins.Temporal.PlainDateTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainDateTime",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-plaindatetime-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.PlainMonthDay",
+        "name": "javascript.builtins.Temporal.PlainMonthDay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainMonthDay",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-plainmonthday-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.PlainTime",
+        "name": "javascript.builtins.Temporal.PlainTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainTime",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-plaintime-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.PlainYearMonth",
+        "name": "javascript.builtins.Temporal.PlainYearMonth",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/PlainYearMonth",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-plainyearmonth-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.TimeZone",
+        "name": "javascript.builtins.Temporal.TimeZone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/TimeZone",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-timezone-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.ZonedDateTime",
+        "name": "javascript.builtins.Temporal.ZonedDateTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/ZonedDateTime",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-zoneddatetime-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now",
+        "name": "javascript.builtins.Temporal.now",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Temporal/now",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal-now-object"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.instant",
+        "name": "javascript.builtins.Temporal.now.instant",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/instant",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.instant"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.plainDate",
+        "name": "javascript.builtins.Temporal.now.plainDate",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/plaindate",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindate"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.plainDateISO",
+        "name": "javascript.builtins.Temporal.now.plainDateISO",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/plaindateiso",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindateiso"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.plainDateTime",
+        "name": "javascript.builtins.Temporal.now.plainDateTime",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/plaindatetime",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindatetime"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.plainDateTimeISO",
+        "name": "javascript.builtins.Temporal.now.plainDateTimeISO",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/plaindatetimeiso",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.plaindatetimeiso"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.timeZone",
+        "name": "javascript.builtins.Temporal.now.timeZone",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/timezone",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.timezone"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.zonedDateTime",
+        "name": "javascript.builtins.Temporal.now.zonedDateTime",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/zoneddatetime",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.zoneddatetime"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Temporal.now.zonedDateTimeISO",
+        "name": "javascript.builtins.Temporal.now.zonedDateTimeISO",
+        "statusUrl": "https://developer.mozilla.org/docs/web/javascript/reference/global_objects/temporal/now/zoneddatetimeiso",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/#sec-temporal.now.zoneddatetimeiso"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "temporal",
+        "name": "Temporal",
+        "statusUrl": "https://caniuse.com/temporal",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/docs/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5668291307634688,
+        "name": "Temporal in ECMA262",
+        "statusUrl": "https://chromestatus.com/feature/5668291307634688",
+        "specUrls": [
+          "https://tc39.es/proposal-temporal/"
+        ]
+      }
+    ]
+  }
+}

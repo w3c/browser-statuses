@@ -1,0 +1,1048 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WebGL2RenderingContext",
+        "name": "api.WebGL2RenderingContext",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.beginQuery",
+        "name": "api.WebGL2RenderingContext.beginQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/beginQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.beginTransformFeedback",
+        "name": "api.WebGL2RenderingContext.beginTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/beginTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.bindBufferBase",
+        "name": "api.WebGL2RenderingContext.bindBufferBase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bindBufferBase",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.bindBufferRange",
+        "name": "api.WebGL2RenderingContext.bindBufferRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bindBufferRange",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.bindSampler",
+        "name": "api.WebGL2RenderingContext.bindSampler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bindSampler",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.bindTransformFeedback",
+        "name": "api.WebGL2RenderingContext.bindTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bindTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.bindVertexArray",
+        "name": "api.WebGL2RenderingContext.bindVertexArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/bindVertexArray",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.17"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.blitFramebuffer",
+        "name": "api.WebGL2RenderingContext.blitFramebuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/blitFramebuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.clearBufferfi",
+        "name": "api.WebGL2RenderingContext.clearBufferfi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/clearBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.11"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.clearBufferfv",
+        "name": "api.WebGL2RenderingContext.clearBufferfv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/clearBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.11"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.clearBufferiv",
+        "name": "api.WebGL2RenderingContext.clearBufferiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/clearBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.11"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.clearBufferuiv",
+        "name": "api.WebGL2RenderingContext.clearBufferuiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/clearBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.11"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.clientWaitSync",
+        "name": "api.WebGL2RenderingContext.clientWaitSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/clientWaitSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.14"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.compressedTexImage3D",
+        "name": "api.WebGL2RenderingContext.compressedTexImage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/compressedTexImage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.compressedTexSubImage3D",
+        "name": "api.WebGL2RenderingContext.compressedTexSubImage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/compressedTexSubImage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.copyBufferSubData",
+        "name": "api.WebGL2RenderingContext.copyBufferSubData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/copyBufferSubData",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.3"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.copyTexSubImage3D",
+        "name": "api.WebGL2RenderingContext.copyTexSubImage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/copyTexSubImage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.createQuery",
+        "name": "api.WebGL2RenderingContext.createQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/createQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.createSampler",
+        "name": "api.WebGL2RenderingContext.createSampler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/createSampler",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.createTransformFeedback",
+        "name": "api.WebGL2RenderingContext.createTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/createTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.createVertexArray",
+        "name": "api.WebGL2RenderingContext.createVertexArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/createVertexArray",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.17"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.deleteQuery",
+        "name": "api.WebGL2RenderingContext.deleteQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/deleteQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.deleteSampler",
+        "name": "api.WebGL2RenderingContext.deleteSampler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/deleteSampler",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.deleteSync",
+        "name": "api.WebGL2RenderingContext.deleteSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/deleteSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.deleteTransformFeedback",
+        "name": "api.WebGL2RenderingContext.deleteTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/deleteTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.deleteVertexArray",
+        "name": "api.WebGL2RenderingContext.deleteVertexArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/deleteVertexArray",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.17"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.drawArraysInstanced",
+        "name": "api.WebGL2RenderingContext.drawArraysInstanced",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawArraysInstanced",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.9"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.drawBuffers",
+        "name": "api.WebGL2RenderingContext.drawBuffers",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawBuffers",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.11"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.drawElementsInstanced",
+        "name": "api.WebGL2RenderingContext.drawElementsInstanced",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawElementsInstanced",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.9"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.drawRangeElements",
+        "name": "api.WebGL2RenderingContext.drawRangeElements",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/drawRangeElements",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.9"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.endQuery",
+        "name": "api.WebGL2RenderingContext.endQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/endQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.endTransformFeedback",
+        "name": "api.WebGL2RenderingContext.endTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/endTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.fenceSync",
+        "name": "api.WebGL2RenderingContext.fenceSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/fenceSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.14"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.framebufferTextureLayer",
+        "name": "api.WebGL2RenderingContext.framebufferTextureLayer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/framebufferTextureLayer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getActiveUniformBlockName",
+        "name": "api.WebGL2RenderingContext.getActiveUniformBlockName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getActiveUniformBlockName",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getActiveUniformBlockParameter",
+        "name": "api.WebGL2RenderingContext.getActiveUniformBlockParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getActiveUniformBlockParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getActiveUniforms",
+        "name": "api.WebGL2RenderingContext.getActiveUniforms",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getActiveUniforms",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getBufferSubData",
+        "name": "api.WebGL2RenderingContext.getBufferSubData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getBufferSubData",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.3"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getFragDataLocation",
+        "name": "api.WebGL2RenderingContext.getFragDataLocation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getFragDataLocation",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.7"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getIndexedParameter",
+        "name": "api.WebGL2RenderingContext.getIndexedParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getIndexedParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.2"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getInternalformatParameter",
+        "name": "api.WebGL2RenderingContext.getInternalformatParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getInternalformatParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.5"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getQuery",
+        "name": "api.WebGL2RenderingContext.getQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getQueryParameter",
+        "name": "api.WebGL2RenderingContext.getQueryParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getQueryParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getSamplerParameter",
+        "name": "api.WebGL2RenderingContext.getSamplerParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getSamplerParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getSyncParameter",
+        "name": "api.WebGL2RenderingContext.getSyncParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getSyncParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.14"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getTransformFeedbackVarying",
+        "name": "api.WebGL2RenderingContext.getTransformFeedbackVarying",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getTransformFeedbackVarying",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getUniformBlockIndex",
+        "name": "api.WebGL2RenderingContext.getUniformBlockIndex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getUniformBlockIndex",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.getUniformIndices",
+        "name": "api.WebGL2RenderingContext.getUniformIndices",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/getUniformIndices",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.invalidateFramebuffer",
+        "name": "api.WebGL2RenderingContext.invalidateFramebuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/invalidateFramebuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.invalidateSubFramebuffer",
+        "name": "api.WebGL2RenderingContext.invalidateSubFramebuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/invalidateSubFramebuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.isQuery",
+        "name": "api.WebGL2RenderingContext.isQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.12"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.isSampler",
+        "name": "api.WebGL2RenderingContext.isSampler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isSampler",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.isSync",
+        "name": "api.WebGL2RenderingContext.isSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.14"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.isTransformFeedback",
+        "name": "api.WebGL2RenderingContext.isTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.isVertexArray",
+        "name": "api.WebGL2RenderingContext.isVertexArray",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/isVertexArray",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.17"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.pauseTransformFeedback",
+        "name": "api.WebGL2RenderingContext.pauseTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/pauseTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.readBuffer",
+        "name": "api.WebGL2RenderingContext.readBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/readBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.renderbufferStorageMultisample",
+        "name": "api.WebGL2RenderingContext.renderbufferStorageMultisample",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/renderbufferStorageMultisample",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.5"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.resumeTransformFeedback",
+        "name": "api.WebGL2RenderingContext.resumeTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/resumeTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.samplerParameterf",
+        "name": "api.WebGL2RenderingContext.samplerParameterf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/samplerParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.samplerParameteri",
+        "name": "api.WebGL2RenderingContext.samplerParameteri",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/samplerParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.13"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.texImage3D",
+        "name": "api.WebGL2RenderingContext.texImage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/texImage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.texStorage2D",
+        "name": "api.WebGL2RenderingContext.texStorage2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/texStorage2D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.texStorage3D",
+        "name": "api.WebGL2RenderingContext.texStorage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/texStorage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.texSubImage3D",
+        "name": "api.WebGL2RenderingContext.texSubImage3D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/texSubImage3D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.transformFeedbackVaryings",
+        "name": "api.WebGL2RenderingContext.transformFeedbackVaryings",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/transformFeedbackVaryings",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.15"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform1f",
+        "name": "api.WebGL2RenderingContext.uniform1f",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform1i",
+        "name": "api.WebGL2RenderingContext.uniform1i",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform1ui",
+        "name": "api.WebGL2RenderingContext.uniform1ui",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform1uiv",
+        "name": "api.WebGL2RenderingContext.uniform1uiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform2f",
+        "name": "api.WebGL2RenderingContext.uniform2f",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform2i",
+        "name": "api.WebGL2RenderingContext.uniform2i",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform2ui",
+        "name": "api.WebGL2RenderingContext.uniform2ui",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform2uiv",
+        "name": "api.WebGL2RenderingContext.uniform2uiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform3f",
+        "name": "api.WebGL2RenderingContext.uniform3f",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform3i",
+        "name": "api.WebGL2RenderingContext.uniform3i",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform3ui",
+        "name": "api.WebGL2RenderingContext.uniform3ui",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform3uiv",
+        "name": "api.WebGL2RenderingContext.uniform3uiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform4f",
+        "name": "api.WebGL2RenderingContext.uniform4f",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform4i",
+        "name": "api.WebGL2RenderingContext.uniform4i",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform4ui",
+        "name": "api.WebGL2RenderingContext.uniform4ui",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniform4uiv",
+        "name": "api.WebGL2RenderingContext.uniform4uiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformBlockBinding",
+        "name": "api.WebGL2RenderingContext.uniformBlockBinding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformBlockBinding",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.16"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix2fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix2fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix2x3fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix2x3fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix2x4fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix2x4fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix3fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix3fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix3x2fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix3x2fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix3x4fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix3x4fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix4fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix4fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix4x2fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix4x2fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.uniformMatrix4x3fv",
+        "name": "api.WebGL2RenderingContext.uniformMatrix4x3fv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/uniformMatrix",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribDivisor",
+        "name": "api.WebGL2RenderingContext.vertexAttribDivisor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribDivisor",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.9"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribI4i",
+        "name": "api.WebGL2RenderingContext.vertexAttribI4i",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribI",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribI4iv",
+        "name": "api.WebGL2RenderingContext.vertexAttribI4iv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribI",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribI4ui",
+        "name": "api.WebGL2RenderingContext.vertexAttribI4ui",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribI",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribI4uiv",
+        "name": "api.WebGL2RenderingContext.vertexAttribI4uiv",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribI",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.vertexAttribIPointer",
+        "name": "api.WebGL2RenderingContext.vertexAttribIPointer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/vertexAttribIPointer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGL2RenderingContext.waitSync",
+        "name": "api.WebGL2RenderingContext.waitSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGL2RenderingContext/waitSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.14"
+        ]
+      },
+      {
+        "id": "api.WebGLQuery",
+        "name": "api.WebGLQuery",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLQuery",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.2"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.bindBuffer",
+        "name": "api.WebGLRenderingContext.bindBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bindBuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.5",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.1"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.bindFramebuffer",
+        "name": "api.WebGLRenderingContext.bindFramebuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bindFramebuffer",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.6",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.1"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.bindTexture",
+        "name": "api.WebGLRenderingContext.bindTexture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/bindTexture",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.8",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.1"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.checkFramebufferStatus",
+        "name": "api.WebGLRenderingContext.checkFramebufferStatus",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/checkFramebufferStatus",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.6",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getBufferParameter",
+        "name": "api.WebGLRenderingContext.getBufferParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getBufferParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.5",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.3"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getFramebufferAttachmentParameter",
+        "name": "api.WebGLRenderingContext.getFramebufferAttachmentParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getFramebufferAttachmentParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.6",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.4"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getParameter",
+        "name": "api.WebGLRenderingContext.getParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.3",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.2"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getProgramParameter",
+        "name": "api.WebGLRenderingContext.getProgramParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getProgramParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.9",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.7"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getRenderbufferParameter",
+        "name": "api.WebGLRenderingContext.getRenderbufferParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getRenderbufferParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.7",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.5"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getTexParameter",
+        "name": "api.WebGLRenderingContext.getTexParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getTexParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.8",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getUniform",
+        "name": "api.WebGLRenderingContext.getUniform",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getUniform",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.10",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.getVertexAttrib",
+        "name": "api.WebGLRenderingContext.getVertexAttrib",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/getVertexAttrib",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.10",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.8"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.isEnabled",
+        "name": "api.WebGLRenderingContext.isEnabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/isEnabled",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.3",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.2"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.pixelStorei",
+        "name": "api.WebGLRenderingContext.pixelStorei",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/pixelStorei",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.3",
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#PIXEL_STORAGE_PARAMETERS",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.2"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.renderbufferStorage",
+        "name": "api.WebGLRenderingContext.renderbufferStorage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/renderbufferStorage",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.7",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.5"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.texImage2D",
+        "name": "api.WebGLRenderingContext.texImage2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/texImage2D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.8",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.texParameterf",
+        "name": "api.WebGLRenderingContext.texParameterf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/texParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.8",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.texParameteri",
+        "name": "api.WebGLRenderingContext.texParameteri",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/texParameter",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#5.14.8",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGLRenderingContext.texSubImage2D",
+        "name": "api.WebGLRenderingContext.texSubImage2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/texSubImage2D",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/1.0/#TEXSUBIMAGE2D",
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.7.6"
+        ]
+      },
+      {
+        "id": "api.WebGLSampler",
+        "name": "api.WebGLSampler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLSampler",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.3"
+        ]
+      },
+      {
+        "id": "api.WebGLSync",
+        "name": "api.WebGLSync",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLSync",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.4"
+        ]
+      },
+      {
+        "id": "api.WebGLTransformFeedback",
+        "name": "api.WebGLTransformFeedback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLTransformFeedback",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.5"
+        ]
+      },
+      {
+        "id": "api.WebGLVertexArrayObject",
+        "name": "api.WebGLVertexArrayObject",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObject",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/#3.6"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "webgl2",
+        "name": "WebGL 2.0",
+        "statusUrl": "https://caniuse.com/webgl2",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6694359164518400,
+        "name": "WebGL 2",
+        "statusUrl": "https://chromestatus.com/feature/6694359164518400",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-webgl-2",
+        "name": "WebGL 2",
+        "statusUrl": "https://webkit.org/status/#specification-webgl-2",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
+        ]
+      }
+    ]
+  }
+}

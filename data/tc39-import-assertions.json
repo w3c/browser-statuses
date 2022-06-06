@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5765269513306112,
+        "name": "Import Assertions",
+        "statusUrl": "https://chromestatus.com/feature/5765269513306112",
+        "specUrls": [
+          "https://tc39.es/proposal-import-assertions/"
+        ]
+      }
+    ]
+  }
+}

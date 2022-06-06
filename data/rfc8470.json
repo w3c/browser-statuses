@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Early-Data",
+        "name": "http.headers.Early-Data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Early-Data",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc8470.html#header"
+        ]
+      },
+      {
+        "id": "http.status.425",
+        "name": "http.status.425",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/425",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc8470.html#status"
+        ]
+      }
+    ]
+  }
+}

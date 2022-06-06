@@ -1,0 +1,20 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Authorization.Basic",
+        "name": "http.headers.Authorization.Basic",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc7617#top"
+        ]
+      },
+      {
+        "id": "http.headers.WWW-Authenticate.Basic",
+        "name": "http.headers.WWW-Authenticate.Basic",
+        "specUrls": [
+          "https://www.rfc-editor.org/rfc/rfc7617#top"
+        ]
+      }
+    ]
+  }
+}

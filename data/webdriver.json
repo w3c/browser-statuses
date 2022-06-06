@@ -1,0 +1,112 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.webdriver",
+        "name": "api.Navigator.webdriver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/webdriver",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-webdriver"
+        ]
+      },
+      {
+        "id": "webdriver.commands.CloseWindow",
+        "name": "webdriver.commands.CloseWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/CloseWindow",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-close-window"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetElementAttribute",
+        "name": "webdriver.commands.GetElementAttribute",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetElementAttribute",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-element-attribute"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetElementProperty",
+        "name": "webdriver.commands.GetElementProperty",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetElementProperty",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-element-property"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetElementTagName",
+        "name": "webdriver.commands.GetElementTagName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetElementTagName",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-element-tag-name"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetTimeouts",
+        "name": "webdriver.commands.GetTimeouts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetTimeouts",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-timeouts"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetWindowHandles",
+        "name": "webdriver.commands.GetWindowHandles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetWindowHandles",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-window-handles"
+        ]
+      },
+      {
+        "id": "webdriver.commands.GetWindowRect",
+        "name": "webdriver.commands.GetWindowRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/GetWindowRect",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-get-window-rect"
+        ]
+      },
+      {
+        "id": "webdriver.commands.NewWindow",
+        "name": "webdriver.commands.NewWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/New_Window",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-new-window"
+        ]
+      },
+      {
+        "id": "webdriver.commands.SetTimeouts",
+        "name": "webdriver.commands.SetTimeouts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/SetTimeouts",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-set-timeouts"
+        ]
+      },
+      {
+        "id": "webdriver.commands.SetWindowRect",
+        "name": "webdriver.commands.SetWindowRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/WebDriver/Commands/SetWindowRect",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#dfn-set-window-rect"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5670121114697728,
+        "name": "`navigator.webdriver === false` when automation is not enabled.",
+        "statusUrl": "https://chromestatus.com/feature/5670121114697728",
+        "specUrls": [
+          "https://w3c.github.io/webdriver/#interface"
+        ]
+      },
+      {
+        "id": 6216034532982784,
+        "name": "navigator.webdriver",
+        "statusUrl": "https://chromestatus.com/feature/6216034532982784",
+        "specUrls": [
+          "https://www.w3.org/TR/webdriver/#interface"
+        ]
+      }
+    ]
+  }
+}

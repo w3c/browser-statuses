@@ -1,0 +1,182 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.serial",
+        "name": "api.Navigator.serial",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/serial",
+        "specUrls": [
+          "https://wicg.github.io/serial/#extensions-to-the-navigator-interface"
+        ]
+      },
+      {
+        "id": "api.Serial",
+        "name": "api.Serial",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Serial",
+        "specUrls": [
+          "https://wicg.github.io/serial/#serial-interface"
+        ]
+      },
+      {
+        "id": "api.Serial.getPorts",
+        "name": "api.Serial.getPorts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Serial/getPorts",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serial-getports"
+        ]
+      },
+      {
+        "id": "api.Serial.requestPort",
+        "name": "api.Serial.requestPort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Serial/requestPort",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serial-requestport"
+        ]
+      },
+      {
+        "id": "api.SerialPort",
+        "name": "api.SerialPort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport"
+        ]
+      },
+      {
+        "id": "api.SerialPort.close",
+        "name": "api.SerialPort.close",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/close",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-close"
+        ]
+      },
+      {
+        "id": "api.SerialPort.connect_event",
+        "name": "api.SerialPort.connect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/connect_event",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dfn-connect",
+          "https://wicg.github.io/serial/#dom-serialport-onconnect"
+        ]
+      },
+      {
+        "id": "api.SerialPort.disconnect_event",
+        "name": "api.SerialPort.disconnect_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/disconnect_event",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dfn-disconnect",
+          "https://wicg.github.io/serial/#dom-serialport-ondisconnect"
+        ]
+      },
+      {
+        "id": "api.SerialPort.forget",
+        "name": "api.SerialPort.forget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/forget",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-forget"
+        ]
+      },
+      {
+        "id": "api.SerialPort.getInfo",
+        "name": "api.SerialPort.getInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/getInfo",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-getinfo"
+        ]
+      },
+      {
+        "id": "api.SerialPort.getSignals",
+        "name": "api.SerialPort.getSignals",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/getSignals",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-getsignals"
+        ]
+      },
+      {
+        "id": "api.SerialPort.open",
+        "name": "api.SerialPort.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/open",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-open"
+        ]
+      },
+      {
+        "id": "api.SerialPort.readable",
+        "name": "api.SerialPort.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/readable",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-readable"
+        ]
+      },
+      {
+        "id": "api.SerialPort.setSignals",
+        "name": "api.SerialPort.setSignals",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/setSignals",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-setsignals"
+        ]
+      },
+      {
+        "id": "api.SerialPort.writable",
+        "name": "api.SerialPort.writable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SerialPort/writable",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-serialport-writable"
+        ]
+      },
+      {
+        "id": "api.WorkerNavigator.serial",
+        "name": "api.WorkerNavigator.serial",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerNavigator/serial",
+        "specUrls": [
+          "https://wicg.github.io/serial/#dom-workernavigator-serial"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "web-serial",
+        "name": "Web Serial API",
+        "statusUrl": "https://caniuse.com/web-serial",
+        "specUrls": [
+          "https://wicg.github.io/serial/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4778232531386368,
+        "name": "SerialPort integration with WritableStream controller AbortSignal",
+        "statusUrl": "https://chromestatus.com/feature/4778232531386368",
+        "specUrls": [
+          "https://wicg.github.io/serial/#writable-attribute"
+        ]
+      },
+      {
+        "id": 5145811414417408,
+        "name": "SerialPort forget()",
+        "statusUrl": "https://chromestatus.com/feature/5145811414417408",
+        "specUrls": [
+          "https://wicg.github.io/serial/#forget-method"
+        ]
+      },
+      {
+        "id": 6577673212002304,
+        "name": "Web Serial API",
+        "statusUrl": "https://chromestatus.com/feature/6577673212002304",
+        "specUrls": [
+          "https://wicg.github.io/serial/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-web-serial",
+        "name": "Web Serial",
+        "statusUrl": "https://webkit.org/status/#specification-web-serial",
+        "specUrls": [
+          "https://wicg.github.io/serial/"
+        ]
+      }
+    ]
+  }
+}

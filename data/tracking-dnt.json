@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.doNotTrack",
+        "name": "api.Navigator.doNotTrack",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/doNotTrack",
+        "specUrls": [
+          "https://www.w3.org/TR/tracking-dnt/#dom-navigator-donottrack"
+        ]
+      },
+      {
+        "id": "http.headers.DNT",
+        "name": "http.headers.DNT",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/DNT",
+        "specUrls": [
+          "https://www.w3.org/TR/tracking-dnt/#dnt-header-field"
+        ]
+      },
+      {
+        "id": "http.headers.Tk",
+        "name": "http.headers.Tk",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Tk",
+        "specUrls": [
+          "https://www.w3.org/TR/tracking-dnt/#Tk-header-defn"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "do-not-track",
+        "name": "Do Not Track API",
+        "statusUrl": "https://caniuse.com/do-not-track",
+        "specUrls": [
+          "https://www.w3.org/TR/tracking-dnt/"
+        ]
+      }
+    ]
+  }
+}

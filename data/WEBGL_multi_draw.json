@@ -1,0 +1,46 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.WEBGL_multi_draw",
+        "name": "api.WEBGL_multi_draw",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
+        ]
+      },
+      {
+        "id": "api.WEBGL_multi_draw.multiDrawArraysInstancedWEBGL",
+        "name": "api.WEBGL_multi_draw.multiDrawArraysInstancedWEBGL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw/multiDrawArraysInstancedWEBGL",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
+        ]
+      },
+      {
+        "id": "api.WEBGL_multi_draw.multiDrawArraysWEBGL",
+        "name": "api.WEBGL_multi_draw.multiDrawArraysWEBGL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw/multiDrawArraysWEBGL",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
+        ]
+      },
+      {
+        "id": "api.WEBGL_multi_draw.multiDrawElementsInstancedWEBGL",
+        "name": "api.WEBGL_multi_draw.multiDrawElementsInstancedWEBGL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw/multiDrawElementsInstancedWEBGL",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
+        ]
+      },
+      {
+        "id": "api.WEBGL_multi_draw.multiDrawElementsWEBGL",
+        "name": "api.WEBGL_multi_draw.multiDrawElementsWEBGL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_multi_draw/multiDrawElementsWEBGL",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/WEBGL_multi_draw/"
+        ]
+      }
+    ]
+  }
+}

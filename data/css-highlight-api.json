@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5436441440026624,
+        "name": "Custom Highlight API",
+        "statusUrl": "https://chromestatus.com/feature/5436441440026624",
+        "specUrls": [
+          "https://drafts.csswg.org/css-highlight-api-1/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-custom-highlight-api-module-level-1",
+        "name": "CSS Custom Highlight API Module Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-custom-highlight-api-module-level-1",
+        "specUrls": [
+          "https://www.w3.org/TR/css-highlight-api-1/"
+        ]
+      }
+    ]
+  }
+}

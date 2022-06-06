@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EyeDropper",
+        "name": "api.EyeDropper",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EyeDropper",
+        "specUrls": [
+          "https://wicg.github.io/eyedropper-api/#eyedropper-interface"
+        ]
+      },
+      {
+        "id": "api.EyeDropper.EyeDropper",
+        "name": "api.EyeDropper.EyeDropper",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EyeDropper/EyeDropper",
+        "specUrls": [
+          "https://wicg.github.io/eyedropper-api/#eyedropper-interface"
+        ]
+      },
+      {
+        "id": "api.EyeDropper.open",
+        "name": "api.EyeDropper.open",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EyeDropper/open",
+        "specUrls": [
+          "https://wicg.github.io/eyedropper-api/#dom-eyedropper-open"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6304275594477568,
+        "name": "EyeDropper API",
+        "statusUrl": "https://chromestatus.com/feature/6304275594477568",
+        "specUrls": [
+          "https://wicg.github.io/eyedropper-api/"
+        ]
+      }
+    ]
+  }
+}

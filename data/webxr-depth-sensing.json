@@ -1,0 +1,128 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRCPUDepthInformation",
+        "name": "api.XRCPUDepthInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRCPUDepthInformation",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#xr-cpu-depth-info-section"
+        ]
+      },
+      {
+        "id": "api.XRCPUDepthInformation.data",
+        "name": "api.XRCPUDepthInformation.data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRCPUDepthInformation/data",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrcpudepthinformation-data"
+        ]
+      },
+      {
+        "id": "api.XRCPUDepthInformation.getDepthInMeters",
+        "name": "api.XRCPUDepthInformation.getDepthInMeters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRCPUDepthInformation/getDepthInMeters",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrcpudepthinformation-getdepthinmeters"
+        ]
+      },
+      {
+        "id": "api.XRDepthInformation",
+        "name": "api.XRDepthInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#xrdepthinformation"
+        ]
+      },
+      {
+        "id": "api.XRDepthInformation.height",
+        "name": "api.XRDepthInformation.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation/height",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrdepthinformation-height"
+        ]
+      },
+      {
+        "id": "api.XRDepthInformation.normDepthBufferFromNormView",
+        "name": "api.XRDepthInformation.normDepthBufferFromNormView",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation/normDepthBufferFromNormView",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrdepthinformation-normdepthbufferfromnormview"
+        ]
+      },
+      {
+        "id": "api.XRDepthInformation.rawValueToMeters",
+        "name": "api.XRDepthInformation.rawValueToMeters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation/rawValueToMeters",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrdepthinformation-rawvaluetometers"
+        ]
+      },
+      {
+        "id": "api.XRDepthInformation.width",
+        "name": "api.XRDepthInformation.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRDepthInformation/width",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrdepthinformation-width"
+        ]
+      },
+      {
+        "id": "api.XRFrame.getDepthInformation",
+        "name": "api.XRFrame.getDepthInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getDepthInformation",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrframe-getdepthinformation"
+        ]
+      },
+      {
+        "id": "api.XRSession.depthDataFormat",
+        "name": "api.XRSession.depthDataFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/depthDataFormat",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthdataformat"
+        ]
+      },
+      {
+        "id": "api.XRSession.depthUsage",
+        "name": "api.XRSession.depthUsage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/depthUsage",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrsession-depthusage"
+        ]
+      },
+      {
+        "id": "api.XRWebGLBinding.getDepthInformation",
+        "name": "api.XRWebGLBinding.getDepthInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getDepthInformation",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrwebglbinding-getdepthinformation"
+        ]
+      },
+      {
+        "id": "api.XRWebGLDepthInformation",
+        "name": "api.XRWebGLDepthInformation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLDepthInformation",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#xrwebgldepthinformation"
+        ]
+      },
+      {
+        "id": "api.XRWebGLDepthInformation.texture",
+        "name": "api.XRWebGLDepthInformation.texture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLDepthInformation/texture",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/#dom-xrwebgldepthinformation-texture"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5742647199137792,
+        "name": "WebXR Depth API",
+        "statusUrl": "https://chromestatus.com/feature/5742647199137792",
+        "specUrls": [
+          "https://immersive-web.github.io/depth-sensing/"
+        ]
+      }
+    ]
+  }
+}

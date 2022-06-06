@@ -1,0 +1,206 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.break-after.multicol_context",
+        "name": "css.properties.break-after.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-after.paged_context",
+        "name": "css.properties.break-after.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.multicol_context",
+        "name": "css.properties.break-before.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-before.paged_context",
+        "name": "css.properties.break-before.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-between",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.multicol_context",
+        "name": "css.properties.break-inside.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.break-inside.paged_context",
+        "name": "css.properties.break-inside.paged_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/break-inside",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#break-within",
+          "https://drafts.csswg.org/css-regions/#region-flow-break",
+          "https://drafts.csswg.org/css-multicol/#break-before-break-after-break-inside"
+        ]
+      },
+      {
+        "id": "css.properties.column-count",
+        "name": "css.properties.column-count",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-count",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#cc"
+        ]
+      },
+      {
+        "id": "css.properties.column-fill",
+        "name": "css.properties.column-fill",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-fill",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#cf"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.flex_context",
+        "name": "css.properties.column-gap.flex_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.grid_context",
+        "name": "css.properties.column-gap.grid_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-gap.multicol_context",
+        "name": "css.properties.column-gap.multicol_context",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-gap",
+        "specUrls": [
+          "https://drafts.csswg.org/css-align/#column-row-gap",
+          "https://drafts.csswg.org/css-grid/#gutters",
+          "https://drafts.csswg.org/css-multicol/#column-gap"
+        ]
+      },
+      {
+        "id": "css.properties.column-rule",
+        "name": "css.properties.column-rule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-rule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#column-rule"
+        ]
+      },
+      {
+        "id": "css.properties.column-rule-color",
+        "name": "css.properties.column-rule-color",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-rule-color",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#crc"
+        ]
+      },
+      {
+        "id": "css.properties.column-rule-style",
+        "name": "css.properties.column-rule-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-rule-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#crs"
+        ]
+      },
+      {
+        "id": "css.properties.column-rule-width",
+        "name": "css.properties.column-rule-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-rule-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#crw"
+        ]
+      },
+      {
+        "id": "css.properties.column-span",
+        "name": "css.properties.column-span",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-span",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#column-span"
+        ]
+      },
+      {
+        "id": "css.properties.column-width",
+        "name": "css.properties.column-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/column-width",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing/#column-sizing",
+          "https://drafts.csswg.org/css-multicol/#cw"
+        ]
+      },
+      {
+        "id": "css.properties.columns",
+        "name": "css.properties.columns",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/columns",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol/#columns"
+        ]
+      },
+      {
+        "id": "css.properties.widows",
+        "name": "css.properties.widows",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/widows",
+        "specUrls": [
+          "https://drafts.csswg.org/css-break/#widows-orphans",
+          "https://drafts.csswg.org/css-multicol/#filling-columns"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "multicolumn",
+        "name": "CSS3 Multiple column layout",
+        "statusUrl": "https://caniuse.com/multicolumn",
+        "specUrls": [
+          "https://www.w3.org/TR/css3-multicol/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6298909664083968,
+        "name": "CSS column-fill property",
+        "statusUrl": "https://chromestatus.com/feature/6298909664083968",
+        "specUrls": [
+          "https://drafts.csswg.org/css-multicol-1/#filling-columns"
+        ]
+      },
+      {
+        "id": 6526151266664448,
+        "name": "CSS Multi-column (new implementation)",
+        "statusUrl": "https://chromestatus.com/feature/6526151266664448",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-multicol/"
+        ]
+      }
+    ]
+  }
+}

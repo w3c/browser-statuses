@@ -1,0 +1,104 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.wakeLock",
+        "name": "api.Navigator.wakeLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/wakeLock",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#extensions-to-the-navigator-interface"
+        ]
+      },
+      {
+        "id": "api.WakeLock",
+        "name": "api.WakeLock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLock",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-wakelock-interface"
+        ]
+      },
+      {
+        "id": "api.WakeLock.request",
+        "name": "api.WakeLock.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLock/request",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-request-method"
+        ]
+      },
+      {
+        "id": "api.WakeLockSentinel",
+        "name": "api.WakeLockSentinel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-wakelocksentinel-interface"
+        ]
+      },
+      {
+        "id": "api.WakeLockSentinel.release",
+        "name": "api.WakeLockSentinel.release",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/release",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-release-method"
+        ]
+      },
+      {
+        "id": "api.WakeLockSentinel.release_event",
+        "name": "api.WakeLockSentinel.release_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/release_event",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-onrelease-attribute"
+        ]
+      },
+      {
+        "id": "api.WakeLockSentinel.released",
+        "name": "api.WakeLockSentinel.released",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/released",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#dom-wakelocksentinel-released"
+        ]
+      },
+      {
+        "id": "api.WakeLockSentinel.type",
+        "name": "api.WakeLockSentinel.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WakeLockSentinel/type",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-type-attribute"
+        ]
+      },
+      {
+        "id": "http.headers.Feature-Policy.screen-wake-lock",
+        "name": "http.headers.Feature-Policy.screen-wake-lock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/screen-wake-lock",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#policy-control"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4636879949398016,
+        "name": "Screen Wake Lock API",
+        "statusUrl": "https://chromestatus.com/feature/4636879949398016",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/"
+        ]
+      },
+      {
+        "id": 5632527123349504,
+        "name": "WakeLockSentinel.released Attribute",
+        "statusUrl": "https://chromestatus.com/feature/5632527123349504",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-released-attribute"
+        ]
+      },
+      {
+        "id": 5725750881681408,
+        "name": "Make \"type\" optional in WakeLock.request()",
+        "statusUrl": "https://chromestatus.com/feature/5725750881681408",
+        "specUrls": [
+          "https://w3c.github.io/screen-wake-lock/#the-wakelock-interface"
+        ]
+      }
+    ]
+  }
+}

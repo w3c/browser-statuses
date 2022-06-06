@@ -1,0 +1,112 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Sensor",
+        "name": "api.Sensor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#the-sensor-interface"
+        ]
+      },
+      {
+        "id": "api.Sensor.activate_event",
+        "name": "api.Sensor.activate_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/activate_event",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-onactivate"
+        ]
+      },
+      {
+        "id": "api.Sensor.activated",
+        "name": "api.Sensor.activated",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/activated",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-activated"
+        ]
+      },
+      {
+        "id": "api.Sensor.error_event",
+        "name": "api.Sensor.error_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/error_event",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-onerror"
+        ]
+      },
+      {
+        "id": "api.Sensor.hasReading",
+        "name": "api.Sensor.hasReading",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/hasReading",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-has-reading"
+        ]
+      },
+      {
+        "id": "api.Sensor.reading_event",
+        "name": "api.Sensor.reading_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/reading_event",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-onreading"
+        ]
+      },
+      {
+        "id": "api.Sensor.start",
+        "name": "api.Sensor.start",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/start",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-start"
+        ]
+      },
+      {
+        "id": "api.Sensor.stop",
+        "name": "api.Sensor.stop",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/stop",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-stop"
+        ]
+      },
+      {
+        "id": "api.Sensor.timestamp",
+        "name": "api.Sensor.timestamp",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sensor/timestamp",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#sensor-timestamp"
+        ]
+      },
+      {
+        "id": "api.SensorErrorEvent",
+        "name": "api.SensorErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SensorErrorEvent",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#the-sensor-error-event-interface"
+        ]
+      },
+      {
+        "id": "api.SensorErrorEvent.SensorErrorEvent",
+        "name": "api.SensorErrorEvent.SensorErrorEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SensorErrorEvent/SensorErrorEvent",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#dom-sensorerrorevent-sensorerrorevent"
+        ]
+      },
+      {
+        "id": "api.SensorErrorEvent.error",
+        "name": "api.SensorErrorEvent.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SensorErrorEvent/error",
+        "specUrls": [
+          "https://w3c.github.io/sensors/#dom-sensorerrorevent-error"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5698781827825664,
+        "name": "Motion sensors APIs based on Generic Sensor API",
+        "statusUrl": "https://chromestatus.com/feature/5698781827825664",
+        "specUrls": [
+          "https://www.w3.org/TR/generic-sensor/"
+        ]
+      }
+    ]
+  }
+}

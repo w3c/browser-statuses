@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.types.easing-function",
+        "name": "css.types.easing-function",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/easing-function",
+        "specUrls": [
+          "https://drafts.csswg.org/css-easing/#easing-functions"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5730327525851136,
+        "name": "Support step timing functions jump-start|end|both|none",
+        "statusUrl": "https://chromestatus.com/feature/5730327525851136",
+        "specUrls": [
+          "https://drafts.csswg.org/css-easing-1/#step-easing-functions"
+        ]
+      }
+    ]
+  }
+}

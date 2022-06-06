@@ -1,0 +1,165 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.FileSystemDirectoryHandle",
+        "name": "api.FileSystemDirectoryHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.entries",
+        "name": "api.FileSystemDirectoryHandle.entries",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/entries",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.getDirectoryHandle",
+        "name": "api.FileSystemDirectoryHandle.getDirectoryHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/getDirectoryHandle",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getdirectoryhandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.getFileHandle",
+        "name": "api.FileSystemDirectoryHandle.getFileHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/getFileHandle",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-getfilehandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.keys",
+        "name": "api.FileSystemDirectoryHandle.keys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/keys",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.removeEntry",
+        "name": "api.FileSystemDirectoryHandle.removeEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/removeEntry",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-removeentry"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.resolve",
+        "name": "api.FileSystemDirectoryHandle.resolve",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/resolve",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-resolve"
+        ]
+      },
+      {
+        "id": "api.FileSystemDirectoryHandle.values",
+        "name": "api.FileSystemDirectoryHandle.values",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemDirectoryHandle/values",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemdirectoryhandle-asynciterable"
+        ]
+      },
+      {
+        "id": "api.FileSystemFileHandle",
+        "name": "api.FileSystemFileHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemFileHandle",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemfilehandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemFileHandle.createWritable",
+        "name": "api.FileSystemFileHandle.createWritable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemFileHandle/createWritable",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemfilehandle-createwritable"
+        ]
+      },
+      {
+        "id": "api.FileSystemFileHandle.getFile",
+        "name": "api.FileSystemFileHandle.getFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemFileHandle/getFile",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemfilehandle-getfile"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle",
+        "name": "api.FileSystemHandle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemhandle"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle.isSameEntry",
+        "name": "api.FileSystemHandle.isSameEntry",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/isSameEntry",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemhandle-issameentry"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle.kind",
+        "name": "api.FileSystemHandle.kind",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/kind",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-kind①"
+        ]
+      },
+      {
+        "id": "api.FileSystemHandle.name",
+        "name": "api.FileSystemHandle.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemHandle/name",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#ref-for-dom-filesystemhandle-name①"
+        ]
+      },
+      {
+        "id": "api.FileSystemWritableFileStream",
+        "name": "api.FileSystemWritableFileStream",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream"
+        ]
+      },
+      {
+        "id": "api.FileSystemWritableFileStream.seek",
+        "name": "api.FileSystemWritableFileStream.seek",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/seek",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-seek"
+        ]
+      },
+      {
+        "id": "api.FileSystemWritableFileStream.truncate",
+        "name": "api.FileSystemWritableFileStream.truncate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/truncate",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-truncate"
+        ]
+      },
+      {
+        "id": "api.FileSystemWritableFileStream.write",
+        "name": "api.FileSystemWritableFileStream.write",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileSystemWritableFileStream/write",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#api-filesystemwritablefilestream-write"
+        ]
+      },
+      {
+        "id": "api.StorageManager.getDirectory",
+        "name": "api.StorageManager.getDirectory",
+        "specUrls": [
+          "https://fs.spec.whatwg.org/#dom-storagemanager-getdirectory"
+        ]
+      }
+    ]
+  }
+}

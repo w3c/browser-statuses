@@ -1,0 +1,22 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5082047209013248,
+        "name": "Font Table Access",
+        "statusUrl": "https://chromestatus.com/feature/5082047209013248",
+        "specUrls": [
+          "https://wicg.github.io/local-font-access/"
+        ]
+      },
+      {
+        "id": 6234451761692672,
+        "name": "Local Font Access",
+        "statusUrl": "https://chromestatus.com/feature/6234451761692672",
+        "specUrls": [
+          "https://wicg.github.io/local-font-access"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRFrame.getLightEstimate",
+        "name": "api.XRFrame.getLightEstimate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRFrame/getLightEstimate",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrframe-getlightestimate"
+        ]
+      },
+      {
+        "id": "api.XRLightEstimate",
+        "name": "api.XRLightEstimate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#xrlightestimate-interface"
+        ]
+      },
+      {
+        "id": "api.XRLightEstimate.primaryLightDirection",
+        "name": "api.XRLightEstimate.primaryLightDirection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate/primaryLightDirection",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrlightestimate-primarylightdirection"
+        ]
+      },
+      {
+        "id": "api.XRLightEstimate.primaryLightIntensity",
+        "name": "api.XRLightEstimate.primaryLightIntensity",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate/primaryLightIntensity",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrlightestimate-primarylightintensity"
+        ]
+      },
+      {
+        "id": "api.XRLightEstimate.sphericalHarmonicsCoefficients",
+        "name": "api.XRLightEstimate.sphericalHarmonicsCoefficients",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightEstimate/sphericalHarmonicsCoefficients",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrlightestimate-sphericalharmonicscoefficients"
+        ]
+      },
+      {
+        "id": "api.XRLightProbe",
+        "name": "api.XRLightProbe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightProbe",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#xrlightprobe-interface"
+        ]
+      },
+      {
+        "id": "api.XRLightProbe.probeSpace",
+        "name": "api.XRLightProbe.probeSpace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightProbe/probeSpace",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrlightprobe-probespace"
+        ]
+      },
+      {
+        "id": "api.XRLightProbe.reflectionchange_event",
+        "name": "api.XRLightProbe.reflectionchange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRLightProbe/reflectionchange_event",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#eventdef-xrlightprobe-reflectionchange",
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrlightprobe-onreflectionchange"
+        ]
+      },
+      {
+        "id": "api.XRSession.preferredReflectionFormat",
+        "name": "api.XRSession.preferredReflectionFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/preferredReflectionFormat",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrsession-preferredreflectionformat"
+        ]
+      },
+      {
+        "id": "api.XRSession.requestLightProbe",
+        "name": "api.XRSession.requestLightProbe",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/requestLightProbe",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrsession-requestlightprobe"
+        ]
+      },
+      {
+        "id": "api.XRWebGLBinding.getReflectionCubeMap",
+        "name": "api.XRWebGLBinding.getReflectionCubeMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRWebGLBinding/getReflectionCubeMap",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/#dom-xrwebglbinding-getreflectioncubemap"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5704707957850112,
+        "name": "WebXR AR Lighting Estimation",
+        "statusUrl": "https://chromestatus.com/feature/5704707957850112",
+        "specUrls": [
+          "https://immersive-web.github.io/lighting-estimation/"
+        ]
+      }
+    ]
+  }
+}

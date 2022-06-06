@@ -1,0 +1,202 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSSPseudoElement",
+        "name": "api.CSSPseudoElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPseudoElement",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#CSSPseudoElement-interface"
+        ]
+      },
+      {
+        "id": "api.CSSPseudoElement.element",
+        "name": "api.CSSPseudoElement.element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPseudoElement/element",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#dom-csspseudoelement-element"
+        ]
+      },
+      {
+        "id": "api.CSSPseudoElement.type",
+        "name": "api.CSSPseudoElement.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPseudoElement/type",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#dom-csspseudoelement-type"
+        ]
+      },
+      {
+        "id": "css.selectors.after",
+        "name": "css.selectors.after",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::after",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#generated-content"
+        ]
+      },
+      {
+        "id": "css.selectors.before",
+        "name": "css.selectors.before",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::before",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#generated-content"
+        ]
+      },
+      {
+        "id": "css.selectors.file-selector-button",
+        "name": "css.selectors.file-selector-button",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::file-selector-button",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#file-selector-button-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.first-letter",
+        "name": "css.selectors.first-letter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::first-letter",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#first-letter-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.first-line",
+        "name": "css.selectors.first-line",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::first-line",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#first-line-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.grammar-error",
+        "name": "css.selectors.grammar-error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::grammar-error",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#selectordef-grammar-error"
+        ]
+      },
+      {
+        "id": "css.selectors.marker",
+        "name": "css.selectors.marker",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::marker",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#marker-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.placeholder",
+        "name": "css.selectors.placeholder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::placeholder",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#placeholder-pseudo"
+        ]
+      },
+      {
+        "id": "css.selectors.selection",
+        "name": "css.selectors.selection",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::selection",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#selectordef-selection"
+        ]
+      },
+      {
+        "id": "css.selectors.spelling-error",
+        "name": "css.selectors.spelling-error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::spelling-error",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#selectordef-spelling-error"
+        ]
+      },
+      {
+        "id": "css.selectors.target-text",
+        "name": "css.selectors.target-text",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::target-text",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#selectordef-target-text"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-marker-pseudo",
+        "name": "CSS ::marker pseudo-element",
+        "statusUrl": "https://caniuse.com/css-marker-pseudo",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#marker-pseudo"
+        ]
+      },
+      {
+        "id": "css-placeholder",
+        "name": "::placeholder CSS pseudo-element",
+        "statusUrl": "https://caniuse.com/css-placeholder",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#placeholder-pseudo"
+        ]
+      },
+      {
+        "id": "css-selection",
+        "name": "::selection CSS pseudo-element",
+        "statusUrl": "https://caniuse.com/css-selection",
+        "specUrls": [
+          "https://www.w3.org/TR/css-pseudo-4/#selectordef-selection"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4811776539492352,
+        "name": "CSS spelling and grammar features",
+        "statusUrl": "https://chromestatus.com/feature/4811776539492352",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#selectordef-spelling-error,https://drafts.csswg.org/css-pseudo-4/#selectordef-grammar-error,https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error,https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-grammar-error"
+        ]
+      },
+      {
+        "id": 5415963870625792,
+        "name": "Apply opacity for the default style of INPUT/TEXTAREA placeholder",
+        "statusUrl": "https://chromestatus.com/feature/5415963870625792",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#placeholder-pseudo"
+        ]
+      },
+      {
+        "id": 5657973985640448,
+        "name": "Do not invert selection background color when it matches text color",
+        "statusUrl": "https://chromestatus.com/feature/5657973985640448",
+        "specUrls": [
+          "https://www.w3.org/TR/css-pseudo-4/#selectordef-selection"
+        ]
+      },
+      {
+        "id": 5676301379698688,
+        "name": "::file-selector-button pseudo-element",
+        "statusUrl": "https://chromestatus.com/feature/5676301379698688",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#file-selector-button-pseudo"
+        ]
+      },
+      {
+        "id": 5689463273422848,
+        "name": "CSS ::target-text pseudo-element",
+        "statusUrl": "https://chromestatus.com/feature/5689463273422848",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo/#selectordef-target-text"
+        ]
+      },
+      {
+        "id": 6710566854852608,
+        "name": "CSS ::marker pseudo-element",
+        "statusUrl": "https://chromestatus.com/feature/6710566854852608",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#marker-pseudo"
+        ]
+      },
+      {
+        "id": 6715780926275584,
+        "name": "CSS ::placeholder pseudo element",
+        "statusUrl": "https://chromestatus.com/feature/6715780926275584",
+        "specUrls": [
+          "https://drafts.csswg.org/css-pseudo-4/#placeholder-pseudo"
+        ]
+      }
+    ]
+  }
+}

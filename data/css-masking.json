@@ -1,0 +1,333 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.SVGClipPathElement",
+        "name": "api.SVGClipPathElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGClipPathElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#InterfaceSVGClipPathElement"
+        ]
+      },
+      {
+        "id": "api.SVGClipPathElement.clipPathUnits",
+        "name": "api.SVGClipPathElement.clipPathUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgclippathelement-clippathunits"
+        ]
+      },
+      {
+        "id": "api.SVGClipPathElement.transform",
+        "name": "api.SVGClipPathElement.transform",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgclippathelement-transform"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement",
+        "name": "api.SVGMaskElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SVGMaskElement",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#InterfaceSVGMaskElement"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.height",
+        "name": "api.SVGMaskElement.height",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-height"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.maskContentUnits",
+        "name": "api.SVGMaskElement.maskContentUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskcontentunits"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.maskUnits",
+        "name": "api.SVGMaskElement.maskUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-maskunits"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.width",
+        "name": "api.SVGMaskElement.width",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-width"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.x",
+        "name": "api.SVGMaskElement.x",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-x"
+        ]
+      },
+      {
+        "id": "api.SVGMaskElement.y",
+        "name": "api.SVGMaskElement.y",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#dom-svgmaskelement-y"
+        ]
+      },
+      {
+        "id": "css.properties.clip",
+        "name": "css.properties.clip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/clip",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#clip-property"
+        ]
+      },
+      {
+        "id": "css.properties.clip-path",
+        "name": "css.properties.clip-path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/clip-path",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-clip-path",
+          "https://drafts.csswg.org/css-shapes/#supported-basic-shapes"
+        ]
+      },
+      {
+        "id": "css.properties.mask",
+        "name": "css.properties.mask",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border",
+        "name": "css.properties.mask-border",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border-outset",
+        "name": "css.properties.mask-border-outset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border-outset",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border-outset"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border-repeat",
+        "name": "css.properties.mask-border-repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border-repeat",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border-repeat"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border-slice",
+        "name": "css.properties.mask-border-slice",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border-slice",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border-slice"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border-source",
+        "name": "css.properties.mask-border-source",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border-source",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border-source"
+        ]
+      },
+      {
+        "id": "css.properties.mask-border-width",
+        "name": "css.properties.mask-border-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-border-width",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-border-width"
+        ]
+      },
+      {
+        "id": "css.properties.mask-clip",
+        "name": "css.properties.mask-clip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-clip",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-clip"
+        ]
+      },
+      {
+        "id": "css.properties.mask-composite",
+        "name": "css.properties.mask-composite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-composite",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-composite"
+        ]
+      },
+      {
+        "id": "css.properties.mask-image",
+        "name": "css.properties.mask-image",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-image",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-image"
+        ]
+      },
+      {
+        "id": "css.properties.mask-mode",
+        "name": "css.properties.mask-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-mode",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-mode"
+        ]
+      },
+      {
+        "id": "css.properties.mask-origin",
+        "name": "css.properties.mask-origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-origin",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-origin"
+        ]
+      },
+      {
+        "id": "css.properties.mask-position",
+        "name": "css.properties.mask-position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-position",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-position"
+        ]
+      },
+      {
+        "id": "css.properties.mask-repeat",
+        "name": "css.properties.mask-repeat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-repeat",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-repeat"
+        ]
+      },
+      {
+        "id": "css.properties.mask-size",
+        "name": "css.properties.mask-size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-size",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-size"
+        ]
+      },
+      {
+        "id": "css.properties.mask-type",
+        "name": "css.properties.mask-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/mask-type",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask-type"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.clip",
+        "name": "svg.attributes.presentation.clip",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/clip",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#clip-property"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.clip-path",
+        "name": "svg.attributes.presentation.clip-path",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/clip-path",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-clip-path"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.clip-rule",
+        "name": "svg.attributes.presentation.clip-rule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/clip-rule",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-clip-rule"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.mask",
+        "name": "svg.attributes.presentation.mask",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/mask",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#the-mask"
+        ]
+      },
+      {
+        "id": "svg.elements.clipPath",
+        "name": "svg.elements.clipPath",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/clipPath",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#ClipPathElement"
+        ]
+      },
+      {
+        "id": "svg.elements.mask",
+        "name": "svg.elements.mask",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Element/mask",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#MaskElement"
+        ]
+      },
+      {
+        "id": "svg.elements.mask.maskContentUnits",
+        "name": "svg.elements.mask.maskContentUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/maskContentUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskcontentunits"
+        ]
+      },
+      {
+        "id": "svg.elements.mask.maskUnits",
+        "name": "svg.elements.mask.maskUnits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/maskUnits",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking/#element-attrdef-mask-maskunits"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-clip-path",
+        "name": "CSS clip-path property (for HTML)",
+        "statusUrl": "https://caniuse.com/css-clip-path",
+        "specUrls": [
+          "https://www.w3.org/TR/css-masking-1/#the-clip-path"
+        ]
+      },
+      {
+        "id": "css-masks",
+        "name": "CSS Masks",
+        "statusUrl": "https://caniuse.com/css-masks",
+        "specUrls": [
+          "https://www.w3.org/TR/css-masking-1/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5633533638868992,
+        "name": "path() support in clip-path CSS property",
+        "statusUrl": "https://chromestatus.com/feature/5633533638868992",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/#the-clip-path"
+        ]
+      },
+      {
+        "id": 5742325112242176,
+        "name": "Unprefixed CSS Clipping Paths",
+        "statusUrl": "https://chromestatus.com/feature/5742325112242176",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-masking-level-1",
+        "name": "CSS Masking Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-masking-level-1",
+        "specUrls": [
+          "https://drafts.fxtf.org/css-masking-1/"
+        ]
+      }
+    ]
+  }
+}

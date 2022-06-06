@@ -1,0 +1,39 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Keyboard",
+        "name": "api.Keyboard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Keyboard",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/#keyboard-interface",
+          "https://wicg.github.io/keyboard-lock/#keyboard-interface"
+        ]
+      },
+      {
+        "id": "api.Keyboard.lock",
+        "name": "api.Keyboard.lock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Keyboard/lock",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-lock/#h-keyboard-lock"
+        ]
+      },
+      {
+        "id": "api.Keyboard.unlock",
+        "name": "api.Keyboard.unlock",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Keyboard/unlock",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-lock/#h-keyboard-unlock"
+        ]
+      },
+      {
+        "id": "api.Navigator.keyboard",
+        "name": "api.Navigator.keyboard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/keyboard",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-lock/#h-navigator-keyboard"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.BarcodeDetector",
+        "name": "api.BarcodeDetector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BarcodeDetector",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/#barcode-detection-api"
+        ]
+      },
+      {
+        "id": "api.BarcodeDetector.BarcodeDetector",
+        "name": "api.BarcodeDetector.BarcodeDetector",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BarcodeDetector/BarcodeDetector",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/#dom-barcodedetector-barcodedetector"
+        ]
+      },
+      {
+        "id": "api.BarcodeDetector.detect",
+        "name": "api.BarcodeDetector.detect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BarcodeDetector/detect",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/#dom-barcodedetector-detect"
+        ]
+      },
+      {
+        "id": "api.BarcodeDetector.getSupportedFormats",
+        "name": "api.BarcodeDetector.getSupportedFormats",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BarcodeDetector/getSupportedFormats",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/#dom-barcodedetector-getsupportedformats"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4757990523535360,
+        "name": "Barcode Detection API",
+        "statusUrl": "https://chromestatus.com/feature/4757990523535360",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/"
+        ]
+      },
+      {
+        "id": 5644087665360896,
+        "name": "Text Detection API",
+        "statusUrl": "https://chromestatus.com/feature/5644087665360896",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/text.html"
+        ]
+      },
+      {
+        "id": 5678216012365824,
+        "name": "Face Detection API",
+        "statusUrl": "https://chromestatus.com/feature/5678216012365824",
+        "specUrls": [
+          "https://wicg.github.io/shape-detection-api/"
+        ]
+      }
+    ]
+  }
+}

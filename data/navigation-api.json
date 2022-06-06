@@ -1,0 +1,387 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigation",
+        "name": "api.Navigation",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#global"
+        ]
+      },
+      {
+        "id": "api.Navigation.back",
+        "name": "api.Navigation.back",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-back"
+        ]
+      },
+      {
+        "id": "api.Navigation.canGoBack",
+        "name": "api.Navigation.canGoBack",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-cangoback"
+        ]
+      },
+      {
+        "id": "api.Navigation.canGoForward",
+        "name": "api.Navigation.canGoForward",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-cangoforward"
+        ]
+      },
+      {
+        "id": "api.Navigation.currentEntry",
+        "name": "api.Navigation.currentEntry",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-currententry"
+        ]
+      },
+      {
+        "id": "api.Navigation.currententrychange_event",
+        "name": "api.Navigation.currententrychange_event",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-oncurrententrychange"
+        ]
+      },
+      {
+        "id": "api.Navigation.entries",
+        "name": "api.Navigation.entries",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-entries"
+        ]
+      },
+      {
+        "id": "api.Navigation.forward",
+        "name": "api.Navigation.forward",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-forward"
+        ]
+      },
+      {
+        "id": "api.Navigation.navigate",
+        "name": "api.Navigation.navigate",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-navigate"
+        ]
+      },
+      {
+        "id": "api.Navigation.navigate_event",
+        "name": "api.Navigation.navigate_event",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-onnavigate"
+        ]
+      },
+      {
+        "id": "api.Navigation.navigateerror_event",
+        "name": "api.Navigation.navigateerror_event",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-onnavigateerror"
+        ]
+      },
+      {
+        "id": "api.Navigation.navigatesuccess_event",
+        "name": "api.Navigation.navigatesuccess_event",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-onnavigatesuccess"
+        ]
+      },
+      {
+        "id": "api.Navigation.reload",
+        "name": "api.Navigation.reload",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-reload"
+        ]
+      },
+      {
+        "id": "api.Navigation.transition",
+        "name": "api.Navigation.transition",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-transition"
+        ]
+      },
+      {
+        "id": "api.Navigation.traverseTo",
+        "name": "api.Navigation.traverseTo",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-traverseto"
+        ]
+      },
+      {
+        "id": "api.Navigation.updateCurrentEntry",
+        "name": "api.Navigation.updateCurrentEntry",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigation-updatecurrententry"
+        ]
+      },
+      {
+        "id": "api.NavigationCurrentEntryChangeEvent",
+        "name": "api.NavigationCurrentEntryChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#navigationcurrententrychangeevent"
+        ]
+      },
+      {
+        "id": "api.NavigationCurrentEntryChangeEvent.NavigationCurrentEntryChangeEvent",
+        "name": "api.NavigationCurrentEntryChangeEvent.NavigationCurrentEntryChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationcurrententrychangeevent-navigationcurrententrychangeevent"
+        ]
+      },
+      {
+        "id": "api.NavigationCurrentEntryChangeEvent.from",
+        "name": "api.NavigationCurrentEntryChangeEvent.from",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationcurrententrychangeevent-from"
+        ]
+      },
+      {
+        "id": "api.NavigationCurrentEntryChangeEvent.navigationType",
+        "name": "api.NavigationCurrentEntryChangeEvent.navigationType",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationcurrententrychangeevent-navigationtype"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination",
+        "name": "api.NavigationDestination",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#navigationdestination"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.getState",
+        "name": "api.NavigationDestination.getState",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-getstate"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.id",
+        "name": "api.NavigationDestination.id",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-id"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.index",
+        "name": "api.NavigationDestination.index",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-index"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.key",
+        "name": "api.NavigationDestination.key",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-key"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.sameDocument",
+        "name": "api.NavigationDestination.sameDocument",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-samedocument"
+        ]
+      },
+      {
+        "id": "api.NavigationDestination.url",
+        "name": "api.NavigationDestination.url",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationdestination-url"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent",
+        "name": "api.NavigationEvent",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#navigate-event-class"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.NavigationEvent",
+        "name": "api.NavigationEvent.NavigationEvent",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-navigateevent"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.canTransition",
+        "name": "api.NavigationEvent.canTransition",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-cantransition"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.destination",
+        "name": "api.NavigationEvent.destination",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-destination"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.downloadRequest",
+        "name": "api.NavigationEvent.downloadRequest",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-downloadrequest"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.formData",
+        "name": "api.NavigationEvent.formData",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-formdata"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.hashChange",
+        "name": "api.NavigationEvent.hashChange",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-hashchange"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.info",
+        "name": "api.NavigationEvent.info",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-info"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.navigationType",
+        "name": "api.NavigationEvent.navigationType",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-navigationtype"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.restoreScroll",
+        "name": "api.NavigationEvent.restoreScroll",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-restorescroll"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.signal",
+        "name": "api.NavigationEvent.signal",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-signal"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.transitionWhile",
+        "name": "api.NavigationEvent.transitionWhile",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-transitionwhile"
+        ]
+      },
+      {
+        "id": "api.NavigationEvent.userInitiated",
+        "name": "api.NavigationEvent.userInitiated",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigateevent-userinitiated"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry",
+        "name": "api.NavigationHistoryEntry",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#navigationhistoryentry"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.dispose_event",
+        "name": "api.NavigationHistoryEntry.dispose_event",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-ondispose"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.getState",
+        "name": "api.NavigationHistoryEntry.getState",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-getstate"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.id",
+        "name": "api.NavigationHistoryEntry.id",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-id"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.index",
+        "name": "api.NavigationHistoryEntry.index",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-index"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.key",
+        "name": "api.NavigationHistoryEntry.key",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-key"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.sameDocument",
+        "name": "api.NavigationHistoryEntry.sameDocument",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-samedocument"
+        ]
+      },
+      {
+        "id": "api.NavigationHistoryEntry.url",
+        "name": "api.NavigationHistoryEntry.url",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationhistoryentry-url"
+        ]
+      },
+      {
+        "id": "api.NavigationTransition",
+        "name": "api.NavigationTransition",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#navigationtransition"
+        ]
+      },
+      {
+        "id": "api.NavigationTransition.finished",
+        "name": "api.NavigationTransition.finished",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationtransition-finished"
+        ]
+      },
+      {
+        "id": "api.NavigationTransition.from",
+        "name": "api.NavigationTransition.from",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationtransition-from"
+        ]
+      },
+      {
+        "id": "api.NavigationTransition.navigationType",
+        "name": "api.NavigationTransition.navigationType",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#dom-navigationtransition-navigationtype"
+        ]
+      },
+      {
+        "id": "api.Window.navigation",
+        "name": "api.Window.navigation",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api/#global"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6232287446302720,
+        "name": "Navigation API",
+        "statusUrl": "https://chromestatus.com/feature/6232287446302720",
+        "specUrls": [
+          "https://wicg.github.io/navigation-api"
+        ]
+      }
+    ]
+  }
+}

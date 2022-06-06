@@ -1,0 +1,714 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Array.toLocaleString",
+        "name": "javascript.builtins.Array.toLocaleString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/indexed-collections.html#sec-array.prototype.tolocalestring",
+          "https://tc39.es/ecma402/#sup-array.prototype.tolocalestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.BigInt.toLocaleString",
+        "name": "javascript.builtins.BigInt.toLocaleString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigInt/toLocaleString",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sup-bigint.prototype.tolocalestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Date.toLocaleDateString",
+        "name": "javascript.builtins.Date.toLocaleDateString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocaledatestring",
+          "https://tc39.es/ecma402/#sup-date.prototype.tolocaledatestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Date.toLocaleString",
+        "name": "javascript.builtins.Date.toLocaleString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocalestring",
+          "https://tc39.es/ecma402/#sup-date.prototype.tolocalestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Date.toLocaleTimeString",
+        "name": "javascript.builtins.Date.toLocaleTimeString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-date.prototype.tolocaletimestring",
+          "https://tc39.es/ecma402/#sup-date.prototype.tolocaletimestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl",
+        "name": "javascript.builtins.Intl",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl",
+        "specUrls": [
+          "https://tc39.es/ecma402/#intl-object"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.@@toStringTag",
+        "name": "javascript.builtins.Intl.@@toStringTag",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/@@toStringTag",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl-toStringTag"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Collator",
+        "name": "javascript.builtins.Intl.Collator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator",
+        "specUrls": [
+          "https://tc39.es/ecma402/#collator-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Collator.Collator",
+        "name": "javascript.builtins.Intl.Collator.Collator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/Collator",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-the-intl-collator-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Collator.compare",
+        "name": "javascript.builtins.Intl.Collator.compare",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/compare",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.collator.prototype.compare"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Collator.resolvedOptions",
+        "name": "javascript.builtins.Intl.Collator.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.collator.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Collator.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.Collator.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Collator/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.collator.supportedlocalesof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat",
+        "name": "javascript.builtins.Intl.DateTimeFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#datetimeformat-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.DateTimeFormat",
+        "name": "javascript.builtins.Intl.DateTimeFormat.DateTimeFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-datetimeformat-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.format",
+        "name": "javascript.builtins.Intl.DateTimeFormat.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/format",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.datetimeformat.prototype.format"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.formatRange",
+        "name": "javascript.builtins.Intl.DateTimeFormat.formatRange",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRange",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.datetimeformat.prototype.formatRange"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.formatRangeToParts",
+        "name": "javascript.builtins.Intl.DateTimeFormat.formatRangeToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatRangeToParts",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.DateTimeFormat.prototype.formatRangeToParts"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.formatToParts",
+        "name": "javascript.builtins.Intl.DateTimeFormat.formatToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/formatToParts",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.DateTimeFormat.prototype.formatToParts"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.resolvedOptions",
+        "name": "javascript.builtins.Intl.DateTimeFormat.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.datetimeformat.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DateTimeFormat.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.DateTimeFormat.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.datetimeformat.supportedlocalesof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DisplayNames",
+        "name": "javascript.builtins.Intl.DisplayNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames",
+        "specUrls": [
+          "https://tc39.es/ecma402/#intl-displaynames-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DisplayNames.DisplayNames",
+        "name": "javascript.builtins.Intl.DisplayNames.DisplayNames",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/DisplayNames",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-displaynames-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DisplayNames.of",
+        "name": "javascript.builtins.Intl.DisplayNames.of",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/of",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.DisplayNames.prototype.of"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DisplayNames.resolvedOptions",
+        "name": "javascript.builtins.Intl.DisplayNames.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.DisplayNames.prototype.resolvedOptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.DisplayNames.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.DisplayNames.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DisplayNames/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.DisplayNames.supportedLocalesOf"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat",
+        "name": "javascript.builtins.Intl.ListFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#listformat-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat.ListFormat",
+        "name": "javascript.builtins.Intl.ListFormat.ListFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/ListFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-listformat-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat.format",
+        "name": "javascript.builtins.Intl.ListFormat.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/format",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.ListFormat.prototype.format"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat.formatToParts",
+        "name": "javascript.builtins.Intl.ListFormat.formatToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/formatToParts",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.ListFormat.prototype.formatToParts"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat.resolvedOptions",
+        "name": "javascript.builtins.Intl.ListFormat.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.ListFormat.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.ListFormat.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.ListFormat.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/ListFormat/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.ListFormat.supportedLocalesOf"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale",
+        "name": "javascript.builtins.Intl.Locale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale",
+        "specUrls": [
+          "https://tc39.es/ecma402/#locale-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.Locale",
+        "name": "javascript.builtins.Intl.Locale.Locale",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/Locale",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-locale-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.baseName",
+        "name": "javascript.builtins.Intl.Locale.baseName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/baseName",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.baseName"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.calendar",
+        "name": "javascript.builtins.Intl.Locale.calendar",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/calendar",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.calendar"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.caseFirst",
+        "name": "javascript.builtins.Intl.Locale.caseFirst",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/caseFirst",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.caseFirst"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.collation",
+        "name": "javascript.builtins.Intl.Locale.collation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/collation",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.collation"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.hourCycle",
+        "name": "javascript.builtins.Intl.Locale.hourCycle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycle",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.hourCycle"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.language",
+        "name": "javascript.builtins.Intl.Locale.language",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/language",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.language"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.maximize",
+        "name": "javascript.builtins.Intl.Locale.maximize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/maximize",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.maximize"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.minimize",
+        "name": "javascript.builtins.Intl.Locale.minimize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/minimize",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.minimize"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.numberingSystem",
+        "name": "javascript.builtins.Intl.Locale.numberingSystem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/numberingSystem",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.numberingSystem"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.numeric",
+        "name": "javascript.builtins.Intl.Locale.numeric",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/numeric",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.numeric"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.region",
+        "name": "javascript.builtins.Intl.Locale.region",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/region",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.region"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.script",
+        "name": "javascript.builtins.Intl.Locale.script",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/script",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.script"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.toString",
+        "name": "javascript.builtins.Intl.Locale.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/toString",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.Locale.prototype.toString"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat",
+        "name": "javascript.builtins.Intl.NumberFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#numberformat-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.NumberFormat",
+        "name": "javascript.builtins.Intl.NumberFormat.NumberFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-numberformat-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.format",
+        "name": "javascript.builtins.Intl.NumberFormat.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/format",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.numberformat.prototype.format"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.formatToParts",
+        "name": "javascript.builtins.Intl.NumberFormat.formatToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatToParts",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.numberformat.prototype.formattoparts"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.resolvedOptions",
+        "name": "javascript.builtins.Intl.NumberFormat.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.numberformat.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.NumberFormat.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.NumberFormat.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.numberformat.supportedlocalesof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.PluralRules",
+        "name": "javascript.builtins.Intl.PluralRules",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules",
+        "specUrls": [
+          "https://tc39.es/ecma402/#pluralrules-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.PluralRules.PluralRules",
+        "name": "javascript.builtins.Intl.PluralRules.PluralRules",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/PluralRules",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-pluralrules-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.PluralRules.resolvedOptions",
+        "name": "javascript.builtins.Intl.PluralRules.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.pluralrules.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.PluralRules.select",
+        "name": "javascript.builtins.Intl.PluralRules.select",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/select",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.pluralrules.prototype.select"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.PluralRules.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.PluralRules.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.pluralrules.supportedlocalesof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#relativetimeformat-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/RelativeTimeFormat",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-relativetimeformat-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat.format",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat.format",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/format",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.prototype.format"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat.formatToParts",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat.formatToParts",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/formatToParts",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.prototype.formatToParts"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat.resolvedOptions",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.relativetimeformat.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.RelativeTimeFormat.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.RelativeTimeFormat.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-Intl.RelativeTimeFormat.supportedLocalesOf"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segmenter",
+        "name": "javascript.builtins.Intl.Segmenter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter",
+        "specUrls": [
+          "https://tc39.es/ecma402/#segmenter-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segmenter.Segmenter",
+        "name": "javascript.builtins.Intl.Segmenter.Segmenter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/Segmenter",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-segmenter-constructor"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segmenter.resolvedOptions",
+        "name": "javascript.builtins.Intl.Segmenter.resolvedOptions",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/resolvedOptions",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.segmenter.prototype.resolvedoptions"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segmenter.segment",
+        "name": "javascript.builtins.Intl.Segmenter.segment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.segmenter.prototype.segment"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segmenter.supportedLocalesOf",
+        "name": "javascript.builtins.Intl.Segmenter.supportedLocalesOf",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/supportedLocalesOf",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.segmenter.supportedlocalesof"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segments",
+        "name": "javascript.builtins.Intl.Segments",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-segments-objects"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segments.@@iterator",
+        "name": "javascript.builtins.Intl.Segments.@@iterator",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/@@iterator",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-%segmentsprototype%-@@iterator"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Segments.containing",
+        "name": "javascript.builtins.Intl.Segments.containing",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segments/containing",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-%segmentsprototype%.containing"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.getCanonicalLocales",
+        "name": "javascript.builtins.Intl.getCanonicalLocales",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl.getcanonicallocales"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Number.toLocaleString",
+        "name": "javascript.builtins.Number.toLocaleString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/numbers-and-dates.html#sec-number.prototype.tolocalestring",
+          "https://tc39.es/ecma402/#sup-number.prototype.tolocalestring"
+        ]
+      },
+      {
+        "id": "javascript.builtins.String.localeCompare",
+        "name": "javascript.builtins.String.localeCompare",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.localecompare",
+          "https://tc39.es/ecma402/#sup-String.prototype.localeCompare"
+        ]
+      },
+      {
+        "id": "javascript.builtins.String.toLocaleLowerCase",
+        "name": "javascript.builtins.String.toLocaleLowerCase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocalelowercase",
+          "https://tc39.es/ecma402/#sup-string.prototype.tolocalelowercase"
+        ]
+      },
+      {
+        "id": "javascript.builtins.String.toLocaleUpperCase",
+        "name": "javascript.builtins.String.toLocaleUpperCase",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.tolocaleuppercase",
+          "https://tc39.es/ecma402/#sup-string.prototype.tolocaleuppercase"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "date-tolocaledatestring",
+        "name": "Date.prototype.toLocaleDateString",
+        "statusUrl": "https://caniuse.com/date-tolocaledatestring",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sup-date.prototype.tolocaledatestring"
+        ]
+      },
+      {
+        "id": "internationalization",
+        "name": "Internationalization API",
+        "statusUrl": "https://caniuse.com/internationalization",
+        "specUrls": [
+          "https://tc39.es/ecma402/"
+        ]
+      },
+      {
+        "id": "intl-pluralrules",
+        "name": "Intl.PluralRules API",
+        "statusUrl": "https://caniuse.com/intl-pluralrules",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-intl-pluralrules-constructor"
+        ]
+      },
+      {
+        "id": "localecompare",
+        "name": "localeCompare()",
+        "statusUrl": "https://caniuse.com/localecompare",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sup-String.prototype.localeCompare"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5407573287108608,
+        "name": "Intl BestFitMatcher by using ICU LocaleMatcher",
+        "statusUrl": "https://chromestatus.com/feature/5407573287108608",
+        "specUrls": [
+          "https://tc39.es/ecma402/#sec-bestfitmatcher"
+        ]
+      },
+      {
+        "id": 5440249461211136,
+        "name": "\"numberingSystem\" option for Intl.NumberFormat / \"calendar\" and \"numberingSystem\" option for Intl.DateTimeFormat ",
+        "statusUrl": "https://chromestatus.com/feature/5440249461211136",
+        "specUrls": [
+          "https://github.com/tc39/ecma402/pull/175"
+        ]
+      },
+      {
+        "id": 5686840812109824,
+        "name": "Intl.NumberFormat.prototype.formatToParts()",
+        "statusUrl": "https://chromestatus.com/feature/5686840812109824",
+        "specUrls": [
+          "https://github.com/tc39/ecma402/pull/79"
+        ]
+      },
+      {
+        "id": 5704965743968256,
+        "name": "fractionalSecondDigits option for Intl.DateTimeFormat",
+        "statusUrl": "https://chromestatus.com/feature/5704965743968256",
+        "specUrls": [
+          "https://github.com/tc39/ecma402/pull/347"
+        ]
+      },
+      {
+        "id": 5742274625404928,
+        "name": "Locale sensitive BigInt.prototype.toLocaleString and allow Intl.NumberFormat format/formatToParts to take BigInt.",
+        "statusUrl": "https://chromestatus.com/feature/5742274625404928",
+        "specUrls": [
+          "https://github.com/tc39/ecma402/pull/236"
+        ]
+      },
+      {
+        "id": 6319456309477376,
+        "name": "Intl.DateTimeFormat.prototype.formatToParts()",
+        "statusUrl": "https://chromestatus.com/feature/6319456309477376",
+        "specUrls": [
+          "https://github.com/tc39/ecma402/files/41759/formatToParts.pdf"
+        ]
+      },
+      {
+        "id": 6520669959356416,
+        "name": "Add dayPeriod option for Intl.DateTimeFormat",
+        "statusUrl": "https://chromestatus.com/feature/6520669959356416",
+        "specUrls": [
+          "https://tc39.es/ecma402/#table-datetimeformat-components"
+        ]
+      }
+    ]
+  }
+}

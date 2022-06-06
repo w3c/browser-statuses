@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EXT_float_blend",
+        "name": "api.EXT_float_blend",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_float_blend",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_float_blend/"
+        ]
+      }
+    ]
+  }
+}

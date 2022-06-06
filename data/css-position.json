@@ -1,0 +1,92 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.bottom",
+        "name": "css.properties.bottom",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/bottom",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#insets"
+        ]
+      },
+      {
+        "id": "css.properties.left",
+        "name": "css.properties.left",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/left",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#insets"
+        ]
+      },
+      {
+        "id": "css.properties.position",
+        "name": "css.properties.position",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/position",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#position-property"
+        ]
+      },
+      {
+        "id": "css.properties.right",
+        "name": "css.properties.right",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/right",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#insets"
+        ]
+      },
+      {
+        "id": "css.properties.top",
+        "name": "css.properties.top",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/top",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#insets"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-sticky",
+        "name": "CSS position:sticky",
+        "statusUrl": "https://caniuse.com/css-sticky",
+        "specUrls": [
+          "https://drafts.csswg.org/css-position/#sticky-pos"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6129995409784832,
+        "name": "CSS position: sticky scroll initial position into view",
+        "statusUrl": "https://chromestatus.com/feature/6129995409784832",
+        "specUrls": [
+          "https://www.w3.org/TR/css-position-3/#stickypos-scroll"
+        ]
+      },
+      {
+        "id": 6190250464378880,
+        "name": "CSS position: sticky",
+        "statusUrl": "https://chromestatus.com/feature/6190250464378880",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-position/#valdef-position-sticky"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "feature-position:-sticky",
+        "name": "Position: sticky",
+        "statusUrl": "https://webkit.org/status/#feature-position:-sticky",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-position/#sticky-pos"
+        ]
+      },
+      {
+        "id": "specification-css-positioned-layout-module-level-3",
+        "name": "CSS Positioned Layout Module Level 3",
+        "statusUrl": "https://webkit.org/status/#specification-css-positioned-layout-module-level-3",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-position/"
+        ]
+      }
+    ]
+  }
+}

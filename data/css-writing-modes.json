@@ -1,0 +1,108 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "css.properties.direction",
+        "name": "css.properties.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/direction",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#direction"
+        ]
+      },
+      {
+        "id": "css.properties.text-combine-upright",
+        "name": "css.properties.text-combine-upright",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-combine-upright",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#text-combine-upright"
+        ]
+      },
+      {
+        "id": "css.properties.text-orientation",
+        "name": "css.properties.text-orientation",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-orientation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#text-orientation"
+        ]
+      },
+      {
+        "id": "css.properties.unicode-bidi",
+        "name": "css.properties.unicode-bidi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/unicode-bidi",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#unicode-bidi"
+        ]
+      },
+      {
+        "id": "css.properties.writing-mode",
+        "name": "css.properties.writing-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/writing-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#block-flow"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.direction",
+        "name": "svg.attributes.presentation.direction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/direction",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#direction",
+          "https://svgwg.org/svg2-draft/text.html#DirectionProperty"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.unicode-bidi",
+        "name": "svg.attributes.presentation.unicode-bidi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/unicode-bidi",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#unicode-bidi"
+        ]
+      },
+      {
+        "id": "svg.attributes.presentation.writing-mode",
+        "name": "svg.attributes.presentation.writing-mode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/SVG/Attribute/writing-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes/#block-flow",
+          "https://svgwg.org/svg2-draft/text.html#WritingModeProperty"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-text-orientation",
+        "name": "CSS text-orientation",
+        "statusUrl": "https://caniuse.com/css-text-orientation",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes-3/#text-orientation"
+        ]
+      },
+      {
+        "id": "css-writing-mode",
+        "name": "CSS writing-mode property",
+        "statusUrl": "https://caniuse.com/css-writing-mode",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes-3/#block-flow"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5707470202732544,
+        "name": "Unprefixed CSS Writing Modes with syntax updates",
+        "statusUrl": "https://chromestatus.com/feature/5707470202732544",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes-3/"
+        ]
+      },
+      {
+        "id": 6002704107175936,
+        "name": "Remove SVG glyph-orientation-horizontal and glyph-orientation-vertical",
+        "statusUrl": "https://chromestatus.com/feature/6002704107175936",
+        "specUrls": [
+          "https://drafts.csswg.org/css-writing-modes-3/#glyph-orientation"
+        ]
+      }
+    ]
+  }
+}

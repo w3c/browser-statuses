@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.OES_fbo_render_mipmap",
+        "name": "api.OES_fbo_render_mipmap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/OES_fbo_render_mipmap",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/OES_fbo_render_mipmap/"
+        ]
+      }
+    ]
+  }
+}

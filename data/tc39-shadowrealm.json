@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5638053476433920,
+        "name": "ShadowRealm",
+        "statusUrl": "https://chromestatus.com/feature/5638053476433920",
+        "specUrls": [
+          "https://tc39.es/proposal-shadowrealm/"
+        ]
+      }
+    ]
+  }
+}

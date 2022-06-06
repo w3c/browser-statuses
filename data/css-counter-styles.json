@@ -1,0 +1,251 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSSCounterStyleRule",
+        "name": "api.CSSCounterStyleRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#the-csscounterstylerule-interface"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.additiveSymbols",
+        "name": "api.CSSCounterStyleRule.additiveSymbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/additiveSymbols",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-additivesymbols"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.fallback",
+        "name": "api.CSSCounterStyleRule.fallback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/fallback",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-fallback"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.name",
+        "name": "api.CSSCounterStyleRule.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/name",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-name"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.negative",
+        "name": "api.CSSCounterStyleRule.negative",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/negative",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-negative"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.pad",
+        "name": "api.CSSCounterStyleRule.pad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/pad",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-pad"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.prefix",
+        "name": "api.CSSCounterStyleRule.prefix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/prefix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-prefix"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.range",
+        "name": "api.CSSCounterStyleRule.range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/range",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-range"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.speakAs",
+        "name": "api.CSSCounterStyleRule.speakAs",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/speakAs",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-speakas"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.suffix",
+        "name": "api.CSSCounterStyleRule.suffix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/suffix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-suffix"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.symbols",
+        "name": "api.CSSCounterStyleRule.symbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/symbols",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-symbols"
+        ]
+      },
+      {
+        "id": "api.CSSCounterStyleRule.system",
+        "name": "api.CSSCounterStyleRule.system",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSCounterStyleRule/system",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#dom-csscounterstylerule-system"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style",
+        "name": "css.at-rules.counter-style",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#the-counter-style-rule"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.additive-symbols",
+        "name": "css.at-rules.counter-style.additive-symbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/additive-symbols",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-symbols"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.fallback",
+        "name": "css.at-rules.counter-style.fallback",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/fallback",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-fallback"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.negative",
+        "name": "css.at-rules.counter-style.negative",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/negative",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-system"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.pad",
+        "name": "css.at-rules.counter-style.pad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/pad",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-pad"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.prefix",
+        "name": "css.at-rules.counter-style.prefix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/prefix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-prefix"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.range",
+        "name": "css.at-rules.counter-style.range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/range",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-range"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.speak-as",
+        "name": "css.at-rules.counter-style.speak-as",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/speak-as",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-speak-as"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.suffix",
+        "name": "css.at-rules.counter-style.suffix",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/suffix",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-suffix"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.symbols",
+        "name": "css.at-rules.counter-style.symbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/symbols",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-symbols"
+        ]
+      },
+      {
+        "id": "css.at-rules.counter-style.system",
+        "name": "css.at-rules.counter-style.system",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@counter-style/system",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#counter-style-system"
+        ]
+      },
+      {
+        "id": "css.properties.list-style-type",
+        "name": "css.properties.list-style-type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/list-style-type",
+        "specUrls": [
+          "https://drafts.csswg.org/css-lists/#text-markers",
+          "https://drafts.csswg.org/css-counter-styles/#extending-css2"
+        ]
+      },
+      {
+        "id": "css.properties.list-style-type.symbols",
+        "name": "css.properties.list-style-type.symbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/symbols()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#symbols-function"
+        ]
+      },
+      {
+        "id": "css.properties.list-style.symbols",
+        "name": "css.properties.list-style.symbols",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/symbols()",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/#symbols-function"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "css-at-counter-style",
+        "name": "CSS Counter Styles",
+        "statusUrl": "https://caniuse.com/css-at-counter-style",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles/"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5687059677184000,
+        "name": "CSS @counter-style descriptor 'speak-as'",
+        "statusUrl": "https://chromestatus.com/feature/5687059677184000",
+        "specUrls": [
+          "https://www.w3.org/TR/css-counter-styles-3/#counter-style-speak-as"
+        ]
+      },
+      {
+        "id": 5692693659254784,
+        "name": "CSS custom counter styles",
+        "statusUrl": "https://chromestatus.com/feature/5692693659254784",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles-3"
+        ]
+      },
+      {
+        "id": 6561346332131328,
+        "name": "'disclosure-open' and 'disclosure-closed' keywords for CSS list-style-type property",
+        "statusUrl": "https://chromestatus.com/feature/6561346332131328",
+        "specUrls": [
+          "https://drafts.csswg.org/css-counter-styles-3/#simple-symbolic"
+        ]
+      }
+    ]
+  }
+}

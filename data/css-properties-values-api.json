@@ -1,0 +1,106 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.CSS.registerProperty",
+        "name": "api.CSS.registerProperty",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/registerProperty",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#the-registerproperty-function"
+        ]
+      },
+      {
+        "id": "api.CSSPropertyRule",
+        "name": "api.CSSPropertyRule",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#the-css-property-rule-interface"
+        ]
+      },
+      {
+        "id": "api.CSSPropertyRule.inherits",
+        "name": "api.CSSPropertyRule.inherits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/inherits",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#dom-csspropertyrule-inherits"
+        ]
+      },
+      {
+        "id": "api.CSSPropertyRule.initialValue",
+        "name": "api.CSSPropertyRule.initialValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/initialValue",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#dom-csspropertyrule-initialvalue"
+        ]
+      },
+      {
+        "id": "api.CSSPropertyRule.name",
+        "name": "api.CSSPropertyRule.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/name",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#dom-csspropertyrule-name"
+        ]
+      },
+      {
+        "id": "api.CSSPropertyRule.syntax",
+        "name": "api.CSSPropertyRule.syntax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSPropertyRule/syntax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#dom-csspropertyrule-syntax"
+        ]
+      },
+      {
+        "id": "css.at-rules.property",
+        "name": "css.at-rules.property",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@property",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#at-property-rule"
+        ]
+      },
+      {
+        "id": "css.at-rules.property.inherits",
+        "name": "css.at-rules.property.inherits",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@property/inherits",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#inherits-descriptor"
+        ]
+      },
+      {
+        "id": "css.at-rules.property.initial-value",
+        "name": "css.at-rules.property.initial-value",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@property/initial-value",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#initial-value-descriptor"
+        ]
+      },
+      {
+        "id": "css.at-rules.property.syntax",
+        "name": "css.at-rules.property.syntax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@property/syntax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/#the-syntax-descriptor"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5640265926705152,
+        "name": "CSS Properties and Values API Level 1 (Houdini)",
+        "statusUrl": "https://chromestatus.com/feature/5640265926705152",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/"
+        ]
+      }
+    ],
+    "webkit": [
+      {
+        "id": "specification-css-properties-and-values-api-level-1",
+        "name": "CSS Properties and Values API Level 1",
+        "statusUrl": "https://webkit.org/status/#specification-css-properties-and-values-api-level-1",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-properties-values-api/"
+        ]
+      }
+    ]
+  }
+}

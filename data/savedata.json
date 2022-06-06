@@ -1,0 +1,32 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.NetworkInformation.saveData",
+        "name": "api.NetworkInformation.saveData",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NetworkInformation/saveData",
+        "specUrls": [
+          "https://wicg.github.io/savedata/#dfn-savedata"
+        ]
+      },
+      {
+        "id": "http.headers.Save-Data",
+        "name": "http.headers.Save-Data",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Save-Data",
+        "specUrls": [
+          "https://wicg.github.io/savedata/#save-data-request-header-field"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5645928215085056,
+        "name": "Add Save Data Client Hint",
+        "statusUrl": "https://chromestatus.com/feature/5645928215085056",
+        "specUrls": [
+          "https://wicg.github.io/savedata"
+        ]
+      }
+    ]
+  }
+}

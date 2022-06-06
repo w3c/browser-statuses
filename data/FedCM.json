@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 6438627087220736,
+        "name": "Federated Credentials Management (was WebID)",
+        "statusUrl": "https://chromestatus.com/feature/6438627087220736",
+        "specUrls": [
+          "https://fedidcg.github.io/FedCM"
+        ]
+      }
+    ]
+  }
+}

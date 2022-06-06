@@ -1,0 +1,113 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Scheduler",
+        "name": "api.Scheduler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Scheduler",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#scheduler"
+        ]
+      },
+      {
+        "id": "api.Scheduler.postTask",
+        "name": "api.Scheduler.postTask",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Scheduler/postTask",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-scheduler-posttask"
+        ]
+      },
+      {
+        "id": "api.TaskController",
+        "name": "api.TaskController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskController",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#sec-task-controller"
+        ]
+      },
+      {
+        "id": "api.TaskController.TaskController",
+        "name": "api.TaskController.TaskController",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskController/TaskController",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-taskcontroller-taskcontroller"
+        ]
+      },
+      {
+        "id": "api.TaskController.setPriority",
+        "name": "api.TaskController.setPriority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskController/setPriority",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-taskcontroller-setpriority"
+        ]
+      },
+      {
+        "id": "api.TaskPriorityChangeEvent",
+        "name": "api.TaskPriorityChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskPriorityChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#sec-task-priority-change-event"
+        ]
+      },
+      {
+        "id": "api.TaskPriorityChangeEvent.TaskPriorityChangeEvent",
+        "name": "api.TaskPriorityChangeEvent.TaskPriorityChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskPriorityChangeEvent/TaskPriorityChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-taskprioritychangeevent-taskprioritychangeevent"
+        ]
+      },
+      {
+        "id": "api.TaskPriorityChangeEvent.previousPriority",
+        "name": "api.TaskPriorityChangeEvent.previousPriority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskPriorityChangeEvent/previousPriority",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-taskprioritychangeevent-previouspriority"
+        ]
+      },
+      {
+        "id": "api.TaskSignal",
+        "name": "api.TaskSignal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskSignal",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#tasksignal"
+        ]
+      },
+      {
+        "id": "api.TaskSignal.priority",
+        "name": "api.TaskSignal.priority",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TaskSignal/priority",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-tasksignal-priority"
+        ]
+      },
+      {
+        "id": "api.TaskSignal.prioritychange_event",
+        "name": "api.TaskSignal.prioritychange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/prioritychange_event",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#ref-for-eventdef-tasksignal-prioritychange",
+          "https://wicg.github.io/scheduling-apis/#dom-tasksignal-onprioritychange"
+        ]
+      },
+      {
+        "id": "api.scheduler",
+        "name": "api.scheduler",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scheduler",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/#dom-windoworworkerglobalscope-scheduler"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6031161734201344,
+        "name": "Scheduling APIs: Prioritized scheduler.postTask",
+        "statusUrl": "https://chromestatus.com/feature/6031161734201344",
+        "specUrls": [
+          "https://wicg.github.io/scheduling-apis/"
+        ]
+      }
+    ]
+  }
+}

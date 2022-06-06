@@ -1,0 +1,40 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.XRSession.environmentBlendMode",
+        "name": "api.XRSession.environmentBlendMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/environmentBlendMode",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode"
+        ]
+      },
+      {
+        "id": "api.XRSession.interactionMode",
+        "name": "api.XRSession.interactionMode",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/interactionMode",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-interactionmode"
+        ]
+      },
+      {
+        "id": "api.XRView.isFirstPersonObserver",
+        "name": "api.XRView.isFirstPersonObserver",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/isFirstPersonObserver",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/#dom-xrview-isfirstpersonobserver"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5450241148977152,
+        "name": "WebXR AR Module",
+        "statusUrl": "https://chromestatus.com/feature/5450241148977152",
+        "specUrls": [
+          "https://immersive-web.github.io/webxr-ar-module/"
+        ]
+      }
+    ]
+  }
+}

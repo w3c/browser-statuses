@@ -1,0 +1,64 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Element.setHTML",
+        "name": "api.Element.setHTML",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setHTML",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#dom-element-sethtml"
+        ]
+      },
+      {
+        "id": "api.Sanitizer",
+        "name": "api.Sanitizer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sanitizer",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#sanitizer-api"
+        ]
+      },
+      {
+        "id": "api.Sanitizer.Sanitizer",
+        "name": "api.Sanitizer.Sanitizer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sanitizer/Sanitizer",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizer"
+        ]
+      },
+      {
+        "id": "api.Sanitizer.getConfiguration",
+        "name": "api.Sanitizer.getConfiguration",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sanitizer/getConfiguration",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#dom-sanitizer-getconfiguration"
+        ]
+      },
+      {
+        "id": "api.Sanitizer.sanitize",
+        "name": "api.Sanitizer.sanitize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitize",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitize"
+        ]
+      },
+      {
+        "id": "api.Sanitizer.sanitizeFor",
+        "name": "api.Sanitizer.sanitizeFor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Sanitizer/sanitizeFor",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api/#dom-sanitizer-sanitizefor"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5786893650231296,
+        "name": "Sanitizer API MVP",
+        "statusUrl": "https://chromestatus.com/feature/5786893650231296",
+        "specUrls": [
+          "https://wicg.github.io/sanitizer-api"
+        ]
+      }
+    ]
+  }
+}

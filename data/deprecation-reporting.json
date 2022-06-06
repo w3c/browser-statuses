@@ -1,0 +1,70 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.DeprecationReportBody",
+        "name": "api.DeprecationReportBody",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#deprecationreportbody"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.anticipatedRemoval",
+        "name": "api.DeprecationReportBody.anticipatedRemoval",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/anticipatedRemoval",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-anticipatedremoval"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.columnNumber",
+        "name": "api.DeprecationReportBody.columnNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/columnNumber",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-columnnumber"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.id",
+        "name": "api.DeprecationReportBody.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/id",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-id"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.lineNumber",
+        "name": "api.DeprecationReportBody.lineNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/lineNumber",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-linenumber"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.message",
+        "name": "api.DeprecationReportBody.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/message",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-message"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.sourceFile",
+        "name": "api.DeprecationReportBody.sourceFile",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/sourceFile",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-sourcefile"
+        ]
+      },
+      {
+        "id": "api.DeprecationReportBody.toJSON",
+        "name": "api.DeprecationReportBody.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DeprecationReportBody/toJSON",
+        "specUrls": [
+          "https://wicg.github.io/deprecation-reporting/#dom-deprecationreportbody-tojson"
+        ]
+      }
+    ]
+  }
+}

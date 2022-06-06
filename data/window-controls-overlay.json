@@ -1,0 +1,109 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.windowControlsOverlay",
+        "name": "api.Navigator.windowControlsOverlay",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlay",
+        "name": "api.WindowControlsOverlay",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlay",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlay.geometrychange_event",
+        "name": "api.WindowControlsOverlay.geometrychange_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlay/geometrychange_event",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#the-ongeometrychange-attribute"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlay.getTitlebarAreaRect",
+        "name": "api.WindowControlsOverlay.getTitlebarAreaRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlay/getTitlebarAreaRect",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#the-gettitlebararearect-method"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlay.visible",
+        "name": "api.WindowControlsOverlay.visible",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlay/visible",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#the-visible-attribute"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlayGeometryChangeEvent",
+        "name": "api.WindowControlsOverlayGeometryChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlayGeometryChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlayGeometryChangeEvent.WindowControlsOverlayGeometryChangeEvent",
+        "name": "api.WindowControlsOverlayGeometryChangeEvent.WindowControlsOverlayGeometryChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlayGeometryChangeEvent/WindowControlsOverlayGeometryChangeEvent",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlayGeometryChangeEvent.titlebarAreaRect",
+        "name": "api.WindowControlsOverlayGeometryChangeEvent.titlebarAreaRect",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlayGeometryChangeEvent/titlebarAreaRect",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "api.WindowControlsOverlayGeometryChangeEvent.visible",
+        "name": "api.WindowControlsOverlayGeometryChangeEvent.visible",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WindowControlsOverlayGeometryChangeEvent/visible",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#windowcontrolsoverlay-interface"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.titlebar-area-height",
+        "name": "css.properties.custom-property.env.titlebar-area-height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.titlebar-area-width",
+        "name": "css.properties.custom-property.env.titlebar-area-width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.titlebar-area-x",
+        "name": "css.properties.custom-property.env.titlebar-area-x",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables"
+        ]
+      },
+      {
+        "id": "css.properties.custom-property.env.titlebar-area-y",
+        "name": "css.properties.custom-property.env.titlebar-area-y",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/env()",
+        "specUrls": [
+          "https://wicg.github.io/window-controls-overlay/#title-bar-area-env-variables"
+        ]
+      }
+    ]
+  }
+}

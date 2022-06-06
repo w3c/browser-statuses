@@ -1,0 +1,24 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.MediaStreamTrackProcessor.readable",
+        "name": "api.MediaStreamTrackProcessor.readable",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaStreamTrackProcessor/readable",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-transform/#dom-mediastreamtrackprocessor-readable"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5590295839244288,
+        "name": "Mediacapture-transform VideoTrackGenerator",
+        "statusUrl": "https://chromestatus.com/feature/5590295839244288",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-transform/#video-track-generator"
+        ]
+      }
+    ]
+  }
+}

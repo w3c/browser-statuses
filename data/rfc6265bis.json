@@ -1,0 +1,49 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.headers.Set-Cookie.SameSite",
+        "name": "http.headers.Set-Cookie.SameSite",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Set-Cookie/SameSite",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc6265.html#sane-set-cookie",
+          "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html#name-the-samesite-attribute"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 4887741241229312,
+        "name": "Cookie Expires/Max-Age attribute upper limit",
+        "statusUrl": "https://chromestatus.com/feature/4887741241229312",
+        "specUrls": [
+          "https://httpwg.org/http-extensions/draft-ietf-httpbis-rfc6265bis.html#name-the-expires-attribute"
+        ]
+      },
+      {
+        "id": 4946713618939904,
+        "name": "Cookie size limits",
+        "statusUrl": "https://chromestatus.com/feature/4946713618939904",
+        "specUrls": [
+          "https://github.com/httpwg/http-extensions/blob/main/draft-ietf-httpbis-rfc6265bis.md#the-set-cookie-header-field-set-cookie"
+        ]
+      },
+      {
+        "id": 5674723800252416,
+        "name": "Allow cookie domain attributes to be the empty string",
+        "statusUrl": "https://chromestatus.com/feature/5674723800252416",
+        "specUrls": [
+          "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis#section-5.4.3"
+        ]
+      },
+      {
+        "id": 5709264560586752,
+        "name": "Control character handling in cookies",
+        "statusUrl": "https://chromestatus.com/feature/5709264560586752",
+        "specUrls": [
+          "https://github.com/httpwg/http-extensions/blob/main/draft-ietf-httpbis-rfc6265bis.md"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "http.status.451",
+        "name": "http.status.451",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/451",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7725.html#n-451-unavailable-for-legal-reasons"
+        ]
+      }
+    ]
+  }
+}

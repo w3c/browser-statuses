@@ -1,0 +1,194 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.console",
+        "name": "api.console",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#console-namespace"
+        ]
+      },
+      {
+        "id": "api.console.assert",
+        "name": "api.console.assert",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/assert",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#assert"
+        ]
+      },
+      {
+        "id": "api.console.clear",
+        "name": "api.console.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/clear",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#clear"
+        ]
+      },
+      {
+        "id": "api.console.count",
+        "name": "api.console.count",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/count",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#count"
+        ]
+      },
+      {
+        "id": "api.console.countReset",
+        "name": "api.console.countReset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/countReset",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#countreset"
+        ]
+      },
+      {
+        "id": "api.console.debug",
+        "name": "api.console.debug",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/debug",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#debug"
+        ]
+      },
+      {
+        "id": "api.console.dir",
+        "name": "api.console.dir",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/dir",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#dir"
+        ]
+      },
+      {
+        "id": "api.console.dirxml",
+        "name": "api.console.dirxml",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/dirxml",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#dirxml"
+        ]
+      },
+      {
+        "id": "api.console.error",
+        "name": "api.console.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/error",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#error"
+        ]
+      },
+      {
+        "id": "api.console.group",
+        "name": "api.console.group",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/group",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#group"
+        ]
+      },
+      {
+        "id": "api.console.groupCollapsed",
+        "name": "api.console.groupCollapsed",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/groupCollapsed",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#groupcollapsed"
+        ]
+      },
+      {
+        "id": "api.console.groupEnd",
+        "name": "api.console.groupEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/groupEnd",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#groupend"
+        ]
+      },
+      {
+        "id": "api.console.info",
+        "name": "api.console.info",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/info",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#info"
+        ]
+      },
+      {
+        "id": "api.console.log",
+        "name": "api.console.log",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/log",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#log"
+        ]
+      },
+      {
+        "id": "api.console.table",
+        "name": "api.console.table",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/table",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#table"
+        ]
+      },
+      {
+        "id": "api.console.time",
+        "name": "api.console.time",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/time",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#time"
+        ]
+      },
+      {
+        "id": "api.console.timeEnd",
+        "name": "api.console.timeEnd",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/timeEnd",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#timeend"
+        ]
+      },
+      {
+        "id": "api.console.timeLog",
+        "name": "api.console.timeLog",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/timeLog",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#timelog"
+        ]
+      },
+      {
+        "id": "api.console.trace",
+        "name": "api.console.trace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/trace",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#trace"
+        ]
+      },
+      {
+        "id": "api.console.warn",
+        "name": "api.console.warn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/console/warn",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#warn"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "console-basic",
+        "name": "Basic console logging functions",
+        "statusUrl": "https://caniuse.com/console-basic",
+        "specUrls": [
+          "https://console.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": "console-time",
+        "name": "console.time and console.timeEnd",
+        "statusUrl": "https://caniuse.com/console-time",
+        "specUrls": [
+          "https://console.spec.whatwg.org/#time"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5202677852012544,
+        "name": "Remove deprecated Console methods",
+        "statusUrl": "https://chromestatus.com/feature/5202677852012544",
+        "specUrls": [
+          "https://console.spec.whatwg.org/"
+        ]
+      }
+    ]
+  }
+}

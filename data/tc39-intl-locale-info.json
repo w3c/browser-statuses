@@ -1,0 +1,72 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "javascript.builtins.Intl.Locale.calendars",
+        "name": "javascript.builtins.Intl.Locale.calendars",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/calendars",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.calendars"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.collations",
+        "name": "javascript.builtins.Intl.Locale.collations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/collations",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.collations"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.hourCycles",
+        "name": "javascript.builtins.Intl.Locale.hourCycles",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/hourCycles",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.hourCycles"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.numberingSystems",
+        "name": "javascript.builtins.Intl.Locale.numberingSystems",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/numberingSystems",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.numberingSystems"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.textInfo",
+        "name": "javascript.builtins.Intl.Locale.textInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/textInfo",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.textInfo"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.timeZones",
+        "name": "javascript.builtins.Intl.Locale.timeZones",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/timeZones",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.timeZones"
+        ]
+      },
+      {
+        "id": "javascript.builtins.Intl.Locale.weekInfo",
+        "name": "javascript.builtins.Intl.Locale.weekInfo",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/weekInfo",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/#sec-Intl.Locale.prototype.weekInfo"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5566859262820352,
+        "name": "Intl Locale Info in ECMA402",
+        "statusUrl": "https://chromestatus.com/feature/5566859262820352",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-locale-info/"
+        ]
+      }
+    ]
+  }
+}

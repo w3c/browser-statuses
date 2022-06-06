@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.EXT_color_buffer_half_float",
+        "name": "api.EXT_color_buffer_half_float",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/EXT_color_buffer_half_float",
+        "specUrls": [
+          "https://www.khronos.org/registry/webgl/extensions/EXT_color_buffer_half_float/"
+        ]
+      }
+    ]
+  }
+}

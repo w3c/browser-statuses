@@ -1,0 +1,306 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.URL",
+        "name": "api.URL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#api"
+        ]
+      },
+      {
+        "id": "api.URL.URL",
+        "name": "api.URL.URL",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/URL",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#constructors"
+        ]
+      },
+      {
+        "id": "api.URL.hash",
+        "name": "api.URL.hash",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/hash",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-hash"
+        ]
+      },
+      {
+        "id": "api.URL.host",
+        "name": "api.URL.host",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/host",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-host"
+        ]
+      },
+      {
+        "id": "api.URL.hostname",
+        "name": "api.URL.hostname",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/hostname",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-hostname"
+        ]
+      },
+      {
+        "id": "api.URL.href",
+        "name": "api.URL.href",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/href",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-href"
+        ]
+      },
+      {
+        "id": "api.URL.origin",
+        "name": "api.URL.origin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/origin",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-origin"
+        ]
+      },
+      {
+        "id": "api.URL.password",
+        "name": "api.URL.password",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/password",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-password"
+        ]
+      },
+      {
+        "id": "api.URL.pathname",
+        "name": "api.URL.pathname",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/pathname",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-pathname"
+        ]
+      },
+      {
+        "id": "api.URL.port",
+        "name": "api.URL.port",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/port",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-port"
+        ]
+      },
+      {
+        "id": "api.URL.protocol",
+        "name": "api.URL.protocol",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/protocol",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-protocol"
+        ]
+      },
+      {
+        "id": "api.URL.search",
+        "name": "api.URL.search",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/search",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-search"
+        ]
+      },
+      {
+        "id": "api.URL.searchParams",
+        "name": "api.URL.searchParams",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/searchParams",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-searchparams"
+        ]
+      },
+      {
+        "id": "api.URL.toJSON",
+        "name": "api.URL.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/toJSON",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-tojson"
+        ]
+      },
+      {
+        "id": "api.URL.toString",
+        "name": "api.URL.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/toString",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#URL-stringification-behavior"
+        ]
+      },
+      {
+        "id": "api.URL.username",
+        "name": "api.URL.username",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URL/username",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-username"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams",
+        "name": "api.URLSearchParams",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#urlsearchparams"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.URLSearchParams",
+        "name": "api.URLSearchParams.URLSearchParams",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/URLSearchParams",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-urlsearchparams"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.append",
+        "name": "api.URLSearchParams.append",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/append",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-append"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.delete",
+        "name": "api.URLSearchParams.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/delete",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-delete"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.get",
+        "name": "api.URLSearchParams.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/get",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-get"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.getAll",
+        "name": "api.URLSearchParams.getAll",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/getAll",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-getall"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.has",
+        "name": "api.URLSearchParams.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/has",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-has"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.set",
+        "name": "api.URLSearchParams.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/set",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-set"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.sort",
+        "name": "api.URLSearchParams.sort",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/sort",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-sort"
+        ]
+      },
+      {
+        "id": "api.URLSearchParams.toString",
+        "name": "api.URLSearchParams.toString",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/URLSearchParams/toString",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#urlsearchparams-stringification-behavior"
+        ]
+      }
+    ],
+    "caniuse": [
+      {
+        "id": "url",
+        "name": "URL API",
+        "statusUrl": "https://caniuse.com/url",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#api"
+        ]
+      },
+      {
+        "id": "urlsearchparams",
+        "name": "URLSearchParams",
+        "statusUrl": "https://caniuse.com/urlsearchparams",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#urlsearchparams"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5370811722498048,
+        "name": "URL protocol setter: New restrictions for file URLs",
+        "statusUrl": "https://chromestatus.com/feature/5370811722498048",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#scheme-state"
+        ]
+      },
+      {
+        "id": 5632900720492544,
+        "name": "URLSearchParams: sort() method",
+        "statusUrl": "https://chromestatus.com/feature/5632900720492544",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-urlsearchparams-sort"
+        ]
+      },
+      {
+        "id": 5632984866619392,
+        "name": "URLSearchParams",
+        "statusUrl": "https://chromestatus.com/feature/5632984866619392",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#interface-urlsearchparams"
+        ]
+      },
+      {
+        "id": 5644164582604800,
+        "name": "URL.searchParams readonly attribute",
+        "statusUrl": "https://chromestatus.com/feature/5644164582604800",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#dom-url-searchparams"
+        ]
+      },
+      {
+        "id": 5651438652882944,
+        "name": "Percent-encode U+007F DELETE when parsing URLs",
+        "statusUrl": "https://chromestatus.com/feature/5651438652882944",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#concept-basic-url-parser"
+        ]
+      },
+      {
+        "id": 5656049583390720,
+        "name": "Treat '#' as ending data URI body content",
+        "statusUrl": "https://chromestatus.com/feature/5656049583390720",
+        "specUrls": [
+          "http://url.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5675829346435072,
+        "name": "URL",
+        "statusUrl": "https://chromestatus.com/feature/5675829346435072",
+        "specUrls": [
+          "https://url.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5724389597249536,
+        "name": "Disallow spaces and other bad characters in hostnames",
+        "statusUrl": "https://chromestatus.com/feature/5724389597249536",
+        "specUrls": [
+          "https://url.spec.whatwg.org/"
+        ]
+      },
+      {
+        "id": 5737549880360960,
+        "name": "URLSearchParams: updated constructor",
+        "statusUrl": "https://chromestatus.com/feature/5737549880360960",
+        "specUrls": [
+          "https://url.spec.whatwg.org/#interface-urlsearchparams"
+        ]
+      }
+    ]
+  }
+}

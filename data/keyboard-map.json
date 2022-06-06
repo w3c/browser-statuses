@@ -1,0 +1,49 @@
+{
+  "statusref": {
+    "bcd": [
+      {
+        "id": "api.Keyboard",
+        "name": "api.Keyboard",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Keyboard",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/#keyboard-interface",
+          "https://wicg.github.io/keyboard-lock/#keyboard-interface"
+        ]
+      },
+      {
+        "id": "api.Keyboard.getLayoutMap",
+        "name": "api.Keyboard.getLayoutMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Keyboard/getLayoutMap",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/#h-keyboard-getlayoutmap"
+        ]
+      },
+      {
+        "id": "api.KeyboardLayoutMap",
+        "name": "api.KeyboardLayoutMap",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyboardLayoutMap",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/#keyboardlayoutmap-interface"
+        ]
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5657965899022336,
+        "name": "Feature policy for Keyboard API",
+        "statusUrl": "https://chromestatus.com/feature/5657965899022336",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/#permissions-policy"
+        ]
+      },
+      {
+        "id": 6730004075380736,
+        "name": "Keyboard Map",
+        "statusUrl": "https://chromestatus.com/feature/6730004075380736",
+        "specUrls": [
+          "https://wicg.github.io/keyboard-map/"
+        ]
+      }
+    ]
+  }
+}
