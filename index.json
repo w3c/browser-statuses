@@ -3917,14 +3917,14 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true,
         "selected": true
@@ -20757,9 +20757,10 @@
       },
       {
         "ua": "chrome",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
-        "guess": true
+        "guess": true,
+        "flag": true
       },
       {
         "ua": "chrome_android",
@@ -20782,9 +20783,10 @@
       },
       {
         "ua": "chrome_android",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
-        "guess": true
+        "guess": true,
+        "flag": true
       },
       {
         "ua": "edge",
@@ -20807,9 +20809,10 @@
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "experimental",
         "source": "chrome",
-        "guess": true
+        "guess": true,
+        "flag": true
       },
       {
         "ua": "firefox",
@@ -40595,7 +40598,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true
       },
@@ -40615,7 +40618,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true
       },
@@ -43861,6 +43864,12 @@
         "source": "bcd",
         "guess": true,
         "selected": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "source": "caniuse",
+        "guess": true
       },
       {
         "ua": "samsunginternet_android",
@@ -49423,7 +49432,19 @@
         "ua": "safari_ios",
         "status": "notsupported",
         "source": "bcd",
-        "guess": true,
+        "guess": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "source": "caniuse",
+        "details": [
+          {
+            "status": "experimental",
+            "href": "https://caniuse.com/#feat=push-api",
+            "representative": true
+          }
+        ],
         "selected": true
       },
       {
@@ -53516,7 +53537,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true
       },
@@ -53529,7 +53550,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true
       },
@@ -53542,7 +53563,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "guess": true
       },
