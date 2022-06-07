@@ -41900,6 +41900,20 @@
     "shortname": "mediacapture-region",
     "support": [
       {
+        "ua": "chrome",
+        "status": "experimental",
+        "source": "chrome",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "experimental",
+        "source": "chrome",
+        "guess": true,
+        "selected": true
+      },
+      {
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
