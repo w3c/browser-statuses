@@ -27684,10 +27684,9 @@
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
-        "guess": true,
-        "selected": true
+        "guess": true
       },
       {
         "ua": "safari",
@@ -27699,7 +27698,8 @@
             "href": "https://caniuse.com/#feat=fetch",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "safari",
@@ -27715,10 +27715,9 @@
       },
       {
         "ua": "safari_ios",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
-        "guess": true,
-        "selected": true
+        "guess": true
       },
       {
         "ua": "safari_ios",
@@ -27730,7 +27729,8 @@
             "href": "https://caniuse.com/#feat=fetch",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "samsunginternet_android",
@@ -27983,7 +27983,7 @@
           },
           {
             "ua": "safari",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "selected": true
@@ -28016,7 +28016,7 @@
           },
           {
             "ua": "safari_ios",
-            "status": "shipped",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
             "selected": true
