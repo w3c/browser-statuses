@@ -2,6 +2,278 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.CSS.Hz",
+        "name": "api.CSS.Hz",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/Hz",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-hz"
+        ]
+      },
+      {
+        "id": "api.CSS.Q",
+        "name": "api.CSS.Q",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/Q",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-q"
+        ]
+      },
+      {
+        "id": "api.CSS.ch",
+        "name": "api.CSS.ch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/ch",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-ch"
+        ]
+      },
+      {
+        "id": "api.CSS.cm",
+        "name": "api.CSS.cm",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/cm",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-cm"
+        ]
+      },
+      {
+        "id": "api.CSS.deg",
+        "name": "api.CSS.deg",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/deg",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-deg"
+        ]
+      },
+      {
+        "id": "api.CSS.dpcm",
+        "name": "api.CSS.dpcm",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/dpcm",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-dpcm"
+        ]
+      },
+      {
+        "id": "api.CSS.dpi",
+        "name": "api.CSS.dpi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/dpi",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-dpi"
+        ]
+      },
+      {
+        "id": "api.CSS.dppx",
+        "name": "api.CSS.dppx",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/dppx",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-dppx"
+        ]
+      },
+      {
+        "id": "api.CSS.em",
+        "name": "api.CSS.em",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/em",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-em"
+        ]
+      },
+      {
+        "id": "api.CSS.ex",
+        "name": "api.CSS.ex",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/ex",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-ex"
+        ]
+      },
+      {
+        "id": "api.CSS.fr",
+        "name": "api.CSS.fr",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/fr",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-fr"
+        ]
+      },
+      {
+        "id": "api.CSS.grad",
+        "name": "api.CSS.grad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/grad",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-grad"
+        ]
+      },
+      {
+        "id": "api.CSS.ic",
+        "name": "api.CSS.ic",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/ic",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-ic"
+        ]
+      },
+      {
+        "id": "api.CSS.in",
+        "name": "api.CSS.in",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/in",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-in"
+        ]
+      },
+      {
+        "id": "api.CSS.kHz",
+        "name": "api.CSS.kHz",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/kHz",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-khz"
+        ]
+      },
+      {
+        "id": "api.CSS.lh",
+        "name": "api.CSS.lh",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/lh",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-lh"
+        ]
+      },
+      {
+        "id": "api.CSS.mm",
+        "name": "api.CSS.mm",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/mm",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-mm"
+        ]
+      },
+      {
+        "id": "api.CSS.ms",
+        "name": "api.CSS.ms",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/ms",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-ms"
+        ]
+      },
+      {
+        "id": "api.CSS.number",
+        "name": "api.CSS.number",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/number",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-number"
+        ]
+      },
+      {
+        "id": "api.CSS.pc",
+        "name": "api.CSS.pc",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/pc",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-pc"
+        ]
+      },
+      {
+        "id": "api.CSS.percent",
+        "name": "api.CSS.percent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/percent",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-percent"
+        ]
+      },
+      {
+        "id": "api.CSS.pt",
+        "name": "api.CSS.pt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/pt",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-pt"
+        ]
+      },
+      {
+        "id": "api.CSS.px",
+        "name": "api.CSS.px",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/px",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-px"
+        ]
+      },
+      {
+        "id": "api.CSS.rad",
+        "name": "api.CSS.rad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/rad",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-rad"
+        ]
+      },
+      {
+        "id": "api.CSS.rem",
+        "name": "api.CSS.rem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/rem",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-rem"
+        ]
+      },
+      {
+        "id": "api.CSS.rlh",
+        "name": "api.CSS.rlh",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/rlh",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-rlh"
+        ]
+      },
+      {
+        "id": "api.CSS.s",
+        "name": "api.CSS.s",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/s",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-s"
+        ]
+      },
+      {
+        "id": "api.CSS.turn",
+        "name": "api.CSS.turn",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/turn",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-turn"
+        ]
+      },
+      {
+        "id": "api.CSS.vb",
+        "name": "api.CSS.vb",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vb",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vb"
+        ]
+      },
+      {
+        "id": "api.CSS.vh",
+        "name": "api.CSS.vh",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vh",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vh"
+        ]
+      },
+      {
+        "id": "api.CSS.vi",
+        "name": "api.CSS.vi",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vi",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vi"
+        ]
+      },
+      {
+        "id": "api.CSS.vmax",
+        "name": "api.CSS.vmax",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vmax",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vmax"
+        ]
+      },
+      {
+        "id": "api.CSS.vmin",
+        "name": "api.CSS.vmin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vmin",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vmin"
+        ]
+      },
+      {
+        "id": "api.CSS.vw",
+        "name": "api.CSS.vw",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSS/vw",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-typed-om/#dom-css-vw"
+        ]
+      },
+      {
         "id": "api.CSSImageValue",
         "name": "api.CSSImageValue",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/CSSImageValue",
