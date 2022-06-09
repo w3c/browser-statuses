@@ -49416,13 +49416,19 @@
         "ua": "safari",
         "status": "experimental",
         "source": "caniuse",
-        "flag": true,
         "details": [
           {
             "status": "experimental",
-            "flag": true,
             "notes": [
-              "Partial implementation can be enabled via \"Push API\" in the Experimental Features menu"
+              "Only available in Safari 16 on macOS 13 Ventura or later"
+            ],
+            "href": "https://caniuse.com/#feat=push-api",
+            "representative": true
+          },
+          {
+            "status": "experimental",
+            "notes": [
+              "Only available in Safari 16 on macOS 13 Ventura or later"
             ],
             "href": "https://caniuse.com/#feat=push-api",
             "representative": true
@@ -49446,19 +49452,7 @@
         "ua": "safari_ios",
         "status": "notsupported",
         "source": "bcd",
-        "guess": true
-      },
-      {
-        "ua": "safari_ios",
-        "status": "experimental",
-        "source": "caniuse",
-        "details": [
-          {
-            "status": "experimental",
-            "href": "https://caniuse.com/#feat=push-api",
-            "representative": true
-          }
-        ],
+        "guess": true,
         "selected": true
       },
       {
@@ -64636,7 +64630,19 @@
         "ua": "firefox_android",
         "status": "notsupported",
         "source": "bcd",
-        "guess": true,
+        "guess": true
+      },
+      {
+        "ua": "firefox_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "details": [
+          {
+            "status": "shipped",
+            "href": "https://caniuse.com/#feat=webauthn",
+            "representative": true
+          }
+        ],
         "selected": true
       },
       {
