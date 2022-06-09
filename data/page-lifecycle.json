@@ -1,5 +1,14 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.wasDiscarded",
+        "name": "api.Document.wasDiscarded",
+        "specUrls": [
+          "https://wicg.github.io/page-lifecycle/#dom-document-wasdiscarded"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5193677469122560,
