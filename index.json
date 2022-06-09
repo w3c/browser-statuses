@@ -21223,7 +21223,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
@@ -21236,7 +21236,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
@@ -21249,7 +21249,7 @@
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
@@ -21282,7 +21282,7 @@
       },
       {
         "ua": "opera",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
@@ -21309,7 +21309,7 @@
       },
       {
         "ua": "samsunginternet_android",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
