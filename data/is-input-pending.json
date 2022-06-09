@@ -1,8 +1,29 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.scheduling",
+        "name": "api.Navigator.scheduling",
+        "specUrls": [
+          "https://wicg.github.io/is-input-pending/#dom-navigator-scheduling"
+        ]
+      },
+      {
+        "id": "api.Scheduling.isInputPending",
+        "name": "api.Scheduling.isInputPending",
+        "specUrls": [
+          "https://wicg.github.io/is-input-pending/#dom-scheduling-isinputpending"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5719830432841728,
+        "name": "Is-Input-Pending",
+        "statusUrl": "https://chromestatus.com/feature/5719830432841728",
+        "specUrls": [
+          "https://wicg.github.io/is-input-pending/"
+        ],
         "representative": true
       }
     ]
