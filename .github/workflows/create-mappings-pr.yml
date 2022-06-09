@@ -1,0 +1,21 @@
+on:
+  schedule:
+    # At 05:00 on Thursday
+    - cron: '0 5 * * 4'
+  workflow_dispatch:
+
+name: Propose new mappings if any
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-node@v2
+      with:
+        node-version: 16.x
+    - name: Setup environment
+      run: npm ci
+    - name: Find mappings and create pull requests accordingly
+      run: node src/create-mappings-pr.js
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
