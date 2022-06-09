@@ -25455,10 +25455,9 @@
       },
       {
         "ua": "firefox_android",
-        "status": "experimental",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
-        "flag": true,
         "selected": true
       },
       {
@@ -25615,10 +25614,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -25799,10 +25797,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -25989,10 +25986,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -26155,10 +26151,9 @@
           },
           {
             "ua": "firefox_android",
-            "status": "experimental",
+            "status": "notsupported",
             "source": "bcd",
             "guess": true,
-            "flag": true,
             "selected": true
           },
           {
@@ -44079,7 +44074,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "guess": true,
         "selected": true
@@ -44788,10 +44783,9 @@
       },
       {
         "ua": "chrome_android",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
-        "guess": true,
-        "selected": true
+        "guess": true
       },
       {
         "ua": "chrome_android",
@@ -44806,7 +44800,8 @@
             "href": "https://caniuse.com/#feat=notifications",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "chrome_android",
@@ -44954,7 +44949,7 @@
       },
       {
         "ua": "samsunginternet_android",
-        "status": "shipped",
+        "status": "notsupported",
         "source": "bcd",
         "guess": true,
         "selected": true
