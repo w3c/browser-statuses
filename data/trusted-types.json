@@ -2,6 +2,14 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.Document.execCommand",
+        "name": "api.Document.execCommand",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/execCommand",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-trusted-types/dist/spec/#dom-document-execcommand"
+        ]
+      },
+      {
         "id": "api.TrustedHTML",
         "name": "api.TrustedHTML",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/TrustedHTML",
