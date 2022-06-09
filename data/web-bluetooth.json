@@ -123,6 +123,14 @@
         ]
       },
       {
+        "id": "api.BluetoothCharacteristicProperties.writeWithoutResponse",
+        "name": "api.BluetoothCharacteristicProperties.writeWithoutResponse",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BluetoothCharacteristicProperties/writeWithoutResponse",
+        "specUrls": [
+          "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothcharacteristicproperties-writewithoutresponse"
+        ]
+      },
+      {
         "id": "api.BluetoothDevice",
         "name": "api.BluetoothDevice",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/BluetoothDevice",
@@ -464,6 +472,13 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/BluetoothUUID/getService",
         "specUrls": [
           "https://webbluetoothcg.github.io/web-bluetooth/#dom-bluetoothuuid-getservice"
+        ]
+      },
+      {
+        "id": "api.Navigator.bluetooth",
+        "name": "api.Navigator.bluetooth",
+        "specUrls": [
+          "https://webbluetoothcg.github.io/web-bluetooth/#dom-navigator-bluetooth"
         ]
       }
     ],
