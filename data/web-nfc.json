@@ -82,6 +82,22 @@
         ]
       },
       {
+        "id": "api.NDEFReadingEvent.message",
+        "name": "api.NDEFReadingEvent.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReadingEvent/message",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-message"
+        ]
+      },
+      {
+        "id": "api.NDEFReadingEvent.serialNumber",
+        "name": "api.NDEFReadingEvent.serialNumber",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFReadingEvent/serialNumber",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefreadingevent-serialnumber"
+        ]
+      },
+      {
         "id": "api.NDEFRecord",
         "name": "api.NDEFRecord",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFRecord",
