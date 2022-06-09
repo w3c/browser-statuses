@@ -393,6 +393,14 @@
         ]
       },
       {
+        "id": "api.KeyframeEffect.pseudoElement",
+        "name": "api.KeyframeEffect.pseudoElement",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/pseudoElement",
+        "specUrls": [
+          "https://drafts.csswg.org/web-animations-1/#dom-keyframeeffect-pseudoelement"
+        ]
+      },
+      {
         "id": "api.KeyframeEffect.setKeyframes",
         "name": "api.KeyframeEffect.setKeyframes",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/KeyframeEffect/setKeyframes",
