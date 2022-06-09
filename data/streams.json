@@ -18,6 +18,13 @@
         ]
       },
       {
+        "id": "api.ByteLengthQueuingStrategy.highWaterMark",
+        "name": "api.ByteLengthQueuingStrategy.highWaterMark",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-blqs-high-water-mark①"
+        ]
+      },
+      {
         "id": "api.ByteLengthQueuingStrategy.size",
         "name": "api.ByteLengthQueuingStrategy.size",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ByteLengthQueuingStrategy/size",
@@ -55,6 +62,13 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/CountQueuingStrategy/CountQueuingStrategy",
         "specUrls": [
           "https://streams.spec.whatwg.org/#ref-for-cqs-constructor①"
+        ]
+      },
+      {
+        "id": "api.CountQueuingStrategy.highWaterMark",
+        "name": "api.CountQueuingStrategy.highWaterMark",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-cqs-high-water-mark①"
         ]
       },
       {
@@ -191,6 +205,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ReadableStream/tee",
         "specUrls": [
           "https://streams.spec.whatwg.org/#ref-for-rs-tee②"
+        ]
+      },
+      {
+        "id": "api.ReadableStream.transferable",
+        "name": "api.ReadableStream.transferable",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Transferable_objects",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#rs-transfer"
         ]
       },
       {
@@ -418,6 +440,14 @@
         ]
       },
       {
+        "id": "api.TransformStream.transferable",
+        "name": "api.TransformStream.transferable",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Transferable_objects",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-transfer"
+        ]
+      },
+      {
         "id": "api.TransformStream.writable",
         "name": "api.TransformStream.writable",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/TransformStream/writable",
@@ -490,6 +520,13 @@
         ]
       },
       {
+        "id": "api.WritableStream.close",
+        "name": "api.WritableStream.close",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ref-for-ws-close①"
+        ]
+      },
+      {
         "id": "api.WritableStream.getWriter",
         "name": "api.WritableStream.getWriter",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/getWriter",
@@ -503,6 +540,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/WritableStream/locked",
         "specUrls": [
           "https://streams.spec.whatwg.org/#ref-for-ws-locked②"
+        ]
+      },
+      {
+        "id": "api.WritableStream.transferable",
+        "name": "api.WritableStream.transferable",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Transferable_objects",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ws-transfer"
         ]
       },
       {
