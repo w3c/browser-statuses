@@ -1559,6 +1559,14 @@
         ]
       },
       {
+        "id": "api.Document.alinkColor",
+        "name": "api.Document.alinkColor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/alinkColor",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-alinkcolor"
+        ]
+      },
+      {
         "id": "api.Document.all",
         "name": "api.Document.all",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/all",
@@ -1583,11 +1591,27 @@
         ]
       },
       {
+        "id": "api.Document.bgColor",
+        "name": "api.Document.bgColor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/bgColor",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-bgcolor"
+        ]
+      },
+      {
         "id": "api.Document.body",
         "name": "api.Document.body",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/body",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/dom.html#dom-document-body-dev"
+        ]
+      },
+      {
+        "id": "api.Document.captureEvents",
+        "name": "api.Document.captureEvents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/captureEvents",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-captureevents"
         ]
       },
       {
@@ -1719,6 +1743,14 @@
         ]
       },
       {
+        "id": "api.Document.fgColor",
+        "name": "api.Document.fgColor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/fgColor",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-fgcolor"
+        ]
+      },
+      {
         "id": "api.Document.forms",
         "name": "api.Document.forms",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/forms",
@@ -1772,6 +1804,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/lastModified",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/dom.html#dom-document-lastmodified-dev"
+        ]
+      },
+      {
+        "id": "api.Document.linkColor",
+        "name": "api.Document.linkColor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/linkColor",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-linkcolor"
         ]
       },
       {
@@ -1831,6 +1871,14 @@
         ]
       },
       {
+        "id": "api.Document.releaseEvents",
+        "name": "api.Document.releaseEvents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/releaseEvents",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-releaseevents"
+        ]
+      },
+      {
         "id": "api.Document.scripts",
         "name": "api.Document.scripts",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scripts",
@@ -1860,6 +1908,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/visibilitychange_event",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onvisibilitychange"
+        ]
+      },
+      {
+        "id": "api.Document.vlinkColor",
+        "name": "api.Document.vlinkColor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/vlinkColor",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-document-vlinkcolor"
         ]
       },
       {
@@ -2007,6 +2063,46 @@
         ]
       },
       {
+        "id": "api.ErrorEvent.colno",
+        "name": "api.ErrorEvent.colno",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/colno",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-colno"
+        ]
+      },
+      {
+        "id": "api.ErrorEvent.error",
+        "name": "api.ErrorEvent.error",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/error",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-error"
+        ]
+      },
+      {
+        "id": "api.ErrorEvent.filename",
+        "name": "api.ErrorEvent.filename",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/filename",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-filename"
+        ]
+      },
+      {
+        "id": "api.ErrorEvent.lineno",
+        "name": "api.ErrorEvent.lineno",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/lineno",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-lineno"
+        ]
+      },
+      {
+        "id": "api.ErrorEvent.message",
+        "name": "api.ErrorEvent.message",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ErrorEvent/message",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#dom-errorevent-message"
+        ]
+      },
+      {
         "id": "api.EventSource",
         "name": "api.EventSource",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/EventSource",
@@ -2082,6 +2178,22 @@
         ]
       },
       {
+        "id": "api.External.AddSearchProvider",
+        "name": "api.External.AddSearchProvider",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/External/AddSearchProvider",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-external-addsearchprovider"
+        ]
+      },
+      {
+        "id": "api.External.IsSearchProviderInstalled",
+        "name": "api.External.IsSearchProviderInstalled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/External/IsSearchProviderInstalled",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-external-issearchproviderinstalled"
+        ]
+      },
+      {
         "id": "api.FileList",
         "name": "api.FileList",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileList",
@@ -2120,14 +2232,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#globaleventhandlers"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onabort",
-        "name": "api.GlobalEventHandlers.onabort",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onabort",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onabort"
         ]
       },
       {
@@ -8610,11 +8714,67 @@
         ]
       },
       {
+        "id": "api.MimeType.description",
+        "name": "api.MimeType.description",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeType/description",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetype-description"
+        ]
+      },
+      {
+        "id": "api.MimeType.enabledPlugin",
+        "name": "api.MimeType.enabledPlugin",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeType/enabledPlugin",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetype-enabledplugin"
+        ]
+      },
+      {
+        "id": "api.MimeType.suffixes",
+        "name": "api.MimeType.suffixes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeType/suffixes",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetype-suffixes"
+        ]
+      },
+      {
+        "id": "api.MimeType.type",
+        "name": "api.MimeType.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeType/type",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetype-type"
+        ]
+      },
+      {
         "id": "api.MimeTypeArray",
         "name": "api.MimeTypeArray",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeTypeArray",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/obsolete.html#mimetypearray"
+        ]
+      },
+      {
+        "id": "api.MimeTypeArray.item",
+        "name": "api.MimeTypeArray.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeTypeArray/item",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetypearray-item"
+        ]
+      },
+      {
+        "id": "api.MimeTypeArray.length",
+        "name": "api.MimeTypeArray.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeTypeArray/length",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetypearray-length"
+        ]
+      },
+      {
+        "id": "api.MimeTypeArray.namedItem",
+        "name": "api.MimeTypeArray.namedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MimeTypeArray/namedItem",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-mimetypearray-nameditem"
         ]
       },
       {
@@ -9395,11 +9555,90 @@
         ]
       },
       {
+        "id": "api.Plugin.description",
+        "name": "api.Plugin.description",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Plugin/description",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-description"
+        ]
+      },
+      {
+        "id": "api.Plugin.filename",
+        "name": "api.Plugin.filename",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Plugin/filename",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-filename"
+        ]
+      },
+      {
+        "id": "api.Plugin.item",
+        "name": "api.Plugin.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Plugin/item",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-item"
+        ]
+      },
+      {
+        "id": "api.Plugin.length",
+        "name": "api.Plugin.length",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-length"
+        ]
+      },
+      {
+        "id": "api.Plugin.name",
+        "name": "api.Plugin.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Plugin/name",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-name"
+        ]
+      },
+      {
+        "id": "api.Plugin.namedItem",
+        "name": "api.Plugin.namedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Plugin/namedItem",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-plugin-nameditem"
+        ]
+      },
+      {
         "id": "api.PluginArray",
         "name": "api.PluginArray",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PluginArray",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/obsolete.html#pluginarray"
+        ]
+      },
+      {
+        "id": "api.PluginArray.item",
+        "name": "api.PluginArray.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PluginArray/item",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-pluginarray-item"
+        ]
+      },
+      {
+        "id": "api.PluginArray.length",
+        "name": "api.PluginArray.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PluginArray/length",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-pluginarray-length"
+        ]
+      },
+      {
+        "id": "api.PluginArray.namedItem",
+        "name": "api.PluginArray.namedItem",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PluginArray/namedItem",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-pluginarray-nameditem"
+        ]
+      },
+      {
+        "id": "api.PluginArray.refresh",
+        "name": "api.PluginArray.refresh",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PluginArray/refresh",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/system-state.html#dom-pluginarray-refresh"
         ]
       },
       {
@@ -9415,6 +9654,14 @@
         "name": "api.PopStateEvent.PopStateEvent",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/browsing-the-web.html#the-popstateevent-interface"
+        ]
+      },
+      {
+        "id": "api.PopStateEvent.state",
+        "name": "api.PopStateEvent.state",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PopStateEvent/state",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/browsing-the-web.html#dom-popstateevent-state-dev"
         ]
       },
       {
@@ -9685,6 +9932,46 @@
         ]
       },
       {
+        "id": "api.StorageEvent.key",
+        "name": "api.StorageEvent.key",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageEvent/key",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webstorage.html#dom-storageevent-key-dev"
+        ]
+      },
+      {
+        "id": "api.StorageEvent.newValue",
+        "name": "api.StorageEvent.newValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageEvent/newValue",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webstorage.html#dom-storageevent-newvalue-dev"
+        ]
+      },
+      {
+        "id": "api.StorageEvent.oldValue",
+        "name": "api.StorageEvent.oldValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageEvent/oldValue",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webstorage.html#dom-storageevent-oldvalue-dev"
+        ]
+      },
+      {
+        "id": "api.StorageEvent.storageArea",
+        "name": "api.StorageEvent.storageArea",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageEvent/storageArea",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webstorage.html#dom-storageevent-storagearea-dev"
+        ]
+      },
+      {
+        "id": "api.StorageEvent.url",
+        "name": "api.StorageEvent.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/StorageEvent/url",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webstorage.html#dom-storageevent-url-dev"
+        ]
+      },
+      {
         "id": "api.SubmitEvent",
         "name": "api.SubmitEvent",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/SubmitEvent",
@@ -9821,6 +10108,22 @@
         ]
       },
       {
+        "id": "api.TextTrack.activeCues",
+        "name": "api.TextTrack.activeCues",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/activeCues",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-activecues-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.addCue",
+        "name": "api.TextTrack.addCue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/addCue",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-addcue-dev"
+        ]
+      },
+      {
         "id": "api.TextTrack.cuechange_event",
         "name": "api.TextTrack.cuechange_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/cuechange_event",
@@ -9830,11 +10133,67 @@
         ]
       },
       {
+        "id": "api.TextTrack.cues",
+        "name": "api.TextTrack.cues",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/cues",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-cues-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.id",
+        "name": "api.TextTrack.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/id",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-id-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.inBandMetadataTrackDispatchType",
+        "name": "api.TextTrack.inBandMetadataTrackDispatchType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/inBandMetadataTrackDispatchType",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-inbandmetadatatrackdispatchtype-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.kind",
+        "name": "api.TextTrack.kind",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/kind",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-kind-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.label",
+        "name": "api.TextTrack.label",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/label",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-label-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.language",
+        "name": "api.TextTrack.language",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/language",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-language-dev"
+        ]
+      },
+      {
         "id": "api.TextTrack.mode",
         "name": "api.TextTrack.mode",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/mode",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-mode-dev"
+        ]
+      },
+      {
+        "id": "api.TextTrack.removeCue",
+        "name": "api.TextTrack.removeCue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/removeCue",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/media.html#dom-texttrack-removecue-dev"
         ]
       },
       {
@@ -10050,6 +10409,13 @@
         ]
       },
       {
+        "id": "api.ValidityState.customError",
+        "name": "api.ValidityState.customError",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-validitystate-customerror-dev"
+        ]
+      },
+      {
         "id": "api.ValidityState.patternMismatch",
         "name": "api.ValidityState.patternMismatch",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ValidityState/patternMismatch",
@@ -10103,6 +10469,20 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ValidityState/typeMismatch",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-validitystate-typemismatch"
+        ]
+      },
+      {
+        "id": "api.ValidityState.valid",
+        "name": "api.ValidityState.valid",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-validitystate-valid-dev"
+        ]
+      },
+      {
+        "id": "api.ValidityState.valueMissing",
+        "name": "api.ValidityState.valueMissing",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#dom-validitystate-valuemissing-dev"
         ]
       },
       {
@@ -10285,6 +10665,13 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/cancelAnimationFrame",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animationframeprovider-cancelanimationframe"
+        ]
+      },
+      {
+        "id": "api.Window.captureEvents",
+        "name": "api.Window.captureEvents",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-window-captureevents"
         ]
       },
       {
@@ -10582,6 +10969,14 @@
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#unhandled-promise-rejections",
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-window-onrejectionhandled"
+        ]
+      },
+      {
+        "id": "api.Window.releaseEvents",
+        "name": "api.Window.releaseEvents",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/releaseEvents",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/obsolete.html#dom-window-releaseevents"
         ]
       },
       {
@@ -11944,6 +12339,190 @@
         ]
       },
       {
+        "id": "html.elements.input.attributes.accept",
+        "name": "html.elements.input.attributes.accept",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/accept",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-accept"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.alt",
+        "name": "html.elements.input.attributes.alt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#alt",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-alt"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.checked",
+        "name": "html.elements.input.attributes.checked",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#checked",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-checked"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.dirname",
+        "name": "html.elements.input.attributes.dirname",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#dirname",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-dirname"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.disabled",
+        "name": "html.elements.input.attributes.disabled",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/disabled",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.form",
+        "name": "html.elements.input.attributes.form",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#form",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fae-form"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.formaction",
+        "name": "html.elements.input.attributes.formaction",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#formaction",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formaction"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.formenctype",
+        "name": "html.elements.input.attributes.formenctype",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#formenctype",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formenctype"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.formmethod",
+        "name": "html.elements.input.attributes.formmethod",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#formmethod",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formmethod"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.formnovalidate",
+        "name": "html.elements.input.attributes.formnovalidate",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#formnovalidate",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formnovalidate"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.formtarget",
+        "name": "html.elements.input.attributes.formtarget",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#formtarget",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fs-formtarget"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.list",
+        "name": "html.elements.input.attributes.list",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#list",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-list"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.max",
+        "name": "html.elements.input.attributes.max",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/max",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-min-and-max-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.maxlength",
+        "name": "html.elements.input.attributes.maxlength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/maxlength",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-maxlength-and-minlength-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.min",
+        "name": "html.elements.input.attributes.min",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/min",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-min-and-max-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.minlength",
+        "name": "html.elements.input.attributes.minlength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/minlength",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-maxlength-and-minlength-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.multiple",
+        "name": "html.elements.input.attributes.multiple",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/multiple",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-multiple"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.name",
+        "name": "html.elements.input.attributes.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#name",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-name"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.pattern",
+        "name": "html.elements.input.attributes.pattern",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/pattern",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-pattern"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.placeholder",
+        "name": "html.elements.input.attributes.placeholder",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#placeholder",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-placeholder"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.readonly",
+        "name": "html.elements.input.attributes.readonly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/readonly",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-readonly-attribute"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.src",
+        "name": "html.elements.input.attributes.src",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input#src",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-src"
+        ]
+      },
+      {
+        "id": "html.elements.input.attributes.step",
+        "name": "html.elements.input.attributes.step",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/step",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#attr-input-step"
+        ]
+      },
+      {
         "id": "html.elements.input.type_button",
         "name": "html.elements.input.type_button",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/input/button",
@@ -12335,6 +12914,22 @@
         ]
       },
       {
+        "id": "html.elements.meter.max",
+        "name": "html.elements.meter.max",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/max",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-max"
+        ]
+      },
+      {
+        "id": "html.elements.meter.min",
+        "name": "html.elements.meter.min",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/min",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-elements.html#attr-meter-max"
+        ]
+      },
+      {
         "id": "html.elements.nav",
         "name": "html.elements.nav",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/nav",
@@ -12484,6 +13079,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/progress",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/form-elements.html#the-progress-element"
+        ]
+      },
+      {
+        "id": "html.elements.progress.max",
+        "name": "html.elements.progress.max",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/max",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/form-elements.html#attr-progress-max"
         ]
       },
       {
@@ -12725,6 +13328,30 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/disabled",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#attr-fe-disabled"
+        ]
+      },
+      {
+        "id": "html.elements.textarea.maxlength",
+        "name": "html.elements.textarea.maxlength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/maxlength",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-maxlength-and-minlength-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.textarea.minlength",
+        "name": "html.elements.textarea.minlength",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/minlength",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-maxlength-and-minlength-attributes"
+        ]
+      },
+      {
+        "id": "html.elements.textarea.readonly",
+        "name": "html.elements.textarea.readonly",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/readonly",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/input.html#the-readonly-attribute"
         ]
       },
       {
