@@ -664,6 +664,14 @@
         ]
       },
       {
+        "id": "api.Document.createEntityReference",
+        "name": "api.Document.createEntityReference",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createEntityReference",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-createentityreference"
+        ]
+      },
+      {
         "id": "api.Document.createEvent",
         "name": "api.Document.createEvent",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/createEvent",
@@ -824,6 +832,14 @@
         ]
       },
       {
+        "id": "api.Document.normalizeDocument",
+        "name": "api.Document.normalizeDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/normalizeDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-normalizedocument"
+        ]
+      },
+      {
         "id": "api.Document.prepend",
         "name": "api.Document.prepend",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/prepend",
@@ -853,6 +869,30 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/replaceChildren",
         "specUrls": [
           "https://dom.spec.whatwg.org/#ref-for-dom-parentnode-replacechildren①"
+        ]
+      },
+      {
+        "id": "api.Document.xmlEncoding",
+        "name": "api.Document.xmlEncoding",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/xmlEncoding",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-xmlencoding"
+        ]
+      },
+      {
+        "id": "api.Document.xmlStandalone",
+        "name": "api.Document.xmlStandalone",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/xmlStandalone",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-xmlstandalone"
+        ]
+      },
+      {
+        "id": "api.Document.xmlVersion",
+        "name": "api.Document.xmlVersion",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/xmlVersion",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-document-xmlversion"
         ]
       },
       {
@@ -975,6 +1015,46 @@
         ]
       },
       {
+        "id": "api.DocumentType.entities",
+        "name": "api.DocumentType.entities",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/entities",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-entities"
+        ]
+      },
+      {
+        "id": "api.DocumentType.internalSubset",
+        "name": "api.DocumentType.internalSubset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/internalSubset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-internalsubset"
+        ]
+      },
+      {
+        "id": "api.DocumentType.name",
+        "name": "api.DocumentType.name",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/name",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-name"
+        ]
+      },
+      {
+        "id": "api.DocumentType.notations",
+        "name": "api.DocumentType.notations",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/notations",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-notations"
+        ]
+      },
+      {
+        "id": "api.DocumentType.publicId",
+        "name": "api.DocumentType.publicId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/publicId",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-publicid"
+        ]
+      },
+      {
         "id": "api.DocumentType.remove",
         "name": "api.DocumentType.remove",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/remove",
@@ -988,6 +1068,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/replaceWith",
         "specUrls": [
           "https://dom.spec.whatwg.org/#ref-for-dom-childnode-replacewith①"
+        ]
+      },
+      {
+        "id": "api.DocumentType.systemId",
+        "name": "api.DocumentType.systemId",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DocumentType/systemId",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-documenttype-systemid"
         ]
       },
       {
@@ -1719,6 +1807,78 @@
         ]
       },
       {
+        "id": "api.MutationRecord.addedNodes",
+        "name": "api.MutationRecord.addedNodes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/addedNodes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-addednodes②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.attributeName",
+        "name": "api.MutationRecord.attributeName",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/attributeName",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-attributename②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.attributeNamespace",
+        "name": "api.MutationRecord.attributeNamespace",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/attributeNamespace",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-attributenamespace②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.nextSibling",
+        "name": "api.MutationRecord.nextSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/nextSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-nextsibling②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.oldValue",
+        "name": "api.MutationRecord.oldValue",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/oldValue",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-oldvalue②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.previousSibling",
+        "name": "api.MutationRecord.previousSibling",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/previousSibling",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-previoussibling②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.removedNodes",
+        "name": "api.MutationRecord.removedNodes",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/removedNodes",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-removednodes②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.target",
+        "name": "api.MutationRecord.target",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/target",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-target②"
+        ]
+      },
+      {
+        "id": "api.MutationRecord.type",
+        "name": "api.MutationRecord.type",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MutationRecord/type",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#ref-for-dom-mutationrecord-type②"
+        ]
+      },
+      {
         "id": "api.NamedNodeMap",
         "name": "api.NamedNodeMap",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/NamedNodeMap",
@@ -1908,6 +2068,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isSameNode",
         "specUrls": [
           "https://dom.spec.whatwg.org/#dom-node-issamenode"
+        ]
+      },
+      {
+        "id": "api.Node.isSupported",
+        "name": "api.Node.isSupported",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/isSupported",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-node-issupported"
         ]
       },
       {
@@ -2763,6 +2931,70 @@
         "name": "api.XSLTProcessor.XSLTProcessor",
         "specUrls": [
           "https://dom.spec.whatwg.org/#dom-xsltprocessor-xsltprocessor"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.clearParameters",
+        "name": "api.XSLTProcessor.clearParameters",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/clearParameters",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-clearparameters"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.getParameter",
+        "name": "api.XSLTProcessor.getParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/getParameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-getparameter"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.importStylesheet",
+        "name": "api.XSLTProcessor.importStylesheet",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/importStylesheet",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-importstylesheet"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.removeParameter",
+        "name": "api.XSLTProcessor.removeParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/removeParameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-removeparameter"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.reset",
+        "name": "api.XSLTProcessor.reset",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/reset",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-reset"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.setParameter",
+        "name": "api.XSLTProcessor.setParameter",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/setParameter",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-setparameter"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.transformToDocument",
+        "name": "api.XSLTProcessor.transformToDocument",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/transformToDocument",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-transformtodocument"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor.transformToFragment",
+        "name": "api.XSLTProcessor.transformToFragment",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor/transformToFragment",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xsltprocessor-transformtofragment"
         ]
       },
       {
