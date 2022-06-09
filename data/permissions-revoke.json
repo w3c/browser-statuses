@@ -1,5 +1,15 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Permissions.revoke",
+        "name": "api.Permissions.revoke",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Permissions/revoke",
+        "specUrls": [
+          "https://wicg.github.io/permissions-revoke/#dom-permissions-revoke"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5707368532803584,
