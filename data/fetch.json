@@ -169,6 +169,13 @@
         ]
       },
       {
+        "id": "api.Request.isHistoryNavigation",
+        "name": "api.Request.isHistoryNavigation",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#ref-for-dom-request-ishistorynavigation①"
+        ]
+      },
+      {
         "id": "api.Request.json",
         "name": "api.Request.json",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Request/json",
