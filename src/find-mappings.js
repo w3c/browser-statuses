@@ -258,8 +258,8 @@ function findMappingsForSpec(shortname, relatedSpecs, data) {
       for (const mapping of newref) {
         if (!oldref.find(m => m.id === mapping.id)) {
           analysis.changes.push(`Add ${name} mapping [${mapping.id}](${mapping.statusUrl})${mapping.name && mapping.name !== mapping.id ? ' ' + esc(mapping.name) : ''}`);
+          analysis.todo.push(`Check "representative" flags for ${name} mappings`);
         }
-        analysis.todo.push(`Check "representative" flags for ${name} mappings`);
       }
 
       for (const mapping of newref) {
