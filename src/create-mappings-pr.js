@@ -105,7 +105,7 @@ async function createMappingsPR(shortname, mappings) {
 🧐 Please check the todos below. If all looks good, merge this pull request to release the changes to npm. If changes are needed, push additional commits to this pull request before you merge.
 
 General info about the proposed pull request:
-` + mappings.analysis.info.filter(info => !info.includes('same mapping').map(info => `- ${esc(info)}`).join('\n') + `
+` + mappings.analysis.info.filter(info => !info.includes('same mapping')).map(info => `- ${esc(info)}`).join('\n') + `
 
 Changes introduced by the pull request:
 ` + mappings.analysis.changes.map(change => `- ${esc(change)}`).join('\n') + `
