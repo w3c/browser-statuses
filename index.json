@@ -30021,7 +30021,21 @@
       {
         "ua": "chrome",
         "status": "shipped",
+        "source": "bcd",
+        "guess": true,
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "chrome",
+        "status": "shipped",
         "source": "chrome",
+        "guess": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "bcd",
         "guess": true,
         "selected": true
       },
@@ -30029,13 +30043,26 @@
         "ua": "chrome_android",
         "status": "shipped",
         "source": "chrome",
+        "guess": true
+      },
+      {
+        "ua": "edge",
+        "status": "shipped",
+        "source": "bcd",
         "guess": true,
+        "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
         "status": "shipped",
         "source": "chrome",
+        "guess": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
+        "source": "bcd",
         "guess": true,
         "selected": true
       },
@@ -30043,6 +30070,27 @@
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
+        "guess": true
+      },
+      {
+        "ua": "firefox_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true,
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "bcd",
         "guess": true,
         "selected": true
       },
@@ -30050,6 +30098,19 @@
         "ua": "safari",
         "status": "notsupported",
         "source": "chrome",
+        "guess": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "bcd",
         "guess": true,
         "selected": true
       }
