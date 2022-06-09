@@ -1,5 +1,14 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Navigator.getInstalledRelatedApps",
+        "name": "api.Navigator.getInstalledRelatedApps",
+        "specUrls": [
+          "https://wicg.github.io/get-installed-related-apps/spec/#dom-navigator-getinstalledrelatedapps"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5695378309513216,
