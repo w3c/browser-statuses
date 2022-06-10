@@ -2,6 +2,14 @@
   "statusref": {
     "bcd": [
       {
+        "id": "api.BeforeInstallPromptEvent.prompt",
+        "name": "api.BeforeInstallPromptEvent.prompt",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/BeforeInstallPromptEvent/prompt",
+        "specUrls": [
+          "https://wicg.github.io/manifest-incubations/#dom-beforeinstallpromptevent-prompt"
+        ]
+      },
+      {
         "id": "api.Window.appinstalled_event",
         "name": "api.Window.appinstalled_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/appinstalled_event",
