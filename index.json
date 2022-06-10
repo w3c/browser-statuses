@@ -873,6 +873,8 @@
     ],
     "features": {
       "background_color": {
+        "title": "background_color member",
+        "url": "https://w3c.github.io/manifest/#background_color-member",
         "support": [
           {
             "ua": "baidu_android",
@@ -1142,6 +1144,8 @@
         ]
       },
       "install": {
+        "title": "Installation events",
+        "url": "https://w3c.github.io/manifest/#installation-events",
         "support": [
           {
             "ua": "baidu_android",
@@ -1411,6 +1415,8 @@
         ]
       },
       "purpose": {
+        "title": "purpose member",
+        "url": "https://w3c.github.io/manifest/#purpose-member",
         "support": [
           {
             "ua": "baidu_android",
@@ -1683,6 +1689,8 @@
         ]
       },
       "related_applications": {
+        "title": "related_applications member",
+        "url": "https://w3c.github.io/manifest/#related_applications-member",
         "support": [
           {
             "ua": "baidu_android",
@@ -1956,6 +1964,8 @@
         ]
       },
       "theme_color": {
+        "title": "theme_color member",
+        "url": "https://w3c.github.io/manifest/#theme_color-member",
         "support": [
           {
             "ua": "baidu_android",
@@ -2343,6 +2353,8 @@
     ],
     "features": {
       "sinkId": {
+        "title": "ID of the audio device",
+        "url": "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-sinkid",
         "support": [
           {
             "ua": "chrome",
@@ -2516,6 +2528,8 @@
         ]
       },
       "setSinkId": {
+        "title": "Method to set the ID of the audio device",
+        "url": "https://w3c.github.io/mediacapture-output/#dom-htmlmediaelement-setsinkid",
         "support": [
           {
             "ua": "chrome",
@@ -5500,6 +5514,8 @@
     ],
     "features": {
       "Credential": {
+        "title": "The Credential interface",
+        "url": "https://w3c.github.io/webappsec-credential-management/#the-credential-interface",
         "support": [
           {
             "ua": "chrome",
@@ -5778,6 +5794,8 @@
         ]
       },
       "credentials": {
+        "title": "navigator.credentials",
+        "url": "https://w3c.github.io/webappsec-credential-management/#framework-credential-management",
         "support": [
           {
             "ua": "chrome",
@@ -6431,6 +6449,8 @@
     ],
     "features": {
       "securityPolicyViolation": {
+        "title": "SecurityPolicyViolation event",
+        "url": "https://w3c.github.io/webappsec-csp/#securitypolicyviolationevent-interface",
         "support": [
           {
             "ua": "baidu_android",
@@ -7970,6 +7990,8 @@
     ],
     "features": {
       "box-decoration-break": {
+        "title": "box-decoration-break property",
+        "url": "https://drafts.csswg.org/css-break/#break-decoration",
         "support": [
           {
             "ua": "baidu_android",
@@ -8264,6 +8286,8 @@
         ]
       },
       "page-break": {
+        "title": "Page break properties",
+        "url": "https://drafts.csswg.org/css-break/#break-between",
         "support": [
           {
             "ua": "baidu_android",
@@ -8602,6 +8626,8 @@
         ]
       },
       "widows-orphans": {
+        "title": "Widows and orphans",
+        "url": "https://drafts.csswg.org/css-break/#widows-orphans",
         "support": [
           {
             "ua": "baidu_android",
@@ -9213,6 +9239,8 @@
     ],
     "features": {
       "icc-colors": {
+        "title": "profiled device-dependent colors",
+        "url": "https://drafts.csswg.org/css-color/#icc-colors",
         "support": [
           {
             "ua": "baidu_android",
@@ -9405,6 +9433,8 @@
         ]
       },
       "hsla": {
+        "title": "hsl/hsla syntax",
+        "url": "https://drafts.csswg.org/css-color/#the-hsl-notation",
         "support": [
           {
             "ua": "baidu_android",
@@ -9681,6 +9711,8 @@
         ]
       },
       "rgba": {
+        "title": "rgb/rgba syntax",
+        "url": "https://drafts.csswg.org/css-color/#rgb-functions",
         "support": [
           {
             "ua": "baidu_android",
@@ -9957,6 +9989,8 @@
         ]
       },
       "rgba-hex": {
+        "title": "RGBA hexadecimal notation",
+        "url": "https://drafts.csswg.org/css-color/#hex-notation",
         "support": [
           {
             "ua": "baidu_android",
@@ -12352,6 +12386,8 @@
     ],
     "features": {
       "FontFace": {
+        "title": "FontFace interface",
+        "url": "https://drafts.csswg.org/css-font-loading/#fontface-interface",
         "support": [
           {
             "ua": "baidu_android",
@@ -12697,6 +12733,8 @@
         ]
       },
       "FontFaceSet": {
+        "title": "FontFaceSet interface",
+        "url": "https://drafts.csswg.org/css-font-loading/#FontFaceSet-interface",
         "support": [
           {
             "ua": "baidu_android",
@@ -13228,6 +13266,8 @@
     ],
     "features": {
       "variable": {
+        "title": "Variable fonts",
+        "url": "https://drafts.csswg.org/css-fonts-4/#font-variation-props",
         "support": [
           {
             "ua": "baidu_android",
@@ -13516,6 +13556,8 @@
         ]
       },
       "font-variant-caps": {
+        "title": "font-variant-caps property",
+        "url": "https://drafts.csswg.org/css-fonts-4/#font-variant-caps-prop",
         "support": [
           {
             "ua": "baidu_android",
@@ -13795,6 +13837,8 @@
         ]
       },
       "font-variant-numeric": {
+        "title": "font-variant-numeric property",
+        "url": "https://drafts.csswg.org/css-fonts-4/#font-variant-numeric-prop",
         "support": [
           {
             "ua": "baidu_android",
@@ -14074,6 +14118,8 @@
         ]
       },
       "font-stretch": {
+        "title": "font-stretch property",
+        "url": "https://drafts.csswg.org/css-fonts-4/#font-stretch-prop",
         "support": [
           {
             "ua": "baidu_android",
@@ -14335,6 +14381,8 @@
         ]
       },
       "font-synthesis": {
+        "title": "font-synthesis property",
+        "url": "https://drafts.csswg.org/css-fonts-4/#font-synthesis-prop",
         "support": [
           {
             "ua": "baidu_android",
@@ -17652,6 +17700,8 @@
     ],
     "features": {
       "line-height-step": {
+        "title": "line-height-step property",
+        "url": "https://drafts.csswg.org/css-rhythm/#line-height-step",
         "support": [
           {
             "ua": "chrome",
@@ -17922,6 +17972,8 @@
     ],
     "features": {
       "ruby-align": {
+        "title": "The ruby-align property",
+        "url": "https://drafts.csswg.org/css-ruby-1/#ruby-align-property",
         "support": [
           {
             "ua": "chrome",
@@ -18073,6 +18125,8 @@
         ]
       },
       "ruby-position": {
+        "title": "The ruby-position property",
+        "url": "https://drafts.csswg.org/css-ruby-1/#rubypos",
         "support": [
           {
             "ua": "chrome",
@@ -18334,6 +18388,8 @@
     ],
     "features": {
       "host": {
+        "title": "The :host pseudo-class",
+        "url": "https://drafts.csswg.org/css-scoping/#selectordef-host",
         "support": [
           {
             "ua": "chrome",
@@ -18485,6 +18541,8 @@
         ]
       },
       "hostfunction": {
+        "title": "The :host() pseudo-class",
+        "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-function",
         "support": [
           {
             "ua": "chrome",
@@ -18642,6 +18700,8 @@
         ]
       },
       "host-context": {
+        "title": "The :host-context pseudo-class",
+        "url": "https://drafts.csswg.org/css-scoping/#selectordef-host-context",
         "support": [
           {
             "ua": "chrome",
@@ -18799,6 +18859,8 @@
         ]
       },
       "slotted": {
+        "title": "The ::slotted() pseudo-element",
+        "url": "https://drafts.csswg.org/css-scoping/#selectordef-slotted",
         "support": [
           {
             "ua": "chrome",
@@ -22489,6 +22551,8 @@
     ],
     "features": {
       "construct-stylesheets": {
+        "title": "Constructable stylesheets",
+        "url": "https://www.w3.org/TR/cssom-1/#create-a-constructed-cssstylesheet",
         "support": [
           {
             "ua": "baidu_android",
@@ -22867,6 +22931,8 @@
     ],
     "features": {
       "getBoundingClientRect": {
+        "title": "getBoundingClientRect() method",
+        "url": "https://drafts.csswg.org/cssom-view/#dom-element-getboundingclientrect",
         "support": [
           {
             "ua": "baidu_android",
@@ -23501,6 +23567,8 @@
     ],
     "features": {
       "header": {
+        "title": "Header field",
+        "url": "https://w3c.github.io/device-memory/#sec-device-memory-client-hint-header",
         "support": [
           {
             "ua": "chrome",
@@ -23628,6 +23696,8 @@
         ]
       },
       "jsapi": {
+        "title": "JS API",
+        "url": "https://w3c.github.io/device-memory/#sec-device-memory-js-api",
         "support": [
           {
             "ua": "chrome",
@@ -24044,6 +24114,8 @@
     ],
     "features": {
       "shadow": {
+        "title": "Shadow tree",
+        "url": "https://dom.spec.whatwg.org/#shadow-trees",
         "support": [
           {
             "ua": "baidu_android",
@@ -24938,6 +25010,8 @@
     ],
     "features": {
       "img": {
+        "title": "Support for images",
+        "url": "https://wicg.github.io/element-timing/#sec-report-image-element",
         "support": [
           {
             "ua": "chrome",
@@ -25065,6 +25139,8 @@
         ]
       },
       "text": {
+        "title": "Support for text",
+        "url": "https://wicg.github.io/element-timing/#sec-report-text",
         "support": [
           {
             "ua": "chrome",
@@ -25534,6 +25610,8 @@
     ],
     "features": {
       "persistent-usage-record": {
+        "title": "Persistent usage record session",
+        "url": "https://w3c.github.io/encrypted-media/#dom-mediakeysessiontype-persistent-usage-record",
         "support": [
           {
             "ua": "chrome",
@@ -25693,6 +25771,8 @@
         ]
       },
       "hdcp-detection": {
+        "title": "HDCP detection",
+        "url": "https://w3c.github.io/encrypted-media/d",
         "support": [
           {
             "ua": "chrome",
@@ -25882,6 +25962,8 @@
         ]
       },
       "encryption-scheme": {
+        "title": "Encryption scheme detection",
+        "url": "https://w3c.github.io/encrypted-media/d",
         "support": [
           {
             "ua": "chrome",
@@ -26071,6 +26153,8 @@
         ]
       },
       "find-existing-sessions": {
+        "title": "API to find existing sessions",
+        "url": "https://w3c.github.io/encrypted-media/n",
         "support": [
           {
             "ua": "chrome",
@@ -27780,6 +27864,8 @@
     ],
     "features": {
       "cors": {
+        "title": "CORS protocol",
+        "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
         "support": [
           {
             "ua": "baidu_android",
@@ -30822,6 +30908,8 @@
     ],
     "features": {
       "template": {
+        "title": "The template element",
+        "url": "https://html.spec.whatwg.org/multipage/#the-template-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -31112,6 +31200,8 @@
         ]
       },
       "custom-elements": {
+        "title": "Custom elements",
+        "url": "https://html.spec.whatwg.org/multipage/#custom-elements",
         "support": [
           {
             "ua": "baidu_android",
@@ -31427,6 +31517,8 @@
         ]
       },
       "js-module": {
+        "title": "Integration with the JavaScript module system",
+        "url": "https://html.spec.whatwg.org/multipage/#integration-with-the-javascript-module-system",
         "support": [
           {
             "ua": "baidu_android",
@@ -31684,6 +31776,8 @@
         ]
       },
       "2dcontext": {
+        "title": "The 2D rendering context",
+        "url": "https://html.spec.whatwg.org/multipage/#2dcontext",
         "support": [
           {
             "ua": "baidu_android",
@@ -32052,6 +32146,8 @@
         ]
       },
       "ruby": {
+        "title": "The ruby element",
+        "url": "https://html.spec.whatwg.org/multipage/#the-ruby-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -32321,6 +32417,8 @@
         ]
       },
       "animation-frames": {
+        "title": "requestAnimationFrame",
+        "url": "https://html.spec.whatwg.org/multipage/imagebitmap-and-animations.html#animation-frames",
         "support": [
           {
             "ua": "baidu_android",
@@ -32687,6 +32785,8 @@
         ]
       },
       "audio": {
+        "title": "audio element",
+        "url": "https://html.spec.whatwg.org/multipage/media.html#the-audio-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -33021,6 +33121,8 @@
         ]
       },
       "datalist": {
+        "title": "datalist element",
+        "url": "https://html.spec.whatwg.org/multipage/form-elements.html#the-datalist-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -33394,6 +33496,8 @@
         ]
       },
       "html5-download": {
+        "title": "download attribute",
+        "url": "https://html.spec.whatwg.org/multipage/links.html#downloading-resources",
         "support": [
           {
             "ua": "baidu_android",
@@ -33730,6 +33834,8 @@
         ]
       },
       "html5-sandbox": {
+        "title": "sandbox iframe attribute",
+        "url": "https://html.spec.whatwg.org/multipage/iframe-embed-object.html#attr-iframe-sandbox",
         "support": [
           {
             "ua": "baidu_android",
@@ -34102,6 +34208,8 @@
         ]
       },
       "htmlmediaelement": {
+        "title": "HTMLMediaElement interface",
+        "url": "https://html.spec.whatwg.org/multipage/media.html#media-elements",
         "support": [
           {
             "ua": "baidu_android",
@@ -34442,6 +34550,8 @@
         ]
       },
       "inputdate": {
+        "title": "Date and time input types",
+        "url": "https://html.spec.whatwg.org/multipage/input.html#date-state-(type=date)",
         "support": [
           {
             "ua": "baidu_android",
@@ -34747,6 +34857,8 @@
         ]
       },
       "inputhint": {
+        "title": "input placeholder attribute",
+        "url": "https://html.spec.whatwg.org/multipage/input.html#the-placeholder-attribute",
         "support": [
           {
             "ua": "baidu_android",
@@ -35016,6 +35128,8 @@
         ]
       },
       "inputpattern": {
+        "title": "pattern attribute for input fields",
+        "url": "https://html.spec.whatwg.org/multipage/input.html#the-pattern-attribute",
         "support": [
           {
             "ua": "baidu_android",
@@ -35285,6 +35399,8 @@
         ]
       },
       "inputtext": {
+        "title": "tel, email, url input types",
+        "url": "https://html.spec.whatwg.org/multipage/input.html#e-mail-state-(type=email)",
         "support": [
           {
             "ua": "baidu_android",
@@ -35554,6 +35670,8 @@
         ]
       },
       "offscreencanvas": {
+        "title": "OffscreenCanvas",
+        "url": "https://html.spec.whatwg.org/multipage/canvas.html#the-offscreencanvas-interface",
         "support": [
           {
             "ua": "baidu_android",
@@ -35878,6 +35996,8 @@
         ]
       },
       "online": {
+        "title": "onLine DOM flag",
+        "url": "https://html.spec.whatwg.org/multipage/offline.html#navigator.online",
         "support": [
           {
             "ua": "baidu_android",
@@ -36147,6 +36267,8 @@
         ]
       },
       "page-visibility": {
+        "title": "Page visibility",
+        "url": "https://html.spec.whatwg.org/multipage/interaction.html#page-visibility",
         "support": [
           {
             "ua": "baidu_android",
@@ -36445,6 +36567,8 @@
         ]
       },
       "picture": {
+        "title": "picture element",
+        "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#the-picture-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -36786,6 +36910,8 @@
         ]
       },
       "preload": {
+        "title": "Link type \"preload\"",
+        "url": "https://html.spec.whatwg.org/multipage/links.html#link-type-preload",
         "support": [
           {
             "ua": "baidu_android",
@@ -37058,6 +37184,8 @@
         ]
       },
       "srcset": {
+        "title": "srcset attribute",
+        "url": "https://html.spec.whatwg.org/multipage/embedded-content.html#attr-img-srcset",
         "support": [
           {
             "ua": "baidu_android",
@@ -37348,6 +37476,8 @@
         ]
       },
       "timeupdate": {
+        "title": "timeupdate event",
+        "url": "https://html.spec.whatwg.org/multipage/media.html#event-media-timeupdate",
         "support": [
           {
             "ua": "baidu_android",
@@ -37623,6 +37753,8 @@
         ]
       },
       "video": {
+        "title": "video element",
+        "url": "https://html.spec.whatwg.org/multipage/media.html#the-video-element",
         "support": [
           {
             "ua": "baidu_android",
@@ -37898,6 +38030,8 @@
         ]
       },
       "webworkers": {
+        "title": "Web workers",
+        "url": "https://html.spec.whatwg.org/multipage/workers.html",
         "support": [
           {
             "ua": "baidu_android",
@@ -41023,6 +41157,8 @@
     ],
     "features": {
       "encoding": {
+        "title": "Encoding capabilities",
+        "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
         "support": [
           {
             "ua": "chrome",
@@ -41160,6 +41296,8 @@
         ]
       },
       "decoding": {
+        "title": "Decoding capabilities",
+        "url": "https://w3c.github.io/media-capabilities/#decoding-encoding-capabilities",
         "support": [
           {
             "ua": "chrome",
@@ -41598,6 +41736,7 @@
     ],
     "features": {
       "codec-switching": {
+        "title": "Codec switching",
         "support": [
           {
             "ua": "baidu_android",
@@ -42397,6 +42536,7 @@
     ],
     "features": {
       "capabilities": {
+        "title": "Source capabilities",
         "support": [
           {
             "ua": "baidu_android",
@@ -43022,6 +43162,8 @@
     ],
     "features": {
       "mf-interaction": {
+        "title": "Interaction media features",
+        "url": "https://drafts.csswg.org/mediaqueries-4/#mf-interaction",
         "support": [
           {
             "ua": "baidu_android",
@@ -47223,6 +47365,8 @@
     ],
     "features": {
       "observer": {
+        "title": "PerformanceObserver interface",
+        "url": "https://w3c.github.io/performance-timeline/#the-performanceobserver-interface",
         "support": [
           {
             "ua": "chrome",
@@ -47357,6 +47501,7 @@
         ]
       },
       "worker": {
+        "title": "Available in Workers",
         "support": [
           {
             "ua": "chrome",
@@ -51115,6 +51260,8 @@
     ],
     "features": {
       "dns-prefetch": {
+        "title": "DNS prefetch",
+        "url": "https://w3c.github.io/resource-hints/#dns-prefetch",
         "support": [
           {
             "ua": "baidu_android",
@@ -51297,6 +51444,8 @@
         ]
       },
       "preconnect": {
+        "title": "Preconnect",
+        "url": "https://w3c.github.io/resource-hints/#preconnect",
         "support": [
           {
             "ua": "baidu_android",
@@ -51499,6 +51648,8 @@
         ]
       },
       "prefetch": {
+        "title": "Prefetch",
+        "url": "https://w3c.github.io/resource-hints/#prefetch",
         "support": [
           {
             "ua": "baidu_android",
@@ -51729,6 +51880,8 @@
         ]
       },
       "prerender": {
+        "title": "Prerender",
+        "url": "https://w3c.github.io/resource-hints/#prerender",
         "support": [
           {
             "ua": "baidu_android",
@@ -56780,6 +56933,8 @@
     ],
     "features": {
       "estimate": {
+        "title": "estimate() API",
+        "url": "https://storage.spec.whatwg.org/#dom-storagemanager-estimate",
         "support": [
           {
             "ua": "chrome",
@@ -56961,6 +57116,8 @@
         ]
       },
       "persist": {
+        "title": "Persistent storage permission",
+        "url": "https://storage.spec.whatwg.org/#dom-storagemanager-persist",
         "support": [
           {
             "ua": "chrome",
@@ -57275,6 +57432,8 @@
     ],
     "features": {
       "hasStorageAccess": {
+        "title": "hasStorageAccess method",
+        "url": "https://privacycg.github.io/storage-access/#dom-document-hasstorageaccess",
         "support": [
           {
             "ua": "chrome",
@@ -57473,6 +57632,8 @@
         ]
       },
       "requestStorageAccess": {
+        "title": "requestStorageAccess method",
+        "url": "https://privacycg.github.io/storage-access/#dom-document-requeststorageaccess",
         "support": [
           {
             "ua": "chrome",
@@ -57946,6 +58107,8 @@
     ],
     "features": {
       "ReadableStream": {
+        "title": "ReadableStream interface",
+        "url": "https://streams.spec.whatwg.org/#rs",
         "support": [
           {
             "ua": "chrome",
@@ -58234,6 +58397,8 @@
         ]
       },
       "WritableStream": {
+        "title": "WritableStream interface",
+        "url": "https://streams.spec.whatwg.org/#ws",
         "support": [
           {
             "ua": "chrome",
@@ -58516,6 +58681,8 @@
         ]
       },
       "TransformStream": {
+        "title": "TransformStream interface",
+        "url": "https://streams.spec.whatwg.org/#ts",
         "support": [
           {
             "ua": "chrome",
@@ -64561,6 +64728,8 @@
     ],
     "features": {
       "worklet": {
+        "title": "The AudioWorklet interface",
+        "url": "https://webaudio.github.io/web-audio-api/#audioworklet",
         "support": [
           {
             "ua": "baidu_android",
@@ -67962,6 +68131,8 @@
     ],
     "features": {
       "rtcdatachannel": {
+        "title": "RTC data channels",
+        "url": "https://w3c.github.io/webrtc-pc/#peer-to-peer-data-api",
         "support": [
           {
             "ua": "baidu_android",
