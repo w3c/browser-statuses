@@ -1,8 +1,23 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Permissions.request",
+        "name": "api.Permissions.request",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Permissions/request",
+        "specUrls": [
+          "https://wicg.github.io/permissions-request/#dom-permissions-request"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5707368532803584,
+        "name": "Permissions.request() and Permissions.revoke()",
+        "statusUrl": "https://chromestatus.com/feature/5707368532803584",
+        "specUrls": [
+          "https://github.com/WICG/permissions-request"
+        ],
         "representative": true
       }
     ]
