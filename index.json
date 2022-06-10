@@ -39617,6 +39617,12 @@
       {
         "ua": "chrome",
         "status": "shipped",
+        "source": "bcd",
+        "guess": true
+      },
+      {
+        "ua": "chrome",
+        "status": "shipped",
         "source": "chrome",
         "details": [
           {
@@ -39626,6 +39632,12 @@
           }
         ],
         "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true
       },
       {
         "ua": "chrome_android",
@@ -39643,6 +39655,12 @@
       {
         "ua": "edge",
         "status": "shipped",
+        "source": "bcd",
+        "guess": true
+      },
+      {
+        "ua": "edge",
+        "status": "shipped",
         "source": "chrome",
         "details": [
           {
@@ -39656,6 +39674,13 @@
       {
         "ua": "firefox",
         "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
         "source": "chrome",
         "details": [
           {
@@ -39663,7 +39688,27 @@
             "href": "https://www.chromestatus.com/feature/5719830432841728",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "firefox_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       },
       {
@@ -39676,7 +39721,20 @@
             "href": "https://www.chromestatus.com/feature/5719830432841728",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "safari_ios",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       }
     ]
@@ -46091,6 +46149,12 @@
       {
         "ua": "chrome",
         "status": "shipped",
+        "source": "bcd",
+        "guess": true
+      },
+      {
+        "ua": "chrome",
+        "status": "shipped",
         "source": "chrome",
         "details": [
           {
@@ -46100,6 +46164,12 @@
           }
         ],
         "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true
       },
       {
         "ua": "chrome_android",
@@ -46117,6 +46187,12 @@
       {
         "ua": "edge",
         "status": "shipped",
+        "source": "bcd",
+        "guess": true
+      },
+      {
+        "ua": "edge",
+        "status": "shipped",
         "source": "chrome",
         "details": [
           {
@@ -46130,6 +46206,13 @@
       {
         "ua": "firefox",
         "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
         "source": "chrome",
         "details": [
           {
@@ -46137,7 +46220,27 @@
             "href": "https://www.chromestatus.com/feature/5644602711212032",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "firefox_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       },
       {
@@ -46150,7 +46253,20 @@
             "href": "https://www.chromestatus.com/feature/5644602711212032",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "safari_ios",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       }
     ]
@@ -47852,6 +47968,37 @@
     "shortname": "permissions-request",
     "support": [
       {
+        "ua": "chrome",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
@@ -47861,7 +48008,28 @@
             "href": "https://www.chromestatus.com/feature/5707368532803584",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "firefox_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       },
       {
@@ -47874,7 +48042,20 @@
             "href": "https://www.chromestatus.com/feature/5707368532803584",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "safari_ios",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       }
     ]
@@ -47883,6 +48064,38 @@
     "shortname": "permissions-revoke",
     "support": [
       {
+        "ua": "chrome",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
@@ -47892,7 +48105,28 @@
             "href": "https://www.chromestatus.com/feature/5707368532803584",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "firefox_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "opera",
+        "status": "experimental",
+        "source": "bcd",
+        "guess": true,
+        "flag": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       },
       {
@@ -47905,7 +48139,20 @@
             "href": "https://www.chromestatus.com/feature/5707368532803584",
             "representative": true
           }
-        ],
+        ]
+      },
+      {
+        "ua": "safari_ios",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
+        "selected": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "notsupported",
+        "source": "bcd",
+        "guess": true,
         "selected": true
       }
     ]
