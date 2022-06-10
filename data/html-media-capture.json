@@ -7,6 +7,14 @@
         "specUrls": [
           "https://w3c.github.io/html-media-capture/#dom-htmlinputelement-capture"
         ]
+      },
+      {
+        "id": "html.elements.input.attributes.capture",
+        "name": "html.elements.input.attributes.capture",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Attributes/capture",
+        "specUrls": [
+          "https://w3c.github.io/html-media-capture/#the-capture-attribute"
+        ]
       }
     ],
     "caniuse": [

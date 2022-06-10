@@ -1,5 +1,71 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.LargestContentfulPaint",
+        "name": "api.LargestContentfulPaint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#sec-largest-contentful-paint-interface"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.element",
+        "name": "api.LargestContentfulPaint.element",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/element",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-element"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.id",
+        "name": "api.LargestContentfulPaint.id",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/id",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-id"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.loadTime",
+        "name": "api.LargestContentfulPaint.loadTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/loadTime",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-loadtime"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.renderTime",
+        "name": "api.LargestContentfulPaint.renderTime",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/renderTime",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-rendertime"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.size",
+        "name": "api.LargestContentfulPaint.size",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/size",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-size"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.toJSON",
+        "name": "api.LargestContentfulPaint.toJSON",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/toJSON",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-tojson"
+        ]
+      },
+      {
+        "id": "api.LargestContentfulPaint.url",
+        "name": "api.LargestContentfulPaint.url",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/LargestContentfulPaint/url",
+        "specUrls": [
+          "https://www.w3.org/TR/largest-contentful-paint//#dom-largestcontentfulpaint-url"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 5666250908762112,

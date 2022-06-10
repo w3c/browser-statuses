@@ -24,6 +24,27 @@
         ]
       },
       {
+        "id": "api.CaretPosition.getClientRect",
+        "name": "api.CaretPosition.getClientRect",
+        "specUrls": [
+          "https://drafts.csswg.org/cssom-view/#dom-caretposition-getclientrect"
+        ]
+      },
+      {
+        "id": "api.CaretPosition.offset",
+        "name": "api.CaretPosition.offset",
+        "specUrls": [
+          "https://drafts.csswg.org/cssom-view/#dom-caretposition-offset"
+        ]
+      },
+      {
+        "id": "api.CaretPosition.offsetNode",
+        "name": "api.CaretPosition.offsetNode",
+        "specUrls": [
+          "https://drafts.csswg.org/cssom-view/#dom-caretposition-offsetnode"
+        ]
+      },
+      {
         "id": "api.Document",
         "name": "api.Document",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",

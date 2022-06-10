@@ -104,6 +104,13 @@
         ]
       },
       {
+        "id": "api.CSSFontFeatureValuesRule.fontFamily",
+        "name": "api.CSSFontFeatureValuesRule.fontFamily",
+        "specUrls": [
+          "https://drafts.csswg.org/css-fonts-4/#dom-cssfontfeaturevaluesrule-fontfamily"
+        ]
+      },
+      {
         "id": "css.at-rules.font-face",
         "name": "css.at-rules.font-face",
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@font-face",

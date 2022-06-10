@@ -162,6 +162,22 @@
         ]
       },
       {
+        "id": "api.PushSubscriptionChangeEvent.newSubscription",
+        "name": "api.PushSubscriptionChangeEvent.newSubscription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent/newSubscription",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-newsubscription"
+        ]
+      },
+      {
+        "id": "api.PushSubscriptionChangeEvent.oldSubscription",
+        "name": "api.PushSubscriptionChangeEvent.oldSubscription",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent/oldSubscription",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#dom-pushsubscriptionchangeevent-oldsubscription"
+        ]
+      },
+      {
         "id": "api.PushSubscriptionOptions",
         "name": "api.PushSubscriptionOptions",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionOptions",

@@ -84,6 +84,14 @@
         ]
       },
       {
+        "id": "api.PictureInPictureEvent.pictureInPictureWindow",
+        "name": "api.PictureInPictureEvent.pictureInPictureWindow",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureEvent/pictureInPictureWindow",
+        "specUrls": [
+          "https://w3c.github.io/picture-in-picture/#dom-pictureinpictureevent-pictureinpicturewindow"
+        ]
+      },
+      {
         "id": "api.PictureInPictureWindow",
         "name": "api.PictureInPictureWindow",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PictureInPictureWindow",

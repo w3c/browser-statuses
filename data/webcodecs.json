@@ -438,6 +438,13 @@
         ]
       },
       {
+        "id": "api.ImageDecoder.type",
+        "name": "api.ImageDecoder.type",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs/#dom-imagedecoder-type"
+        ]
+      },
+      {
         "id": "api.ImageTrack",
         "name": "api.ImageTrack",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ImageTrack",

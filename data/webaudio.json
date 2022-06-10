@@ -1690,6 +1690,14 @@
         ]
       },
       {
+        "id": "api.ScriptProcessorNode.bufferSize",
+        "name": "api.ScriptProcessorNode.bufferSize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ScriptProcessorNode/bufferSize",
+        "specUrls": [
+          "https://webaudio.github.io/web-audio-api/#dom-scriptprocessornode-buffersize"
+        ]
+      },
+      {
         "id": "api.StereoPannerNode",
         "name": "api.StereoPannerNode",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/StereoPannerNode",

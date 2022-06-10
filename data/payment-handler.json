@@ -50,6 +50,70 @@
         ]
       },
       {
+        "id": "api.PaymentInstruments.clear",
+        "name": "api.PaymentInstruments.clear",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/clear",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-clear"
+        ]
+      },
+      {
+        "id": "api.PaymentInstruments.delete",
+        "name": "api.PaymentInstruments.delete",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/delete",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-delete"
+        ]
+      },
+      {
+        "id": "api.PaymentInstruments.get",
+        "name": "api.PaymentInstruments.get",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/get",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-get"
+        ]
+      },
+      {
+        "id": "api.PaymentInstruments.has",
+        "name": "api.PaymentInstruments.has",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/has",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-has"
+        ]
+      },
+      {
+        "id": "api.PaymentInstruments.keys",
+        "name": "api.PaymentInstruments.keys",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/keys",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-keys"
+        ]
+      },
+      {
+        "id": "api.PaymentInstruments.set",
+        "name": "api.PaymentInstruments.set",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/set",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentinstruments-set"
+        ]
+      },
+      {
+        "id": "api.PaymentManager.instruments",
+        "name": "api.PaymentManager.instruments",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentManager/instruments",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentmanager-instruments"
+        ]
+      },
+      {
+        "id": "api.PaymentManager.userHint",
+        "name": "api.PaymentManager.userHint",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentManager/userHint",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#dom-paymentmanager-userhint"
+        ]
+      },
+      {
         "id": "api.PaymentRequestEvent",
         "name": "api.PaymentRequestEvent",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentRequestEvent",

@@ -731,6 +731,14 @@
         ]
       },
       {
+        "id": "api.Navigator.getUserMedia",
+        "name": "api.Navigator.getUserMedia",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/getUserMedia",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-main/#dom-navigator-getusermedia"
+        ]
+      },
+      {
         "id": "api.Navigator.mediaDevices",
         "name": "api.Navigator.mediaDevices",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Navigator/mediaDevices",
