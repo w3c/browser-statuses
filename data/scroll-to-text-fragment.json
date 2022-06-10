@@ -1,5 +1,14 @@
 {
   "statusref": {
+    "bcd": [
+      {
+        "id": "api.Document.fragmentDirective",
+        "name": "api.Document.fragmentDirective",
+        "specUrls": [
+          "https://wicg.github.io/scroll-to-text-fragment/#dom-document-fragmentdirective"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4733392803332096,

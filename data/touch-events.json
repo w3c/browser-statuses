@@ -114,6 +114,20 @@
         ]
       },
       {
+        "id": "api.Touch.altitudeAngle",
+        "name": "api.Touch.altitudeAngle",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-altitudeangle"
+        ]
+      },
+      {
+        "id": "api.Touch.azimuthAngle",
+        "name": "api.Touch.azimuthAngle",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-azimuthangle"
+        ]
+      },
+      {
         "id": "api.Touch.clientX",
         "name": "api.Touch.clientX",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/clientX",
@@ -207,6 +221,13 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Touch/target",
         "specUrls": [
           "https://w3c.github.io/touch-events/#dom-touch-target"
+        ]
+      },
+      {
+        "id": "api.Touch.touchType",
+        "name": "api.Touch.touchType",
+        "specUrls": [
+          "https://w3c.github.io/touch-events/#dom-touch-touchtype"
         ]
       },
       {

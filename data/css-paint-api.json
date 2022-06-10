@@ -10,6 +10,22 @@
         ]
       },
       {
+        "id": "api.PaintSize.height",
+        "name": "api.PaintSize.height",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintSize/height",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#dom-paintsize-height"
+        ]
+      },
+      {
+        "id": "api.PaintSize.width",
+        "name": "api.PaintSize.width",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintSize/width",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#dom-paintsize-width"
+        ]
+      },
+      {
         "id": "api.PaintWorkletGlobalScope",
         "name": "api.PaintWorkletGlobalScope",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintWorklet",

@@ -74,6 +74,13 @@
         ]
       },
       {
+        "id": "api.ResizeObserverEntry.devicePixelContentBoxSize",
+        "name": "api.ResizeObserverEntry.devicePixelContentBoxSize",
+        "specUrls": [
+          "https://drafts.csswg.org/resize-observer/#dom-resizeobserverentry-devicepixelcontentboxsize"
+        ]
+      },
+      {
         "id": "api.ResizeObserverEntry.target",
         "name": "api.ResizeObserverEntry.target",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/target",

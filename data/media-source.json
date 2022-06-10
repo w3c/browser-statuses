@@ -226,6 +226,14 @@
         ]
       },
       {
+        "id": "api.SourceBuffer.changeType",
+        "name": "api.SourceBuffer.changeType",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/changeType",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-sourcebuffer-changetype"
+        ]
+      },
+      {
         "id": "api.SourceBuffer.error_event",
         "name": "api.SourceBuffer.error_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/SourceBuffer/error_event",
@@ -341,6 +349,14 @@
         "specUrls": [
           "https://w3c.github.io/media-source/#dfn-removesourcebuffer",
           "https://w3c.github.io/media-source/#dom-sourcebufferlist-onremovesourcebuffer"
+        ]
+      },
+      {
+        "id": "api.TextTrack.sourceBuffer",
+        "name": "api.TextTrack.sourceBuffer",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextTrack/sourceBuffer",
+        "specUrls": [
+          "https://w3c.github.io/media-source/#dom-texttrack-sourcebuffer"
         ]
       },
       {

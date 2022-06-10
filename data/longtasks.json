@@ -64,6 +64,13 @@
         "specUrls": [
           "https://w3c.github.io/longtasks/#dom-taskattributiontiming-containertype"
         ]
+      },
+      {
+        "id": "api.TaskAttributionTiming.toJSON",
+        "name": "api.TaskAttributionTiming.toJSON",
+        "specUrls": [
+          "https://w3c.github.io/longtasks/#dom-taskattributiontiming-tojson"
+        ]
       }
     ],
     "chrome": [

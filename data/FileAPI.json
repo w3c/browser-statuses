@@ -115,6 +115,22 @@
         ]
       },
       {
+        "id": "api.FileList.item",
+        "name": "api.FileList.item",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileList/item",
+        "specUrls": [
+          "https://w3c.github.io/FileAPI/#dfn-item"
+        ]
+      },
+      {
+        "id": "api.FileList.length",
+        "name": "api.FileList.length",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileList/length",
+        "specUrls": [
+          "https://w3c.github.io/FileAPI/#dfn-length"
+        ]
+      },
+      {
         "id": "api.FileReader",
         "name": "api.FileReader",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/FileReader",

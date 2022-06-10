@@ -226,6 +226,14 @@
         ]
       },
       {
+        "id": "css.at-rules.media.update",
+        "name": "css.at-rules.media.update",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/update-frequency",
+        "specUrls": [
+          "https://drafts.csswg.org/mediaqueries/#update"
+        ]
+      },
+      {
         "id": "css.at-rules.media.video-dynamic-range",
         "name": "css.at-rules.media.video-dynamic-range",
         "specUrls": [

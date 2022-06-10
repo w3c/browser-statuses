@@ -107,6 +107,14 @@
         ]
       },
       {
+        "id": "api.GamepadButton.touched",
+        "name": "api.GamepadButton.touched",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadButton/touched",
+        "specUrls": [
+          "https://w3c.github.io/gamepad/#dom-gamepadbutton-touched"
+        ]
+      },
+      {
         "id": "api.GamepadButton.value",
         "name": "api.GamepadButton.value",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GamepadButton/value",
