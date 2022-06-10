@@ -334,6 +334,8 @@ export async function extractImplData(files) {
       for (const featureName of Object.keys(spec.features)) {
         const feature = spec.features[featureName];
         implstatus.features[featureName] = {
+          title: feature.title,
+          url: feature.url,
           support: getImplInfoForFeature(feature)
         };
       }

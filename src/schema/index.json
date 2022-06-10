@@ -97,7 +97,16 @@
         "additionalProperties": {
           "type": "object",
           "additionalProperties": false,
+          "required": ["title"],
           "properties": {
+            "url": {
+              "type": "string",
+              "format": "url"
+            },
+            "title": {
+              "type": "string",
+              "minLength": 1
+            },
             "support": {
               "$ref": "#/definitions/support"
             }
