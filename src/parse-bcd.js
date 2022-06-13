@@ -26,7 +26,13 @@ export function getImplementationStatus(key) {
   const impl = [];
   const now = (new Date()).toISOString();
   const tokens = key.split('.');
-  let impldata = tokens.reduce((res, token) => { return res[token]; }, bcd);
+  let impldata = null;
+  try {
+    impldata = tokens.reduce((res, token) => { return res[token]; }, bcd);
+  }
+  catch (err) {
+    throw new Error(`Could not find BCD key ${key}`);
+  }
   if (!impldata || !impldata.__compat) {
     return impl;
   }
