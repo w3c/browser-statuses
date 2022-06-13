@@ -49924,7 +49924,7 @@
           {
             "status": "experimental",
             "notes": [
-              "Only available in Safari 16 on macOS 13 Ventura or later"
+              "Only available on macOS 13 Ventura or later and only in Safari itself, not WKWebView nor SFSafariViewController"
             ],
             "href": "https://caniuse.com/#feat=push-api",
             "representative": true
@@ -49932,7 +49932,7 @@
           {
             "status": "experimental",
             "notes": [
-              "Only available in Safari 16 on macOS 13 Ventura or later"
+              "Only available on macOS 13 Ventura or later and only in Safari itself, not WKWebView nor SFSafariViewController"
             ],
             "href": "https://caniuse.com/#feat=push-api",
             "representative": true
