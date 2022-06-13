@@ -26,46 +26,6 @@
         ]
       },
       {
-        "id": "api.RTCConfiguration",
-        "name": "api.RTCConfiguration",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCConfiguration",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration"
-        ]
-      },
-      {
-        "id": "api.RTCConfiguration.bundlePolicy",
-        "name": "api.RTCConfiguration.bundlePolicy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCConfiguration/bundlePolicy",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-bundlepolicy"
-        ]
-      },
-      {
-        "id": "api.RTCConfiguration.certificates",
-        "name": "api.RTCConfiguration.certificates",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCConfiguration/certificates",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-certificates"
-        ]
-      },
-      {
-        "id": "api.RTCConfiguration.iceServers",
-        "name": "api.RTCConfiguration.iceServers",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCConfiguration/iceServers",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-iceservers"
-        ]
-      },
-      {
-        "id": "api.RTCConfiguration.iceTransportPolicy",
-        "name": "api.RTCConfiguration.iceTransportPolicy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCConfiguration/iceTransportPolicy",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-icetransportpolicy"
-        ]
-      },
-      {
         "id": "api.RTCDTMFSender",
         "name": "api.RTCDTMFSender",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCDTMFSender",
@@ -734,6 +694,34 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/RTCPeerConnection",
         "specUrls": [
           "https://w3c.github.io/webrtc-pc/#dom-peerconnection"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.RTCPeerConnection.configuration_bundlePolicy_parameter",
+        "name": "api.RTCPeerConnection.RTCPeerConnection.configuration_bundlePolicy_parameter",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-bundlepolicy"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.RTCPeerConnection.configuration_certificates_parameter",
+        "name": "api.RTCPeerConnection.RTCPeerConnection.configuration_certificates_parameter",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-certificates"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.RTCPeerConnection.configuration_iceServers_parameter",
+        "name": "api.RTCPeerConnection.RTCPeerConnection.configuration_iceServers_parameter",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-iceservers"
+        ]
+      },
+      {
+        "id": "api.RTCPeerConnection.RTCPeerConnection.configuration_iceTransportPolicy_parameter",
+        "name": "api.RTCPeerConnection.RTCPeerConnection.configuration_iceTransportPolicy_parameter",
+        "specUrls": [
+          "https://w3c.github.io/webrtc-pc/#dom-rtcconfiguration-icetransportpolicy"
         ]
       },
       {
