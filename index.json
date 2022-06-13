@@ -16515,18 +16515,16 @@
       },
       {
         "ua": "safari",
-        "status": "notsupported",
+        "status": "experimental",
         "source": "bcd",
         "details": [
           {
-            "status": "notsupported",
-            "notes": [
-              "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
-            ],
+            "status": "experimental",
             "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "safari",
@@ -16543,8 +16541,7 @@
             "href": "https://caniuse.com/#feat=css-overscroll-behavior",
             "representative": true
           }
-        ],
-        "selected": true
+        ]
       },
       {
         "ua": "safari",
@@ -16560,18 +16557,16 @@
       },
       {
         "ua": "safari_ios",
-        "status": "notsupported",
+        "status": "experimental",
         "source": "bcd",
         "details": [
           {
-            "status": "notsupported",
-            "notes": [
-              "See <a href='https://webkit.org/b/176454'>bug 176454</a>."
-            ],
+            "status": "experimental",
             "href": "https://developer.mozilla.org/docs/Web/CSS/overscroll-behavior",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "safari_ios",
@@ -16588,8 +16583,7 @@
             "href": "https://caniuse.com/#feat=css-overscroll-behavior",
             "representative": true
           }
-        ],
-        "selected": true
+        ]
       },
       {
         "ua": "samsunginternet_android",
@@ -49912,9 +49906,11 @@
       },
       {
         "ua": "safari",
-        "status": "notsupported",
+        "status": "experimental",
         "source": "bcd",
-        "guess": true
+        "guess": true,
+        "partial": true,
+        "selected": true
       },
       {
         "ua": "safari",
@@ -49937,8 +49933,7 @@
             "href": "https://caniuse.com/#feat=push-api",
             "representative": true
           }
-        ],
-        "selected": true
+        ]
       },
       {
         "ua": "safari",
