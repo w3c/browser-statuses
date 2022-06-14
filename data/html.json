@@ -1,5 +1,120 @@
 {
   "features": {
+    "autocomplete": {
+      "url": "https://html.spec.whatwg.org/multipage/#autofilling-form-controls:-the-autocomplete-attribute",
+      "title": "autocomplete attribute",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "api.HTMLFormElement.autocomplete",
+            "representative": true
+          },
+          {
+            "id": "api.HTMLInputElement.autocomplete",
+            "representative": true
+          },
+          {
+            "id": "api.HTMLSelectElement.autocomplete",
+            "representative": true
+          },
+          {
+            "id": "api.HTMLTextAreaElement.autocomplete",
+            "representative": true
+          },
+          {
+            "id": "html.global_attributes.autocomplete",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "input-autocomplete-onoff"
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5680387573415936,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "browsing-context": {
+      "url": "https://html.spec.whatwg.org/multipage/browsers.html#windows",
+      "title": "browsing context"
+    },
+    "eventsource": {
+      "url": "https://html.spec.whatwg.org/multipage/server-sent-events.html#the-eventsource-interface",
+      "title": "Server-sent events",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "api.EventSource",
+            "representative": true
+          },
+          {
+            "id": "api.EventSource.EventSource"
+          },
+          {
+            "id": "api.EventSource.close"
+          },
+          {
+            "id": "api.EventSource.error_event"
+          },
+          {
+            "id": "api.EventSource.message_event"
+          },
+          {
+            "id": "api.EventSource.open_event"
+          },
+          {
+            "id": "api.EventSource.readyState"
+          },
+          {
+            "id": "api.EventSource.url"
+          },
+          {
+            "id": "api.EventSource.withCredentials"
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "eventsource",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5311740673785856,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "inputmode": {
+      "url": "https://html.spec.whatwg.org/multipage/interaction.html#attr-inputmode",
+      "title": "inputmode attribute",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "html.global_attributes.inputmode",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "input-inputmode",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 6225984592281600,
+            "representative": true
+          }
+        ]
+      }
+    },
     "template": {
       "url": "https://html.spec.whatwg.org/multipage/#the-template-element",
       "title": "The template element",

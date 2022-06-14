@@ -1,4 +1,54 @@
 {
+  "features": {
+    "border-radius": {
+      "url": "https://drafts.csswg.org/css-backgrounds/#border-radius",
+      "title": "Rounded corners",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.properties.border-bottom-left-radius"
+          },
+          {
+            "id": "css.properties.border-bottom-right-radius"
+          },
+          {
+            "id": "css.properties.border-radius",
+            "representative": true
+          },
+          {
+            "id": "css.properties.border-top-left-radius"
+          },
+          {
+            "id": "css.properties.border-top-right-radius"
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "border-radius",
+            "representative": true
+          }
+        ]
+      }
+    },
+    "box-shadow": {
+      "url": "https://drafts.csswg.org/css-backgrounds/#box-shadow",
+      "title": "Box shadow effects",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.properties.box-shadow",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css-boxshadow",
+            "representative": true
+          }
+        ]
+      }
+    }
+  },
   "statusref": {
     "bcd": [
       {

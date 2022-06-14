@@ -1,4 +1,28 @@
 {
+  "features": {
+    "postTask": {
+      "url": "https://wicg.github.io/scheduling-apis/#dom-scheduler-posttask",
+      "title": "scheduler.postTask()",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "api.Scheduler.postTask",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 6031161734201344,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "yield": {
+      "url": "https://github.com/WICG/main-thread-scheduling/blob/master/YieldAndContinuation.md",
+      "title": "scheduler.yield()"
+    }
+  },
   "statusref": {
     "bcd": [
       {

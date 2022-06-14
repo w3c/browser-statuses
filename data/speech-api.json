@@ -1,4 +1,42 @@
 {
+  "features": {
+    "recognition": {
+      "title": "Speech recognition",
+      "url": "https://w3c.github.io/speech-api/speechapi.html#speechreco-section",
+      "statusref": {
+        "caniuse": [
+          {
+            "id": "speech-recognition",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5908775487668224,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "synthesis": {
+      "title": "Speech synthesis",
+      "url": "https://w3c.github.io/speech-api/speechapi.html#tts-section",
+      "statusref": {
+        "caniuse": [
+          {
+            "id": "speech-synthesis",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4782875580825600,
+            "representative": true
+          }
+        ]
+      }
+    }
+  },
   "statusref": {
     "bcd": [
       {
@@ -745,7 +783,8 @@
         "statusUrl": "https://caniuse.com/speech-synthesis",
         "specUrls": [
           "https://w3c.github.io/speech-api/speechapi.html#tts-section"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -755,7 +794,8 @@
         "statusUrl": "https://chromestatus.com/feature/4782875580825600",
         "specUrls": [
           "https://w3c.github.io/speech-api/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 4818803819020288,

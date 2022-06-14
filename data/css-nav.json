@@ -1,0 +1,8 @@
+{
+  "polyfills": [
+    {
+      "label": "Spatial Navigation Polyfill",
+      "url": "https://github.com/WICG/spatial-navigation/tree/main/polyfill"
+    }
+  ]
+}

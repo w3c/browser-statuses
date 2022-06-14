@@ -23,6 +23,30 @@
           }
         ]
       }
+    },
+    "addeventlistener-passive": {
+      "url": "https://dom.spec.whatwg.org/#dom-addeventlisteneroptions-passive",
+      "title": "Passive event listeners",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "api.EventTarget.addEventListener.options_parameter.options_passive_parameter",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "passive-event-listener",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5745543795965952,
+            "representative": true
+          }
+        ]
+      }
     }
   },
   "statusref": {

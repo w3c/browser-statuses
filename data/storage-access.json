@@ -10,12 +10,14 @@
       {
         "id": "api.Document.hasStorageAccess",
         "manual": true,
-        "lastreviewed": "2022-06-05"
+        "lastreviewed": "2022-06-05",
+        "representative": true
       },
       {
         "id": "api.Document.requestStorageAccess",
         "manual": true,
-        "lastreviewed": "2022-06-05"
+        "lastreviewed": "2022-06-05",
+        "representative": true
       }
     ]
   },
