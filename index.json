@@ -13383,8 +13383,8 @@
               {
                 "status": "shipped",
                 "notes": [
-                  "Requires MacOS 10.13+",
-                  "OpenType-CFF2 support requires MacOS 10.15+"
+                  "Requires macOS 10.13 High Sierra or later or [Windows 10 1709 \"Fall Creators Update\" or later](https://bugzilla.mozilla.org/show_bug.cgi?id=1742970#c2)",
+                  "OpenType-CFF2 support requires macOS 10.15 Catalina or later"
                 ],
                 "href": "https://caniuse.com/#feat=variable-fonts",
                 "representative": true
@@ -69414,7 +69414,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Firefox currently lacks support for the `::cue` pseudo-element. [See bug #865395.](https://bugzilla.mozilla.org/show_bug.cgi?id=865395)"
+              "Firefox 55+ implements `::cue` but still lacks support for the `::cue(<selector>)` pseudo-element with selector. [See bug #1321489.](https://bugzilla.mozilla.org/show_bug.cgi?id=1321489)"
             ],
             "href": "https://caniuse.com/#feat=webvtt",
             "representative": true
