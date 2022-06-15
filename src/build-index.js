@@ -138,8 +138,11 @@ function guessImplInfoFromSpec(featureName, implinfo) {
 
   for (const source of Object.keys(parsers)) {
     for (const ua of uas) {
+      // Look for known implementation info
+      // (skipping things that are already guesses so as not to add another
+      // layer of uncertainty)
       const impl = implinfo.support.find(o =>
-        (o.source === source) && (o.ua === ua));
+        (o.source === source) && (o.ua === ua) && !o.guess);
       if (!impl || !impl.status) {
         continue;
       }
@@ -204,7 +207,7 @@ function flagBestImplInfo(implinfo) {
   // Extract the list of user agents that appear in implementation
   // data, computing the status for "webkit" on the side to be able to
   // apply rule 3, and apply rules for each user agent.
-  const webkitInfo = implinfo.find(impl => (impl.ua === 'webkit') && (impl.source === 'webkit'));
+  const webkitInfo = implinfo.find(impl => (impl.ua === 'webkit') && (impl.source === 'webkit') && !impl.guess);
   const webkitStatus = (webkitInfo || {}).status;
   const safariInfo = [];
   const uas = implinfo.map(impl => impl.ua).filter(onlyUnique);
