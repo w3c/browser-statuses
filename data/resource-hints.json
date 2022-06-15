@@ -64,16 +64,20 @@
   "statusref": {
     "caniuse": [
       {
-        "id": "link-rel-dns-prefetch"
+        "id": "link-rel-dns-prefetch",
+        "representative": true
       },
       {
-        "id": "link-rel-preconnect"
+        "id": "link-rel-preconnect",
+        "representative": true
       },
       {
-        "id": "link-rel-prefetch"
+        "id": "link-rel-prefetch",
+        "representative": true
       },
       {
-        "id": "link-rel-prerender"
+        "id": "link-rel-prerender",
+        "representative": true
       }
     ],
     "chrome": [

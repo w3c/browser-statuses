@@ -1,4 +1,24 @@
 {
+  "features": {
+    "box-sizing": {
+      "url": "https://drafts.csswg.org/css-sizing/#box-sizing",
+      "title": "box-sizing property",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.properties.box-sizing",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css3-boxsizing",
+            "representative": true
+          }
+        ]
+      }
+    }
+  },
   "statusref": {
     "bcd": [
       {

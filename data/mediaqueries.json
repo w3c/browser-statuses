@@ -408,6 +408,130 @@
           }
         ]
       }
+    },
+    "color-gamut": {
+      "url": "https://drafts.csswg.org/mediaqueries/#color-gamut",
+      "title": "color-gamut media query",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.color-gamut",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5354410980933632,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "pointer": {
+      "title": "pointer feature",
+      "url": "https://drafts.csswg.org/mediaqueries/#pointer",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.pointer",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css-media-interaction",
+            "representative": true
+          }
+        ]
+      }
+    },
+    "hover": {
+      "title": "hover feature",
+      "url": "https://drafts.csswg.org/mediaqueries/#hover",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.hover",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css-media-interaction",
+            "representative": true
+          }
+        ]
+      }
+    },
+    "prefers-reduced-motion": {
+      "title": "prefers-reduced-motion feature",
+      "url": "https://drafts.csswg.org/mediaqueries/#prefers-reduced-motion",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.prefers-reduced-motion",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "prefers-reduced-motion",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5597964353404928,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "prefers-color-scheme": {
+      "title": "prefers-color-scheme feature",
+      "url": "https://drafts.csswg.org/mediaqueries/#prefers-color-scheme",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.prefers-color-scheme",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "prefers-color-scheme",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5109758977638400,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "prefers-contrast": {
+      "title": "prefers-contrast",
+      "url": "https://drafts.csswg.org/mediaqueries/#prefers-contrast",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.media.prefers-contrast",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5646323212615680,
+            "representative": true
+          }
+        ]
+      }
+    },
+    "level-5": {
+      "title": "Level 5",
+      "url": "https://drafts.csswg.org/mediaqueries-5/"
     }
   }
 }

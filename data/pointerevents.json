@@ -1,4 +1,30 @@
 {
+  "features": {
+    "touch-action": {
+      "url": "https://w3c.github.io/pointerevents/#the-touch-action-css-property",
+      "title": "touch-action property",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.properties.touch-action",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css-touch-action",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 5912074022551552,
+            "representative": true
+          }
+        ]
+      }
+    }
+  },
   "statusref": {
     "bcd": [
       {
@@ -442,8 +468,7 @@
         "specUrls": [
           "https://compat.spec.whatwg.org/#touch-action",
           "https://w3c.github.io/pointerevents/#the-touch-action-css-property"
-        ],
-        "representative": true
+        ]
       }
     ],
     "caniuse": [
@@ -453,8 +478,7 @@
         "statusUrl": "https://caniuse.com/css-touch-action",
         "specUrls": [
           "https://www.w3.org/TR/pointerevents/#the-touch-action-css-property"
-        ],
-        "representative": true
+        ]
       },
       {
         "id": "pointer",
@@ -462,7 +486,8 @@
         "statusUrl": "https://caniuse.com/pointer",
         "specUrls": [
           "https://www.w3.org/TR/pointerevents/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -472,7 +497,8 @@
         "statusUrl": "https://chromestatus.com/feature/4504699138998272",
         "specUrls": [
           "http://www.w3.org/TR/pointerevents/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 5088301178421248,
@@ -544,8 +570,7 @@
         "statusUrl": "https://chromestatus.com/feature/5912074022551552",
         "specUrls": [
           "https://dvcs.w3.org/hg/pointerevents/raw-file/tip/pointerEvents.html#the-touch-action-css-property"
-        ],
-        "representative": true
+        ]
       },
       {
         "id": 6041426311774208,
@@ -563,7 +588,8 @@
         "statusUrl": "https://webkit.org/status/#specification-pointer-events-level-2",
         "specUrls": [
           "https://www.w3.org/TR/pointerevents/"
-        ]
+        ],
+        "representative": true
       }
     ]
   },

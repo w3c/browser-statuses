@@ -83,6 +83,36 @@
           }
         ]
       }
+    },
+    "font-display": {
+      "url": "https://drafts.csswg.org/css-fonts-4/#font-display-desc",
+      "title": "font-display property",
+      "statusref": {
+        "bcd": [
+          {
+            "id": "css.at-rules.font-face.font-display",
+            "representative": true
+          }
+        ],
+        "caniuse": [
+          {
+            "id": "css-font-rendering-controls",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4799947908055040,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "specification-css-font-display",
+            "representative": true
+          }
+        ]
+      }
     }
   },
   "statusref": {

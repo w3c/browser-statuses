@@ -320,7 +320,14 @@ export async function extractImplData(files) {
   // Loop through files and compute the implementation status for each of them
   const impldata = files.map(file => {
     const id = file.split(/\/|\\/).pop().split('.')[0];
-    const spec = JSON.parse(fs.readFileSync(file, 'utf8'));
+    let spec;
+    try {
+      spec = JSON.parse(fs.readFileSync(file, 'utf8'));
+    }
+    catch (err) {
+      console.error(`Could not parse ${file} as JSON`);
+      throw err;
+    }
 
     // Get implementation status for the whole spec
     const implstatus = {

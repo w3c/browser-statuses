@@ -57,7 +57,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host",
         "specUrls": [
           "https://drafts.csswg.org/css-scoping/#host-selector"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "css.selectors.host-context",
@@ -65,7 +66,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host-context()",
         "specUrls": [
           "https://drafts.csswg.org/css-scoping/#host-selector"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "css.selectors.hostfunction",
@@ -73,7 +75,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/:host()",
         "specUrls": [
           "https://drafts.csswg.org/css-scoping/#host-selector"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "css.selectors.slotted",
@@ -81,7 +84,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/::slotted",
         "specUrls": [
           "https://drafts.csswg.org/css-scoping/#slotted-pseudo"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
