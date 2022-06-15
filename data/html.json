@@ -14147,14 +14147,6 @@
         ]
       },
       {
-        "id": "forms",
-        "name": "HTML5 form features",
-        "statusUrl": "https://caniuse.com/forms",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/forms.html#forms"
-        ]
-      },
-      {
         "id": "hardwareconcurrency",
         "name": "navigator.hardwareConcurrency",
         "statusUrl": "https://caniuse.com/hardwareconcurrency",
