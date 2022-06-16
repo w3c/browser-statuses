@@ -15236,6 +15236,14 @@
         ]
       },
       {
+        "id": 5330651267989504,
+        "name": "CSS Color Adjust: color-scheme meta tag",
+        "statusUrl": "https://chromestatus.com/feature/5330651267989504",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#meta-color-scheme"
+        ]
+      },
+      {
         "id": 5341992867332096,
         "name": "Feature Policy control over document.domain",
         "statusUrl": "https://chromestatus.com/feature/5341992867332096",
@@ -15353,6 +15361,14 @@
         "statusUrl": "https://chromestatus.com/feature/5495924260339712",
         "specUrls": [
           "https://github.com/whatwg/html/pull/1829"
+        ]
+      },
+      {
+        "id": 5580139453743104,
+        "name": "Quick intensive timer throttling of loaded background pages",
+        "statusUrl": "https://chromestatus.com/feature/5580139453743104",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html"
         ]
       },
       {
