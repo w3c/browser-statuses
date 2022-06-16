@@ -391,15 +391,6 @@
         ]
       },
       {
-        "id": 6121990213599232,
-        "name": "Unprefixed CSS Animations",
-        "statusUrl": "https://chromestatus.com/feature/6121990213599232",
-        "specUrls": [
-          "http://dev.w3.org/csswg/css-animations-1/"
-        ],
-        "representative": true
-      },
-      {
         "id": 6246168711397376,
         "name": "Spec compliant serialization for ‘animation’ shorthand property",
         "statusUrl": "https://chromestatus.com/feature/6246168711397376",
