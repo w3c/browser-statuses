@@ -238,6 +238,14 @@
         ]
       },
       {
+        "id": 5649558757441536,
+        "name": "Web Custom formats for Async Clipboard API",
+        "statusUrl": "https://chromestatus.com/feature/5649558757441536",
+        "specUrls": [
+          "https://github.com/w3c/clipboard-apis/pull/175"
+        ]
+      },
+      {
         "id": 5671807392677888,
         "name": "Clipboard: read-only files support",
         "statusUrl": "https://chromestatus.com/feature/5671807392677888",
