@@ -1,7 +1,7 @@
 {
   "name": "browser-statuses",
   "description": "Implementation status for Web specifications based on info from external platform status sites",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/w3c/browser-statuses.git"
