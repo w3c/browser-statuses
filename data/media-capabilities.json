@@ -74,7 +74,8 @@
         "statusUrl": "https://chromestatus.com/feature/5123719190020096",
         "specUrls": [
           "https://wicg.github.io/media-capabilities/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 5463541354070016,
@@ -106,7 +107,8 @@
         "statusUrl": "https://chromestatus.com/feature/5869632707624960",
         "specUrls": [
           "https://wicg.github.io/media-capabilities/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 6242376685191168,

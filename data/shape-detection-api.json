@@ -41,7 +41,8 @@
         "statusUrl": "https://chromestatus.com/feature/4757990523535360",
         "specUrls": [
           "https://wicg.github.io/shape-detection-api/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 5644087665360896,
@@ -57,7 +58,8 @@
         "statusUrl": "https://chromestatus.com/feature/5678216012365824",
         "specUrls": [
           "https://wicg.github.io/shape-detection-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

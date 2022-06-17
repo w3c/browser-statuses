@@ -193,7 +193,8 @@
         "statusUrl": "https://caniuse.com/async-clipboard",
         "specUrls": [
           "https://www.w3.org/TR/clipboard-apis/#async-clipboard-api"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "clipboard",
@@ -201,7 +202,8 @@
         "statusUrl": "https://caniuse.com/clipboard",
         "specUrls": [
           "https://www.w3.org/TR/clipboard-apis/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

@@ -344,7 +344,8 @@
         "statusUrl": "https://caniuse.com/fileapi",
         "specUrls": [
           "https://www.w3.org/TR/FileAPI/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "filereader",

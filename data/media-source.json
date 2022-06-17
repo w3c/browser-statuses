@@ -375,7 +375,8 @@
         "statusUrl": "https://caniuse.com/mediasource",
         "specUrls": [
           "https://www.w3.org/TR/media-source/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -385,7 +386,8 @@
         "statusUrl": "https://chromestatus.com/feature/4563797888991232",
         "specUrls": [
           "https://www.w3.org/TR/media-source/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 5177263249162240,
