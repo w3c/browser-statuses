@@ -161,7 +161,20 @@
         "statusUrl": "https://caniuse.com/websockets",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/comms.html#network"
-        ]
+        ],
+        "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 6555138000945152,
+        "name": "Webocket",
+        "statusUrl": "https://chromestatus.com/feature/6555138000945152",
+        "specUrls": [
+          "http://dev.w3.org/html5/websockets/"
+        ],
+        "representative": true,
+        "manual": true
       }
     ]
   }

@@ -982,7 +982,27 @@
   "features": {
     "cors": {
       "url": "https://fetch.spec.whatwg.org/#http-cors-protocol",
-      "title": "CORS protocol"
+      "title": "CORS protocol",
+      "statusref": {
+        "caniuse": [
+          {
+            "id": "cors",
+            "representative": true
+          }
+        ],
+        "chrome": [
+          {
+            "id": 4647328103268352,
+            "representative": true
+          }
+        ],
+        "webkit": [
+          {
+            "id": "feature-cross-origin-resource-policy",
+            "representative": true
+          }
+        ]
+      }
     }
   }
 }
