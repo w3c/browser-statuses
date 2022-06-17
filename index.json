@@ -66093,7 +66093,19 @@
         "ua": "samsunginternet_android",
         "status": "notsupported",
         "source": "bcd",
-        "guess": true,
+        "guess": true
+      },
+      {
+        "ua": "samsunginternet_android",
+        "status": "shipped",
+        "source": "caniuse",
+        "details": [
+          {
+            "status": "shipped",
+            "href": "https://caniuse.com/#feat=webauthn",
+            "representative": true
+          }
+        ],
         "selected": true
       },
       {
