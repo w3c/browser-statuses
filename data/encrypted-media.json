@@ -5,7 +5,7 @@
       "title": "Persistent usage record session"
     },
     "hdcp-detection": {
-      "url": "https://w3c.github.io/encrypted-media/d",
+      "url": "https://w3c.github.io/encrypted-media/",
       "title": "HDCP detection",
       "statusref": {
         "chrome": [
@@ -17,7 +17,7 @@
       }
     },
     "encryption-scheme": {
-      "url": "https://w3c.github.io/encrypted-media/d",
+      "url": "https://w3c.github.io/encrypted-media/",
       "title": "Encryption scheme detection",
       "statusref": {
         "chrome": [
@@ -29,7 +29,7 @@
       }
     },
     "find-existing-sessions": {
-      "url": "https://w3c.github.io/encrypted-media/n",
+      "url": "https://w3c.github.io/encrypted-media/",
       "title": "API to find existing sessions"
     }
   },
@@ -323,7 +323,8 @@
         "statusUrl": "https://caniuse.com/eme",
         "specUrls": [
           "https://www.w3.org/TR/encrypted-media/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -375,7 +376,8 @@
         "statusUrl": "https://chromestatus.com/feature/6578378068983808",
         "specUrls": [
           "https://w3c.github.io/encrypted-media/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

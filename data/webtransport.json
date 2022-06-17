@@ -8,6 +8,16 @@
         "specUrls": [
           "https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"
         ]
+      },
+      {
+        "id": 4854144902889472,
+        "name": "WebTransport",
+        "statusUrl": "https://chromestatus.com/feature/4854144902889472",
+        "specUrls": [
+          "https://wicg.github.io/web-transport/#web-transport"
+        ],
+        "manual": true,
+        "representative": true
       }
     ]
   }

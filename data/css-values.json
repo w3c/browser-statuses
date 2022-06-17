@@ -2,7 +2,7 @@
   "features": {
     "viewport-relative-lengths": {
       "url": "https://www.w3.org/TR/css-values/#viewport-relative-lengths",
-      "title": "viewport-perfcentage lengths",
+      "title": "viewport-percentage lengths",
       "statusref": {
         "caniuse": [
           {

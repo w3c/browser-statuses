@@ -66,15 +66,16 @@ function getImplInfoForFeature(feature) {
       }
 
       const perUA = {};
-      keys.map(key => {
-        return parsers[parser].getImplementationStatus(key.id)
-          .map(impl => {
-            if (key.representative) {
-              impl.representative = true;
-            }
-            return impl;
-          });
-        })
+      keys
+        .map(key => {
+          return parsers[parser].getImplementationStatus(key.id)
+            .map(impl => {
+              if (key.representative) {
+                impl.representative = true;
+              }
+              return impl;
+            });
+          })
         .flat()
         .forEach(impl => {
           if (!perUA[impl.ua]) {
@@ -82,12 +83,12 @@ function getImplInfoForFeature(feature) {
               ua: impl.ua,
               status: impl.status,
               source: impl.source,
-              guess: !impl.representative
+              representative: impl.representative
             };
           }
           const merged = perUA[impl.ua];
-          if ((merged.guess && impl.representative) ||
-              ((merged.guess || impl.representative) &&
+          if ((!merged.representative && impl.representative) ||
+              ((!merged.representative || impl.representative) &&
                 (statuses.indexOf(impl.status) <= statuses.indexOf(merged.status)))) {
             for (const prop of ['flag', 'partial', 'prefix']) {
               if (impl[prop]) {
@@ -98,9 +99,7 @@ function getImplInfoForFeature(feature) {
               }
             }
             merged.status = impl.status;
-            if (impl.representative) {
-              delete merged.guess;
-            }
+            merged.representative = impl.representative;
           }
 
           const detail = Object.assign({}, impl);
@@ -113,7 +112,17 @@ function getImplInfoForFeature(feature) {
             perUA[impl.ua].details.push(detail);
           }
         });
-      return Object.values(perUA);
+
+      // Non-representative implementation statuses are partial by definition
+      // (note some representative statuses may also have the partial flag when
+      // status platform reports that implementation is partial)
+      return Object.values(perUA)
+        .map(impl => {
+          if (!impl.representative) {
+            impl.partial = true;
+          }
+          return impl;
+        });
     })
     .flat()
     .filter(info => !!info)
@@ -139,10 +148,10 @@ function guessImplInfoFromSpec(featureName, implinfo) {
   for (const source of Object.keys(parsers)) {
     for (const ua of uas) {
       // Look for known implementation info
-      // (skipping things that are already guesses so as not to add another
-      // layer of uncertainty)
+      // (skipping things that are already guesses or partial info so as not to
+      // add another layer of uncertainty)
       const impl = implinfo.support.find(o =>
-        (o.source === source) && (o.ua === ua) && !o.guess);
+        (o.source === source) && (o.ua === ua) && !o.guess && !o.partial);
       if (!impl || !impl.status) {
         continue;
       }
@@ -180,66 +189,83 @@ function guessImplInfoFromSpec(featureName, implinfo) {
 }
 
 
+/*******************************************************************************
+ * Select the best implementation status for each user agent from sources.
+ * 
+ * Rules are:
+ * 1. Trust the "feedback" source as being authoritauve. It should contain
+ * feedback from reviewers about implementation statuses that are incorrectly
+ * reported by other sources
+ * 2. Prefer representative implementation info over non representative one.
+ * 3. Similarly, only select inferred implementation status (flagged with
+ * `guess`) when there is no other better info available. The `guess` flag is
+ * typically set when implementation support for a feature is derived from the
+ * implementation support for the whole spec.
+ * 4. Trust authoritative sources for a given user agent over non-authoritative
+ * ones. For instance, if Chrome Platform Status says that a feature is
+ * "in development" in Chrome, ignore input from other sources, even if they
+ * claim that the feature is "shipped" in Chrome.
+ * 5. Keep the most optimistic status otherwise, meaning that if Chrome Platform
+ * Status says that feature A has shipped in Edge while Can I Use says it is in
+ * development, consider that the feature has shipped in Edge.
+ * 6. Due to the close relationship between webkit and Safari, trust Webkit
+ * Status more than any other source about support in Safari. If Webkit Status
+ * claims that a feature is in development in webkit, it means that it cannot be
+ * at a more advanced implementation level in Safari. In other words, constrain
+ * the implementation status in Safari to the implementation status in Webkit
+ * when it is known to be lower.
+ ******************************************************************************/
 function flagBestImplInfo(implinfo) {
-  // Compute the final implementation status for each user agent with
-  // the following rules:
-  // 0. Trust the "feedback" source as being authoritative. It should
-  // contain feedback from reviewers about implementation statuses that
-  // are incorrectly reported by other sources.
-  // 1. Trust platform sources to say the right thing about their own
-  // user-agent or rendering engine. For instance, if chromestatus says
-  // that a feature is "in development" in Chrome, consider that the
-  // feature is really "in development" in Chrome, and ignore possible
-  // claims in other sources that the feature is "shipped" in Chrome.
-  // 2. Keep the most optimistic status otherwise, meaning that if
-  // chromestatus says that feature A has shipped in Edge while
-  // caniuse says it is in development, consider that the feature has
-  // shipped in Edge
-  // 3. Due to the close relationship between webkit and Safari, trust
-  // webkitstatus more than any other source about support in Safari.
-  // If webkitstatus says that a feature is in development in webkit,
-  // it means it cannot be at a more advanced level in Safari. In other
-  // words, constrain the implementation status in Safari to the
-  // implementation status in Webkit, when it is known to be lower.
-  // 4. Only select inferred implementation status (flagged with `guess`) when
-  // there is no other better info.
-
   // Extract the list of user agents that appear in implementation
   // data, computing the status for "webkit" on the side to be able to
-  // apply rule 3, and apply rules for each user agent.
-  const webkitInfo = implinfo.find(impl => (impl.ua === 'webkit') && (impl.source === 'webkit') && !impl.guess);
+  // apply rule 6, and apply rules for each user agent.
+  const webkitInfo = implinfo.find(impl =>
+      (impl.ua === 'webkit') && (impl.source === 'webkit') &&
+      !impl.guess && !impl.partial);
   const webkitStatus = (webkitInfo || {}).status;
   const safariInfo = [];
   const uas = implinfo.map(impl => impl.ua).filter(onlyUnique);
   uas.forEach(ua => {
     let authoritativeStatusFound = false;
-    let coreStatusFound = false;
     let selectedImplInfo = null;
     implinfo.filter(impl => impl.ua === ua).forEach(impl => {
-      if (authoritativeStatusFound) return;
+      // Rule 1: reviewer feedback trumps anything else
+      if (authoritativeStatusFound) {
+        return;
+      }
       if (impl.source === 'feedback') {
-        // Rule 0, status comes from reviewer feedback, consider
-        // it as authoritative
         authoritativeStatusFound = true;
         selectedImplInfo = impl;
+        return;
       }
-      else if ((impl.source in parsers) &&
-          !impl.guess &&
+
+      // Rule 2: prefer representative info
+      if (!impl.representative && selectedImplInfo?.representative) {
+        return;
+      }
+
+      // Rule 3: don't guess if we know better
+      if (impl.guess && selectedImplInfo && !selectedImplInfo.guess) {
+        return;
+      }
+
+      // Rule 4: select authoritative platform
+      if ((impl.source in parsers) &&
           parsers[impl.source].coreua &&
           parsers[impl.source].coreua.includes(ua)) {
-        // Rule 1, status comes from the right platform, we've
-        // found the implementation status unless we got some
-        // feedback from a reviewer that this status is incorrect
-        // which will be handled by Rule 0
-        coreStatusFound = true;
+        if (impl.representative) {
+          authoritativeStatusFound = true;
+        }
         selectedImplInfo = impl;
+        return;
       }
-      else if (!selectedImplInfo || (!coreStatusFound && !impl.guess &&
-          (statuses.indexOf(impl.status) > statuses.indexOf(selectedImplInfo.status)))) {
-        // Rule 2, be optimistic in life... except if Rule 1 was
-        // already applied.
 
-        // Rule 3, constrain safari status to that of webkit when it is lower. When
+      // Rule 5: be optimistic in life
+      if (!selectedImplInfo ||
+          (!impl.guess && selectedImplInfo.guess) ||
+          (impl.representative && !selectedImplInfo.representative) ||
+          (statuses.indexOf(impl.status) > statuses.indexOf(selectedImplInfo.status))) {
+        // Rule 6, constrain safari status to that of webkit when it is lower. When
         // that happens, consider that the info from the webkit status site also
         // applies to safari/safari_ios. Note we don't do that in the generic case
         // because supported in webkit does not always mean supported in Safari.
@@ -254,6 +280,7 @@ function flagBestImplInfo(implinfo) {
         else {
           selectedImplInfo = impl;
         }
+        return;
       }
     });
 
