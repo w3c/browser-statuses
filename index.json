@@ -59260,7 +59260,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
