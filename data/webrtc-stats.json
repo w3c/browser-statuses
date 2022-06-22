@@ -42,22 +42,6 @@
         ]
       },
       {
-        "id": "api.RTCIceCandidatePairStats.circuitBreakerTriggerCount",
-        "name": "api.RTCIceCandidatePairStats.circuitBreakerTriggerCount",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/circuitBreakerTriggerCount",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-circuitbreakertriggercount"
-        ]
-      },
-      {
-        "id": "api.RTCIceCandidatePairStats.consentExpiredTimestamp",
-        "name": "api.RTCIceCandidatePairStats.consentExpiredTimestamp",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/consentExpiredTimestamp",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-consentexpiredtimestamp"
-        ]
-      },
-      {
         "id": "api.RTCIceCandidatePairStats.consentRequestsSent",
         "name": "api.RTCIceCandidatePairStats.consentRequestsSent",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/consentRequestsSent",
@@ -74,14 +58,6 @@
         ]
       },
       {
-        "id": "api.RTCIceCandidatePairStats.firstRequestTimeStamp",
-        "name": "api.RTCIceCandidatePairStats.firstRequestTimeStamp",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/firstRequestTimeStamp",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-firstrequesttimestamp"
-        ]
-      },
-      {
         "id": "api.RTCIceCandidatePairStats.lastPacketReceivedTimestamp",
         "name": "api.RTCIceCandidatePairStats.lastPacketReceivedTimestamp",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketReceivedTimestamp",
@@ -95,22 +71,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastPacketSentTimestamp",
         "specUrls": [
           "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastpacketsenttimestamp"
-        ]
-      },
-      {
-        "id": "api.RTCIceCandidatePairStats.lastRequestTimestamp",
-        "name": "api.RTCIceCandidatePairStats.lastRequestTimestamp",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastRequestTimestamp",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastrequesttimestamp"
-        ]
-      },
-      {
-        "id": "api.RTCIceCandidatePairStats.lastResponseTimestamp",
-        "name": "api.RTCIceCandidatePairStats.lastResponseTimestamp",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/lastResponseTimestamp",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-lastresponsetimestamp"
         ]
       },
       {
@@ -191,22 +151,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/responsesSent",
         "specUrls": [
           "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-responsessent"
-        ]
-      },
-      {
-        "id": "api.RTCIceCandidatePairStats.retransmissionsReceived",
-        "name": "api.RTCIceCandidatePairStats.retransmissionsReceived",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/retransmissionsReceived",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-retransmissionsreceived"
-        ]
-      },
-      {
-        "id": "api.RTCIceCandidatePairStats.retransmissionsSent",
-        "name": "api.RTCIceCandidatePairStats.retransmissionsSent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCIceCandidatePairStats/retransmissionsSent",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcicecandidatepairstats-retransmissionssent"
         ]
       },
       {
@@ -395,15 +339,6 @@
         "specUrls": [
           "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-qpsum",
           "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-qpsum"
-        ]
-      },
-      {
-        "id": "api.RTCRtpStreamStats.sliCount",
-        "name": "api.RTCRtpStreamStats.sliCount",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/RTCRtpStreamStats/sliCount",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-stats/#dom-rtcinboundrtpstreamstats-slicount",
-          "https://w3c.github.io/webrtc-stats/#dom-rtcoutboundrtpstreamstats-slicount"
         ]
       },
       {

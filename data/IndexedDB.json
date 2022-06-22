@@ -813,15 +813,6 @@
         "specUrls": [
           "https://www.w3.org/TR/IndexedDB/"
         ]
-      },
-      {
-        "id": "indexeddb2",
-        "name": "IndexedDB 2.0",
-        "statusUrl": "https://caniuse.com/indexeddb2",
-        "specUrls": [
-          "https://www.w3.org/TR/IndexedDB-2/"
-        ],
-        "representative": true
       }
     ],
     "chrome": [

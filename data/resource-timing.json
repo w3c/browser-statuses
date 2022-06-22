@@ -218,14 +218,6 @@
         ]
       },
       {
-        "id": 5688905986736128,
-        "name": "Prefixed Resource Timing buffer-management API",
-        "statusUrl": "https://chromestatus.com/feature/5688905986736128",
-        "specUrls": [
-          "https://www.w3.org/TR/resource-timing-1/#extensions-performance-interface"
-        ]
-      },
-      {
         "id": 5706026861985792,
         "name": "[ResourceTiming]: Improve alignment with spec for exposing `nextHopProtocol` across origin boundaries",
         "statusUrl": "https://chromestatus.com/feature/5706026861985792",

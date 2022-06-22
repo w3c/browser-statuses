@@ -134,7 +134,7 @@
         "name": "api.Document.animationcancel_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationcancel_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationcancel"
         ]
       },
       {
@@ -142,7 +142,7 @@
         "name": "api.Document.animationend_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationend_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationend"
         ]
       },
       {
@@ -150,7 +150,7 @@
         "name": "api.Document.animationiteration_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationiteration_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationiteration"
         ]
       },
       {
@@ -158,7 +158,7 @@
         "name": "api.Document.animationstart_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/animationstart_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationstart"
         ]
       },
       {
@@ -198,7 +198,7 @@
         "name": "api.HTMLElement.animationcancel_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationcancel_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationcancel"
         ]
       },
       {
@@ -206,7 +206,7 @@
         "name": "api.HTMLElement.animationend_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationend_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationend"
         ]
       },
       {
@@ -214,7 +214,7 @@
         "name": "api.HTMLElement.animationiteration_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationiteration_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationiteration"
         ]
       },
       {
@@ -222,7 +222,7 @@
         "name": "api.HTMLElement.animationstart_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/animationstart_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationstart"
         ]
       },
       {
@@ -230,7 +230,7 @@
         "name": "api.Window.animationcancel_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationcancel_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationcancel"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationcancel"
         ]
       },
       {
@@ -238,7 +238,7 @@
         "name": "api.Window.animationend_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationend_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationend"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationend"
         ]
       },
       {
@@ -246,7 +246,7 @@
         "name": "api.Window.animationiteration_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationiteration_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationiteration"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationiteration"
         ]
       },
       {
@@ -254,7 +254,7 @@
         "name": "api.Window.animationstart_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/animationstart_event",
         "specUrls": [
-          "https://drafts.csswg.org/css-animations/#eventdef-animationevent-animationstart"
+          "https://drafts.csswg.org/css-animations/#eventdef-globaleventhandlers-animationstart"
         ]
       },
       {
@@ -367,14 +367,6 @@
         ]
       },
       {
-        "id": 5151190746660864,
-        "name": "Remove prefixed 'animationIteration' event handler",
-        "statusUrl": "https://chromestatus.com/feature/5151190746660864",
-        "specUrls": [
-          "https://drafts.csswg.org/css-animations-1/#event-handlers-on-elements-document-objects-and-window-objects"
-        ]
-      },
-      {
         "id": 5699616519487488,
         "name": "CSSKeyframesRule.insertRule()",
         "statusUrl": "https://chromestatus.com/feature/5699616519487488",
@@ -395,7 +387,7 @@
         "name": "Unprefixed CSS Animations",
         "statusUrl": "https://chromestatus.com/feature/6121990213599232",
         "specUrls": [
-          "http://dev.w3.org/csswg/css-animations-1/"
+          "http://dev.w3.org/csswg/css-animations-1"
         ],
         "representative": true
       },

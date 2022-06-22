@@ -2366,22 +2366,6 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.oncanplay",
-        "name": "api.GlobalEventHandlers.oncanplay",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/oncanplay",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncanplay"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.oncanplaythrough",
-        "name": "api.GlobalEventHandlers.oncanplaythrough",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/oncanplaythrough",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oncanplaythrough"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.onchange",
         "name": "api.GlobalEventHandlers.onchange",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onchange",
@@ -2475,14 +2459,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondrop",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrop"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondurationchange",
-        "name": "api.GlobalEventHandlers.ondurationchange",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondurationchange",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondurationchange"
         ]
       },
       {
@@ -13823,6 +13799,13 @@
         ]
       },
       {
+        "id": "http.headers.Cross-Origin-Embedder-Policy.credentialless",
+        "name": "http.headers.Cross-Origin-Embedder-Policy.credentialless",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/origin.html#coep-credentialless"
+        ]
+      },
+      {
         "id": "http.headers.Cross-Origin-Opener-Policy",
         "name": "http.headers.Cross-Origin-Opener-Policy",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy",
@@ -13844,6 +13827,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/document-domain",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/infrastructure.html#document-domain-feature"
+        ]
+      },
+      {
+        "id": "http.status.103",
+        "name": "http.status.103",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Status/103",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/semantics.html#early-hints"
         ]
       },
       {
@@ -15492,6 +15483,14 @@
         ]
       },
       {
+        "id": 5639484386312192,
+        "name": "onsecuritypolicyviolation event handler IDL attribute",
+        "statusUrl": "https://chromestatus.com/feature/5639484386312192",
+        "specUrls": [
+          "https://html.spec.whatwg.org"
+        ]
+      },
+      {
         "id": 5639849247768576,
         "name": "imageSmoothingEnabled attribute for CanvasRenderingContext2D",
         "statusUrl": "https://chromestatus.com/feature/5639849247768576",
@@ -16009,6 +16008,14 @@
         "statusUrl": "https://chromestatus.com/feature/5737185317748736",
         "specUrls": [
           "https://github.com/whatwg/html/pull/5894"
+        ]
+      },
+      {
+        "id": 5739143222001664,
+        "name": "onslotchange event handler IDL attribute",
+        "statusUrl": "https://chromestatus.com/feature/5739143222001664",
+        "specUrls": [
+          "https://html.spec.whatwg.org"
         ]
       },
       {

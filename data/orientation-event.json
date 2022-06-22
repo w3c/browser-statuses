@@ -223,6 +223,14 @@
         ]
       },
       {
+        "id": 5051845089689600,
+        "name": "Implement requestPermission() for DeviceOrientationEvent and DeviceMotionEvent",
+        "statusUrl": "https://chromestatus.com/feature/5051845089689600",
+        "specUrls": [
+          "https://w3c.github.io/deviceorientation"
+        ]
+      },
+      {
         "id": 5468407470227456,
         "name": "Remove Insecure Usage of DeviceOrientationEvent",
         "statusUrl": "https://chromestatus.com/feature/5468407470227456",

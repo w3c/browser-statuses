@@ -54,14 +54,6 @@
         ]
       },
       {
-        "id": 5330651267989504,
-        "name": "CSS Color Adjust: color-scheme meta tag",
-        "statusUrl": "https://chromestatus.com/feature/5330651267989504",
-        "specUrls": [
-          "https://drafts.csswg.org/css-color-adjust/#color-scheme-meta"
-        ]
-      },
-      {
         "id": 5653721679659008,
         "name": "CSS Color Adjust: Remove 'only' and support used 'dark' for preferred 'light' for color-scheme",
         "statusUrl": "https://chromestatus.com/feature/5653721679659008",
@@ -90,7 +82,7 @@
         "name": "CSS Color Adjust: color-scheme property",
         "statusUrl": "https://chromestatus.com/feature/6070987093180416",
         "specUrls": [
-          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+          "https://www.w3.org/TR/css-color-adjust-1/#color-scheme-prop"
         ]
       }
     ]

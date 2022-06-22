@@ -74,14 +74,6 @@
         ]
       },
       {
-        "id": "api.XRInputSource.gamepad",
-        "name": "api.XRInputSource.gamepad",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gamepad",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-gamepads-module/#dom-xrinputsource-gamepad"
-        ]
-      },
-      {
         "id": "api.XRInputSource.gripSpace",
         "name": "api.XRInputSource.gripSpace",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRInputSource/gripSpace",
@@ -436,14 +428,6 @@
         ]
       },
       {
-        "id": "api.XRSession.environmentBlendMode",
-        "name": "api.XRSession.environmentBlendMode",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/environmentBlendMode",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-environmentblendmode"
-        ]
-      },
-      {
         "id": "api.XRSession.inputSources",
         "name": "api.XRSession.inputSources",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/inputSources",
@@ -458,14 +442,6 @@
         "specUrls": [
           "https://immersive-web.github.io/webxr/#eventdef-xrsession-inputsourceschange",
           "https://immersive-web.github.io/webxr/#dom-xrsession-oninputsourceschange"
-        ]
-      },
-      {
-        "id": "api.XRSession.interactionMode",
-        "name": "api.XRSession.interactionMode",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRSession/interactionMode",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-ar-module/#dom-xrsession-interactionmode"
         ]
       },
       {
@@ -654,14 +630,6 @@
         ]
       },
       {
-        "id": "api.XRView.isFirstPersonObserver",
-        "name": "api.XRView.isFirstPersonObserver",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/isFirstPersonObserver",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-ar-module/#dom-xrview-isfirstpersonobserver"
-        ]
-      },
-      {
         "id": "api.XRView.projectionMatrix",
         "name": "api.XRView.projectionMatrix",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XRView/projectionMatrix",
@@ -843,27 +811,11 @@
     ],
     "chrome": [
       {
-        "id": 5450241148977152,
-        "name": "WebXR AR Module",
-        "statusUrl": "https://chromestatus.com/feature/5450241148977152",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-ar-module/"
-        ]
-      },
-      {
         "id": 5640976515203072,
         "name": "WebXR dynamic viewport scaling",
         "statusUrl": "https://chromestatus.com/feature/5640976515203072",
         "specUrls": [
           "https://immersive-web.github.io/webxr/#dom-xrview-requestviewportscale"
-        ]
-      },
-      {
-        "id": 5659025263820800,
-        "name": "WebXR Gamepads Module - Level 1",
-        "statusUrl": "https://chromestatus.com/feature/5659025263820800",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-gamepads-module/"
         ]
       },
       {
@@ -874,14 +826,6 @@
           "https://immersive-web.github.io/webxr/"
         ],
         "representative": true
-      },
-      {
-        "id": 5719474055413760,
-        "name": "WebXR hand input module - Level 1",
-        "statusUrl": "https://chromestatus.com/feature/5719474055413760",
-        "specUrls": [
-          "https://immersive-web.github.io/webxr-hand-input/"
-        ]
       }
     ],
     "webkit": [

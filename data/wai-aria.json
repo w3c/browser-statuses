@@ -627,15 +627,6 @@
         "specUrls": [
           "https://w3c.github.io/aria/#idl-interface"
         ]
-      },
-      {
-        "id": 5761503818940416,
-        "name": "ARIA 1.1",
-        "statusUrl": "https://chromestatus.com/feature/5761503818940416",
-        "specUrls": [
-          "https://www.w3.org/TR/wai-aria-1.1/"
-        ],
-        "representative": true
       }
     ]
   }

@@ -147,7 +147,7 @@
         "name": "CSS Flexbox",
         "statusUrl": "https://chromestatus.com/feature/4837301406400512",
         "specUrls": [
-          "http://dev.w3.org/csswg/css-flexbox/"
+          "http://dev.w3.org/csswg/css-flexbox"
         ],
         "representative": true
       },

@@ -68,14 +68,6 @@
         "specUrls": [
           "https://drafts.csswg.org/css-display/#box-generation"
         ]
-      },
-      {
-        "id": 5769454877147136,
-        "name": "display: flow-root",
-        "statusUrl": "https://chromestatus.com/feature/5769454877147136",
-        "specUrls": [
-          "https://drafts.csswg.org/css-display-3/#valdef-display-flow-root"
-        ]
       }
     ]
   }

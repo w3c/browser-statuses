@@ -144,24 +144,6 @@
         "id": "css-page-break",
         "manual": true,
         "lastreviewed": "2022-06-05"
-      },
-      {
-        "id": "css-widows-orphans",
-        "name": "CSS widows & orphans",
-        "statusUrl": "https://caniuse.com/css-widows-orphans",
-        "specUrls": [
-          "https://drafts.csswg.org/css-break-3/#widows-orphans"
-        ]
-      }
-    ],
-    "chrome": [
-      {
-        "id": 5630943616303104,
-        "name": "CSS break-after, break-before and break-inside (Generic breaking control)",
-        "statusUrl": "https://chromestatus.com/feature/5630943616303104",
-        "specUrls": [
-          "https://drafts.csswg.org/css-break-3/#breaking-controls"
-        ]
       }
     ]
   }

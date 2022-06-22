@@ -10,22 +10,6 @@
         ]
       },
       {
-        "id": "html.manifest.categories",
-        "name": "html.manifest.categories",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/categories",
-        "specUrls": [
-          "https://w3c.github.io/manifest-app-info/#categories-member"
-        ]
-      },
-      {
-        "id": "html.manifest.description",
-        "name": "html.manifest.description",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/description",
-        "specUrls": [
-          "https://w3c.github.io/manifest-app-info/#description-member"
-        ]
-      },
-      {
         "id": "html.manifest.dir",
         "name": "html.manifest.dir",
         "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/dir",
@@ -39,14 +23,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/display",
         "specUrls": [
           "https://w3c.github.io/manifest/#display-member"
-        ]
-      },
-      {
-        "id": "html.manifest.iarc_rating_id",
-        "name": "html.manifest.iarc_rating_id",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/iarc_rating_id",
-        "specUrls": [
-          "https://w3c.github.io/manifest-app-info/#iarc_rating_id-member"
         ]
       },
       {
@@ -103,14 +79,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/scope",
         "specUrls": [
           "https://w3c.github.io/manifest/#scope-member"
-        ]
-      },
-      {
-        "id": "html.manifest.screenshots",
-        "name": "html.manifest.screenshots",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/screenshots",
-        "specUrls": [
-          "https://w3c.github.io/manifest-app-info/#screenshots-member"
         ]
       },
       {
@@ -241,14 +209,6 @@
         "statusUrl": "https://chromestatus.com/feature/6064014410907648",
         "specUrls": [
           "https://github.com/w3c/manifest/pull/988"
-        ]
-      },
-      {
-        "id": 6422599217184768,
-        "name": "Richer Install UI for PWAs",
-        "statusUrl": "https://chromestatus.com/feature/6422599217184768",
-        "specUrls": [
-          "https://w3c.github.io/manifest-app-info/#supplementary-manifest-members"
         ]
       },
       {

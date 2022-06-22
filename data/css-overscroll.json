@@ -43,26 +43,7 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-overscroll-behavior",
-        "name": "CSS overscroll-behavior",
-        "statusUrl": "https://caniuse.com/css-overscroll-behavior",
-        "specUrls": [
-          "https://drafts.csswg.org/css-overscroll-behavior-1/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
-      {
-        "id": 5729982653399040,
-        "name": "Overscroll Behavior logical longhands",
-        "statusUrl": "https://chromestatus.com/feature/5729982653399040",
-        "specUrls": [
-          "https://drafts.csswg.org/css-overscroll-behavior-1/#overscroll-behavior-longhands-logical"
-        ]
-      },
       {
         "id": 5734614437986304,
         "name": "CSS overscroll-behavior",

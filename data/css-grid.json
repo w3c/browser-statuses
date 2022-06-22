@@ -281,19 +281,11 @@
         "representative": true
       },
       {
-        "id": 4986266210795520,
-        "name": "Unprefix CSS Grid Layout gutter properties",
-        "statusUrl": "https://chromestatus.com/feature/4986266210795520",
-        "specUrls": [
-          "https://www.w3.org/TR/css-grid-1/#gutters"
-        ]
-      },
-      {
         "id": 5663795354533888,
         "name": "CSS Subgrid",
         "statusUrl": "https://chromestatus.com/feature/5663795354533888",
         "specUrls": [
-          "https://drafts.csswg.org/css-grid-2"
+          "https://www.w3.org/TR/css-grid-2/#subgrids"
         ]
       },
       {
@@ -302,14 +294,6 @@
         "statusUrl": "https://chromestatus.com/feature/5958076270116864",
         "specUrls": [
           "https://drafts.csswg.org/css-grid/#resolved-track-list"
-        ]
-      },
-      {
-        "id": 6037871692611584,
-        "name": "CSS grid-template properties interpolation",
-        "statusUrl": "https://chromestatus.com/feature/6037871692611584",
-        "specUrls": [
-          "https://www.w3.org/TR/css-grid-1"
         ]
       },
       {

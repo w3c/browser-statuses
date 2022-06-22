@@ -152,7 +152,7 @@ export function getImplementationStatus(key) {
 export function findMappings(shortname, relatedUrls, knownData) {
   const mappings = Object.entries(data.data)
     .filter(([id, feature]) => {
-      const url = feature.spec;
+      const url = feature.spec + '/';
       return id === shortname || (url && !!relatedUrls.find(u => url.startsWith(u)));
     })
     .map(([id, feature]) => {

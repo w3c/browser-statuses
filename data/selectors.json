@@ -496,107 +496,11 @@
     ],
     "caniuse": [
       {
-        "id": "css-any-link",
-        "name": "CSS :any-link selector",
-        "statusUrl": "https://caniuse.com/css-any-link",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
-        ]
-      },
-      {
         "id": "css-case-insensitive",
         "name": "Case-insensitive CSS attribute selectors",
         "statusUrl": "https://caniuse.com/css-case-insensitive",
         "specUrls": [
           "https://www.w3.org/TR/selectors-4/#attribute-case"
-        ]
-      },
-      {
-        "id": "css-default-pseudo",
-        "name": ":default CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-default-pseudo",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-default-pseudo"
-        ]
-      },
-      {
-        "id": "css-descendant-gtgt",
-        "name": "Explicit descendant combinator >>",
-        "statusUrl": "https://caniuse.com/css-descendant-gtgt",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#descendant-combinators"
-        ]
-      },
-      {
-        "id": "css-dir-pseudo",
-        "name": ":dir() CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-dir-pseudo",
-        "specUrls": [
-          "https://www.w3.org/TR/selectors4/#the-dir-pseudo"
-        ]
-      },
-      {
-        "id": "css-first-line",
-        "name": "CSS first-line pseudo-element",
-        "statusUrl": "https://caniuse.com/css-first-line",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-3/#first-line"
-        ]
-      },
-      {
-        "id": "css-focus-visible",
-        "name": ":focus-visible CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-focus-visible",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
-        ]
-      },
-      {
-        "id": "css-focus-within",
-        "name": ":focus-within CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-focus-within",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
-        ]
-      },
-      {
-        "id": "css-has",
-        "name": ":has() CSS relational pseudo-class",
-        "statusUrl": "https://caniuse.com/css-has",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#relational"
-        ]
-      },
-      {
-        "id": "css-in-out-of-range",
-        "name": ":in-range and :out-of-range CSS pseudo-classes",
-        "statusUrl": "https://caniuse.com/css-in-out-of-range",
-        "specUrls": [
-          "https://www.w3.org/TR/selectors4/#range-pseudos"
-        ]
-      },
-      {
-        "id": "css-indeterminate-pseudo",
-        "name": ":indeterminate CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-indeterminate-pseudo",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#indeterminate"
-        ]
-      },
-      {
-        "id": "css-matches-pseudo",
-        "name": ":is() CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-matches-pseudo",
-        "specUrls": [
-          "https://www.w3.org/TR/selectors4/#matches"
-        ]
-      },
-      {
-        "id": "css-not-sel-list",
-        "name": "selector list argument of :not()",
-        "statusUrl": "https://caniuse.com/css-not-sel-list",
-        "specUrls": [
-          "https://www.w3.org/TR/selectors4/#negation"
         ]
       },
       {
@@ -606,41 +510,9 @@
         "specUrls": [
           "https://drafts.csswg.org/selectors/#the-nth-child-pseudo"
         ]
-      },
-      {
-        "id": "css-optional-pseudo",
-        "name": ":optional CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-optional-pseudo",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#optional-pseudo"
-        ]
-      },
-      {
-        "id": "css-placeholder-shown",
-        "name": ":placeholder-shown CSS pseudo-class",
-        "statusUrl": "https://caniuse.com/css-placeholder-shown",
-        "specUrls": [
-          "https://www.w3.org/TR/selectors4/#placeholder"
-        ]
       }
     ],
     "chrome": [
-      {
-        "id": 4600991135563776,
-        "name": "CSS Selectors 4 Pseudo-Class :where()",
-        "statusUrl": "https://chromestatus.com/feature/4600991135563776",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#zero-matches"
-        ]
-      },
-      {
-        "id": 4784885279490048,
-        "name": "Link element pseudo selectors",
-        "statusUrl": "https://chromestatus.com/feature/4784885279490048",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
-        ]
-      },
       {
         "id": 5071058079055872,
         "name": "CSS :lang pseudo class level 4",
@@ -658,59 +530,11 @@
         ]
       },
       {
-        "id": 5363834508279808,
-        "name": "CSS4 :focus-within pseudo-class",
-        "statusUrl": "https://chromestatus.com/feature/5363834508279808",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
-        ]
-      },
-      {
-        "id": 5445716612743168,
-        "name": "CSS Selectors 4 Pseudo-Classes :is(), :where()",
-        "statusUrl": "https://chromestatus.com/feature/5445716612743168",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#matches"
-        ]
-      },
-      {
-        "id": 5610936115134464,
-        "name": "Case-insensitive Attribute Selector Matching",
-        "statusUrl": "https://chromestatus.com/feature/5610936115134464",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#attribute-case"
-        ]
-      },
-      {
-        "id": 5658873031557120,
-        "name": "Use :focus-visible in the default UA style sheet",
-        "statusUrl": "https://chromestatus.com/feature/5658873031557120",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
-        ]
-      },
-      {
-        "id": 5705677431373824,
-        "name": "Child-indexed pseudo-classes matching elements without a parent",
-        "statusUrl": "https://chromestatus.com/feature/5705677431373824",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#child-index"
-        ]
-      },
-      {
-        "id": 5724922840088576,
-        "name": "CSS Selectors 4 Pseudo-Class :any-link",
-        "statusUrl": "https://chromestatus.com/feature/5724922840088576",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-any-link-pseudo"
-        ]
-      },
-      {
         "id": 5751531651465216,
         "name": "CSS Selector Pseudo class :dir()",
         "statusUrl": "https://chromestatus.com/feature/5751531651465216",
         "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-dir-pseudo"
+          "https://www.w3.org/TR/selectors-4/#the-dir-pseudo"
         ]
       },
       {
@@ -719,40 +543,6 @@
         "statusUrl": "https://chromestatus.com/feature/5794378545102848",
         "specUrls": [
           "https://www.w3.org/TR/selectors-4/#relational"
-        ]
-      },
-      {
-        "id": 5823526732824576,
-        "name": "CSS Selectors 4 Pseudo-Class :focus-visible",
-        "statusUrl": "https://chromestatus.com/feature/5823526732824576",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
-        ]
-      },
-      {
-        "id": 6404760559157248,
-        "name": "The Placeholder-shown Pseudo-class: :placeholder-shown",
-        "statusUrl": "https://chromestatus.com/feature/6404760559157248",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#placeholder"
-        ]
-      }
-    ],
-    "webkit": [
-      {
-        "id": "feature-css-selector-:focus-visible",
-        "name": "CSS Selector :focus-visible",
-        "statusUrl": "https://webkit.org/status/#feature-css-selector-:focus-visible",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-visible-pseudo"
-        ]
-      },
-      {
-        "id": "feature-css-selector-:focus-within",
-        "name": "CSS Selector :focus-within",
-        "statusUrl": "https://webkit.org/status/#feature-css-selector-:focus-within",
-        "specUrls": [
-          "https://drafts.csswg.org/selectors-4/#the-focus-within-pseudo"
         ]
       }
     ]

@@ -181,26 +181,6 @@
         "specUrls": [
           "http://w3c.github.io/geolocation-api/"
         ]
-      },
-      {
-        "id": 6348855016685568,
-        "name": "Geolocation",
-        "statusUrl": "https://chromestatus.com/feature/6348855016685568",
-        "specUrls": [
-          "http://www.w3.org/TR/geolocation-API/"
-        ],
-        "representative": true
-      }
-    ],
-    "webkit": [
-      {
-        "id": "specification-geolocation-api",
-        "name": "Geolocation API",
-        "statusUrl": "https://webkit.org/status/#specification-geolocation-api",
-        "specUrls": [
-          "https://www.w3.org/TR/geolocation-API/"
-        ],
-        "representative": true
       }
     ]
   }

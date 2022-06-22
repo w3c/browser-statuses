@@ -158,7 +158,7 @@ export function findMappings(shortname, relatedUrls, knownData) {
     let res = [];
     if (node.__compat && node.__compat.spec_url) {
       const specUrls = [node.__compat.spec_url].flat();
-      if (!!relatedUrls.find(u => specUrls.find(specUrl => specUrl.startsWith(u)))) {
+      if (!!relatedUrls.find(u => specUrls.find(specUrl => (specUrl + '/').startsWith(u)))) {
         res = [
           {
             id: id,
