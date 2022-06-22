@@ -15272,7 +15272,7 @@
       },
       {
         "ua": "chrome",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -15292,7 +15292,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -15312,7 +15312,7 @@
       },
       {
         "ua": "edge",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chrome",
         "partial": true,
         "selected": true
