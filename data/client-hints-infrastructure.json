@@ -10,6 +10,14 @@
         ]
       },
       {
+        "id": 6308751530262528,
+        "name": "Syntax changes to markup based Client Hints delegation",
+        "statusUrl": "https://chromestatus.com/feature/6308751530262528",
+        "specUrls": [
+          "https://github.com/WICG/client-hints-infrastructure/pull/109"
+        ]
+      },
+      {
         "id": 6658223894429696,
         "name": "Standardize existing client hint naming",
         "statusUrl": "https://chromestatus.com/feature/6658223894429696",
