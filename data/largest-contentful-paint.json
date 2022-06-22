@@ -73,7 +73,8 @@
         "statusUrl": "https://chromestatus.com/feature/5666250908762112",
         "specUrls": [
           "https://wicg.github.io/largest-contentful-paint/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }
