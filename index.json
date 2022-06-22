@@ -27266,7 +27266,7 @@
       },
       {
         "ua": "edge",
-        "status": "notsupported",
+        "status": "experimental",
         "source": "bcd",
         "partial": true
       },
@@ -28086,21 +28086,21 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
@@ -28121,7 +28121,7 @@
       },
       {
         "ua": "opera",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
@@ -28154,21 +28154,21 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
@@ -28189,7 +28189,7 @@
       },
       {
         "ua": "opera",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true,
         "selected": true
@@ -50399,7 +50399,7 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
@@ -50432,7 +50432,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
@@ -50465,7 +50465,7 @@
       },
       {
         "ua": "edge",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
@@ -50551,7 +50551,7 @@
       },
       {
         "ua": "opera",
-        "status": "notsupported",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
@@ -63882,33 +63882,6 @@
     "shortname": "tc39-array-grouping",
     "support": [
       {
-        "ua": "chrome",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "chrome_android",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "edge",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "firefox",
-        "status": "experimental",
-        "source": "bcd",
-        "partial": true
-      },
-      {
         "ua": "firefox",
         "status": "shipped",
         "source": "chrome",
@@ -63916,43 +63889,9 @@
         "selected": true
       },
       {
-        "ua": "firefox_android",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "opera",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "safari",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true
-      },
-      {
         "ua": "safari",
         "status": "shipped",
         "source": "chrome",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "safari_ios",
-        "status": "notsupported",
-        "source": "bcd",
-        "partial": true,
-        "selected": true
-      },
-      {
-        "ua": "samsunginternet_android",
-        "status": "notsupported",
-        "source": "bcd",
         "partial": true,
         "selected": true
       }
