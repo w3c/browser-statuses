@@ -884,6 +884,14 @@
         ]
       },
       {
+        "id": 5812155903377408,
+        "name": "CSSOM View smooth scroll API",
+        "statusUrl": "https://chromestatus.com/feature/5812155903377408",
+        "specUrls": [
+          "http://dev.w3.org/csswg/cssom-view"
+        ]
+      },
+      {
         "id": 6169687914184704,
         "name": "Fractional coordinates in MouseEvents",
         "statusUrl": "https://chromestatus.com/feature/6169687914184704",

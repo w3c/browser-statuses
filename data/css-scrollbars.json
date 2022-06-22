@@ -18,23 +18,13 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-scrollbar",
-        "name": "CSS scrollbar styling",
-        "statusUrl": "https://caniuse.com/css-scrollbar",
-        "specUrls": [
-          "https://drafts.csswg.org/css-scrollbars-1/"
-        ]
-      }
-    ],
     "chrome": [
       {
         "id": 5665308343795712,
         "name": "CSS Scrollbars: scrollbar-color, scrollbar-width",
         "statusUrl": "https://chromestatus.com/feature/5665308343795712",
         "specUrls": [
-          "https://drafts.csswg.org/css-scrollbars/"
+          "https://www.w3.org/TR/css-scrollbars-1"
         ]
       }
     ]

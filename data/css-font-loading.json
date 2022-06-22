@@ -292,6 +292,14 @@
         "specUrls": [
           "https://dev.w3.org/csswg/css-font-loading/#fontfacesetloadevent"
         ]
+      },
+      {
+        "id": 6244676289953792,
+        "name": "CSS Font Loading",
+        "statusUrl": "https://chromestatus.com/feature/6244676289953792",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-font-loading-3"
+        ]
       }
     ]
   },

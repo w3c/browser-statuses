@@ -93,16 +93,6 @@
         ]
       }
     ],
-    "chrome": [
-      {
-        "id": 5226946044624896,
-        "name": "Intent to Deprecate & Remove: Change how New Formatting Contexts sized and positioned off a shape area. ",
-        "statusUrl": "https://chromestatus.com/feature/5226946044624896",
-        "specUrls": [
-          "https://drafts.csswg.org/css-shapes-1"
-        ]
-      }
-    ],
     "webkit": [
       {
         "id": "specification-css-shapes-level-1",

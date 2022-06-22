@@ -122,7 +122,7 @@ export function findMappings(shortname, relatedUrls, knownData) {
       return data[prop]
         .filter(feature => {
           const url = (feature.url ?? '').replace(/^http:/, 'https:');
-          return url && !!relatedUrls.find(u => url.startsWith(u) | u.startsWith(url));
+          return url && !!relatedUrls.find(u => (url + '/').startsWith(u) | u.startsWith(url));
         })
         .map(feature => {
           const id = type + '-' + feature.name.replace(/ /g, '-').toLowerCase();

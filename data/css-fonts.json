@@ -526,14 +526,6 @@
         ]
       },
       {
-        "id": "css-font-stretch",
-        "name": "CSS font-stretch",
-        "statusUrl": "https://caniuse.com/css-font-stretch",
-        "specUrls": [
-          "https://www.w3.org/TR/css-fonts-3/#font-stretch-prop"
-        ]
-      },
-      {
         "id": "extended-system-fonts",
         "name": "ui-serif, ui-sans-serif, ui-monospace and ui-rounded values for font-family",
         "statusUrl": "https://caniuse.com/extended-system-fonts",
@@ -558,14 +550,6 @@
         ]
       },
       {
-        "id": "font-size-adjust",
-        "name": "CSS font-size-adjust",
-        "statusUrl": "https://caniuse.com/font-size-adjust",
-        "specUrls": [
-          "https://www.w3.org/TR/css-fonts-3/#font-size-adjust-prop"
-        ]
-      },
-      {
         "id": "font-unicode-range",
         "name": "Font unicode-range subsetting",
         "statusUrl": "https://caniuse.com/font-unicode-range",
@@ -579,14 +563,6 @@
         "statusUrl": "https://caniuse.com/font-variant-alternates",
         "specUrls": [
           "https://drafts.csswg.org/css-fonts-4/#propdef-font-variant-alternates"
-        ]
-      },
-      {
-        "id": "font-variant-numeric",
-        "name": "CSS font-variant-numeric",
-        "statusUrl": "https://caniuse.com/font-variant-numeric",
-        "specUrls": [
-          "https://drafts.csswg.org/css-fonts-3/#propdef-font-variant-numeric"
         ]
       },
       {
@@ -612,15 +588,7 @@
         "name": "OpenType variable font support",
         "statusUrl": "https://chromestatus.com/feature/4708676673732608",
         "specUrls": [
-          "https://drafts.csswg.org/css-fonts-4/"
-        ]
-      },
-      {
-        "id": 4708736996212736,
-        "name": "Cross Origin Font Loading Restriction",
-        "statusUrl": "https://chromestatus.com/feature/4708736996212736",
-        "specUrls": [
-          "http://www.w3.org/TR/css-fonts-3/#font-fetching-requirements"
+          "https://drafts.csswg.org/css-fonts-4"
         ]
       },
       {
@@ -629,22 +597,6 @@
         "statusUrl": "https://chromestatus.com/feature/4799947908055040",
         "specUrls": [
           "https://drafts.csswg.org/css-fonts-4/#font-display-desc"
-        ]
-      },
-      {
-        "id": 4889527134978048,
-        "name": "CSS font-kerning",
-        "statusUrl": "https://chromestatus.com/feature/4889527134978048",
-        "specUrls": [
-          "http://www.w3.org/TR/css-fonts-3/#font-kerning-prop"
-        ]
-      },
-      {
-        "id": 4965040604053504,
-        "name": "CSS font-variant-east-asian",
-        "statusUrl": "https://chromestatus.com/feature/4965040604053504",
-        "specUrls": [
-          "https://drafts.csswg.org/css-fonts-3/#font-variant-east-asian-prop"
         ]
       },
       {
@@ -716,7 +668,7 @@
         "name": "xxx-large font size",
         "statusUrl": "https://chromestatus.com/feature/5675317559558144",
         "specUrls": [
-          "https://drafts.csswg.org/css-fonts-4/#valdef-font-size-absolute-size"
+          "https://www.w3.org/TR/css-fonts-4/#font-size-prop"
         ]
       },
       {
@@ -725,14 +677,6 @@
         "statusUrl": "https://chromestatus.com/feature/5676948229455872",
         "specUrls": [
           "https://drafts.csswg.org/css-fonts-4/#local-font-fallback"
-        ]
-      },
-      {
-        "id": 5678497057996800,
-        "name": "CSS font-variant-ligatures",
-        "statusUrl": "https://chromestatus.com/feature/5678497057996800",
-        "specUrls": [
-          "http://www.w3.org/TR/css-fonts-3/#font-variant-ligatures-prop"
         ]
       },
       {
@@ -749,14 +693,6 @@
         "statusUrl": "https://chromestatus.com/feature/5716551491649536",
         "specUrls": [
           "https://drafts.csswg.org/css-fonts/#font-variant-numeric-prop"
-        ]
-      },
-      {
-        "id": 5720910061371392,
-        "name": "CSS font-size-adjust",
-        "statusUrl": "https://chromestatus.com/feature/5720910061371392",
-        "specUrls": [
-          "http://www.w3.org/TR/css-fonts-3/#propdef-font-size-adjust"
         ]
       },
       {

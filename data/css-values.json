@@ -362,6 +362,14 @@
         ]
       },
       {
+        "id": 5765241438732288,
+        "name": "CSS calc()",
+        "statusUrl": "https://chromestatus.com/feature/5765241438732288",
+        "specUrls": [
+          "http://www.w3.org/TR/css3-values"
+        ]
+      },
+      {
         "id": 5983903483428864,
         "name": "CSS 'q' length unit",
         "statusUrl": "https://chromestatus.com/feature/5983903483428864",

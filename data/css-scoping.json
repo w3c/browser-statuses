@@ -128,14 +128,6 @@
         "specUrls": [
           "https://drafts.csswg.org/css-scoping/#flattening"
         ]
-      },
-      {
-        "id": 5755183847964672,
-        "name": "Single <compound-selector> for :host(), :host-context()",
-        "statusUrl": "https://chromestatus.com/feature/5755183847964672",
-        "specUrls": [
-          "https://drafts.csswg.org/css-scoping/#selectordef-host-function"
-        ]
       }
     ]
   }

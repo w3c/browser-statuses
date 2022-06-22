@@ -46,14 +46,6 @@
         ]
       },
       {
-        "id": "html.manifest.share_target",
-        "name": "html.manifest.share_target",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/Manifest/share_target",
-        "specUrls": [
-          "https://w3c.github.io/web-share-target/#share_target-member"
-        ]
-      },
-      {
         "id": "http.headers.Feature-Policy.web-share",
         "name": "http.headers.Feature-Policy.web-share",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Feature-Policy/web-share",
@@ -90,14 +82,6 @@
           "https://w3c.github.io/web-share/"
         ],
         "representative": true
-      },
-      {
-        "id": 6124071381106688,
-        "name": "Web Share Target Level 2",
-        "statusUrl": "https://chromestatus.com/feature/6124071381106688",
-        "specUrls": [
-          "https://w3c.github.io/web-share-target/level-2/"
-        ]
       },
       {
         "id": 6362499966304256,

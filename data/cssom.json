@@ -400,99 +400,11 @@
         ]
       },
       {
-        "id": "api.CaretPosition",
-        "name": "api.CaretPosition",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/CaretPosition",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#caret-position"
-        ]
-      },
-      {
-        "id": "api.CaretPosition.getClientRect",
-        "name": "api.CaretPosition.getClientRect",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-caretposition-getclientrect"
-        ]
-      },
-      {
-        "id": "api.CaretPosition.offset",
-        "name": "api.CaretPosition.offset",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-caretposition-offset"
-        ]
-      },
-      {
-        "id": "api.CaretPosition.offsetNode",
-        "name": "api.CaretPosition.offsetNode",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-caretposition-offsetnode"
-        ]
-      },
-      {
-        "id": "api.Document",
-        "name": "api.Document",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document",
-        "specUrls": [
-          "https://dom.spec.whatwg.org/#interface-document",
-          "https://html.spec.whatwg.org/multipage/dom.html#the-document-object",
-          "https://drafts.csswg.org/cssom-view/#extensions-to-the-document-interface",
-          "https://w3c.github.io/pointerlock/#extensions-to-the-document-interface",
-          "https://w3c.github.io/selection-api/#extensions-to-document-interface"
-        ]
-      },
-      {
         "id": "api.Document.adoptedStyleSheets",
         "name": "api.Document.adoptedStyleSheets",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/adoptedStyleSheets",
         "specUrls": [
           "https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets"
-        ]
-      },
-      {
-        "id": "api.Document.caretPositionFromPoint",
-        "name": "api.Document.caretPositionFromPoint",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/caretPositionFromPoint",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-caretpositionfrompoint"
-        ]
-      },
-      {
-        "id": "api.Document.elementFromPoint",
-        "name": "api.Document.elementFromPoint",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/elementFromPoint",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-elementfrompoint"
-        ]
-      },
-      {
-        "id": "api.Document.elementsFromPoint",
-        "name": "api.Document.elementsFromPoint",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/elementsFromPoint",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-elementsfrompoint"
-        ]
-      },
-      {
-        "id": "api.Document.getBoxQuads",
-        "name": "api.Document.getBoxQuads",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-geometryutils-getboxquads"
-        ]
-      },
-      {
-        "id": "api.Document.scroll_event",
-        "name": "api.Document.scroll_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scroll_event",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll"
-        ]
-      },
-      {
-        "id": "api.Document.scrollingElement",
-        "name": "api.Document.scrollingElement",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scrollingElement",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-scrollingelement"
         ]
       },
       {
@@ -504,207 +416,11 @@
         ]
       },
       {
-        "id": "api.Element",
-        "name": "api.Element",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
-        "specUrls": [
-          "https://dom.spec.whatwg.org/#interface-element",
-          "https://w3c.github.io/pointerevents/#extensions-to-the-element-interface",
-          "https://w3c.github.io/pointerlock/#extensions-to-the-element-interface",
-          "https://fullscreen.spec.whatwg.org/#api",
-          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-element-interface",
-          "https://drafts.csswg.org/cssom-view/#extension-to-the-element-interface"
-        ]
-      },
-      {
-        "id": "api.Element.clientHeight",
-        "name": "api.Element.clientHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/clientHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-clientheight"
-        ]
-      },
-      {
-        "id": "api.Element.clientLeft",
-        "name": "api.Element.clientLeft",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/clientLeft",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-clientleft"
-        ]
-      },
-      {
-        "id": "api.Element.clientTop",
-        "name": "api.Element.clientTop",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/clientTop",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-clienttop"
-        ]
-      },
-      {
-        "id": "api.Element.clientWidth",
-        "name": "api.Element.clientWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/clientWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-clientwidth"
-        ]
-      },
-      {
-        "id": "api.Element.getBoundingClientRect",
-        "name": "api.Element.getBoundingClientRect",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getBoundingClientRect",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-getboundingclientrect"
-        ]
-      },
-      {
-        "id": "api.Element.getBoxQuads",
-        "name": "api.Element.getBoxQuads",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-geometryutils-getboxquads"
-        ]
-      },
-      {
-        "id": "api.Element.getClientRects",
-        "name": "api.Element.getClientRects",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/getClientRects",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-getclientrects"
-        ]
-      },
-      {
-        "id": "api.Element.scroll",
-        "name": "api.Element.scroll",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scroll",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scroll"
-        ]
-      },
-      {
-        "id": "api.Element.scrollBy",
-        "name": "api.Element.scrollBy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollBy",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollby"
-        ]
-      },
-      {
-        "id": "api.Element.scrollHeight",
-        "name": "api.Element.scrollHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollheight"
-        ]
-      },
-      {
-        "id": "api.Element.scrollIntoView",
-        "name": "api.Element.scrollIntoView",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollIntoView",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollintoview"
-        ]
-      },
-      {
-        "id": "api.Element.scrollLeft",
-        "name": "api.Element.scrollLeft",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollLeft",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollleft"
-        ]
-      },
-      {
-        "id": "api.Element.scrollTo",
-        "name": "api.Element.scrollTo",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollTo",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollto"
-        ]
-      },
-      {
-        "id": "api.Element.scrollTop",
-        "name": "api.Element.scrollTop",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollTop",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrolltop"
-        ]
-      },
-      {
-        "id": "api.Element.scrollWidth",
-        "name": "api.Element.scrollWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scrollWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollwidth"
-        ]
-      },
-      {
-        "id": "api.Element.scroll_event",
-        "name": "api.Element.scroll_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scroll_event",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#scrolling-events"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.offsetHeight",
-        "name": "api.HTMLElement.offsetHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/offsetHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetheight"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.offsetLeft",
-        "name": "api.HTMLElement.offsetLeft",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/offsetLeft",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetleft"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.offsetParent",
-        "name": "api.HTMLElement.offsetParent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/offsetParent",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetparent"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.offsetTop",
-        "name": "api.HTMLElement.offsetTop",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/offsetTop",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsettop"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.offsetWidth",
-        "name": "api.HTMLElement.offsetWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/offsetWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlelement-offsetwidth"
-        ]
-      },
-      {
         "id": "api.HTMLElement.style",
         "name": "api.HTMLElement.style",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/style",
         "specUrls": [
           "https://drafts.csswg.org/cssom/#dom-elementcssinlinestyle-style"
-        ]
-      },
-      {
-        "id": "api.HTMLImageElement.x",
-        "name": "api.HTMLImageElement.x",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/x",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlimageelement-x"
-        ]
-      },
-      {
-        "id": "api.HTMLImageElement.y",
-        "name": "api.HTMLImageElement.y",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLImageElement/y",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-htmlimageelement-y"
         ]
       },
       {
@@ -779,175 +495,11 @@
         ]
       },
       {
-        "id": "api.MediaQueryList",
-        "name": "api.MediaQueryList",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#the-mediaquerylist-interface"
-        ]
-      },
-      {
-        "id": "api.MediaQueryList.addListener",
-        "name": "api.MediaQueryList.addListener",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList/addListener",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylist-addlistener"
-        ]
-      },
-      {
-        "id": "api.MediaQueryList.change_event",
-        "name": "api.MediaQueryList.change_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList/change_event",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylist-onchange"
-        ]
-      },
-      {
-        "id": "api.MediaQueryList.matches",
-        "name": "api.MediaQueryList.matches",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList/matches",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylist-matches"
-        ]
-      },
-      {
-        "id": "api.MediaQueryList.media",
-        "name": "api.MediaQueryList.media",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList/media",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylist-media"
-        ]
-      },
-      {
-        "id": "api.MediaQueryList.removeListener",
-        "name": "api.MediaQueryList.removeListener",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryList/removeListener",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylist-removelistener"
-        ]
-      },
-      {
-        "id": "api.MediaQueryListEvent",
-        "name": "api.MediaQueryListEvent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#the-mediaquerylist-interface"
-        ]
-      },
-      {
-        "id": "api.MediaQueryListEvent.MediaQueryListEvent",
-        "name": "api.MediaQueryListEvent.MediaQueryListEvent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent/MediaQueryListEvent",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylistevent-mediaquerylistevent"
-        ]
-      },
-      {
-        "id": "api.MediaQueryListEvent.matches",
-        "name": "api.MediaQueryListEvent.matches",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent/matches",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylistevent-matches"
-        ]
-      },
-      {
-        "id": "api.MediaQueryListEvent.media",
-        "name": "api.MediaQueryListEvent.media",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaQueryListEvent/media",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mediaquerylistevent-media"
-        ]
-      },
-      {
-        "id": "api.MouseEvent",
-        "name": "api.MouseEvent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#interface-mouseevent",
-          "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface",
-          "https://w3c.github.io/pointerlock/#extensions-to-the-mouseevent-interface"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.offsetX",
-        "name": "api.MouseEvent.offsetX",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetX",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-offsetx"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.offsetY",
-        "name": "api.MouseEvent.offsetY",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/offsetY",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-offsety"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.pageX",
-        "name": "api.MouseEvent.pageX",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageX",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-pagex"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.pageY",
-        "name": "api.MouseEvent.pageY",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/pageY",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-pagey"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.x",
-        "name": "api.MouseEvent.x",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/x",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-x"
-        ]
-      },
-      {
-        "id": "api.MouseEvent.y",
-        "name": "api.MouseEvent.y",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MouseEvent/y",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-mouseevent-y"
-        ]
-      },
-      {
         "id": "api.ProcessingInstruction.sheet",
         "name": "api.ProcessingInstruction.sheet",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ProcessingInstruction/sheet",
         "specUrls": [
           "https://drafts.csswg.org/cssom/#dom-linkstyle-sheet"
-        ]
-      },
-      {
-        "id": "api.Range",
-        "name": "api.Range",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range",
-        "specUrls": [
-          "https://dom.spec.whatwg.org/#interface-range",
-          "https://w3c.github.io/DOM-Parsing/#extensions-to-the-range-interface",
-          "https://drafts.csswg.org/cssom-view/#extensions-to-the-range-interface"
-        ]
-      },
-      {
-        "id": "api.Range.getBoundingClientRect",
-        "name": "api.Range.getBoundingClientRect",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/getBoundingClientRect",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-range-getboundingclientrect"
-        ]
-      },
-      {
-        "id": "api.Range.getClientRects",
-        "name": "api.Range.getClientRects",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Range/getClientRects",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-range-getclientrects"
         ]
       },
       {
@@ -966,83 +518,11 @@
         ]
       },
       {
-        "id": "api.Screen",
-        "name": "api.Screen",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#the-screen-interface"
-        ]
-      },
-      {
-        "id": "api.Screen.availHeight",
-        "name": "api.Screen.availHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/availHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-availheight"
-        ]
-      },
-      {
-        "id": "api.Screen.availWidth",
-        "name": "api.Screen.availWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/availWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-availwidth"
-        ]
-      },
-      {
-        "id": "api.Screen.colorDepth",
-        "name": "api.Screen.colorDepth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/colorDepth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-colordepth"
-        ]
-      },
-      {
-        "id": "api.Screen.height",
-        "name": "api.Screen.height",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/height",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-height"
-        ]
-      },
-      {
-        "id": "api.Screen.pixelDepth",
-        "name": "api.Screen.pixelDepth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/pixelDepth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-pixeldepth"
-        ]
-      },
-      {
-        "id": "api.Screen.width",
-        "name": "api.Screen.width",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Screen/width",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-screen-width"
-        ]
-      },
-      {
         "id": "api.ShadowRoot.adoptedStyleSheets",
         "name": "api.ShadowRoot.adoptedStyleSheets",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/adoptedStyleSheets",
         "specUrls": [
           "https://drafts.csswg.org/cssom/#dom-documentorshadowroot-adoptedstylesheets"
-        ]
-      },
-      {
-        "id": "api.ShadowRoot.elementFromPoint",
-        "name": "api.ShadowRoot.elementFromPoint",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementFromPoint",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-elementfrompoint"
-        ]
-      },
-      {
-        "id": "api.ShadowRoot.elementsFromPoint",
-        "name": "api.ShadowRoot.elementsFromPoint",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/ShadowRoot/elementsFromPoint",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-elementsfrompoint"
         ]
       },
       {
@@ -1142,211 +622,11 @@
         ]
       },
       {
-        "id": "api.Text.getBoxQuads",
-        "name": "api.Text.getBoxQuads",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-geometryutils-getboxquads"
-        ]
-      },
-      {
-        "id": "api.Window.devicePixelRatio",
-        "name": "api.Window.devicePixelRatio",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/devicePixelRatio",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-devicepixelratio"
-        ]
-      },
-      {
         "id": "api.Window.getComputedStyle",
         "name": "api.Window.getComputedStyle",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/getComputedStyle",
         "specUrls": [
           "https://drafts.csswg.org/cssom/#dom-window-getcomputedstyle"
-        ]
-      },
-      {
-        "id": "api.Window.innerHeight",
-        "name": "api.Window.innerHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/innerHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-innerheight"
-        ]
-      },
-      {
-        "id": "api.Window.innerWidth",
-        "name": "api.Window.innerWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/innerWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-innerwidth"
-        ]
-      },
-      {
-        "id": "api.Window.matchMedia",
-        "name": "api.Window.matchMedia",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/matchMedia",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-matchmedia"
-        ]
-      },
-      {
-        "id": "api.Window.moveBy",
-        "name": "api.Window.moveBy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/moveBy",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-moveby"
-        ]
-      },
-      {
-        "id": "api.Window.moveTo",
-        "name": "api.Window.moveTo",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/moveTo",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-moveto"
-        ]
-      },
-      {
-        "id": "api.Window.open",
-        "name": "api.Window.open",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/open",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/window-object.html#dom-open-dev",
-          "https://drafts.csswg.org/cssom-view/#the-features-argument-to-the-open()-method"
-        ]
-      },
-      {
-        "id": "api.Window.outerHeight",
-        "name": "api.Window.outerHeight",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/outerHeight",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-outerheight"
-        ]
-      },
-      {
-        "id": "api.Window.outerWidth",
-        "name": "api.Window.outerWidth",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/outerWidth",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-outerwidth"
-        ]
-      },
-      {
-        "id": "api.Window.pageXOffset",
-        "name": "api.Window.pageXOffset",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/pageXOffset",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-pagexoffset"
-        ]
-      },
-      {
-        "id": "api.Window.pageYOffset",
-        "name": "api.Window.pageYOffset",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/pageYOffset",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-pageyoffset"
-        ]
-      },
-      {
-        "id": "api.Window.resizeBy",
-        "name": "api.Window.resizeBy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/resizeBy",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-resizeby"
-        ]
-      },
-      {
-        "id": "api.Window.resizeTo",
-        "name": "api.Window.resizeTo",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/resizeTo",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-resizeto"
-        ]
-      },
-      {
-        "id": "api.Window.resize_event",
-        "name": "api.Window.resize_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/resize_event",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#resizing-viewports"
-        ]
-      },
-      {
-        "id": "api.Window.screen",
-        "name": "api.Window.screen",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/screen",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-screen"
-        ]
-      },
-      {
-        "id": "api.Window.screenLeft",
-        "name": "api.Window.screenLeft",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/screenLeft",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-screenleft"
-        ]
-      },
-      {
-        "id": "api.Window.screenTop",
-        "name": "api.Window.screenTop",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/screenTop",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-screentop"
-        ]
-      },
-      {
-        "id": "api.Window.screenX",
-        "name": "api.Window.screenX",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/screenX",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-screenx"
-        ]
-      },
-      {
-        "id": "api.Window.screenY",
-        "name": "api.Window.screenY",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/screenY",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-screeny"
-        ]
-      },
-      {
-        "id": "api.Window.scroll",
-        "name": "api.Window.scroll",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scroll",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-scroll"
-        ]
-      },
-      {
-        "id": "api.Window.scrollBy",
-        "name": "api.Window.scrollBy",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scrollBy",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-scrollby"
-        ]
-      },
-      {
-        "id": "api.Window.scrollTo",
-        "name": "api.Window.scrollTo",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scrollTo",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-scrollto"
-        ]
-      },
-      {
-        "id": "api.Window.scrollX",
-        "name": "api.Window.scrollX",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scrollX",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-scrollx"
-        ]
-      },
-      {
-        "id": "api.Window.scrollY",
-        "name": "api.Window.scrollY",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/scrollY",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-scrolly"
         ]
       },
       {
@@ -1364,67 +644,11 @@
     ],
     "caniuse": [
       {
-        "id": "devicepixelratio",
-        "name": "Window.devicePixelRatio",
-        "statusUrl": "https://caniuse.com/devicepixelratio",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-devicepixelratio"
-        ]
-      },
-      {
-        "id": "document-scrollingelement",
-        "name": "document.scrollingElement",
-        "statusUrl": "https://caniuse.com/document-scrollingelement",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-scrollingelement"
-        ]
-      },
-      {
-        "id": "element-from-point",
-        "name": "document.elementFromPoint()",
-        "statusUrl": "https://caniuse.com/element-from-point",
-        "specUrls": [
-          "https://www.w3.org/TR/cssom-view-1/#dom-document-elementfrompoint"
-        ]
-      },
-      {
-        "id": "element-scroll-methods",
-        "name": "Scroll methods on elements (scroll, scrollTo, scrollBy)",
-        "statusUrl": "https://caniuse.com/element-scroll-methods",
-        "specUrls": [
-          "https://www.w3.org/TR/cssom-view-1/#extension-to-the-element-interface"
-        ]
-      },
-      {
-        "id": "getboundingclientrect",
-        "name": "Element.getBoundingClientRect()",
-        "statusUrl": "https://caniuse.com/getboundingclientrect",
-        "specUrls": [
-          "https://www.w3.org/TR/cssom-view/#dom-element-getboundingclientrect"
-        ]
-      },
-      {
         "id": "getcomputedstyle",
         "name": "getComputedStyle",
         "statusUrl": "https://caniuse.com/getcomputedstyle",
         "specUrls": [
           "https://www.w3.org/TR/cssom/#dom-window-getcomputedstyle"
-        ]
-      },
-      {
-        "id": "matchmedia",
-        "name": "matchMedia",
-        "statusUrl": "https://caniuse.com/matchmedia",
-        "specUrls": [
-          "https://www.w3.org/TR/cssom-view/#dom-window-matchmedia"
-        ]
-      },
-      {
-        "id": "scrollintoview",
-        "name": "scrollIntoView",
-        "statusUrl": "https://caniuse.com/scrollintoview",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollintoview"
         ]
       }
     ],
@@ -1438,36 +662,11 @@
         ]
       },
       {
-        "id": 4812461674856448,
-        "name": "Rendering Independent Scroll Offsets",
-        "statusUrl": "https://chromestatus.com/feature/4812461674856448",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view"
-        ]
-      },
-      {
-        "id": 5117956774166528,
-        "name": "Fractional coordinates in PointerEvents of type mouse",
-        "statusUrl": "https://chromestatus.com/feature/5117956774166528",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface"
-        ]
-      },
-      {
-        "id": 5163102852087808,
-        "name": "Element.isVisible method",
-        "statusUrl": "https://chromestatus.com/feature/5163102852087808",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-isvisible"
-        ]
-      },
-      {
         "id": 5216652148867072,
         "name": "StyleSheet |media|, CSSPageRule |style| IDL attribute should have [PutForwards]",
         "statusUrl": "https://chromestatus.com/feature/5216652148867072",
         "specUrls": [
-          "https://drafts.csswg.org/cssom/#the-stylesheet-interface",
-          "https://drafts.csswg.org/cssom/#the-csspagerule-interface"
+          "https://drafts.csswg.org/cssom/#the-stylesheet-interface"
         ]
       },
       {
@@ -1476,43 +675,11 @@
         "lastreviewed": "2022-06-05"
       },
       {
-        "id": 5497402177880064,
-        "name": "Subpixel precision for clientWidth, offsetWidth, scrollTop, et al",
-        "statusUrl": "https://chromestatus.com/feature/5497402177880064",
-        "specUrls": [
-          "http://www.w3.org/TR/cssom-view/#scrolloptionsvertical"
-        ]
-      },
-      {
         "id": 5638996492288000,
         "name": "Convert adoptedStyleSheets to use ObservableArray",
         "statusUrl": "https://chromestatus.com/feature/5638996492288000",
         "specUrls": [
           "https://www.w3.org/TR/cssom-1/#extensions-to-the-document-or-shadow-root-interface"
-        ]
-      },
-      {
-        "id": 5743005361242112,
-        "name": "Screen.colorDepth and Screen.pixelDepth can return other value than 24",
-        "statusUrl": "https://chromestatus.com/feature/5743005361242112",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#screen"
-        ]
-      },
-      {
-        "id": 5759578031521792,
-        "name": "Interoperable Element's scrollLeft and scrollTop in non-default writing modes",
-        "statusUrl": "https://chromestatus.com/feature/5759578031521792",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/"
-        ]
-      },
-      {
-        "id": 6169687914184704,
-        "name": "Fractional coordinates in MouseEvents",
-        "statusUrl": "https://chromestatus.com/feature/6169687914184704",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#extensions-to-the-mouseevent-interface"
         ]
       },
       {

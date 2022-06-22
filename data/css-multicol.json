@@ -186,14 +186,6 @@
     ],
     "chrome": [
       {
-        "id": 6298909664083968,
-        "name": "CSS column-fill property",
-        "statusUrl": "https://chromestatus.com/feature/6298909664083968",
-        "specUrls": [
-          "https://drafts.csswg.org/css-multicol-1/#filling-columns"
-        ]
-      },
-      {
         "id": 6526151266664448,
         "name": "CSS Multi-column (new implementation)",
         "statusUrl": "https://chromestatus.com/feature/6526151266664448",

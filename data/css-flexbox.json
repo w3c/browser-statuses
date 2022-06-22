@@ -143,6 +143,14 @@
     ],
     "chrome": [
       {
+        "id": 4837301406400512,
+        "name": "CSS Flexbox",
+        "statusUrl": "https://chromestatus.com/feature/4837301406400512",
+        "specUrls": [
+          "http://dev.w3.org/csswg/css-flexbox"
+        ]
+      },
+      {
         "id": 5635933158244352,
         "name": "flex-basis honors keywords 'content' and 'min/max/fit-content'",
         "statusUrl": "https://chromestatus.com/feature/5635933158244352",

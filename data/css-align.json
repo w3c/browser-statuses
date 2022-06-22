@@ -208,39 +208,15 @@
         "specUrls": [
           "https://www.w3.org/TR/css-align-3/#gaps"
         ]
-      },
-      {
-        "id": "justify-content-space-evenly",
-        "name": "CSS justify-content: space-evenly",
-        "statusUrl": "https://caniuse.com/justify-content-space-evenly",
-        "specUrls": [
-          "https://drafts.csswg.org/css-align-3/#valdef-align-content-space-evenly"
-        ]
       }
     ],
     "chrome": [
-      {
-        "id": 4689076657586176,
-        "name": "CSS Box Alignment shorthands",
-        "statusUrl": "https://chromestatus.com/feature/4689076657586176",
-        "specUrls": [
-          "https://drafts.csswg.org/css-align-3/"
-        ]
-      },
       {
         "id": 5751109557682176,
         "name": "'legacy' CSS Value for the alignment behavior of HTML’s <center> element ",
         "statusUrl": "https://chromestatus.com/feature/5751109557682176",
         "specUrls": [
           "https://drafts.csswg.org/css-align/#valdef-justify-items-legacy"
-        ]
-      },
-      {
-        "id": 5777880099323904,
-        "name": "CSS Flexbox: support alignment keywords start, end, self-start, self-end, left, right",
-        "statusUrl": "https://chromestatus.com/feature/5777880099323904",
-        "specUrls": [
-          "https://drafts.csswg.org/css-align-3/#positional-values"
         ]
       },
       {
@@ -256,7 +232,7 @@
         "name": "CSS Box Alignment",
         "statusUrl": "https://chromestatus.com/feature/6173208034148352",
         "specUrls": [
-          "https://drafts.csswg.org/css-align/"
+          "https://www.w3.org/TR/css-align-3"
         ]
       }
     ]

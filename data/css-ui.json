@@ -123,14 +123,6 @@
         ]
       },
       {
-        "id": "css-caret-color",
-        "name": "CSS caret-color",
-        "statusUrl": "https://caniuse.com/css-caret-color",
-        "specUrls": [
-          "https://www.w3.org/TR/css-ui-3/#caret-color"
-        ]
-      },
-      {
         "id": "css-resize",
         "name": "CSS resize property",
         "statusUrl": "https://caniuse.com/css-resize",
@@ -229,14 +221,6 @@
         ]
       },
       {
-        "id": 5575087101050880,
-        "name": "Unprefix CSS \"grab\" and \"grabbing\" Values for Cursor Property",
-        "statusUrl": "https://chromestatus.com/feature/5575087101050880",
-        "specUrls": [
-          "https://www.w3.org/TR/css-ui-3/#cursor"
-        ]
-      },
-      {
         "id": 5668635896971264,
         "name": "-webkit-appearance:none for METER element",
         "statusUrl": "https://chromestatus.com/feature/5668635896971264",
@@ -266,14 +250,6 @@
         "statusUrl": "https://chromestatus.com/feature/5730263904550912",
         "specUrls": [
           "https://www.w3.org/TR/css-ui-4/#propdef-user-select"
-        ]
-      },
-      {
-        "id": 5825971391299584,
-        "name": "Remove cursors greater than 32x32 device-independent pixels intersecting native UI",
-        "statusUrl": "https://chromestatus.com/feature/5825971391299584",
-        "specUrls": [
-          "https://www.w3.org/TR/css-ui-3/#cursor"
         ]
       },
       {

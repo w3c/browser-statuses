@@ -229,22 +229,6 @@
         "specUrls": [
           "https://www.w3.org/TR/css-counter-styles-3/#counter-style-speak-as"
         ]
-      },
-      {
-        "id": 5692693659254784,
-        "name": "CSS custom counter styles",
-        "statusUrl": "https://chromestatus.com/feature/5692693659254784",
-        "specUrls": [
-          "https://drafts.csswg.org/css-counter-styles-3"
-        ]
-      },
-      {
-        "id": 6561346332131328,
-        "name": "'disclosure-open' and 'disclosure-closed' keywords for CSS list-style-type property",
-        "statusUrl": "https://chromestatus.com/feature/6561346332131328",
-        "specUrls": [
-          "https://drafts.csswg.org/css-counter-styles-3/#simple-symbolic"
-        ]
       }
     ]
   }

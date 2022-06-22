@@ -8,14 +8,6 @@
         "specUrls": [
           "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc/"
         ]
-      },
-      {
-        "id": "api.WEBGL_compressed_texture_etc1",
-        "name": "api.WEBGL_compressed_texture_etc1",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WEBGL_compressed_texture_etc1",
-        "specUrls": [
-          "https://www.khronos.org/registry/webgl/extensions/WEBGL_compressed_texture_etc1/"
-        ]
       }
     ]
   }

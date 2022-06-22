@@ -234,7 +234,7 @@ export function findMappings(shortname, relatedUrls, knownData) {
       if (!url) {
         return false;
       }
-      url = url.replace(/^http:/, 'https:');
+      url = url.replace(/^http:/, 'https:') + '/';
       return !!relatedUrls.find(u => url.startsWith(u));
     })
     .filter(feature => feature.feature_type !== 'Feature deprecation')

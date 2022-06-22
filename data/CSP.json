@@ -98,14 +98,6 @@
         ]
       },
       {
-        "id": "api.HTMLIFrameElement.csp",
-        "name": "api.HTMLIFrameElement.csp",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/csp",
-        "specUrls": [
-          "https://w3c.github.io/webappsec-cspee/#ref-for-dom-htmliframeelement-csp"
-        ]
-      },
-      {
         "id": "api.SecurityPolicyViolationEvent",
         "name": "api.SecurityPolicyViolationEvent",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/SecurityPolicyViolationEvent",
@@ -426,17 +418,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "contentsecuritypolicy2",
-        "name": "Content Security Policy Level 2",
-        "statusUrl": "https://caniuse.com/contentsecuritypolicy2",
-        "specUrls": [
-          "https://www.w3.org/TR/CSP2/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 4607623783514112,
@@ -455,15 +436,6 @@
         ]
       },
       {
-        "id": 4957003285790720,
-        "name": "Content Security Policy Level 2",
-        "statusUrl": "https://chromestatus.com/feature/4957003285790720",
-        "specUrls": [
-          "http://www.w3.org/TR/CSP2/"
-        ],
-        "representative": true
-      },
-      {
         "id": 5141352765456384,
         "name": "CSP: `script-src-attr`, `script-src-elem`, `style-src-attr`, `style-src-elem` directives",
         "statusUrl": "https://chromestatus.com/feature/5141352765456384",
@@ -477,14 +449,6 @@
         "statusUrl": "https://chromestatus.com/feature/5164860656582656",
         "specUrls": [
           "https://www.w3.org/TR/CSP3/#reporting"
-        ]
-      },
-      {
-        "id": 5205088045891584,
-        "name": "Content Security Policy Level 1",
-        "statusUrl": "https://chromestatus.com/feature/5205088045891584",
-        "specUrls": [
-          "http://www.w3.org/TR/CSP1/"
         ]
       },
       {
