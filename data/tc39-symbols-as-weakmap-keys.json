@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5124046206271488,
+        "name": "Symbols as WeakMap keys",
+        "statusUrl": "https://chromestatus.com/feature/5124046206271488",
+        "specUrls": [
+          "https://tc39.es/proposal-symbols-as-weakmap-keys"
+        ]
+      }
+    ]
+  }
+}

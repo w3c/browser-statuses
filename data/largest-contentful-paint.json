@@ -74,14 +74,6 @@
         "specUrls": [
           "https://wicg.github.io/largest-contentful-paint/"
         ]
-      },
-      {
-        "id": 5693014656679936,
-        "name": "LCP support for animated images/auto-playing videos",
-        "statusUrl": "https://chromestatus.com/feature/5693014656679936",
-        "specUrls": [
-          "https://github.com/WICG/largest-contentful-paint/issues/83"
-        ]
       }
     ]
   }

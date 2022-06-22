@@ -168,6 +168,14 @@
         ]
       },
       {
+        "id": 5737051062272000,
+        "name": "CSS contain-intrinsic-size",
+        "statusUrl": "https://chromestatus.com/feature/5737051062272000",
+        "specUrls": [
+          "https://drafts.csswg.org/css-sizing-4/#intrinsic-size-override"
+        ]
+      },
+      {
         "id": 5738050678161408,
         "name": "CSS aspect-ratio property",
         "statusUrl": "https://chromestatus.com/feature/5738050678161408",

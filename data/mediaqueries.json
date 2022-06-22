@@ -93,8 +93,9 @@
       {
         "id": "css.at-rules.media.dynamic-range",
         "name": "css.at-rules.media.dynamic-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/dynamic-range",
         "specUrls": [
-          "https://www.w3.org/TR/mediaqueries-5/#dynamic-range"
+          "https://drafts.csswg.org/mediaqueries-5/#dynamic-range"
         ]
       },
       {
@@ -236,8 +237,9 @@
       {
         "id": "css.at-rules.media.video-dynamic-range",
         "name": "css.at-rules.media.video-dynamic-range",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/@media/video-dynamic-range",
         "specUrls": [
-          "https://www.w3.org/TR/mediaqueries-5/#video-dynamic-range"
+          "https://drafts.csswg.org/mediaqueries-5/#video-dynamic-range"
         ]
       },
       {
@@ -329,7 +331,7 @@
         "name": "Media Queries: prefers-contrast feature",
         "statusUrl": "https://chromestatus.com/feature/5646323212615680",
         "specUrls": [
-          "https://drafts.csswg.org/mediaqueries-5/#prefers-contrast"
+          "https://www.w3.org/TR/mediaqueries-5/#prefers-contrast"
         ]
       },
       {
@@ -338,6 +340,14 @@
         "statusUrl": "https://chromestatus.com/feature/5680926106320896",
         "specUrls": [
           "https://www.w3.org/TR/mediaqueries-5/#dynamic-range"
+        ]
+      },
+      {
+        "id": 5717537549451264,
+        "name": "Navigation-controls media query",
+        "statusUrl": "https://chromestatus.com/feature/5717537549451264",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-5/#nav-controls"
         ]
       },
       {

@@ -4679,6 +4679,14 @@
         ]
       },
       {
+        "id": "javascript.operators.import",
+        "name": "javascript.operators.import",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Import",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls"
+        ]
+      },
+      {
         "id": "javascript.operators.in",
         "name": "javascript.operators.in",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/in",
@@ -5179,8 +5187,7 @@
         "name": "javascript.statements.import",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import",
         "specUrls": [
-          "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports",
-          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-import-calls"
+          "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports"
         ]
       },
       {

@@ -192,30 +192,6 @@
         "specUrls": [
           "https://w3c.github.io/mediacapture-record/#dom-mediarecorder-videobitspersecond"
         ]
-      },
-      {
-        "id": "api.MediaRecorderErrorEvent",
-        "name": "api.MediaRecorderErrorEvent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent",
-        "specUrls": [
-          "https://w3c.github.io/mediacapture-record/#errorevent-section"
-        ]
-      },
-      {
-        "id": "api.MediaRecorderErrorEvent.MediaRecorderErrorEvent",
-        "name": "api.MediaRecorderErrorEvent.MediaRecorderErrorEvent",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/MediaRecorderErrorEvent",
-        "specUrls": [
-          "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-mediarecordererrorevent"
-        ]
-      },
-      {
-        "id": "api.MediaRecorderErrorEvent.error",
-        "name": "api.MediaRecorderErrorEvent.error",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaRecorderErrorEvent/error",
-        "specUrls": [
-          "https://w3c.github.io/mediacapture-record/#dom-mediarecordererrorevent-error"
-        ]
       }
     ],
     "caniuse": [

@@ -21,10 +21,18 @@
     "caniuse": [
       {
         "id": "css-container-queries",
-        "name": "CSS Container Queries",
+        "name": "CSS Container Queries (Size)",
         "statusUrl": "https://caniuse.com/css-container-queries",
         "specUrls": [
           "https://www.w3.org/TR/css-contain-3/"
+        ]
+      },
+      {
+        "id": "css-container-query-units",
+        "name": "CSS Container Query Units",
+        "statusUrl": "https://caniuse.com/css-container-query-units",
+        "specUrls": [
+          "https://www.w3.org/TR/css-contain-3/#container-lengths"
         ]
       },
       {
@@ -75,7 +83,7 @@
         "name": "CSS Containment",
         "statusUrl": "https://chromestatus.com/feature/6522186978295808",
         "specUrls": [
-          "https://drafts.csswg.org/css-containment/"
+          "https://drafts.csswg.org/css-containment"
         ],
         "representative": true
       },

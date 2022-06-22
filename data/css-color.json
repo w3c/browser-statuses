@@ -130,6 +130,22 @@
         ]
       },
       {
+        "id": "css.types.color.oklab",
+        "name": "css.types.color.oklab",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklab",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#ok-lab"
+        ]
+      },
+      {
+        "id": "css.types.color.oklch",
+        "name": "css.types.color.oklch",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/oklch",
+        "specUrls": [
+          "https://drafts.csswg.org/css-color/#ok-lab"
+        ]
+      },
+      {
         "id": "css.types.color.rgb",
         "name": "css.types.color.rgb",
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/rgb",
@@ -243,7 +259,7 @@
         "name": "CIE Lab color functions for CSS",
         "statusUrl": "https://chromestatus.com/feature/4592567062626304",
         "specUrls": [
-          "https://drafts.csswg.org/css-color-4/#specifying-lab-lch"
+          "https://www.w3.org/TR/css-color-4/#specifying-lab-lch"
         ]
       },
       {
@@ -284,14 +300,6 @@
         "statusUrl": "https://chromestatus.com/feature/5167940859068416",
         "specUrls": [
           "https://www.w3.org/TR/css-color-4/#transparency"
-        ]
-      },
-      {
-        "id": 5330651267989504,
-        "name": "CSS Color Adjust: color-scheme meta tag",
-        "statusUrl": "https://chromestatus.com/feature/5330651267989504",
-        "specUrls": [
-          "https://drafts.csswg.org/css-color-adjust/#color-scheme-meta"
         ]
       },
       {
@@ -371,7 +379,15 @@
         "name": "CSS Color Adjust: color-scheme property",
         "statusUrl": "https://chromestatus.com/feature/6070987093180416",
         "specUrls": [
-          "https://drafts.csswg.org/css-color-adjust/#color-scheme-prop"
+          "https://www.w3.org/TR/css-color-adjust-1/#color-scheme-prop"
+        ]
+      },
+      {
+        "id": 6280020765966336,
+        "name": "CSS Color Level 4",
+        "statusUrl": "https://chromestatus.com/feature/6280020765966336",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4"
         ]
       }
     ],

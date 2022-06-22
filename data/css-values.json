@@ -306,6 +306,14 @@
         ]
       },
       {
+        "id": 5165381072191488,
+        "name": "CSS Trigonometric functions",
+        "statusUrl": "https://chromestatus.com/feature/5165381072191488",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values-4/#trig-funcs"
+        ]
+      },
+      {
         "id": 5643732019838976,
         "name": "CSS calc() in media queries",
         "statusUrl": "https://chromestatus.com/feature/5643732019838976",

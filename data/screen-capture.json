@@ -93,6 +93,14 @@
         ]
       },
       {
+        "id": 5067650299330560,
+        "name": "DisplayMediaStreamConstraints.surfaceSwitching",
+        "statusUrl": "https://chromestatus.com/feature/5067650299330560",
+        "specUrls": [
+          "https://github.com/w3c/mediacapture-screen-share/pull/225/files"
+        ]
+      },
+      {
         "id": 5118675366445056,
         "name": "DisplayMediaStreamConstraints.selfBrowserSurface",
         "statusUrl": "https://chromestatus.com/feature/5118675366445056",
