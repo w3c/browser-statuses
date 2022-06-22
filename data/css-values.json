@@ -286,7 +286,7 @@
         "name": "CSS advanced attr() function",
         "statusUrl": "https://chromestatus.com/feature/4680129030651904",
         "specUrls": [
-          "https://drafts.csswg.org/css-values-4/#attr-notation"
+          "https://drafts.csswg.org/css-values-5/#attr-notation"
         ]
       },
       {
@@ -294,7 +294,7 @@
         "name": "CSS position values with 3 parts",
         "statusUrl": "https://chromestatus.com/feature/5116559680864256",
         "specUrls": [
-          "https://drafts.csswg.org/css-values-4/#typedef-position"
+          "https://drafts.csswg.org/css-values-3/#typedef-position"
         ]
       },
       {
@@ -310,7 +310,15 @@
         "name": "CSS calc() in media queries",
         "statusUrl": "https://chromestatus.com/feature/5643732019838976",
         "specUrls": [
-          "https://drafts.csswg.org/css-values-4/#calc-notation"
+          "https://drafts.csswg.org/css-values-3/#calc-notation"
+        ]
+      },
+      {
+        "id": 5656451751084032,
+        "name": "Support calc(<number>) where only accepts <integer>",
+        "statusUrl": "https://chromestatus.com/feature/5656451751084032",
+        "specUrls": [
+          "https://drafts.csswg.org/css-values-4/#calc-range"
         ]
       },
       {
@@ -342,8 +350,7 @@
         "name": "CSS Values Level 4 Calc Simplification and Serialization",
         "statusUrl": "https://chromestatus.com/feature/5730414630010880",
         "specUrls": [
-          "https://drafts.csswg.org/css-values-4/#calc-simplification",
-          "https://drafts.csswg.org/css-values-4/#calc-serialize"
+          "https://drafts.csswg.org/css-values-4/#calc-simplification"
         ]
       },
       {
