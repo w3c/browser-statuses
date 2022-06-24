@@ -4806,7 +4806,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -4819,7 +4819,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -4832,7 +4832,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -58112,7 +58112,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -58138,7 +58138,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -66108,7 +66108,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true
       },
@@ -66154,7 +66154,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true
       },
