@@ -111,7 +111,8 @@
         "statusUrl": "https://webkit.org/status/#specification-permissions-api",
         "specUrls": [
           "https://www.w3.org/TR/permissions/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

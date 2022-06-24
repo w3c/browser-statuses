@@ -105,7 +105,8 @@
         "statusUrl": "https://chromestatus.com/feature/5698781827825664",
         "specUrls": [
           "https://www.w3.org/TR/generic-sensor/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

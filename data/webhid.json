@@ -215,7 +215,8 @@
         "statusUrl": "https://caniuse.com/webhid",
         "specUrls": [
           "https://wicg.github.io/webhid/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -252,7 +253,8 @@
         "statusUrl": "https://webkit.org/status/#specification-webhid",
         "specUrls": [
           "https://wicg.github.io/webhid/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

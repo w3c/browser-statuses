@@ -7,7 +7,8 @@
         "statusUrl": "https://caniuse.com/document-policy",
         "specUrls": [
           "https://wicg.github.io/document-policy/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -17,7 +18,8 @@
         "statusUrl": "https://chromestatus.com/feature/5645593894453248",
         "specUrls": [
           "https://wicg.github.io/document-policy/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

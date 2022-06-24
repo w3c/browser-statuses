@@ -41,7 +41,8 @@
         "statusUrl": "https://chromestatus.com/feature/5693639729610752",
         "specUrls": [
           "https://tc39.es/proposal-array-find-from-last/index.html"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

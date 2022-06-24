@@ -17,7 +17,8 @@
         "statusUrl": "https://chromestatus.com/feature/5649454590853120",
         "specUrls": [
           "https://tc39.es/proposal-intl-enumeration/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

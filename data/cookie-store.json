@@ -175,7 +175,8 @@
         "statusUrl": "https://caniuse.com/cookie-store-api",
         "specUrls": [
           "https://wicg.github.io/cookie-store/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

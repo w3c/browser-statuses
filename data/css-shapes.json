@@ -90,7 +90,8 @@
         "statusUrl": "https://caniuse.com/css-shapes",
         "specUrls": [
           "https://www.w3.org/TR/css-shapes/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -100,7 +101,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-shapes-level-1",
         "specUrls": [
           "http://www.w3.org/TR/css-shapes-1/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

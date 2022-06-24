@@ -44,7 +44,8 @@
         "statusUrl": "https://chromestatus.com/feature/5170190448852992",
         "specUrls": [
           "https://wicg.github.io/js-self-profiling/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

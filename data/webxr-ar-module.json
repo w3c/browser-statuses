@@ -33,7 +33,8 @@
         "statusUrl": "https://chromestatus.com/feature/5450241148977152",
         "specUrls": [
           "https://immersive-web.github.io/webxr-ar-module/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

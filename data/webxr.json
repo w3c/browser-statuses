@@ -835,7 +835,8 @@
         "statusUrl": "https://webkit.org/status/#specification-webxr",
         "specUrls": [
           "https://immersive-web.github.io/webxr/"
-        ]
+        ],
+        "representative": true
       }
     ]
   },

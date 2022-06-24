@@ -1021,7 +1021,8 @@
         "statusUrl": "https://caniuse.com/webgl2",
         "specUrls": [
           "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -1031,7 +1032,8 @@
         "statusUrl": "https://chromestatus.com/feature/6694359164518400",
         "specUrls": [
           "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -1041,7 +1043,8 @@
         "statusUrl": "https://webkit.org/status/#specification-webgl-2",
         "specUrls": [
           "https://www.khronos.org/registry/webgl/specs/latest/2.0/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

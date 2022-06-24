@@ -25,7 +25,8 @@
         "statusUrl": "https://caniuse.com/css-variables",
         "specUrls": [
           "https://www.w3.org/TR/css-variables/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -35,7 +36,8 @@
         "statusUrl": "https://chromestatus.com/feature/6401356696911872",
         "specUrls": [
           "https://www.w3.org/TR/css-variables-1/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -45,7 +47,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-variables",
         "specUrls": [
           "https://www.w3.org/TR/css-variables/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

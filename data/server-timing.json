@@ -66,7 +66,8 @@
         "statusUrl": "https://caniuse.com/server-timing",
         "specUrls": [
           "https://www.w3.org/TR/server-timing/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

@@ -25,7 +25,8 @@
         "statusUrl": "https://caniuse.com/css-namespaces",
         "specUrls": [
           "https://drafts.csswg.org/css-namespaces/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

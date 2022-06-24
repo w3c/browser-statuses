@@ -7,7 +7,8 @@
         "statusUrl": "https://chromestatus.com/feature/5642300464037888",
         "specUrls": [
           "https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

@@ -105,7 +105,8 @@
         "statusUrl": "https://chromestatus.com/feature/5731920199548928",
         "specUrls": [
           "https://wicg.github.io/urlpattern/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

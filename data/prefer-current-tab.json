@@ -7,7 +7,8 @@
         "statusUrl": "https://chromestatus.com/feature/5045313003847680",
         "specUrls": [
           "https://wicg.github.io/prefer-current-tab/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

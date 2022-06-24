@@ -1050,7 +1050,8 @@
         "statusUrl": "https://webkit.org/status/#specification-geometry-interfaces",
         "specUrls": [
           "https://drafts.fxtf.org/geometry/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

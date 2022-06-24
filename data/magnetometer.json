@@ -76,7 +76,8 @@
         "statusUrl": "https://webkit.org/status/#specification-magnetometer",
         "specUrls": [
           "https://www.w3.org/TR/magnetometer/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

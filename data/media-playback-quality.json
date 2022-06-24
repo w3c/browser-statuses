@@ -57,7 +57,8 @@
         "statusUrl": "https://chromestatus.com/feature/5687791428042752",
         "specUrls": [
           "https://w3c.github.io/media-playback-quality/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

@@ -257,7 +257,8 @@
         "statusUrl": "https://caniuse.com/midi",
         "specUrls": [
           "https://webaudio.github.io/web-midi-api/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -267,7 +268,8 @@
         "statusUrl": "https://chromestatus.com/feature/4923613069180928",
         "specUrls": [
           "https://webaudio.github.io/web-midi-api/"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": 5138066234671104,
@@ -293,7 +295,8 @@
         "statusUrl": "https://webkit.org/status/#specification-web-midi",
         "specUrls": [
           "https://www.w3.org/TR/webmidi/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

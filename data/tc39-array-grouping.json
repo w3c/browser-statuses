@@ -7,7 +7,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/group",
         "specUrls": [
           "https://tc39.es/proposal-array-grouping/#sec-array.prototype.group"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "javascript.builtins.Array.groupToMap",
@@ -15,7 +16,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/groupToMap",
         "specUrls": [
           "https://tc39.es/proposal-array-grouping/#sec-array.prototype.grouptomap"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -25,7 +27,8 @@
         "statusUrl": "https://chromestatus.com/feature/5714791975878656",
         "specUrls": [
           "https://tc39.es/proposal-array-grouping/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

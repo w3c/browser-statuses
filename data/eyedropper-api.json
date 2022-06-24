@@ -33,7 +33,8 @@
         "statusUrl": "https://chromestatus.com/feature/6304275594477568",
         "specUrls": [
           "https://wicg.github.io/eyedropper-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

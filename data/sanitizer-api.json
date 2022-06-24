@@ -57,7 +57,8 @@
         "statusUrl": "https://chromestatus.com/feature/5786893650231296",
         "specUrls": [
           "https://wicg.github.io/sanitizer-api"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

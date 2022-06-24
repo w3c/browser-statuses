@@ -177,7 +177,8 @@
         "statusUrl": "https://caniuse.com/webnfc",
         "specUrls": [
           "https://w3c.github.io/web-nfc/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

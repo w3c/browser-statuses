@@ -89,7 +89,8 @@
         "statusUrl": "https://chromestatus.com/feature/5640265926705152",
         "specUrls": [
           "https://drafts.css-houdini.org/css-properties-values-api/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -99,7 +100,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-properties-and-values-api-level-1",
         "specUrls": [
           "https://drafts.css-houdini.org/css-properties-values-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

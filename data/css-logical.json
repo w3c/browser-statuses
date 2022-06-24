@@ -493,7 +493,8 @@
         "statusUrl": "https://caniuse.com/css-logical-props",
         "specUrls": [
           "https://www.w3.org/TR/css-logical-1/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -545,7 +546,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-logical-properties-and-values-level-1",
         "specUrls": [
           "https://drafts.csswg.org/css-logical/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

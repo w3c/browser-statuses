@@ -7,7 +7,8 @@
         "statusUrl": "https://chromestatus.com/feature/5436441440026624",
         "specUrls": [
           "https://drafts.csswg.org/css-highlight-api-1/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -17,7 +18,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-custom-highlight-api-module-level-1",
         "specUrls": [
           "https://www.w3.org/TR/css-highlight-api-1/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

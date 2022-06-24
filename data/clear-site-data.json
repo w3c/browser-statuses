@@ -7,7 +7,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Clear-Site-Data",
         "specUrls": [
           "https://w3c.github.io/webappsec-clear-site-data/#header"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -17,7 +18,8 @@
         "statusUrl": "https://chromestatus.com/feature/4713262029471744",
         "specUrls": [
           "http://w3c.github.io/webappsec-clear-site-data/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

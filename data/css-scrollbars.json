@@ -25,7 +25,8 @@
         "statusUrl": "https://chromestatus.com/feature/5665308343795712",
         "specUrls": [
           "https://www.w3.org/TR/css-scrollbars-1"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

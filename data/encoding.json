@@ -145,7 +145,8 @@
         "statusUrl": "https://caniuse.com/textencoder",
         "specUrls": [
           "https://encoding.spec.whatwg.org/#api"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -179,7 +180,8 @@
         "statusUrl": "https://chromestatus.com/feature/5714368087982080",
         "specUrls": [
           "https://encoding.spec.whatwg.org/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -189,7 +191,8 @@
         "statusUrl": "https://webkit.org/status/#specification-encoding",
         "specUrls": [
           "https://encoding.spec.whatwg.org"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

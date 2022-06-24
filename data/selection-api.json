@@ -269,7 +269,8 @@
         "statusUrl": "https://caniuse.com/selection-api",
         "specUrls": [
           "https://www.w3.org/TR/selection-api/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

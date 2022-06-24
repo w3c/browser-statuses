@@ -218,7 +218,8 @@
         "statusUrl": "https://caniuse.com/css-at-counter-style",
         "specUrls": [
           "https://drafts.csswg.org/css-counter-styles/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

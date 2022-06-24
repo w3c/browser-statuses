@@ -169,7 +169,8 @@
         "statusUrl": "https://caniuse.com/temporal",
         "specUrls": [
           "https://tc39.es/proposal-temporal/docs/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -179,7 +180,8 @@
         "statusUrl": "https://chromestatus.com/feature/5668291307634688",
         "specUrls": [
           "https://tc39.es/proposal-temporal/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

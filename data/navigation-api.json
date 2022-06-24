@@ -380,7 +380,8 @@
         "statusUrl": "https://chromestatus.com/feature/6232287446302720",
         "specUrls": [
           "https://wicg.github.io/navigation-api"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

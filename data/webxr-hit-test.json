@@ -153,7 +153,8 @@
         "statusUrl": "https://chromestatus.com/feature/4755348300759040",
         "specUrls": [
           "https://immersive-web.github.io/hit-test/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

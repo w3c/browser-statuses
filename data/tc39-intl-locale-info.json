@@ -65,7 +65,8 @@
         "statusUrl": "https://chromestatus.com/feature/5566859262820352",
         "specUrls": [
           "https://tc39.es/proposal-intl-locale-info/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

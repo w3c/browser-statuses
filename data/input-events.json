@@ -42,7 +42,8 @@
         "statusUrl": "https://webkit.org/status/#specification-input-events",
         "specUrls": [
           "https://w3c.github.io/input-events"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

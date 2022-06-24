@@ -84,7 +84,8 @@
         "statusUrl": "https://webkit.org/status/#specification-web-locks",
         "specUrls": [
           "https://w3c.github.io/web-locks/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

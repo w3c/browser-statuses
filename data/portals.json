@@ -17,7 +17,8 @@
         "statusUrl": "https://caniuse.com/portals",
         "specUrls": [
           "https://wicg.github.io/portals/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

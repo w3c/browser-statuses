@@ -213,7 +213,8 @@
         "statusUrl": "https://webkit.org/status/#specification-file-and-directory-entries-api",
         "specUrls": [
           "https://wicg.github.io/entries-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

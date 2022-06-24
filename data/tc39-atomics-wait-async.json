@@ -7,7 +7,8 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/waitAsync",
         "specUrls": [
           "https://tc39.es/proposal-atomics-wait-async/#atomics.waitasync"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -17,7 +18,8 @@
         "statusUrl": "https://chromestatus.com/feature/6243382101803008",
         "specUrls": [
           "https://tc39.es/proposal-atomics-wait-async/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

@@ -98,7 +98,8 @@
         "statusUrl": "https://chromestatus.com/feature/5704707957850112",
         "specUrls": [
           "https://immersive-web.github.io/lighting-estimation/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

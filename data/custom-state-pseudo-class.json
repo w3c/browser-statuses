@@ -30,7 +30,8 @@
         "statusUrl": "https://chromestatus.com/feature/6537562418053120",
         "specUrls": [
           "https://wicg.github.io/custom-state-pseudo-class/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

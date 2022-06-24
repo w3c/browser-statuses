@@ -4084,7 +4084,8 @@
         "statusUrl": "https://webkit.org/status/#specification-svg-2",
         "specUrls": [
           "https://svgwg.org/svg2-draft/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

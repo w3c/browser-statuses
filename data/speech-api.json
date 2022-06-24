@@ -838,7 +838,8 @@
         "statusUrl": "https://webkit.org/status/#specification-web-speech",
         "specUrls": [
           "https://wicg.github.io/speech-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   },

@@ -6,14 +6,16 @@
         "name": "api.HTMLVideoElement.cancelVideoFrameCallback",
         "specUrls": [
           "https://wicg.github.io/video-rvfc/#dom-htmlvideoelement-cancelvideoframecallback"
-        ]
+        ],
+        "representative": true
       },
       {
         "id": "api.HTMLVideoElement.requestVideoFrameCallback",
         "name": "api.HTMLVideoElement.requestVideoFrameCallback",
         "specUrls": [
           "https://wicg.github.io/video-rvfc/#dom-htmlvideoelement-requestvideoframecallback"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -34,7 +36,8 @@
         "statusUrl": "https://webkit.org/status/#feature-requestvideoframecallback",
         "specUrls": [
           "https://wicg.github.io/video-rvfc/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

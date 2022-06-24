@@ -812,7 +812,8 @@
         "statusUrl": "https://caniuse.com/indexeddb",
         "specUrls": [
           "https://www.w3.org/TR/IndexedDB/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

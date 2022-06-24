@@ -7,7 +7,8 @@
         "statusUrl": "https://chromestatus.com/feature/5124046206271488",
         "specUrls": [
           "https://tc39.es/proposal-symbols-as-weakmap-keys"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

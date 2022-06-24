@@ -255,7 +255,8 @@
         "statusUrl": "https://webkit.org/status/#specification-mediastream-recording-api",
         "specUrls": [
           "https://w3c.github.io/mediacapture-record"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

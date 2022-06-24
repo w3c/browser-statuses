@@ -69,7 +69,8 @@
         "statusUrl": "https://caniuse.com/css-regions",
         "specUrls": [
           "https://www.w3.org/TR/css3-regions/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

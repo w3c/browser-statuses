@@ -326,7 +326,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-masking-level-1",
         "specUrls": [
           "https://drafts.fxtf.org/css-masking-1/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

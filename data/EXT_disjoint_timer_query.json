@@ -81,7 +81,8 @@
         "statusUrl": "https://chromestatus.com/feature/6254718426808320",
         "specUrls": [
           "https://www.khronos.org/registry/webgl/extensions/EXT_disjoint_timer_query/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

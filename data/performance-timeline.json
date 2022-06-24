@@ -287,7 +287,8 @@
         "statusUrl": "https://webkit.org/status/#specification-performance-observer",
         "specUrls": [
           "https://w3c.github.io/performance-timeline/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

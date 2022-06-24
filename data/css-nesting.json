@@ -7,7 +7,8 @@
         "statusUrl": "https://caniuse.com/css-nesting",
         "specUrls": [
           "https://drafts.csswg.org/css-nesting/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

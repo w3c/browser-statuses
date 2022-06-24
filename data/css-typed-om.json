@@ -1144,7 +1144,8 @@
         "statusUrl": "https://chromestatus.com/feature/5682491075592192",
         "specUrls": [
           "https://drafts.css-houdini.org/css-typed-om/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -1154,7 +1155,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-typed-om-level-1",
         "specUrls": [
           "https://drafts.css-houdini.org/css-typed-om/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

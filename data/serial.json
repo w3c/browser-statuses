@@ -139,7 +139,8 @@
         "statusUrl": "https://caniuse.com/web-serial",
         "specUrls": [
           "https://wicg.github.io/serial/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -165,7 +166,8 @@
         "statusUrl": "https://chromestatus.com/feature/6577673212002304",
         "specUrls": [
           "https://wicg.github.io/serial/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -175,7 +177,8 @@
         "statusUrl": "https://webkit.org/status/#specification-web-serial",
         "specUrls": [
           "https://wicg.github.io/serial/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

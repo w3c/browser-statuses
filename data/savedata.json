@@ -25,7 +25,8 @@
         "statusUrl": "https://chromestatus.com/feature/5645928215085056",
         "specUrls": [
           "https://wicg.github.io/savedata"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

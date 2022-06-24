@@ -76,7 +76,8 @@
         "statusUrl": "https://webkit.org/status/#specification-idle-detection",
         "specUrls": [
           "https://wicg.github.io/idle-detection/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

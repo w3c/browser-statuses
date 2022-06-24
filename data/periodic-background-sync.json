@@ -82,7 +82,8 @@
         "statusUrl": "https://chromestatus.com/feature/5689383275462656",
         "specUrls": [
           "https://wicg.github.io/periodic-background-sync/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

@@ -7,7 +7,8 @@
         "statusUrl": "https://caniuse.com/decorators",
         "specUrls": [
           "https://github.com/tc39/proposal-decorators"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

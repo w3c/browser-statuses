@@ -121,7 +121,8 @@
         "statusUrl": "https://chromestatus.com/feature/5742647199137792",
         "specUrls": [
           "https://immersive-web.github.io/depth-sensing/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

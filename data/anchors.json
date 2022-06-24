@@ -65,7 +65,8 @@
         "statusUrl": "https://chromestatus.com/feature/5129925015109632",
         "specUrls": [
           "https://immersive-web.github.io/anchors/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

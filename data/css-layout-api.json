@@ -7,7 +7,8 @@
         "statusUrl": "https://chromestatus.com/feature/5673954630959104",
         "specUrls": [
           "https://drafts.css-houdini.org/css-layout-api/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "webkit": [
@@ -17,7 +18,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-layout-api-level-1",
         "specUrls": [
           "https://drafts.css-houdini.org/css-layout-api/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

@@ -57,7 +57,8 @@
         "statusUrl": "https://caniuse.com/native-filesystem-api",
         "specUrls": [
           "https://wicg.github.io/file-system-access/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [

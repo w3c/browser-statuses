@@ -181,7 +181,8 @@
         "statusUrl": "https://caniuse.com/multicolumn",
         "specUrls": [
           "https://www.w3.org/TR/css3-multicol/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "chrome": [
@@ -191,7 +192,8 @@
         "statusUrl": "https://chromestatus.com/feature/6526151266664448",
         "specUrls": [
           "http://dev.w3.org/csswg/css-multicol/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

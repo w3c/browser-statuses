@@ -150,7 +150,8 @@
         "statusUrl": "https://webkit.org/status/#specification-resize-observer",
         "specUrls": [
           "https://drafts.csswg.org/resize-observer/"
-        ]
+        ],
+        "representative": true
       }
     ]
   },

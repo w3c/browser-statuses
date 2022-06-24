@@ -206,7 +206,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-text-decoration-level-4",
         "specUrls": [
           "https://drafts.csswg.org/css-text-decor-4/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

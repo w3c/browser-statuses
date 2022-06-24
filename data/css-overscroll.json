@@ -61,7 +61,8 @@
         "statusUrl": "https://webkit.org/status/#specification-css-overscroll-behavior-module-level-1",
         "specUrls": [
           "https://www.w3.org/TR/css-overscroll-1/"
-        ]
+        ],
+        "representative": true
       }
     ]
   },

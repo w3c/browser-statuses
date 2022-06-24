@@ -17,7 +17,8 @@
         "statusUrl": "https://chromestatus.com/feature/6048666307526656",
         "specUrls": [
           "https://immersive-web.github.io/dom-overlays/"
-        ]
+        ],
+        "representative": true
       }
     ]
   }

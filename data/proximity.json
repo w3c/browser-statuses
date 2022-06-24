@@ -18,7 +18,8 @@
         "statusUrl": "https://webkit.org/status/#specification-proximity-sensor",
         "specUrls": [
           "https://www.w3.org/TR/proximity/"
-        ]
+        ],
+        "representative": true
       }
     ],
     "manual": [
