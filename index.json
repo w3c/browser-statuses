@@ -40237,15 +40237,6 @@
             ],
             "href": "https://caniuse.com/#feat=import-maps",
             "representative": true
-          },
-          {
-            "status": "experimental",
-            "flag": true,
-            "notes": [
-              "Can be enabled via the `dom.importMaps.enabled` pref in `about:config`."
-            ],
-            "href": "https://caniuse.com/#feat=import-maps",
-            "representative": true
           }
         ],
         "selected": true
