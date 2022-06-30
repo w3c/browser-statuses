@@ -126,6 +126,14 @@
         ]
       },
       {
+        "id": 5137515594383360,
+        "name": "CSS Overflow for replaced elements",
+        "statusUrl": "https://chromestatus.com/feature/5137515594383360",
+        "specUrls": [
+          "https://drafts.csswg.org/css-overflow/#overflow-properties"
+        ]
+      },
+      {
         "id": 5638444178997248,
         "name": "Add support for CSS properties \"overflow: clip\" and \"overflow-clip-margin\"",
         "statusUrl": "https://chromestatus.com/feature/5638444178997248",
@@ -146,7 +154,7 @@
         "name": "CSS Overflow: scrollbar-gutter",
         "statusUrl": "https://chromestatus.com/feature/5746559209701376",
         "specUrls": [
-          "https://drafts.csswg.org/css-overflow-4/#scrollbar-gutter-property"
+          "https://www.w3.org/TR/css-overflow-3/#scrollbar-gutter-property"
         ]
       }
     ]
