@@ -2074,6 +2074,24 @@
         ]
       },
       {
+        "id": "api.Element.blur_event",
+        "name": "api.Element.blur_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/blur_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-blur",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
+        ]
+      },
+      {
+        "id": "api.Element.focus_event",
+        "name": "api.Element.focus_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/focus_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focus",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
+        ]
+      },
+      {
         "id": "api.Element.securitypolicyviolation_event",
         "name": "api.Element.securitypolicyviolation_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/securitypolicyviolation_event",
@@ -2350,14 +2368,6 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.onblur",
-        "name": "api.GlobalEventHandlers.onblur",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onblur",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.oncancel",
         "name": "api.GlobalEventHandlers.oncancel",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/oncancel",
@@ -2483,14 +2493,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onerror",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onerror"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onfocus",
-        "name": "api.GlobalEventHandlers.onfocus",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onfocus",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
         ]
       },
       {
@@ -2630,46 +2632,6 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.onpause",
-        "name": "api.GlobalEventHandlers.onpause",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpause",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onpause"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onplay",
-        "name": "api.GlobalEventHandlers.onplay",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onplay",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onplay"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onplaying",
-        "name": "api.GlobalEventHandlers.onplaying",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onplaying",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onplaying"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onprogress",
-        "name": "api.GlobalEventHandlers.onprogress",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onprogress",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onprogress"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onratechange",
-        "name": "api.GlobalEventHandlers.onratechange",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onratechange",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onratechange"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.onreset",
         "name": "api.GlobalEventHandlers.onreset",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onreset",
@@ -2702,22 +2664,6 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.onseeked",
-        "name": "api.GlobalEventHandlers.onseeked",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onseeked",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onseeked"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onseeking",
-        "name": "api.GlobalEventHandlers.onseeking",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onseeking",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onseeking"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.onselect",
         "name": "api.GlobalEventHandlers.onselect",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselect",
@@ -2734,51 +2680,11 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.onstalled",
-        "name": "api.GlobalEventHandlers.onstalled",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onstalled",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onstalled"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.onsubmit",
         "name": "api.GlobalEventHandlers.onsubmit",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onsubmit",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsubmit"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onsuspend",
-        "name": "api.GlobalEventHandlers.onsuspend",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onsuspend",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsuspend"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ontimeupdate",
-        "name": "api.GlobalEventHandlers.ontimeupdate",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontimeupdate",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ontimeupdate"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onvolumechange",
-        "name": "api.GlobalEventHandlers.onvolumechange",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onvolumechange",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onvolumechange"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onwaiting",
-        "name": "api.GlobalEventHandlers.onwaiting",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onwaiting",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onwaiting"
         ]
       },
       {
@@ -10751,6 +10657,15 @@
         ]
       },
       {
+        "id": "api.Window.blur_event",
+        "name": "api.Window.blur_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/blur_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-blur",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
+        ]
+      },
+      {
         "id": "api.Window.cancelAnimationFrame",
         "name": "api.Window.cancelAnimationFrame",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/cancelAnimationFrame",
@@ -10819,6 +10734,15 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/focus",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/interaction.html#dom-window-focus-dev"
+        ]
+      },
+      {
+        "id": "api.Window.focus_event",
+        "name": "api.Window.focus_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/focus_event",
+        "specUrls": [
+          "https://w3c.github.io/uievents/#event-type-focus",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
         ]
       },
       {
@@ -13895,9 +13819,9 @@
         ]
       },
       {
-        "id": "javascript.statements.import_meta",
-        "name": "javascript.statements.import_meta",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import.meta",
+        "id": "javascript.operators.import_meta",
+        "name": "javascript.operators.import_meta",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta",
         "specUrls": [
           "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
           "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties"
@@ -14978,7 +14902,7 @@
         "name": "import.meta.resolve()",
         "statusUrl": "https://chromestatus.com/feature/5086507990777856",
         "specUrls": [
-          "https://github.com/whatwg/html/pull/5572"
+          "https://html.spec.whatwg.org/#hostgetimportmetaproperties"
         ]
       },
       {
