@@ -206,7 +206,8 @@
             "href": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "chrome",
@@ -227,22 +228,6 @@
         ]
       },
       {
-        "ua": "chrome",
-        "status": "experimental",
-        "source": "chrome",
-        "representative": true,
-        "flag": true,
-        "details": [
-          {
-            "status": "experimental",
-            "flag": true,
-            "href": "https://www.chromestatus.com/feature/5298357018820608",
-            "representative": true
-          }
-        ],
-        "selected": true
-      },
-      {
         "ua": "chrome_android",
         "status": "experimental",
         "source": "bcd",
@@ -253,21 +238,6 @@
             "status": "experimental",
             "flag": true,
             "href": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor",
-            "representative": true
-          }
-        ]
-      },
-      {
-        "ua": "chrome_android",
-        "status": "experimental",
-        "source": "chrome",
-        "representative": true,
-        "flag": true,
-        "details": [
-          {
-            "status": "experimental",
-            "flag": true,
-            "href": "https://www.chromestatus.com/feature/5298357018820608",
             "representative": true
           }
         ],
@@ -286,7 +256,8 @@
             "href": "https://developer.mozilla.org/docs/Web/API/AmbientLightSensor",
             "representative": true
           }
-        ]
+        ],
+        "selected": true
       },
       {
         "ua": "edge",
@@ -305,22 +276,6 @@
             "representative": true
           }
         ]
-      },
-      {
-        "ua": "edge",
-        "status": "experimental",
-        "source": "chrome",
-        "representative": true,
-        "flag": true,
-        "details": [
-          {
-            "status": "experimental",
-            "flag": true,
-            "href": "https://www.chromestatus.com/feature/5298357018820608",
-            "representative": true
-          }
-        ],
-        "selected": true
       },
       {
         "ua": "firefox",
@@ -51812,6 +51767,11 @@
             "status": "experimental",
             "href": "https://caniuse.com/#feat=permissions-api",
             "representative": true
+          },
+          {
+            "status": "experimental",
+            "href": "https://caniuse.com/#feat=permissions-api",
+            "representative": true
           }
         ]
       },
@@ -51832,8 +51792,20 @@
         "ua": "safari_ios",
         "status": "notsupported",
         "source": "bcd",
-        "partial": true,
-        "selected": true
+        "partial": true
+      },
+      {
+        "ua": "safari_ios",
+        "status": "experimental",
+        "source": "caniuse",
+        "representative": true,
+        "details": [
+          {
+            "status": "experimental",
+            "href": "https://caniuse.com/#feat=permissions-api",
+            "representative": true
+          }
+        ]
       },
       {
         "ua": "samsunginternet_android",
@@ -51871,6 +51843,20 @@
       },
       {
         "ua": "safari",
+        "status": "indevelopment",
+        "source": "webkit",
+        "representative": true,
+        "details": [
+          {
+            "status": "indevelopment",
+            "href": "https://webkit.org/status/#specification-permissions-api",
+            "representative": true
+          }
+        ],
+        "selected": true
+      },
+      {
+        "ua": "safari_ios",
         "status": "indevelopment",
         "source": "webkit",
         "representative": true,
