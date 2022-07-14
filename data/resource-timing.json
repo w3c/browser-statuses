@@ -210,6 +210,14 @@
     ],
     "chrome": [
       {
+        "id": 5163838794629120,
+        "name": "HTTP response status code in Resource Timing",
+        "statusUrl": "https://chromestatus.com/feature/5163838794629120",
+        "specUrls": [
+          "https://github.com/w3c/resource-timing/pull/335"
+        ]
+      },
+      {
         "id": 5650461096935424,
         "name": "Resource Timing & Navigation Timing: add nextHopProtocol property",
         "statusUrl": "https://chromestatus.com/feature/5650461096935424",
