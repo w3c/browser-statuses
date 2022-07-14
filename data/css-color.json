@@ -173,6 +173,14 @@
         ]
       },
       {
+        "id": "css-lch-lab",
+        "name": "LCH and Lab color values",
+        "statusUrl": "https://caniuse.com/css-lch-lab",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4/#specifying-lab-lch"
+        ]
+      },
+      {
         "id": "css-opacity",
         "name": "CSS3 Opacity",
         "statusUrl": "https://caniuse.com/css-opacity",
