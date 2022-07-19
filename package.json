@@ -24,7 +24,7 @@
   "devDependencies": {
     "@mdn/browser-compat-data": "5.1.4",
     "@octokit/plugin-throttling": "4.1.0",
-    "@octokit/rest": "18.12.0",
+    "@octokit/rest": "19.0.3",
     "abort-controller": "3.0.0",
     "ajv": "8.11.0",
     "ajv-formats": "2.1.1",
