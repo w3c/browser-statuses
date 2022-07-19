@@ -34,38 +34,6 @@
         ]
       },
       {
-        "id": "api.Document.keydown_event",
-        "name": "api.Document.keydown_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keydown_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keydown"
-        ]
-      },
-      {
-        "id": "api.Document.keypress_event",
-        "name": "api.Document.keypress_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keypress_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keypress"
-        ]
-      },
-      {
-        "id": "api.Document.keyup_event",
-        "name": "api.Document.keyup_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/keyup_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keyup"
-        ]
-      },
-      {
-        "id": "api.Document.wheel_event",
-        "name": "api.Document.wheel_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/wheel_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-wheel"
-        ]
-      },
-      {
         "id": "api.Element.DOMActivate_event",
         "name": "api.Element.DOMActivate_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/DOMActivate_event",
@@ -78,7 +46,8 @@
         "name": "api.Element.auxclick_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/auxclick_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-auxclick"
+          "https://w3c.github.io/uievents/#event-type-auxclick",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onauxclick"
         ]
       },
       {
@@ -86,7 +55,8 @@
         "name": "api.Element.blur_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/blur_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-blur"
+          "https://w3c.github.io/uievents/#event-type-blur",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
         ]
       },
       {
@@ -94,7 +64,8 @@
         "name": "api.Element.click_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/click_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-click"
+          "https://w3c.github.io/uievents/#event-type-click",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onclick"
         ]
       },
       {
@@ -134,7 +105,8 @@
         "name": "api.Element.dblclick_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/dblclick_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-dblclick"
+          "https://w3c.github.io/uievents/#event-type-dblclick",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-ondblclick"
         ]
       },
       {
@@ -150,7 +122,8 @@
         "name": "api.Element.focus_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/focus_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-focus"
+          "https://w3c.github.io/uievents/#event-type-focus",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
         ]
       },
       {
@@ -174,7 +147,8 @@
         "name": "api.Element.keydown_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keydown_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keydown"
+          "https://w3c.github.io/uievents/#event-type-keydown",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeydown"
         ]
       },
       {
@@ -182,7 +156,8 @@
         "name": "api.Element.keypress_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keypress_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keypress"
+          "https://w3c.github.io/uievents/#event-type-keypress",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeypress"
         ]
       },
       {
@@ -190,7 +165,8 @@
         "name": "api.Element.keyup_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/keyup_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-keyup"
+          "https://w3c.github.io/uievents/#event-type-keyup",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onkeyup"
         ]
       },
       {
@@ -198,7 +174,8 @@
         "name": "api.Element.mousedown_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mousedown_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mousedown"
+          "https://w3c.github.io/uievents/#event-type-mousedown",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmousedown"
         ]
       },
       {
@@ -206,7 +183,8 @@
         "name": "api.Element.mouseenter_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseenter_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mouseenter"
+          "https://w3c.github.io/uievents/#event-type-mouseenter",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseenter"
         ]
       },
       {
@@ -214,7 +192,8 @@
         "name": "api.Element.mouseleave_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseleave_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mouseleave"
+          "https://w3c.github.io/uievents/#event-type-mouseleave",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseleave"
         ]
       },
       {
@@ -222,7 +201,8 @@
         "name": "api.Element.mousemove_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mousemove_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mousemove"
+          "https://w3c.github.io/uievents/#event-type-mousemove",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmousemove"
         ]
       },
       {
@@ -230,7 +210,8 @@
         "name": "api.Element.mouseout_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseout_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mouseout"
+          "https://w3c.github.io/uievents/#event-type-mouseout",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseout"
         ]
       },
       {
@@ -238,7 +219,8 @@
         "name": "api.Element.mouseover_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseover_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mouseover"
+          "https://w3c.github.io/uievents/#event-type-mouseover",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseover"
         ]
       },
       {
@@ -246,15 +228,8 @@
         "name": "api.Element.mouseup_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/mouseup_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-mouseup"
-        ]
-      },
-      {
-        "id": "api.Element.select_event",
-        "name": "api.Element.select_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/select_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-select"
+          "https://w3c.github.io/uievents/#event-type-mouseup",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onmouseup"
         ]
       },
       {
@@ -262,7 +237,8 @@
         "name": "api.Element.wheel_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/wheel_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-wheel"
+          "https://w3c.github.io/uievents/#event-type-wheel",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onwheel"
         ]
       },
       {
@@ -287,14 +263,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/FocusEvent/relatedTarget",
         "specUrls": [
           "https://w3c.github.io/uievents/#dom-focusevent-relatedtarget"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onauxclick",
-        "name": "api.GlobalEventHandlers.onauxclick",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onauxclick",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-auxclick"
         ]
       },
       {
@@ -730,15 +698,8 @@
         "name": "api.Window.blur_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/blur_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-blur"
-        ]
-      },
-      {
-        "id": "api.Window.error_event",
-        "name": "api.Window.error_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/error_event",
-        "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-error"
+          "https://w3c.github.io/uievents/#event-type-blur",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onblur"
         ]
       },
       {
@@ -746,7 +707,8 @@
         "name": "api.Window.focus_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Window/focus_event",
         "specUrls": [
-          "https://w3c.github.io/uievents/#event-type-focus"
+          "https://w3c.github.io/uievents/#event-type-focus",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onfocus"
         ]
       },
       {

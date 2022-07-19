@@ -10,6 +10,14 @@
         ]
       },
       {
+        "id": "api.NDEFMessage.NDEFMessage",
+        "name": "api.NDEFMessage.NDEFMessage",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFMessage/NDEFMessage",
+        "specUrls": [
+          "https://w3c.github.io/web-nfc/#dom-ndefmessage-constructor"
+        ]
+      },
+      {
         "id": "api.NDEFMessage.records",
         "name": "api.NDEFMessage.records",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/NDEFMessage/records",

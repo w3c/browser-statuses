@@ -4173,14 +4173,6 @@
         ]
       },
       {
-        "id": "javascript.builtins.null",
-        "name": "javascript.builtins.null",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/null",
-        "specUrls": [
-          "https://tc39.es/ecma262/multipage/overview.html#sec-null-value"
-        ]
-      },
-      {
         "id": "javascript.builtins.parseFloat",
         "name": "javascript.builtins.parseFloat",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/parseFloat",
@@ -4687,6 +4679,15 @@
         ]
       },
       {
+        "id": "javascript.operators.import_meta",
+        "name": "javascript.operators.import_meta",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties"
+        ]
+      },
+      {
         "id": "javascript.operators.in",
         "name": "javascript.operators.in",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/in",
@@ -4828,6 +4829,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/new.target",
         "specUrls": [
           "https://tc39.es/ecma262/multipage/ordinary-and-exotic-objects-behaviours.html#sec-built-in-function-objects"
+        ]
+      },
+      {
+        "id": "javascript.operators.null",
+        "name": "javascript.operators.null",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/null",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/overview.html#sec-null-value"
         ]
       },
       {
@@ -5188,15 +5197,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import",
         "specUrls": [
           "https://tc39.es/ecma262/multipage/ecmascript-language-scripts-and-modules.html#sec-imports"
-        ]
-      },
-      {
-        "id": "javascript.statements.import_meta",
-        "name": "javascript.statements.import_meta",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import.meta",
-        "specUrls": [
-          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ImportMeta",
-          "https://html.spec.whatwg.org/multipage/webappapis.html#hostgetimportmetaproperties"
         ]
       },
       {

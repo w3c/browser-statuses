@@ -673,6 +673,14 @@
         ]
       },
       {
+        "id": 5130793182035968,
+        "name": "Expose TransformStreamDefaultController",
+        "statusUrl": "https://chromestatus.com/feature/5130793182035968",
+        "specUrls": [
+          "https://streams.spec.whatwg.org/#ts-default-controller-class"
+        ]
+      },
+      {
         "id": 5298733486964736,
         "name": "Streams API: transferable streams",
         "statusUrl": "https://chromestatus.com/feature/5298733486964736",

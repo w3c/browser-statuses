@@ -26,31 +26,8 @@
         "name": "api.Document.selectionchange_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/selectionchange_event",
         "specUrls": [
-          "https://w3c.github.io/selection-api/#selectionchange-event"
-        ]
-      },
-      {
-        "id": "api.Document.selectstart_event",
-        "name": "api.Document.selectstart_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/selectstart_event",
-        "specUrls": [
-          "https://w3c.github.io/selection-api/#selectstart-event"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onselectionchange",
-        "name": "api.GlobalEventHandlers.onselectionchange",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectionchange",
-        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectionchange-event",
           "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectionchange"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onselectstart",
-        "name": "api.GlobalEventHandlers.onselectstart",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onselectstart",
-        "specUrls": [
-          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectstart"
         ]
       },
       {
@@ -58,7 +35,8 @@
         "name": "api.HTMLInputElement.selectionchange_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLInputElement/selectionchange_event",
         "specUrls": [
-          "https://w3c.github.io/selection-api/#selectionchange-event"
+          "https://w3c.github.io/selection-api/#selectionchange-event",
+          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectionchange"
         ]
       },
       {
@@ -66,7 +44,17 @@
         "name": "api.HTMLTextAreaElement.selectionchange_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionchange_event",
         "specUrls": [
-          "https://w3c.github.io/selection-api/#selectionchange-event"
+          "https://w3c.github.io/selection-api/#selectionchange-event",
+          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectionchange"
+        ]
+      },
+      {
+        "id": "api.Node.selectstart_event",
+        "name": "api.Node.selectstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Node/selectstart_event",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#selectstart-event",
+          "https://w3c.github.io/selection-api/#dom-globaleventhandlers-onselectstart"
         ]
       },
       {

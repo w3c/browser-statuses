@@ -162,6 +162,14 @@
         ]
       },
       {
+        "id": "api.PushSubscriptionChangeEvent",
+        "name": "api.PushSubscriptionChangeEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent",
+        "specUrls": [
+          "https://w3c.github.io/push-api/#pushsubscriptionchangeevent-interface"
+        ]
+      },
+      {
         "id": "api.PushSubscriptionChangeEvent.newSubscription",
         "name": "api.PushSubscriptionChangeEvent.newSubscription",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PushSubscriptionChangeEvent/newSubscription",

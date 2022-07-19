@@ -2,43 +2,12 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.Document.touchcancel_event",
-        "name": "api.Document.touchcancel_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchcancel_event",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchcancel"
-        ]
-      },
-      {
-        "id": "api.Document.touchend_event",
-        "name": "api.Document.touchend_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchend_event",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchend"
-        ]
-      },
-      {
-        "id": "api.Document.touchmove_event",
-        "name": "api.Document.touchmove_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchmove_event",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchmove"
-        ]
-      },
-      {
-        "id": "api.Document.touchstart_event",
-        "name": "api.Document.touchstart_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/touchstart_event",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchstart"
-        ]
-      },
-      {
         "id": "api.Element.touchcancel_event",
         "name": "api.Element.touchcancel_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchcancel_event",
         "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchcancel"
+          "https://w3c.github.io/touch-events/#event-touchcancel",
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchcancel"
         ]
       },
       {
@@ -46,7 +15,8 @@
         "name": "api.Element.touchend_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchend_event",
         "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchend"
+          "https://w3c.github.io/touch-events/#event-touchend",
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchend"
         ]
       },
       {
@@ -54,7 +24,8 @@
         "name": "api.Element.touchmove_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchmove_event",
         "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchmove"
+          "https://w3c.github.io/touch-events/#event-touchmove",
+          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchmove"
         ]
       },
       {
@@ -62,38 +33,7 @@
         "name": "api.Element.touchstart_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/touchstart_event",
         "specUrls": [
-          "https://w3c.github.io/touch-events/#event-touchstart"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ontouchcancel",
-        "name": "api.GlobalEventHandlers.ontouchcancel",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchcancel",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchcancel"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ontouchend",
-        "name": "api.GlobalEventHandlers.ontouchend",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchend",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchend"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ontouchmove",
-        "name": "api.GlobalEventHandlers.ontouchmove",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchmove",
-        "specUrls": [
-          "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchmove"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ontouchstart",
-        "name": "api.GlobalEventHandlers.ontouchstart",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ontouchstart",
-        "specUrls": [
+          "https://w3c.github.io/touch-events/#event-touchstart",
           "https://w3c.github.io/touch-events/#dom-globaleventhandlers-ontouchstart"
         ]
       },

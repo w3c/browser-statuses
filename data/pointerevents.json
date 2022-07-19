@@ -44,78 +44,6 @@
         ]
       },
       {
-        "id": "api.Document.pointercancel_event",
-        "name": "api.Document.pointercancel_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointercancel_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointercancel-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerdown_event",
-        "name": "api.Document.pointerdown_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerdown_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerdown-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerenter_event",
-        "name": "api.Document.pointerenter_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerenter_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerenter-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerleave_event",
-        "name": "api.Document.pointerleave_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerleave_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerleave-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointermove_event",
-        "name": "api.Document.pointermove_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointermove_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointermove-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerout_event",
-        "name": "api.Document.pointerout_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerout_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerout-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerover_event",
-        "name": "api.Document.pointerover_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerover_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerover-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerrawupdate_event",
-        "name": "api.Document.pointerrawupdate_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerrawupdate_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerrawupdate-event"
-        ]
-      },
-      {
-        "id": "api.Document.pointerup_event",
-        "name": "api.Document.pointerup_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerup_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerup-event"
-        ]
-      },
-      {
         "id": "api.Element",
         "name": "api.Element",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",
@@ -134,6 +62,87 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/hasPointerCapture",
         "specUrls": [
           "https://w3c.github.io/pointerevents/#dom-element-haspointercapture"
+        ]
+      },
+      {
+        "id": "api.Element.pointercancel_event",
+        "name": "api.Element.pointercancel_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointercancel_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointercancel-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointercancel"
+        ]
+      },
+      {
+        "id": "api.Element.pointerdown_event",
+        "name": "api.Element.pointerdown_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerdown_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerdown-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerdown"
+        ]
+      },
+      {
+        "id": "api.Element.pointerenter_event",
+        "name": "api.Element.pointerenter_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerenter_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerenter-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerenter"
+        ]
+      },
+      {
+        "id": "api.Element.pointerleave_event",
+        "name": "api.Element.pointerleave_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerleave_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerleave-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerleave"
+        ]
+      },
+      {
+        "id": "api.Element.pointermove_event",
+        "name": "api.Element.pointermove_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointermove_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointermove-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointermove"
+        ]
+      },
+      {
+        "id": "api.Element.pointerout_event",
+        "name": "api.Element.pointerout_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerout_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerout-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerout"
+        ]
+      },
+      {
+        "id": "api.Element.pointerover_event",
+        "name": "api.Element.pointerover_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerover_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerover-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerover"
+        ]
+      },
+      {
+        "id": "api.Element.pointerrawupdate_event",
+        "name": "api.Element.pointerrawupdate_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerrawupdate_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerrawupdate-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerrawupdate"
+        ]
+      },
+      {
+        "id": "api.Element.pointerup_event",
+        "name": "api.Element.pointerup_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/pointerup_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-pointerup-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerup"
         ]
       },
       {
@@ -169,78 +178,6 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.onpointercancel",
-        "name": "api.GlobalEventHandlers.onpointercancel",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointercancel",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointercancel"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerdown",
-        "name": "api.GlobalEventHandlers.onpointerdown",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerdown",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerdown"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerenter",
-        "name": "api.GlobalEventHandlers.onpointerenter",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerenter",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerenter"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerleave",
-        "name": "api.GlobalEventHandlers.onpointerleave",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerleave",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerleave"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointermove",
-        "name": "api.GlobalEventHandlers.onpointermove",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointermove",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointermove"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerout",
-        "name": "api.GlobalEventHandlers.onpointerout",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerout",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerout"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerover",
-        "name": "api.GlobalEventHandlers.onpointerover",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerover",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerover"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerrawupdate",
-        "name": "api.GlobalEventHandlers.onpointerrawupdate",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerrawupdate",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerrawupdate"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onpointerup",
-        "name": "api.GlobalEventHandlers.onpointerup",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onpointerup",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onpointerup"
-        ]
-      },
-      {
         "id": "api.HTMLElement.gotpointercapture_event",
         "name": "api.HTMLElement.gotpointercapture_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/gotpointercapture_event",
@@ -254,78 +191,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/lostpointercapture_event",
         "specUrls": [
           "https://w3c.github.io/pointerevents/#the-lostpointercapture-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointercancel_event",
-        "name": "api.HTMLElement.pointercancel_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointercancel_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointercancel-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerdown_event",
-        "name": "api.HTMLElement.pointerdown_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerdown_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerdown-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerenter_event",
-        "name": "api.HTMLElement.pointerenter_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerenter_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerenter-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerleave_event",
-        "name": "api.HTMLElement.pointerleave_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerleave_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerleave-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointermove_event",
-        "name": "api.HTMLElement.pointermove_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointermove_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointermove-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerout_event",
-        "name": "api.HTMLElement.pointerout_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerout_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerout-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerover_event",
-        "name": "api.HTMLElement.pointerover_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerover_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerover-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerrawupdate_event",
-        "name": "api.HTMLElement.pointerrawupdate_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerrawupdate_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerrawupdate-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.pointerup_event",
-        "name": "api.HTMLElement.pointerup_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/pointerup_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-pointerup-event"
         ]
       },
       {
@@ -496,7 +361,7 @@
         "name": "Pointer Events",
         "statusUrl": "https://chromestatus.com/feature/4504699138998272",
         "specUrls": [
-          "http://www.w3.org/TR/pointerevents/"
+          "http://www.w3.org/TR/pointerevents"
         ],
         "representative": true
       },

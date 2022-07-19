@@ -34,14 +34,6 @@
         ]
       },
       {
-        "id": "css.types.color.color-contrast",
-        "name": "css.types.color.color-contrast",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-contrast",
-        "specUrls": [
-          "https://drafts.csswg.org/css-color-5/#colorcontrast"
-        ]
-      },
-      {
         "id": "css.types.color.color-mix",
         "name": "css.types.color.color-mix",
         "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/color_value/color-mix",
@@ -170,6 +162,14 @@
         "statusUrl": "https://caniuse.com/css-color-function",
         "specUrls": [
           "https://drafts.csswg.org/css-color/#color-function"
+        ]
+      },
+      {
+        "id": "css-lch-lab",
+        "name": "LCH and Lab color values",
+        "statusUrl": "https://caniuse.com/css-lch-lab",
+        "specUrls": [
+          "https://www.w3.org/TR/css-color-4/#specifying-lab-lch"
         ]
       },
       {

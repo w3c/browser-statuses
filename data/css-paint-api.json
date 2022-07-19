@@ -10,6 +10,14 @@
         ]
       },
       {
+        "id": "api.PaintRenderingContext2D",
+        "name": "api.PaintRenderingContext2D",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintRenderingContext2D",
+        "specUrls": [
+          "https://drafts.css-houdini.org/css-paint-api/#2d-rendering-context"
+        ]
+      },
+      {
         "id": "api.PaintSize.height",
         "name": "api.PaintSize.height",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaintSize/height",

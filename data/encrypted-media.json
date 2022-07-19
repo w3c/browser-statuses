@@ -68,6 +68,14 @@
         ]
       },
       {
+        "id": "api.MediaEncryptedEvent",
+        "name": "api.MediaEncryptedEvent",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent",
+        "specUrls": [
+          "https://w3c.github.io/encrypted-media/#mediaencryptedevent"
+        ]
+      },
+      {
         "id": "api.MediaEncryptedEvent.initData",
         "name": "api.MediaEncryptedEvent.initData",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/MediaEncryptedEvent/initData",
