@@ -16,6 +16,14 @@
         "specUrls": [
           "http://wicg.github.io/private-network-access/"
         ]
+      },
+      {
+        "id": 5954091755241472,
+        "name": "Private Network Access permission to relax mixed content",
+        "statusUrl": "https://chromestatus.com/feature/5954091755241472",
+        "specUrls": [
+          "https://wicg.github.io/private-network-access"
+        ]
       }
     ]
   }

@@ -779,6 +779,14 @@
         ]
       },
       {
+        "id": "api.DOMQuad.DOMQuad",
+        "name": "api.DOMQuad.DOMQuad",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/DOMQuad/DOMQuad",
+        "specUrls": [
+          "https://drafts.fxtf.org/geometry/#dom-domquad-domquad"
+        ]
+      },
+      {
         "id": "api.DOMQuad.fromQuad",
         "name": "api.DOMQuad.fromQuad",
         "specUrls": [

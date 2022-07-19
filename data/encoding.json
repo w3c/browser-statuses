@@ -34,6 +34,22 @@
         ]
       },
       {
+        "id": "api.TextDecoder.fatal",
+        "name": "api.TextDecoder.fatal",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder/fatal",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoder-fatal①"
+        ]
+      },
+      {
+        "id": "api.TextDecoder.ignoreBOM",
+        "name": "api.TextDecoder.ignoreBOM",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoder/ignoreBOM",
+        "specUrls": [
+          "https://encoding.spec.whatwg.org/#ref-for-dom-textdecoder-ignorebom①"
+        ]
+      },
+      {
         "id": "api.TextDecoderStream",
         "name": "api.TextDecoderStream",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/TextDecoderStream",

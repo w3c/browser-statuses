@@ -354,6 +354,13 @@
         ]
       },
       {
+        "id": "api.SpeechRecognitionEvent.SpeechRecognitionEvent",
+        "name": "api.SpeechRecognitionEvent.SpeechRecognitionEvent",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/#dom-speechrecognition-speechrecognition"
+        ]
+      },
+      {
         "id": "api.SpeechRecognitionEvent.resultIndex",
         "name": "api.SpeechRecognitionEvent.resultIndex",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/SpeechRecognitionEvent/resultIndex",

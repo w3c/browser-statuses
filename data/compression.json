@@ -18,6 +18,27 @@
         ]
       },
       {
+        "id": "api.CompressionStream.CompressionStream.deflate",
+        "name": "api.CompressionStream.CompressionStream.deflate",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
+        ]
+      },
+      {
+        "id": "api.CompressionStream.CompressionStream.deflate-raw",
+        "name": "api.CompressionStream.CompressionStream.deflate-raw",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
+        ]
+      },
+      {
+        "id": "api.CompressionStream.CompressionStream.gzip",
+        "name": "api.CompressionStream.CompressionStream.gzip",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
+        ]
+      },
+      {
         "id": "api.DecompressionStream",
         "name": "api.DecompressionStream",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream",
@@ -31,6 +52,27 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/DecompressionStream/DecompressionStream",
         "specUrls": [
           "https://wicg.github.io/compression/#dom-decompressionstream-decompressionstream"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.DecompressionStream.deflate",
+        "name": "api.DecompressionStream.DecompressionStream.deflate",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.DecompressionStream.deflate-raw",
+        "name": "api.DecompressionStream.DecompressionStream.deflate-raw",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
+        ]
+      },
+      {
+        "id": "api.DecompressionStream.DecompressionStream.gzip",
+        "name": "api.DecompressionStream.DecompressionStream.gzip",
+        "specUrls": [
+          "https://wicg.github.io/compression/#supported-formats"
         ]
       }
     ],

@@ -30,24 +30,6 @@
         ]
       },
       {
-        "id": "api.Document.pointerlockchange_event",
-        "name": "api.Document.pointerlockchange_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerlockchange_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerlock/#pointerlockchange-and-pointerlockerror-events",
-          "https://w3c.github.io/pointerlock/#dom-document-onpointerlockchange"
-        ]
-      },
-      {
-        "id": "api.Document.pointerlockerror_event",
-        "name": "api.Document.pointerlockerror_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/pointerlockerror_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerlock/#pointerlockchange-and-pointerlockerror-events",
-          "https://w3c.github.io/pointerlock/#dom-document-onpointerlockerror"
-        ]
-      },
-      {
         "id": "api.Element",
         "name": "api.Element",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element",

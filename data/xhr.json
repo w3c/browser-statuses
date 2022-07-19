@@ -346,6 +346,14 @@
         ]
       },
       {
+        "id": "api.XMLHttpRequestUpload",
+        "name": "api.XMLHttpRequestUpload",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload",
+        "specUrls": [
+          "https://xhr.spec.whatwg.org/#xmlhttprequestupload"
+        ]
+      },
+      {
         "id": "api.XMLHttpRequestUpload.abort_event",
         "name": "api.XMLHttpRequestUpload.abort_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XMLHttpRequestUpload/abort_event",

@@ -2831,6 +2831,13 @@
         ]
       },
       {
+        "id": "api.XPathEvaluator.XPathEvaluator",
+        "name": "api.XPathEvaluator.XPathEvaluator",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#dom-xpathevaluator-xpathevaluator"
+        ]
+      },
+      {
         "id": "api.XPathEvaluator.createExpression",
         "name": "api.XPathEvaluator.createExpression",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathEvaluator/createExpression",
@@ -2948,6 +2955,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/XPathResult/stringValue",
         "specUrls": [
           "https://dom.spec.whatwg.org/#dom-xpathresult-stringvalue"
+        ]
+      },
+      {
+        "id": "api.XSLTProcessor",
+        "name": "api.XSLTProcessor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/XSLTProcessor",
+        "specUrls": [
+          "https://dom.spec.whatwg.org/#interface-xsltprocessor"
         ]
       },
       {

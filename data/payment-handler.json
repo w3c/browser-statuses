@@ -50,6 +50,14 @@
         ]
       },
       {
+        "id": "api.PaymentInstruments",
+        "name": "api.PaymentInstruments",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#paymentinstruments-interface"
+        ]
+      },
+      {
         "id": "api.PaymentInstruments.clear",
         "name": "api.PaymentInstruments.clear",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/clear",
@@ -95,6 +103,14 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentInstruments/set",
         "specUrls": [
           "https://w3c.github.io/payment-handler/#dom-paymentinstruments-set"
+        ]
+      },
+      {
+        "id": "api.PaymentManager",
+        "name": "api.PaymentManager",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/PaymentManager",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler/#paymentmanager-interface"
         ]
       },
       {

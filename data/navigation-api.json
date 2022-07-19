@@ -375,6 +375,22 @@
     ],
     "chrome": [
       {
+        "id": 5194055716700160,
+        "name": "navigateEvent.intercept()",
+        "statusUrl": "https://chromestatus.com/feature/5194055716700160",
+        "specUrls": [
+          "https://github.com/WICG/navigation-api/pull/235"
+        ]
+      },
+      {
+        "id": 5194856243134464,
+        "name": "navigateEvent.scroll()",
+        "statusUrl": "https://chromestatus.com/feature/5194856243134464",
+        "specUrls": [
+          "https://github.com/WICG/navigation-api/pull/239"
+        ]
+      },
+      {
         "id": 6232287446302720,
         "name": "Navigation API",
         "statusUrl": "https://chromestatus.com/feature/6232287446302720",
