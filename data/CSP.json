@@ -218,200 +218,200 @@
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy",
-        "name": "http.headers.csp.Content-Security-Policy",
+        "id": "http.headers.Content-Security-Policy",
+        "name": "http.headers.Content-Security-Policy",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#csp-header"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.base-uri",
-        "name": "http.headers.csp.Content-Security-Policy.base-uri",
+        "id": "http.headers.Content-Security-Policy.base-uri",
+        "name": "http.headers.Content-Security-Policy.base-uri",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/base-uri",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-base-uri"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.child-src",
-        "name": "http.headers.csp.Content-Security-Policy.child-src",
+        "id": "http.headers.Content-Security-Policy.child-src",
+        "name": "http.headers.Content-Security-Policy.child-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/child-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-child-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.connect-src",
-        "name": "http.headers.csp.Content-Security-Policy.connect-src",
+        "id": "http.headers.Content-Security-Policy.connect-src",
+        "name": "http.headers.Content-Security-Policy.connect-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/connect-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-connect-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.default-src",
-        "name": "http.headers.csp.Content-Security-Policy.default-src",
+        "id": "http.headers.Content-Security-Policy.default-src",
+        "name": "http.headers.Content-Security-Policy.default-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/default-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-default-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.font-src",
-        "name": "http.headers.csp.Content-Security-Policy.font-src",
+        "id": "http.headers.Content-Security-Policy.font-src",
+        "name": "http.headers.Content-Security-Policy.font-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/font-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-font-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.form-action",
-        "name": "http.headers.csp.Content-Security-Policy.form-action",
+        "id": "http.headers.Content-Security-Policy.form-action",
+        "name": "http.headers.Content-Security-Policy.form-action",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/form-action",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-form-action"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.frame-ancestors",
-        "name": "http.headers.csp.Content-Security-Policy.frame-ancestors",
+        "id": "http.headers.Content-Security-Policy.frame-ancestors",
+        "name": "http.headers.Content-Security-Policy.frame-ancestors",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-ancestors",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-frame-ancestors"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.frame-src",
-        "name": "http.headers.csp.Content-Security-Policy.frame-src",
+        "id": "http.headers.Content-Security-Policy.frame-src",
+        "name": "http.headers.Content-Security-Policy.frame-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/frame-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-frame-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.img-src",
-        "name": "http.headers.csp.Content-Security-Policy.img-src",
+        "id": "http.headers.Content-Security-Policy.img-src",
+        "name": "http.headers.Content-Security-Policy.img-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/img-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-img-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.manifest-src",
-        "name": "http.headers.csp.Content-Security-Policy.manifest-src",
+        "id": "http.headers.Content-Security-Policy.manifest-src",
+        "name": "http.headers.Content-Security-Policy.manifest-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-manifest-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.media-src",
-        "name": "http.headers.csp.Content-Security-Policy.media-src",
+        "id": "http.headers.Content-Security-Policy.media-src",
+        "name": "http.headers.Content-Security-Policy.media-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/media-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-media-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.navigate-to",
-        "name": "http.headers.csp.Content-Security-Policy.navigate-to",
+        "id": "http.headers.Content-Security-Policy.navigate-to",
+        "name": "http.headers.Content-Security-Policy.navigate-to",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/navigate-to",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-navigate-to"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.object-src",
-        "name": "http.headers.csp.Content-Security-Policy.object-src",
+        "id": "http.headers.Content-Security-Policy.object-src",
+        "name": "http.headers.Content-Security-Policy.object-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/object-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-object-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.prefetch-src",
-        "name": "http.headers.csp.Content-Security-Policy.prefetch-src",
+        "id": "http.headers.Content-Security-Policy.prefetch-src",
+        "name": "http.headers.Content-Security-Policy.prefetch-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/prefetch-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-prefetch-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.report-to",
-        "name": "http.headers.csp.Content-Security-Policy.report-to",
+        "id": "http.headers.Content-Security-Policy.report-to",
+        "name": "http.headers.Content-Security-Policy.report-to",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/report-to",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-report-to"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.report-uri",
-        "name": "http.headers.csp.Content-Security-Policy.report-uri",
+        "id": "http.headers.Content-Security-Policy.report-uri",
+        "name": "http.headers.Content-Security-Policy.report-uri",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/report-uri",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-report-uri"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.sandbox",
-        "name": "http.headers.csp.Content-Security-Policy.sandbox",
+        "id": "http.headers.Content-Security-Policy.sandbox",
+        "name": "http.headers.Content-Security-Policy.sandbox",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/sandbox",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-sandbox"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.script-src",
-        "name": "http.headers.csp.Content-Security-Policy.script-src",
+        "id": "http.headers.Content-Security-Policy.script-src",
+        "name": "http.headers.Content-Security-Policy.script-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-script-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.script-src-attr",
-        "name": "http.headers.csp.Content-Security-Policy.script-src-attr",
+        "id": "http.headers.Content-Security-Policy.script-src-attr",
+        "name": "http.headers.Content-Security-Policy.script-src-attr",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-attr",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-script-src-attr"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.script-src-elem",
-        "name": "http.headers.csp.Content-Security-Policy.script-src-elem",
+        "id": "http.headers.Content-Security-Policy.script-src-elem",
+        "name": "http.headers.Content-Security-Policy.script-src-elem",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/script-src-elem",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-script-src-elem"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.style-src",
-        "name": "http.headers.csp.Content-Security-Policy.style-src",
+        "id": "http.headers.Content-Security-Policy.style-src",
+        "name": "http.headers.Content-Security-Policy.style-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-style-src"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.style-src-attr",
-        "name": "http.headers.csp.Content-Security-Policy.style-src-attr",
+        "id": "http.headers.Content-Security-Policy.style-src-attr",
+        "name": "http.headers.Content-Security-Policy.style-src-attr",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-attr",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-style-src-attr"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.style-src-elem",
-        "name": "http.headers.csp.Content-Security-Policy.style-src-elem",
+        "id": "http.headers.Content-Security-Policy.style-src-elem",
+        "name": "http.headers.Content-Security-Policy.style-src-elem",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/style-src-elem",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-style-src-elem"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.worker-src",
-        "name": "http.headers.csp.Content-Security-Policy.worker-src",
+        "id": "http.headers.Content-Security-Policy.worker-src",
+        "name": "http.headers.Content-Security-Policy.worker-src",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/worker-src",
         "specUrls": [
           "https://w3c.github.io/webappsec-csp/#directive-worker-src"

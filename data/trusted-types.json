@@ -209,16 +209,16 @@
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.require-trusted-types-for",
-        "name": "http.headers.csp.Content-Security-Policy.require-trusted-types-for",
+        "id": "http.headers.Content-Security-Policy.require-trusted-types-for",
+        "name": "http.headers.Content-Security-Policy.require-trusted-types-for",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/require-trusted-types-for",
         "specUrls": [
           "https://w3c.github.io/webappsec-trusted-types/dist/spec/#require-trusted-types-for-csp-directive"
         ]
       },
       {
-        "id": "http.headers.csp.Content-Security-Policy.trusted-types",
-        "name": "http.headers.csp.Content-Security-Policy.trusted-types",
+        "id": "http.headers.Content-Security-Policy.trusted-types",
+        "name": "http.headers.Content-Security-Policy.trusted-types",
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/trusted-types",
         "specUrls": [
           "https://w3c.github.io/webappsec-trusted-types/dist/spec/#trusted-types-csp-directive"
