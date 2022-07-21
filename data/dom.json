@@ -2608,13 +2608,6 @@
         ]
       },
       {
-        "id": "api.ShadowRoot.slotchange_event",
-        "name": "api.ShadowRoot.slotchange_event",
-        "specUrls": [
-          "https://dom.spec.whatwg.org/#dom-shadowroot-onslotchange"
-        ]
-      },
-      {
         "id": "api.StaticRange",
         "name": "api.StaticRange",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/StaticRange",
