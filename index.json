@@ -21727,8 +21727,9 @@
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "experimental",
         "source": "bcd",
+        "prefix": true,
         "partial": true
       },
       {
@@ -45081,8 +45082,9 @@
       },
       {
         "ua": "safari",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
+        "prefix": true,
         "partial": true,
         "selected": true
       },
@@ -45100,8 +45102,9 @@
       },
       {
         "ua": "safari_ios",
-        "status": "shipped",
+        "status": "experimental",
         "source": "caniuse",
+        "prefix": true,
         "partial": true,
         "selected": true
       },
@@ -53774,6 +53777,46 @@
     ]
   },
   {
+    "shortname": "prerendering-revamped",
+    "support": [
+      {
+        "ua": "chrome",
+        "status": "indevelopment",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "notsupported",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "indevelopment",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      }
+    ]
+  },
+  {
     "shortname": "presentation-api",
     "support": [
       {
@@ -61559,6 +61602,32 @@
         "status": "experimental",
         "source": "bcd",
         "prefix": true,
+        "partial": true,
+        "selected": true
+      }
+    ]
+  },
+  {
+    "shortname": "speculation-rules",
+    "support": [
+      {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "firefox",
+        "status": "notsupported",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "safari",
+        "status": "notsupported",
+        "source": "chrome",
         "partial": true,
         "selected": true
       }
