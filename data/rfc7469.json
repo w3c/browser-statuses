@@ -1,22 +1,3 @@
 {
-  "statusref": {
-    "bcd": [
-      {
-        "id": "http.headers.Public-Key-Pins",
-        "name": "http.headers.Public-Key-Pins",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Public-Key-Pins",
-        "specUrls": [
-          "https://www.rfc-editor.org/rfc/rfc7469#section-2.1"
-        ]
-      },
-      {
-        "id": "http.headers.Public-Key-Pins-Report-Only",
-        "name": "http.headers.Public-Key-Pins-Report-Only",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/HTTP/Headers/Public-Key-Pins-Report-Only",
-        "specUrls": [
-          "https://www.rfc-editor.org/rfc/rfc7469#section-2.1"
-        ]
-      }
-    ]
-  }
+  "statusref": {}
 }

@@ -28,19 +28,12 @@
   "statusref": {
     "bcd": [
       {
-        "id": "api.Document.gotpointercapture_event",
-        "name": "api.Document.gotpointercapture_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/gotpointercapture_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-gotpointercapture-event"
-        ]
-      },
-      {
         "id": "api.Document.lostpointercapture_event",
         "name": "api.Document.lostpointercapture_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/lostpointercapture_event",
         "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-lostpointercapture-event"
+          "https://w3c.github.io/pointerevents/#the-lostpointercapture-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onlostpointercapture"
         ]
       },
       {
@@ -57,11 +50,29 @@
         ]
       },
       {
+        "id": "api.Element.gotpointercapture_event",
+        "name": "api.Element.gotpointercapture_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/gotpointercapture_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-gotpointercapture-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-ongotpointercapture"
+        ]
+      },
+      {
         "id": "api.Element.hasPointerCapture",
         "name": "api.Element.hasPointerCapture",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/hasPointerCapture",
         "specUrls": [
           "https://w3c.github.io/pointerevents/#dom-element-haspointercapture"
+        ]
+      },
+      {
+        "id": "api.Element.lostpointercapture_event",
+        "name": "api.Element.lostpointercapture_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/lostpointercapture_event",
+        "specUrls": [
+          "https://w3c.github.io/pointerevents/#the-lostpointercapture-event",
+          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onlostpointercapture"
         ]
       },
       {
@@ -159,38 +170,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/setPointerCapture",
         "specUrls": [
           "https://w3c.github.io/pointerevents/#dom-element-setpointercapture"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ongotpointercapture",
-        "name": "api.GlobalEventHandlers.ongotpointercapture",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ongotpointercapture",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-ongotpointercapture"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onlostpointercapture",
-        "name": "api.GlobalEventHandlers.onlostpointercapture",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onlostpointercapture",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#dom-globaleventhandlers-onlostpointercapture"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.gotpointercapture_event",
-        "name": "api.HTMLElement.gotpointercapture_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/gotpointercapture_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-gotpointercapture-event"
-        ]
-      },
-      {
-        "id": "api.HTMLElement.lostpointercapture_event",
-        "name": "api.HTMLElement.lostpointercapture_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/lostpointercapture_event",
-        "specUrls": [
-          "https://w3c.github.io/pointerevents/#the-lostpointercapture-event"
         ]
       },
       {

@@ -269,6 +269,14 @@
         ]
       },
       {
+        "id": "css-media-resolution",
+        "name": "Media Queries: resolution feature",
+        "statusUrl": "https://caniuse.com/css-media-resolution",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-4/#resolution"
+        ]
+      },
+      {
         "id": "prefers-color-scheme",
         "name": "prefers-color-scheme media query",
         "statusUrl": "https://caniuse.com/prefers-color-scheme",

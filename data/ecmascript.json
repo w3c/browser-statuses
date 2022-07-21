@@ -4587,7 +4587,8 @@
         "name": "javascript.operators.destructuring",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
         "specUrls": [
-          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment"
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-destructuring-assignment",
+          "https://tc39.es/ecma262/multipage/ecmascript-language-statements-and-declarations.html#sec-destructuring-binding-patterns"
         ]
       },
       {
@@ -4908,7 +4909,15 @@
         "name": "javascript.operators.spread.spread_in_arrays",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_array_literals",
         "specUrls": [
-          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-array-initializer"
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-SpreadElement"
+        ]
+      },
+      {
+        "id": "javascript.operators.spread.spread_in_function_calls",
+        "name": "javascript.operators.spread.spread_in_function_calls",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_function_calls",
+        "specUrls": [
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-ArgumentList"
         ]
       },
       {
@@ -4916,7 +4925,7 @@
         "name": "javascript.operators.spread.spread_in_object_literals",
         "statusUrl": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_object_literals",
         "specUrls": [
-          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#sec-object-initializer"
+          "https://tc39.es/ecma262/multipage/ecmascript-language-expressions.html#prod-PropertyDefinition"
         ]
       },
       {

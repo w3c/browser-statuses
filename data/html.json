@@ -1794,62 +1794,6 @@
         ]
       },
       {
-        "id": "api.Document.drag_event",
-        "name": "api.Document.drag_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/drag_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drag"
-        ]
-      },
-      {
-        "id": "api.Document.dragend_event",
-        "name": "api.Document.dragend_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/dragend_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragend"
-        ]
-      },
-      {
-        "id": "api.Document.dragenter_event",
-        "name": "api.Document.dragenter_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/dragenter_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragenter"
-        ]
-      },
-      {
-        "id": "api.Document.dragleave_event",
-        "name": "api.Document.dragleave_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/dragleave_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragleave"
-        ]
-      },
-      {
-        "id": "api.Document.dragover_event",
-        "name": "api.Document.dragover_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/dragover_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragover"
-        ]
-      },
-      {
-        "id": "api.Document.dragstart_event",
-        "name": "api.Document.dragstart_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/dragstart_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragstart"
-        ]
-      },
-      {
-        "id": "api.Document.drop_event",
-        "name": "api.Document.drop_event",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/drop_event",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drop"
-        ]
-      },
-      {
         "id": "api.Document.embeds",
         "name": "api.Document.embeds",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/embeds",
@@ -1999,6 +1943,23 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scripts",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/dom.html#dom-document-scripts-dev"
+        ]
+      },
+      {
+        "id": "api.Document.scroll_event",
+        "name": "api.Document.scroll_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scroll_event",
+        "specUrls": [
+          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
+        ]
+      },
+      {
+        "id": "api.Document.securitypolicyviolation_event",
+        "name": "api.Document.securitypolicyviolation_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/securitypolicyviolation_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsecuritypolicyviolation"
         ]
       },
       {
@@ -2210,11 +2171,21 @@
         ]
       },
       {
+        "id": "api.Element.scroll_event",
+        "name": "api.Element.scroll_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scroll_event",
+        "specUrls": [
+          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
+        ]
+      },
+      {
         "id": "api.Element.securitypolicyviolation_event",
         "name": "api.Element.securitypolicyviolation_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/securitypolicyviolation_event",
         "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation"
+          "https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsecuritypolicyviolation"
         ]
       },
       {
@@ -2495,75 +2466,11 @@
         ]
       },
       {
-        "id": "api.GlobalEventHandlers.ondrag",
-        "name": "api.GlobalEventHandlers.ondrag",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondrag",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrag"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondragend",
-        "name": "api.GlobalEventHandlers.ondragend",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondragend",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragend"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondragenter",
-        "name": "api.GlobalEventHandlers.ondragenter",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondragenter",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragenter"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondragleave",
-        "name": "api.GlobalEventHandlers.ondragleave",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondragleave",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragleave"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondragover",
-        "name": "api.GlobalEventHandlers.ondragover",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondragover",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragover"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondragstart",
-        "name": "api.GlobalEventHandlers.ondragstart",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondragstart",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragstart"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.ondrop",
-        "name": "api.GlobalEventHandlers.ondrop",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/ondrop",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrop"
-        ]
-      },
-      {
         "id": "api.GlobalEventHandlers.onerror",
         "name": "api.GlobalEventHandlers.onerror",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onerror",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onerror"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.oninvalid",
-        "name": "api.GlobalEventHandlers.oninvalid",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/oninvalid",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-oninvalid"
         ]
       },
       {
@@ -2596,30 +2503,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onloadstart",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onloadstart"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onscroll",
-        "name": "api.GlobalEventHandlers.onscroll",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onscroll",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onsecuritypolicyviolation",
-        "name": "api.GlobalEventHandlers.onsecuritypolicyviolation",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onsecuritypolicyviolation",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onsecuritypolicyviolation"
-        ]
-      },
-      {
-        "id": "api.GlobalEventHandlers.onslotchange",
-        "name": "api.GlobalEventHandlers.onslotchange",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/GlobalEventHandlers/onslotchange",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onslotchange"
         ]
       },
       {
@@ -3671,11 +3554,74 @@
         ]
       },
       {
+        "id": "api.HTMLElement.drag_event",
+        "name": "api.HTMLElement.drag_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/drag_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrag",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drag"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.dragend_event",
+        "name": "api.HTMLElement.dragend_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragend_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragend",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragend"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.dragenter_event",
+        "name": "api.HTMLElement.dragenter_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragenter_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragenter",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragenter"
+        ]
+      },
+      {
         "id": "api.HTMLElement.draggable",
         "name": "api.HTMLElement.draggable",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/draggable",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/dnd.html#dom-draggable"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.dragleave_event",
+        "name": "api.HTMLElement.dragleave_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragleave_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragleave",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragleave"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.dragover_event",
+        "name": "api.HTMLElement.dragover_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragover_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragover",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragover"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.dragstart_event",
+        "name": "api.HTMLElement.dragstart_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/dragstart_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondragstart",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-dragstart"
+        ]
+      },
+      {
+        "id": "api.HTMLElement.drop_event",
+        "name": "api.HTMLElement.drop_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLElement/drop_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#ix-handler-ondrop",
+          "https://html.spec.whatwg.org/multipage/dnd.html#event-dnd-drop"
         ]
       },
       {
@@ -7092,7 +7038,8 @@
         "name": "api.HTMLSlotElement.slotchange_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/HTMLSlotElement/slotchange_event",
         "specUrls": [
-          "https://html.spec.whatwg.org/multipage/indices.html#event-slotchange"
+          "https://html.spec.whatwg.org/multipage/indices.html#event-slotchange",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onslotchange"
         ]
       },
       {
@@ -11215,6 +11162,14 @@
         ]
       },
       {
+        "id": "api.WorkerGlobalScope.securitypolicyviolation_event",
+        "name": "api.WorkerGlobalScope.securitypolicyviolation_event",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/securitypolicyviolation_event",
+        "specUrls": [
+          "https://html.spec.whatwg.org/multipage/indices.html#event-securitypolicyviolation"
+        ]
+      },
+      {
         "id": "api.WorkerGlobalScope.self",
         "name": "api.WorkerGlobalScope.self",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/self",
@@ -11839,14 +11794,6 @@
         "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/base",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/semantics.html#the-base-element"
-        ]
-      },
-      {
-        "id": "html.elements.basefont",
-        "name": "html.elements.basefont",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/HTML/Element/basefont",
-        "specUrls": [
-          "https://html.spec.whatwg.org/multipage/obsolete.html#basefont"
         ]
       },
       {
@@ -13756,6 +13703,7 @@
       {
         "id": "javascript.builtins.Error.serializable_object",
         "name": "javascript.builtins.Error.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13763,6 +13711,7 @@
       {
         "id": "javascript.builtins.EvalError.serializable_object",
         "name": "javascript.builtins.EvalError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13778,6 +13727,7 @@
       {
         "id": "javascript.builtins.RangeError.serializable_object",
         "name": "javascript.builtins.RangeError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13785,6 +13735,7 @@
       {
         "id": "javascript.builtins.ReferenceError.serializable_object",
         "name": "javascript.builtins.ReferenceError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13792,6 +13743,7 @@
       {
         "id": "javascript.builtins.SyntaxError.serializable_object",
         "name": "javascript.builtins.SyntaxError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13799,6 +13751,7 @@
       {
         "id": "javascript.builtins.TypeError.serializable_object",
         "name": "javascript.builtins.TypeError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]
@@ -13806,6 +13759,7 @@
       {
         "id": "javascript.builtins.URIError.serializable_object",
         "name": "javascript.builtins.URIError.serializable_object",
+        "statusUrl": "https://developer.mozilla.org/docs/Glossary/Serializable_object",
         "specUrls": [
           "https://html.spec.whatwg.org/multipage/structured-data.html#serializable-objects"
         ]

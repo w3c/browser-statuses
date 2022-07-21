@@ -232,6 +232,62 @@
         "specUrls": [
           "https://w3c.github.io/mathml-core/#semantics-and-presentation"
         ]
+      },
+      {
+        "id": "mathml.global_attributes.dir",
+        "name": "mathml.global_attributes.dir",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/dir",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-dir"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.displaystyle",
+        "name": "mathml.global_attributes.displaystyle",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/displaystyle",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-displaystyle"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.mathbackground",
+        "name": "mathml.global_attributes.mathbackground",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathbackground",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-mathbackground"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.mathcolor",
+        "name": "mathml.global_attributes.mathcolor",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathcolor",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-mathcolor"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.mathsize",
+        "name": "mathml.global_attributes.mathsize",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathsize",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-mathsize"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.mathvariant",
+        "name": "mathml.global_attributes.mathvariant",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/mathvariant",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-mathvariant"
+        ]
+      },
+      {
+        "id": "mathml.global_attributes.scriptlevel",
+        "name": "mathml.global_attributes.scriptlevel",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/MathML/Global_attributes/scriptlevel",
+        "specUrls": [
+          "https://w3c.github.io/mathml-core/#dfn-scriptlevel"
+        ]
       }
     ]
   }

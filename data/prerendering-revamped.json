@@ -1,0 +1,30 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5197044678393856,
+        "name": "Prerender2 for Desktop",
+        "statusUrl": "https://chromestatus.com/feature/5197044678393856",
+        "specUrls": [
+          "https://wicg.github.io/nav-speculation/prerendering.html"
+        ]
+      },
+      {
+        "id": 5355965538893824,
+        "name": "Same-origin prerendering triggered by the speculation rules API",
+        "statusUrl": "https://chromestatus.com/feature/5355965538893824",
+        "specUrls": [
+          "https://wicg.github.io/nav-speculation/prerendering.html"
+        ]
+      },
+      {
+        "id": 5710069172797440,
+        "name": "Omnibox Prerendering",
+        "statusUrl": "https://chromestatus.com/feature/5710069172797440",
+        "specUrls": [
+          "https://wicg.github.io/nav-speculation/prerendering.html"
+        ]
+      }
+    ]
+  }
+}

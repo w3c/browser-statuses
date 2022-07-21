@@ -178,6 +178,14 @@
         ]
       },
       {
+        "id": "api.Selection.modify",
+        "name": "api.Selection.modify",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/modify",
+        "specUrls": [
+          "https://w3c.github.io/selection-api/#dom-selection-modify"
+        ]
+      },
+      {
         "id": "api.Selection.rangeCount",
         "name": "api.Selection.rangeCount",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Selection/rangeCount",
