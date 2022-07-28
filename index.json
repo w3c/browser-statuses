@@ -30202,9 +30202,8 @@
       },
       {
         "ua": "firefox",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
-        "flag": true,
         "partial": true,
         "selected": true
       },
@@ -43553,7 +43552,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Fully supported only in iPadOS 13 and later."
+              "Fully supported only in iPadOS, 13 and later"
             ],
             "href": "https://caniuse.com/#feat=mediasource",
             "representative": true
@@ -43800,7 +43799,7 @@
               {
                 "status": "shipped",
                 "notes": [
-                  "Fully supported only in iPadOS 13 and later."
+                  "Fully supported only in iPadOS, 13 and later"
                 ],
                 "href": "https://caniuse.com/#feat=mediasource",
                 "representative": true
@@ -64238,10 +64237,6 @@
         "details": [
           {
             "status": "shipped",
-            "notes": [
-              "No support for BYOB (\"bring your own buffer\") stream readers.",
-              "No support for the `pipeTo` or `pipeThrough` methods"
-            ],
             "href": "https://caniuse.com/#feat=streams",
             "representative": true
           }
@@ -64503,10 +64498,6 @@
             "details": [
               {
                 "status": "shipped",
-                "notes": [
-                  "No support for BYOB (\"bring your own buffer\") stream readers.",
-                  "No support for the `pipeTo` or `pipeThrough` methods"
-                ],
                 "href": "https://caniuse.com/#feat=streams",
                 "representative": true
               }
@@ -64745,10 +64736,6 @@
             "details": [
               {
                 "status": "shipped",
-                "notes": [
-                  "No support for BYOB (\"bring your own buffer\") stream readers.",
-                  "No support for the `pipeTo` or `pipeThrough` methods"
-                ],
                 "href": "https://caniuse.com/#feat=streams",
                 "representative": true
               }
@@ -64973,10 +64960,6 @@
             "details": [
               {
                 "status": "shipped",
-                "notes": [
-                  "No support for BYOB (\"bring your own buffer\") stream readers.",
-                  "No support for the `pipeTo` or `pipeThrough` methods"
-                ],
                 "href": "https://caniuse.com/#feat=streams",
                 "representative": true
               }
