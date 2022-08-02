@@ -21414,7 +21414,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
@@ -21441,7 +21441,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
