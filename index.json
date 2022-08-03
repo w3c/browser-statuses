@@ -14858,7 +14858,7 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -14878,7 +14878,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -35626,8 +35626,7 @@
               {
                 "status": "shipped",
                 "notes": [
-                  "Partial support refers to no support for datalists on non-text fields (e.g. number, [range](https://bugzilla.mozilla.org/show_bug.cgi?id=841942), [color](https://bugzilla.mozilla.org/show_bug.cgi?id=960984)).",
-                  "In Firefox, autocomplete must be set to off to make dynamic datalist work due to [a bug](https://bugzilla.mozilla.org/show_bug.cgi?id=1474137)"
+                  "Partial support refers to no support for datalists on non-text fields (e.g. number, [range](https://bugzilla.mozilla.org/show_bug.cgi?id=841942), [color](https://bugzilla.mozilla.org/show_bug.cgi?id=960984))."
                 ],
                 "href": "https://caniuse.com/#feat=datalist",
                 "representative": true
@@ -60134,21 +60133,21 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -71052,9 +71051,6 @@
         "details": [
           {
             "status": "shipped",
-            "notes": [
-              "Only supported on Windows"
-            ],
             "href": "https://caniuse.com/#feat=web-share",
             "representative": true
           }
