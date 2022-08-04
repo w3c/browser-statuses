@@ -21468,7 +21468,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "bcd",
         "partial": true
       },
