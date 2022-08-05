@@ -21434,9 +21434,8 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
-        "flag": true,
         "partial": true
       },
       {
@@ -21461,9 +21460,8 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
-        "flag": true,
         "partial": true
       },
       {
@@ -21490,7 +21488,6 @@
         "ua": "edge",
         "status": "experimental",
         "source": "chrome",
-        "flag": true,
         "partial": true
       },
       {
