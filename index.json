@@ -310,12 +310,12 @@
       },
       {
         "ua": "firefox",
-        "status": "consideration",
+        "status": "notsupported",
         "source": "chrome",
         "representative": true,
         "details": [
           {
-            "status": "consideration",
+            "status": "notsupported",
             "href": "https://www.chromestatus.com/feature/5298357018820608",
             "representative": true
           }
