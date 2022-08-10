@@ -14898,7 +14898,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -21486,7 +21486,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true
       },
@@ -53783,7 +53783,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "notsupported",
+        "status": "indevelopment",
         "source": "chrome",
         "partial": true,
         "selected": true
