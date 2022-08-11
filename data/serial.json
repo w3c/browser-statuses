@@ -168,6 +168,14 @@
           "https://wicg.github.io/serial/"
         ],
         "representative": true
+      },
+      {
+        "id": 6716022686482432,
+        "name": "SerialPort BYOB reader support",
+        "statusUrl": "https://chromestatus.com/feature/6716022686482432",
+        "specUrls": [
+          "https://wicg.github.io/serial/#readable-attribute"
+        ]
       }
     ],
     "webkit": [
