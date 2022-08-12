@@ -57231,6 +57231,27 @@
     "shortname": "responsive-image-client-hints",
     "support": [
       {
+        "ua": "chrome",
+        "status": "experimental",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "chrome_android",
+        "status": "experimental",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
+        "ua": "edge",
+        "status": "experimental",
+        "source": "chrome",
+        "partial": true,
+        "selected": true
+      },
+      {
         "ua": "firefox",
         "status": "notsupported",
         "source": "chrome",
@@ -70303,7 +70324,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)"
+              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md#chrome)"
             ],
             "href": "https://caniuse.com/#feat=web-bluetooth",
             "representative": true
@@ -70340,7 +70361,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)"
+              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md#chrome)"
             ],
             "href": "https://caniuse.com/#feat=web-bluetooth",
             "representative": true
@@ -70377,7 +70398,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)"
+              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md#chrome)"
             ],
             "href": "https://caniuse.com/#feat=web-bluetooth",
             "representative": true
@@ -70441,7 +70462,7 @@
           {
             "status": "shipped",
             "notes": [
-              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/gh-pages/implementation-status.md)"
+              "Currently support [varies by OS](https://github.com/WebBluetoothCG/web-bluetooth/blob/master/implementation-status.md#chrome)"
             ],
             "href": "https://caniuse.com/#feat=web-bluetooth",
             "representative": true
