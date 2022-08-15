@@ -21365,9 +21365,8 @@
       },
       {
         "ua": "samsunginternet_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
-        "prefix": true,
         "partial": true,
         "selected": true
       },
