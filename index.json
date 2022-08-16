@@ -53775,22 +53775,24 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chrome",
+        "flag": true,
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "indevelopment",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
       },
       {
         "ua": "edge",
-        "status": "indevelopment",
+        "status": "experimental",
         "source": "chrome",
+        "flag": true,
         "partial": true,
         "selected": true
       },
