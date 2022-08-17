@@ -28980,12 +28980,12 @@
       },
       {
         "ua": "safari",
-        "status": "notsupported",
+        "status": "consideration",
         "source": "chrome",
         "representative": true,
         "details": [
           {
-            "status": "notsupported",
+            "status": "consideration",
             "href": "https://www.chromestatus.com/feature/6438627087220736",
             "representative": true
           }
