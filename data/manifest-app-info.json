@@ -40,6 +40,14 @@
     ],
     "chrome": [
       {
+        "id": 5206272861798400,
+        "name": "Richer install UI for PWAs - desktop",
+        "statusUrl": "https://chromestatus.com/feature/5206272861798400",
+        "specUrls": [
+          "https://www.w3.org/TR/manifest-app-info"
+        ]
+      },
+      {
         "id": 6422599217184768,
         "name": "Richer Install UI for PWAs",
         "statusUrl": "https://chromestatus.com/feature/6422599217184768",
