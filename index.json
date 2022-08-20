@@ -42523,6 +42523,12 @@
         "selected": true
       },
       {
+        "ua": "chrome_android",
+        "status": "shipped",
+        "source": "chrome",
+        "partial": true
+      },
+      {
         "ua": "edge",
         "status": "shipped",
         "source": "bcd",
