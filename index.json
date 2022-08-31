@@ -10509,14 +10509,13 @@
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "caniuse",
-        "flag": true,
         "partial": true
       },
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -10535,7 +10534,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -52351,12 +52350,12 @@
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "representative": true,
         "details": [
           {
-            "status": "experimental",
+            "status": "shipped",
             "href": "https://www.chromestatus.com/feature/5729206566649856",
             "representative": true
           }
@@ -57239,14 +57238,14 @@
     "support": [
       {
         "ua": "chrome",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
       },
       {
         "ua": "chrome_android",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
