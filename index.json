@@ -17570,7 +17570,7 @@
       },
       {
         "ua": "chrome",
-        "status": "shipped",
+        "status": "indevelopment",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -17589,7 +17589,7 @@
       },
       {
         "ua": "chrome_android",
-        "status": "shipped",
+        "status": "indevelopment",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -17608,7 +17608,7 @@
       },
       {
         "ua": "edge",
-        "status": "shipped",
+        "status": "indevelopment",
         "source": "chrome",
         "partial": true,
         "selected": true
