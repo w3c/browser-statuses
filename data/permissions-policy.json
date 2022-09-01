@@ -71,6 +71,14 @@
     ],
     "chrome": [
       {
+        "id": 5170361717489664,
+        "name": "Wildcards in Permissions Policy Origins",
+        "statusUrl": "https://chromestatus.com/feature/5170361717489664",
+        "specUrls": [
+          "https://github.com/w3c/webappsec-permissions-policy/issues/479"
+        ]
+      },
+      {
         "id": 5745992911552512,
         "name": "Permissions-Policy header",
         "statusUrl": "https://chromestatus.com/feature/5745992911552512",
