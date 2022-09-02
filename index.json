@@ -10553,7 +10553,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
@@ -57252,7 +57252,7 @@
       },
       {
         "ua": "edge",
-        "status": "experimental",
+        "status": "shipped",
         "source": "chrome",
         "partial": true,
         "selected": true
