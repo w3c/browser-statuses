@@ -2,6 +2,14 @@
   "statusref": {
     "chrome": [
       {
+        "id": 4936247663919104,
+        "name": "Client Hints persistency in Android WebView",
+        "statusUrl": "https://chromestatus.com/feature/4936247663919104",
+        "specUrls": [
+          "https://wicg.github.io/client-hints-infrastructure"
+        ]
+      },
+      {
         "id": 5684289032159232,
         "name": "Markup based Client Hints delegation for third-party content",
         "statusUrl": "https://chromestatus.com/feature/5684289032159232",
