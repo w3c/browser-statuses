@@ -71,6 +71,14 @@
         ]
       },
       {
+        "id": 5079634203377664,
+        "name": "Origin Private File System (OPFS) on Android",
+        "statusUrl": "https://chromestatus.com/feature/5079634203377664",
+        "specUrls": [
+          "https://wicg.github.io/file-system-access/#sandboxed-filesystem"
+        ]
+      },
+      {
         "id": 5640802622504960,
         "name": "FileSystemHandle::move() method",
         "statusUrl": "https://chromestatus.com/feature/5640802622504960",
