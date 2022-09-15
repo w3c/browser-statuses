@@ -118,6 +118,14 @@
         "specUrls": [
           "https://drafts.csswg.org/css-conditional-4/#at-supports-ext"
         ]
+      },
+      {
+        "id": 6177049203441664,
+        "name": "CSS @supports : Always non-forgiving parsing",
+        "statusUrl": "https://chromestatus.com/feature/6177049203441664",
+        "specUrls": [
+          "https://drafts.csswg.org/css-conditional-4/#support-definition-ext"
+        ]
       }
     ]
   }
