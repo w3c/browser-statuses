@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5193021205774336,
+        "name": "Intl.DurationFormat",
+        "statusUrl": "https://chromestatus.com/feature/5193021205774336",
+        "specUrls": [
+          "https://tc39.es/proposal-intl-duration-format"
+        ]
+      }
+    ]
+  }
+}
