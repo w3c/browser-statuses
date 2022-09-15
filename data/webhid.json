@@ -244,6 +244,14 @@
         "specUrls": [
           "https://github.com/WICG/webhid/pull/84"
         ]
+      },
+      {
+        "id": 6305751386554368,
+        "name": "WebHID in Extension Service Workers",
+        "statusUrl": "https://chromestatus.com/feature/6305751386554368",
+        "specUrls": [
+          "https://wicg.github.io/webhid/#extensions-to-the-workernavigator-interface"
+        ]
       }
     ],
     "webkit": [
