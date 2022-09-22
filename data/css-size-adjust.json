@@ -3,18 +3,22 @@
     "bcd": [
       {
         "id": "css.properties.text-size-adjust",
-        "representative": true
-      }
-    ],
-    "caniuse": [
-      {
-        "id": "text-size-adjust",
+        "name": "css.properties.text-size-adjust",
+        "statusUrl": "https://developer.mozilla.org/docs/Web/CSS/text-size-adjust",
+        "specUrls": [
+          "https://drafts.csswg.org/css-size-adjust/#adjustment-control"
+        ],
         "representative": true
       }
     ],
     "chrome": [
       {
         "id": 5730156303876096,
+        "name": "CSS text-size-adjust",
+        "statusUrl": "https://chromestatus.com/feature/5730156303876096",
+        "specUrls": [
+          "https://drafts.csswg.org/css-size-adjust"
+        ],
         "representative": true
       }
     ]
