@@ -415,14 +415,6 @@
         ]
       },
       {
-        "id": "background-position-x-y",
-        "name": "background-position-x & background-position-y",
-        "statusUrl": "https://caniuse.com/background-position-x-y",
-        "specUrls": [
-          "https://drafts.csswg.org/css-backgrounds-4/#background-position-longhands"
-        ]
-      },
-      {
         "id": "background-repeat-round-space",
         "name": "CSS background-repeat round and space",
         "statusUrl": "https://caniuse.com/background-repeat-round-space",
