@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5068609911521280,
+        "name": "Methods that change Array and TypedArray by copy",
+        "statusUrl": "https://chromestatus.com/feature/5068609911521280",
+        "specUrls": [
+          "https://tc39.es/proposal-change-array-by-copy"
+        ]
+      }
+    ]
+  }
+}
