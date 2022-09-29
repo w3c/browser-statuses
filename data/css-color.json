@@ -157,14 +157,6 @@
     ],
     "caniuse": [
       {
-        "id": "css-color-function",
-        "name": "CSS color() function",
-        "statusUrl": "https://caniuse.com/css-color-function",
-        "specUrls": [
-          "https://drafts.csswg.org/css-color/#color-function"
-        ]
-      },
-      {
         "id": "css-lch-lab",
         "name": "LCH and Lab color values",
         "statusUrl": "https://caniuse.com/css-lch-lab",
@@ -186,14 +178,6 @@
         "statusUrl": "https://caniuse.com/css-rebeccapurple",
         "specUrls": [
           "https://www.w3.org/TR/css-color-4/#valdef-color-rebeccapurple"
-        ]
-      },
-      {
-        "id": "css-rrggbbaa",
-        "name": "#rrggbbaa hex color notation",
-        "statusUrl": "https://caniuse.com/css-rrggbbaa",
-        "specUrls": [
-          "https://drafts.csswg.org/css-color/#hex-notation"
         ]
       },
       {
