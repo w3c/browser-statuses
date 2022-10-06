@@ -189,22 +189,6 @@
         ]
       },
       {
-        "id": "css-crisp-edges",
-        "name": "Crisp edges/pixelated images",
-        "statusUrl": "https://caniuse.com/css-crisp-edges",
-        "specUrls": [
-          "https://drafts.csswg.org/css-images-3/#valdef-image-rendering-crisp-edges"
-        ]
-      },
-      {
-        "id": "css-cross-fade",
-        "name": "CSS Cross-Fade Function",
-        "statusUrl": "https://caniuse.com/css-cross-fade",
-        "specUrls": [
-          "https://drafts.csswg.org/css-images-4/#cross-fade-function"
-        ]
-      },
-      {
         "id": "css-gradients",
         "name": "CSS Gradients",
         "statusUrl": "https://caniuse.com/css-gradients",
@@ -218,14 +202,6 @@
         "statusUrl": "https://caniuse.com/css-image-orientation",
         "specUrls": [
           "https://www.w3.org/TR/css-images-3/#the-image-orientation"
-        ]
-      },
-      {
-        "id": "css-image-set",
-        "name": "CSS image-set",
-        "statusUrl": "https://caniuse.com/css-image-set",
-        "specUrls": [
-          "https://drafts.csswg.org/css-images-4/#image-set-notation"
         ]
       },
       {
