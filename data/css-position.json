@@ -42,16 +42,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-sticky",
-        "name": "CSS position:sticky",
-        "statusUrl": "https://caniuse.com/css-sticky",
-        "specUrls": [
-          "https://drafts.csswg.org/css-position/#sticky-pos"
-        ]
-      }
-    ],
     "chrome": [
       {
         "id": 6129995409784832,
