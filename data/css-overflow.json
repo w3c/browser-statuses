@@ -84,14 +84,6 @@
     ],
     "caniuse": [
       {
-        "id": "css-line-clamp",
-        "name": "CSS line-clamp",
-        "statusUrl": "https://caniuse.com/css-line-clamp",
-        "specUrls": [
-          "https://drafts.csswg.org/css-overflow-3/#propdef--webkit-line-clamp"
-        ]
-      },
-      {
         "id": "css-overflow",
         "name": "CSS overflow property",
         "statusUrl": "https://caniuse.com/css-overflow",
