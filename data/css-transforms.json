@@ -297,14 +297,6 @@
           "https://www.w3.org/TR/css3-2d-transforms/"
         ],
         "representative": true
-      },
-      {
-        "id": "transforms3d",
-        "name": "CSS3 3D Transforms",
-        "statusUrl": "https://caniuse.com/transforms3d",
-        "specUrls": [
-          "https://drafts.csswg.org/css-transforms-2/"
-        ]
       }
     ],
     "chrome": [
@@ -321,7 +313,7 @@
         "name": "Align transform-style: preserve-3d and perspective property with the spec",
         "statusUrl": "https://chromestatus.com/feature/5640541339385856",
         "specUrls": [
-          "https://drafts.csswg.org/css-transforms-2/"
+          "https://drafts.csswg.org/css-transforms-2"
         ]
       },
       {
@@ -350,7 +342,7 @@
       },
       {
         "id": 5705698193178624,
-        "name": "Independent Properties for CSS Transforms",
+        "name": "Individual Properties for CSS Transforms",
         "statusUrl": "https://chromestatus.com/feature/5705698193178624",
         "specUrls": [
           "https://drafts.csswg.org/css-transforms-2/#individual-transforms"
@@ -369,7 +361,7 @@
         "name": "CSS transform-box",
         "statusUrl": "https://chromestatus.com/feature/6643927633362944",
         "specUrls": [
-          "https://drafts.csswg.org/css-transforms/#transform-box"
+          "https://www.w3.org/TR/css-transforms-1/#transform-box"
         ]
       }
     ]
