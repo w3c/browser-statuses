@@ -116,22 +116,6 @@
     ],
     "caniuse": [
       {
-        "id": "css-marker-pseudo",
-        "name": "CSS ::marker pseudo-element",
-        "statusUrl": "https://caniuse.com/css-marker-pseudo",
-        "specUrls": [
-          "https://drafts.csswg.org/css-pseudo-4/#marker-pseudo"
-        ]
-      },
-      {
-        "id": "css-placeholder",
-        "name": "::placeholder CSS pseudo-element",
-        "statusUrl": "https://caniuse.com/css-placeholder",
-        "specUrls": [
-          "https://drafts.csswg.org/css-pseudo-4/#placeholder-pseudo"
-        ]
-      },
-      {
         "id": "css-selection",
         "name": "::selection CSS pseudo-element",
         "statusUrl": "https://caniuse.com/css-selection",
@@ -146,7 +130,7 @@
         "name": "CSS spelling and grammar features",
         "statusUrl": "https://chromestatus.com/feature/4811776539492352",
         "specUrls": [
-          "https://drafts.csswg.org/css-pseudo-4/#selectordef-spelling-error,https://drafts.csswg.org/css-pseudo-4/#selectordef-grammar-error,https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-spelling-error,https://drafts.csswg.org/css-text-decor-4/#valdef-text-decoration-line-grammar-error"
+          "https://drafts.csswg.org/css-pseudo-4/#selectordef-spelling-error"
         ]
       },
       {
