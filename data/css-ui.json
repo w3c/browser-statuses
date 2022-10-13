@@ -155,27 +155,11 @@
         ]
       },
       {
-        "id": "outline",
-        "name": "CSS outline properties",
-        "statusUrl": "https://caniuse.com/outline",
-        "specUrls": [
-          "https://drafts.csswg.org/css-ui/"
-        ]
-      },
-      {
         "id": "text-overflow",
         "name": "CSS3 Text-overflow",
         "statusUrl": "https://caniuse.com/text-overflow",
         "specUrls": [
           "https://www.w3.org/TR/css3-ui/#text-overflow"
-        ]
-      },
-      {
-        "id": "user-select-none",
-        "name": "CSS user-select: none",
-        "statusUrl": "https://caniuse.com/user-select-none",
-        "specUrls": [
-          "https://drafts.csswg.org/css-ui-4/#valdef-user-select-none"
         ]
       }
     ],
