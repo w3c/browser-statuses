@@ -139,14 +139,6 @@
         "specUrls": [
           "https://www.w3.org/TR/css-text-decor-3/#line-decoration"
         ]
-      },
-      {
-        "id": "text-emphasis",
-        "name": "text-emphasis styling",
-        "statusUrl": "https://caniuse.com/text-emphasis",
-        "specUrls": [
-          "https://drafts.csswg.org/css-text-decor-3/#text-emphasis-property"
-        ]
       }
     ],
     "chrome": [
@@ -187,7 +179,7 @@
         "name": "'left' and 'right' values for the 'text-underline-position' property",
         "statusUrl": "https://chromestatus.com/feature/5749634488074240",
         "specUrls": [
-          "https://drafts.csswg.org/css-text-decor-3/#text-underline-position-property"
+          "https://www.w3.org/TR/css-text-decor-3/#text-underline-position-property"
         ]
       },
       {
