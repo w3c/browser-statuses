@@ -10,17 +10,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "will-change",
-        "name": "CSS will-change property",
-        "statusUrl": "https://caniuse.com/will-change",
-        "specUrls": [
-          "https://drafts.csswg.org/css-will-change/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 5954199330226176,
