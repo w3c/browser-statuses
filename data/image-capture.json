@@ -58,6 +58,16 @@
         ]
       }
     ],
+    "caniuse": [
+      {
+        "id": "imagecapture",
+        "name": "ImageCapture API",
+        "statusUrl": "https://caniuse.com/imagecapture",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-image/#imagecaptureapi"
+        ]
+      }
+    ],
     "chrome": [
       {
         "id": 4843864737185792,
