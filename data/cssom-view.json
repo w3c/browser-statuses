@@ -92,7 +92,8 @@
         "name": "api.Document.scroll_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Document/scroll_event",
         "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll"
+          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
         ]
       },
       {
@@ -240,7 +241,8 @@
         "name": "api.Element.scroll_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/Element/scroll_event",
         "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#scrolling-events"
+          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll",
+          "https://html.spec.whatwg.org/multipage/webappapis.html#handler-onscroll"
         ]
       },
       {
@@ -595,7 +597,7 @@
         "name": "api.VisualViewport.resize_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/VisualViewport/resize_event",
         "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dfn-run-the-resize-steps"
+          "https://drafts.csswg.org/cssom-view/#eventdef-window-resize"
         ]
       },
       {
@@ -611,7 +613,7 @@
         "name": "api.VisualViewport.scroll_event",
         "statusUrl": "https://developer.mozilla.org/docs/Web/API/VisualViewport/scroll_event",
         "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dfn-run-the-scroll-steps"
+          "https://drafts.csswg.org/cssom-view/#eventdef-document-scroll"
         ]
       },
       {
@@ -826,22 +828,6 @@
     ],
     "caniuse": [
       {
-        "id": "devicepixelratio",
-        "name": "Window.devicePixelRatio",
-        "statusUrl": "https://caniuse.com/devicepixelratio",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-window-devicepixelratio"
-        ]
-      },
-      {
-        "id": "document-scrollingelement",
-        "name": "document.scrollingElement",
-        "statusUrl": "https://caniuse.com/document-scrollingelement",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-document-scrollingelement"
-        ]
-      },
-      {
         "id": "element-from-point",
         "name": "document.elementFromPoint()",
         "statusUrl": "https://caniuse.com/element-from-point",
@@ -871,14 +857,6 @@
         "statusUrl": "https://caniuse.com/matchmedia",
         "specUrls": [
           "https://www.w3.org/TR/cssom-view/#dom-window-matchmedia"
-        ]
-      },
-      {
-        "id": "scrollintoview",
-        "name": "scrollIntoView",
-        "statusUrl": "https://caniuse.com/scrollintoview",
-        "specUrls": [
-          "https://drafts.csswg.org/cssom-view/#dom-element-scrollintoview"
         ]
       }
     ],
