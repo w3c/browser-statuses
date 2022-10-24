@@ -22,7 +22,7 @@
     "test": "mocha"
   },
   "devDependencies": {
-    "@mdn/browser-compat-data": "5.1.5",
+    "@mdn/browser-compat-data": "5.2.9",
     "@octokit/plugin-throttling": "4.1.0",
     "@octokit/rest": "19.0.3",
     "abort-controller": "3.0.0",
