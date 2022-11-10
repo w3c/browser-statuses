@@ -1695,14 +1695,6 @@
         ]
       },
       {
-        "id": 5631611313848320,
-        "name": "WebRTC Data Channels based on DcSCTP",
-        "statusUrl": "https://chromestatus.com/feature/5631611313848320",
-        "specUrls": [
-          "https://w3c.github.io/webrtc-pc/#rtcdatachannel"
-        ]
-      },
-      {
         "id": 5641443221700608,
         "name": "RTCRtpReceiver.getParameters()",
         "statusUrl": "https://chromestatus.com/feature/5641443221700608",
