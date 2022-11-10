@@ -504,11 +504,19 @@
         ]
       },
       {
-        "id": "css-nth-child-of",
-        "name": "selector list argument of :nth-child and :nth-last-child CSS pseudo-classes",
-        "statusUrl": "https://caniuse.com/css-nth-child-of",
+        "id": "css-indeterminate-pseudo",
+        "name": ":indeterminate CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-indeterminate-pseudo",
         "specUrls": [
-          "https://drafts.csswg.org/selectors/#the-nth-child-pseudo"
+          "https://www.w3.org/TR/selectors-4/#indeterminate"
+        ]
+      },
+      {
+        "id": "css-optional-pseudo",
+        "name": ":optional CSS pseudo-class",
+        "statusUrl": "https://caniuse.com/css-optional-pseudo",
+        "specUrls": [
+          "https://www.w3.org/TR/selectors-4/#optional-pseudo"
         ]
       }
     ],
