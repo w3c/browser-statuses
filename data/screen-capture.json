@@ -125,6 +125,14 @@
         ]
       },
       {
+        "id": 5646614535340032,
+        "name": "Conditional Focus",
+        "statusUrl": "https://chromestatus.com/feature/5646614535340032",
+        "specUrls": [
+          "https://w3c.github.io/mediacapture-screen-share/#dom-capturecontroller-setfocusbehavior"
+        ]
+      },
+      {
         "id": 6744724455030784,
         "name": "MediaStream.getDisplayMedia()",
         "statusUrl": "https://chromestatus.com/feature/6744724455030784",
