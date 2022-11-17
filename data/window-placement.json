@@ -2,11 +2,19 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5146352391028736,
+        "name": "\"window-placement\" permission and permission policy rename to \"window-management\"",
+        "statusUrl": "https://chromestatus.com/feature/5146352391028736",
+        "specUrls": [
+          "https://w3c.github.io/window-placement"
+        ]
+      },
+      {
         "id": 5173162437246976,
         "name": "Multi-Screen Window Placement: Fullscreen Companion Window",
         "statusUrl": "https://chromestatus.com/feature/5173162437246976",
         "specUrls": [
-          "https://github.com/w3c/window-placement/blob/main/EXPLAINER_initiating_multi_screen_experiences.md#spec-changes"
+          "https://w3c.github.io/window-placement/#api-window-open-method-definition-changes"
         ]
       },
       {
@@ -14,7 +22,7 @@
         "name": "Multi-Screen Window Placement",
         "statusUrl": "https://chromestatus.com/feature/5252960583942144",
         "specUrls": [
-          "https://w3c.github.io/window-placement/"
+          "https://w3c.github.io/window-placement"
         ]
       },
       {
