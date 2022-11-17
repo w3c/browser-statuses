@@ -289,6 +289,14 @@
         "representative": true
       },
       {
+        "id": 5110990717321216,
+        "name": "Incoming Call Notifications",
+        "statusUrl": "https://chromestatus.com/feature/5110990717321216",
+        "specUrls": [
+          "https://notifications.spec.whatwg.org"
+        ]
+      },
+      {
         "id": 5190797599178752,
         "name": "Notification image",
         "statusUrl": "https://chromestatus.com/feature/5190797599178752",
