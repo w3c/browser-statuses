@@ -1,14 +1,16 @@
 {
   "statusref": {
-    "chrome": [
+    "caniuse": [
       {
-        "id": 5690646332440576,
-        "name": "WebTransport serverCertificateHashes option",
-        "statusUrl": "https://chromestatus.com/feature/5690646332440576",
+        "id": "webtransport",
+        "name": "WebTransport",
+        "statusUrl": "https://caniuse.com/webtransport",
         "specUrls": [
-          "https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"
+          "https://w3c.github.io/webtransport/"
         ]
-      },
+      }
+    ],
+    "chrome": [
       {
         "id": 4854144902889472,
         "name": "WebTransport",
@@ -18,6 +20,14 @@
         ],
         "manual": true,
         "representative": true
+      },
+      {
+        "id": 5690646332440576,
+        "name": "WebTransport serverCertificateHashes option",
+        "statusUrl": "https://chromestatus.com/feature/5690646332440576",
+        "specUrls": [
+          "https://w3c.github.io/webtransport/#dom-webtransportoptions-servercertificatehashes"
+        ]
       }
     ]
   }
