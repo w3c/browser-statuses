@@ -216,6 +216,14 @@
         ]
       },
       {
+        "id": 5181377966768128,
+        "name": "Cross-frame performance timeline",
+        "statusUrl": "https://chromestatus.com/feature/5181377966768128",
+        "specUrls": [
+          "https://github.com/w3c/performance-timeline/pull/202"
+        ]
+      },
+      {
         "id": 5320666234486784,
         "name": "droppedEntriesCount in PerformanceObserver callback",
         "statusUrl": "https://chromestatus.com/feature/5320666234486784",
