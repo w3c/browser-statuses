@@ -154,6 +154,14 @@
         ]
       },
       {
+        "id": 5977883141472256,
+        "name": "Expose Reporting API interfaces to JavaScript",
+        "statusUrl": "https://chromestatus.com/feature/5977883141472256",
+        "specUrls": [
+          "https://w3c.github.io/reporting/#idl-index"
+        ]
+      },
+      {
         "id": 6072546726248448,
         "name": "Intervention: Image replacement for Data Saver users on slow connections",
         "statusUrl": "https://chromestatus.com/feature/6072546726248448",
