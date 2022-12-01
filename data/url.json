@@ -286,6 +286,14 @@
         ]
       },
       {
+        "id": 5679790780579840,
+        "name": "Deprecate support for URLs with non-IPv4 hostnames ending in numbers",
+        "statusUrl": "https://chromestatus.com/feature/5679790780579840",
+        "specUrls": [
+          "https://url.spec.whatwg.org/"
+        ]
+      },
+      {
         "id": 5724389597249536,
         "name": "Disallow spaces and other bad characters in hostnames",
         "statusUrl": "https://chromestatus.com/feature/5724389597249536",
