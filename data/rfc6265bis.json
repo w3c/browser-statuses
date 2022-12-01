@@ -29,6 +29,14 @@
         ]
       },
       {
+        "id": 5534966262792192,
+        "name": "Deprecate non-ASCII characters in cookie domain attributes",
+        "statusUrl": "https://chromestatus.com/feature/5534966262792192",
+        "specUrls": [
+          "https://datatracker.ietf.org/doc/html/draft-ietf-httpbis-rfc6265bis/#section-5.5"
+        ]
+      },
+      {
         "id": 5674723800252416,
         "name": "Allow cookie domain attributes to be the empty string",
         "statusUrl": "https://chromestatus.com/feature/5674723800252416",
