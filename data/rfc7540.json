@@ -11,6 +11,16 @@
           "https://httpwg.org/specs/rfc7540.html#informational-responses"
         ]
       }
+    ],
+    "chrome": [
+      {
+        "id": 6302414934114304,
+        "name": "Remove HTTP/2 push",
+        "statusUrl": "https://chromestatus.com/feature/6302414934114304",
+        "specUrls": [
+          "https://httpwg.org/specs/rfc7540.html#PushRequests"
+        ]
+      }
     ]
   }
 }
