@@ -265,6 +265,14 @@
         ]
       },
       {
+        "id": 5948593429020672,
+        "name": "Calling PaymentRequest.show without user activation",
+        "statusUrl": "https://chromestatus.com/feature/5948593429020672",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-request/#show-method"
+        ]
+      },
+      {
         "id": 6092351889997824,
         "name": "Allow PaymentRequest.show() to take optional detailsPromise",
         "statusUrl": "https://chromestatus.com/feature/6092351889997824",
