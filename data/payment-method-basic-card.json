@@ -33,6 +33,14 @@
         "specUrls": [
           "https://w3c.github.io/webpayments-methods-card/"
         ]
+      },
+      {
+        "id": 5730051011117056,
+        "name": "The \"basic-card\" method of PaymentRequest API",
+        "statusUrl": "https://chromestatus.com/feature/5730051011117056",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-method-basic-card"
+        ]
       }
     ]
   },
