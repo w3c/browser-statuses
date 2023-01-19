@@ -606,6 +606,14 @@
         ]
       },
       {
+        "id": 5195900413018112,
+        "name": "Remove Authorization header upon cross-origin redirect",
+        "statusUrl": "https://chromestatus.com/feature/5195900413018112",
+        "specUrls": [
+          "https://fetch.spec.whatwg.org/#http-redirect-fetch"
+        ]
+      },
+      {
         "id": 5197912798658560,
         "name": "Response.json()",
         "statusUrl": "https://chromestatus.com/feature/5197912798658560",
