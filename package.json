@@ -31,7 +31,7 @@
     "es-main": "1.2.0",
     "mocha": "10.0.0",
     "nock": "13.2.9",
-    "node-fetch": "2.6.7",
+    "node-fetch": "2.6.9",
     "web-specs": "2.17.0"
   }
 }
