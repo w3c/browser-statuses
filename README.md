@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> Data is outdated and the project is no longer maintained.
+> Check the [web-features project](https://github.com/web-platform-dx/web-features) for up-to-date browser support information of web features.
+
 # Web browser implementation statuses
 
 This repository contains implementation support information of Web technologies
