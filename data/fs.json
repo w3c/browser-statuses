@@ -160,6 +160,16 @@
           "https://fs.spec.whatwg.org/#dom-storagemanager-getdirectory"
         ]
       }
+    ],
+    "chrome": [
+      {
+        "id": 5190893263388672,
+        "name": "FileSystemHandle Unique IDs",
+        "statusUrl": "https://chromestatus.com/feature/5190893263388672",
+        "specUrls": [
+          "https://github.com/whatwg/fs/pull/46"
+        ]
+      }
     ]
   }
 }
