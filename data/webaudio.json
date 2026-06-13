@@ -643,7 +643,6 @@
       {
         "id": "api.AudioProcessingEvent.inputBuffer",
         "name": "api.AudioProcessingEvent.inputBuffer",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/inputBuffer",
         "specUrls": [
           "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-inputbuffer"
         ]
@@ -651,7 +650,6 @@
       {
         "id": "api.AudioProcessingEvent.outputBuffer",
         "name": "api.AudioProcessingEvent.outputBuffer",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/outputBuffer",
         "specUrls": [
           "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-outputbuffer"
         ]
@@ -659,7 +657,6 @@
       {
         "id": "api.AudioProcessingEvent.playbackTime",
         "name": "api.AudioProcessingEvent.playbackTime",
-        "statusUrl": "https://developer.mozilla.org/docs/Web/API/AudioProcessingEvent/playbackTime",
         "specUrls": [
           "https://webaudio.github.io/web-audio-api/#dom-audioprocessingevent-playbacktime"
         ]
@@ -1860,6 +1857,14 @@
         "statusUrl": "https://chromestatus.com/feature/5164143287992320",
         "specUrls": [
           "https://webaudio.github.io/web-audio-api/#AudioParam"
+        ]
+      },
+      {
+        "id": 5190163462881280,
+        "name": "AudioContext.setSinkId()",
+        "statusUrl": "https://chromestatus.com/feature/5190163462881280",
+        "specUrls": [
+          "https://github.com/WebAudio/web-audio-api/pull/2498"
         ]
       },
       {
