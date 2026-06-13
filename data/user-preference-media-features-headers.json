@@ -2,8 +2,16 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5141804190531584,
+        "name": "Sec-CH-Prefers-Reduced-Motion User Preference Media Features Client Hints Header",
+        "statusUrl": "https://chromestatus.com/feature/5141804190531584",
+        "specUrls": [
+          "https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme"
+        ]
+      },
+      {
         "id": 5642300464037888,
-        "name": "User Preference Media Features Client Hints Headers",
+        "name": "Sec-CH-Prefers-Color-Scheme User Preference Media Features Client Hints Header",
         "statusUrl": "https://chromestatus.com/feature/5642300464037888",
         "specUrls": [
           "https://wicg.github.io/user-preference-media-features-headers/#sec-ch-prefers-color-scheme"
