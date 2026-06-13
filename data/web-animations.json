@@ -425,17 +425,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "web-animation",
-        "name": "Web Animations API",
-        "statusUrl": "https://caniuse.com/web-animation",
-        "specUrls": [
-          "https://drafts.csswg.org/web-animations/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 4843845109940224,
