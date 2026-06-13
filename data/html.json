@@ -16238,6 +16238,14 @@
         ]
       },
       {
+        "id": 6078308635115520,
+        "name": "Worklet loading is reported to Resource Timing",
+        "statusUrl": "https://chromestatus.com/feature/6078308635115520",
+        "specUrls": [
+          "https://html.spec.whatwg.org/#fetch-a-single-module-script"
+        ]
+      },
+      {
         "id": 6080438103703552,
         "name": "Nested dedicated workers",
         "statusUrl": "https://chromestatus.com/feature/6080438103703552",
