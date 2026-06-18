@@ -536,6 +536,14 @@
         ]
       },
       {
+        "id": 5668230711476224,
+        "name": "Human-readable names for Bluetooth assigned numbers",
+        "statusUrl": "https://chromestatus.com/feature/5668230711476224",
+        "specUrls": [
+          "https://webbluetoothcg.github.io/web-bluetooth/"
+        ]
+      },
+      {
         "id": 5684530360877056,
         "name": "Web Bluetooth manufacturer data filter",
         "statusUrl": "https://chromestatus.com/feature/5684530360877056",
