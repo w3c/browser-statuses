@@ -218,6 +218,14 @@
         ]
       },
       {
+        "id": 5166965277589504,
+        "name": "Render blocking status in Resource Timing",
+        "statusUrl": "https://chromestatus.com/feature/5166965277589504",
+        "specUrls": [
+          "https://github.com/w3c/resource-timing/pull/327"
+        ]
+      },
+      {
         "id": 5650461096935424,
         "name": "Resource Timing & Navigation Timing: add nextHopProtocol property",
         "statusUrl": "https://chromestatus.com/feature/5650461096935424",
