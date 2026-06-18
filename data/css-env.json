@@ -42,16 +42,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-env-function",
-        "name": "CSS Environment Variables env()",
-        "statusUrl": "https://caniuse.com/css-env-function",
-        "specUrls": [
-          "https://drafts.csswg.org/css-env-1/#env-function"
-        ]
-      }
-    ],
     "chrome": [
       {
         "id": 5710044637167616,
