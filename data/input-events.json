@@ -35,6 +35,16 @@
         ]
       }
     ],
+    "chrome": [
+      {
+        "id": 4735675582644224,
+        "name": "Remove webkitBeforeTextInserted & webkitEditableContentChanged JS events",
+        "statusUrl": "https://chromestatus.com/feature/4735675582644224",
+        "specUrls": [
+          "https://w3c.github.io/input-events/"
+        ]
+      }
+    ],
     "webkit": [
       {
         "id": "specification-input-events",
