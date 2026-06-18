@@ -867,6 +867,14 @@
     ],
     "chrome": [
       {
+        "id": 5195706034290688,
+        "name": "WebCodecs dequeue event",
+        "statusUrl": "https://chromestatus.com/feature/5195706034290688",
+        "specUrls": [
+          "https://w3c.github.io/webcodecs"
+        ]
+      },
+      {
         "id": 5669293909868544,
         "name": "WebCodecs",
         "statusUrl": "https://chromestatus.com/feature/5669293909868544",
