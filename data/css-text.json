@@ -247,6 +247,14 @@
         ]
       },
       {
+        "id": 5169156928831488,
+        "name": "Unprefix -webkit-hyphenate-character CSS property",
+        "statusUrl": "https://chromestatus.com/feature/5169156928831488",
+        "specUrls": [
+          "https://drafts.csswg.org/css-text-4/#hyphenate-character"
+        ]
+      },
+      {
         "id": 5642121184804864,
         "name": "CSS hyphens property",
         "statusUrl": "https://chromestatus.com/feature/5642121184804864",
