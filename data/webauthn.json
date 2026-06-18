@@ -204,6 +204,14 @@
         ]
       },
       {
+        "id": 5144633101778944,
+        "name": "Web Authentication Conditional UI",
+        "statusUrl": "https://chromestatus.com/feature/5144633101778944",
+        "specUrls": [
+          "https://w3c.github.io/webauthn/#GetAssn-ConditionalMediation-Interact-FormControl"
+        ]
+      },
+      {
         "id": 5153848187420672,
         "name": "WebAuthn remote desktop support",
         "statusUrl": "https://chromestatus.com/feature/5153848187420672",
