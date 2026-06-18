@@ -244,6 +244,14 @@
         "representative": true
       },
       {
+        "id": 5190978431352832,
+        "name": "Merchant identity in \"canmakepayment\" event",
+        "statusUrl": "https://chromestatus.com/feature/5190978431352832",
+        "specUrls": [
+          "https://w3c.github.io/payment-handler"
+        ]
+      },
+      {
         "id": 5660404216758272,
         "name": "[Payments] shipping address and contact info delegation",
         "statusUrl": "https://chromestatus.com/feature/5660404216758272",
