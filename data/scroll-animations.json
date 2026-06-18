@@ -31,16 +31,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-scroll-timeline",
-        "name": "CSS @scroll-timeline",
-        "statusUrl": "https://caniuse.com/css-scroll-timeline",
-        "specUrls": [
-          "https://drafts.csswg.org/scroll-animations-1/"
-        ]
-      }
-    ],
     "chrome": [
       {
         "id": 6454455685873664,
