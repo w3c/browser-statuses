@@ -36,27 +36,11 @@
     ],
     "caniuse": [
       {
-        "id": "css-display-contents",
-        "name": "CSS display: contents",
-        "statusUrl": "https://caniuse.com/css-display-contents",
-        "specUrls": [
-          "https://drafts.csswg.org/css-display/"
-        ]
-      },
-      {
         "id": "flow-root",
         "name": "display: flow-root",
         "statusUrl": "https://caniuse.com/flow-root",
         "specUrls": [
           "https://www.w3.org/TR/css-display-3/#valdef-display-flow-root"
-        ]
-      },
-      {
-        "id": "run-in",
-        "name": "display: run-in",
-        "statusUrl": "https://caniuse.com/run-in",
-        "specUrls": [
-          "https://drafts.csswg.org/css-display/#valdef-display-run-in"
         ]
       }
     ],
