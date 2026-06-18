@@ -10,6 +10,16 @@
         ]
       }
     ],
+    "caniuse": [
+      {
+        "id": "css-overflow-anchor",
+        "name": "CSS overflow-anchor (Scroll Anchoring)",
+        "statusUrl": "https://caniuse.com/css-overflow-anchor",
+        "specUrls": [
+          "https://drafts.csswg.org/css-scroll-anchoring/"
+        ]
+      }
+    ],
     "webkit": [
       {
         "id": "specification-scroll-anchoring",
