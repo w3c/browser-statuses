@@ -113,17 +113,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "resizeobserver",
-        "name": "Resize Observer",
-        "statusUrl": "https://caniuse.com/resizeobserver",
-        "specUrls": [
-          "https://wicg.github.io/ResizeObserver/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 4966068076412928,
