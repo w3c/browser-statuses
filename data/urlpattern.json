@@ -100,6 +100,14 @@
     ],
     "chrome": [
       {
+        "id": 5206436850696192,
+        "name": "URLPattern ignoreCase",
+        "statusUrl": "https://chromestatus.com/feature/5206436850696192",
+        "specUrls": [
+          "https://github.com/WICG/urlpattern/pull/168"
+        ]
+      },
+      {
         "id": 5731920199548928,
         "name": "URLPattern",
         "statusUrl": "https://chromestatus.com/feature/5731920199548928",
