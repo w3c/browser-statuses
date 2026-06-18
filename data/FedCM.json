@@ -2,6 +2,14 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5067784766095360,
+        "name": "FedCM multi IDP",
+        "statusUrl": "https://chromestatus.com/feature/5067784766095360",
+        "specUrls": [
+          "https://fedidcg.github.io/FedCM"
+        ]
+      },
+      {
         "id": 6438627087220736,
         "name": "Federated Credentials Management (was WebID)",
         "statusUrl": "https://chromestatus.com/feature/6438627087220736",
