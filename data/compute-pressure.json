@@ -1,15 +1,3 @@
 {
-  "statusref": {
-    "chrome": [
-      {
-        "id": 5597608644968448,
-        "name": "Compute Pressure",
-        "statusUrl": "https://chromestatus.com/feature/5597608644968448",
-        "specUrls": [
-          "https://wicg.github.io/compute-pressure/"
-        ],
-        "representative": true
-      }
-    ]
-  }
+  "statusref": {}
 }
