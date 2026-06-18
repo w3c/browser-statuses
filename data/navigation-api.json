@@ -375,6 +375,22 @@
     ],
     "chrome": [
       {
+        "id": 5029730789621760,
+        "name": "Removal of navigateEvent.restoreScroll()",
+        "statusUrl": "https://chromestatus.com/feature/5029730789621760",
+        "specUrls": [
+          "https://github.com/WICG/navigation-api/pull/235"
+        ]
+      },
+      {
+        "id": 5169970311856128,
+        "name": "Removal of navigateEvent.transitionWhile()",
+        "statusUrl": "https://chromestatus.com/feature/5169970311856128",
+        "specUrls": [
+          "https://github.com/WICG/navigation-api/pull/235"
+        ]
+      },
+      {
         "id": 5194055716700160,
         "name": "navigateEvent.intercept()",
         "statusUrl": "https://chromestatus.com/feature/5194055716700160",
