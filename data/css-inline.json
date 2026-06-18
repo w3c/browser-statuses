@@ -63,6 +63,16 @@
         ]
       }
     ],
+    "chrome": [
+      {
+        "id": 5167442033115136,
+        "name": "CSS Initial Letters",
+        "statusUrl": "https://chromestatus.com/feature/5167442033115136",
+        "specUrls": [
+          "https://drafts.csswg.org/css-inline/#initial-letter-styling"
+        ]
+      }
+    ],
     "webkit": [
       {
         "id": "feature-initial-letter",
