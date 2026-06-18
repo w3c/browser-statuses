@@ -2,6 +2,14 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5112150536749056,
+        "name": "Document Rules",
+        "statusUrl": "https://chromestatus.com/feature/5112150536749056",
+        "specUrls": [
+          "https://wicg.github.io/nav-speculation/speculation-rules.html"
+        ]
+      },
+      {
         "id": 5740655424831488,
         "name": "Speculation Rules",
         "statusUrl": "https://chromestatus.com/feature/5740655424831488",
