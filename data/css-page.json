@@ -84,17 +84,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-paged-media",
-        "name": "CSS Paged Media (@page)",
-        "statusUrl": "https://caniuse.com/css-paged-media",
-        "specUrls": [
-          "https://drafts.csswg.org/css-page-3/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 5112328557166592,
@@ -109,7 +98,7 @@
         "name": "Named pages with page-orientation",
         "statusUrl": "https://chromestatus.com/feature/5173237715566592",
         "specUrls": [
-          "https://drafts.csswg.org/css-page-3/"
+          "https://drafts.csswg.org/css-page-3"
         ]
       }
     ]
