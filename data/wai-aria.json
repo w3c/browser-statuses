@@ -621,6 +621,14 @@
     ],
     "chrome": [
       {
+        "id": 5166332144779264,
+        "name": "aria-brailleroledescription and aria-braillelabel",
+        "statusUrl": "https://chromestatus.com/feature/5166332144779264",
+        "specUrls": [
+          "https://w3c.github.io/aria/#aria-brailleroledescription"
+        ]
+      },
+      {
         "id": 5188935855636480,
         "name": "ARIA Attribute Reflection for role attribute",
         "statusUrl": "https://chromestatus.com/feature/5188935855636480",
