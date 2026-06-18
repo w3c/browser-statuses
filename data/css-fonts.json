@@ -600,6 +600,14 @@
         ]
       },
       {
+        "id": 5088679224147968,
+        "name": "tech() function support in @font-face src: descriptor",
+        "statusUrl": "https://chromestatus.com/feature/5088679224147968",
+        "specUrls": [
+          "https://www.w3.org/TR/css-fonts-4/#font-face-src-parsing"
+        ]
+      },
+      {
         "id": 5184230088769536,
         "name": "@font-face descriptor advance-override",
         "statusUrl": "https://chromestatus.com/feature/5184230088769536",
