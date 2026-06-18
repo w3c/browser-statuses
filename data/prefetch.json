@@ -1,0 +1,14 @@
+{
+  "statusref": {
+    "chrome": [
+      {
+        "id": 5740655424831488,
+        "name": "Prefetching triggered by the speculation rules API",
+        "statusUrl": "https://chromestatus.com/feature/5740655424831488",
+        "specUrls": [
+          "https://wicg.github.io/nav-speculation/prefetch.html"
+        ]
+      }
+    ]
+  }
+}
