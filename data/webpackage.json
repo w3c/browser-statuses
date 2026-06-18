@@ -2,6 +2,14 @@
   "statusref": {
     "chrome": [
       {
+        "id": 5047867052392448,
+        "name": "Enforce CORS in subresource SignedExchange prefetching",
+        "statusUrl": "https://chromestatus.com/feature/5047867052392448",
+        "specUrls": [
+          "https://wicg.github.io/webpackage/loading.html#mp-link-type-prefetch"
+        ]
+      },
+      {
         "id": 5126805474246656,
         "name": "Subresource prefetching+loading via Signed HTTP Exchange",
         "statusUrl": "https://chromestatus.com/feature/5126805474246656",
