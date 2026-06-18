@@ -829,6 +829,14 @@
         ]
       },
       {
+        "id": 5769608873115648,
+        "name": "Remove SpeechRecognitionEvent's interpretation and emma attributes",
+        "statusUrl": "https://chromestatus.com/feature/5769608873115648",
+        "specUrls": [
+          "https://wicg.github.io/speech-api/"
+        ]
+      },
+      {
         "id": 5908775487668224,
         "name": "Web Speech API (input)",
         "statusUrl": "https://chromestatus.com/feature/5908775487668224",
