@@ -77,6 +77,14 @@
         ]
       },
       {
+        "id": 5659629104136192,
+        "name": "Features: Remove window.webkitStorageInfo",
+        "statusUrl": "https://chromestatus.com/feature/5659629104136192",
+        "specUrls": [
+          "https://storage.spec.whatwg.org/"
+        ]
+      },
+      {
         "id": 5666274359115776,
         "name": "Storage Pressure Event",
         "statusUrl": "https://chromestatus.com/feature/5666274359115776",
