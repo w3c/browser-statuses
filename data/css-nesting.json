@@ -6,9 +6,19 @@
         "name": "CSS Nesting",
         "statusUrl": "https://caniuse.com/css-nesting",
         "specUrls": [
-          "https://drafts.csswg.org/css-nesting/"
+          "https://w3c.github.io/csswg-drafts/css-nesting/"
         ],
         "representative": true
+      }
+    ],
+    "chrome": [
+      {
+        "id": 5800613594529792,
+        "name": "CSS Nesting",
+        "statusUrl": "https://chromestatus.com/feature/5800613594529792",
+        "specUrls": [
+          "https://drafts.csswg.org/css-nesting"
+        ]
       }
     ]
   }
