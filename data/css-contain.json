@@ -62,11 +62,19 @@
         ]
       },
       {
+        "id": 5179553291436032,
+        "name": "ContentVisibilityAutoStateChanged event",
+        "statusUrl": "https://chromestatus.com/feature/5179553291436032",
+        "specUrls": [
+          "https://drafts.csswg.org/css-contain-2/#content-visibility-auto-state-changed"
+        ]
+      },
+      {
         "id": 6525308435955712,
         "name": "Container Queries",
         "statusUrl": "https://chromestatus.com/feature/6525308435955712",
         "specUrls": [
-          "https://drafts.csswg.org/css-contain-3/#container-rule"
+          "https://drafts.csswg.org/css-contain-3/#container-queries"
         ]
       }
     ],
