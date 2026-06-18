@@ -211,17 +211,6 @@
         ]
       }
     ],
-    "caniuse": [
-      {
-        "id": "css-at-counter-style",
-        "name": "CSS Counter Styles",
-        "statusUrl": "https://caniuse.com/css-at-counter-style",
-        "specUrls": [
-          "https://drafts.csswg.org/css-counter-styles/"
-        ],
-        "representative": true
-      }
-    ],
     "chrome": [
       {
         "id": 5687059677184000,
