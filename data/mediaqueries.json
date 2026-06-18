@@ -269,6 +269,14 @@
         ]
       },
       {
+        "id": "css-media-range-syntax",
+        "name": "Media Queries: Range Syntax",
+        "statusUrl": "https://caniuse.com/css-media-range-syntax",
+        "specUrls": [
+          "https://www.w3.org/TR/mediaqueries-4/#mq-range-context"
+        ]
+      },
+      {
         "id": "css-media-resolution",
         "name": "Media Queries: resolution feature",
         "statusUrl": "https://caniuse.com/css-media-resolution",
