@@ -687,6 +687,14 @@
     ],
     "chrome": [
       {
+        "id": 5200265459269632,
+        "name": "WebUSB in Extension Service Workers",
+        "statusUrl": "https://chromestatus.com/feature/5200265459269632",
+        "specUrls": [
+          "https://wicg.github.io/webusb/#enumeration"
+        ]
+      },
+      {
         "id": 5640127995969536,
         "name": "USBDevice forget()",
         "statusUrl": "https://chromestatus.com/feature/5640127995969536",
