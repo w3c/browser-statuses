@@ -3,7 +3,20 @@
     "chrome": [
       {
         "id": 5716168929181696,
+        "name": "Web payment manifests",
+        "statusUrl": "https://chromestatus.com/feature/5716168929181696",
+        "specUrls": [
+          "https://w3c.github.io/payment-method-manifest/"
+        ],
         "representative": true
+      },
+      {
+        "id": 6286595631087616,
+        "name": "Deprecate and remove: connect-src CSP bypass in Web Payment API",
+        "statusUrl": "https://chromestatus.com/feature/6286595631087616",
+        "specUrls": [
+          "https://www.w3.org/TR/payment-method-manifest/#processing-model"
+        ]
       }
     ]
   }
