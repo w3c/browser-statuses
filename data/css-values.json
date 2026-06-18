@@ -252,7 +252,7 @@
         "name": "CSS3 attr() function for all properties",
         "statusUrl": "https://caniuse.com/css3-attr",
         "specUrls": [
-          "https://www.w3.org/TR/css-values/#attr-notation"
+          "https://drafts.csswg.org/css-values-5/#attr-notation"
         ]
       },
       {
@@ -311,6 +311,14 @@
         "statusUrl": "https://chromestatus.com/feature/5165381072191488",
         "specUrls": [
           "https://www.w3.org/TR/css-values-4/#trig-funcs"
+        ]
+      },
+      {
+        "id": 5193188445257728,
+        "name": "CSS 'ic' Length Unit",
+        "statusUrl": "https://chromestatus.com/feature/5193188445257728",
+        "specUrls": [
+          "https://www.w3.org/TR/css-values-4/#ic"
         ]
       },
       {
