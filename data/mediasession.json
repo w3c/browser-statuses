@@ -115,6 +115,14 @@
     ],
     "chrome": [
       {
+        "id": 5090980649238528,
+        "name": "Media Session API: Presenting slides actions",
+        "statusUrl": "https://chromestatus.com/feature/5090980649238528",
+        "specUrls": [
+          "https://w3c.github.io/mediasession/#dom-mediasessionaction-previousslide"
+        ]
+      },
+      {
         "id": 5639924124483584,
         "name": "Media Session",
         "statusUrl": "https://chromestatus.com/feature/5639924124483584",
