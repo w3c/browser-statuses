@@ -18,6 +18,22 @@
         ]
       },
       {
+        "id": 5668106045227008,
+        "name": "Special handling of localhost.localdomain host",
+        "statusUrl": "https://chromestatus.com/feature/5668106045227008",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-secure-contexts/#is-origin-trustworthy"
+        ]
+      },
+      {
+        "id": 5698580851458048,
+        "name": "Remove special handling of localhost6 and localhost6.localdomain6 hosts",
+        "statusUrl": "https://chromestatus.com/feature/5698580851458048",
+        "specUrls": [
+          "https://w3c.github.io/webappsec-secure-contexts/#is-origin-trustworthy"
+        ]
+      },
+      {
         "id": 5703419427815424,
         "name": "Remove getUserMedia() from Insecure Contexts",
         "statusUrl": "https://chromestatus.com/feature/5703419427815424",
